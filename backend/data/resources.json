@@ -1,0 +1,279 @@
+{
+  "Python": [
+    { "name": "Python for Everybody Specialization", "platform": "Coursera", "type": "course", "level": "beginner", "free": false, "url": "https://coursera.org" },
+    { "name": "Official Python Tutorial", "platform": "python.org", "type": "documentation", "level": "beginner", "free": true, "url": "https://docs.python.org/3/tutorial" },
+    { "name": "Automate the Boring Stuff with Python", "platform": "automatetheboringstuff.com", "type": "book", "level": "beginner", "free": true, "url": "https://automatetheboringstuff.com" },
+    { "name": "Python Bootcamp (Zero to Hero)", "platform": "Udemy", "type": "course", "level": "beginner", "free": false, "url": "https://udemy.com" }
+  ],
+  "JavaScript": [
+    { "name": "JavaScript - The Complete Guide", "platform": "Udemy", "type": "course", "level": "beginner", "free": false, "url": "https://udemy.com" },
+    { "name": "JavaScript MDN Web Docs", "platform": "MDN", "type": "documentation", "level": "beginner", "free": true, "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+    { "name": "freeCodeCamp JavaScript Curriculum", "platform": "freeCodeCamp", "type": "course", "level": "beginner", "free": true, "url": "https://freecodecamp.org" },
+    { "name": "Eloquent JavaScript", "platform": "eloquentjavascript.net", "type": "book", "level": "intermediate", "free": true, "url": "https://eloquentjavascript.net" }
+  ],
+  "React": [
+    { "name": "Official React Documentation & Tutorial", "platform": "react.dev", "type": "documentation", "level": "beginner", "free": true, "url": "https://react.dev" },
+    { "name": "React - The Complete Guide", "platform": "Udemy", "type": "course", "level": "beginner", "free": false, "url": "https://udemy.com" },
+    { "name": "Full Stack Open (React + Node)", "platform": "University of Helsinki", "type": "course", "level": "intermediate", "free": true, "url": "https://fullstackopen.com" }
+  ],
+  "React Native": [
+    { "name": "Official React Native Documentation", "platform": "reactnative.dev", "type": "documentation", "level": "beginner", "free": true, "url": "https://reactnative.dev" },
+    { "name": "Expo Documentation & Tutorials", "platform": "expo.dev", "type": "documentation", "level": "beginner", "free": true, "url": "https://docs.expo.dev" },
+    { "name": "React Native - The Practical Guide", "platform": "Udemy", "type": "course", "level": "beginner", "free": false, "url": "https://udemy.com" }
+  ],
+  "Machine Learning": [
+    { "name": "Machine Learning Specialization (Andrew Ng)", "platform": "Coursera", "type": "course", "level": "beginner", "free": false, "url": "https://coursera.org" },
+    { "name": "Hands-On Machine Learning (Géron)", "platform": "O'Reilly / Amazon", "type": "book", "level": "intermediate", "free": false, "url": "https://amazon.com" },
+    { "name": "fast.ai Practical Deep Learning", "platform": "fast.ai", "type": "course", "level": "intermediate", "free": true, "url": "https://fast.ai" },
+    { "name": "Kaggle Learn - Machine Learning", "platform": "Kaggle", "type": "course", "level": "beginner", "free": true, "url": "https://kaggle.com/learn" }
+  ],
+  "Deep Learning": [
+    { "name": "Deep Learning Specialization (Andrew Ng)", "platform": "Coursera", "type": "course", "level": "intermediate", "free": false, "url": "https://coursera.org" },
+    { "name": "fast.ai Practical Deep Learning for Coders", "platform": "fast.ai", "type": "course", "level": "intermediate", "free": true, "url": "https://fast.ai" },
+    { "name": "Deep Learning with Python (Chollet)", "platform": "Manning / Amazon", "type": "book", "level": "intermediate", "free": false, "url": "https://amazon.com" }
+  ],
+  "SQL": [
+    { "name": "SQL for Data Science", "platform": "Coursera", "type": "course", "level": "beginner", "free": false, "url": "https://coursera.org" },
+    { "name": "SQLZoo", "platform": "sqlzoo.net", "type": "interactive", "level": "beginner", "free": true, "url": "https://sqlzoo.net" },
+    { "name": "Mode SQL Tutorial", "platform": "mode.com", "type": "tutorial", "level": "beginner", "free": true, "url": "https://mode.com/sql-tutorial" },
+    { "name": "Kaggle Learn - SQL", "platform": "Kaggle", "type": "course", "level": "beginner", "free": true, "url": "https://kaggle.com/learn" }
+  ],
+  "Data Visualization": [
+    { "name": "Data Visualization with Python", "platform": "Coursera / IBM", "type": "course", "level": "beginner", "free": false, "url": "https://coursera.org" },
+    { "name": "Tableau Public Free Training", "platform": "Tableau", "type": "course", "level": "beginner", "free": true, "url": "https://public.tableau.com" },
+    { "name": "Microsoft Power BI Learning", "platform": "Microsoft Learn", "type": "course", "level": "beginner", "free": true, "url": "https://learn.microsoft.com" }
+  ],
+  "Statistics": [
+    { "name": "Statistics with Python Specialization", "platform": "Coursera / UMich", "type": "course", "level": "intermediate", "free": false, "url": "https://coursera.org" },
+    { "name": "Khan Academy Statistics", "platform": "Khan Academy", "type": "course", "level": "beginner", "free": true, "url": "https://khanacademy.org" },
+    { "name": "Think Stats (free book)", "platform": "greenteapress.com", "type": "book", "level": "beginner", "free": true, "url": "https://greenteapress.com/wp/think-stats-2e" }
+  ],
+  "Cloud Computing": [
+    { "name": "AWS Cloud Practitioner Essentials", "platform": "AWS Training", "type": "course", "level": "beginner", "free": true, "url": "https://aws.training" },
+    { "name": "Google Cloud Digital Leader", "platform": "Google Cloud", "type": "certification", "level": "beginner", "free": false, "url": "https://cloud.google.com/training" },
+    { "name": "Microsoft Azure Fundamentals (AZ-900)", "platform": "Microsoft Learn", "type": "certification", "level": "beginner", "free": true, "url": "https://learn.microsoft.com" },
+    { "name": "Cloud Computing Specialization", "platform": "Coursera / UIUC", "type": "course", "level": "intermediate", "free": false, "url": "https://coursera.org" }
+  ],
+  "Docker": [
+    { "name": "Docker Official Get Started Guide", "platform": "Docker", "type": "documentation", "level": "beginner", "free": true, "url": "https://docs.docker.com/get-started" },
+    { "name": "Docker & Kubernetes: The Complete Guide", "platform": "Udemy", "type": "course", "level": "intermediate", "free": false, "url": "https://udemy.com" },
+    { "name": "Play with Docker (interactive)", "platform": "labs.play-with-docker.com", "type": "interactive", "level": "beginner", "free": true, "url": "https://labs.play-with-docker.com" }
+  ],
+  "Kubernetes": [
+    { "name": "Kubernetes Official Tutorial", "platform": "kubernetes.io", "type": "documentation", "level": "intermediate", "free": true, "url": "https://kubernetes.io/docs/tutorials" },
+    { "name": "Certified Kubernetes Administrator (CKA)", "platform": "CNCF / Linux Foundation", "type": "certification", "level": "advanced", "free": false, "url": "https://cncf.io" },
+    { "name": "Docker & Kubernetes: The Complete Guide", "platform": "Udemy", "type": "course", "level": "intermediate", "free": false, "url": "https://udemy.com" }
+  ],
+  "Linux": [
+    { "name": "Linux Command Line Basics", "platform": "Udacity", "type": "course", "level": "beginner", "free": true, "url": "https://udacity.com" },
+    { "name": "The Linux Command Line (free book)", "platform": "linuxcommand.org", "type": "book", "level": "beginner", "free": true, "url": "https://linuxcommand.org/tlcl.php" },
+    { "name": "Linux Foundation Training", "platform": "Linux Foundation", "type": "course", "level": "intermediate", "free": false, "url": "https://training.linuxfoundation.org" }
+  ],
+  "Git": [
+    { "name": "Pro Git (free book)", "platform": "git-scm.com", "type": "book", "level": "beginner", "free": true, "url": "https://git-scm.com/book" },
+    { "name": "GitHub Skills (interactive)", "platform": "GitHub", "type": "interactive", "level": "beginner", "free": true, "url": "https://skills.github.com" },
+    { "name": "Learn Git Branching (visual)", "platform": "learngitbranching.js.org", "type": "interactive", "level": "beginner", "free": true, "url": "https://learngitbranching.js.org" }
+  ],
+  "CI/CD": [
+    { "name": "GitHub Actions Documentation", "platform": "GitHub", "type": "documentation", "level": "beginner", "free": true, "url": "https://docs.github.com/en/actions" },
+    { "name": "GitLab CI/CD Documentation", "platform": "GitLab", "type": "documentation", "level": "beginner", "free": true, "url": "https://docs.gitlab.com/ee/ci" },
+    { "name": "Jenkins Beginner Tutorial", "platform": "YouTube / TechWorld with Nana", "type": "video", "level": "beginner", "free": true, "url": "https://youtube.com" }
+  ],
+  "Figma": [
+    { "name": "Figma Official Learn Hub", "platform": "Figma", "type": "tutorial", "level": "beginner", "free": true, "url": "https://help.figma.com/hc/en-us/categories/360002042553-Figma-design" },
+    { "name": "UI Design Fundamentals with Figma", "platform": "Udemy", "type": "course", "level": "beginner", "free": false, "url": "https://udemy.com" },
+    { "name": "Figma Tutorial for Beginners", "platform": "YouTube", "type": "video", "level": "beginner", "free": true, "url": "https://youtube.com" }
+  ],
+  "Design Thinking": [
+    { "name": "Design Thinking Specialization", "platform": "Coursera / IDEO", "type": "course", "level": "beginner", "free": false, "url": "https://coursera.org" },
+    { "name": "IDEO Design Thinking Resources", "platform": "IDEO U", "type": "course", "level": "beginner", "free": false, "url": "https://ideou.com" },
+    { "name": "Stanford d.school K12 Lab Resources", "platform": "Stanford d.school", "type": "resource", "level": "beginner", "free": true, "url": "https://dschool.stanford.edu" }
+  ],
+  "User Research": [
+    { "name": "User Research – Methods and Best Practices", "platform": "Nielsen Norman Group", "type": "article", "level": "beginner", "free": true, "url": "https://nngroup.com" },
+    { "name": "UX Research Fundamentals", "platform": "Google / Coursera", "type": "course", "level": "beginner", "free": false, "url": "https://coursera.org" },
+    { "name": "Just Enough Research (Goodman)", "platform": "A Book Apart", "type": "book", "level": "beginner", "free": false, "url": "https://abookapart.com" }
+  ],
+  "HTML & CSS": [
+    { "name": "HTML & CSS - The Complete Reference", "platform": "MDN Web Docs", "type": "documentation", "level": "beginner", "free": true, "url": "https://developer.mozilla.org" },
+    { "name": "Responsive Web Design", "platform": "freeCodeCamp", "type": "course", "level": "beginner", "free": true, "url": "https://freecodecamp.org" },
+    { "name": "CSS-Tricks", "platform": "css-tricks.com", "type": "resource", "level": "beginner", "free": true, "url": "https://css-tricks.com" }
+  ],
+  "TypeScript": [
+    { "name": "TypeScript Official Handbook", "platform": "typescriptlang.org", "type": "documentation", "level": "beginner", "free": true, "url": "https://typescriptlang.org/docs/handbook" },
+    { "name": "Understanding TypeScript", "platform": "Udemy", "type": "course", "level": "intermediate", "free": false, "url": "https://udemy.com" }
+  ],
+  "Node.js": [
+    { "name": "Node.js Official Documentation", "platform": "nodejs.org", "type": "documentation", "level": "beginner", "free": true, "url": "https://nodejs.org/en/docs" },
+    { "name": "The Complete Node.js Developer Course", "platform": "Udemy", "type": "course", "level": "beginner", "free": false, "url": "https://udemy.com" },
+    { "name": "NodeSchool.io Interactive Tutorials", "platform": "NodeSchool", "type": "interactive", "level": "beginner", "free": true, "url": "https://nodeschool.io" }
+  ],
+  "Agile & Scrum": [
+    { "name": "Scrum Guide (free)", "platform": "scrumguides.org", "type": "guide", "level": "beginner", "free": true, "url": "https://scrumguides.org" },
+    { "name": "Professional Scrum Master (PSM I)", "platform": "Scrum.org", "type": "certification", "level": "intermediate", "free": false, "url": "https://scrum.org" },
+    { "name": "Agile Project Management Fundamentals", "platform": "Coursera / Google", "type": "course", "level": "beginner", "free": false, "url": "https://coursera.org" }
+  ],
+  "Communication": [
+    { "name": "Effective Communication Specialization", "platform": "Coursera", "type": "course", "level": "beginner", "free": false, "url": "https://coursera.org" },
+    { "name": "TED Talks - Public Speaking & Communication", "platform": "TED", "type": "video", "level": "beginner", "free": true, "url": "https://ted.com" },
+    { "name": "Crucial Conversations (book)", "platform": "Amazon", "type": "book", "level": "intermediate", "free": false, "url": "https://amazon.com" }
+  ],
+  "Leadership": [
+    { "name": "Leadership Specialization", "platform": "Coursera / Michigan", "type": "course", "level": "intermediate", "free": false, "url": "https://coursera.org" },
+    { "name": "The Manager's Path (book)", "platform": "O'Reilly", "type": "book", "level": "intermediate", "free": false, "url": "https://amazon.com" },
+    { "name": "HBR Leadership Articles", "platform": "Harvard Business Review", "type": "articles", "level": "intermediate", "free": false, "url": "https://hbr.org" }
+  ],
+  "Project Management": [
+    { "name": "Google Project Management Certificate", "platform": "Coursera / Google", "type": "certification", "level": "beginner", "free": false, "url": "https://coursera.org" },
+    { "name": "PMP Certification (PMI)", "platform": "PMI", "type": "certification", "level": "advanced", "free": false, "url": "https://pmi.org" },
+    { "name": "PRINCE2 Foundation", "platform": "AXELOS", "type": "certification", "level": "intermediate", "free": false, "url": "https://axelos.com" }
+  ],
+  "Digital Marketing": [
+    { "name": "Google Digital Marketing Certification", "platform": "Google Skillshop", "type": "certification", "level": "beginner", "free": true, "url": "https://skillshop.withgoogle.com" },
+    { "name": "HubSpot Marketing Certification", "platform": "HubSpot Academy", "type": "certification", "level": "beginner", "free": true, "url": "https://academy.hubspot.com" },
+    { "name": "Meta Blueprint Certification", "platform": "Meta Blueprint", "type": "certification", "level": "beginner", "free": true, "url": "https://www.facebook.com/business/learn" }
+  ],
+  "SEO": [
+    { "name": "Google Search Central Documentation", "platform": "Google", "type": "documentation", "level": "beginner", "free": true, "url": "https://developers.google.com/search/docs" },
+    { "name": "Moz Beginner's Guide to SEO", "platform": "Moz", "type": "guide", "level": "beginner", "free": true, "url": "https://moz.com/beginners-guide-to-seo" },
+    { "name": "SEMrush Academy SEO Fundamentals", "platform": "SEMrush", "type": "course", "level": "beginner", "free": true, "url": "https://semrush.com/academy" }
+  ],
+  "Excel": [
+    { "name": "Excel Skills for Business Specialization", "platform": "Coursera / Macquarie", "type": "course", "level": "beginner", "free": false, "url": "https://coursera.org" },
+    { "name": "ExcelJet Formulas & Functions", "platform": "exceljet.net", "type": "resource", "level": "beginner", "free": true, "url": "https://exceljet.net" },
+    { "name": "Microsoft Excel Training", "platform": "Microsoft Learn", "type": "course", "level": "beginner", "free": true, "url": "https://support.microsoft.com/en-us/excel" }
+  ],
+  "Financial Modeling": [
+    { "name": "Financial Modeling & Valuation Analyst (FMVA)", "platform": "CFI", "type": "certification", "level": "intermediate", "free": false, "url": "https://corporatefinanceinstitute.com" },
+    { "name": "Excel for Finance (free modules)", "platform": "CFI", "type": "course", "level": "beginner", "free": true, "url": "https://corporatefinanceinstitute.com" },
+    { "name": "Wall Street Prep Financial Modeling", "platform": "Wall Street Prep", "type": "course", "level": "advanced", "free": false, "url": "https://wallstreetprep.com" }
+  ],
+  "Accounting": [
+    { "name": "Accounting Fundamentals", "platform": "AICPA / Coursera", "type": "course", "level": "beginner", "free": false, "url": "https://coursera.org" },
+    { "name": "Khan Academy Accounting & Finance", "platform": "Khan Academy", "type": "course", "level": "beginner", "free": true, "url": "https://khanacademy.org" },
+    { "name": "CPA Exam Prep", "platform": "Becker / Wiley CPAexcel", "type": "certification", "level": "advanced", "free": false, "url": "https://becker.com" }
+  ],
+  "Adobe Photoshop": [
+    { "name": "Adobe Photoshop Official Tutorials", "platform": "Adobe", "type": "tutorial", "level": "beginner", "free": true, "url": "https://helpx.adobe.com/photoshop/tutorials.html" },
+    { "name": "Photoshop for Beginners", "platform": "Udemy", "type": "course", "level": "beginner", "free": false, "url": "https://udemy.com" }
+  ],
+  "Adobe Illustrator": [
+    { "name": "Adobe Illustrator Official Tutorials", "platform": "Adobe", "type": "tutorial", "level": "beginner", "free": true, "url": "https://helpx.adobe.com/illustrator/tutorials.html" },
+    { "name": "Graphic Design Masterclass (Illustrator)", "platform": "Udemy", "type": "course", "level": "beginner", "free": false, "url": "https://udemy.com" }
+  ],
+  "Video Editing": [
+    { "name": "Adobe Premiere Pro Official Tutorials", "platform": "Adobe", "type": "tutorial", "level": "beginner", "free": true, "url": "https://helpx.adobe.com/premiere-pro/tutorials.html" },
+    { "name": "DaVinci Resolve (free professional tool)", "platform": "Blackmagic Design", "type": "software", "level": "beginner", "free": true, "url": "https://blackmagicdesign.com/products/davinciresolve" }
+  ],
+  "Tableau or Power BI": [
+    { "name": "Tableau Free Training Videos", "platform": "Tableau", "type": "course", "level": "beginner", "free": true, "url": "https://www.tableau.com/learn/training" },
+    { "name": "Power BI Guided Learning", "platform": "Microsoft Learn", "type": "course", "level": "beginner", "free": true, "url": "https://learn.microsoft.com/en-us/power-bi" },
+    { "name": "Data Visualization with Tableau", "platform": "Coursera / UC Davis", "type": "course", "level": "intermediate", "free": false, "url": "https://coursera.org" }
+  ],
+  "Data Structures & Algorithms": [
+    { "name": "Algorithms Part I & II (Sedgewick)", "platform": "Coursera / Princeton", "type": "course", "level": "intermediate", "free": false, "url": "https://coursera.org" },
+    { "name": "LeetCode Practice Problems", "platform": "LeetCode", "type": "interactive", "level": "intermediate", "free": true, "url": "https://leetcode.com" },
+    { "name": "CS50x Introduction to Computer Science", "platform": "edX / Harvard", "type": "course", "level": "beginner", "free": true, "url": "https://cs50.harvard.edu" }
+  ],
+  "System Design": [
+    { "name": "System Design Primer (GitHub)", "platform": "GitHub", "type": "guide", "level": "advanced", "free": true, "url": "https://github.com/donnemartin/system-design-primer" },
+    { "name": "Designing Data-Intensive Applications (book)", "platform": "O'Reilly", "type": "book", "level": "advanced", "free": false, "url": "https://amazon.com" },
+    { "name": "Grokking the System Design Interview", "platform": "Educative.io", "type": "course", "level": "advanced", "free": false, "url": "https://educative.io" }
+  ],
+  "Security": [
+    { "name": "CompTIA Security+ Certification", "platform": "CompTIA", "type": "certification", "level": "intermediate", "free": false, "url": "https://comptia.org" },
+    { "name": "OWASP Top 10 Guide (free)", "platform": "OWASP", "type": "guide", "level": "beginner", "free": true, "url": "https://owasp.org/www-project-top-ten" },
+    { "name": "Cybersecurity Specialization", "platform": "Coursera / Maryland", "type": "course", "level": "beginner", "free": false, "url": "https://coursera.org" }
+  ],
+  "Ethical Hacking": [
+    { "name": "Certified Ethical Hacker (CEH)", "platform": "EC-Council", "type": "certification", "level": "advanced", "free": false, "url": "https://eccouncil.org" },
+    { "name": "Penetration Testing with Kali Linux", "platform": "Offensive Security", "type": "course", "level": "advanced", "free": false, "url": "https://offsec.com" },
+    { "name": "TryHackMe (beginner-friendly labs)", "platform": "TryHackMe", "type": "interactive", "level": "beginner", "free": true, "url": "https://tryhackme.com" }
+  ],
+  "Networking": [
+    { "name": "CompTIA Network+ Certification", "platform": "CompTIA", "type": "certification", "level": "intermediate", "free": false, "url": "https://comptia.org" },
+    { "name": "Cisco Networking Academy (free)", "platform": "Cisco NetAcad", "type": "course", "level": "beginner", "free": true, "url": "https://netacad.com" }
+  ],
+  "Terraform": [
+    { "name": "HashiCorp Terraform Tutorials", "platform": "HashiCorp", "type": "tutorial", "level": "beginner", "free": true, "url": "https://developer.hashicorp.com/terraform/tutorials" },
+    { "name": "Terraform on AWS (Udemy)", "platform": "Udemy", "type": "course", "level": "intermediate", "free": false, "url": "https://udemy.com" }
+  ],
+  "TensorFlow or PyTorch": [
+    { "name": "TensorFlow Official Tutorials", "platform": "TensorFlow", "type": "tutorial", "level": "intermediate", "free": true, "url": "https://tensorflow.org/tutorials" },
+    { "name": "PyTorch Official Tutorials", "platform": "PyTorch", "type": "tutorial", "level": "intermediate", "free": true, "url": "https://pytorch.org/tutorials" },
+    { "name": "Deep Learning with PyTorch", "platform": "fast.ai", "type": "course", "level": "intermediate", "free": true, "url": "https://fast.ai" }
+  ],
+  "MLOps": [
+    { "name": "MLOps Specialization (Andrew Ng)", "platform": "Coursera / DeepLearning.AI", "type": "course", "level": "advanced", "free": false, "url": "https://coursera.org" },
+    { "name": "Made With ML MLOps Guide", "platform": "madewithml.com", "type": "guide", "level": "intermediate", "free": true, "url": "https://madewithml.com" }
+  ],
+  "Data Pipelines (ETL)": [
+    { "name": "Data Engineering on Google Cloud", "platform": "Coursera / Google", "type": "course", "level": "intermediate", "free": false, "url": "https://coursera.org" },
+    { "name": "Apache Airflow Documentation", "platform": "Apache", "type": "documentation", "level": "intermediate", "free": true, "url": "https://airflow.apache.org" }
+  ],
+  "Writing": [
+    { "name": "Writing in the Sciences (Coursera)", "platform": "Coursera / Stanford", "type": "course", "level": "intermediate", "free": false, "url": "https://coursera.org" },
+    { "name": "The Elements of Style (Strunk & White)", "platform": "Amazon", "type": "book", "level": "beginner", "free": false, "url": "https://amazon.com" },
+    { "name": "Grammarly (writing assistant)", "platform": "grammarly.com", "type": "tool", "level": "beginner", "free": true, "url": "https://grammarly.com" }
+  ],
+  "Recruitment": [
+    { "name": "SHRM HR Certification", "platform": "SHRM", "type": "certification", "level": "intermediate", "free": false, "url": "https://shrm.org" },
+    { "name": "Talent Acquisition Fundamentals", "platform": "LinkedIn Learning", "type": "course", "level": "beginner", "free": false, "url": "https://linkedin.com/learning" }
+  ],
+  "Curriculum Design": [
+    { "name": "Instructional Design Foundations", "platform": "Coursera", "type": "course", "level": "beginner", "free": false, "url": "https://coursera.org" },
+    { "name": "Bloom's Taxonomy Guide", "platform": "Vanderbilt CFT", "type": "guide", "level": "beginner", "free": true, "url": "https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy" }
+  ],
+  "LMS (Learning Management Systems)": [
+    { "name": "Moodle Free LMS", "platform": "Moodle", "type": "tool", "level": "beginner", "free": true, "url": "https://moodle.org" },
+    { "name": "Canvas LMS Instructor Guide", "platform": "Instructure", "type": "documentation", "level": "beginner", "free": true, "url": "https://canvas.instructure.com" }
+  ],
+  "Mathematics": [
+    { "name": "Khan Academy Mathematics", "platform": "Khan Academy", "type": "course", "level": "beginner", "free": true, "url": "https://khanacademy.org" },
+    { "name": "3Blue1Brown Math Essence (YouTube)", "platform": "YouTube / 3Blue1Brown", "type": "video", "level": "beginner", "free": true, "url": "https://youtube.com/@3blue1brown" },
+    { "name": "MIT OpenCourseWare Mathematics", "platform": "MIT OCW", "type": "course", "level": "advanced", "free": true, "url": "https://ocw.mit.edu" }
+  ],
+  "Photography": [
+    { "name": "Photography Fundamentals", "platform": "Udemy", "type": "course", "level": "beginner", "free": false, "url": "https://udemy.com" },
+    { "name": "Cambridge in Colour Tutorials", "platform": "cambridgeincolour.com", "type": "tutorial", "level": "beginner", "free": true, "url": "https://cambridgeincolour.com/tutorials" }
+  ],
+  "Presentation Skills": [
+    { "name": "Dynamic Public Speaking (Coursera)", "platform": "Coursera / Washington", "type": "course", "level": "beginner", "free": false, "url": "https://coursera.org" },
+    { "name": "TED Masterclass on Public Speaking", "platform": "TED", "type": "course", "level": "intermediate", "free": false, "url": "https://masterclass.com" }
+  ],
+  "Content Creation": [
+    { "name": "Content Marketing Certification", "platform": "HubSpot Academy", "type": "certification", "level": "beginner", "free": true, "url": "https://academy.hubspot.com" },
+    { "name": "Creator Academy by YouTube", "platform": "YouTube", "type": "course", "level": "beginner", "free": true, "url": "https://creatoracademy.youtube.com" }
+  ],
+  "Game Design": [
+    { "name": "Game Design Fundamentals", "platform": "Coursera / CalArts", "type": "course", "level": "beginner", "free": false, "url": "https://coursera.org" },
+    { "name": "Unity Learn (official tutorials)", "platform": "Unity", "type": "tutorial", "level": "beginner", "free": true, "url": "https://learn.unity.com" },
+    { "name": "Unreal Online Learning", "platform": "Unreal Engine", "type": "course", "level": "beginner", "free": true, "url": "https://dev.epicgames.com/community/learning" }
+  ],
+  "C++ or C#": [
+    { "name": "C++ Crash Course (book)", "platform": "Amazon / No Starch Press", "type": "book", "level": "beginner", "free": false, "url": "https://amazon.com" },
+    { "name": "Microsoft C# Documentation", "platform": "Microsoft Learn", "type": "documentation", "level": "beginner", "free": true, "url": "https://learn.microsoft.com/en-us/dotnet/csharp" },
+    { "name": "Learn C++ (free)", "platform": "learncpp.com", "type": "tutorial", "level": "beginner", "free": true, "url": "https://learncpp.com" }
+  ],
+  "Unity or Unreal Engine": [
+    { "name": "Unity Learn Platform", "platform": "Unity", "type": "tutorial", "level": "beginner", "free": true, "url": "https://learn.unity.com" },
+    { "name": "Unreal Engine Online Learning", "platform": "Unreal Engine", "type": "tutorial", "level": "beginner", "free": true, "url": "https://dev.epicgames.com/community/learning" }
+  ],
+  "Swift or Kotlin": [
+    { "name": "Swift Playgrounds (Apple)", "platform": "Apple", "type": "interactive", "level": "beginner", "free": true, "url": "https://developer.apple.com/swift-playgrounds" },
+    { "name": "Android Developer Training (Kotlin)", "platform": "Google / developer.android.com", "type": "course", "level": "beginner", "free": true, "url": "https://developer.android.com/courses" }
+  ],
+  "Product Strategy": [
+    { "name": "Product Management Fundamentals", "platform": "Coursera / Alberta", "type": "course", "level": "beginner", "free": false, "url": "https://coursera.org" },
+    { "name": "Inspired: How to Create Tech Products (book)", "platform": "Amazon", "type": "book", "level": "intermediate", "free": false, "url": "https://amazon.com" },
+    { "name": "Reforge Product Strategy Program", "platform": "Reforge", "type": "course", "level": "advanced", "free": false, "url": "https://reforge.com" }
+  ],
+  "Google Analytics": [
+    { "name": "Google Analytics Certification (GA4)", "platform": "Google Skillshop", "type": "certification", "level": "beginner", "free": true, "url": "https://skillshop.withgoogle.com" },
+    { "name": "Google Analytics Academy", "platform": "Google", "type": "course", "level": "beginner", "free": true, "url": "https://analytics.google.com/analytics/academy" }
+  ],
+  "Process Improvement": [
+    { "name": "Lean Six Sigma Green Belt", "platform": "ASQ / Coursera", "type": "certification", "level": "intermediate", "free": false, "url": "https://asq.org" },
+    { "name": "Lean Management Principles", "platform": "edX / MIT", "type": "course", "level": "intermediate", "free": false, "url": "https://edx.org" }
+  ]
+}

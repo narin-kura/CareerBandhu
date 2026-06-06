@@ -1,0 +1,160 @@
+{
+  "categories": {
+    "Programming Languages": [
+      "Python", "JavaScript", "TypeScript", "Java", "C++", "C#", "Go", "Rust",
+      "Ruby", "PHP", "Swift", "Kotlin", "R", "MATLAB", "Scala", "Dart"
+    ],
+    "Web Technologies": [
+      "HTML & CSS", "React", "Angular", "Vue.js", "Node.js", "Next.js",
+      "Django", "FastAPI", "Flask", "Spring Boot", "REST APIs", "GraphQL",
+      "WebSockets", "TypeScript"
+    ],
+    "Mobile Development": [
+      "React Native", "Flutter", "Swift", "Kotlin", "Dart",
+      "iOS Development", "Android Development", "App Store Deployment",
+      "Expo", "Mobile UI Design"
+    ],
+    "Data & Analytics": [
+      "SQL", "Data Analysis", "Data Visualization", "Statistics", "Excel",
+      "Pandas", "NumPy", "Tableau or Power BI", "Google Analytics",
+      "Data Modeling", "Data Pipelines (ETL)", "Data Warehousing",
+      "Apache Spark", "Airflow", "Kafka", "Forecasting", "A/B Testing"
+    ],
+    "AI & Machine Learning": [
+      "Machine Learning", "Deep Learning", "TensorFlow or PyTorch",
+      "Natural Language Processing", "Computer Vision", "MLOps",
+      "Data Science", "Reinforcement Learning", "Prompt Engineering",
+      "LLM Fine-tuning", "Mathematics"
+    ],
+    "Cloud & DevOps": [
+      "Cloud Computing", "AWS", "Google Cloud", "Azure", "Docker",
+      "Kubernetes", "Terraform", "CI/CD", "Linux", "Networking",
+      "Monitoring & Alerting", "Security", "MLOps", "Scripting (Bash or Python)"
+    ],
+    "Databases": [
+      "SQL", "PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch",
+      "DynamoDB", "Oracle", "Firebase", "Data Warehousing"
+    ],
+    "Design & Creative": [
+      "Figma", "Adobe Photoshop", "Adobe Illustrator", "Adobe XD",
+      "Typography", "Color Theory", "Branding", "User Research",
+      "Design Thinking", "Wireframing", "Prototyping", "Layout Design",
+      "Motion Graphics", "UI/UX Design Principles", "Accessibility Standards",
+      "Adobe Premiere Pro", "After Effects", "Video Editing", "Color Grading",
+      "Audio Editing", "Photography", "3D Modeling", "Animation"
+    ],
+    "Business & Management": [
+      "Communication", "Leadership", "Project Management", "Agile & Scrum",
+      "Stakeholder Management", "Risk Management", "Budgeting",
+      "Process Improvement", "Strategic Planning", "Product Strategy",
+      "Requirements Gathering", "Documentation", "Roadmapping",
+      "Business Acumen", "Negotiation", "Decision Making", "Problem Solving",
+      "Critical Thinking", "Attention to Detail", "Time Management",
+      "Presentation Skills", "Facilitation", "PMP Certification"
+    ],
+    "Sales & Marketing": [
+      "Digital Marketing", "SEO", "Social Media Marketing", "Content Creation",
+      "Email Marketing", "Paid Advertising (Google/Meta)", "Copywriting",
+      "Content Strategy", "Marketing Automation", "Sales", "CRM Systems",
+      "Customer Success", "Brand Management", "Market Research",
+      "Google Analytics", "Product Knowledge"
+    ],
+    "Finance & Accounting": [
+      "Accounting", "Financial Modeling", "Excel", "Financial Reporting",
+      "Tax Knowledge", "Auditing", "Budgeting", "Investment Analysis",
+      "Risk Management", "CFA Certification", "Bloomberg Terminal",
+      "ERP Systems (SAP/QuickBooks)", "Forecasting"
+    ],
+    "Human Resources": [
+      "Recruitment", "Employment Law", "Employee Relations",
+      "Performance Management", "Training & Development",
+      "HRIS Systems", "Onboarding", "Compensation & Benefits",
+      "Workforce Planning", "Compliance (GDPR, HIPAA)"
+    ],
+    "Education & Training": [
+      "Curriculum Design", "Classroom Management", "Assessment Design",
+      "Differentiated Instruction", "Ed-Tech Tools", "Facilitation",
+      "LMS (Learning Management Systems)", "Articulate Storyline or Rise",
+      "Training & Development", "Coaching", "Mentoring",
+      "Subject Matter Expertise", "Patience"
+    ],
+    "Healthcare": [
+      "Healthcare Regulations", "Clinical Knowledge", "Patient Care",
+      "HIPAA Compliance", "Medical Terminology", "EHR Systems",
+      "Research Methods", "Compliance (HIPAA)", "GCP (Good Clinical Practice)"
+    ],
+    "General & Soft Skills": [
+      "Communication", "Teamwork", "Adaptability", "Creativity",
+      "Leadership", "Problem Solving", "Critical Thinking",
+      "Time Management", "Attention to Detail", "Research",
+      "Writing", "Presentation Skills", "Customer Service",
+      "Emotional Intelligence", "Networking", "Work Ethic"
+    ]
+  },
+  "all_skills": [
+    "A/B Testing", "Accessibility Standards", "Accounting", "Adobe Illustrator",
+    "Adobe Photoshop", "Adobe Premiere Pro", "Adobe XD", "After Effects",
+    "Agile & Scrum", "Airflow", "Angular", "Animation", "Apache Spark",
+    "App Store Deployment", "Articulate Storyline or Rise", "Assessment Design",
+    "Attention to Detail", "Audio Editing", "Auditing",
+    "Bloomberg Terminal", "Brand Management", "Branding", "Budgeting",
+    "Business Acumen", "C# ", "C++", "CFA Certification",
+    "CI/CD", "CRM Systems", "Classroom Management", "Clinical Knowledge",
+    "Cloud Computing", "Coaching", "Color Grading", "Color Theory",
+    "Communication", "Compensation & Benefits", "Compliance (GDPR, HIPAA)",
+    "Compliance (HIPAA)", "Computer Vision", "Content Creation",
+    "Content Strategy", "Copywriting", "Critical Thinking", "CRM Systems",
+    "Curriculum Design", "Customer Service", "Customer Success",
+    "Dart", "Data Analysis", "Data Modeling", "Data Pipelines (ETL)",
+    "Data Science", "Data Visualization", "Data Warehousing", "Decision Making",
+    "Deep Learning", "Design Thinking", "Differentiated Instruction",
+    "Digital Marketing", "Django", "Docker", "Documentation",
+    "DynamoDB", "Ed-Tech Tools", "EHR Systems", "Elasticsearch",
+    "Email Marketing", "Emotional Intelligence", "Employee Relations",
+    "Employment Law", "ERP Systems (SAP/QuickBooks)", "Excel",
+    "Expo", "Facilitation", "FastAPI", "Financial Modeling",
+    "Financial Reporting", "Firebase", "Flask", "Forecasting",
+    "Figma", "GCP (Good Clinical Practice)", "Game Design", "Git",
+    "Go", "Google Analytics", "Google Cloud", "GraphQL",
+    "HTML & CSS", "HIPAA Compliance", "HRIS Systems", "Healthcare Regulations",
+    "iOS Development", "Incident Response", "Investment Analysis",
+    "Java", "JavaScript", "Kafka",
+    "Kotlin", "Kubernetes", "Layout Design", "Leadership",
+    "Lean / Six Sigma", "Linux", "LLM Fine-tuning",
+    "LMS (Learning Management Systems)", "Logistics", "MATLAB",
+    "Machine Learning", "Market Research", "Marketing Automation",
+    "Mathematics", "Medical Terminology", "Mentoring", "Mobile UI Design",
+    "MongoDB", "Monitoring & Alerting", "Motion Graphics", "MLOps",
+    "MySQL", "Natural Language Processing", "Negotiation",
+    "Networking", "Next.js", "Node.js",
+    "NumPy", "On-call Support", "Onboarding",
+    "Oracle", "PHP", "PMP Certification", "AWS",
+    "Paid Advertising (Google/Meta)", "Pandas", "Patient Care",
+    "Performance Management", "Photography", "Physics Simulation",
+    "PostgreSQL", "Presentation Skills", "Problem Solving",
+    "Process Improvement", "Product Knowledge", "Product Strategy",
+    "Prompt Engineering", "Prototyping", "Python",
+    "R", "REST APIs", "React", "React Native",
+    "Redis", "Recruitment", "Reinforcement Learning",
+    "Research", "Research Methods", "Risk Management",
+    "Roadmapping", "Ruby", "Rust", "Scala",
+    "SQL", "Sales", "Scripting (Bash or Python)", "Security",
+    "SEO", "Shader Programming", "Social Media Marketing",
+    "Spring Boot", "Stakeholder Management", "Statistics",
+    "Strategic Planning", "Subject Matter Expertise", "Swift",
+    "Tableau or Power BI", "Tax Knowledge", "Teamwork",
+    "TensorFlow or PyTorch", "Terraform", "Testing",
+    "Time Management", "Training & Development", "Typography",
+    "TypeScript", "UI/UX Design Principles", "Unity or Unreal Engine",
+    "User Research", "Video Editing", "Vue.js",
+    "WebSockets", "Wireframing", "Workforce Planning",
+    "Work Ethic", "Writing", "3D Modeling",
+    "Azure", "Dart", "Flutter", "Kotlin",
+    "Android Development", "Data Structures & Algorithms",
+    "System Design", "Cost Optimization", "Cloud Security",
+    "Ethical Hacking", "SIEM Tools", "Risk Assessment",
+    "Scriptwriting", "Storytelling", "Branding",
+    "Classroom Management", "Patience", "Facilitation",
+    "Curriculum Design", "Assessment Design", "Differentiated Instruction"
+  ]
+}
