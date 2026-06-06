@@ -130,6 +130,20 @@
     .collar-chip .cc { background: rgba(0,0,0,.18); border-radius: 999px; padding: 0 5px; font-size: .68rem; font-weight: 700; }
     .collar-chip.active .cc { background: rgba(255,255,255,.22); }
 
+    /* collar career list */
+    .collar-header { display: flex; align-items: center; gap: 14px; background: linear-gradient(135deg, #312E81, var(--nv) 60%, #6D28D9); border-radius: 16px; padding: 18px 20px; margin-bottom: 18px; color: #fff; }
+    .collar-hero-icon { font-size: 2.6rem; flex-shrink: 0; }
+    .collar-title { font-size: 1.15rem; font-weight: 800; font-family: 'Sora'; }
+    .collar-subtitle { font-size: .8rem; opacity: .85; margin-top: 4px; }
+    .collar-section { margin-bottom: 16px; }
+    .collar-cat-label { font-size: .68rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--mut-2); margin-bottom: 7px; padding-left: 2px; }
+    .collar-career-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .collar-career-card { background: var(--sur); border: 1.5px solid var(--line); border-radius: 12px; padding: 12px 14px; cursor: pointer; transition: border-color .15s, background .15s, transform .12s; }
+    .collar-career-card:hover { border-color: var(--nv); background: var(--nv-l); transform: translateY(-1px); }
+    .cc-title { font-size: .85rem; font-weight: 700; color: var(--ink); line-height: 1.3; }
+    .cc-outlook { font-size: .72rem; color: var(--mut); margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    @media (max-width: 500px) { .collar-career-grid { grid-template-columns: 1fr; } }
+
     /* combobox */
     .combo { position: relative; }
     .combo input { width: 100%; }
@@ -526,6 +540,48 @@ function setCollar(key) {
   activeCollar = key;
   renderCollarFilter();
   renderCareerDropdown(document.getElementById('career-search').value || '');
+  if (key === 'all') {
+    setResults(`<div class="empty"><div class="emo">🔍</div><h3>Explore any career</h3><p>Pick a collar type above, search, or choose from popular paths.</p></div>`);
+  } else {
+    showCollarCareers(key);
+  }
+}
+
+function showCollarCareers(collarKey) {
+  const meta = COLLAR_META.find(m => m.key === collarKey);
+  if (!meta) return;
+  const careers = allCareers.filter(c => c.collar === collarKey);
+  if (!careers.length) {
+    setResults(`<div class="empty"><div class="emo">${meta.icon}</div><h3>No ${meta.label}-collar careers in this region yet</h3></div>`);
+    return;
+  }
+  const byCat = {};
+  for (const c of careers) (byCat[c.category] = byCat[c.category] || []).push(c);
+  let html = `
+    <div class="collar-header">
+      <div class="collar-hero-icon">${meta.icon}</div>
+      <div>
+        <div class="collar-title">${meta.label}-collar careers</div>
+        <div class="collar-subtitle">${meta.tip} &nbsp;·&nbsp; ${careers.length} careers — tap any to explore</div>
+      </div>
+    </div>`;
+  for (const [cat, cs] of Object.entries(byCat)) {
+    html += `<div class="collar-section">
+      <div class="collar-cat-label">${CAT_ICONS[cat]||'📌'} ${cat}</div>
+      <div class="collar-career-grid">
+        ${cs.map(c=>`<div class="collar-career-card" onclick="selectAndExplore('${c.id}','${esc(c.title)}')">
+          <div class="cc-title">${c.title}</div>
+          <div class="cc-outlook">${c.growth_outlook||''}</div>
+        </div>`).join('')}
+      </div>
+    </div>`;
+  }
+  setResults(html);
+}
+
+async function selectAndExplore(id, title) {
+  selectCareer(id, title);
+  await exploreCareer();
 }
 
 function renderCareerDropdown(q) {
