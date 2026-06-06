@@ -122,13 +122,24 @@
     .cta:active { transform: translateY(0); }
     .cta:disabled { opacity: .55; cursor: not-allowed; transform: none; box-shadow: none; }
 
-    /* collar filter chips */
-    .collar-row { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 14px; }
-    .collar-chip { display: inline-flex; align-items: center; gap: 4px; padding: 4px 9px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--bg); color: var(--mut); font-size: .72rem; font-weight: 600; cursor: pointer; white-space: nowrap; font-family: inherit; transition: all .15s; }
-    .collar-chip:hover { border-color: var(--nv); color: var(--nv); background: var(--nv-l); }
-    .collar-chip.active { background: var(--nv); border-color: var(--nv); color: #fff; }
-    .collar-chip .cc { background: rgba(0,0,0,.18); border-radius: 999px; padding: 0 5px; font-size: .68rem; font-weight: 700; }
-    .collar-chip.active .cc { background: rgba(255,255,255,.22); }
+    /* collar selector grid */
+    .collar-label { font-size: .68rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--mut-2); margin-bottom: 9px; }
+    .collar-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px; margin-bottom: 4px; }
+    .collar-btn { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; padding: 9px 4px 8px; border-radius: 12px; border: 2px solid var(--line); background: var(--bg); cursor: pointer; font-family: inherit; transition: all .15s; min-width: 0; }
+    .collar-btn:hover { border-color: var(--c-clr, var(--nv)); background: var(--c-bg, var(--nv-l)); transform: translateY(-1px); }
+    .collar-btn.active { border-color: var(--c-clr, var(--nv)); background: var(--c-clr, var(--nv)); color: #fff; box-shadow: 0 3px 10px color-mix(in srgb, var(--c-clr, var(--nv)) 35%, transparent); }
+    .collar-btn .c-ico { font-size: 1.35rem; line-height: 1; }
+    .collar-btn .c-lbl { font-size: .65rem; font-weight: 700; color: var(--mut); text-align: center; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+    .collar-btn.active .c-lbl { color: rgba(255,255,255,.9); }
+    .collar-btn .c-cnt { font-size: .6rem; font-weight: 700; color: var(--mut-2); background: var(--line); border-radius: 999px; padding: 1px 5px; }
+    .collar-btn.active .c-cnt { background: rgba(255,255,255,.22); color: #fff; }
+    .collar-all { grid-column: 1 / -1; flex-direction: row; gap: 8px; padding: 8px 14px; }
+    .collar-all .c-lbl { font-size: .72rem; }
+
+    /* search section divider */
+    .or-divider { display: flex; align-items: center; gap: 10px; margin: 14px 0 12px; }
+    .or-divider span { font-size: .68rem; font-weight: 700; color: var(--mut-2); white-space: nowrap; text-transform: uppercase; letter-spacing: .05em; }
+    .or-divider::before, .or-divider::after { content:''; flex: 1; height: 1px; background: var(--line-2); }
 
     /* collar career list */
     .collar-header { display: flex; align-items: center; gap: 14px; background: linear-gradient(135deg, #312E81, var(--nv) 60%, #6D28D9); border-radius: 16px; padding: 18px 20px; margin-bottom: 18px; color: #fff; }
@@ -146,7 +157,9 @@
 
     /* combobox */
     .combo { position: relative; }
-    .combo input { width: 100%; }
+    .combo::before { content:'🔍'; position:absolute; left:11px; top:50%; transform:translateY(-50%); font-size:.85rem; pointer-events:none; z-index:1; }
+    .combo input { width: 100%; padding-left: 32px !important; border: 1.5px solid var(--line); border-radius: 10px; padding: 11px 13px; font-size: .9rem; font-family: inherit; color: var(--ink); background: var(--bg); outline: none; transition: border-color .15s, background .15s, box-shadow .15s; }
+    .combo input:focus { border-color: var(--nv); background: #fff; box-shadow: 0 0 0 3px var(--nv-l); }
     .dropdown { position: absolute; top: calc(100% + 6px); left: 0; right: 0; background: #fff; border: 1px solid var(--line); border-radius: 12px; max-height: 320px; overflow-y: auto; z-index: 30; box-shadow: var(--sh-lg); display: none; }
     .dropdown.open { display: block; }
     .dd-cat { font-size: .66rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--mut-2); padding: 10px 14px 4px; position: sticky; top: 0; background: #fff; }
@@ -340,17 +353,23 @@
         <p>See the exact skills any career requires</p>
       </div>
       <div class="panel-body">
-        <div class="collar-row" id="collar-filter"></div>
+        <div class="collar-label">Select work type</div>
+        <div class="collar-grid" id="collar-filter"></div>
+
+        <div class="or-divider"><span>or search by title</span></div>
+
         <div class="combo">
-          <input id="career-search" type="text" placeholder="Search: Chef, Nurse, IAS, Electrician…" oninput="filterCareers()" onfocus="openDrop()" autocomplete="off" />
+          <input id="career-search" type="text" placeholder="Chef, Nurse, IAS, Electrician…" oninput="filterCareers()" onfocus="openDrop()" autocomplete="off" />
           <div class="dropdown" id="dropdown"></div>
         </div>
+
         <div class="selected-box" id="selected-box" style="display:none">
           <div class="k">Selected career</div>
           <div class="v" id="selected-name">—</div>
         </div>
+
         <div class="sep"></div>
-        <div class="sug-label">Or explore a popular path</div>
+        <div class="sug-label">Popular paths</div>
         <div class="sugs" id="career-sugs"></div>
         <button class="cta career" id="career-btn" onclick="exploreCareer()">Show skills needed</button>
       </div>
@@ -395,17 +414,17 @@ let currentCareerData = null;
 let activeCollar = 'all';
 
 const COLLAR_META = [
-  { key:'white', icon:'⚪', label:'White' , tip:'Office & knowledge work' },
-  { key:'blue',  icon:'🔵', label:'Blue'  , tip:'Physical & skilled trades' },
-  { key:'pink',  icon:'🩷', label:'Pink'  , tip:'Service & care roles' },
-  { key:'gray',  icon:'🔘', label:'Gray'  , tip:'Technical blend' },
-  { key:'gold',  icon:'🟡', label:'Gold'  , tip:'Elite & highly specialised' },
-  { key:'new',   icon:'🆕', label:'New'   , tip:'Skills-based tech' },
-  { key:'green', icon:'🟢', label:'Green' , tip:'Environment & nature' },
-  { key:'red',   icon:'🔴', label:'Red'   , tip:'Government & public sector' },
-  { key:'brown', icon:'🟤', label:'Brown' , tip:'Agriculture & military' },
-  { key:'no',    icon:'🎨', label:'No'    , tip:'Passion & arts' },
-  { key:'open',  icon:'💻', label:'Open'  , tip:'Remote & freelance' },
+  { key:'white', icon:'⚪', label:'White-collar' , tip:'Office & knowledge work',      clr:'#475569', bg:'#f1f5f9' },
+  { key:'blue',  icon:'🔵', label:'Blue-collar'  , tip:'Physical & skilled trades',    clr:'#1d4ed8', bg:'#eff6ff' },
+  { key:'pink',  icon:'🩷', label:'Pink-collar'  , tip:'Service & care roles',         clr:'#db2777', bg:'#fdf2f8' },
+  { key:'gray',  icon:'🔘', label:'Gray-collar'  , tip:'Technical blend',              clr:'#4b5563', bg:'#f9fafb' },
+  { key:'gold',  icon:'🟡', label:'Gold-collar'  , tip:'Elite & highly specialised',   clr:'#b45309', bg:'#fffbeb' },
+  { key:'new',   icon:'🆕', label:'New-collar'   , tip:'Skills-based tech',            clr:'#6d28d9', bg:'#f5f3ff' },
+  { key:'green', icon:'🟢', label:'Green-collar' , tip:'Environment & nature',         clr:'#15803d', bg:'#f0fdf4' },
+  { key:'red',   icon:'🔴', label:'Red-collar'   , tip:'Government & public sector',   clr:'#b91c1c', bg:'#fef2f2' },
+  { key:'brown', icon:'🟤', label:'Brown-collar' , tip:'Agriculture & military',       clr:'#92400e', bg:'#fefce8' },
+  { key:'no',    icon:'🎨', label:'No-collar'    , tip:'Passion & arts',               clr:'#c2410c', bg:'#fff7ed' },
+  { key:'open',  icon:'💻', label:'Open-collar'  , tip:'Remote & freelance',           clr:'#0e7490', bg:'#ecfeff' },
 ];
 
 const POPULAR_SKILLS = {
@@ -524,14 +543,28 @@ function renderCareerSugs() {
   }).filter(Boolean).join('');
 }
 function renderCollarFilter() {
-  const regional = allCareers.filter(c => c.region === region);
+  const regional = allCareers;
   const counts = {};
   for (const c of regional) counts[c.collar] = (counts[c.collar]||0) + 1;
   const total = regional.length;
-  let html = `<button class="collar-chip${activeCollar==='all'?' active':''}" data-collar="all" onclick="setCollar('all')" title="All careers">🌐 All <span class="cc">${total}</span></button>`;
+  const isAll = activeCollar === 'all';
+
+  let html = `<button class="collar-btn collar-all${isAll?' active':''}" data-collar="all"
+    style="--c-clr:#4338ca;--c-bg:#eef2ff" onclick="setCollar('all')">
+    <span class="c-ico">🌐</span>
+    <span class="c-lbl">All careers</span>
+    <span class="c-cnt">${total}</span>
+  </button>`;
+
   for (const m of COLLAR_META) {
     if (!counts[m.key]) continue;
-    html += `<button class="collar-chip${activeCollar===m.key?' active':''}" data-collar="${m.key}" onclick="setCollar('${m.key}')" title="${m.tip}">${m.icon} ${m.label} <span class="cc">${counts[m.key]}</span></button>`;
+    const active = activeCollar === m.key;
+    html += `<button class="collar-btn${active?' active':''}" data-collar="${m.key}"
+      style="--c-clr:${m.clr};--c-bg:${m.bg}" onclick="setCollar('${m.key}')" title="${m.tip}">
+      <span class="c-ico">${m.icon}</span>
+      <span class="c-lbl">${m.label.replace('-collar','')}</span>
+      <span class="c-cnt">${counts[m.key]}</span>
+    </button>`;
   }
   const el = document.getElementById('collar-filter');
   if (el) el.innerHTML = html;
@@ -558,10 +591,10 @@ function showCollarCareers(collarKey) {
   const byCat = {};
   for (const c of careers) (byCat[c.category] = byCat[c.category] || []).push(c);
   let html = `
-    <div class="collar-header">
+    <div class="collar-header" style="background:linear-gradient(135deg,${meta.clr}dd,${meta.clr}99)">
       <div class="collar-hero-icon">${meta.icon}</div>
       <div>
-        <div class="collar-title">${meta.label}-collar careers</div>
+        <div class="collar-title">${meta.label} careers</div>
         <div class="collar-subtitle">${meta.tip} &nbsp;·&nbsp; ${careers.length} careers — tap any to explore</div>
       </div>
     </div>`;
