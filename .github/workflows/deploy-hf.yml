@@ -19,12 +19,39 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
+          git config --global credential.helper store
           git remote add hf https://knnarin:$HF_TOKEN@huggingface.co/spaces/knnarin/careerbandhuv
+
+          echo "=== Remote info ==="
+          git remote -v
+
+          echo "=== Attempting push ==="
+          success=false
           for i in 1 2 3; do
-            git push hf master:main --force && break
-            echo "Attempt $i failed, retrying in 30s..."
-            sleep 30
+            echo "Attempt $i/3..."
+            if git push hf master:main --force --verbose 2>&1; then
+              success=true
+              echo "Push succeeded on attempt $i"
+              break
+            fi
+            echo "Attempt $i FAILED (exit code: $?)"
+            if [ $i -lt 3 ]; then
+              echo "Retrying in 15s..."
+              sleep 15
+            fi
           done
+
+          if [ "$success" != "true" ]; then
+            echo "ERROR: All push attempts to Hugging Face failed!"
+            exit 1
+          fi
+
+      - name: Verify deployment
+        run: |
+          echo "Waiting 30s for HF Space to register the push..."
+          sleep 30
+          echo "Checking HF Space API..."
+          curl -sf https://knnarin-careerbandhuv.hf.space/ || echo "Space not yet live (may still be building)"
 
       - name: Summary
         run: |
@@ -35,5 +62,5 @@ jobs:
           echo "| | |" >> $GITHUB_STEP_SUMMARY
           echo "|---|---|" >> $GITHUB_STEP_SUMMARY
           echo "| Space | [knnarin/careerbandhuv](https://huggingface.co/spaces/knnarin/careerbandhuv) |" >> $GITHUB_STEP_SUMMARY
-          echo "| Commit | \`${{ github.sha }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| Commit | \ |" >> $GITHUB_STEP_SUMMARY
           echo "| Triggered by | ${{ github.actor }} |" >> $GITHUB_STEP_SUMMARY
