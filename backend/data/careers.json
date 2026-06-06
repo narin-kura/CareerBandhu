@@ -7483,7 +7483,7 @@
       "IAI ACET — Actuarial Common Entrance Test",
       "Series of IAI actuarial exams (CT / CA series — 15 exams total for Fellow)"
     ],
-    "collar": "white"
+    "collar": "gold"
   },
   {
     "id": "financial_advisor_in",
@@ -7673,7 +7673,7 @@
       "SOA or CAS actuarial exams (Associate designation, then Fellow)",
       "VEE credits in Economics, Accounting, and Mathematical Statistics"
     ],
-    "collar": "white"
+    "collar": "gold"
   },
   {
     "id": "us_financial_advisor",
@@ -15311,5 +15311,4568 @@
       "no-degree"
     ],
     "collar": "blue"
+  },
+  {
+    "id": "advocate_in",
+    "title": "Advocate / Lawyer",
+    "category": "Legal & Justice",
+    "region": "IN",
+    "description": "Represent clients in courts, tribunals, and legal proceedings; provide legal advice and draft contracts, petitions, and legal opinions. India has over 1.5 million registered advocates practising in areas including criminal, civil, family, corporate, tax, and constitutional law. Junior advocates typically apprentice under seniors in the first few years.",
+    "salary_range": {
+      "min": 20000,
+      "max": 1000000,
+      "currency": "INR/month",
+      "note": "Junior advocate in small town to senior counsel in High Court or Supreme Court"
+    },
+    "growth_outlook": "Stable — consistent demand across courts, corporates, and NGOs",
+    "work_style": [
+      "Client-facing",
+      "Research-intensive",
+      "Court appearances"
+    ],
+    "required_skills": [
+      {
+        "skill": "Legal Research",
+        "level": "critical"
+      },
+      {
+        "skill": "Drafting & Documentation",
+        "level": "critical"
+      },
+      {
+        "skill": "Argumentation & Advocacy",
+        "level": "critical"
+      },
+      {
+        "skill": "Case Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Negotiation",
+        "level": "important"
+      },
+      {
+        "skill": "Knowledge of Indian Law (IPC, CPC, CrPC, Evidence Act)",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Complete LLB (3-year post-graduation) or integrated BA LLB / BBA LLB (5-year after 12th)",
+      "Write CLAT for admission to National Law Schools (NLUs) — the most prestigious route",
+      "Enrol with the State Bar Council — mandatory before practising in any court",
+      "Apprentice under a senior advocate for 1-2 years to learn court craft",
+      "Start in a law firm (litigation, corporate, or dispute resolution team) as a junior associate"
+    ],
+    "qualifications": [
+      "LLB degree (3-year) or 5-year integrated LLB from NLU or Bar Council-recognised law school",
+      "State Bar Council enrolment (mandatory for practice)",
+      "AIBE (All India Bar Examination) — required to appear in court independently",
+      "LLM (optional) for specialisation in constitutional, corporate, IP, or international law"
+    ],
+    "tags": [
+      "law",
+      "advocate",
+      "court",
+      "litigation",
+      "legal"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "district_judge_in",
+    "title": "District Judge / Civil Judge / Magistrate",
+    "category": "Legal & Justice",
+    "region": "IN",
+    "description": "Preside over district-level civil and criminal courts, hear cases, and deliver judgments. Judicial officers are recruited through State Judicial Service examinations (PCS-J) conducted by High Courts. They form the backbone of India's justice delivery system — the first point of formal adjudication for millions of citizens.",
+    "salary_range": {
+      "min": 70000,
+      "max": 260000,
+      "currency": "INR/month",
+      "note": "Civil Judge / Junior Division to District Judge (Principal); 7th Pay Commission scales"
+    },
+    "growth_outlook": "Stable — high judicial vacancies across states; good promotion track within judiciary",
+    "work_style": [
+      "Court-based",
+      "Formal",
+      "Analytical",
+      "Government"
+    ],
+    "required_skills": [
+      {
+        "skill": "Indian Law (IPC, CrPC, CPC, Evidence Act, Constitution)",
+        "level": "critical"
+      },
+      {
+        "skill": "Judgment Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "Case Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Impartiality & Judicial Temperament",
+        "level": "critical"
+      },
+      {
+        "skill": "Legal Research",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Complete an LLB degree (minimum qualification for the exam)",
+      "Appear for the State Judicial Service Examination (PCS-J / HJS) conducted by the state High Court",
+      "Some High Courts recruit directly to District Judge grade (requiring 7 years of advocate experience)",
+      "Promotion from Civil Judge to District Judge through departmental exams and seniority"
+    ],
+    "qualifications": [
+      "LLB from a Bar Council-recognised institution",
+      "State Judicial Service Exam (conducted by High Court of each state)",
+      "Minimum 7 years of practice as advocate (for direct District Judge recruitment in some states)"
+    ],
+    "tags": [
+      "judiciary",
+      "judge",
+      "magistrate",
+      "court",
+      "government"
+    ],
+    "collar": "red"
+  },
+  {
+    "id": "company_secretary_in",
+    "title": "Company Secretary (CS)",
+    "category": "Legal & Justice",
+    "region": "IN",
+    "description": "Ensure corporate legal and regulatory compliance — conducting board meetings, filing ROC / SEBI forms, advising on corporate governance, and acting as the statutory compliance officer. CS professionals are governed by ICSI and are mandatory for all listed companies and large unlisted companies under the Companies Act 2013.",
+    "salary_range": {
+      "min": 40000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Entry CS in an SME to Group Company Secretary of a listed conglomerate"
+    },
+    "growth_outlook": "Good — increasing compliance burden under Companies Act 2013 and SEBI regulations driving demand",
+    "work_style": [
+      "Office-based",
+      "Compliance-driven",
+      "Detail-oriented"
+    ],
+    "required_skills": [
+      {
+        "skill": "Corporate Law & Companies Act 2013",
+        "level": "critical"
+      },
+      {
+        "skill": "SEBI & Securities Law",
+        "level": "important"
+      },
+      {
+        "skill": "Board Meeting & Secretarial Audit",
+        "level": "critical"
+      },
+      {
+        "skill": "MCA/ROC Statutory Filing",
+        "level": "critical"
+      },
+      {
+        "skill": "Contract Drafting",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Enrol in ICSI CS Foundation Programme after 10+2",
+      "Progress through Executive and Professional examinations",
+      "Complete mandatory 15-month training — company training or CS firm articleship",
+      "Join listed companies, law firms, or secretarial firms after passing CS Professional exam"
+    ],
+    "qualifications": [
+      "CS qualification from ICSI (Foundation → Executive → Professional — three exam stages)",
+      "15-month training (mandatory before ICSI associateship)",
+      "ACS (Associate Member) or FCS (Fellow Member) of ICSI"
+    ],
+    "tags": [
+      "company-secretary",
+      "corporate-law",
+      "compliance",
+      "icsi",
+      "governance"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "paralegal_in",
+    "title": "Paralegal / Legal Process Outsourcing Professional",
+    "category": "Legal & Justice",
+    "region": "IN",
+    "description": "Support lawyers and legal departments with research, drafting, case management, and document review. The Legal Process Outsourcing (LPO) industry in India is a $3-billion sector — firms like Integreon, UnitedLex, and Pangea3 employ thousands of legal professionals who serve US, UK, and Australian law firms remotely. A paralegal role can grow into an LPO team lead or in-house legal position.",
+    "salary_range": {
+      "min": 20000,
+      "max": 100000,
+      "currency": "INR/month",
+      "note": "Entry legal assistant in LPO to senior paralegal or team lead in law firm"
+    },
+    "growth_outlook": "Growing — India's LPO sector expanding with global demand for cost-effective legal services",
+    "work_style": [
+      "Office-based",
+      "Research-intensive",
+      "Deadline-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Legal Research",
+        "level": "critical"
+      },
+      {
+        "skill": "Document Drafting & Review",
+        "level": "critical"
+      },
+      {
+        "skill": "Case File Management",
+        "level": "important"
+      },
+      {
+        "skill": "MS Word & Legal Software",
+        "level": "important"
+      },
+      {
+        "skill": "Communication in English",
+        "level": "critical"
+      },
+      {
+        "skill": "Attention to Detail",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Obtain an LLB or diploma in legal studies from a recognised institution",
+      "Apply to LPO companies (Integreon, Pangea3, Cyril Amarchand Mangaldas support arms)",
+      "Pursue a paralegal certificate from NALSAR, TISS, or a private institute",
+      "Join law firm's support team as a legal executive and progress to paralegal"
+    ],
+    "qualifications": [
+      "LLB degree (preferred) or BA in Legal Studies",
+      "Diploma / Certificate in Paralegal Studies (NALSAR, TISS, private institutes)",
+      "No Bar Council enrolment needed — paralegals cannot appear in court independently"
+    ],
+    "tags": [
+      "paralegal",
+      "legal-assistant",
+      "lpo",
+      "law-firm",
+      "legal-research"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "us_attorney",
+    "title": "Attorney / Lawyer",
+    "category": "Legal & Justice",
+    "region": "US",
+    "description": "Represent clients in federal and state courts, provide legal counsel, draft contracts, and advise on regulatory compliance. The US has over 1.3 million licensed attorneys practising across litigation, corporate law, criminal defence, immigration, intellectual property, family law, and public interest law.",
+    "salary_range": {
+      "min": 60000,
+      "max": 500000,
+      "currency": "USD/year",
+      "note": "Public defender / solo practitioner to BigLaw partner; varies enormously by specialisation and market"
+    },
+    "growth_outlook": "Stable — consistent demand in litigation, corporate, and regulatory practice",
+    "work_style": [
+      "Client-facing",
+      "Research-intensive",
+      "Court / Boardroom"
+    ],
+    "required_skills": [
+      {
+        "skill": "Legal Research (Westlaw / LexisNexis)",
+        "level": "critical"
+      },
+      {
+        "skill": "Brief & Memo Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "Oral Advocacy",
+        "level": "critical"
+      },
+      {
+        "skill": "Case Strategy",
+        "level": "critical"
+      },
+      {
+        "skill": "Negotiation",
+        "level": "critical"
+      },
+      {
+        "skill": "Contract Drafting",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Earn a bachelor's degree (any major) → sit LSAT → attend ABA-accredited law school (JD — 3 years)",
+      "Pursue summer associate programmes at law firms during law school",
+      "Pass the State Bar Examination of the state you wish to practise in",
+      "A federal or state judicial clerkship after JD is prestigious and builds a strong foundation"
+    ],
+    "qualifications": [
+      "Juris Doctor (JD) from ABA-accredited law school",
+      "State Bar Examination (Uniform Bar Exam used in most states)",
+      "Multistate Professional Responsibility Examination (MPRE)",
+      "LLM (optional) for specialisation — tax law, international law, IP"
+    ],
+    "tags": [
+      "attorney",
+      "lawyer",
+      "litigation",
+      "corporate-law",
+      "legal"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "us_paralegal",
+    "title": "Paralegal / Legal Assistant",
+    "category": "Legal & Justice",
+    "region": "US",
+    "description": "Support attorneys with legal research, drafting documents, organising case files, and managing client communications. Paralegals work in law firms, government agencies, corporate legal departments, and non-profits. NALA and NFPA certifications boost earning potential. IP and corporate paralegals are among the highest paid.",
+    "salary_range": {
+      "min": 38000,
+      "max": 90000,
+      "currency": "USD/year",
+      "note": "Legal secretary to senior paralegal in BigLaw; IP and corporate paralegals earn more"
+    },
+    "growth_outlook": "Good — firms rely on paralegals to reduce attorney billing costs",
+    "work_style": [
+      "Office-based",
+      "Research-intensive",
+      "Detail-oriented"
+    ],
+    "required_skills": [
+      {
+        "skill": "Legal Research",
+        "level": "critical"
+      },
+      {
+        "skill": "Document Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Drafting Motions & Contracts",
+        "level": "important"
+      },
+      {
+        "skill": "Case Management Software",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Attention to Detail",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Earn an AAS or bachelor's in Paralegal Studies from an ABA-approved programme",
+      "Complete a certificate in Paralegal Studies (many community colleges offer them)",
+      "Enter as a legal secretary and work up to paralegal with experience",
+      "Obtain NALA CP (Certified Paralegal) or NFPA PACE certification"
+    ],
+    "qualifications": [
+      "Associate's / Bachelor's in Paralegal Studies or related field",
+      "ABA-approved paralegal certificate (most respected credential)",
+      "NALA Certified Paralegal (CP) or NFPA PACE certification (optional but valued)"
+    ],
+    "tags": [
+      "paralegal",
+      "legal-assistant",
+      "law-firm",
+      "legal-research",
+      "legal"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "real_estate_agent_in",
+    "title": "Real Estate Agent / Property Broker",
+    "category": "Real Estate & Property",
+    "region": "IN",
+    "description": "Facilitate the buying, selling, and renting of residential and commercial properties. India's real estate sector employs millions and is growing rapidly with urbanisation, PMAY affordable housing, and smart city projects. RERA registration (post-2016 Act) is mandatory for brokers in most states. Digital platforms like 99acres, MagicBricks, and NoBroker are reshaping the industry.",
+    "salary_range": {
+      "min": 20000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Entry agent (base + small commission) to senior independent broker — strongly commission-driven"
+    },
+    "growth_outlook": "Strong — India's real estate sector growing at 6-8% annually; Tier 2/3 cities booming",
+    "work_style": [
+      "Field-based",
+      "Commission-driven",
+      "Client-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Sales & Negotiation",
+        "level": "critical"
+      },
+      {
+        "skill": "Local Property Market Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Client Relationship Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "RERA & Legal Basics (stamp duty, registration)",
+        "level": "important"
+      },
+      {
+        "skill": "Digital Listings & PropTech Platforms",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Register under RERA in your state (mandatory for brokers)",
+      "Join an established real estate firm (Anarock, JLL, CBRE, local developers) as a trainee agent",
+      "Build local market knowledge and a network of property owners and buyers",
+      "Take up a franchise with RE/MAX India, Century 21 India, or similar brands",
+      "Work on digital platforms (NoBroker, 99acres) as a listed verified agent"
+    ],
+    "qualifications": [
+      "No mandatory formal qualification — 12th pass is the minimum",
+      "RERA registration (mandatory in most states under RERA Act 2016)",
+      "Certificate in Real Estate Management (NAREDCO or CREDAI institutes)",
+      "Bachelor's in Business or Architecture (advantageous for commercial real estate)"
+    ],
+    "tags": [
+      "real-estate",
+      "property",
+      "broker",
+      "rera",
+      "sales"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "property_valuer_in",
+    "title": "Property Valuer / Real Estate Appraiser",
+    "category": "Real Estate & Property",
+    "region": "IN",
+    "description": "Assess the market value of land and buildings for sale, mortgage, taxation, insurance, and legal proceedings. Registered Valuers are governed by IBBI under the Insolvency & Bankruptcy Code. Banks, NBFCs, courts, and government bodies rely on certified valuers. Specialisations include residential, commercial, industrial, and agricultural property.",
+    "salary_range": {
+      "min": 30000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Junior valuer to empanelled bank valuer with multiple clients; fee-based practice at senior levels"
+    },
+    "growth_outlook": "Good — growing banking, NBFC, and insolvency sector demand for certified valuers",
+    "work_style": [
+      "Field + Office",
+      "Analytical",
+      "Report-writing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Property Market Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Valuation Methodologies (Cost, Income, Comparison)",
+        "level": "critical"
+      },
+      {
+        "skill": "Valuation Report Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "Registration & Stamp Act knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "MS Excel & Valuation Models",
+        "level": "important"
+      },
+      {
+        "skill": "Site Inspection",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Obtain a degree in Civil Engineering, Architecture, or Commerce",
+      "Pass the IBBI Registered Valuer Examination (category-wise: Land & Building, Plant & Machinery, Securities)",
+      "Work with senior panel valuers of banks (SBI, HDFC, LIC Housing) to gain experience",
+      "Join a valuation firm (JLL, Knight Frank, Cushman & Wakefield) for structured training"
+    ],
+    "qualifications": [
+      "Bachelor's in Civil Engineering, Architecture, or relevant technical field",
+      "IBBI Registered Valuer (Land & Building) — mandatory examination",
+      "IOV (Institution of Valuers) membership or RICS accreditation (optional, adds credibility)"
+    ],
+    "tags": [
+      "valuer",
+      "appraiser",
+      "property",
+      "real-estate",
+      "banking"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "us_real_estate_agent",
+    "title": "Real Estate Agent / Realtor",
+    "category": "Real Estate & Property",
+    "region": "US",
+    "description": "Help clients buy, sell, and rent residential and commercial properties. Licensed by the state and often members of the National Association of Realtors (NAR), agents work in one of the largest service industries in the US. Top agents in competitive markets like NYC, LA, and Miami earn millions in annual commissions.",
+    "salary_range": {
+      "min": 40000,
+      "max": 300000,
+      "currency": "USD/year",
+      "note": "Commission-only; median ~$55k but top performers earn $200k+"
+    },
+    "growth_outlook": "Stable — cyclical with interest rates but long-term demand remains strong",
+    "work_style": [
+      "Field-based",
+      "Commission-driven",
+      "Flexible hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Sales & Negotiation",
+        "level": "critical"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Client Relationship Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Contract Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Digital Marketing (Zillow, Realtor.com, MLS)",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Complete state-required pre-licensing coursework (40-150 hours depending on state)",
+      "Pass the state Real Estate License Exam",
+      "Work under a licensed broker for 1-3 years (required in most states before independent practice)",
+      "Join the NAR to become a Realtor and access MLS listings",
+      "Earn a Broker's License after experience for independent practice or agency ownership"
+    ],
+    "qualifications": [
+      "State Real Estate Salesperson License (exam + pre-licensing coursework)",
+      "High school diploma minimum; college degree increasingly common",
+      "NAR Realtor membership (for MLS access)",
+      "State Broker's License (to operate an independent agency)"
+    ],
+    "tags": [
+      "realtor",
+      "real-estate",
+      "property",
+      "sales",
+      "housing"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "us_property_manager",
+    "title": "Property Manager",
+    "category": "Real Estate & Property",
+    "region": "US",
+    "description": "Oversee the daily operation of residential apartment complexes, commercial buildings, or industrial properties on behalf of owners. Responsibilities include tenant screening, lease management, maintenance coordination, financial reporting, and Fair Housing compliance. Property managers work for REITs, large management companies, or independently.",
+    "salary_range": {
+      "min": 45000,
+      "max": 120000,
+      "currency": "USD/year",
+      "note": "On-site apartment manager to portfolio director for a large REIT; CAM certification boosts pay"
+    },
+    "growth_outlook": "Good — growing rental market and rise of institutional landlords expanding demand",
+    "work_style": [
+      "Office + Field",
+      "Administrative",
+      "Tenant-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Tenant Relations",
+        "level": "critical"
+      },
+      {
+        "skill": "Lease Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Budgeting & Financial Reporting",
+        "level": "important"
+      },
+      {
+        "skill": "Maintenance Coordination",
+        "level": "critical"
+      },
+      {
+        "skill": "Property Management Software (AppFolio, Yardi)",
+        "level": "important"
+      },
+      {
+        "skill": "Fair Housing Law Knowledge",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Start as a leasing consultant or assistant property manager",
+      "Earn a CPM (Certified Property Manager) from the Institute of Real Estate Management (IREM)",
+      "CAM (Certified Apartment Manager) credential for residential management",
+      "Work for a major property management company (Greystar, Lincoln Property, AvalonBay) for structured growth"
+    ],
+    "qualifications": [
+      "Bachelor's in Business, Real Estate, or related field (preferred, not always required)",
+      "State real estate licence (required in many states for leasing and management roles)",
+      "CPM from IREM or CAM from NAAEI (National Apartment Association)"
+    ],
+    "tags": [
+      "property-manager",
+      "real-estate",
+      "leasing",
+      "facilities",
+      "management"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "insurance_surveyor_in",
+    "title": "Insurance Surveyor / Loss Assessor",
+    "category": "Insurance & Actuarial",
+    "region": "IN",
+    "description": "Investigate insurance claims — visiting accident sites, fire damage locations, marine cargo losses, or factory damage — to determine the extent of loss and recommend settlement amounts. Licensed by IRDAI, surveyors are independent professionals who work with all non-life insurers on claims above ₹50,000. A high-demand, self-employed profession with growth tied to India's expanding insurance market.",
+    "salary_range": {
+      "min": 30000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Fee-based per survey; motor and engineering specialists with large panel rosters earn well"
+    },
+    "growth_outlook": "Stable — mandatory under non-life insurance regulations; demand grows with insurance penetration",
+    "work_style": [
+      "Field-based",
+      "Analytical",
+      "Independent / Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Damage Assessment",
+        "level": "critical"
+      },
+      {
+        "skill": "Survey Report Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "Engineering / Technical Knowledge (category-specific)",
+        "level": "critical"
+      },
+      {
+        "skill": "Insurance Policy Interpretation",
+        "level": "important"
+      },
+      {
+        "skill": "Negotiation",
+        "level": "important"
+      },
+      {
+        "skill": "Photography & Documentation",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Obtain an engineering degree or relevant technical qualification (mechanical, electrical, civil)",
+      "Pass the IRDAI Surveyor & Loss Assessor Examination (conducted category-wise)",
+      "Work under a licensed senior surveyor to gain field experience",
+      "Build a panel of insurance companies and develop a specialisation (motor, fire, marine)"
+    ],
+    "qualifications": [
+      "BE/B.Tech in Mechanical, Electrical, Civil, or relevant engineering field",
+      "IRDAI Surveyor & Loss Assessor Licence (mandatory — category-specific exams)",
+      "Associate of Insurance Institute of India (A.III.) — optional but valued"
+    ],
+    "tags": [
+      "insurance-surveyor",
+      "loss-assessor",
+      "claims",
+      "irdai",
+      "non-life"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "us_insurance_agent",
+    "title": "Insurance Agent / Broker",
+    "category": "Insurance & Actuarial",
+    "region": "US",
+    "description": "Sell and service life, health, property, casualty, and speciality insurance products for individuals and businesses. Agents represent a single insurer; brokers work across multiple carriers. Licensed by each state, insurance professionals operate in one of the US's largest service industries — a sector generating over $1.3 trillion in premiums annually.",
+    "salary_range": {
+      "min": 40000,
+      "max": 200000,
+      "currency": "USD/year",
+      "note": "Base + commission; independent commercial P&C brokers and top life agents earn $150k+"
+    },
+    "growth_outlook": "Stable — cyber, climate risk, and healthcare driving new policy categories",
+    "work_style": [
+      "Client-facing",
+      "Commission-driven",
+      "Office or field"
+    ],
+    "required_skills": [
+      {
+        "skill": "Sales & Persuasion",
+        "level": "critical"
+      },
+      {
+        "skill": "Product Knowledge (Life, P&C, Health)",
+        "level": "critical"
+      },
+      {
+        "skill": "Client Relationship Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Risk Assessment",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "CRM Software",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Complete state pre-licensing coursework and pass the state licensing exam (Life & Health, or P&C — separate licences)",
+      "Start at a captive agency (State Farm, Allstate, Farmers) for training support and salary base",
+      "Transition to the independent or broker model after building a book of business",
+      "Earn the CPCU (Chartered Property Casualty Underwriter) designation for commercial lines growth"
+    ],
+    "qualifications": [
+      "State Insurance Licence (Life & Health and / or Property & Casualty)",
+      "High school diploma minimum; bachelor's degree preferred by larger employers",
+      "CPCU, CLU (Chartered Life Underwriter), or ChFC for specialisation and advancement"
+    ],
+    "tags": [
+      "insurance",
+      "broker",
+      "agent",
+      "life-insurance",
+      "p-and-c"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "us_claims_adjuster",
+    "title": "Claims Adjuster / Claims Examiner",
+    "category": "Insurance & Actuarial",
+    "region": "US",
+    "description": "Investigate insurance claims — interviewing claimants, inspecting property damage, reviewing medical reports, and determining fair settlement amounts. Adjusters work as staff adjusters (insurer employees), independent adjusters (contractors), or public adjusters (who represent policyholders). Catastrophe adjusters deploy to disaster zones for surge pay and rapid experience.",
+    "salary_range": {
+      "min": 45000,
+      "max": 100000,
+      "currency": "USD/year",
+      "note": "Entry desk adjuster to senior CAT adjuster or complex commercial claims specialist"
+    },
+    "growth_outlook": "Stable — natural disasters and litigation driving sustained demand for experienced adjusters",
+    "work_style": [
+      "Field + Office",
+      "Investigative",
+      "Case-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Claims Investigation",
+        "level": "critical"
+      },
+      {
+        "skill": "Insurance Policy Interpretation",
+        "level": "critical"
+      },
+      {
+        "skill": "Xactimate Damage Estimation Software",
+        "level": "critical"
+      },
+      {
+        "skill": "Negotiation",
+        "level": "important"
+      },
+      {
+        "skill": "Report Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "Attention to Detail",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Obtain a state adjuster licence (required in most states)",
+      "Start as a desk adjuster at a major insurer (State Farm, Allstate, Liberty Mutual)",
+      "Get Xactimate training (the industry-standard property damage estimation tool)",
+      "Work CAT events as an independent adjuster for surge income and rapid experience"
+    ],
+    "qualifications": [
+      "State Claims Adjuster Licence (exam-based; requirements vary by state)",
+      "Bachelor's degree helpful but not always required",
+      "AIC (Associate in Claims) or CPCU designation for advancement",
+      "Xactimate Level 1 or Level 2 certification for property claims"
+    ],
+    "tags": [
+      "claims",
+      "adjuster",
+      "insurance",
+      "property-damage",
+      "investigation"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "cricketer_in",
+    "title": "Cricketer (Professional)",
+    "category": "Sports & Athletics",
+    "region": "IN",
+    "description": "Compete at state, national, or franchise level in India's most popular sport. The pathway runs from school and club cricket → district teams → Ranji Trophy (domestic first-class) → IPL (franchise T20 league) → Indian national team. IPL has made cricket a highly lucrative profession even below the international level. Coaches, academies, and state cricket associations support the development pipeline.",
+    "salary_range": {
+      "min": 20000,
+      "max": 5000000,
+      "currency": "INR/month",
+      "note": "State contract player to IPL franchise player (IPL auction price crores); international players earn far more"
+    },
+    "growth_outlook": "Stable — IPL and domestic tournaments provide income; highly competitive",
+    "work_style": [
+      "Physical",
+      "Team-based",
+      "Travel-heavy"
+    ],
+    "required_skills": [
+      {
+        "skill": "Batting / Bowling / Wicket-keeping (specialisation)",
+        "level": "critical"
+      },
+      {
+        "skill": "Fielding & Athletic Fitness",
+        "level": "critical"
+      },
+      {
+        "skill": "Mental Toughness",
+        "level": "critical"
+      },
+      {
+        "skill": "Game Situation Awareness",
+        "level": "critical"
+      },
+      {
+        "skill": "Team Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Discipline & Consistent Practice",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Join a cricket academy from a young age (6-15 years) under a qualified coach",
+      "Represent school and district teams in BCCI Under-16 / Under-19 tournaments",
+      "Play in state Ranji Trophy squad — the gateway to national selection",
+      "Perform consistently to attract IPL franchise scouts or state selectors",
+      "Alternatively: become a cricket coach (NCA Level 1 / Level 2) after playing career"
+    ],
+    "qualifications": [
+      "No formal academic degree required for playing",
+      "BCCI registration with State Cricket Association (mandatory for domestic matches)",
+      "NCA (National Cricket Academy, Bengaluru) coaching programmes for post-playing career"
+    ],
+    "tags": [
+      "cricket",
+      "ipl",
+      "sports",
+      "athlete",
+      "ranji"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "kabaddi_player_in",
+    "title": "Kabaddi Player / Pro Kabaddi Athlete",
+    "category": "Sports & Athletics",
+    "region": "IN",
+    "description": "Compete professionally in India's indigenous contact sport, which has seen a massive revival through the Pro Kabaddi League (PKL). PKL teams auction players for lakhs to crores annually. At the national level, the Indian kabaddi team is dominant at Asian Games and Asian Kabaddi Championships. The sport is rooted in rural India but now has urban academies and corporate sponsorship.",
+    "salary_range": {
+      "min": 10000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Junior state player to PKL auction player (₹50L+ per season at the top)"
+    },
+    "growth_outlook": "Growing — PKL driving monetisation; school kabaddi programmes expanding feeder base",
+    "work_style": [
+      "Physical",
+      "Team-based",
+      "Competitive"
+    ],
+    "required_skills": [
+      {
+        "skill": "Raiding Techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Defensive Tackles",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Strength & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Breath Control",
+        "level": "critical"
+      },
+      {
+        "skill": "Game Awareness & Strategy",
+        "level": "important"
+      },
+      {
+        "skill": "Agility",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Join a school or district kabaddi academy",
+      "Represent district and state teams in national championships",
+      "Get scouted for the Pro Kabaddi League trials (PKL holds annual draft and trials)",
+      "Build visibility through national-level tournaments to attract team franchises"
+    ],
+    "qualifications": [
+      "No formal degree required",
+      "State and national kabaddi federation registration",
+      "Physical fitness certifications (helpful for professional contracts)"
+    ],
+    "tags": [
+      "kabaddi",
+      "pkl",
+      "sports",
+      "athlete",
+      "contact-sport"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "badminton_player_in",
+    "title": "Badminton Player (Professional)",
+    "category": "Sports & Athletics",
+    "region": "IN",
+    "description": "Compete nationally and internationally in singles or doubles events. India has produced world-class badminton players including PV Sindhu, Saina Nehwal, Kidambi Srikanth, and Satwiksairaj Rankireddy. The Premier Badminton League (PBL) provides a domestic franchise league on the lines of IPL. SAI (Sports Authority of India) provides scholarships and training centres for elite players.",
+    "salary_range": {
+      "min": 30000,
+      "max": 1000000,
+      "currency": "INR/month",
+      "note": "State junior player to PBL franchise / national team player with BWF ranking income and endorsements"
+    },
+    "growth_outlook": "Growing — India's badminton ecosystem maturing; Olympics focus driving investment",
+    "work_style": [
+      "Physical",
+      "Individual / Doubles pairs",
+      "Travel-heavy"
+    ],
+    "required_skills": [
+      {
+        "skill": "Technical Shot-Making (smash, drop, net play)",
+        "level": "critical"
+      },
+      {
+        "skill": "Footwork & Agility",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Endurance",
+        "level": "critical"
+      },
+      {
+        "skill": "Match Tactics & Mental Game",
+        "level": "critical"
+      },
+      {
+        "skill": "Serve & Return Strategies",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Enrol in a SAI or state badminton academy from an early age",
+      "Compete in BAI (Badminton Association of India) junior tournaments",
+      "Aim for SAI/TOPS scholarship for elite training under national coaches",
+      "Compete in BWF-sanctioned international tournaments for world ranking"
+    ],
+    "qualifications": [
+      "BAI (Badminton Association of India) player registration",
+      "SAI National Academy selection for elite pathway",
+      "BWF Player ID for international circuit"
+    ],
+    "tags": [
+      "badminton",
+      "pbl",
+      "sports",
+      "athlete",
+      "olympics"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "sports_coach_in",
+    "title": "Sports Coach / Athletic Trainer",
+    "category": "Sports & Athletics",
+    "region": "IN",
+    "description": "Train and develop athletes in a specific sport — from school-level programmes and district academies to professional franchise and national team coaching. India's sport ecosystem is growing with SAI's TOPS (Target Olympic Podium Scheme), state sports academies, SGFI school leagues, and private academies across cricket, football, badminton, athletics, and more.",
+    "salary_range": {
+      "min": 25000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "School or district-level coach to head coach of IPL / national franchise"
+    },
+    "growth_outlook": "Growing — India investing heavily in sports development ahead of 2028 and 2032 Olympics",
+    "work_style": [
+      "Physical",
+      "Mentoring",
+      "Early hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Sport-Specific Technical Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Athlete Development Methodology",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication & Motivation",
+        "level": "critical"
+      },
+      {
+        "skill": "Performance Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Injury Prevention Basics",
+        "level": "important"
+      },
+      {
+        "skill": "Planning & Periodisation",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Pursue a Bachelor's in Physical Education (BPEd) or Sports Science (NIS, LNIPE, Amity)",
+      "Obtain NIS (National Institute of Sports, Patiala) coaching diploma in your sport",
+      "Start coaching at school or club level to build experience",
+      "Work up to SAI Sports Authority of India or state association head coach positions"
+    ],
+    "qualifications": [
+      "BPEd / MPEd from a recognised institution (LNIPE, Amity, state sports universities)",
+      "NIS (National Institute of Sports) Coaching Diploma — gold standard for Indian sports coaches",
+      "Sport-specific federation coaching certification (BCCI, BAI, AFI, etc.)"
+    ],
+    "tags": [
+      "coach",
+      "sports",
+      "athletic-training",
+      "academy",
+      "fitness"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "personal_trainer_in",
+    "title": "Personal Fitness Trainer / Gym Trainer",
+    "category": "Sports & Athletics",
+    "region": "IN",
+    "description": "Design and deliver personalised fitness programmes for clients in gyms, homes, or online. India's fitness industry is booming — gym chains (Cult.fit, Gold's Gym, Anytime Fitness), boutique studios, and digital fitness platforms (Cure.fit, Fittr) have created massive demand for certified trainers. Specialisations include weight training, yoga, CrossFit, HIIT, and rehabilitation fitness.",
+    "salary_range": {
+      "min": 20000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Junior gym trainer to celebrity personal trainer or online fitness entrepreneur"
+    },
+    "growth_outlook": "Strong — India's fitness industry growing 25%+ annually post-pandemic",
+    "work_style": [
+      "Physical",
+      "Client-facing",
+      "Flexible hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Exercise Science & Programming",
+        "level": "critical"
+      },
+      {
+        "skill": "Nutrition Basics",
+        "level": "important"
+      },
+      {
+        "skill": "Client Assessment & Goal Setting",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication & Motivation",
+        "level": "critical"
+      },
+      {
+        "skill": "Anatomy & Physiology",
+        "level": "critical"
+      },
+      {
+        "skill": "First Aid / CPR",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Obtain a CPT (Certified Personal Trainer) certification from ACE, NASM, ISSA, ACSM, or NCSF",
+      "Complete an Indian certification: INFS, IFT (Indian Fitness Training Academy), or K11 Fitness Academy",
+      "Join a gym as a junior trainer; build a client base and specialise",
+      "Build social media presence and move to online coaching for scale"
+    ],
+    "qualifications": [
+      "CPT certification from NASM, ACE, ISSA, or Indian equivalent (INFS, IFT, K11)",
+      "Bachelor's in Physical Education, Sports Science, or Kinesiology (advantageous)",
+      "CPR / First Aid certification (required by most gyms)"
+    ],
+    "tags": [
+      "fitness",
+      "personal-trainer",
+      "gym",
+      "wellness",
+      "strength-training"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "yoga_instructor_in",
+    "title": "Yoga Instructor / Yoga Therapist",
+    "category": "Sports & Athletics",
+    "region": "IN",
+    "description": "Teach traditional and modern yoga practices to individuals and groups in studios, schools, corporate wellness programmes, and retreats. India is the birthplace of yoga and a global hub for yoga education. Yoga Alliance registered schools proliferate nationwide. International demand for Indian-certified yoga teachers is enormous — many instructors build global careers teaching online or abroad.",
+    "salary_range": {
+      "min": 15000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Local studio instructor to running own yoga school or international retreats; online courses create passive income"
+    },
+    "growth_outlook": "Excellent — global yoga market growing rapidly; India's soft power makes Indian yoga teachers highly sought internationally",
+    "work_style": [
+      "Physical",
+      "Teaching",
+      "Flexible / Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Asana Practice & Alignment",
+        "level": "critical"
+      },
+      {
+        "skill": "Pranayama & Breathwork",
+        "level": "critical"
+      },
+      {
+        "skill": "Teaching Methodology",
+        "level": "critical"
+      },
+      {
+        "skill": "Anatomy & Physiology for Yoga",
+        "level": "important"
+      },
+      {
+        "skill": "Meditation & Mindfulness",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Complete a 200-hour Yoga Teacher Training (YTT) from a Yoga Alliance-registered school",
+      "Progress to 300-hour or 500-hour advanced training",
+      "Teach at a local studio while building experience and an online following",
+      "Specialise in yoga therapy (for rehabilitation), prenatal yoga, kids' yoga, or corporate wellness"
+    ],
+    "qualifications": [
+      "200-hour YTT (Yoga Teacher Training) from Yoga Alliance-registered school",
+      "Yoga Alliance RYT-200 or RYT-500 registration (recognised internationally)",
+      "MDNIY (Morarji Desai National Institute of Yoga) diploma — government-recognised",
+      "300-hour advanced TT or C-IAYT (Certified International Association of Yoga Therapists) for yoga therapy"
+    ],
+    "tags": [
+      "yoga",
+      "wellness",
+      "instructor",
+      "mindfulness",
+      "health"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "us_personal_trainer",
+    "title": "Personal Trainer / Fitness Coach",
+    "category": "Sports & Athletics",
+    "region": "US",
+    "description": "Design and deliver personalised fitness programmes for clients in gyms, studios, homes, and online platforms. The US fitness industry exceeds $35 billion annually and employs over 300,000 personal trainers. Specialisations include strength and conditioning, corrective exercise, sports performance, weight loss, and online coaching. Top trainers build six-figure coaching businesses.",
+    "salary_range": {
+      "min": 35000,
+      "max": 120000,
+      "currency": "USD/year",
+      "note": "Gym floor trainer to elite private trainer; online coaching can far exceed these figures"
+    },
+    "growth_outlook": "Good — BLS projects 14% job growth 2022-2032; online fitness accelerating",
+    "work_style": [
+      "Physical",
+      "Client-facing",
+      "Flexible hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Exercise Programming",
+        "level": "critical"
+      },
+      {
+        "skill": "Anatomy & Physiology",
+        "level": "critical"
+      },
+      {
+        "skill": "Nutrition Basics",
+        "level": "important"
+      },
+      {
+        "skill": "Client Assessment & Goal Setting",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication & Motivation",
+        "level": "critical"
+      },
+      {
+        "skill": "CPR / AED",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Earn NASM, ACE, ACSM, or NSCA-CPT certification (nationally recognised)",
+      "Get CPR / AED certified (required by most gyms)",
+      "Start at a commercial gym (Planet Fitness, Equinox, LA Fitness) as a floor trainer",
+      "Build an online coaching brand through social media and platforms like Trainerize or TrueCoach"
+    ],
+    "qualifications": [
+      "NASM CPT, ACE CPT, ACSM-CPT, or NSCA CSCS certification",
+      "CPR / AED certification (mandatory for employment)",
+      "Bachelor's in Kinesiology, Exercise Science, or Sports Management (advantageous)"
+    ],
+    "tags": [
+      "personal-trainer",
+      "fitness",
+      "gym",
+      "wellness",
+      "coaching"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "us_sports_coach",
+    "title": "Sports Coach / Athletic Director",
+    "category": "Sports & Athletics",
+    "region": "US",
+    "description": "Coach amateur, collegiate, or professional athletes in a specific sport. High school coaches double as teachers; college coaches are full-time with multi-million dollar salaries at major programmes; professional coaches earn the highest. NFL, NBA, MLB, NHL, MLS, and Olympics pipeline coaches are the pinnacle — but the majority of coaches work in schools and community programmes.",
+    "salary_range": {
+      "min": 35000,
+      "max": 500000,
+      "currency": "USD/year",
+      "note": "High school coach (often with teacher salary) to Division I / professional head coach; top NFL/NBA head coaches earn $5M+"
+    },
+    "growth_outlook": "Stable — steady demand at school, college, and community levels",
+    "work_style": [
+      "Physical",
+      "Mentoring",
+      "Irregular hours / Travel"
+    ],
+    "required_skills": [
+      {
+        "skill": "Sport-Specific Technical Expertise",
+        "level": "critical"
+      },
+      {
+        "skill": "Athlete Development",
+        "level": "critical"
+      },
+      {
+        "skill": "Leadership & Motivation",
+        "level": "critical"
+      },
+      {
+        "skill": "Game Strategy & Film Study",
+        "level": "important"
+      },
+      {
+        "skill": "Recruitment (college level)",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Play sport at a high level (collegiate or professional) — the most common pathway",
+      "Earn a bachelor's in Physical Education, Kinesiology, or a relevant sport science",
+      "Get state coaching certification or NSCA CSCS for strength & conditioning",
+      "Start as an assistant coach and work up to head coach at school or college level"
+    ],
+    "qualifications": [
+      "Bachelor's in Physical Education, Kinesiology, or related field",
+      "State coaching certification (required for high school coaches in most states)",
+      "NSCA CSCS (Certified Strength and Conditioning Specialist) for collegiate and pro levels",
+      "First Aid / CPR certification (universally required)"
+    ],
+    "tags": [
+      "coach",
+      "sports",
+      "athletics",
+      "collegiate",
+      "nfl-nba"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "musician_vocalist_in",
+    "title": "Musician / Vocalist (Classical & Playback)",
+    "category": "Music Industry",
+    "region": "IN",
+    "description": "Perform as a vocalist or instrumentalist in classical (Hindustani or Carnatic), film (playback singing), pop, folk, or devotional music. Bollywood playback singing and Carnatic / Hindustani classical concerts are two distinct career streams. The digital era has opened Spotify, YouTube music, Instagram Reels, and brand deals as income streams for independent artists. Earning potential is enormous at the top but highly variable.",
+    "salary_range": {
+      "min": 15000,
+      "max": 5000000,
+      "currency": "INR/month",
+      "note": "Local event musician to A-list Bollywood playback singer or classical maestro; digital royalties supplement"
+    },
+    "growth_outlook": "Growing — streaming platforms (Spotify, Gaana, JioSaavn) and YouTube creating new income paths for independent artists",
+    "work_style": [
+      "Creative",
+      "Performance-based",
+      "Self-directed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Vocal Training / Instrumental Proficiency",
+        "level": "critical"
+      },
+      {
+        "skill": "Sur (pitch) & Taal (rhythm)",
+        "level": "critical"
+      },
+      {
+        "skill": "Raga Knowledge (for classical)",
+        "level": "critical"
+      },
+      {
+        "skill": "Recording Studio Etiquette",
+        "level": "important"
+      },
+      {
+        "skill": "Music Theory",
+        "level": "important"
+      },
+      {
+        "skill": "Performance & Stage Presence",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Begin classical vocal or instrumental training from childhood under a guru (guru-shishya parampara)",
+      "Enrol in a formal music programme (BM / MMus at Gandharva Mahavidyalaya, Prayag Sangeet Samiti, or university music departments)",
+      "Pursue playback singing by networking with music directors and recording studios in Mumbai",
+      "Build an audience on YouTube, Instagram, and Spotify as an independent artist",
+      "Perform at sabhas (classical concerts), mehfils, and corporate events for regular income"
+    ],
+    "qualifications": [
+      "Sangeet Visharad or Sangeet Alankar (classical music diploma — Gandharva, Prayag, Bhatkhande)",
+      "BM / BMus from a university or music college",
+      "ABRSM Grade exams (for Western music / instruments)",
+      "No formal qualification required to pursue independent / digital music career"
+    ],
+    "tags": [
+      "music",
+      "singer",
+      "vocalist",
+      "classical",
+      "bollywood"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "music_producer_in",
+    "title": "Music Producer / Composer",
+    "category": "Music Industry",
+    "region": "IN",
+    "description": "Compose original music and produce audio tracks for Bollywood films, web series (Netflix, Prime Video), ads, independent artists, and content creators. Modern music production is largely software-driven — using DAWs (Digital Audio Workstations) like FL Studio, Ableton, and Logic Pro. India's film music industry is one of the world's largest, and the independent music scene on streaming platforms is growing rapidly.",
+    "salary_range": {
+      "min": 30000,
+      "max": 2000000,
+      "currency": "INR/month",
+      "note": "Junior composer / jingle maker to A-list Bollywood composer (AR Rahman, Pritam level — worth crores)"
+    },
+    "growth_outlook": "Growing — OTT, YouTube content, gaming, and advertising creating massive demand for original music",
+    "work_style": [
+      "Creative",
+      "Studio-based",
+      "Freelance / Project-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "DAW Proficiency (FL Studio, Ableton, Logic Pro)",
+        "level": "critical"
+      },
+      {
+        "skill": "Music Theory & Composition",
+        "level": "critical"
+      },
+      {
+        "skill": "Sound Design & Mixing",
+        "level": "critical"
+      },
+      {
+        "skill": "MIDI Programming",
+        "level": "important"
+      },
+      {
+        "skill": "Client Brief Interpretation",
+        "level": "important"
+      },
+      {
+        "skill": "Ear Training",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Learn music production through formal courses (Swarnabhoomi Academy, True School of Music, Mumbai) or online (Coursera, Berklee Online)",
+      "Build a portfolio of original compositions and beats — share on SoundCloud, Instagram, YouTube",
+      "Assist established music directors in Bollywood or independent music studios",
+      "Score for short films, ads, YouTube channels to build reel and network"
+    ],
+    "qualifications": [
+      "Diploma or degree in Music Production / Audio Engineering (True School, Swarnabhoomi, or online platforms)",
+      "No formal degree required if portfolio is strong — industry is portfolio-first",
+      "ABRSM / Trinity Grade 8 theory (helpful foundation for formal music knowledge)"
+    ],
+    "tags": [
+      "music-producer",
+      "composer",
+      "bollywood",
+      "daw",
+      "audio"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "sound_engineer_in",
+    "title": "Sound Engineer / Audio Engineer",
+    "category": "Music Industry",
+    "region": "IN",
+    "description": "Record, mix, and master audio for music albums, films, TV shows, advertisements, and live events. Sound engineers work in recording studios, film production houses, broadcast channels, and as live sound engineers at concerts and events. Dolby Atmos and spatial audio for streaming platforms are growing specialisations. India's largest studios are in Mumbai, Chennai, and Hyderabad.",
+    "salary_range": {
+      "min": 25000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Studio assistant engineer to chief mixing engineer for film or top recording studio; live sound engineers vary by event size"
+    },
+    "growth_outlook": "Stable — film, OTT, and live events sustaining steady demand; Dolby/spatial audio a growing niche",
+    "work_style": [
+      "Studio-based",
+      "Technical",
+      "Irregular hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "DAW Proficiency (Pro Tools, Logic, Nuendo)",
+        "level": "critical"
+      },
+      {
+        "skill": "Microphone Placement & Recording Techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Mixing & Mastering",
+        "level": "critical"
+      },
+      {
+        "skill": "Signal Chain & Studio Gear",
+        "level": "critical"
+      },
+      {
+        "skill": "Acoustic Treatment Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Communication with Artists",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Obtain a diploma or degree in Audio Engineering or Sound Design",
+      "Join a recording studio as a studio assistant / intern",
+      "Work under an experienced mixing engineer for 2-3 years before solo mixing",
+      "Specialise in live sound for events to build a parallel income stream"
+    ],
+    "qualifications": [
+      "Diploma in Audio Engineering / Sound Design (SAE Institute India, Swarnabhoomi, Furtados School of Music, Berklee India Exchange)",
+      "Pro Tools operator certification (Avid Pro Tools — industry standard certification)",
+      "Dolby Atmos for Music production certificate (growing in demand for streaming)"
+    ],
+    "tags": [
+      "sound-engineer",
+      "audio",
+      "mixing",
+      "recording-studio",
+      "film"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "us_music_producer",
+    "title": "Music Producer / Recording Artist",
+    "category": "Music Industry",
+    "region": "US",
+    "description": "Create, arrange, and produce music for record labels, streaming platforms, film soundtracks, video games, and advertising. The US music industry generates over $15 billion annually. Producers work with artists in studios, remotely, or independently releasing their own music. Streaming royalties, sync licensing (placing music in film/TV/ads), and live performance are the main income streams.",
+    "salary_range": {
+      "min": 40000,
+      "max": 500000,
+      "currency": "USD/year",
+      "note": "Staff producer at a smaller label to platinum-hit independent producer; sync licences can generate significant passive income"
+    },
+    "growth_outlook": "Stable — streaming growth sustaining; sync licensing booming with content explosion on Netflix, Amazon, Disney+",
+    "work_style": [
+      "Creative",
+      "Studio-based",
+      "Freelance / Project-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "DAW Proficiency (Pro Tools, Ableton, Logic)",
+        "level": "critical"
+      },
+      {
+        "skill": "Music Theory & Arrangement",
+        "level": "critical"
+      },
+      {
+        "skill": "Sound Design & Mixing",
+        "level": "critical"
+      },
+      {
+        "skill": "Artist Direction & Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Music Business Knowledge",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Earn a degree in Music Production / Audio Engineering (Berklee, Full Sail, SAE, NYU)",
+      "Or self-teach with online resources and build a portfolio of tracks",
+      "Network by assisting in established studios and collaborating with independent artists",
+      "Place music in films, ads, and shows (sync licensing) for steady royalty income"
+    ],
+    "qualifications": [
+      "Bachelor's in Music Production, Audio Engineering, or Music Business (Berklee, Full Sail, NYU)",
+      "No formal degree required if portfolio is strong — industry values catalogue over credentials",
+      "Pro Tools certification (Avid — widely recognised for studio work)"
+    ],
+    "tags": [
+      "music-producer",
+      "audio",
+      "daw",
+      "recording",
+      "sync-licensing"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "game_developer_in",
+    "title": "Game Developer (Mobile / PC / Console)",
+    "category": "Gaming & Esports",
+    "region": "IN",
+    "description": "Design and build video games for mobile (Android / iOS), PC, or console platforms. India's gaming industry is the second-fastest growing in the world — with companies like Nazara, Junglee Games, nCore Games, and dozens of studios hiring Unity and Unreal developers. Mobile gaming dominates, but PC/console studios (with global publishers) are growing. Game developers specialise as programmers, artists, designers, or audio engineers.",
+    "salary_range": {
+      "min": 40000,
+      "max": 400000,
+      "currency": "INR/month",
+      "note": "Junior developer at a mid-sized studio to senior engineer at Nazara or a global publisher's India office"
+    },
+    "growth_outlook": "Very strong — India gaming market projected to reach $7B by 2026; mobile-first expansion rapid",
+    "work_style": [
+      "Technical",
+      "Creative",
+      "Team-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Unity or Unreal Engine",
+        "level": "critical"
+      },
+      {
+        "skill": "Programming (C# or C++)",
+        "level": "critical"
+      },
+      {
+        "skill": "Game Design Principles",
+        "level": "important"
+      },
+      {
+        "skill": "3D Math & Physics",
+        "level": "important"
+      },
+      {
+        "skill": "Version Control (Git)",
+        "level": "critical"
+      },
+      {
+        "skill": "Problem Solving",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Computer Science, IT, or Game Development (Manipal, MIT Pune, Srishti Manipal, MAAC)",
+      "Self-study Unity / Unreal + build a portfolio of prototype games on itch.io and GitHub",
+      "Join a game jam (Global Game Jam, Ludum Dare) to build prototypes and network",
+      "Apply to studios (Nazara, Dhruva Interactive, nCore, 99Games) as junior developer with portfolio"
+    ],
+    "qualifications": [
+      "Bachelor's in Computer Science, IT, or Game Design",
+      "Unity Certified Associate or Unity Certified Professional certification",
+      "Unreal Engine certification from Epic Games Online Learning (for UE projects)"
+    ],
+    "tags": [
+      "game-dev",
+      "unity",
+      "unreal",
+      "mobile-gaming",
+      "gaming"
+    ],
+    "collar": "new"
+  },
+  {
+    "id": "esports_player_in",
+    "title": "Esports Player / Pro Gamer",
+    "category": "Gaming & Esports",
+    "region": "IN",
+    "description": "Compete professionally in multiplayer video games — BGMI (Battlegrounds Mobile India), Free Fire, Valorant, CS2, DOTA 2, and mobile games — for prize money, team salaries, and brand sponsorships. India's esports ecosystem is growing rapidly with ESFed recognition, ESports Federation of India, and investment from brands like Paytm, Moto, and MPL. Star players earn through salaries, streaming, and brand deals.",
+    "salary_range": {
+      "min": 15000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Entry team player to top BGMI or Valorant pro with salary + streaming income + brand deals"
+    },
+    "growth_outlook": "Growing — India's esports industry growing 50%+ annually; BGMI and Valorant tournaments multiplying",
+    "work_style": [
+      "Digital",
+      "Competitive",
+      "Team-based",
+      "Online"
+    ],
+    "required_skills": [
+      {
+        "skill": "Game Mastery (specific title)",
+        "level": "critical"
+      },
+      {
+        "skill": "Game Sense & Strategy",
+        "level": "critical"
+      },
+      {
+        "skill": "Team Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Mental Resilience",
+        "level": "critical"
+      },
+      {
+        "skill": "Reflexes & Reaction Time",
+        "level": "critical"
+      },
+      {
+        "skill": "Streaming & Content Creation",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Reach top ranks in your game (Immortal/Radiant in Valorant, Conqueror in BGMI)",
+      "Join an open team or amateur tournament circuit to build a track record",
+      "Apply to esports organisations (S8UL, Team XO, Orangutan, GodLike) for trials",
+      "Build a streaming audience on YouTube / Twitch alongside playing career"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "In-game ranking (top 1-5% in ranked matches is typically the entry threshold for pro trials)",
+      "ESFed-registered player ID for official Indian esports competitions"
+    ],
+    "tags": [
+      "esports",
+      "pro-gamer",
+      "bgmi",
+      "valorant",
+      "streaming"
+    ],
+    "collar": "new"
+  },
+  {
+    "id": "game_designer_in",
+    "title": "Game Designer / UX Designer (Games)",
+    "category": "Gaming & Esports",
+    "region": "IN",
+    "description": "Design the rules, mechanics, levels, narrative, and player experience of a video game. Game designers bridge creative vision and technical implementation, working closely with programmers and artists. India's growing game studios need designers who understand mobile game monetisation (IAP, ad models), player psychology, and Indian cultural context for India-first game designs.",
+    "salary_range": {
+      "min": 35000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Junior designer at a mobile studio to lead game designer at a funded startup or global studio"
+    },
+    "growth_outlook": "Strong — India's mobile game design talent in demand locally and globally",
+    "work_style": [
+      "Creative",
+      "Collaborative",
+      "Iterative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Game Mechanics & Systems Design",
+        "level": "critical"
+      },
+      {
+        "skill": "Level Design",
+        "level": "important"
+      },
+      {
+        "skill": "Player Psychology & Engagement",
+        "level": "critical"
+      },
+      {
+        "skill": "Prototyping (Figma, Unity)",
+        "level": "important"
+      },
+      {
+        "skill": "Documentation (GDD — Game Design Document)",
+        "level": "critical"
+      },
+      {
+        "skill": "Monetisation Design",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Game Design, Interaction Design, or Computer Science (Srishti Manipal, MIT ID, MAAC)",
+      "Build a portfolio of game design documents and prototype games",
+      "Play and analyse a wide variety of games critically — understand what makes mechanics work",
+      "Start as a junior designer at a mobile game studio and specialise (level design, narrative, economy)"
+    ],
+    "qualifications": [
+      "Bachelor's in Game Design, UX Design, or Computer Science",
+      "Unity / Unreal prototyping skills (self-taught or from online platforms)",
+      "Online game design courses from Coursera (CalArts), edX (MIT), or Udemy"
+    ],
+    "tags": [
+      "game-design",
+      "ux",
+      "level-design",
+      "gaming",
+      "mobile-games"
+    ],
+    "collar": "new"
+  },
+  {
+    "id": "us_game_developer",
+    "title": "Game Developer / Software Engineer (Games)",
+    "category": "Gaming & Esports",
+    "region": "US",
+    "description": "Build video games for console, PC, mobile, and VR platforms. The US is the world's largest game market — with studios like Blizzard, Naughty Dog, Rockstar, and EA employing thousands of engineers. Specialisations include gameplay programming, engine development, AI, graphics engineering, and tools programming. Indie game development is also a viable path through Steam and Epic's self-publishing tools.",
+    "salary_range": {
+      "min": 80000,
+      "max": 250000,
+      "currency": "USD/year",
+      "note": "Junior developer at a mid-sized studio to senior engineer at AAA studios like EA, Activision, or Naughty Dog"
+    },
+    "growth_outlook": "Good — US gaming market exceeding $60B; mobile, cloud gaming, and VR expanding",
+    "work_style": [
+      "Technical",
+      "Creative",
+      "Team-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "C++ or C# Programming",
+        "level": "critical"
+      },
+      {
+        "skill": "Unreal Engine or Unity",
+        "level": "critical"
+      },
+      {
+        "skill": "Algorithms & Data Structures",
+        "level": "critical"
+      },
+      {
+        "skill": "Game Physics & Math",
+        "level": "important"
+      },
+      {
+        "skill": "Version Control (Perforce or Git)",
+        "level": "critical"
+      },
+      {
+        "skill": "Debugging & Profiling",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Computer Science, Game Development, or Software Engineering (Full Sail, DigiPen, USC, CMU)",
+      "Build a strong portfolio: two or three polished game projects hosted on GitHub and itch.io",
+      "Contribute to open-source game projects or create game mods for popular engines",
+      "Apply to AAA studios, indie publishers, or game-adjacent tech (Unity, Epic Games) for junior roles"
+    ],
+    "qualifications": [
+      "Bachelor's in Computer Science, Game Development, or Software Engineering",
+      "Unity Certified Professional or Unreal Engine certification",
+      "Strong portfolio of shipped or prototype games (GitHub + playable builds)"
+    ],
+    "tags": [
+      "game-dev",
+      "unity",
+      "unreal",
+      "c-plus-plus",
+      "gaming"
+    ],
+    "collar": "new"
+  },
+  {
+    "id": "us_esports_coach",
+    "title": "Esports Coach / Analyst",
+    "category": "Gaming & Esports",
+    "region": "US",
+    "description": "Develop, analyse, and coach competitive esports teams in games like League of Legends, CS2, Valorant, and Rocket League. Collegiate esports programmes at over 100 US universities have created structured coaching roles. Professional organisations in LCS (League of Legends), CDL (Call of Duty), OWL (Overwatch), and VCT (Valorant Champions Tour) hire full coaching staffs. Analysts break down opponent data; coaches run team strategy and mental performance.",
+    "salary_range": {
+      "min": 40000,
+      "max": 200000,
+      "currency": "USD/year",
+      "note": "Collegiate assistant coach to head coach of a professional LCS or CDL franchise"
+    },
+    "growth_outlook": "Growing — collegiate esports expanding rapidly; professional league rosters demand structured coaching staff",
+    "work_style": [
+      "Digital",
+      "Analytical",
+      "Team-based",
+      "Remote / LAN"
+    ],
+    "required_skills": [
+      {
+        "skill": "Deep Game Knowledge (specific title)",
+        "level": "critical"
+      },
+      {
+        "skill": "Data & Video Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Team Communication & Psychology",
+        "level": "critical"
+      },
+      {
+        "skill": "Strategy & Draft / Meta Understanding",
+        "level": "critical"
+      },
+      {
+        "skill": "Coaching Methodology",
+        "level": "important"
+      },
+      {
+        "skill": "Performance Analytics Tools",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Reach a high competitive rank in the target game (challenger/radiant level)",
+      "Coach amateur or university teams to build a track record",
+      "Apply to Collegiate Esports leagues (NACE, NASEF) for university team coaching positions",
+      "Network within the esports ecosystem through events, Discord communities, and league portals"
+    ],
+    "qualifications": [
+      "No mandatory formal qualification",
+      "High competitive rank in the game you coach (demonstrable)",
+      "Esports management certificate from NACE Scholastic or Coursera esports programmes",
+      "A coaching portfolio: documented results from teams coached"
+    ],
+    "tags": [
+      "esports",
+      "coach",
+      "gaming",
+      "valorant",
+      "collegiate"
+    ],
+    "collar": "new"
+  },
+  {
+    "id": "isro_scientist_in",
+    "title": "ISRO Scientist / Engineer",
+    "category": "Aerospace & Space",
+    "region": "IN",
+    "description": "Work at the Indian Space Research Organisation (ISRO) on missions including Chandrayaan, Gaganyaan (India's crewed spaceflight), Aditya-L1, and communication satellite launches. ISRO employs scientists and engineers across propulsion, guidance, control, avionics, software, structures, and ground systems. The Space sector is now partially opened to private players — startups like Skyroot, Agnikul, and Pixxel are emerging employers.",
+    "salary_range": {
+      "min": 60000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Scientist/Engineer SC (entry) to Distinguished Scientist; government pay scale with assured growth"
+    },
+    "growth_outlook": "Excellent — India's Space sector privatised; new space startups + ISRO expansion = growing talent demand",
+    "work_style": [
+      "Technical",
+      "Research-intensive",
+      "Government / Mission-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Aerospace / Mechanical / Electronics Engineering",
+        "level": "critical"
+      },
+      {
+        "skill": "Mathematics & Physics",
+        "level": "critical"
+      },
+      {
+        "skill": "Embedded Systems or Control Systems",
+        "level": "important"
+      },
+      {
+        "skill": "MATLAB / Simulation Tools",
+        "level": "important"
+      },
+      {
+        "skill": "Analytical Problem Solving",
+        "level": "critical"
+      },
+      {
+        "skill": "Technical Report Writing",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Score very high in JEE Advanced → pursue B.Tech/BE in Aerospace, Mechanical, Electronics, or CS at IIT/NIT",
+      "Write ICRB (ISRO Centralised Recruitment Board) ISRO exam — held for specific posts periodically",
+      "Complete M.Tech or PhD from IIT/IISc for research scientist roles",
+      "Join private space startups (Skyroot, Agnikul Cosmos, Dhruva Space) — now a viable alternative pathway"
+    ],
+    "qualifications": [
+      "B.Tech/BE in Aerospace, Mechanical, Electronics, CS or Physics from reputed institute",
+      "M.Tech / ME / MS / PhD for senior scientist roles (IIT, IISc preferred)",
+      "ISRO ICRB exam score (written + interview)"
+    ],
+    "tags": [
+      "isro",
+      "space",
+      "aerospace",
+      "satellite",
+      "scientist"
+    ],
+    "collar": "gold"
+  },
+  {
+    "id": "aerospace_engineer_in",
+    "title": "Aerospace Engineer (Private Sector)",
+    "category": "Aerospace & Space",
+    "region": "IN",
+    "description": "Design, develop, and test aircraft, spacecraft, and related systems for defence PSUs (HAL, DRDO, BEL), private aviation (IndiGo, Air India engineering), MRO companies, or the growing Indian new-space startup ecosystem. HAL (Hindustan Aeronautics Limited) builds the Tejas fighter jet and helicopters. DRDO works on missiles and UAVs. India's aerospace MRO market is expanding with aviation growth.",
+    "salary_range": {
+      "min": 50000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Graduate engineer trainee at HAL / DRDO to senior engineer at a private aerospace firm"
+    },
+    "growth_outlook": "Strong — India's defence manufacturing push (Make in India), growing aviation, and space privatisation",
+    "work_style": [
+      "Technical",
+      "Analytical",
+      "Design-intensive"
+    ],
+    "required_skills": [
+      {
+        "skill": "Aerospace Engineering Fundamentals (aerodynamics, propulsion, structures)",
+        "level": "critical"
+      },
+      {
+        "skill": "CAD / CAE (CATIA, ANSYS, SolidWorks)",
+        "level": "critical"
+      },
+      {
+        "skill": "FEM / CFD Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "MATLAB & Simulink",
+        "level": "important"
+      },
+      {
+        "skill": "Systems Engineering",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "B.Tech/BE in Aerospace Engineering from IIT, IISc, MIT-Manipal, SRM, or Amity",
+      "Apply to HAL Graduate Engineer Trainee or DRDO through CEPTAM entrance exam",
+      "Join private MRO companies (Air India Engineering Services, Lufthansa Technik India)",
+      "Join new-space startups (Skyroot, Agnikul, Pixxel, Dhruva Space) as early-stage engineer"
+    ],
+    "qualifications": [
+      "B.Tech/BE in Aerospace, Mechanical, or Electronics Engineering",
+      "GATE score for HAL / DRDO / ISRO (assists in selection)",
+      "M.Tech in Aerospace or Avionics for senior roles"
+    ],
+    "tags": [
+      "aerospace",
+      "hal",
+      "drdo",
+      "aircraft",
+      "engineering"
+    ],
+    "collar": "gold"
+  },
+  {
+    "id": "drone_operator_in",
+    "title": "Drone Pilot / UAV Operator",
+    "category": "Aerospace & Space",
+    "region": "IN",
+    "description": "Operate unmanned aerial vehicles (UAVs / drones) for aerial photography, survey & mapping, agriculture spraying, infrastructure inspection, disaster management, and delivery. DGCA's 2021 Drone Rules liberalised the sector — India's drone industry is now one of the fastest growing, with government PLI incentives for drone manufacturing. DGCA remote pilot licence is mandatory for commercial operations.",
+    "salary_range": {
+      "min": 25000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Junior drone operator at a survey company to senior pilot or drone service entrepreneur"
+    },
+    "growth_outlook": "Very strong — India's drone policy among the world's most progressive; demand across agriculture, infrastructure, defence, and delivery",
+    "work_style": [
+      "Field-based",
+      "Technical",
+      "Outdoor"
+    ],
+    "required_skills": [
+      {
+        "skill": "UAV / Drone Piloting (multi-rotor & fixed-wing)",
+        "level": "critical"
+      },
+      {
+        "skill": "DGCA Regulations & Airspace Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Aerial Photography / Photogrammetry",
+        "level": "important"
+      },
+      {
+        "skill": "Mission Planning Software (DJI Terra, Pix4D)",
+        "level": "important"
+      },
+      {
+        "skill": "Data Processing & GIS",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Obtain a DGCA Remote Pilot Certificate (RPC) from an authorised DGCA remote pilot training organisation (RPTO)",
+      "Choose a specialisation: agriculture spraying (Garuda Aerospace, TechEagle), aerial survey (Genesys), inspection, or media",
+      "Start with a drone service company; build 200+ flight hours for senior roles",
+      "Set up your own drone service business for survey, agri-spraying, or aerial photography"
+    ],
+    "qualifications": [
+      "DGCA Remote Pilot Certificate (RPC) — mandatory for commercial drone operation",
+      "Minimum Class X pass (12th preferred); no engineering degree required",
+      "GIS / Photogrammetry certification (helpful for survey & mapping roles)"
+    ],
+    "tags": [
+      "drone",
+      "uav",
+      "dgca",
+      "aerial-survey",
+      "agri-drone"
+    ],
+    "collar": "gold"
+  },
+  {
+    "id": "us_aerospace_engineer",
+    "title": "Aerospace Engineer",
+    "category": "Aerospace & Space",
+    "region": "US",
+    "description": "Design, develop, and test aircraft, spacecraft, satellites, and defence systems. The US aerospace industry employs over 500,000 engineers at companies like Boeing, Lockheed Martin, Raytheon, SpaceX, Blue Origin, NASA, and hundreds of defence contractors. The sector spans commercial aviation, defence, NASA missions, and a booming private space industry.",
+    "salary_range": {
+      "min": 90000,
+      "max": 200000,
+      "currency": "USD/year",
+      "note": "Entry aerospace engineer to senior systems engineer at Boeing, SpaceX, or Lockheed Martin"
+    },
+    "growth_outlook": "Stable — BLS projects 6% growth; commercial space boom driving private sector demand",
+    "work_style": [
+      "Technical",
+      "Analytical",
+      "Design & Test intensive"
+    ],
+    "required_skills": [
+      {
+        "skill": "Aerodynamics & Propulsion",
+        "level": "critical"
+      },
+      {
+        "skill": "Structural Analysis & FEM",
+        "level": "critical"
+      },
+      {
+        "skill": "CAD (CATIA, SolidWorks, NX)",
+        "level": "critical"
+      },
+      {
+        "skill": "MATLAB / Simulink",
+        "level": "important"
+      },
+      {
+        "skill": "Systems Engineering (Model-Based SE)",
+        "level": "important"
+      },
+      {
+        "skill": "DoD / FAA Compliance",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's or Master's in Aerospace Engineering from AIAA-recognised universities (MIT, Stanford, Georgia Tech, Purdue, UCLA)",
+      "Intern at NASA, SpaceX, Boeing, Lockheed during undergraduate years",
+      "Obtain DoD secret clearance for defence contractor roles (significant advantage)",
+      "Join new-space companies (SpaceX, Blue Origin, Rocket Lab, Relativity Space) for fastest growth"
+    ],
+    "qualifications": [
+      "ABET-accredited Bachelor's in Aerospace Engineering (or Mechanical / Electrical for crossover roles)",
+      "PE (Professional Engineer) licence (for systems requiring sign-off)",
+      "DoD Security Clearance (required for defence aerospace roles)",
+      "MS or PhD in Aero/Astro for R&D and senior engineering positions"
+    ],
+    "tags": [
+      "aerospace",
+      "nasa",
+      "spacex",
+      "aircraft",
+      "defence-engineering"
+    ],
+    "collar": "gold"
+  },
+  {
+    "id": "automobile_engineer_in",
+    "title": "Automobile Engineer (Design & Development)",
+    "category": "Automotive & EV",
+    "region": "IN",
+    "description": "Design, develop, and test vehicles — cars, two-wheelers, commercial vehicles, and electric vehicles — for Indian OEMs (Tata Motors, Mahindra, Hero, Bajaj, Maruti Suzuki, Hyundai India) and their Tier-1 suppliers. India is the 3rd-largest automobile market globally. EV transition has created massive demand for powertrain, battery management, and NVH engineers.",
+    "salary_range": {
+      "min": 40000,
+      "max": 400000,
+      "currency": "INR/month",
+      "note": "Graduate engineer trainee at Tier-2 supplier to senior design / development engineer at an OEM"
+    },
+    "growth_outlook": "Strong — India's EV push and rising vehicle production creating sustained engineering demand",
+    "work_style": [
+      "Technical",
+      "Design & Test",
+      "Team-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Vehicle Dynamics & Powertrain",
+        "level": "critical"
+      },
+      {
+        "skill": "CAD (CATIA V5/V6, SolidWorks, NX)",
+        "level": "critical"
+      },
+      {
+        "skill": "CAE / FEA (ANSYS, Nastran)",
+        "level": "important"
+      },
+      {
+        "skill": "MATLAB / Simulink for control systems",
+        "level": "important"
+      },
+      {
+        "skill": "Automotive Standards (AIS, CMVR)",
+        "level": "important"
+      },
+      {
+        "skill": "Testing & Validation",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "B.Tech/BE in Automobile, Mechanical, or Electronics Engineering from NIT / VIT / SRM / BITS",
+      "Internship at Tata Motors, Mahindra, Hero, or a Tier-1 auto supplier (BOSCH, Valeo, ZF India)",
+      "Join the GET (Graduate Engineer Trainee) programme at an OEM",
+      "Specialise in EV — battery management, e-axle, or ADAS — for higher demand and salary"
+    ],
+    "qualifications": [
+      "B.Tech/BE in Automobile, Mechanical, or Electrical/Electronics Engineering",
+      "GATE score helpful for PSU automotive roles (BHEL, BEML)",
+      "M.Tech in Automotive Engineering (NIT Hamirpur, VIT, BITS) for senior development roles",
+      "Professional certification from SAE India (Society of Automotive Engineers)"
+    ],
+    "tags": [
+      "automobile",
+      "automotive",
+      "ev",
+      "tata-motors",
+      "engineering"
+    ],
+    "collar": "gray"
+  },
+  {
+    "id": "ev_technician_in",
+    "title": "EV Battery Technician / Electric Vehicle Technician",
+    "category": "Automotive & EV",
+    "region": "IN",
+    "description": "Service, diagnose, and repair electric vehicles — covering battery packs, BMS (Battery Management System), electric motors, charging systems, and power electronics. India's EV revolution — Ola Electric, Ather, TVS iQube, Tata Nexon EV — has created urgent demand for skilled EV technicians. This is a blue-collar role with rapidly rising wages as EVs displace ICE vehicles.",
+    "salary_range": {
+      "min": 20000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Junior EV service technician at dealership to senior EV specialist; wages rising rapidly"
+    },
+    "growth_outlook": "Excellent — EV adoption in India accelerating; massive shortage of certified EV technicians",
+    "work_style": [
+      "Hands-on",
+      "Workshop-based",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "EV Powertrain Fundamentals",
+        "level": "critical"
+      },
+      {
+        "skill": "Battery Pack Diagnosis & Replacement",
+        "level": "critical"
+      },
+      {
+        "skill": "EV Diagnostic Software (OEM-specific)",
+        "level": "critical"
+      },
+      {
+        "skill": "High Voltage Safety",
+        "level": "critical"
+      },
+      {
+        "skill": "Charging Systems & EVSE",
+        "level": "important"
+      },
+      {
+        "skill": "Basic Electronics",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Complete ITI (Industrial Training Institute) in Electrician, Electronics, or Auto Mechanic",
+      "Pursue dedicated EV technician courses from ASDC (Automotive Skills Development Council), C-STEP, or OEM training centres",
+      "Get certified by OEMs: Ola Electric, Ather, Tata Motors, TVS — all run technician training programmes",
+      "Work at an EV dealership service centre; gain certification through OEM training"
+    ],
+    "qualifications": [
+      "ITI in Electrician / Electronics / Auto Mechanic (2-year trade certificate)",
+      "ASDC-certified EV Technician (National Skills Qualification Framework Level 4/5)",
+      "OEM-specific EV certification from Ola Electric, Ather Energy, Tata Motors, or TVS",
+      "High-Voltage Safety training certificate (mandatory for working on EV battery systems)"
+    ],
+    "tags": [
+      "ev",
+      "electric-vehicle",
+      "technician",
+      "battery",
+      "automotive"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "auto_mechanic_in",
+    "title": "Automobile Mechanic / Service Technician",
+    "category": "Automotive & EV",
+    "region": "IN",
+    "description": "Service, repair, and maintain motor vehicles — cars, two-wheelers, and commercial vehicles — at authorised dealerships, multi-brand garages, or self-owned repair shops. India has 450+ million vehicles on the road. Automotive service is one of the most employment-intensive sectors in the country. Skilled mechanics who specialise in premium brands or EVs command higher wages.",
+    "salary_range": {
+      "min": 15000,
+      "max": 60000,
+      "currency": "INR/month",
+      "note": "Junior mechanic at a service centre to senior diagnostic technician at an authorised dealership"
+    },
+    "growth_outlook": "Stable — growing vehicle fleet sustains demand; EV adds new specialisation layer",
+    "work_style": [
+      "Hands-on",
+      "Workshop-based",
+      "Physical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Vehicle Diagnostics (OBD scan tools)",
+        "level": "critical"
+      },
+      {
+        "skill": "Engine & Transmission Repair",
+        "level": "critical"
+      },
+      {
+        "skill": "Electrical & AC Systems",
+        "level": "important"
+      },
+      {
+        "skill": "Brake & Suspension Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Manufacturer-Specific Service Manuals",
+        "level": "important"
+      },
+      {
+        "skill": "Tool Proficiency",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Complete ITI in Mechanic (Motor Vehicle) — the most direct 2-year trade path",
+      "Apprenticeship under the Apprentices Act at an authorised dealership (Maruti, Hero, Hyundai)",
+      "Join a multi-brand garage and work up through specialisations (AC, engine, electrical)",
+      "Start your own workshop after 5+ years of experience"
+    ],
+    "qualifications": [
+      "ITI Mechanic Motor Vehicle (MMV) — 2-year trade certificate from government ITI",
+      "Diploma in Automobile Engineering (polytechnic — 3 years)",
+      "OEM-specific dealership technician certification (Maruti, Hyundai, Hero, Bajaj)"
+    ],
+    "tags": [
+      "mechanic",
+      "automobile",
+      "service-technician",
+      "iti",
+      "repair"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "us_automotive_engineer",
+    "title": "Automotive Engineer",
+    "category": "Automotive & EV",
+    "region": "US",
+    "description": "Design and develop vehicles at Ford, GM, Stellantis, Tesla, Rivian, Lucid, and hundreds of Tier-1 automotive suppliers. The US auto industry is in its biggest transformation since the Model T — EV platforms, autonomous driving systems (ADAS), and software-defined vehicles are driving demand for mechatronic, electrical, and software engineers.",
+    "salary_range": {
+      "min": 80000,
+      "max": 180000,
+      "currency": "USD/year",
+      "note": "Entry engineer at a Tier-1 supplier to principal engineer at Tesla, Ford EV, or GM BrightDrop"
+    },
+    "growth_outlook": "Strong — EV transformation driving up demand for battery, powertrain, and software engineers",
+    "work_style": [
+      "Technical",
+      "Design & Test",
+      "Team-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Vehicle Dynamics & Powertrain",
+        "level": "critical"
+      },
+      {
+        "skill": "CAD (CATIA, SolidWorks)",
+        "level": "critical"
+      },
+      {
+        "skill": "Control Systems & MATLAB",
+        "level": "important"
+      },
+      {
+        "skill": "CAN Bus & Automotive Protocols (LIN, FlexRay)",
+        "level": "important"
+      },
+      {
+        "skill": "FMEA & Quality Engineering",
+        "level": "important"
+      },
+      {
+        "skill": "Battery Systems (for EV roles)",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "ABET-accredited bachelor's in Mechanical, Electrical, or Automotive Engineering",
+      "Intern at Ford, GM, Toyota, Tesla, or Tier-1 suppliers (BOSCH, Continental, Aptiv)",
+      "Join SAE International student chapters for competitions and networking",
+      "Focus on ADAS / software or EV battery specialisation for highest demand roles"
+    ],
+    "qualifications": [
+      "ABET-accredited Bachelor's in Mechanical, Electrical, Automotive, or Computer Engineering",
+      "PE licence (for certain system sign-off roles)",
+      "SAE International certifications in specific automotive disciplines"
+    ],
+    "tags": [
+      "automotive",
+      "ev",
+      "tesla",
+      "ford",
+      "engineering"
+    ],
+    "collar": "gray"
+  },
+  {
+    "id": "veterinarian_in",
+    "title": "Veterinarian (Veterinary Doctor)",
+    "category": "Veterinary & Animal Care",
+    "region": "IN",
+    "description": "Diagnose, treat, and prevent diseases in animals — companion animals (dogs, cats), livestock (cattle, poultry, sheep), and wild animals. India has over 75,000 registered veterinarians and a severe shortage in rural areas. Government veterinarians serve through state animal husbandry departments; private vets serve urban pet clinics; and specialisations include surgery, pathology, radiology, and zoo medicine.",
+    "salary_range": {
+      "min": 40000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Government AHD veterinarian to specialist private vet or clinic owner in a metro city"
+    },
+    "growth_outlook": "Good — pet industry booming; government programmes for livestock disease control and dairy sector expanding",
+    "work_style": [
+      "Clinical",
+      "Hands-on",
+      "Varied (indoor + outdoor)"
+    ],
+    "required_skills": [
+      {
+        "skill": "Animal Anatomy & Physiology",
+        "level": "critical"
+      },
+      {
+        "skill": "Clinical Diagnosis",
+        "level": "critical"
+      },
+      {
+        "skill": "Surgical Skills",
+        "level": "important"
+      },
+      {
+        "skill": "Pharmacology & Drug Administration",
+        "level": "critical"
+      },
+      {
+        "skill": "Animal Handling",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication with Pet Owners",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Score well in PCB (Physics, Chemistry, Biology) at 12th and appear for state veterinary entrance exams (PCVET, AP EAPCET-Vet)",
+      "Complete BVSc & AH (Bachelor of Veterinary Science and Animal Husbandry) — 5.5-year degree",
+      "Register with Veterinary Council of India (mandatory to practise)",
+      "Join government Animal Husbandry Department (AHD) through state UPSC/PSC exam"
+    ],
+    "qualifications": [
+      "BVSc & AH from a VCI-recognised veterinary college (5.5 years including internship)",
+      "MVSc for specialisation (surgery, pathology, internal medicine, zoo medicine)",
+      "Veterinary Council of India (VCI) registration (mandatory)",
+      "PhD in veterinary science for academic and research careers"
+    ],
+    "tags": [
+      "veterinarian",
+      "vet",
+      "animal-care",
+      "livestock",
+      "pet-clinic"
+    ],
+    "collar": "gold"
+  },
+  {
+    "id": "pet_groomer_in",
+    "title": "Pet Groomer / Animal Care Specialist",
+    "category": "Veterinary & Animal Care",
+    "region": "IN",
+    "description": "Provide grooming, bathing, nail trimming, and coat care services for pet animals — primarily dogs and cats. India's pet industry is growing at 20%+ annually, driven by urban pet ownership. Pet grooming salons, mobile grooming vans, and grooming services attached to vet clinics are all expanding. Top groomers also compete in international grooming championships.",
+    "salary_range": {
+      "min": 15000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Junior groomer at a salon to senior groomer / self-employed mobile grooming business owner"
+    },
+    "growth_outlook": "Very strong — India's pet care market crossing ₹20,000 crore; grooming is a key service segment",
+    "work_style": [
+      "Hands-on",
+      "Physical",
+      "Client / Animal-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Dog & Cat Coat Grooming Techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Breed-Specific Styling",
+        "level": "important"
+      },
+      {
+        "skill": "Animal Handling & Temperament",
+        "level": "critical"
+      },
+      {
+        "skill": "Bathing & Drying Equipment",
+        "level": "critical"
+      },
+      {
+        "skill": "Nail & Ear Care",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Communication",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Take a professional pet grooming course from institutes like Heads Up For Tails, Supertails, or private grooming academies",
+      "Apprentice at an established pet grooming salon",
+      "Start as an assistant groomer and work up to certified groomer",
+      "Launch a mobile grooming service for higher margins and flexibility"
+    ],
+    "qualifications": [
+      "Professional Pet Grooming Certificate from a recognised grooming school or brand",
+      "No mandatory formal qualification — practical skill and portfolio is primary",
+      "City Pet Shop / Grooming salon licence (municipal requirement)"
+    ],
+    "tags": [
+      "pet-grooming",
+      "pet-care",
+      "dog-grooming",
+      "animal",
+      "salon"
+    ],
+    "collar": "pink"
+  },
+  {
+    "id": "wildlife_biologist_in",
+    "title": "Wildlife Biologist / Conservation Officer",
+    "category": "Veterinary & Animal Care",
+    "region": "IN",
+    "description": "Study wild animal populations, habitats, and ecosystems; support conservation programmes for endangered species like tigers, elephants, and leopards. India has 54 Tiger Reserves and 99 National Parks employing field biologists, Wildlife Institute of India researchers, NGO conservationists, and state forest department rangers. Research data informs conservation policy.",
+    "salary_range": {
+      "min": 30000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Field research assistant at NGO to senior scientist at WII (Wildlife Institute of India) or government Forest Service"
+    },
+    "growth_outlook": "Stable — conservation funding growing with eco-tourism and international climate finance",
+    "work_style": [
+      "Outdoor / Field",
+      "Research-intensive",
+      "Remote posting"
+    ],
+    "required_skills": [
+      {
+        "skill": "Wildlife Survey & Monitoring Methods",
+        "level": "critical"
+      },
+      {
+        "skill": "Species Identification",
+        "level": "critical"
+      },
+      {
+        "skill": "Ecological Data Collection & Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "GIS & Spatial Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Camera Trapping & Radio Telemetry",
+        "level": "important"
+      },
+      {
+        "skill": "Scientific Report Writing",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Zoology, Forestry, Life Sciences, or Environmental Science",
+      "Master's in Wildlife Science (WII Dehradun, SACON, NCF), Ecology, or Zoology",
+      "Join an NGO (WCS India, WWF-India, NCF, Aaranyak) as a field researcher",
+      "Qualify IFS (Indian Forest Service) exam for a government forest officer career"
+    ],
+    "qualifications": [
+      "BSc / MSc in Zoology, Wildlife Science, Forestry, or Environmental Science",
+      "WII M.Sc Wildlife Science (Wildlife Institute of India, Dehradun) — most prestigious",
+      "IFS (Indian Forest Service) exam (UPSC) for government forest officer career",
+      "PhD in Ecology / Wildlife Biology for research and academic careers"
+    ],
+    "tags": [
+      "wildlife",
+      "conservation",
+      "ecology",
+      "forest",
+      "research"
+    ],
+    "collar": "pink"
+  },
+  {
+    "id": "us_veterinarian",
+    "title": "Veterinarian (DVM)",
+    "category": "Veterinary & Animal Care",
+    "region": "US",
+    "description": "Diagnose, treat, and prevent diseases in companion animals, livestock, exotic animals, and wildlife. The US veterinary profession is among the most respected and consistently highest-paying in healthcare. Specialisations (internal medicine, oncology, cardiology, surgery, emergency & critical care) require additional residency training. The AVMA predicts growing shortages of vets in rural and food-animal practice.",
+    "salary_range": {
+      "min": 90000,
+      "max": 250000,
+      "currency": "USD/year",
+      "note": "General practitioner at a small animal clinic to veterinary specialist at a referral centre"
+    },
+    "growth_outlook": "Excellent — AVMA reports veterinarian shortage; pet industry boom and food safety demand sustaining growth",
+    "work_style": [
+      "Clinical",
+      "Hands-on",
+      "Variable hours (emergency care is 24/7)"
+    ],
+    "required_skills": [
+      {
+        "skill": "Animal Anatomy & Physiology",
+        "level": "critical"
+      },
+      {
+        "skill": "Clinical Diagnosis",
+        "level": "critical"
+      },
+      {
+        "skill": "Surgical Techniques",
+        "level": "important"
+      },
+      {
+        "skill": "Pharmacology",
+        "level": "critical"
+      },
+      {
+        "skill": "Radiology & Diagnostic Imaging",
+        "level": "important"
+      },
+      {
+        "skill": "Client Communication",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Complete prerequisite undergraduate coursework (biology, chemistry, biochemistry) → apply to AVMA-accredited veterinary college (DVM — 4 years)",
+      "Gain hands-on experience volunteering at clinics, shelters, and farms before applying",
+      "Pass the NAVLE (North American Veterinary Licensing Examination) for state licensure",
+      "Complete a residency (3+ years) and board certification for specialisation"
+    ],
+    "qualifications": [
+      "DVM (Doctor of Veterinary Medicine) or VMD from AVMA-accredited college",
+      "NAVLE (state veterinary licence examination)",
+      "Board certification from ABVP (speciality) after residency and examination"
+    ],
+    "tags": [
+      "veterinarian",
+      "dvm",
+      "animal-medicine",
+      "pet-care",
+      "livestock"
+    ],
+    "collar": "gold"
+  },
+  {
+    "id": "forensic_scientist_in",
+    "title": "Forensic Scientist",
+    "category": "Forensic & Investigation",
+    "region": "IN",
+    "description": "Examine physical evidence from crime scenes — fingerprints, DNA, ballistics, questioned documents, toxicology samples, and digital evidence — to support criminal investigations and judicial proceedings. Central and State Forensic Science Laboratories (FSLs) and the CFSL under MHA are the primary employers. Private forensic labs and cybercrime investigation firms are also growing employers.",
+    "salary_range": {
+      "min": 40000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Junior forensic examiner at state FSL to senior scientist / director at CFSL"
+    },
+    "growth_outlook": "Growing — India expanding forensic infrastructure; digital forensics seeing rapid growth",
+    "work_style": [
+      "Laboratory-based",
+      "Analytical",
+      "Precise"
+    ],
+    "required_skills": [
+      {
+        "skill": "Evidence Collection & Chain of Custody",
+        "level": "critical"
+      },
+      {
+        "skill": "Laboratory Techniques (chromatography, spectroscopy)",
+        "level": "critical"
+      },
+      {
+        "skill": "DNA Analysis & Serology",
+        "level": "important"
+      },
+      {
+        "skill": "Digital Forensics Tools (Cellebrite, Autopsy)",
+        "level": "important"
+      },
+      {
+        "skill": "Report Writing for Court Admissibility",
+        "level": "critical"
+      },
+      {
+        "skill": "Forensic Photography",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Forensic Science, Chemistry, Biology, or Physics",
+      "Master's in Forensic Science from NFSU (National Forensic Sciences University, Gandhinagar), Panjab University, or state forensic universities",
+      "Qualify for FSL (Forensic Science Laboratory) recruitment through state PSC exams",
+      "Join private cybercrime labs, CERT-In empanelled firms, or multinational forensic firms"
+    ],
+    "qualifications": [
+      "BSc / MSc in Forensic Science or a core science (Chemistry, Biology, Physics)",
+      "MSc Forensic Science from NFSU (National Forensic Sciences University) — India's premier forensic institution",
+      "State FSL / CFSL recruitment exam for government forensic scientist posts",
+      "Certified Digital Forensics Examiner (CDFE) or Cellebrite Certified Examiner (CCE) for digital specialisation"
+    ],
+    "tags": [
+      "forensic",
+      "crime-lab",
+      "fsl",
+      "investigation",
+      "evidence"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "private_investigator_in",
+    "title": "Private Investigator / Detective",
+    "category": "Forensic & Investigation",
+    "region": "IN",
+    "description": "Conduct investigations for private clients — individuals, law firms, corporations, and insurance companies — covering matrimonial cases, corporate fraud, background verification, surveillance, and asset tracing. India's private detective industry is large but unregulated — no national licensing exists yet. Reputed agencies build credibility through quality and client relationships. Former police and intelligence officers often enter this field.",
+    "salary_range": {
+      "min": 30000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Junior field investigator at a detective agency to senior partner / owner of an established firm; fee-based at senior levels"
+    },
+    "growth_outlook": "Growing — corporate due diligence, insurance fraud investigation, and background verification driving demand",
+    "work_style": [
+      "Field-based",
+      "Independent",
+      "Confidential / Discreet"
+    ],
+    "required_skills": [
+      {
+        "skill": "Surveillance Techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Legal Evidence Gathering",
+        "level": "critical"
+      },
+      {
+        "skill": "Open Source Intelligence (OSINT)",
+        "level": "critical"
+      },
+      {
+        "skill": "Interview & Interrogation Skills",
+        "level": "important"
+      },
+      {
+        "skill": "Report Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "Discretion & Confidentiality",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Background in law enforcement (police / intelligence agencies) provides the most direct entry",
+      "Bachelor's in Criminology, Law, or Psychology",
+      "Join an established detective agency as a junior investigator",
+      "Specialise in corporate investigations or digital OSINT for higher-paying clients"
+    ],
+    "qualifications": [
+      "No mandatory national licence in India (proposed legislation under review)",
+      "Bachelor's in Criminology, Law, or Social Science",
+      "OSINT framework training (online courses), digital investigation certifications",
+      "Former police / IB / intelligence background is a strong credential"
+    ],
+    "tags": [
+      "private-investigator",
+      "detective",
+      "surveillance",
+      "osint",
+      "corporate-fraud"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "cyber_forensics_in",
+    "title": "Cyber Forensic Analyst / Digital Investigator",
+    "category": "Forensic & Investigation",
+    "region": "IN",
+    "description": "Investigate cybercrimes — hacking, ransomware, online fraud, child exploitation content, corporate data theft, and financial cybercrime. Cyber forensic analysts work for state cybercrime cells, CERT-In, banks, fintech companies, law firms, and private forensic labs. This is one of the fastest-growing areas of Indian law enforcement and private security, driven by rapid digitisation and rising cybercrime rates.",
+    "salary_range": {
+      "min": 40000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Cyber crime cell analyst (government) to senior digital forensics examiner in a private firm"
+    },
+    "growth_outlook": "Excellent — India among the top 5 most cyber-targeted nations; cybercrime growing 15% annually",
+    "work_style": [
+      "Lab-based",
+      "Analytical",
+      "Detail-intensive"
+    ],
+    "required_skills": [
+      {
+        "skill": "Digital Evidence Acquisition & Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Cellebrite / UFED / Axiom",
+        "level": "critical"
+      },
+      {
+        "skill": "Network Forensics (Wireshark, NetworkMiner)",
+        "level": "important"
+      },
+      {
+        "skill": "Malware Analysis",
+        "level": "helpful"
+      },
+      {
+        "skill": "Chain of Custody Documentation",
+        "level": "critical"
+      },
+      {
+        "skill": "OSINT & Social Media Forensics",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Computer Science, Cybersecurity, or Forensic Science",
+      "Master's in Cyber Forensics from NFSU (National Forensic Sciences University)",
+      "Get certified: CEH (Certified Ethical Hacker), CHFI (Computer Hacking Forensic Investigator), CCE",
+      "Join cybercrime cells (state police), CERT-In, or private forensic firms"
+    ],
+    "qualifications": [
+      "BSc/MSc in Computer Science, Cybersecurity, or Forensic Science",
+      "CHFI (Computer Hacking Forensic Investigator) — EC-Council certification",
+      "Cellebrite Certified Examiner (CCE) for mobile forensics",
+      "Certified Digital Forensics Examiner (CDFE) from IACRB"
+    ],
+    "tags": [
+      "cyber-forensics",
+      "digital-investigation",
+      "cybercrime",
+      "chfi",
+      "cert-in"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "architect_in",
+    "title": "Architect",
+    "category": "Architecture & Urban Planning",
+    "region": "IN",
+    "description": "Design buildings, complexes, interiors, and urban spaces — balancing aesthetics, functionality, safety, and sustainability. Registered architects in India are governed by the Council of Architecture (CoA). Practice areas include residential, commercial, hospitality, industrial, healthcare, and heritage conservation architecture. Indian architecture is booming with smart cities, PMAY housing, and premium real estate projects.",
+    "salary_range": {
+      "min": 30000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Junior architect at a firm to principal / partner at a leading studio (Morphogenesis, RSP, HCP)"
+    },
+    "growth_outlook": "Strong — India's construction sector expected to become the world's 3rd largest by 2030",
+    "work_style": [
+      "Creative",
+      "Design-intensive",
+      "Client-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Architectural Design & Drafting",
+        "level": "critical"
+      },
+      {
+        "skill": "AutoCAD & Revit (BIM)",
+        "level": "critical"
+      },
+      {
+        "skill": "3D Visualisation (SketchUp, 3ds Max, Lumion)",
+        "level": "important"
+      },
+      {
+        "skill": "Building Codes & NBC (National Building Code)",
+        "level": "critical"
+      },
+      {
+        "skill": "Site Supervision",
+        "level": "important"
+      },
+      {
+        "skill": "Client Communication",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Pass NATA (National Aptitude Test in Architecture) and JEE Paper 2 for architecture college admission",
+      "Complete B.Arch (5-year degree) from a CoA-approved college",
+      "Register with CoA (Council of Architecture) after B.Arch — mandatory to use the title 'Architect'",
+      "Work in a design studio for 3-5 years before setting up an independent practice"
+    ],
+    "qualifications": [
+      "B.Arch from a CoA-recognised institution (5-year degree)",
+      "Council of Architecture (CoA) registration (mandatory to practise as an architect)",
+      "M.Arch for specialisation (sustainable design, urban design, conservation architecture)",
+      "IGBC AP (Accredited Professional) or GRIHA (Green Rating for Integrated Habitat Assessment) for sustainable architecture"
+    ],
+    "tags": [
+      "architect",
+      "architecture",
+      "design",
+      "bim",
+      "urban"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "urban_planner_in",
+    "title": "Urban Planner / Town Planner",
+    "category": "Architecture & Urban Planning",
+    "region": "IN",
+    "description": "Plan and design land use, infrastructure, transportation, and public spaces for cities, towns, and regions. Urban planners work with municipal corporations, state urban development authorities (DDA, MMRDA, BBMP), central agencies (TERI, NIUA), consultancy firms (Deloitte, McKinsey Urban Practice), and international organisations (UN-Habitat). India's Smart Cities Mission and AMRUT programme have created significant demand.",
+    "salary_range": {
+      "min": 35000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Junior planner at a private consultancy to senior planner / chief town planner in a state authority"
+    },
+    "growth_outlook": "Strong — Smart Cities Mission, Metro projects, and rapid urbanisation driving planning demand",
+    "work_style": [
+      "Analytical",
+      "GIS-intensive",
+      "Government / Consultancy"
+    ],
+    "required_skills": [
+      {
+        "skill": "Land Use Planning & Zoning",
+        "level": "critical"
+      },
+      {
+        "skill": "GIS & Spatial Analysis (ArcGIS, QGIS)",
+        "level": "critical"
+      },
+      {
+        "skill": "Urban Economics & Demographics",
+        "level": "important"
+      },
+      {
+        "skill": "Participatory Planning",
+        "level": "important"
+      },
+      {
+        "skill": "Transport Planning",
+        "level": "important"
+      },
+      {
+        "skill": "Master Plan Preparation",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "B.Arch or B.Plan → M.Plan (Master of Planning) from SPA Delhi, IIT Kharagpur, CEPT Ahmedabad, or TISS",
+      "Join urban development authorities (DDA, MMRDA, GDA) through UPSC / state PSC exams",
+      "Work at private urban consultancy firms (RITES, Deloitte, McKinsey Urban) or NGOs (WRI India, ITDP)",
+      "International career path: UN-Habitat, World Bank Urban practice (requires strong academic credentials)"
+    ],
+    "qualifications": [
+      "M.Plan (Master of Planning) from SPA Delhi, IIT, or CEPT — the standard professional qualification",
+      "B.Arch + M.Plan or B.Plan + M.Plan pathway",
+      "Town & Country Planners registration (RTPI India equivalent — ITPI membership)",
+      "GIS certifications (ESRI ArcGIS, QGIS) — strong practical value"
+    ],
+    "tags": [
+      "urban-planning",
+      "town-planning",
+      "gis",
+      "smart-city",
+      "infrastructure"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "landscape_architect_in",
+    "title": "Landscape Architect / Landscape Designer",
+    "category": "Architecture & Urban Planning",
+    "region": "IN",
+    "description": "Design outdoor environments — parks, gardens, green corridors, public plazas, resort landscapes, and campus grounds. India's growing premium real estate, hospitality, and smart city sectors have increased demand for landscape professionals. Large projects include Navi Mumbai greening, Delhi's Central Vista, Hyderabad's urban forests, and private resort design across hill stations.",
+    "salary_range": {
+      "min": 25000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Junior designer at a landscape firm to principal partner or independent consultant for luxury real estate"
+    },
+    "growth_outlook": "Growing — urban greening mandates, premium real estate, and resort tourism driving demand",
+    "work_style": [
+      "Creative",
+      "Outdoor + Office",
+      "Design-intensive"
+    ],
+    "required_skills": [
+      {
+        "skill": "Landscape Design & Planting Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "AutoCAD & SketchUp",
+        "level": "critical"
+      },
+      {
+        "skill": "Horticulture & Plant Science",
+        "level": "important"
+      },
+      {
+        "skill": "Sustainable Drainage & Water Management",
+        "level": "important"
+      },
+      {
+        "skill": "Site Analysis & Grading",
+        "level": "critical"
+      },
+      {
+        "skill": "3D Visualisation",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "B.L.Arch (Bachelor of Landscape Architecture) from SPA Delhi, CEPT, or Chandigarh College of Architecture",
+      "B.Arch + M.Arch in Landscape Design as a cross-qualification path",
+      "Join a landscape architecture firm (Studio Terra, SiteWorks, Design Cell) as a junior designer",
+      "Build a portfolio of residential garden and campus projects"
+    ],
+    "qualifications": [
+      "B.L.Arch or M.L.Arch from an ISOLA (Indian Society of Landscape Architects) recognised institution",
+      "ISOLA membership (Indian Society of Landscape Architects)",
+      "IGBC Landscape AP certification for sustainable landscape design"
+    ],
+    "tags": [
+      "landscape-architect",
+      "garden-design",
+      "urban-green",
+      "environment",
+      "outdoor"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "us_architect",
+    "title": "Architect",
+    "category": "Architecture & Urban Planning",
+    "region": "US",
+    "description": "Design buildings, interiors, and urban environments for residential, commercial, institutional, and public use. US architects are licensed by state boards through the ARE (Architectural Registration Examination). Major firms include SOM, Gensler, HOK, Perkins & Will, and thousands of boutique practices. Sustainable design (LEED) and healthcare architecture are strong growth specialisations.",
+    "salary_range": {
+      "min": 65000,
+      "max": 200000,
+      "currency": "USD/year",
+      "note": "Intern architect to principal / partner at a major firm; independent practice scales with portfolio"
+    },
+    "growth_outlook": "Stable — BLS projects 5% growth; sustainable design and healthcare driving demand",
+    "work_style": [
+      "Creative",
+      "Design-intensive",
+      "Client-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Architectural Design",
+        "level": "critical"
+      },
+      {
+        "skill": "Revit & BIM",
+        "level": "critical"
+      },
+      {
+        "skill": "AutoCAD & SketchUp",
+        "level": "critical"
+      },
+      {
+        "skill": "Building Codes (IBC)",
+        "level": "critical"
+      },
+      {
+        "skill": "Project Management",
+        "level": "important"
+      },
+      {
+        "skill": "Sustainable Design (LEED)",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "B.Arch or M.Arch from NAAB-accredited programme",
+      "Complete AXP (Architectural Experience Program) — 3,740 hours of supervised experience",
+      "Pass the ARE (Architect Registration Examination) — 6 divisions",
+      "Gain LEED AP accreditation for sustainable design specialisation"
+    ],
+    "qualifications": [
+      "B.Arch or M.Arch from NAAB-accredited institution",
+      "State architect licence (via ARE completion + AXP hours)",
+      "LEED AP BD+C, ID+C, or O+M (for sustainable architecture specialisation)",
+      "AIA (American Institute of Architects) membership"
+    ],
+    "tags": [
+      "architect",
+      "leed",
+      "bim",
+      "revit",
+      "design"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "petroleum_engineer_in",
+    "title": "Petroleum Engineer / Oil & Gas Engineer",
+    "category": "Energy & Utilities",
+    "region": "IN",
+    "description": "Develop methods for extracting oil and natural gas from the earth, design drilling equipment, oversee production operations, and ensure safe reservoir management. India's key employers include ONGC, Oil India, Cairn Energy India, GAIL, and BPCL. The offshore industry (Mumbai High, Krishna-Godavari basin) is the primary employment zone, with ONGC alone employing thousands of petroleum engineers.",
+    "salary_range": {
+      "min": 60000,
+      "max": 400000,
+      "currency": "INR/month",
+      "note": "Graduate Engineer Trainee at ONGC to senior engineer or expatriate offshore engineer"
+    },
+    "growth_outlook": "Stable — India's oil demand growing; diversifying to natural gas and LNG infrastructure",
+    "work_style": [
+      "Technical",
+      "Outdoor / Offshore",
+      "Shift-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Reservoir Engineering & Geology Basics",
+        "level": "critical"
+      },
+      {
+        "skill": "Drilling Engineering",
+        "level": "critical"
+      },
+      {
+        "skill": "Production & Well Completion",
+        "level": "critical"
+      },
+      {
+        "skill": "Petroleum Simulation Software (PETREL, ECLIPSE)",
+        "level": "important"
+      },
+      {
+        "skill": "Safety Protocols (HSEE, IADC)",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Interpretation",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "B.Tech in Petroleum Engineering from IIT (ISM) Dhanbad, UPES Dehradun, MIT Manipal, or BITS Pilani",
+      "GATE petroleum engineering score for ONGC / OIL recruitment",
+      "Join ONGC, OIL, or GAIL as a Graduate Engineer Trainee",
+      "Work with private upstream operators (Cairn, HMEL, Shell India) or oilfield services (Halliburton, Schlumberger India)"
+    ],
+    "qualifications": [
+      "B.Tech in Petroleum Engineering from IIT Dhanbad or UPES (most recognised for this stream)",
+      "GATE score in Petroleum Engineering for PSU recruitment",
+      "SPE (Society of Petroleum Engineers) membership",
+      "M.Tech in Petroleum Engineering for senior reservoir or drilling roles"
+    ],
+    "tags": [
+      "petroleum",
+      "oil-gas",
+      "ongc",
+      "drilling",
+      "reservoir"
+    ],
+    "collar": "gray"
+  },
+  {
+    "id": "solar_energy_engineer_in",
+    "title": "Solar Energy Engineer / Renewable Energy Specialist",
+    "category": "Energy & Utilities",
+    "region": "IN",
+    "description": "Design, install, commission, and manage solar photovoltaic (PV) and solar thermal energy systems for residential rooftops, commercial buildings, industrial plants, and utility-scale solar parks. India is targeting 500 GW of renewable energy by 2030 — solar is the fastest-growing energy sector in the country. Players include NTPC Renewables, Adani Green, Tata Power Solar, ReNew Power, and SECI.",
+    "salary_range": {
+      "min": 35000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Junior design engineer at an EPC company to senior project manager at Adani Green or NTPC Renewables"
+    },
+    "growth_outlook": "Excellent — India's solar capacity tripling every 5 years; NTPC, Adani, ReNew all on massive hiring sprees",
+    "work_style": [
+      "Technical",
+      "Field + Office",
+      "Project-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Solar PV System Design (PVsyst, Helioscope)",
+        "level": "critical"
+      },
+      {
+        "skill": "Electrical Engineering Fundamentals",
+        "level": "critical"
+      },
+      {
+        "skill": "Grid Integration & Power Electronics",
+        "level": "important"
+      },
+      {
+        "skill": "Energy Yield Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Site Assessment & Solar Irradiance",
+        "level": "important"
+      },
+      {
+        "skill": "Project Management",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "B.Tech in Electrical, Electronics, or Mechanical Engineering",
+      "Specialise in renewable energy through M.Tech (IIT, MNIT, TERI School of Advanced Studies)",
+      "Short certification courses in solar PV (NIWE, TERI, ISES — Indian Section)",
+      "Join EPC firms (Jakson, SunSource Energy, Greenko) or developers (Adani Green, ReNew) as a junior engineer"
+    ],
+    "qualifications": [
+      "B.Tech in Electrical, Electronics, or Mechanical Engineering",
+      "M.Tech in Renewable Energy / Power Systems (IIT Roorkee, MNIT, TERI SAS)",
+      "Certified Solar PV Installer / Designer (NIWE, TERI, MNRE approved bodies)",
+      "BEE (Bureau of Energy Efficiency) Certified Energy Manager (CEM) for energy management roles"
+    ],
+    "tags": [
+      "solar",
+      "renewable-energy",
+      "pv-design",
+      "green-energy",
+      "ntpc"
+    ],
+    "collar": "gray"
+  },
+  {
+    "id": "power_plant_operator_in",
+    "title": "Power Plant Operator / Control Room Engineer",
+    "category": "Energy & Utilities",
+    "region": "IN",
+    "description": "Operate and monitor thermal, hydro, nuclear, gas, or renewable power plants — ensuring safe and efficient electricity generation. NTPC, TATA Power, CESC, Adani Power, and state DISCOMs are major employers. Control room operators monitor turbines, boilers, generators, and safety systems. Senior operators become plant managers or shift supervisors.",
+    "salary_range": {
+      "min": 30000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Junior operator trainee at a state power utility to shift in-charge at an NTPC or Adani thermal plant"
+    },
+    "growth_outlook": "Stable — thermal plants declining slowly; new renewable plants need operators too",
+    "work_style": [
+      "Shift-based",
+      "Technical",
+      "Control room / Plant floor"
+    ],
+    "required_skills": [
+      {
+        "skill": "Electrical & Mechanical Systems Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "DCS / SCADA Operation",
+        "level": "critical"
+      },
+      {
+        "skill": "Turbine & Boiler Operation",
+        "level": "critical"
+      },
+      {
+        "skill": "Plant Safety Protocols",
+        "level": "critical"
+      },
+      {
+        "skill": "Shift Logging & Reporting",
+        "level": "important"
+      },
+      {
+        "skill": "Fault Identification",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Diploma in Electrical, Mechanical, or Instrumentation Engineering (polytechnic)",
+      "Recruit through NTPC, TATA Power, Adani Power Graduate Apprenticeship / Diploma Trainee programmes",
+      "Qualify NTPC Executive Trainee (GET) exam for B.Tech holders",
+      "Progress from apprentice trainee → junior engineer → assistant shift in-charge"
+    ],
+    "qualifications": [
+      "Diploma or B.Tech in Electrical / Mechanical / Instrumentation Engineering",
+      "NTPC / TATA Power / Adani Power internal certifications (provided during training)",
+      "CEA (Central Electricity Authority) operator certification for licensed control room operation"
+    ],
+    "tags": [
+      "power-plant",
+      "electricity",
+      "ntpc",
+      "operator",
+      "energy"
+    ],
+    "collar": "red"
+  },
+  {
+    "id": "dietitian_nutritionist_in",
+    "title": "Dietitian / Clinical Nutritionist",
+    "category": "Food Science & Nutrition",
+    "region": "IN",
+    "description": "Advise individuals and groups on diet and nutrition to manage health conditions, improve athletic performance, or achieve wellness goals. Hospital dietitians work in clinical settings managing patients with diabetes, kidney disease, and post-surgical recovery. Sports nutritionists work with athletes. Wellness nutritionists serve the growing corporate wellness market. Online nutrition coaching is a fast-growing independent practice.",
+    "salary_range": {
+      "min": 25000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Junior clinical dietitian in a hospital to head of nutrition at a corporate hospital chain or independent online nutritionist"
+    },
+    "growth_outlook": "Strong — rising health awareness, diabetes & lifestyle disease burden, and sports nutrition growing",
+    "work_style": [
+      "Clinical / Consulting",
+      "Client-facing",
+      "Office or online"
+    ],
+    "required_skills": [
+      {
+        "skill": "Clinical Nutrition & Therapeutic Diets",
+        "level": "critical"
+      },
+      {
+        "skill": "Nutritional Assessment",
+        "level": "critical"
+      },
+      {
+        "skill": "Diet Planning & Counselling",
+        "level": "critical"
+      },
+      {
+        "skill": "Knowledge of Food Composition",
+        "level": "important"
+      },
+      {
+        "skill": "Communication & Behaviour Change Coaching",
+        "level": "critical"
+      },
+      {
+        "skill": "Research & Evidence-Based Practice",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Food Science & Nutrition, Home Science, or Dietetics (BSc / BSc Home Science)",
+      "Master's in Clinical Nutrition & Dietetics or Food Science (MSc)",
+      "Internship at a tertiary care hospital (AIIMS, Fortis, Apollo) for clinical experience",
+      "Register with IDA (Indian Dietetic Association) for professional recognition"
+    ],
+    "qualifications": [
+      "BSc in Food Science & Nutrition / Home Science / Dietetics",
+      "MSc / PG Diploma in Dietetics / Clinical Nutrition (AIIMS, IGNOU, SNDT, Amity)",
+      "RD (Registered Dietitian) credential from IDA (Indian Dietetic Association)"
+    ],
+    "tags": [
+      "dietitian",
+      "nutritionist",
+      "clinical-nutrition",
+      "diet",
+      "wellness"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "food_technologist_in",
+    "title": "Food Technologist / Food Scientist",
+    "category": "Food Science & Nutrition",
+    "region": "IN",
+    "description": "Develop, test, and improve food products — from formulation and processing to packaging and shelf-life extension. India's food processing industry is the world's 5th largest and growing rapidly, with companies like ITC, Nestlé India, Hindustan Unilever Foods, Britannia, and dairy cooperatives (Amul, Mother Dairy) employing thousands of food technologists. FSSAI regulatory compliance is a key responsibility.",
+    "salary_range": {
+      "min": 25000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Junior technologist at a food manufacturing plant to R&D head at a major FMCG food brand"
+    },
+    "growth_outlook": "Strong — India's food processing sector targeted at 25% of food production value by 2025; government incentive-backed",
+    "work_style": [
+      "Laboratory-based",
+      "Manufacturing",
+      "R&D"
+    ],
+    "required_skills": [
+      {
+        "skill": "Food Processing & Preservation Technology",
+        "level": "critical"
+      },
+      {
+        "skill": "Product Development & Formulation",
+        "level": "critical"
+      },
+      {
+        "skill": "Quality Control & HACCP",
+        "level": "critical"
+      },
+      {
+        "skill": "FSSAI Regulations",
+        "level": "critical"
+      },
+      {
+        "skill": "Sensory Evaluation",
+        "level": "important"
+      },
+      {
+        "skill": "Packaging Technology",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.Tech or BSc in Food Technology / Food Science from NIT, CFTRI, UICT, SRM, or state agricultural universities",
+      "M.Tech / MSc in Food Technology for R&D and senior product development roles",
+      "Join a food FMCG company (Nestlé, ITC, Britannia, Amul) as a quality / production / R&D trainee",
+      "CFTRI (Central Food Technological Research Institute, Mysuru) short-term industry courses for skill upgrades"
+    ],
+    "qualifications": [
+      "B.Tech in Food Technology from NIT or CFTRI-affiliated institute",
+      "M.Tech / MSc in Food Science & Technology",
+      "FSSAI Food Safety Supervisor Certification",
+      "FSSC 22000 / HACCP Lead Auditor certification for QA management roles"
+    ],
+    "tags": [
+      "food-technology",
+      "food-science",
+      "fssai",
+      "r-and-d",
+      "food-processing"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "us_registered_dietitian",
+    "title": "Registered Dietitian Nutritionist (RDN)",
+    "category": "Food Science & Nutrition",
+    "region": "US",
+    "description": "Provide evidence-based nutrition counselling and dietary therapy to patients, clients, and communities. RDNs work in hospitals, long-term care, public health, schools, corporate wellness, private practice, and sports organisations. The Academy of Nutrition and Dietetics (AND) governs the RDN credential, which requires an accredited master's degree, supervised practice, and a national registration examination.",
+    "salary_range": {
+      "min": 55000,
+      "max": 120000,
+      "currency": "USD/year",
+      "note": "Clinical RDN in a hospital to private practice dietitian or sports nutritionist for pro teams"
+    },
+    "growth_outlook": "Good — BLS projects 7% growth 2022-2032; telehealth expanding access to dietetic services",
+    "work_style": [
+      "Clinical / Consulting",
+      "Client-facing",
+      "Office or remote"
+    ],
+    "required_skills": [
+      {
+        "skill": "Medical Nutrition Therapy (MNT)",
+        "level": "critical"
+      },
+      {
+        "skill": "Nutritional Assessment (ADIME process)",
+        "level": "critical"
+      },
+      {
+        "skill": "Diet Planning & Counselling",
+        "level": "critical"
+      },
+      {
+        "skill": "Motivational Interviewing",
+        "level": "important"
+      },
+      {
+        "skill": "Electronic Health Records (EHR)",
+        "level": "important"
+      },
+      {
+        "skill": "Evidence-Based Research",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Complete an ACEND-accredited Master's in Dietetics (now required since 2024 for RDN eligibility)",
+      "Complete 1,000+ hours of supervised practice through ACEND-accredited programme",
+      "Pass the CDR National Registration Examination for Dietitian Nutritionists",
+      "Obtain state licensure (required in most states)"
+    ],
+    "qualifications": [
+      "Master's in Dietetics or Nutrition from ACEND-accredited programme",
+      "RDN credential from CDR (Commission on Dietetic Registration)",
+      "State Dietitian Licence (required in most states)",
+      "Board Certification (CSSD for sports dietetics, CSO for oncology nutrition)"
+    ],
+    "tags": [
+      "dietitian",
+      "rdn",
+      "clinical-nutrition",
+      "sports-nutrition",
+      "telehealth"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "author_writer_in",
+    "title": "Author / Novelist / Poet",
+    "category": "Publishing & Writing",
+    "region": "IN",
+    "description": "Write and publish books — fiction, non-fiction, poetry, short stories, and children's literature — in English, Hindi, and regional languages. India's publishing industry is growing, led by HarperCollins India, Penguin Random House India, Rupa Publications, and a thriving regional language market. Self-publishing (Amazon KDP, Notion Press) has democratised authorship. Successful authors supplement income with speaking, workshops, and content writing.",
+    "salary_range": {
+      "min": 10000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Part-time author with advance + royalties to full-time bestselling author (Chetan Bhagat scale); highly variable"
+    },
+    "growth_outlook": "Growing — audiobooks, ebooks, and self-publishing platforms expanding the market",
+    "work_style": [
+      "Creative",
+      "Self-directed",
+      "Freelance / Independent"
+    ],
+    "required_skills": [
+      {
+        "skill": "Writing & Storytelling",
+        "level": "critical"
+      },
+      {
+        "skill": "Narrative Structure",
+        "level": "critical"
+      },
+      {
+        "skill": "Research & Fact-Checking",
+        "level": "important"
+      },
+      {
+        "skill": "Editing & Revision",
+        "level": "critical"
+      },
+      {
+        "skill": "Publishing Industry Knowledge",
+        "level": "helpful"
+      },
+      {
+        "skill": "Social Media & Author Platform Building",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Read extensively and write consistently — the only universal prerequisite",
+      "Complete creative writing programmes (JNU, Ashoka, Amity) or online courses (Coursera, Gotham Writers Workshop)",
+      "Submit short stories to literary magazines and anthologies to build a publishing track record",
+      "Approach literary agents (Jacaranda, The Book Bakers) or publishers directly with a manuscript query"
+    ],
+    "qualifications": [
+      "No mandatory degree — writing quality is the credential",
+      "BA/MA in English Literature, Creative Writing, or Journalism (helpful foundation)",
+      "Creative Writing certificate programmes from IGNOU or private writing schools"
+    ],
+    "tags": [
+      "author",
+      "writer",
+      "publishing",
+      "fiction",
+      "books"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "technical_writer_in",
+    "title": "Technical Writer / Documentation Specialist",
+    "category": "Publishing & Writing",
+    "region": "IN",
+    "description": "Create clear, accurate documentation for software products, APIs, hardware manuals, medical devices, and industrial equipment. India's tech industry employs thousands of technical writers — Bangalore, Pune, and Hyderabad are the largest hubs. Technical writers work closely with engineering teams and are essential in software, IT services, healthcare tech, and manufacturing. Remote and freelance opportunities are abundant.",
+    "salary_range": {
+      "min": 35000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Junior technical writer at a product company to senior writer / documentation lead at a major tech firm (Infosys, SAP, Microsoft India)"
+    },
+    "growth_outlook": "Strong — API documentation, DevOps runbooks, and SaaS product documentation in high demand",
+    "work_style": [
+      "Writing-intensive",
+      "Collaborative",
+      "Office / Remote"
+    ],
+    "required_skills": [
+      {
+        "skill": "Technical Communication & Plain English Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "Documentation Tools (Confluence, DITA, MadCap Flare)",
+        "level": "critical"
+      },
+      {
+        "skill": "Understanding of Software Development / APIs",
+        "level": "important"
+      },
+      {
+        "skill": "User Research & Information Architecture",
+        "level": "important"
+      },
+      {
+        "skill": "Markdown & Static Site Generators (Docusaurus, GitBook)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Version Control (Git) basics",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in English, Journalism, Mass Communication, or Engineering",
+      "Take a dedicated Technical Writing course (Henry Harvin, Cherryleaf, Google Technical Writing Fundamentals on Coursera — free)",
+      "Build a portfolio of sample docs: API documentation, user guides, or release notes from open-source projects",
+      "Apply to tech product companies (startups, SaaS, IT services) for junior technical writer roles"
+    ],
+    "qualifications": [
+      "BA/BSc in English, Journalism, Mass Communication, or a technical field",
+      "Google Technical Writing Fundamentals (free Coursera course — widely recognised)",
+      "STC (Society for Technical Communication) certification",
+      "DITA XML / MadCap Flare certification for specialised content authoring systems"
+    ],
+    "tags": [
+      "technical-writer",
+      "documentation",
+      "api-docs",
+      "saas",
+      "content"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "content_strategist_ux_writer_in",
+    "title": "UX Writer / Content Strategist",
+    "category": "Publishing & Writing",
+    "region": "IN",
+    "description": "Craft the words, labels, tooltips, error messages, onboarding flows, and microcopy inside digital products — apps, websites, and SaaS platforms. UX writing is one of the fastest-growing writing careers in India's booming product and startup ecosystem (Swiggy, Zomato, Nykaa, PhonePe, Groww). Content strategists plan the broader content ecosystem — tone of voice, information architecture, and content operations.",
+    "salary_range": {
+      "min": 50000,
+      "max": 350000,
+      "currency": "INR/month",
+      "note": "Junior UX writer at a startup to senior content designer at Swiggy, Zomato, or a FAANG India office"
+    },
+    "growth_outlook": "Excellent — product design teams in India increasingly hiring dedicated UX writers; demand far outstrips supply",
+    "work_style": [
+      "Writing",
+      "Design-adjacent",
+      "Collaborative",
+      "Remote-friendly"
+    ],
+    "required_skills": [
+      {
+        "skill": "Microcopy & Interface Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "User Empathy & UX Research Basics",
+        "level": "critical"
+      },
+      {
+        "skill": "Figma collaboration",
+        "level": "important"
+      },
+      {
+        "skill": "Information Architecture",
+        "level": "important"
+      },
+      {
+        "skill": "Brand Voice & Tone Guidelines",
+        "level": "important"
+      },
+      {
+        "skill": "A/B Testing & Content Metrics",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Background in English, Journalism, Product Management, or Design",
+      "Study UX writing through Google UX Design Certificate (Coursera), UX Writing Hub, or Coursera specialisations",
+      "Build a portfolio of before/after UX copy critiques and product writing samples",
+      "Join a startup or product company as a content writer and transition to UX writing"
+    ],
+    "qualifications": [
+      "BA in English, Journalism, Communications, or Design",
+      "Google UX Design Certificate (Coursera — covers UX writing fundamentals)",
+      "UX Writing Hub Fundamentals Certificate (industry-recognised)",
+      "No mandatory degree — portfolio and demonstrated craft are primary credentials"
+    ],
+    "tags": [
+      "ux-writer",
+      "content-strategy",
+      "microcopy",
+      "product-design",
+      "writing"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "us_technical_writer",
+    "title": "Technical Writer / Documentation Engineer",
+    "category": "Publishing & Writing",
+    "region": "US",
+    "description": "Create software documentation, API reference guides, help centres, hardware manuals, regulatory submissions, and internal wikis for tech companies, SaaS platforms, healthcare devices, and aerospace/defence firms. Technical writing is a stable, remote-friendly profession. 'Documentation Engineer' and 'Developer Advocate' are emerging senior titles that combine technical writing with coding.",
+    "salary_range": {
+      "min": 65000,
+      "max": 160000,
+      "currency": "USD/year",
+      "note": "Junior writer at a mid-market SaaS company to senior documentation engineer at Google, Stripe, or Twilio"
+    },
+    "growth_outlook": "Stable — BLS projects 4% growth; API docs and DevRel (developer relations) driving premium salaries",
+    "work_style": [
+      "Writing-intensive",
+      "Remote-friendly",
+      "Collaborative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Technical Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Docs-as-Code (Markdown, Git, CI/CD publishing)",
+        "level": "important"
+      },
+      {
+        "skill": "API Documentation (OpenAPI / Swagger)",
+        "level": "important"
+      },
+      {
+        "skill": "Structured Authoring (DITA, XML)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Developer Empathy",
+        "level": "critical"
+      },
+      {
+        "skill": "Information Architecture",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Technical Communication, English, Journalism, or Engineering",
+      "Complete Google Technical Writing Fundamentals (free on Coursera)",
+      "Build a portfolio: document an open-source project, write API tutorials, contribute to open-source docs",
+      "Apply to tech companies; target startups for faster growth and broader scope"
+    ],
+    "qualifications": [
+      "Bachelor's in Technical Communication, English, or a technical field",
+      "STC Certified Technical Professional (CPTC)",
+      "Google Technical Writing certification (widely recognised)",
+      "API documentation specialisation (Stoplight, Swagger / OpenAPI tooling knowledge)"
+    ],
+    "tags": [
+      "technical-writer",
+      "api-docs",
+      "developer-relations",
+      "saas",
+      "documentation"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "photographer_in",
+    "title": "Professional Photographer",
+    "category": "Photography & Visual Media",
+    "region": "IN",
+    "description": "Capture images for weddings, corporate events, editorial features, advertising, travel, wildlife, and documentary projects. India's photography market is growing rapidly — weddings alone generate hundreds of crores for photographers annually. Digital platforms (Instagram, Behance, Unsplash) have opened global markets. Specialisations include wedding, fashion, food, wildlife, architecture, and aerial (drone) photography.",
+    "salary_range": {
+      "min": 25000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Junior event photographer to top-tier wedding or fashion photographer; award-winning fine art photographers earn far more"
+    },
+    "growth_outlook": "Growing — content marketing, social media, and OTT content are driving demand for quality visual storytelling",
+    "work_style": [
+      "Creative",
+      "Field-based",
+      "Freelance / Project-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Camera Operation & Exposure Control",
+        "level": "critical"
+      },
+      {
+        "skill": "Composition & Lighting",
+        "level": "critical"
+      },
+      {
+        "skill": "Photo Editing (Lightroom, Photoshop)",
+        "level": "critical"
+      },
+      {
+        "skill": "Colour Grading",
+        "level": "important"
+      },
+      {
+        "skill": "Client Communication & Art Direction",
+        "level": "important"
+      },
+      {
+        "skill": "Equipment Management",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Develop skills through photography courses (Delhi School of Photography, Lightroom Academy, Nikon School, online MOOC)",
+      "Assist established photographers on shoots — the fastest learning path",
+      "Build a portfolio on Instagram and Behance to attract clients",
+      "Specialise early (wedding, wildlife, food) for focused portfolio building"
+    ],
+    "qualifications": [
+      "Diploma / Certificate in Photography from FTII, Symbiosis, AAFT, or private photo schools",
+      "BA Visual Arts / Mass Communication (helpful for editorial and advertising photography)",
+      "No formal degree required if portfolio is strong — this is a portfolio-first profession"
+    ],
+    "tags": [
+      "photography",
+      "wedding",
+      "editorial",
+      "lightroom",
+      "visual"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "videographer_editor_in",
+    "title": "Videographer / Video Editor",
+    "category": "Photography & Visual Media",
+    "region": "IN",
+    "description": "Shoot and edit video content for weddings, corporate communications, advertising, YouTube, OTT platforms, documentaries, and social media. India's booming creator economy — 500 million+ internet users, Reels, YouTube Shorts — has created enormous demand for video production professionals. Video editors can work freelance, in production houses, or at advertising agencies and OTT platforms.",
+    "salary_range": {
+      "min": 20000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Junior editor at a wedding film company to senior motion graphics / VFX editor at an OTT production house"
+    },
+    "growth_outlook": "Very strong — India's video content market growing 25%+ annually; OTT, YouTube, and Reels driving demand",
+    "work_style": [
+      "Creative",
+      "Studio / Remote",
+      "Project-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Video Shooting & Camera Work",
+        "level": "critical"
+      },
+      {
+        "skill": "Video Editing (Premiere Pro, DaVinci Resolve, Final Cut)",
+        "level": "critical"
+      },
+      {
+        "skill": "Colour Grading",
+        "level": "important"
+      },
+      {
+        "skill": "Motion Graphics (After Effects)",
+        "level": "important"
+      },
+      {
+        "skill": "Sound Design & Audio Sync",
+        "level": "helpful"
+      },
+      {
+        "skill": "Storytelling & Narrative Editing",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Learn video editing through YouTube tutorials or structured courses (Arena Animation, MAAC, Udemy)",
+      "Build a YouTube channel or create sample edit reels to demonstrate skills",
+      "Assist a director of photography or video production company",
+      "Intern at a digital content agency or OTT production house"
+    ],
+    "qualifications": [
+      "Diploma / Certificate in Film Production or Video Editing (FTII, Whistling Woods, Arena Animation)",
+      "BSc / BM in Mass Communication / Visual Media (helpful for broadcast)",
+      "Adobe Certified Professional — Premiere Pro (optional but credentialises skill)",
+      "DaVinci Resolve Certified Trainer programme (for colour grading specialisation)"
+    ],
+    "tags": [
+      "videography",
+      "video-editing",
+      "premiere-pro",
+      "content-creator",
+      "ott"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "pandit_priest_in",
+    "title": "Pandit / Priest / Pujari",
+    "category": "Spiritual & Religious",
+    "region": "IN",
+    "description": "Perform religious ceremonies, rituals, and pujas for individuals, families, and communities — including weddings (vivah), funerals (antyesti), housewarming (griha pravesh), and daily temple worship. Temple priests serve in temples managed by trusts and state endowment boards. Event pandits serve at homes and function venues. The profession passes through families (hereditary) or formal Agama-shastra (temple ritual science) training.",
+    "salary_range": {
+      "min": 15000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Daily puja priest at a small temple to head priest of a major temple trust or in-demand wedding pandit in a metro city"
+    },
+    "growth_outlook": "Stable — culturally embedded role with consistent demand; ceremonial services industry growing with rising incomes",
+    "work_style": [
+      "Service-based",
+      "Ritual-intensive",
+      "Early hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Vedic Mantra Recitation (Sanskrit)",
+        "level": "critical"
+      },
+      {
+        "skill": "Ritual Procedure Knowledge (Agama Shastra or Grihya Sutras)",
+        "level": "critical"
+      },
+      {
+        "skill": "Jyotish (Vedic Astrology basics for muhurta)",
+        "level": "important"
+      },
+      {
+        "skill": "Communication with Devotees / Families",
+        "level": "important"
+      },
+      {
+        "skill": "Sanskrit Language",
+        "level": "critical"
+      },
+      {
+        "skill": "Ritual Materials & Samagri Knowledge",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Hereditary learning under a family elder or gurukul system from childhood",
+      "Vedic studies at a pathasala (Vedic school) — Gurukul Kangri, Sringeri, Kanchi Math affiliated institutions",
+      "Sanskrit Vibhag studies (Samskrit Pathasala, government Sanskrit universities)",
+      "Register with temple trust or become an independent pandit for household ceremonies"
+    ],
+    "qualifications": [
+      "Vedic Pandit certificate from a recognised pathasala or Vedic university (Sampurnanand Sanskrit Vishwavidyalaya, SVDU)",
+      "Government Sanskrit University degrees (Shastri, Acharya) for academic + ritual career",
+      "Agamashastram certification for temple priests in South Indian traditions"
+    ],
+    "tags": [
+      "pandit",
+      "priest",
+      "temple",
+      "ritual",
+      "vedic"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "astrologer_vastu_in",
+    "title": "Astrologer / Vastu Consultant",
+    "category": "Spiritual & Religious",
+    "region": "IN",
+    "description": "Provide Jyotish (Vedic astrology) readings — natal chart (kundali) analysis, muhurta (auspicious timing), compatibility (kundali Milan), and remedies — or Vastu Shastra consultancy for homes, offices, and commercial buildings. India's astrology and Vastu market is worth thousands of crores and growing with social media platforms, YouTube channels, and matrimony portals integrating astrology. Online consultations have made this a remote-first career.",
+    "salary_range": {
+      "min": 15000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Part-time local astrologer to celebrity astrologer with a YouTube channel and paid membership; consultancy fees vary widely"
+    },
+    "growth_outlook": "Growing — digital astrology platforms, apps, and social media have massively expanded the client base",
+    "work_style": [
+      "Consulting",
+      "Online / Remote",
+      "Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Vedic Astrology (Jyotish) — Parashari or Jaimini system",
+        "level": "critical"
+      },
+      {
+        "skill": "Kundali Preparation & Chart Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Vastu Shastra (for Vastu track)",
+        "level": "critical"
+      },
+      {
+        "skill": "Sanskrit basics for classical texts",
+        "level": "helpful"
+      },
+      {
+        "skill": "Communication & Empathy",
+        "level": "critical"
+      },
+      {
+        "skill": "Digital Content Creation (for YouTube / social reach)",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Study Jyotish under a guru (traditional guru-shishya path) or formal university programme",
+      "Enrol in Jyotish courses from BHU (Banaras Hindu University), Bharatiya Vidya Bhavan, or online platforms (Astro-Vision, Saptarishis)",
+      "Start with local consultations and build online presence (YouTube, Instagram, WhatsApp groups)",
+      "Join platforms like AstroTalk, Astroyogi, or Ganeshaspeaks for online consultations"
+    ],
+    "qualifications": [
+      "Jyotish Alankar / Jyotish Visharad / Jyotish Acharya from Bharatiya Vidya Bhavan or BHU",
+      "MA in Jyotish from a Sanskrit university (Sampurnanand, Sringeri)",
+      "No formal degree required for private practice — reputation and track record are the real credential"
+    ],
+    "tags": [
+      "astrology",
+      "jyotish",
+      "vastu",
+      "spiritual",
+      "consulting"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "meditation_teacher_in",
+    "title": "Meditation & Mindfulness Teacher",
+    "category": "Spiritual & Religious",
+    "region": "IN",
+    "description": "Teach meditation, mindfulness, and stress-management practices to individuals, corporate groups, schools, and wellness retreats. India is the birthplace of meditation traditions — Vipassana, Transcendental Meditation, Sahaja Yoga — and a global leader in meditation teacher training. Corporate wellness programmes now regularly include mindfulness sessions, and digital platforms (Headspace, Calm, Inner Circle India) are creating new opportunities.",
+    "salary_range": {
+      "min": 20000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Local meditation teacher to corporate mindfulness consultant or online programme creator with global students"
+    },
+    "growth_outlook": "Excellent — global wellness industry exceeding $5 trillion; corporate mindfulness a fast-growing segment",
+    "work_style": [
+      "Teaching",
+      "Flexible",
+      "Remote-friendly",
+      "Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Meditation Practice & Tradition Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Teaching Methodology",
+        "level": "critical"
+      },
+      {
+        "skill": "Breath & Body Awareness Techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication & Group Facilitation",
+        "level": "critical"
+      },
+      {
+        "skill": "Trauma-Sensitive Instruction",
+        "level": "important"
+      },
+      {
+        "skill": "Online Course Creation (helpful)",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Establish a personal meditation practice over several years under a qualified teacher",
+      "Complete a formal teacher training: Vipassana (Dhamma.org), TM (Maharishi University), MBSR (Mindfulness-Based Stress Reduction, Jon Kabat-Zinn tradition)",
+      "Obtain a 300-hour Yoga & Meditation Teacher Training certificate",
+      "Build a corporate wellness offering or launch an online course on Udemy/Teachable"
+    ],
+    "qualifications": [
+      "MBSR (Mindfulness-Based Stress Reduction) Teacher Training from the Centre for Mindfulness or an authorised trainer",
+      "Vipassana meditation course completion + assistant teacher training (dhamma.org)",
+      "200/300-hour Yoga & Meditation TT (Yoga Alliance registered schools)",
+      "No formal government degree required — lineage and training credentials are the trust signals"
+    ],
+    "tags": [
+      "meditation",
+      "mindfulness",
+      "yoga",
+      "wellness",
+      "corporate-wellness"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "gemologist_in",
+    "title": "Gemologist / Diamond Grader",
+    "category": "Gemology & Jewelry",
+    "region": "IN",
+    "description": "Identify, evaluate, and grade gemstones and diamonds using spectroscopic and optical instruments. India is the world's largest diamond cutting and polishing hub — Surat alone processes 90% of the world's rough diamonds. Gemologists work for diamond manufacturers (Kiran Gems, KGK, Surat diamond factories), jewellery retailers (Tanishq, Kalyan, Malabar), gem labs (GIA India, IGI, SGL), and as independent appraisers.",
+    "salary_range": {
+      "min": 25000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Junior grader at a Surat diamond unit to senior gemologist at a premier jewellery house or certified gem lab"
+    },
+    "growth_outlook": "Stable — India's diamond and coloured stone trade globally significant; lab-grown diamond segment adding new jobs",
+    "work_style": [
+      "Laboratory-based",
+      "Precise",
+      "Detail-intensive"
+    ],
+    "required_skills": [
+      {
+        "skill": "Gemological Identification Techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Diamond Grading (4Cs: cut, colour, clarity, carat)",
+        "level": "critical"
+      },
+      {
+        "skill": "Gemological Instruments (loupe, refractometer, spectrometer)",
+        "level": "critical"
+      },
+      {
+        "skill": "Gem Certification Report Writing",
+        "level": "important"
+      },
+      {
+        "skill": "Coloured Stone Knowledge",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Complete the GIA GG (Graduate Gemologist) programme — the global gold standard",
+      "Study at IGI (International Gemological Institute) India, SGL (Solitaire Gemmological Laboratory), or IDC",
+      "Join a diamond factory in Surat for practical grading experience",
+      "Work at a gem testing lab (GIA India, IGI Mumbai) for certification and appraisal roles"
+    ],
+    "qualifications": [
+      "GIA GG (Graduate Gemologist) — International standard (GIA Mumbai campus available)",
+      "FGA (Fellow of the Gemmological Association of Great Britain) — UK standard recognised globally",
+      "IGI Diploma in Diamond Grading or Diamond and Coloured Stone Specialist",
+      "Jewellery Design degree (NID, NIFT) for design + gemology crossover roles"
+    ],
+    "tags": [
+      "gemology",
+      "diamond",
+      "gemstone",
+      "gia",
+      "surat"
+    ],
+    "collar": "gray"
+  },
+  {
+    "id": "goldsmith_jewelry_maker_in",
+    "title": "Goldsmith / Jewellery Artisan",
+    "category": "Gemology & Jewelry",
+    "region": "IN",
+    "description": "Craft fine jewellery from precious metals (gold, silver, platinum) and gemstones using traditional and modern bench techniques. India is the world's second-largest jewellery market. Skilled goldsmiths (karigars) work in jewellery ateliers, luxury brand workshops (Titan, Kalyan, Senco), handmade jewellery studios, and as independent craftspeople. Demand for traditional Indian craft techniques (Kundan, Meenakari, Filigree, Temple jewellery) is growing globally.",
+    "salary_range": {
+      "min": 20000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Apprentice goldsmith to master karigar at a luxury jewellery atelier or independent studio owner"
+    },
+    "growth_outlook": "Stable — growing artisan jewellery segment and global demand for Indian crafts; skilled karigars rare and valued",
+    "work_style": [
+      "Hands-on",
+      "Craft-intensive",
+      "Workshop-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Metal Working (sawing, filing, soldering)",
+        "level": "critical"
+      },
+      {
+        "skill": "Stone Setting",
+        "level": "critical"
+      },
+      {
+        "skill": "Casting & Wax Carving",
+        "level": "important"
+      },
+      {
+        "skill": "Finishing & Polishing",
+        "level": "critical"
+      },
+      {
+        "skill": "Jewellery Design Drawing",
+        "level": "helpful"
+      },
+      {
+        "skill": "Traditional Indian Techniques (Kundan, Meenakari)",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Traditional apprenticeship under a master karigar (goldsmith) — most common entry path",
+      "Diploma / Certificate in Jewellery Design & Manufacturing from GIA India, IDC, or NIFT",
+      "Join a jewellery manufacturing unit in Jaipur, Hyderabad, Thrissur, or Surat for hands-on training",
+      "Start with silver jewellery and build up to gold / gemstone-set pieces"
+    ],
+    "qualifications": [
+      "Diploma in Jewellery Design & Manufacturing (GIA India, IDC, NIFT, state polytechnics)",
+      "National Skill Qualification Framework (NSQF) Jewellery Sector Skill Council certification",
+      "GIA Graduate Gemologist (GG) for gemstone-setting specialisation"
+    ],
+    "tags": [
+      "goldsmith",
+      "jewellery",
+      "karigar",
+      "crafts",
+      "gold"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "biochemist_researcher_in",
+    "title": "Biochemist / Molecular Biologist",
+    "category": "Biotechnology & Pharma R&D",
+    "region": "IN",
+    "description": "Conduct research on biological molecules — proteins, DNA, enzymes, and metabolites — to advance medical science, develop drugs, create diagnostics, and understand disease mechanisms. India's biotech sector includes over 5,000 firms and a fast-growing biopharma industry (Biocon, Serum Institute, Sun Pharma R&D). Top research institutes include NCBS Bengaluru, CCMB Hyderabad, IISc, and IITs.",
+    "salary_range": {
+      "min": 35000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Junior research fellow at an academic institute to principal scientist at Biocon, Dr. Reddy's, or Cipla R&D"
+    },
+    "growth_outlook": "Strong — India's biotech sector growing 15%+ annually; post-COVID vaccine industry investment sustained",
+    "work_style": [
+      "Laboratory-based",
+      "Research-intensive",
+      "Analytical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Molecular Biology Techniques (PCR, gel electrophoresis, Western blot)",
+        "level": "critical"
+      },
+      {
+        "skill": "Cell Culture & Assay Development",
+        "level": "important"
+      },
+      {
+        "skill": "ELISA & Immunoassay",
+        "level": "important"
+      },
+      {
+        "skill": "Bioinformatics Basics",
+        "level": "helpful"
+      },
+      {
+        "skill": "Lab Documentation (Good Laboratory Practice)",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Analysis (R, GraphPad Prism)",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "BSc in Biochemistry, Microbiology, or Biotechnology → MSc in same field",
+      "Qualify CSIR-JRF or DBT-JRF fellowship to work at premier labs (CCMB, NCBS, TIFR)",
+      "PhD from IISc, IIT, or NCBS for academic research or senior industry R&D roles",
+      "Join Biocon, Serum Institute, or Cipla R&D as a research scientist (post MSc / PhD)"
+    ],
+    "qualifications": [
+      "BSc / MSc in Biochemistry, Biotechnology, Microbiology, or Molecular Biology",
+      "CSIR-JRF or DBT-JRF (Joint Research Fellowship) for PhD and national lab research",
+      "PhD in Biochemistry / Molecular Biology / Biotechnology from IISc, IIT, or TIFR"
+    ],
+    "tags": [
+      "biochemist",
+      "molecular-biology",
+      "biotech",
+      "pharma-r-and-d",
+      "research"
+    ],
+    "collar": "gold"
+  },
+  {
+    "id": "clinical_research_associate_in",
+    "title": "Clinical Research Associate (CRA) / Clinical Trial Manager",
+    "category": "Biotechnology & Pharma R&D",
+    "region": "IN",
+    "description": "Monitor and manage clinical trials of new drugs, medical devices, and vaccines — ensuring they are conducted in accordance with GCP (Good Clinical Practice) guidelines and regulatory requirements (CDSCO, ICH, FDA). India's clinical research industry employs thousands of CRAs at global CROs (Covance, IQVIA, Syneos Health) and Indian pharma companies (Cipla, Sun Pharma, Lupin). CRA roles require extensive travel to trial sites.",
+    "salary_range": {
+      "min": 35000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Junior CRA at a CRO to Senior CRA or Clinical Trial Manager at a global pharma company"
+    },
+    "growth_outlook": "Strong — India's clinical trial industry growing as a global destination; post-COVID regulatory reforms opening new trials",
+    "work_style": [
+      "Field-based (site visits)",
+      "Regulatory-intensive",
+      "Travel-heavy"
+    ],
+    "required_skills": [
+      {
+        "skill": "GCP (Good Clinical Practice) Guidelines",
+        "level": "critical"
+      },
+      {
+        "skill": "ICH Guidelines & CDSCO Regulations",
+        "level": "critical"
+      },
+      {
+        "skill": "Source Data Verification (SDV)",
+        "level": "critical"
+      },
+      {
+        "skill": "Clinical Trial Management Systems (Medidata, Veeva)",
+        "level": "important"
+      },
+      {
+        "skill": "Protocol Compliance Monitoring",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication & Site Management",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "BSc / MSc in Life Sciences, Pharmacy, Nursing, or Medicine",
+      "Obtain a PG Diploma or Certificate in Clinical Research (PGDCR) from organisations like IQVIA Academy, ACRES, or university programmes",
+      "Join a CRO (Contract Research Organisation) as a clinical research trainee",
+      "Complete ICH-GCP training and certification (mandatory for the role)"
+    ],
+    "qualifications": [
+      "BSc / MSc / B.Pharm / M.Pharm / MBBS in a life sciences or clinical field",
+      "PGDCR (Post Graduate Diploma in Clinical Research) from IGNOU, ACTS, or IQVIA Academy",
+      "ICH-GCP Certificate (mandatory) + CDSCO awareness training",
+      "ACRP CCRC / SOCRA CCRP certification (valued for senior CRA and global roles)"
+    ],
+    "tags": [
+      "clinical-research",
+      "cra",
+      "gcp",
+      "pharma",
+      "clinical-trials"
+    ],
+    "collar": "gold"
+  },
+  {
+    "id": "ngo_project_manager_in",
+    "title": "NGO Programme Manager / Development Professional",
+    "category": "NGO & Development",
+    "region": "IN",
+    "description": "Design, implement, monitor, and evaluate development programmes in areas such as education, health, livelihoods, women's empowerment, environment, and governance. India has over 3 million NGOs employing millions of development professionals. Key sectors: WASH (water/sanitation), rural livelihoods, child nutrition (POSHAN), disability inclusion, and climate resilience. Bilateral donors (USAID, DFID), UN agencies, and Indian CSR funds are the primary funding sources.",
+    "salary_range": {
+      "min": 30000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Entry programme coordinator at a small NGO to Country Director or Programme Head at an INGO (CRS, HelpAge, Oxfam)"
+    },
+    "growth_outlook": "Stable — CSR mandate (Companies Act 2013) sustaining funding; international development aid flowing into India",
+    "work_style": [
+      "Field + Office",
+      "Community-facing",
+      "Reporting-intensive"
+    ],
+    "required_skills": [
+      {
+        "skill": "Project Cycle Management (PCM)",
+        "level": "critical"
+      },
+      {
+        "skill": "M&E (Monitoring, Evaluation & Learning)",
+        "level": "critical"
+      },
+      {
+        "skill": "Proposal Writing & Grant Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Community Engagement",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Collection & Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Donor Reporting (USAID, UN, CSR)",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Social Work, Development Studies, Economics, or Public Policy",
+      "Master's in Social Work (MSW), Development Studies, or Public Policy (TISS, JNU, IRMA, XLRI)",
+      "Join a small grassroots NGO as a field coordinator to gain ground-level experience",
+      "Build up to mid-size INGOs (Plan India, World Vision, CRY) and eventually large INGOs or UN agencies"
+    ],
+    "qualifications": [
+      "MA in Development Studies / Social Work (TISS Mumbai or Hyderabad — premier institutions)",
+      "MSW (Master of Social Work) from a recognised university",
+      "PGDM in Rural Management (IRMA — Institute of Rural Management Anand)",
+      "Project Management Professional (PMP) or PRINCE2 (valued for large programme roles)"
+    ],
+    "tags": [
+      "ngo",
+      "development",
+      "social-work",
+      "programme-manager",
+      "csr"
+    ],
+    "collar": "pink"
+  },
+  {
+    "id": "social_entrepreneur_in",
+    "title": "Social Entrepreneur / Impact Startup Founder",
+    "category": "NGO & Development",
+    "region": "IN",
+    "description": "Build organisations that create measurable social or environmental impact while being financially sustainable. India's social enterprise ecosystem is vibrant — Pratham, Akanksha, Teach For India, Gram Vaani, Rang De, and hundreds of Ashoka Fellows are examples. Impact investors (Omidyar Network, Elevar Equity, Acumen, Unitus Capital) fund social ventures. The B Corp, CIC, and Section 8 company structures allow hybrid models.",
+    "salary_range": {
+      "min": 20000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Bootstrapped founder (often modest early salary) to well-funded social startup CEO with market-rate compensation"
+    },
+    "growth_outlook": "Growing — Impact investing in India growing rapidly; SEBI SSIR (Social Stock Exchange) adding new capital access routes",
+    "work_style": [
+      "Entrepreneurial",
+      "Multi-disciplinary",
+      "Community + Investor-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Problem Identification & Theory of Change",
+        "level": "critical"
+      },
+      {
+        "skill": "Business Model Development",
+        "level": "critical"
+      },
+      {
+        "skill": "Fundraising & Impact Investor Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Team Building & Leadership",
+        "level": "critical"
+      },
+      {
+        "skill": "Impact Measurement (SROI, IRIS+)",
+        "level": "important"
+      },
+      {
+        "skill": "Community Co-creation",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Work at an existing social enterprise or NGO to understand the landscape",
+      "Programmes: Ashoka Fellowship, Echoing Green Fellowship, Villgro, Dasra Social Impact, Nudge Foundation",
+      "Social impact MBA programmes: TISS, XLRI, IRMA, Ashoka University, ISB Center for Business and Society",
+      "Register as a Section 8 company (non-profit), social cooperative, or for-profit with impact mission"
+    ],
+    "qualifications": [
+      "No mandatory degree — demonstrated social impact and organisational building are the credentials",
+      "MBA from TISS, XLRI, IRMA, or ISB (Social Enterprise track)",
+      "Ashoka, Echoing Green, or Skoll Fellowship (prestigious signal in the impact ecosystem)",
+      "Certified B Corp status for the organisation (demonstrates impact commitment to investors)"
+    ],
+    "tags": [
+      "social-entrepreneurship",
+      "impact",
+      "startup",
+      "ngo",
+      "b-corp"
+    ],
+    "collar": "pink"
+  },
+  {
+    "id": "librarian_in",
+    "title": "Librarian / Information Professional",
+    "category": "Library & Information Science",
+    "region": "IN",
+    "description": "Manage collections of books, digital resources, journals, and archives in public libraries, university libraries, school libraries, corporate libraries, and government information centres. India has a network of over 60,000 public libraries managed by state governments. University libraries at IITs, IIMs, and central universities are significant employers. Digital librarians managing online repositories and information systems are a growing specialisation.",
+    "salary_range": {
+      "min": 25000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "School / public library assistant to Chief Librarian of a central university or IIT"
+    },
+    "growth_outlook": "Stable — digital transformation of libraries creating new roles in knowledge management and e-resources",
+    "work_style": [
+      "Administrative",
+      "Knowledge-management",
+      "Quiet office"
+    ],
+    "required_skills": [
+      {
+        "skill": "Library Classification (Dewey Decimal, Colon Classification)",
+        "level": "critical"
+      },
+      {
+        "skill": "Cataloguing & Metadata (MARC, Dublin Core)",
+        "level": "critical"
+      },
+      {
+        "skill": "Library Management Systems (Koha, SOUL)",
+        "level": "critical"
+      },
+      {
+        "skill": "Reference & Information Services",
+        "level": "important"
+      },
+      {
+        "skill": "Digital Resource Management & Database Searching",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "BLISc (Bachelor of Library and Information Science) followed by MLISc",
+      "Apply to government library posts through SSC, state PSC, and UGC NET",
+      "UGC NET in Library & Information Science for university librarian and lecturer roles",
+      "Join corporate or law firm library for higher salaries in the private sector"
+    ],
+    "qualifications": [
+      "BLISc + MLISc (Master of Library & Information Science) from a UGC-recognised university",
+      "UGC NET in Library & Information Science (required for university librarian posts)",
+      "PhD in Library & Information Science for academic and research library leadership"
+    ],
+    "tags": [
+      "librarian",
+      "library-science",
+      "information",
+      "knowledge-management",
+      "university"
+    ],
+    "collar": "white"
   }
 ]

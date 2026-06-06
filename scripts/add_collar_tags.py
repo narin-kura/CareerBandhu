@@ -56,6 +56,27 @@ CATEGORY_DEFAULT = {
     "Supply Chain & Logistics":     "gray",
     "Media & Broadcasting":         "no",
     "Everyday Work & Trades":       "blue",
+    # ── NEW CATEGORIES ─────────────────────────────────────
+    "Legal & Justice":              "white",
+    "Real Estate & Property":       "white",
+    "Insurance & Actuarial":        "white",
+    "Sports & Athletics":           "no",
+    "Music Industry":               "no",
+    "Gaming & Esports":             "new",
+    "Aerospace & Space":            "gold",
+    "Automotive & EV":              "gray",
+    "Veterinary & Animal Care":     "pink",
+    "Forensic & Investigation":     "white",
+    "Architecture & Urban Planning":"white",
+    "Energy & Utilities":           "gray",
+    "Food Science & Nutrition":     "white",
+    "Publishing & Writing":         "white",
+    "Photography & Visual Media":   "no",
+    "Spiritual & Religious":        "no",
+    "Gemology & Jewelry":           "gray",
+    "Biotechnology & Pharma R&D":   "gold",
+    "NGO & Development":            "pink",
+    "Library & Information Science":"white",
 }
 
 # Career-specific overrides — take precedence over category default
@@ -66,11 +87,20 @@ OVERRIDES = {
     "conference_interpreter_in":    "gold",
     "us_psychologist":              "gold",
     "us_bcba":                      "gold",
+    "actuary_in":                   "gold",
+    "us_actuary":                   "gold",
+    "isro_scientist_in":            "gold",
+    "us_aerospace_engineer":        "gold",
+    "veterinarian_in":              "gold",
+    "us_veterinarian":              "gold",
+    "biochemist_researcher_in":     "gold",
 
     # ── RED (government / public sector) ─────────────────
     "heritage_museum_professional": "red",
-    "archaeologist_in":             "red",   # ASI government post
-    "us_archaeologist":             "white",  # mostly CRM/private
+    "archaeologist_in":             "red",
+    "us_archaeologist":             "white",
+    "district_judge_in":            "red",
+    "power_plant_operator_in":      "red",
 
     # ── WHITE (office/knowledge, re-routed from no/other) ─
     "news_anchor_in":               "white",
@@ -168,6 +198,9 @@ OVERRIDES = {
     "us_janitor_custodian":         "blue",
     "us_landscaper":                "blue",
     "us_house_painter":             "blue",
+    "auto_mechanic_in":             "blue",
+    "ev_technician_in":             "blue",
+    "goldsmith_jewelry_maker_in":   "blue",
 
     # ── GREEN (environment / sustainability / nature) ─────
     "plant_nursery_owner":          "green",
