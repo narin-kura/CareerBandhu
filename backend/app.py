@@ -1,4 +1,7 @@
-"""Loka Bandhuv — Career Guidance API"""
+# Copyright (c) 2025-2026 K.N. Narin (github.com/narin-kura). All rights reserved.
+# Non-commercial use only. Commercial use requires written permission: k.n.narin@gmail.com
+# See LICENSE for full terms.
+"""CareerBandhuv — Career Guidance API"""
 
 from __future__ import annotations
 import json
