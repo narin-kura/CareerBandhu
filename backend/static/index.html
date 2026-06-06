@@ -172,6 +172,42 @@
     .selected-box .k { font-size: .7rem; font-weight: 600; color: var(--mut); text-transform: uppercase; letter-spacing: .04em; }
     .selected-box .v { font-size: .92rem; font-weight: 700; color: var(--nv); margin-top: 2px; }
 
+    /* collar info button */
+    .collar-label-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 9px; }
+    .collar-info-btn { background: none; border: none; cursor: pointer; font-size: .8rem; color: var(--mut-2); padding: 0 2px; line-height: 1; transition: color .15s; }
+    .collar-info-btn:hover { color: var(--nv); }
+
+    /* collar modal */
+    .modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,.45); z-index: 100; display: flex; align-items: flex-end; justify-content: center; opacity: 0; pointer-events: none; transition: opacity .2s; }
+    .modal-backdrop.open { opacity: 1; pointer-events: all; }
+    .modal-sheet { background: var(--bg); border-radius: 22px 22px 0 0; width: 100%; max-width: 520px; max-height: 85vh; overflow-y: auto; padding: 0 0 32px; transform: translateY(20px); transition: transform .22s; }
+    .modal-backdrop.open .modal-sheet { transform: translateY(0); }
+    .modal-handle { width: 40px; height: 4px; background: var(--line); border-radius: 999px; margin: 12px auto 0; }
+    .modal-head { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px 12px; border-bottom: 1px solid var(--line-2); }
+    .modal-head h2 { font-size: 1rem; font-weight: 800; font-family: 'Sora'; color: var(--ink); }
+    .modal-close { background: var(--sur); border: none; border-radius: 999px; width: 28px; height: 28px; cursor: pointer; font-size: .85rem; color: var(--mut); display: flex; align-items: center; justify-content: center; }
+    .modal-close:hover { background: var(--line); }
+    .collar-guide-list { padding: 14px 20px 0; display: flex; flex-direction: column; gap: 10px; }
+    .cg-row { display: flex; align-items: flex-start; gap: 12px; padding: 10px 12px; border-radius: 12px; border: 1.5px solid var(--line); background: var(--sur); }
+    .cg-ico { font-size: 1.4rem; flex-shrink: 0; margin-top: 1px; }
+    .cg-body { flex: 1; min-width: 0; }
+    .cg-name { font-size: .85rem; font-weight: 700; color: var(--ink); }
+    .cg-tip { font-size: .78rem; color: var(--mut); margin-top: 2px; line-height: 1.4; }
+
+    /* first-visit banner */
+    .welcome-banner { position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%); width: calc(100% - 32px); max-width: 480px; background: #1e1b4b; color: #fff; border-radius: 16px; padding: 14px 18px; display: flex; align-items: flex-start; gap: 12px; box-shadow: 0 8px 32px rgba(0,0,0,.3); z-index: 90; animation: slideUp .35s ease; }
+    .welcome-banner.hidden { display: none; }
+    @keyframes slideUp { from { opacity:0; transform: translateX(-50%) translateY(16px); } to { opacity:1; transform: translateX(-50%) translateY(0); } }
+    .wb-ico { font-size: 1.5rem; flex-shrink: 0; }
+    .wb-body { flex: 1; }
+    .wb-title { font-size: .88rem; font-weight: 700; margin-bottom: 3px; }
+    .wb-text { font-size: .78rem; opacity: .85; line-height: 1.4; }
+    .wb-actions { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+    .wb-btn { padding: 6px 14px; border-radius: 999px; border: none; font-size: .78rem; font-weight: 700; cursor: pointer; font-family: inherit; }
+    .wb-btn.primary { background: #6d28d9; color: #fff; }
+    .wb-btn.secondary { background: rgba(255,255,255,.15); color: #fff; }
+    .wb-btn:hover { opacity: .88; }
+
     /* ---------- RESULTS ---------- */
     .results-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
     .results-head h3 { font-size: .95rem; font-weight: 700; color: var(--ink); }
@@ -354,7 +390,10 @@
         <p>See the exact skills any career requires</p>
       </div>
       <div class="panel-body">
-        <div class="collar-label">Select work type</div>
+        <div class="collar-label-row">
+          <div class="collar-label" style="margin-bottom:0">Select work type</div>
+          <button class="collar-info-btn" onclick="openCollarGuide()" title="What are collar types?">ⓘ What's this?</button>
+        </div>
         <div class="collar-grid" id="collar-filter"></div>
 
         <div class="or-divider"><span>or search by title</span></div>
@@ -394,6 +433,31 @@
   </main>
 </div>
 
+<!-- Collar guide modal -->
+<div class="modal-backdrop" id="collar-modal" onclick="closeCollarGuide(event)">
+  <div class="modal-sheet">
+    <div class="modal-handle"></div>
+    <div class="modal-head">
+      <h2>🎨 What are collar types?</h2>
+      <button class="modal-close" onclick="closeCollarGuide()">✕</button>
+    </div>
+    <div class="collar-guide-list" id="collar-guide-list"></div>
+  </div>
+</div>
+
+<!-- First-visit welcome banner -->
+<div class="welcome-banner" id="welcome-banner">
+  <div class="wb-ico">👋</div>
+  <div class="wb-body">
+    <div class="wb-title">New here? Start by choosing a work type</div>
+    <div class="wb-text">The coloured buttons above group careers by <b>how you work</b> — office, hands-on, creative, government, and more. Tap any colour to see matching careers.</div>
+    <div class="wb-actions">
+      <button class="wb-btn primary" onclick="openCollarGuide(); dismissBanner()">See the guide</button>
+      <button class="wb-btn secondary" onclick="dismissBanner()">Got it</button>
+    </div>
+  </div>
+</div>
+
 <footer>
   Made in India 🇮🇳 &nbsp;·&nbsp; <b>CareerBandhuv</b> — guidance for students, parents &amp; career-shifters.<br/>
   <span style="font-size:.72rem;opacity:.7">
@@ -427,6 +491,47 @@ const COLLAR_META = [
   { key:'no',    icon:'🎨', label:'No-collar'    , tip:'Passion & arts',               clr:'#c2410c', bg:'#fff7ed' },
   { key:'open',  icon:'💻', label:'Open-collar'  , tip:'Remote & freelance',           clr:'#0e7490', bg:'#ecfeff' },
 ];
+
+const COLLAR_DESC = {
+  white: 'Office-based, knowledge-intensive roles — managers, analysts, lawyers, accountants, HR professionals. Usually desk jobs in air-conditioned offices.',
+  blue:  'Physical or manual skilled labour — electricians, plumbers, welders, drivers, construction workers. Often require trade apprenticeships or ITI training.',
+  pink:  'Service and people-facing roles — nurses, teachers, receptionists, beauticians, hospitality staff. Centred on care and interpersonal skills.',
+  gray:  'A technical blend of physical and knowledge work — technicians, engineers on the floor, quality controllers. Bridge between blue and white collar.',
+  gold:  'Highly specialised, elite professionals — top surgeons, IFS officers, senior scientists, BCBAs. Typically require advanced degrees and years of experience.',
+  new:   'Skills-based tech roles where certificates or portfolios beat traditional degrees — web developers, data analysts, animators, UI/UX designers.',
+  green: 'Careers focused on environment, sustainability, and nature — horticulturists, solar technicians, environmental scientists, conservationists.',
+  red:   'Government and public-sector employees — civil servants, IAS/IPS officers, government doctors, public school teachers. Driven by PSC/UPSC exams.',
+  brown: 'Agriculture, forestry, and military — farmers, army/navy/air force personnel, forest officers. Outdoor and field-heavy work.',
+  no:    'Passion-driven creative careers without a fixed institution — artists, musicians, actors, sculptors, street performers. Portfolio is everything.',
+  open:  'Remote, freelance, or location-independent roles — translators, podcasters, freelance designers, digital consultants. Work from anywhere.',
+};
+
+function openCollarGuide() {
+  const list = document.getElementById('collar-guide-list');
+  list.innerHTML = COLLAR_META.map(m => `
+    <div class="cg-row">
+      <div class="cg-ico">${m.icon}</div>
+      <div class="cg-body">
+        <div class="cg-name">${m.label}</div>
+        <div class="cg-tip">${COLLAR_DESC[m.key] || m.tip}</div>
+      </div>
+    </div>`).join('');
+  document.getElementById('collar-modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeCollarGuide(e) {
+  if (e && e.target !== document.getElementById('collar-modal')) return;
+  document.getElementById('collar-modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function dismissBanner() {
+  document.getElementById('welcome-banner').classList.add('hidden');
+  try { localStorage.setItem('cb_welcomed', '1'); } catch(_) {}
+}
+function initWelcomeBanner() {
+  try { if (localStorage.getItem('cb_welcomed')) { dismissBanner(); } } catch(_) {}
+}
 
 const POPULAR_SKILLS = {
   IN: ['Cooking','Driving','Sewing & Stitching','Teaching','Electrical Wiring',
@@ -481,6 +586,7 @@ async function loadCareers() {
     document.getElementById('stat-c').textContent = allCareers.length + '+';
     activeCollar = 'all';
     renderCollarFilter(); renderCareerSugs(); renderCareerDropdown('');
+    initWelcomeBanner();
   } catch {}
 }
 
