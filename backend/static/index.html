@@ -122,6 +122,14 @@
     .cta:active { transform: translateY(0); }
     .cta:disabled { opacity: .55; cursor: not-allowed; transform: none; box-shadow: none; }
 
+    /* collar filter chips */
+    .collar-row { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 14px; }
+    .collar-chip { display: inline-flex; align-items: center; gap: 4px; padding: 4px 9px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--bg); color: var(--mut); font-size: .72rem; font-weight: 600; cursor: pointer; white-space: nowrap; font-family: inherit; transition: all .15s; }
+    .collar-chip:hover { border-color: var(--nv); color: var(--nv); background: var(--nv-l); }
+    .collar-chip.active { background: var(--nv); border-color: var(--nv); color: #fff; }
+    .collar-chip .cc { background: rgba(0,0,0,.18); border-radius: 999px; padding: 0 5px; font-size: .68rem; font-weight: 700; }
+    .collar-chip.active .cc { background: rgba(255,255,255,.22); }
+
     /* combobox */
     .combo { position: relative; }
     .combo input { width: 100%; }
@@ -318,6 +326,7 @@
         <p>See the exact skills any career requires</p>
       </div>
       <div class="panel-body">
+        <div class="collar-row" id="collar-filter"></div>
         <div class="combo">
           <input id="career-search" type="text" placeholder="Search: Chef, Nurse, IAS, Electrician…" oninput="filterCareers()" onfocus="openDrop()" autocomplete="off" />
           <div class="dropdown" id="dropdown"></div>
@@ -369,6 +378,21 @@ let skills = [], ratingVal = 0, currentId = null, currentMode = 'skills';
 let allCareers = [], selectedCareerId = null, checkedSkills = new Set();
 let region = 'IN';
 let currentCareerData = null;
+let activeCollar = 'all';
+
+const COLLAR_META = [
+  { key:'white', icon:'⚪', label:'White' , tip:'Office & knowledge work' },
+  { key:'blue',  icon:'🔵', label:'Blue'  , tip:'Physical & skilled trades' },
+  { key:'pink',  icon:'🩷', label:'Pink'  , tip:'Service & care roles' },
+  { key:'gray',  icon:'🔘', label:'Gray'  , tip:'Technical blend' },
+  { key:'gold',  icon:'🟡', label:'Gold'  , tip:'Elite & highly specialised' },
+  { key:'new',   icon:'🆕', label:'New'   , tip:'Skills-based tech' },
+  { key:'green', icon:'🟢', label:'Green' , tip:'Environment & nature' },
+  { key:'red',   icon:'🔴', label:'Red'   , tip:'Government & public sector' },
+  { key:'brown', icon:'🟤', label:'Brown' , tip:'Agriculture & military' },
+  { key:'no',    icon:'🎨', label:'No'    , tip:'Passion & arts' },
+  { key:'open',  icon:'💻', label:'Open'  , tip:'Remote & freelance' },
+];
 
 const POPULAR_SKILLS = {
   IN: ['Cooking','Driving','Sewing & Stitching','Teaching','Electrical Wiring',
@@ -421,7 +445,8 @@ async function loadCareers() {
     const c = await get(`/api/careers?region=${region}`);
     allCareers = c.careers || [];
     document.getElementById('stat-c').textContent = allCareers.length + '+';
-    renderCareerSugs(); renderCareerDropdown('');
+    activeCollar = 'all';
+    renderCollarFilter(); renderCareerSugs(); renderCareerDropdown('');
   } catch {}
 }
 
@@ -483,9 +508,30 @@ function renderCareerSugs() {
     return c ? `<span class="sug nv" onclick="selectCareer('${c.id}','${esc(c.title)}')">${t}</span>` : '';
   }).filter(Boolean).join('');
 }
+function renderCollarFilter() {
+  const regional = allCareers.filter(c => c.region === region);
+  const counts = {};
+  for (const c of regional) counts[c.collar] = (counts[c.collar]||0) + 1;
+  const total = regional.length;
+  let html = `<button class="collar-chip${activeCollar==='all'?' active':''}" data-collar="all" onclick="setCollar('all')" title="All careers">🌐 All <span class="cc">${total}</span></button>`;
+  for (const m of COLLAR_META) {
+    if (!counts[m.key]) continue;
+    html += `<button class="collar-chip${activeCollar===m.key?' active':''}" data-collar="${m.key}" onclick="setCollar('${m.key}')" title="${m.tip}">${m.icon} ${m.label} <span class="cc">${counts[m.key]}</span></button>`;
+  }
+  const el = document.getElementById('collar-filter');
+  if (el) el.innerHTML = html;
+}
+function setCollar(key) {
+  activeCollar = key;
+  renderCollarFilter();
+  renderCareerDropdown(document.getElementById('career-search').value || '');
+}
+
 function renderCareerDropdown(q) {
   const drop = document.getElementById('dropdown');
-  const filtered = q ? allCareers.filter(c=>c.title.toLowerCase().includes(q.toLowerCase())||c.category.toLowerCase().includes(q.toLowerCase())) : allCareers;
+  let pool = allCareers;
+  if (activeCollar !== 'all') pool = pool.filter(c => c.collar === activeCollar);
+  const filtered = q ? pool.filter(c=>c.title.toLowerCase().includes(q.toLowerCase())||c.category.toLowerCase().includes(q.toLowerCase())) : pool;
   if(!filtered.length) { drop.innerHTML='<div class="dd-empty">No careers found</div>'; return; }
   const byCat = {};
   for (const c of filtered) (byCat[c.category]=byCat[c.category]||[]).push(c);
@@ -588,7 +634,8 @@ function renderCareerSkillView(cv, gv) {
     <div class="d-hero career">
       <div class="d-top">
         <div><div style="font-size:1.6rem;margin-bottom:6px">${CAT_ICONS[c.category]||'📌'}</div>
-          <div class="d-title">${c.title}</div><div class="d-cat">${c.category}</div></div>
+          <div class="d-title">${c.title}</div>
+          <div class="d-cat">${c.category}${c.collar ? ` &nbsp;·&nbsp; ${(COLLAR_META.find(m=>m.key===c.collar)||{icon:'',label:''}).icon} ${(COLLAR_META.find(m=>m.key===c.collar)||{label:c.collar}).label}-collar` : ''}</div></div>
         <div class="d-score"><div class="n">${total}</div><div class="s">Skills</div></div>
       </div>
       <div class="d-track"><div style="width:100%"></div></div>

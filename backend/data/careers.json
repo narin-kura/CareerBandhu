@@ -74,7 +74,8 @@
       "Bachelor's in CS / IT / Software Engineering (preferred)",
       "Coding bootcamp + strong project portfolio accepted",
       "Cloud certifications (AWS / GCP / Azure) — optional but valued"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "data_scientist",
@@ -156,7 +157,8 @@
       "Bachelor's in Statistics, Math, CS, or related field",
       "Master's or PhD preferred for research / senior roles",
       "Kaggle / Google Data Analytics certification (supplementary)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "ml_engineer",
@@ -237,7 +239,8 @@
       "Bachelor's / Master's in CS, Math, or AI",
       "Strong foundation in linear algebra, calculus, and statistics",
       "Relevant ML certifications (deeplearning.ai, Coursera) — supplementary"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "devops_engineer",
@@ -318,7 +321,8 @@
       "Bachelor's in CS / IT (preferred)",
       "AWS DevOps / GCP / Azure DevOps certification",
       "Linux Foundation certifications (LFCS, CKA) — preferred"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "cloud_architect",
@@ -395,7 +399,8 @@
     "qualifications": [
       "Bachelor's in CS or IT",
       "AWS Solutions Architect Professional / GCP Professional Cloud Architect / Azure Expert certification"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "cybersecurity_analyst",
@@ -473,7 +478,8 @@
       "Bachelor's in CS, IT, or Cybersecurity",
       "CompTIA Security+ (entry level)",
       "CEH — Certified Ethical Hacker or CISSP for senior roles"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "full_stack_developer",
@@ -549,7 +555,8 @@
     "qualifications": [
       "Bachelor's in CS / IT (preferred) or accredited coding bootcamp",
       "Portfolio of deployed full-stack projects"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "mobile_app_developer",
@@ -622,7 +629,8 @@
       "Bachelor's in CS / IT (preferred)",
       "Published apps on Play Store / App Store (often outweighs degree)",
       "Google / Apple developer program membership"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "ux_ui_designer",
@@ -700,7 +708,8 @@
       "Bachelor's in Design, HCI, or Visual Communication (preferred)",
       "Google UX Design Certificate (Coursera) — widely accepted",
       "Strong portfolio in Figma / Adobe XD mandatory"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "product_manager",
@@ -777,7 +786,8 @@
       "Bachelor's degree (any discipline)",
       "MBA preferred for senior / Director-level roles",
       "AIPMM CPM or Pragmatic Institute certifications"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "data_analyst",
@@ -851,7 +861,8 @@
       "Bachelor's in Statistics, Math, Economics, or CS",
       "Microsoft / Google Data Analytics certification",
       "SQL, Excel, Tableau / Power BI proficiency"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "business_analyst",
@@ -924,7 +935,8 @@
       "Bachelor's in Business, IT, or related field",
       "CBAP — Certified Business Analysis Professional (IIBA)",
       "PMI-PBA — Professional in Business Analysis"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "project_manager",
@@ -997,7 +1009,8 @@
       "Bachelor's degree (any discipline)",
       "PMP — Project Management Professional (PMI)",
       "PRINCE2 or Agile / Scrum (CSM) certification"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "digital_marketing_manager",
@@ -1074,7 +1087,8 @@
       "Bachelor's in Marketing, Communications, or any field",
       "Google Analytics & Ads certifications",
       "HubSpot, Meta Blueprint, or SEMrush certifications"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "financial_analyst",
@@ -1147,7 +1161,8 @@
       "Bachelor's in Finance, Accounting, or Economics",
       "CFA — Chartered Financial Analyst (CFA Institute) — preferred",
       "FRM for risk-focused roles"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "accountant",
@@ -1216,7 +1231,8 @@
       "B.Com or Bachelor's in Accounting / Finance",
       "CA (ICAI) for senior statutory roles in India",
       "CMA / ACCA for management / international accounting"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "hr_manager",
@@ -1289,7 +1305,8 @@
       "Bachelor's in HR, Business, or Psychology",
       "MBA in HR preferred for senior roles",
       "SHRM-CP / PHR certification"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "graphic_designer",
@@ -1362,7 +1379,8 @@
       "Bachelor's in Graphic Design, Visual Arts, or Fine Arts",
       "Adobe Certified Professional (Photoshop / Illustrator)",
       "Portfolio of published / client work is mandatory"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "content_writer",
@@ -1432,7 +1450,8 @@
       "Bachelor's in English, Journalism, Communications, or any field",
       "Strong writing portfolio across formats",
       "SEO / content marketing certifications (optional)"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "video_producer",
@@ -1505,7 +1524,8 @@
       "Bachelor's in Film, Media Production, or Communications (preferred)",
       "Adobe Premiere / Final Cut Pro proficiency",
       "Showreel / portfolio of produced content"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "teacher_educator",
@@ -1575,7 +1595,8 @@
       "B.Ed — Bachelor of Education (mandatory for school teaching)",
       "CTET / State TET (mandatory for government schools in India)",
       "NET / SET for college-level teaching"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "corporate_trainer",
@@ -1644,7 +1665,8 @@
       "Bachelor's degree (any discipline)",
       "MBA / Postgraduate in HRD or L&D (preferred)",
       "Certified Training Professional (CTP) or ATD-CPLP"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "operations_manager",
@@ -1717,7 +1739,8 @@
       "Bachelor's in Business, Engineering, or Operations Management",
       "MBA preferred for senior / VP roles",
       "Six Sigma Green or Black Belt (valued)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "sales_manager",
@@ -1791,7 +1814,8 @@
       "Bachelor's degree (any discipline)",
       "MBA in Marketing / Sales (preferred for corporate ladder)",
       "Relevant industry certifications (SalesForce, HubSpot CRM)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "healthcare_administrator",
@@ -1859,7 +1883,8 @@
     "qualifications": [
       "Bachelor's in Healthcare Administration, Business, or Public Health",
       "MHA or MBA (Healthcare) for senior roles"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "data_engineer",
@@ -1933,7 +1958,8 @@
       "Bachelor's in CS, Engineering, or related field",
       "Cloud certifications: AWS Data Analytics / GCP Data Engineer",
       "Apache Spark / Kafka knowledge (certifications optional)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "game_developer",
@@ -2006,7 +2032,8 @@
       "Bachelor's in CS, Game Design, or Software Engineering",
       "Unity Certified Associate / Unreal certification (optional)",
       "Published game portfolio on itch.io / Steam"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "bi_developer",
@@ -2075,7 +2102,8 @@
       "Bachelor's in CS, Data Science, or Business",
       "Microsoft Power BI Data Analyst Associate certification",
       "Tableau Desktop Specialist certification"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "investment_analyst",
@@ -2148,7 +2176,8 @@
       "Bachelor's in Finance, Economics, or Business",
       "CFA Level I (minimum) — CFA charterholder preferred",
       "NISM certifications for securities market roles (India)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "supply_chain_manager",
@@ -2221,7 +2250,8 @@
       "Bachelor's in Supply Chain, Logistics, Engineering, or Business",
       "APICS CPIM — Certified in Production & Inventory Management",
       "APICS CSCP — Certified Supply Chain Professional"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "content_strategist",
@@ -2294,7 +2324,8 @@
       "Bachelor's in Marketing, Communications, or Journalism",
       "HubSpot Content Marketing certification",
       "SEO certifications (Moz, SEMrush, Google)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "instructional_designer",
@@ -2363,7 +2394,8 @@
       "Bachelor's in Education, Instructional Design, or related",
       "Master's in Instructional Technology preferred for academia",
       "ATD CPTD or eLearning Guild certification"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "electrician",
@@ -2428,7 +2460,8 @@
       "ITI — Industrial Training Institute in Electrician trade (2 years)",
       "Wireman License from State Electrical Inspectorate (mandatory)",
       "CITS — Craft Instructor Training Scheme (for supervisory / training roles)"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "plumber",
@@ -2489,7 +2522,8 @@
       "ITI in Plumbing trade (2 years)",
       "Apprenticeship under a licensed plumber",
       "Contractor / Trade License for independent work"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "carpenter",
@@ -2553,7 +2587,8 @@
     "qualifications": [
       "ITI in Carpentry trade (2 years) or apprenticeship",
       "Diploma in Interior Design / Furniture Design (optional)"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "auto_mechanic",
@@ -2618,7 +2653,8 @@
       "ITI in Automobile or Motor Vehicle Mechanic (2 years)",
       "Diploma in Automobile Engineering (optional but valued)",
       "OEM training certifications (Maruti, Toyota, etc.) for dealerships"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "welder",
@@ -2679,7 +2715,8 @@
       "ITI in Welding (1-2 years)",
       "CSWIP / AWS Certified Welder for premium / export roles",
       "ASME / API certifications for pressure vessel / pipeline work"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "civil_engineer",
@@ -2745,7 +2782,8 @@
       "M.Tech for research or senior design roles",
       "State Council of Engineering registration",
       "UPSC Engineering Services (IES) for government roles"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "nurse",
@@ -2810,7 +2848,8 @@
       "B.Sc Nursing (4 years) or GNM — General Nursing & Midwifery (3.5 years)",
       "State Nursing Council registration (mandatory)",
       "NCLEX-RN for international nursing (USA / Canada / UK)"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "anaesthesiologist",
@@ -2875,7 +2914,8 @@
       "MBBS — 5.5 years (MCI / NMC recognized college)",
       "MD / DNB in Anaesthesiology (3 years post-MBBS)",
       "NMC registration mandatory to practice"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "pharmacist",
@@ -2936,7 +2976,8 @@
       "B.Pharm — Bachelor of Pharmacy (4 years) or D.Pharm (2 years)",
       "State Pharmacy Council registration (mandatory)",
       "M.Pharm for research / quality control roles"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "physiotherapist",
@@ -2997,7 +3038,8 @@
       "BPT — Bachelor of Physiotherapy (4.5 years)",
       "State Physiotherapy Council registration (mandatory)",
       "MPT — Master of Physiotherapy for specialist / senior roles"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "ayurvedic_doctor",
@@ -3058,7 +3100,8 @@
       "BAMS — Bachelor of Ayurvedic Medicine and Surgery (5.5 years)",
       "State Ayurveda Council registration (mandatory to practice)",
       "MD (Ayurveda) for specialist and academic roles"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "chef",
@@ -3128,7 +3171,8 @@
       "Diploma / Degree in Culinary Arts or Hotel Management (IHM / state polytechnic)",
       "Craft Certificate in Food Production (NCHMCT/IHM)",
       "No formal qualification needed for self-employment / small food business"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "hotel_manager",
@@ -3192,7 +3236,8 @@
     "qualifications": [
       "BHM — Bachelor of Hotel Management (3-4 years, NCHMCT affiliated)",
       "MBA in Hospitality Management for GM / senior roles"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "baker",
@@ -3254,7 +3299,8 @@
       "Certificate / Diploma in Bakery & Confectionery (IHM / State Polytechnic)",
       "NCHMCT short-term bakery programs",
       "Portfolio of products (for freelance / own bakery setup)"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "hair_stylist",
@@ -3320,7 +3366,8 @@
       "Cosmetology / Hairdressing Diploma (VLCC, Lakme Academy, PIVOT POINT)",
       "State-recognized vocational certificate in beauty & wellness",
       "International: City & Guilds or CIDESCO certification (for premium salons)"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "fitness_trainer",
@@ -3386,7 +3433,8 @@
       "Diploma in Fitness and Nutrition (government polytechnic or recognized institute)",
       "ACSM / ACE / NASM / ISSA Certified Personal Trainer",
       "CPR / AED certification (mandatory)"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "yoga_instructor",
@@ -3451,7 +3499,8 @@
       "200-hour Yoga Teacher Training (RYT-200, Yoga Alliance registered)",
       "Certification from AYUSH Ministry or QCI-accredited yoga schools",
       "Advanced: 500-hour RYT for studios or specialized teaching"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "fashion_designer",
@@ -3516,7 +3565,8 @@
       "B.Des in Fashion Design (NIFT / NID / Pearl Academy or equivalent)",
       "Diploma in Fashion Design (3 years) from state polytechnic",
       "Portfolio of design collections mandatory for employment"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "tailor",
@@ -3577,7 +3627,8 @@
       "ITI in Dress Making / Sewing Technology (1-2 years)",
       "Short-term vocational certificate from state polytechnic",
       "No formal qualification required for independent tailoring"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "commercial_driver",
@@ -3639,7 +3690,8 @@
       "HMV / HGV Driving License from RTO (mandatory)",
       "HAZMAT endorsement for hazardous goods transport",
       "Passenger Transport endorsement for buses / taxis"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "logistics_manager",
@@ -3703,7 +3755,8 @@
     "qualifications": [
       "Bachelor's in Logistics, Supply Chain, or Business Administration",
       "APICS CPIM / CSCP or CILT certification (preferred)"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "progressive_farmer",
@@ -3769,7 +3822,8 @@
       "No formal qualification required for self-employed farming",
       "Diploma in Agriculture (preferred, improves techniques & loan access)",
       "Krishi Vigyan Kendra (KVK) or state agriculture university training"
-    ]
+    ],
+    "collar": "brown"
   },
   {
     "id": "agricultural_officer",
@@ -3835,7 +3889,8 @@
       "B.Sc Agriculture (mandatory)",
       "State Agricultural Service Exam or UPSC for central services",
       "M.Sc Agriculture / Ph.D for research and senior posts"
-    ]
+    ],
+    "collar": "brown"
   },
   {
     "id": "photographer",
@@ -3900,7 +3955,8 @@
       "Diploma / Degree in Photography (FTII, NID, or equivalent)",
       "Portfolio-driven field — no formal qualification mandatory",
       "Adobe Lightroom / Photoshop proficiency"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "musician",
@@ -3962,7 +4018,8 @@
       "Diploma / Degree in Music or Performing Arts (preferred)",
       "Guru-Shishya training for classical streams",
       "Recording portfolio / live performance experience mandatory"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "actor",
@@ -4028,7 +4085,8 @@
       "Diploma in Performing Arts / Acting (NSD, FTII, or film institutes)",
       "Acting workshops and method acting courses (short-term accepted)",
       "Showreel / stage experience essential"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "civil_servant_ias",
@@ -4097,7 +4155,8 @@
       "Bachelor's degree in any discipline (mandatory)",
       "UPSC Civil Services Examination — Prelims + Mains + Personality Test",
       "Age limit: 21-32 years (General); relaxations for OBC / SC / ST"
-    ]
+    ],
+    "collar": "red"
   },
   {
     "id": "bank_officer",
@@ -4163,7 +4222,8 @@
       "Graduation in any discipline (mandatory)",
       "IBPS PO Exam (Prelims + Mains + Interview) or SBI PO Exam",
       "IBPS Specialist Officer (SO) Exam for technical / IT cadre"
-    ]
+    ],
+    "collar": "red"
   },
   {
     "id": "police_officer",
@@ -4229,7 +4289,8 @@
       "Class 12 for constable level; Graduation for ASI / SI / DSP",
       "State Police Service Exam or UPSC IPS for gazetted ranks",
       "Physical fitness and medical standards mandatory at all ranks"
-    ]
+    ],
+    "collar": "red"
   },
   {
     "id": "railway_officer",
@@ -4291,7 +4352,8 @@
       "B.Tech / B.E. for Group A (IRSE, IRSS, IRTS) and technical cadre",
       "Graduation for Group B and administrative cadre",
       "UPSC Engineering Services Exam or UPSC Civil Services (IRS/IRTS)"
-    ]
+    ],
+    "collar": "red"
   },
   {
     "id": "retail_manager",
@@ -4355,7 +4417,8 @@
     "qualifications": [
       "Bachelor's in Retail Management, Business, or Marketing",
       "MBA / PGDM preferred for chain retail / brand management roles"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "social_worker",
@@ -4420,7 +4483,8 @@
       "BSW — Bachelor of Social Work (UGC-recognized, mandatory for formal sector)",
       "MSW — Master of Social Work for senior / specialized / policy roles",
       "Certification from reputed NGOs or TISS for niche domains"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "journalist",
@@ -4487,7 +4551,8 @@
       "Bachelor's in English / Political Science also widely accepted",
       "Published internship / portfolio of articles essential",
       "PCI press card for practicing journalists"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "air_traffic_controller",
@@ -4558,7 +4623,8 @@
       "DGCA ATC License (mandatory)",
       "AAI ATC Recruitment Exam (Airports Authority of India)",
       "Medical fitness as per DGCA requirements"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "commercial_pilot",
@@ -4629,7 +4695,8 @@
       "CPL — Commercial Pilot License (DGCA)",
       "Minimum 200 flying hours (for CPL issuance)",
       "DGCA Class 1 Medical Certificate"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "cabin_crew",
@@ -4700,7 +4767,8 @@
       "Aviation Hospitality Diploma (preferred by most airlines)",
       "Airline-specific cabin crew training (mandatory on joining)",
       "DGCA approved first-aid and safety certifications"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "aircraft_maintenance_engineer",
@@ -4767,7 +4835,8 @@
       "AME License — DGCA Category A / B1 / B2",
       "AME course from DGCA-approved institute (3-4 years)",
       "Type Rating on specific aircraft models"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "airport_ground_staff",
@@ -4833,7 +4902,8 @@
       "Class 12 pass (minimum)",
       "Diploma in Airport / Ground Operations Management (preferred)",
       "BCAS security training (mandatory on joining)"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "airport_manager",
@@ -4899,7 +4969,8 @@
       "Bachelor's in Aviation Management, Business, or Engineering",
       "MBA in Aviation Management (preferred for senior roles)",
       "IATA Diploma in Airport Operations"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "customs_officer",
@@ -4966,7 +5037,8 @@
       "Bachelor's degree in any discipline",
       "UPSC IRS (Customs & Central Excise) Exam for Group A officers",
       "SSC CGL Exam for Inspector-level posts"
-    ]
+    ],
+    "collar": "red"
   },
   {
     "id": "us_software_engineer",
@@ -5032,7 +5104,8 @@
       "Bachelor's in CS, Software Engineering, or related (preferred)",
       "Coding bootcamp + strong portfolio widely accepted",
       "AWS / GCP / Azure certifications (optional but valued)"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "us_data_scientist",
@@ -5098,7 +5171,8 @@
       "Bachelor's in Statistics, CS, or Math (minimum)",
       "Master's or PhD preferred for research / senior roles",
       "Kaggle / Google / Coursera Data Science certificates (supplementary)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_registered_nurse",
@@ -5165,7 +5239,8 @@
       "NCLEX-RN — National Council Licensure Examination (mandatory)",
       "State RN License (mandatory to practice)",
       "BSN increasingly required by hospitals and Magnet facilities"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "us_electrician",
@@ -5227,7 +5302,8 @@
       "High school diploma + 4-5 year Apprenticeship (IBEW or NECA-affiliated)",
       "Journeyman Electrician License (state-specific, mandatory)",
       "Master Electrician License (required to own a contracting business)"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "us_accountant_cpa",
@@ -5289,7 +5365,8 @@
       "Bachelor's in Accounting (150 credit hours required for CPA in most states)",
       "CPA — Certified Public Accountant (Uniform CPA Exam, AICPA)",
       "CMA — Certified Management Accountant (optional, for industry roles)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_financial_analyst",
@@ -5351,7 +5428,8 @@
       "Bachelor's in Finance, Economics, or Business",
       "CFA — Chartered Financial Analyst Level I–III (CFA Institute)",
       "FINRA Series 7 / 66 licenses for sell-side roles"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_truck_driver",
@@ -5410,7 +5488,8 @@
       "CDL — Commercial Driver's License Class A (mandatory for long-haul)",
       "DOT medical certificate (mandatory, renewed every 2 years)",
       "HAZMAT endorsement for hazardous materials transport"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "us_hvac_technician",
@@ -5468,7 +5547,8 @@
       "High school diploma + 6-month to 2-year HVAC certificate or Associate's degree",
       "EPA Section 608 Certification (legally mandatory for refrigerant handling)",
       "NATE — North American Technician Excellence certification (employer-preferred)"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "us_mechanical_engineer",
@@ -5530,7 +5610,8 @@
       "Bachelor's in Mechanical Engineering (ABET-accredited program)",
       "FE Exam — Fundamentals of Engineering (entry to PE licensure path)",
       "PE — Professional Engineer License (required to stamp designs for public projects)"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "us_teacher",
@@ -5593,7 +5674,8 @@
       "State Teaching License / Credential (mandatory, varies by state)",
       "Praxis I & II exams (required in most states)",
       "Master's degree (required for tenure / higher salary in many districts)"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "us_marketing_manager",
@@ -5655,7 +5737,8 @@
       "Bachelor's in Marketing, Business, or Communications",
       "MBA preferred for Director / VP level roles",
       "Google Analytics, HubSpot, or Meta Blueprint certifications"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_police_officer",
@@ -5718,7 +5801,8 @@
       "POST — Police Officer Standards and Training academy (mandatory)",
       "Physical fitness test, background check, and polygraph",
       "Psychological evaluation"
-    ]
+    ],
+    "collar": "red"
   },
   {
     "id": "us_pharmacist",
@@ -5781,7 +5865,8 @@
       "NAPLEX — North American Pharmacist Licensure Examination (mandatory)",
       "MPJE — Multistate Pharmacy Jurisprudence Examination",
       "State Pharmacy License (mandatory to practice)"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "us_physical_therapist",
@@ -5843,7 +5928,8 @@
       "DPT — Doctor of Physical Therapy (3-year accredited graduate program)",
       "NPTE — National Physical Therapy Examination (mandatory)",
       "State Physical Therapy License (mandatory to practice)"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "us_air_traffic_controller",
@@ -5906,7 +5992,8 @@
       "US citizenship (mandatory)",
       "FAA Academy training in Oklahoma City (mandatory, ~5 months)",
       "FAA Air Traffic Controller Certificate (CPC designation)"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "us_commercial_pilot",
@@ -5970,7 +6057,8 @@
       "Instrument Rating + Multi-Engine Rating",
       "ATP — Airline Transport Pilot Certificate (required for airline First Officer)",
       "FAA Class 1 Medical Certificate"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "us_dental_hygienist",
@@ -6028,7 +6116,8 @@
       "Associate's in Dental Hygiene (2 years) or Bachelor's",
       "NBDHE — National Board Dental Hygiene Examination (mandatory)",
       "State Dental Hygiene License (mandatory to practice)"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "us_welder",
@@ -6086,7 +6175,8 @@
       "High school diploma + vocational / trade school (6 months – 2 years)",
       "AWS CW — Certified Welder (American Welding Society)",
       "API / ASME certifications for pipeline and pressure vessel work"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "us_ux_designer",
@@ -6148,7 +6238,8 @@
       "Bachelor's in Design, HCI, or related (preferred)",
       "Google UX Design Certificate (Coursera — widely accepted)",
       "Portfolio of UX case studies (often more important than degree)"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "us_construction_manager",
@@ -6210,7 +6301,8 @@
       "Bachelor's in Construction Management, Civil Engineering, or Architecture",
       "CCM — Certified Construction Manager (CMAA)",
       "OSHA 30-hour Construction Safety Certification (strongly preferred)"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "army_officer",
@@ -6277,7 +6369,8 @@
       "CDS route: Graduation + UPSC CDS Exam + SSB Interview",
       "TES / TGC for engineering graduates (direct commission)",
       "Medical fitness as per Army standards mandatory"
-    ]
+    ],
+    "collar": "brown"
   },
   {
     "id": "navy_officer",
@@ -6344,7 +6437,8 @@
       "CDSE route: B.Tech / Graduation + UPSC CDS + SSB Interview",
       "Executive / Technical / Pilot branches — different educational requirements",
       "Medical fitness as per Naval standards mandatory"
-    ]
+    ],
+    "collar": "brown"
   },
   {
     "id": "air_force_officer",
@@ -6411,7 +6505,8 @@
       "AFCAT: Graduation + Air Force Common Admission Test + SSB",
       "B.Tech for technical / engineering branches",
       "Medical fitness including vision standards mandatory"
-    ]
+    ],
+    "collar": "brown"
   },
   {
     "id": "agniveer",
@@ -6470,7 +6565,8 @@
       "Class 12 or ITI for technical categories",
       "Age: 17.5 to 21 years",
       "Agnipath Scheme written exam + physical fitness test + medical"
-    ]
+    ],
+    "collar": "brown"
   },
   {
     "id": "merchant_navy_officer",
@@ -6537,7 +6633,8 @@
       "B.Sc Nautical Science or B.Tech Marine Engineering (DGS-approved, 4 years)",
       "STCW Basic Safety Training certificates (mandatory)",
       "Pre-Sea Training from DGS-approved institute"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "port_operations",
@@ -6599,7 +6696,8 @@
       "Bachelor's in Port Management, Logistics, Civil, or Mechanical Engineering",
       "Diploma in Port & Shipping Management (preferred)",
       "IAME / ICSM course certifications"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "loco_pilot",
@@ -6662,7 +6760,8 @@
       "Class 12 / Diploma in Engineering (for Loco Pilot)",
       "RRB ALP Exam — Railway Recruitment Board",
       "Railway Medical fitness standard (vision requirements)"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "station_master",
@@ -6724,7 +6823,8 @@
       "Class 12 or Graduation (depending on level / grade)",
       "RRB Station Master Recruitment Exam",
       "Railway Medical standards must be met"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "research_scientist",
@@ -6790,7 +6890,8 @@
       "M.Sc or B.Tech in the relevant field (minimum)",
       "PhD — mandatory for independent research positions",
       "GATE / CSIR-UGC NET / JEST qualifying exam for public institutions"
-    ]
+    ],
+    "collar": "gold"
   },
   {
     "id": "space_scientist",
@@ -6857,7 +6958,8 @@
       "B.Tech / M.Tech in Aerospace, Mechanical, Electronics, or M.Sc Physics",
       "ISRO ICRB Exam — Centralised Recruitment for Scientists / Engineers",
       "GATE score often required for entry-level ISRO recruitment"
-    ]
+    ],
+    "collar": "gold"
   },
   {
     "id": "defence_scientist_drdo",
@@ -6924,7 +7026,8 @@
       "B.Tech or M.Sc in the relevant discipline",
       "DRDO SET — Scientist Entry Test or GATE",
       "PhD preferred for Scientist D and above grades"
-    ]
+    ],
+    "collar": "gold"
   },
   {
     "id": "chartered_accountant",
@@ -6992,7 +7095,8 @@
       "ICAI CA Foundation → Intermediate → Final exams",
       "3-year Articleship under a practicing CA",
       "Membership with ICAI (awarded after passing Final & completing articleship)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "investment_banker_in",
@@ -7058,7 +7162,8 @@
       "Bachelor's in Finance / Commerce / Economics / Engineering",
       "MBA (Finance) from top B-school or CFA designation",
       "Internship at investment bank / boutique (highly valued)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "company_secretary",
@@ -7122,7 +7227,8 @@
       "ICSI CSEET → Executive Programme → Professional Programme",
       "Practical Training (15-21 months under CS / company)",
       "Membership with ICSI (post exams + training)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "stock_broker_in",
@@ -7185,7 +7291,8 @@
       "NISM Series VIII — Equity Derivatives Certification (mandatory)",
       "NISM Series X-A — Investment Adviser (for advisory roles)",
       "SEBI registration for acting as a broker / adviser"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "bank_clerk_in",
@@ -7247,7 +7354,8 @@
       "Graduation in any discipline (mandatory)",
       "IBPS Clerk Exam (Prelims + Mains) or SBI Clerk Exam",
       "Local / official language proficiency test"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "insurance_advisor_in",
@@ -7310,7 +7418,8 @@
       "Class 10 / 12 pass (minimum)",
       "IRDAI Agent Training — 50-hour pre-licensing training",
       "IC-38 IRDAI Licensing Exam (mandatory to sell insurance)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "actuary_in",
@@ -7373,7 +7482,8 @@
       "Class 12 with strong Mathematics / Statistics",
       "IAI ACET — Actuarial Common Entrance Test",
       "Series of IAI actuarial exams (CT / CA series — 15 exams total for Fellow)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "financial_advisor_in",
@@ -7435,7 +7545,8 @@
       "Graduation in any discipline",
       "NISM Series X-A (Investment Adviser Module) or CFP certification",
       "SEBI RIA (Registered Investment Adviser) registration for independent practice"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_investment_banker",
@@ -7497,7 +7608,8 @@
       "Bachelor's in Finance, Economics, or Business (target school preferred)",
       "MBA from top business school (for career switchers / promotion to VP+)",
       "FINRA Series 7 & Series 63 licenses (obtained on the job)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_actuary",
@@ -7560,7 +7672,8 @@
       "Bachelor's in Actuarial Science, Mathematics, or Statistics",
       "SOA or CAS actuarial exams (Associate designation, then Fellow)",
       "VEE credits in Economics, Accounting, and Mathematical Statistics"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_financial_advisor",
@@ -7622,7 +7735,8 @@
       "Bachelor's degree (Finance or Business preferred)",
       "FINRA Series 7 & Series 66 licenses (mandatory)",
       "CFP — Certified Financial Planner designation (strongly preferred)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_loan_officer",
@@ -7684,7 +7798,8 @@
       "High school diploma (minimum); Bachelor's preferred by employers",
       "NMLS — Mortgage Loan Originator License (state-specific, mandatory)",
       "SAFE Act compliance and continuing education requirements"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_underwriter",
@@ -7746,7 +7861,8 @@
       "Bachelor's in Finance, Business, or Mathematics",
       "CPCU — Chartered Property Casualty Underwriter (preferred)",
       "AU — Associate in Underwriting designation"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_auditor",
@@ -7808,7 +7924,8 @@
       "Bachelor's in Accounting (150 credit hours required for CPA in most states)",
       "CPA — Certified Public Accountant (state board exam, mandatory for signing audits)",
       "CIA — Certified Internal Auditor (for internal audit / compliance roles)"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_personal_banker",
@@ -7870,7 +7987,8 @@
       "High school diploma / GED (minimum)",
       "Associate's or Bachelor's degree (preferred by major banks)",
       "On-the-job bank training and product certification provided by employer"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "mythologist_in",
@@ -7933,7 +8051,8 @@
       "research",
       "writing",
       "academia"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "heritage_museum_professional",
@@ -7997,7 +8116,8 @@
       "archaeology",
       "culture",
       "preservation"
-    ]
+    ],
+    "collar": "red"
   },
   {
     "id": "archaeologist_in",
@@ -8066,7 +8186,8 @@
       "culture",
       "asi",
       "history"
-    ]
+    ],
+    "collar": "red"
   },
   {
     "id": "us_archaeologist",
@@ -8131,7 +8252,8 @@
       "anthropology",
       "heritage",
       "federal"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "film_director_in",
@@ -8198,7 +8320,8 @@
       "ott",
       "creative",
       "director"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "screenwriter_in",
@@ -8261,7 +8384,8 @@
       "ott",
       "creative",
       "writing"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "cinematographer_in",
@@ -8324,7 +8448,8 @@
       "camera",
       "creative",
       "dop"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "film_editor_in",
@@ -8387,7 +8512,8 @@
       "post-production",
       "ott",
       "creative"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "vfx_artist_in",
@@ -8450,7 +8576,8 @@
       "film",
       "visual-effects",
       "cgi"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "film_producer_in",
@@ -8518,7 +8645,8 @@
       "entertainment",
       "business",
       "bollywood"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_film_director",
@@ -8581,7 +8709,8 @@
       "streaming",
       "creative",
       "director"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "us_screenwriter",
@@ -8645,7 +8774,8 @@
       "tv",
       "streaming",
       "writing"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "animator_2d_in",
@@ -8708,7 +8838,8 @@
       "creative",
       "ott",
       "film"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "animator_3d_in",
@@ -8772,7 +8903,8 @@
       "maya",
       "blender",
       "gaming"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "storyboard_artist_in",
@@ -8835,7 +8967,8 @@
       "film",
       "creative",
       "illustration"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "motion_graphics_designer_in",
@@ -8898,7 +9031,8 @@
       "animation",
       "creative",
       "design"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "animation_director_in",
@@ -8965,7 +9099,8 @@
       "leadership",
       "creative",
       "studio"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_animator_3d",
@@ -9029,7 +9164,8 @@
       "pixar",
       "disney",
       "gaming"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "us_motion_graphics",
@@ -9093,7 +9229,8 @@
       "broadcast",
       "creative",
       "design"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "speech_therapist_in",
@@ -9156,7 +9293,8 @@
       "therapy",
       "rci",
       "clinical"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "occupational_therapist_in",
@@ -9219,7 +9357,8 @@
       "therapy",
       "rci",
       "rehabilitation"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "psychologist_in",
@@ -9283,7 +9422,8 @@
       "counseling",
       "therapy",
       "clinical"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "aba_therapist_in",
@@ -9351,7 +9491,8 @@
       "behavior-analysis",
       "therapy",
       "special-education"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "us_speech_therapist",
@@ -9415,7 +9556,8 @@
       "slp",
       "asha",
       "clinical"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "us_occupational_therapist",
@@ -9479,7 +9621,8 @@
       "ot",
       "nbcot",
       "clinical"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "us_bcba",
@@ -9547,7 +9690,8 @@
       "autism",
       "behavior-analysis",
       "healthcare"
-    ]
+    ],
+    "collar": "gold"
   },
   {
     "id": "us_psychologist",
@@ -9616,7 +9760,8 @@
       "therapy",
       "clinical",
       "private-practice"
-    ]
+    ],
+    "collar": "gold"
   },
   {
     "id": "street_food_entrepreneur",
@@ -9680,7 +9825,8 @@
       "small-business",
       "self-employed",
       "low-investment"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "handicraft_entrepreneur",
@@ -9744,7 +9890,8 @@
       "msme",
       "entrepreneurship",
       "self-employed"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "cloud_kitchen_entrepreneur",
@@ -9808,7 +9955,8 @@
       "entrepreneurship",
       "swiggy",
       "zomato"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "franchise_owner_in",
@@ -9872,7 +10020,8 @@
       "entrepreneurship",
       "investment",
       "retail"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "msme_manufacturer",
@@ -9941,7 +10090,8 @@
       "entrepreneurship",
       "make-in-india",
       "small-business"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "ecommerce_entrepreneur",
@@ -10006,7 +10156,8 @@
       "entrepreneurship",
       "amazon",
       "flipkart"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "us_small_business_owner",
@@ -10071,7 +10222,8 @@
       "self-employed",
       "sba",
       "startup"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_franchise_owner",
@@ -10135,7 +10287,8 @@
       "entrepreneurship",
       "investment",
       "self-employed"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "fine_artist_in",
@@ -10200,7 +10353,8 @@
       "creative",
       "gallery",
       "artist"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "sculptor_ceramics_in",
@@ -10264,7 +10418,8 @@
       "pottery",
       "craft",
       "fine-art"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "jewellery_designer_in",
@@ -10328,7 +10483,8 @@
       "craft",
       "export",
       "luxury"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "textile_artist_in",
@@ -10392,7 +10548,8 @@
       "handloom",
       "craft",
       "design"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "us_studio_craft_artist",
@@ -10452,7 +10609,8 @@
       "pottery",
       "handmade",
       "fine-art"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "translator_interpreter_in",
@@ -10516,7 +10674,8 @@
       "interpretation",
       "multilingual",
       "linguistics"
-    ]
+    ],
+    "collar": "open"
   },
   {
     "id": "ifs_officer_in",
@@ -10584,7 +10743,8 @@
       "diplomacy",
       "foreign-service",
       "government"
-    ]
+    ],
+    "collar": "gold"
   },
   {
     "id": "conference_interpreter_in",
@@ -10648,7 +10808,8 @@
       "diplomacy",
       "language",
       "multilingual"
-    ]
+    ],
+    "collar": "gold"
   },
   {
     "id": "us_foreign_service_officer",
@@ -10712,7 +10873,8 @@
       "fsot",
       "state-department",
       "government"
-    ]
+    ],
+    "collar": "gold"
   },
   {
     "id": "us_interpreter_translator",
@@ -10777,7 +10939,8 @@
       "language",
       "legal",
       "medical"
-    ]
+    ],
+    "collar": "open"
   },
   {
     "id": "commodity_trader_in",
@@ -10841,7 +11004,8 @@
       "mcx",
       "ncdex",
       "finance"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "import_export_consultant_in",
@@ -10905,7 +11069,8 @@
       "customs",
       "dgft",
       "international-business"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "stockbroker_in",
@@ -10970,7 +11135,8 @@
       "nse",
       "bse",
       "trading"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "forex_analyst_in",
@@ -11034,7 +11200,8 @@
       "treasury",
       "risk-management",
       "finance"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_commodities_trader",
@@ -11098,7 +11265,8 @@
       "trading",
       "cme",
       "finance"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_trade_advisor",
@@ -11163,7 +11331,8 @@
       "international-business",
       "compliance",
       "export"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "medical_equipment_rep_in",
@@ -11227,7 +11396,8 @@
       "healthcare",
       "meditec",
       "hospital"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "pharma_sales_rep_in",
@@ -11291,7 +11461,8 @@
       "sales",
       "healthcare",
       "drugs"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "hospital_supply_manager_in",
@@ -11355,7 +11526,8 @@
       "procurement",
       "healthcare",
       "operations"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "medical_distributor_in",
@@ -11419,7 +11591,8 @@
       "entrepreneurship",
       "healthcare",
       "business"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "us_medical_device_sales",
@@ -11483,7 +11656,8 @@
       "healthcare",
       "medtech",
       "hospital"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_healthcare_supply_chain",
@@ -11547,7 +11721,8 @@
       "procurement",
       "hospital",
       "operations"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "manufacturing_engineer_in",
@@ -11615,7 +11790,8 @@
       "production",
       "lean",
       "make-in-india"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "production_manager_in",
@@ -11683,7 +11859,8 @@
       "operations",
       "management",
       "factory"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "qc_engineer_in",
@@ -11747,7 +11924,8 @@
       "qa",
       "manufacturing",
       "iso"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "industrial_engineer_in",
@@ -11811,7 +11989,8 @@
       "manufacturing",
       "efficiency",
       "operations"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "automation_robotics_engineer_in",
@@ -11875,7 +12054,8 @@
       "plc",
       "scada",
       "industry4"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "us_manufacturing_engineer",
@@ -11939,7 +12119,8 @@
       "lean",
       "aerospace",
       "automotive"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "us_industrial_engineer",
@@ -12003,7 +12184,8 @@
       "operations",
       "logistics",
       "manufacturing"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "supply_chain_analyst_in",
@@ -12067,7 +12249,8 @@
       "analytics",
       "operations",
       "ecommerce"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "logistics_manager_in",
@@ -12131,7 +12314,8 @@
       "warehouse",
       "3pl",
       "supply-chain"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "freight_forwarder_in",
@@ -12195,7 +12379,8 @@
       "logistics",
       "import-export",
       "shipping"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "us_supply_chain_manager",
@@ -12259,7 +12444,8 @@
       "operations",
       "procurement",
       "management"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "soap_cosmetics_manufacturer",
@@ -12324,7 +12510,8 @@
       "cottage-industry",
       "msme",
       "d2c"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "garment_manufacturer_in",
@@ -12388,7 +12575,8 @@
       "textile",
       "msme",
       "manufacturing"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "plant_nursery_owner",
@@ -12452,7 +12640,8 @@
       "plants",
       "agriculture",
       "entrepreneurship"
-    ]
+    ],
+    "collar": "green"
   },
   {
     "id": "us_nursery_horticulturist",
@@ -12516,7 +12705,8 @@
       "plants",
       "landscape",
       "agriculture"
-    ]
+    ],
+    "collar": "green"
   },
   {
     "id": "loan_officer_in",
@@ -12585,7 +12775,8 @@
       "credit",
       "finance",
       "nbfc"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "teaching_assistant_in",
@@ -12649,7 +12840,8 @@
       "assistant",
       "school",
       "university"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "us_teaching_assistant",
@@ -12713,7 +12905,8 @@
       "education",
       "school",
       "special-education"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "front_desk_receptionist_in",
@@ -12781,7 +12974,8 @@
       "admin",
       "customer-service",
       "hospitality"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "office_administrator_in",
@@ -12845,7 +13039,8 @@
       "executive-assistant",
       "administration",
       "operations"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_receptionist_admin",
@@ -12909,7 +13104,8 @@
       "front-desk",
       "office",
       "customer-service"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "news_anchor_in",
@@ -12978,7 +13174,8 @@
       "journalism",
       "broadcast",
       "media"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "tv_host_in",
@@ -13046,7 +13243,8 @@
       "entertainment",
       "media",
       "reality-show"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "radio_jockey_in",
@@ -13116,7 +13314,8 @@
       "fm",
       "broadcast",
       "media"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "video_jockey_in",
@@ -13180,7 +13379,8 @@
       "digital-host",
       "entertainment",
       "media"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "model_in",
@@ -13249,7 +13449,8 @@
       "ramp",
       "advertising",
       "entertainment"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "podcast_host_creator_in",
@@ -13317,7 +13518,8 @@
       "audio",
       "digital-media",
       "creator-economy"
-    ]
+    ],
+    "collar": "open"
   },
   {
     "id": "us_news_anchor",
@@ -13381,7 +13583,8 @@
       "journalism",
       "tv",
       "media"
-    ]
+    ],
+    "collar": "white"
   },
   {
     "id": "us_radio_jockey",
@@ -13445,7 +13648,8 @@
       "broadcast",
       "entertainment",
       "media"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "us_model",
@@ -13509,7 +13713,8 @@
       "commercial",
       "advertising",
       "entertainment"
-    ]
+    ],
+    "collar": "no"
   },
   {
     "id": "delivery_executive_in",
@@ -13574,7 +13779,8 @@
       "zomato",
       "amazon",
       "no-degree"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "cab_driver_in",
@@ -13639,7 +13845,8 @@
       "transport",
       "self-employed",
       "no-degree"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "auto_rickshaw_driver_in",
@@ -13695,7 +13902,8 @@
       "transport",
       "self-employed",
       "no-degree"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "truck_driver_in",
@@ -13755,7 +13963,8 @@
       "logistics",
       "transport",
       "no-degree"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "security_guard_in",
@@ -13815,7 +14024,8 @@
       "guard",
       "no-degree",
       "everday-work"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "house_painter_in",
@@ -13879,7 +14089,8 @@
       "trade",
       "no-degree",
       "self-employed"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "tailor_in",
@@ -13943,7 +14154,8 @@
       "garment",
       "self-employed",
       "no-degree"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "carpenter_in",
@@ -14007,7 +14219,8 @@
       "furniture",
       "trade",
       "no-degree"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "plumber_in",
@@ -14071,7 +14284,8 @@
       "trade",
       "construction",
       "no-degree"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "welder_in",
@@ -14135,7 +14349,8 @@
       "trade",
       "manufacturing",
       "no-degree"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "mason_in",
@@ -14199,7 +14414,8 @@
       "bricklayer",
       "trade",
       "no-degree"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "domestic_cook_in",
@@ -14259,7 +14475,8 @@
       "home-chef",
       "household",
       "no-degree"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "data_entry_operator_in",
@@ -14319,7 +14536,8 @@
       "office",
       "bpo",
       "no-degree"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "gardener_mali_in",
@@ -14383,7 +14601,8 @@
       "horticulture",
       "landscape",
       "no-degree"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "laundry_worker_in",
@@ -14447,7 +14666,8 @@
       "dhobi",
       "service",
       "no-degree"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "electrician_helper_in",
@@ -14511,7 +14731,8 @@
       "electrical",
       "trade",
       "no-degree"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "mobile_repair_technician_in",
@@ -14575,7 +14796,8 @@
       "technician",
       "self-employed",
       "no-degree"
-    ]
+    ],
+    "collar": "new"
   },
   {
     "id": "ac_refrigeration_technician_in",
@@ -14639,7 +14861,8 @@
       "hvac",
       "technician",
       "no-degree"
-    ]
+    ],
+    "collar": "gray"
   },
   {
     "id": "beauty_parlour_worker_in",
@@ -14703,7 +14926,8 @@
       "cosmetology",
       "self-employed",
       "no-degree"
-    ]
+    ],
+    "collar": "pink"
   },
   {
     "id": "us_delivery_driver",
@@ -14764,7 +14988,8 @@
       "amazon",
       "fedex",
       "no-degree"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "us_warehouse_worker",
@@ -14827,7 +15052,8 @@
       "amazon",
       "logistics",
       "no-degree"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "us_security_guard",
@@ -14892,7 +15118,8 @@
       "officer",
       "no-degree",
       "everyday-work"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "us_janitor_custodian",
@@ -14952,7 +15179,8 @@
       "cleaning",
       "no-degree",
       "everyday-work"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "us_landscaper",
@@ -15016,7 +15244,8 @@
       "lawn-care",
       "no-degree",
       "outdoor"
-    ]
+    ],
+    "collar": "blue"
   },
   {
     "id": "us_house_painter",
@@ -15080,6 +15309,7 @@
       "contractor",
       "trade",
       "no-degree"
-    ]
+    ],
+    "collar": "blue"
   }
 ]
