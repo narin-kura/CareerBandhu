@@ -575,6 +575,7 @@ function renderCareerSkillView(cv, gv) {
 
   const sal = c.salary_range ? formatSal(c.salary_range) : '';
   const entry = (c.entry_paths||[]).map(p=>`<div class="entry">${p}</div>`).join('');
+  const quals = (c.qualifications||[]).map(q=>`<div class="entry">${q}</div>`).join('');
   const total = (g.gaps||[]).length;
 
   setResults(`
@@ -588,6 +589,8 @@ function renderCareerSkillView(cv, gv) {
       <p class="d-desc">${c.description}</p>
       <div class="d-meta">${sal?`<span>${sal}</span>`:''}<span>📈 ${c.growth_outlook}</span></div>
     </div>
+
+    ${quals?`<div class="box"><div class="box-title">🎓 Qualifications needed</div>${quals}</div>`:''}
 
     ${entry?`<div class="box"><div class="box-title">🚀 How to enter this career</div>${entry}</div>`:''}
 
