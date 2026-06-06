@@ -368,6 +368,7 @@ const API = '';
 let skills = [], ratingVal = 0, currentId = null, currentMode = 'skills';
 let allCareers = [], selectedCareerId = null, checkedSkills = new Set();
 let region = 'IN';
+let currentCareerData = null;
 
 const POPULAR_SKILLS = {
   IN: ['Cooking','Driving','Sewing & Stitching','Teaching','Electrical Wiring',
@@ -438,6 +439,7 @@ async function get(path) { const r = await fetch(API+path); if(!r.ok) throw Erro
 async function post(path, body) { const r = await fetch(API+path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}); if(!r.ok) throw Error(r.status); return r.json(); }
 
 function switchMode(m) {
+  currentCareerData = null;
   currentMode = m;
   document.getElementById('tab-skills').className = m==='skills'?'on':'';
   document.getElementById('tab-career').className = m==='career'?'on career':'';
@@ -512,11 +514,15 @@ async function exploreCareer() {
   btn.disabled=true; btn.textContent='Loading…';
   setResults('<div class="status"><div class="spinner"></div><p>Loading career details…</p></div>');
   checkedSkills.clear();
+  currentCareerData = null;
   try {
     const [cv, gv] = await Promise.all([ get(`/api/career/${selectedCareerId}`), post(`/api/career/${selectedCareerId}/gap`, {skills: []}) ]);
     renderCareerSkillView(cv, gv);
-  } catch(e) { setResults(`<div class="status"><p>Error: ${e.message}</p></div>`); }
-  btn.disabled=false; btn.textContent='Show skills needed';
+  } catch(e) {
+    setResults(`<div class="status"><p>Error: ${e.message}</p></div>`);
+  } finally {
+    btn.disabled=false; btn.textContent='Show skills needed';
+  }
 }
 
 function setResults(html) { document.getElementById('results-area').innerHTML = html; }
@@ -548,6 +554,7 @@ function renderResults(list) {
 }
 
 function renderCareerSkillView(cv, gv) {
+  currentCareerData = cv.career;
   const c = cv.career, g = gv;
   const byLv = {critical:[],important:[],helpful:[]};
   for (const gap of (g.gaps||[])) (byLv[gap.level]=byLv[gap.level]||[]).push(gap);
@@ -604,8 +611,7 @@ function toggleSkillCheck(el, skillName) {
   const nowChecked = !checkedSkills.has(skillName);
   if(nowChecked) { checkedSkills.add(skillName); el.classList.add('checked'); if(cb) cb.checked=true; }
   else { checkedSkills.delete(skillName); el.classList.remove('checked'); if(cb) cb.checked=false; }
-  const c = allCareers.find(c=>c.id===selectedCareerId);
-  if(c) updateLiveScore(c);
+  if(currentCareerData) updateLiveScore(currentCareerData);
 }
 function updateLiveScore(c) {
   const req = c.required_skills||[]; const wts={critical:3,important:2,helpful:1};
