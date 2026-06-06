@@ -4,709 +4,4102 @@
     "title": "Software Engineer",
     "category": "Technology",
     "description": "Design, develop, and maintain software systems and applications. Software engineers solve complex problems through code, working across web, mobile, desktop, and embedded systems. High demand across virtually every industry.",
-    "salary_range": { "min": 70000, "max": 180000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 70000,
+      "max": 180000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "Very High",
-    "work_style": ["Remote-friendly", "Team-based", "Problem-solving"],
-    "required_skills": [
-      { "skill": "Python", "level": "critical" },
-      { "skill": "Data Structures & Algorithms", "level": "critical" },
-      { "skill": "Git", "level": "critical" },
-      { "skill": "JavaScript", "level": "important" },
-      { "skill": "SQL", "level": "important" },
-      { "skill": "Linux", "level": "important" },
-      { "skill": "REST APIs", "level": "important" },
-      { "skill": "Testing", "level": "important" },
-      { "skill": "Docker", "level": "helpful" },
-      { "skill": "System Design", "level": "helpful" }
+    "work_style": [
+      "Remote-friendly",
+      "Team-based",
+      "Problem-solving"
     ],
-    "entry_paths": ["Computer Science degree", "Bootcamp", "Self-taught with portfolio"],
-    "tags": ["tech", "programming", "remote-friendly", "high-salary"]
+    "required_skills": [
+      {
+        "skill": "Python",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Structures & Algorithms",
+        "level": "critical"
+      },
+      {
+        "skill": "Git",
+        "level": "critical"
+      },
+      {
+        "skill": "JavaScript",
+        "level": "important"
+      },
+      {
+        "skill": "SQL",
+        "level": "important"
+      },
+      {
+        "skill": "Linux",
+        "level": "important"
+      },
+      {
+        "skill": "REST APIs",
+        "level": "important"
+      },
+      {
+        "skill": "Testing",
+        "level": "important"
+      },
+      {
+        "skill": "Docker",
+        "level": "helpful"
+      },
+      {
+        "skill": "System Design",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Computer Science degree",
+      "Bootcamp",
+      "Self-taught with portfolio"
+    ],
+    "tags": [
+      "tech",
+      "programming",
+      "remote-friendly",
+      "high-salary"
+    ]
   },
   {
     "id": "data_scientist",
     "title": "Data Scientist",
     "category": "Data & Analytics",
     "description": "Extract insights from large datasets using statistics, machine learning, and data visualization. Data scientists help organizations make data-driven decisions by building predictive models and uncovering hidden patterns.",
-    "salary_range": { "min": 80000, "max": 175000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 80000,
+      "max": 175000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "Very High",
-    "work_style": ["Analytical", "Research-oriented", "Collaborative"],
-    "required_skills": [
-      { "skill": "Python", "level": "critical" },
-      { "skill": "Statistics", "level": "critical" },
-      { "skill": "Machine Learning", "level": "critical" },
-      { "skill": "SQL", "level": "critical" },
-      { "skill": "Data Visualization", "level": "important" },
-      { "skill": "Pandas", "level": "important" },
-      { "skill": "Mathematics", "level": "important" },
-      { "skill": "Communication", "level": "important" },
-      { "skill": "Deep Learning", "level": "helpful" },
-      { "skill": "R", "level": "helpful" },
-      { "skill": "Excel", "level": "helpful" }
+    "work_style": [
+      "Analytical",
+      "Research-oriented",
+      "Collaborative"
     ],
-    "entry_paths": ["Statistics/Math degree", "Computer Science degree", "Data Science bootcamp"],
-    "tags": ["tech", "data", "AI", "high-salary", "research"]
+    "required_skills": [
+      {
+        "skill": "Python",
+        "level": "critical"
+      },
+      {
+        "skill": "Statistics",
+        "level": "critical"
+      },
+      {
+        "skill": "Machine Learning",
+        "level": "critical"
+      },
+      {
+        "skill": "SQL",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Visualization",
+        "level": "important"
+      },
+      {
+        "skill": "Pandas",
+        "level": "important"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Deep Learning",
+        "level": "helpful"
+      },
+      {
+        "skill": "R",
+        "level": "helpful"
+      },
+      {
+        "skill": "Excel",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Statistics/Math degree",
+      "Computer Science degree",
+      "Data Science bootcamp"
+    ],
+    "tags": [
+      "tech",
+      "data",
+      "AI",
+      "high-salary",
+      "research"
+    ]
   },
   {
     "id": "ml_engineer",
     "title": "Machine Learning Engineer",
     "category": "Technology",
     "description": "Build and deploy machine learning models and AI systems at scale. ML engineers bridge the gap between data science research and production software engineering, building infrastructure for training and serving models.",
-    "salary_range": { "min": 100000, "max": 210000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 100000,
+      "max": 210000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "Very High",
-    "work_style": ["Technical", "Research-engineering hybrid", "Remote-friendly"],
-    "required_skills": [
-      { "skill": "Python", "level": "critical" },
-      { "skill": "Machine Learning", "level": "critical" },
-      { "skill": "Deep Learning", "level": "critical" },
-      { "skill": "Mathematics", "level": "critical" },
-      { "skill": "TensorFlow or PyTorch", "level": "critical" },
-      { "skill": "Data Engineering", "level": "important" },
-      { "skill": "Docker", "level": "important" },
-      { "skill": "Cloud Computing", "level": "important" },
-      { "skill": "MLOps", "level": "important" },
-      { "skill": "SQL", "level": "helpful" },
-      { "skill": "Kubernetes", "level": "helpful" }
+    "work_style": [
+      "Technical",
+      "Research-engineering hybrid",
+      "Remote-friendly"
     ],
-    "entry_paths": ["CS or Math degree", "ML research background", "Data scientist transition"],
-    "tags": ["tech", "AI", "high-salary", "cutting-edge"]
+    "required_skills": [
+      {
+        "skill": "Python",
+        "level": "critical"
+      },
+      {
+        "skill": "Machine Learning",
+        "level": "critical"
+      },
+      {
+        "skill": "Deep Learning",
+        "level": "critical"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "critical"
+      },
+      {
+        "skill": "TensorFlow or PyTorch",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Engineering",
+        "level": "important"
+      },
+      {
+        "skill": "Docker",
+        "level": "important"
+      },
+      {
+        "skill": "Cloud Computing",
+        "level": "important"
+      },
+      {
+        "skill": "MLOps",
+        "level": "important"
+      },
+      {
+        "skill": "SQL",
+        "level": "helpful"
+      },
+      {
+        "skill": "Kubernetes",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "CS or Math degree",
+      "ML research background",
+      "Data scientist transition"
+    ],
+    "tags": [
+      "tech",
+      "AI",
+      "high-salary",
+      "cutting-edge"
+    ]
   },
   {
     "id": "devops_engineer",
     "title": "DevOps Engineer",
     "category": "Technology",
     "description": "Bridge development and operations by automating infrastructure, CI/CD pipelines, and deployment processes. DevOps engineers ensure software is delivered reliably and at scale, using cloud platforms and automation tools.",
-    "salary_range": { "min": 75000, "max": 160000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 75000,
+      "max": 160000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "High",
-    "work_style": ["Remote-friendly", "On-call rotations", "Collaborative"],
-    "required_skills": [
-      { "skill": "Linux", "level": "critical" },
-      { "skill": "Docker", "level": "critical" },
-      { "skill": "Kubernetes", "level": "critical" },
-      { "skill": "CI/CD", "level": "critical" },
-      { "skill": "Cloud Computing", "level": "critical" },
-      { "skill": "Scripting (Bash or Python)", "level": "important" },
-      { "skill": "Terraform", "level": "important" },
-      { "skill": "Networking", "level": "important" },
-      { "skill": "Git", "level": "important" },
-      { "skill": "Monitoring & Alerting", "level": "helpful" },
-      { "skill": "Security", "level": "helpful" }
+    "work_style": [
+      "Remote-friendly",
+      "On-call rotations",
+      "Collaborative"
     ],
-    "entry_paths": ["CS degree", "System admin background", "Cloud certifications"],
-    "tags": ["tech", "infrastructure", "remote-friendly", "high-salary"]
+    "required_skills": [
+      {
+        "skill": "Linux",
+        "level": "critical"
+      },
+      {
+        "skill": "Docker",
+        "level": "critical"
+      },
+      {
+        "skill": "Kubernetes",
+        "level": "critical"
+      },
+      {
+        "skill": "CI/CD",
+        "level": "critical"
+      },
+      {
+        "skill": "Cloud Computing",
+        "level": "critical"
+      },
+      {
+        "skill": "Scripting (Bash or Python)",
+        "level": "important"
+      },
+      {
+        "skill": "Terraform",
+        "level": "important"
+      },
+      {
+        "skill": "Networking",
+        "level": "important"
+      },
+      {
+        "skill": "Git",
+        "level": "important"
+      },
+      {
+        "skill": "Monitoring & Alerting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Security",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "CS degree",
+      "System admin background",
+      "Cloud certifications"
+    ],
+    "tags": [
+      "tech",
+      "infrastructure",
+      "remote-friendly",
+      "high-salary"
+    ]
   },
   {
     "id": "cloud_architect",
     "title": "Cloud Architect",
     "category": "Technology",
     "description": "Design and oversee an organization's cloud computing strategy. Cloud architects define infrastructure architecture, select cloud services, ensure scalability and security, and guide engineering teams on best practices.",
-    "salary_range": { "min": 120000, "max": 250000, "currency": "USD", "note": "Mid to Senior" },
+    "salary_range": {
+      "min": 120000,
+      "max": 250000,
+      "currency": "USD",
+      "note": "Mid to Senior"
+    },
     "growth_outlook": "Very High",
-    "work_style": ["Strategic", "Cross-team leadership", "Remote-friendly"],
-    "required_skills": [
-      { "skill": "Cloud Computing", "level": "critical" },
-      { "skill": "System Design", "level": "critical" },
-      { "skill": "Networking", "level": "critical" },
-      { "skill": "Security", "level": "critical" },
-      { "skill": "Kubernetes", "level": "important" },
-      { "skill": "Terraform", "level": "important" },
-      { "skill": "Cost Optimization", "level": "important" },
-      { "skill": "Communication", "level": "important" },
-      { "skill": "Linux", "level": "helpful" },
-      { "skill": "Docker", "level": "helpful" }
+    "work_style": [
+      "Strategic",
+      "Cross-team leadership",
+      "Remote-friendly"
     ],
-    "entry_paths": ["DevOps Engineer path", "Cloud certifications (AWS/GCP/Azure)", "Solutions architect certifications"],
-    "tags": ["tech", "infrastructure", "senior", "high-salary", "leadership"]
+    "required_skills": [
+      {
+        "skill": "Cloud Computing",
+        "level": "critical"
+      },
+      {
+        "skill": "System Design",
+        "level": "critical"
+      },
+      {
+        "skill": "Networking",
+        "level": "critical"
+      },
+      {
+        "skill": "Security",
+        "level": "critical"
+      },
+      {
+        "skill": "Kubernetes",
+        "level": "important"
+      },
+      {
+        "skill": "Terraform",
+        "level": "important"
+      },
+      {
+        "skill": "Cost Optimization",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Linux",
+        "level": "helpful"
+      },
+      {
+        "skill": "Docker",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "DevOps Engineer path",
+      "Cloud certifications (AWS/GCP/Azure)",
+      "Solutions architect certifications"
+    ],
+    "tags": [
+      "tech",
+      "infrastructure",
+      "senior",
+      "high-salary",
+      "leadership"
+    ]
   },
   {
     "id": "cybersecurity_analyst",
     "title": "Cybersecurity Analyst",
     "category": "Technology",
     "description": "Protect organizations from cyber threats by monitoring systems, identifying vulnerabilities, and responding to security incidents. A growing field with critical importance as digital threats increase.",
-    "salary_range": { "min": 65000, "max": 145000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 65000,
+      "max": 145000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "Very High",
-    "work_style": ["Detail-oriented", "On-call at times", "Problem-solving"],
-    "required_skills": [
-      { "skill": "Networking", "level": "critical" },
-      { "skill": "Security", "level": "critical" },
-      { "skill": "Linux", "level": "critical" },
-      { "skill": "Risk Assessment", "level": "important" },
-      { "skill": "Ethical Hacking", "level": "important" },
-      { "skill": "SIEM Tools", "level": "important" },
-      { "skill": "Scripting (Python or Bash)", "level": "important" },
-      { "skill": "Incident Response", "level": "important" },
-      { "skill": "Cloud Security", "level": "helpful" },
-      { "skill": "Compliance (GDPR, HIPAA)", "level": "helpful" }
+    "work_style": [
+      "Detail-oriented",
+      "On-call at times",
+      "Problem-solving"
     ],
-    "entry_paths": ["IT/Networking background", "CompTIA certifications", "Ethical hacking courses", "CS degree"],
-    "tags": ["tech", "security", "critical-infrastructure", "high-demand"]
+    "required_skills": [
+      {
+        "skill": "Networking",
+        "level": "critical"
+      },
+      {
+        "skill": "Security",
+        "level": "critical"
+      },
+      {
+        "skill": "Linux",
+        "level": "critical"
+      },
+      {
+        "skill": "Risk Assessment",
+        "level": "important"
+      },
+      {
+        "skill": "Ethical Hacking",
+        "level": "important"
+      },
+      {
+        "skill": "SIEM Tools",
+        "level": "important"
+      },
+      {
+        "skill": "Scripting (Python or Bash)",
+        "level": "important"
+      },
+      {
+        "skill": "Incident Response",
+        "level": "important"
+      },
+      {
+        "skill": "Cloud Security",
+        "level": "helpful"
+      },
+      {
+        "skill": "Compliance (GDPR, HIPAA)",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "IT/Networking background",
+      "CompTIA certifications",
+      "Ethical hacking courses",
+      "CS degree"
+    ],
+    "tags": [
+      "tech",
+      "security",
+      "critical-infrastructure",
+      "high-demand"
+    ]
   },
   {
     "id": "full_stack_developer",
     "title": "Full Stack Developer",
     "category": "Technology",
     "description": "Build complete web applications handling both front-end user interfaces and back-end server logic. Full stack developers are versatile and can ship entire features independently, making them highly valuable at startups and scale-ups.",
-    "salary_range": { "min": 65000, "max": 155000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 65000,
+      "max": 155000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "High",
-    "work_style": ["Versatile", "Remote-friendly", "Product-focused"],
-    "required_skills": [
-      { "skill": "JavaScript", "level": "critical" },
-      { "skill": "React", "level": "critical" },
-      { "skill": "Node.js", "level": "critical" },
-      { "skill": "SQL", "level": "critical" },
-      { "skill": "HTML & CSS", "level": "critical" },
-      { "skill": "REST APIs", "level": "important" },
-      { "skill": "Git", "level": "important" },
-      { "skill": "TypeScript", "level": "important" },
-      { "skill": "Docker", "level": "helpful" },
-      { "skill": "Testing", "level": "helpful" }
+    "work_style": [
+      "Versatile",
+      "Remote-friendly",
+      "Product-focused"
     ],
-    "entry_paths": ["Web development bootcamp", "CS degree", "Self-taught with portfolio"],
-    "tags": ["tech", "web", "remote-friendly", "versatile"]
+    "required_skills": [
+      {
+        "skill": "JavaScript",
+        "level": "critical"
+      },
+      {
+        "skill": "React",
+        "level": "critical"
+      },
+      {
+        "skill": "Node.js",
+        "level": "critical"
+      },
+      {
+        "skill": "SQL",
+        "level": "critical"
+      },
+      {
+        "skill": "HTML & CSS",
+        "level": "critical"
+      },
+      {
+        "skill": "REST APIs",
+        "level": "important"
+      },
+      {
+        "skill": "Git",
+        "level": "important"
+      },
+      {
+        "skill": "TypeScript",
+        "level": "important"
+      },
+      {
+        "skill": "Docker",
+        "level": "helpful"
+      },
+      {
+        "skill": "Testing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Web development bootcamp",
+      "CS degree",
+      "Self-taught with portfolio"
+    ],
+    "tags": [
+      "tech",
+      "web",
+      "remote-friendly",
+      "versatile"
+    ]
   },
   {
     "id": "mobile_app_developer",
     "title": "Mobile App Developer",
     "category": "Technology",
     "description": "Build applications for iOS and Android devices. Mobile developers create the apps billions of people use daily, ranging from games and productivity tools to social platforms and enterprise apps.",
-    "salary_range": { "min": 70000, "max": 165000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 70000,
+      "max": 165000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "High",
-    "work_style": ["Product-focused", "Remote-friendly", "Creative-technical blend"],
-    "required_skills": [
-      { "skill": "React Native", "level": "critical" },
-      { "skill": "JavaScript", "level": "critical" },
-      { "skill": "TypeScript", "level": "important" },
-      { "skill": "REST APIs", "level": "important" },
-      { "skill": "Git", "level": "important" },
-      { "skill": "UI/UX Design Principles", "level": "important" },
-      { "skill": "Swift or Kotlin", "level": "helpful" },
-      { "skill": "App Store Deployment", "level": "helpful" },
-      { "skill": "Performance Optimization", "level": "helpful" }
+    "work_style": [
+      "Product-focused",
+      "Remote-friendly",
+      "Creative-technical blend"
     ],
-    "entry_paths": ["Web dev bootcamp (cross into React Native)", "CS degree", "Swift/Kotlin courses"],
-    "tags": ["tech", "mobile", "product", "remote-friendly"]
+    "required_skills": [
+      {
+        "skill": "React Native",
+        "level": "critical"
+      },
+      {
+        "skill": "JavaScript",
+        "level": "critical"
+      },
+      {
+        "skill": "TypeScript",
+        "level": "important"
+      },
+      {
+        "skill": "REST APIs",
+        "level": "important"
+      },
+      {
+        "skill": "Git",
+        "level": "important"
+      },
+      {
+        "skill": "UI/UX Design Principles",
+        "level": "important"
+      },
+      {
+        "skill": "Swift or Kotlin",
+        "level": "helpful"
+      },
+      {
+        "skill": "App Store Deployment",
+        "level": "helpful"
+      },
+      {
+        "skill": "Performance Optimization",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Web dev bootcamp (cross into React Native)",
+      "CS degree",
+      "Swift/Kotlin courses"
+    ],
+    "tags": [
+      "tech",
+      "mobile",
+      "product",
+      "remote-friendly"
+    ]
   },
   {
     "id": "ux_ui_designer",
     "title": "UX/UI Designer",
     "category": "Design & Creative",
     "description": "Design intuitive, beautiful digital experiences. UX designers research user needs and create wireframes/prototypes; UI designers craft the visual language. Together they shape every digital product people interact with.",
-    "salary_range": { "min": 60000, "max": 140000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 60000,
+      "max": 140000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "High",
-    "work_style": ["Creative", "Collaborative", "User-focused"],
-    "required_skills": [
-      { "skill": "Figma", "level": "critical" },
-      { "skill": "User Research", "level": "critical" },
-      { "skill": "Design Thinking", "level": "critical" },
-      { "skill": "Prototyping", "level": "critical" },
-      { "skill": "Typography & Color Theory", "level": "important" },
-      { "skill": "HTML & CSS", "level": "important" },
-      { "skill": "Wireframing", "level": "important" },
-      { "skill": "Communication", "level": "important" },
-      { "skill": "Adobe XD or Sketch", "level": "helpful" },
-      { "skill": "Accessibility Standards", "level": "helpful" }
+    "work_style": [
+      "Creative",
+      "Collaborative",
+      "User-focused"
     ],
-    "entry_paths": ["Design bootcamp", "Graphic design background", "Self-taught with portfolio", "HCI degree"],
-    "tags": ["design", "creative", "remote-friendly", "product"]
+    "required_skills": [
+      {
+        "skill": "Figma",
+        "level": "critical"
+      },
+      {
+        "skill": "User Research",
+        "level": "critical"
+      },
+      {
+        "skill": "Design Thinking",
+        "level": "critical"
+      },
+      {
+        "skill": "Prototyping",
+        "level": "critical"
+      },
+      {
+        "skill": "Typography & Color Theory",
+        "level": "important"
+      },
+      {
+        "skill": "HTML & CSS",
+        "level": "important"
+      },
+      {
+        "skill": "Wireframing",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Adobe XD or Sketch",
+        "level": "helpful"
+      },
+      {
+        "skill": "Accessibility Standards",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Design bootcamp",
+      "Graphic design background",
+      "Self-taught with portfolio",
+      "HCI degree"
+    ],
+    "tags": [
+      "design",
+      "creative",
+      "remote-friendly",
+      "product"
+    ]
   },
   {
     "id": "product_manager",
     "title": "Product Manager",
     "category": "Business & Management",
     "description": "Define product vision and roadmap, coordinate between engineering, design, and business to ship products users love. PMs are the CEOs of their products â€” they don't code, but they set direction and make tradeoffs.",
-    "salary_range": { "min": 80000, "max": 200000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 80000,
+      "max": 200000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "High",
-    "work_style": ["Leadership", "Cross-functional", "Strategic"],
-    "required_skills": [
-      { "skill": "Product Strategy", "level": "critical" },
-      { "skill": "Agile & Scrum", "level": "critical" },
-      { "skill": "Stakeholder Management", "level": "critical" },
-      { "skill": "Data Analysis", "level": "critical" },
-      { "skill": "Communication", "level": "critical" },
-      { "skill": "User Research", "level": "important" },
-      { "skill": "Roadmapping", "level": "important" },
-      { "skill": "SQL", "level": "important" },
-      { "skill": "A/B Testing", "level": "helpful" },
-      { "skill": "Technical Understanding", "level": "helpful" }
+    "work_style": [
+      "Leadership",
+      "Cross-functional",
+      "Strategic"
     ],
-    "entry_paths": ["Engineering or design transition", "MBA", "Business analyst progression"],
-    "tags": ["business", "leadership", "tech-adjacent", "high-salary"]
+    "required_skills": [
+      {
+        "skill": "Product Strategy",
+        "level": "critical"
+      },
+      {
+        "skill": "Agile & Scrum",
+        "level": "critical"
+      },
+      {
+        "skill": "Stakeholder Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "User Research",
+        "level": "important"
+      },
+      {
+        "skill": "Roadmapping",
+        "level": "important"
+      },
+      {
+        "skill": "SQL",
+        "level": "important"
+      },
+      {
+        "skill": "A/B Testing",
+        "level": "helpful"
+      },
+      {
+        "skill": "Technical Understanding",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Engineering or design transition",
+      "MBA",
+      "Business analyst progression"
+    ],
+    "tags": [
+      "business",
+      "leadership",
+      "tech-adjacent",
+      "high-salary"
+    ]
   },
   {
     "id": "data_analyst",
     "title": "Data Analyst",
     "category": "Data & Analytics",
     "description": "Transform raw data into actionable insights through analysis and visualization. Data analysts help every department â€” from marketing to operations â€” make smarter decisions. A great entry point into the data field.",
-    "salary_range": { "min": 50000, "max": 110000, "currency": "USD", "note": "Entry to Mid" },
+    "salary_range": {
+      "min": 50000,
+      "max": 110000,
+      "currency": "USD",
+      "note": "Entry to Mid"
+    },
     "growth_outlook": "High",
-    "work_style": ["Detail-oriented", "Collaborative", "Business-aligned"],
-    "required_skills": [
-      { "skill": "SQL", "level": "critical" },
-      { "skill": "Excel", "level": "critical" },
-      { "skill": "Data Visualization", "level": "critical" },
-      { "skill": "Statistics", "level": "important" },
-      { "skill": "Communication", "level": "important" },
-      { "skill": "Python", "level": "important" },
-      { "skill": "Tableau or Power BI", "level": "important" },
-      { "skill": "Business Acumen", "level": "helpful" },
-      { "skill": "Pandas", "level": "helpful" }
+    "work_style": [
+      "Detail-oriented",
+      "Collaborative",
+      "Business-aligned"
     ],
-    "entry_paths": ["Statistics degree", "Business degree with data skills", "Online certifications", "Bootcamp"],
-    "tags": ["data", "business", "entry-friendly", "versatile"]
+    "required_skills": [
+      {
+        "skill": "SQL",
+        "level": "critical"
+      },
+      {
+        "skill": "Excel",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Visualization",
+        "level": "critical"
+      },
+      {
+        "skill": "Statistics",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Python",
+        "level": "important"
+      },
+      {
+        "skill": "Tableau or Power BI",
+        "level": "important"
+      },
+      {
+        "skill": "Business Acumen",
+        "level": "helpful"
+      },
+      {
+        "skill": "Pandas",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Statistics degree",
+      "Business degree with data skills",
+      "Online certifications",
+      "Bootcamp"
+    ],
+    "tags": [
+      "data",
+      "business",
+      "entry-friendly",
+      "versatile"
+    ]
   },
   {
     "id": "business_analyst",
     "title": "Business Analyst",
     "category": "Business & Management",
     "description": "Bridge the gap between business needs and technical solutions. Business analysts gather requirements, model processes, and work with stakeholders to define what gets built and why â€” without necessarily building it themselves.",
-    "salary_range": { "min": 55000, "max": 120000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 55000,
+      "max": 120000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "Good",
-    "work_style": ["Communication-heavy", "Analytical", "Cross-functional"],
-    "required_skills": [
-      { "skill": "Requirements Gathering", "level": "critical" },
-      { "skill": "Communication", "level": "critical" },
-      { "skill": "Data Analysis", "level": "critical" },
-      { "skill": "Excel", "level": "critical" },
-      { "skill": "Process Modeling", "level": "important" },
-      { "skill": "SQL", "level": "important" },
-      { "skill": "Stakeholder Management", "level": "important" },
-      { "skill": "Agile & Scrum", "level": "helpful" },
-      { "skill": "Documentation", "level": "helpful" }
+    "work_style": [
+      "Communication-heavy",
+      "Analytical",
+      "Cross-functional"
     ],
-    "entry_paths": ["Business degree", "IT background", "Project coordinator progression"],
-    "tags": ["business", "analysis", "entry-friendly", "versatile"]
+    "required_skills": [
+      {
+        "skill": "Requirements Gathering",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Excel",
+        "level": "critical"
+      },
+      {
+        "skill": "Process Modeling",
+        "level": "important"
+      },
+      {
+        "skill": "SQL",
+        "level": "important"
+      },
+      {
+        "skill": "Stakeholder Management",
+        "level": "important"
+      },
+      {
+        "skill": "Agile & Scrum",
+        "level": "helpful"
+      },
+      {
+        "skill": "Documentation",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Business degree",
+      "IT background",
+      "Project coordinator progression"
+    ],
+    "tags": [
+      "business",
+      "analysis",
+      "entry-friendly",
+      "versatile"
+    ]
   },
   {
     "id": "project_manager",
     "title": "Project Manager",
     "category": "Business & Management",
     "description": "Lead projects from initiation to delivery, managing scope, budget, schedule, and stakeholders. Project managers work in virtually every industry and are essential to delivering complex initiatives on time.",
-    "salary_range": { "min": 60000, "max": 140000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 60000,
+      "max": 140000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "Good",
-    "work_style": ["Leadership", "Cross-functional", "Deadline-driven"],
-    "required_skills": [
-      { "skill": "Project Management", "level": "critical" },
-      { "skill": "Communication", "level": "critical" },
-      { "skill": "Leadership", "level": "critical" },
-      { "skill": "Risk Management", "level": "critical" },
-      { "skill": "Agile & Scrum", "level": "important" },
-      { "skill": "Stakeholder Management", "level": "important" },
-      { "skill": "Budgeting", "level": "important" },
-      { "skill": "Microsoft Project or Jira", "level": "helpful" },
-      { "skill": "PMP Certification", "level": "helpful" }
+    "work_style": [
+      "Leadership",
+      "Cross-functional",
+      "Deadline-driven"
     ],
-    "entry_paths": ["PMP certification", "Team lead progression", "Any professional background with leadership"],
-    "tags": ["business", "leadership", "cross-industry", "management"]
+    "required_skills": [
+      {
+        "skill": "Project Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Leadership",
+        "level": "critical"
+      },
+      {
+        "skill": "Risk Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Agile & Scrum",
+        "level": "important"
+      },
+      {
+        "skill": "Stakeholder Management",
+        "level": "important"
+      },
+      {
+        "skill": "Budgeting",
+        "level": "important"
+      },
+      {
+        "skill": "Microsoft Project or Jira",
+        "level": "helpful"
+      },
+      {
+        "skill": "PMP Certification",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "PMP certification",
+      "Team lead progression",
+      "Any professional background with leadership"
+    ],
+    "tags": [
+      "business",
+      "leadership",
+      "cross-industry",
+      "management"
+    ]
   },
   {
     "id": "digital_marketing_manager",
     "title": "Digital Marketing Manager",
     "category": "Marketing & Sales",
     "description": "Plan and execute digital marketing campaigns across SEO, paid ads, social media, email, and content. Digital marketers drive traffic, generate leads, and grow brands online â€” blending creativity with data analytics.",
-    "salary_range": { "min": 50000, "max": 120000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 50000,
+      "max": 120000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "High",
-    "work_style": ["Creative", "Data-driven", "Fast-paced"],
-    "required_skills": [
-      { "skill": "Digital Marketing", "level": "critical" },
-      { "skill": "SEO", "level": "critical" },
-      { "skill": "Google Analytics", "level": "critical" },
-      { "skill": "Social Media Marketing", "level": "important" },
-      { "skill": "Content Creation", "level": "important" },
-      { "skill": "Email Marketing", "level": "important" },
-      { "skill": "Paid Advertising (Google/Meta)", "level": "important" },
-      { "skill": "Communication", "level": "important" },
-      { "skill": "Copywriting", "level": "helpful" },
-      { "skill": "Marketing Automation", "level": "helpful" }
+    "work_style": [
+      "Creative",
+      "Data-driven",
+      "Fast-paced"
     ],
-    "entry_paths": ["Marketing degree", "Certifications (Google, HubSpot)", "Self-taught with portfolio"],
-    "tags": ["marketing", "creative", "data-driven", "remote-friendly"]
+    "required_skills": [
+      {
+        "skill": "Digital Marketing",
+        "level": "critical"
+      },
+      {
+        "skill": "SEO",
+        "level": "critical"
+      },
+      {
+        "skill": "Google Analytics",
+        "level": "critical"
+      },
+      {
+        "skill": "Social Media Marketing",
+        "level": "important"
+      },
+      {
+        "skill": "Content Creation",
+        "level": "important"
+      },
+      {
+        "skill": "Email Marketing",
+        "level": "important"
+      },
+      {
+        "skill": "Paid Advertising (Google/Meta)",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Copywriting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Marketing Automation",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Marketing degree",
+      "Certifications (Google, HubSpot)",
+      "Self-taught with portfolio"
+    ],
+    "tags": [
+      "marketing",
+      "creative",
+      "data-driven",
+      "remote-friendly"
+    ]
   },
   {
     "id": "financial_analyst",
     "title": "Financial Analyst",
     "category": "Finance",
     "description": "Analyze financial data, build models, and provide insights to support investment decisions, budgeting, and business strategy. Financial analysts work at banks, corporations, and investment firms.",
-    "salary_range": { "min": 55000, "max": 130000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 55000,
+      "max": 130000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "Good",
-    "work_style": ["Analytical", "Detail-oriented", "Office-based"],
-    "required_skills": [
-      { "skill": "Financial Modeling", "level": "critical" },
-      { "skill": "Excel", "level": "critical" },
-      { "skill": "Accounting", "level": "critical" },
-      { "skill": "Data Analysis", "level": "important" },
-      { "skill": "Communication", "level": "important" },
-      { "skill": "Financial Reporting", "level": "important" },
-      { "skill": "SQL", "level": "helpful" },
-      { "skill": "Python", "level": "helpful" },
-      { "skill": "Tableau or Power BI", "level": "helpful" }
+    "work_style": [
+      "Analytical",
+      "Detail-oriented",
+      "Office-based"
     ],
-    "entry_paths": ["Finance/Accounting degree", "CFA certification", "MBA"],
-    "tags": ["finance", "analysis", "business", "office-based"]
+    "required_skills": [
+      {
+        "skill": "Financial Modeling",
+        "level": "critical"
+      },
+      {
+        "skill": "Excel",
+        "level": "critical"
+      },
+      {
+        "skill": "Accounting",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Financial Reporting",
+        "level": "important"
+      },
+      {
+        "skill": "SQL",
+        "level": "helpful"
+      },
+      {
+        "skill": "Python",
+        "level": "helpful"
+      },
+      {
+        "skill": "Tableau or Power BI",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Finance/Accounting degree",
+      "CFA certification",
+      "MBA"
+    ],
+    "tags": [
+      "finance",
+      "analysis",
+      "business",
+      "office-based"
+    ]
   },
   {
     "id": "accountant",
     "title": "Accountant",
     "category": "Finance",
     "description": "Record, classify, and summarize financial transactions to produce financial statements and ensure compliance. Accountants work in every industry and are the backbone of financial reporting and tax compliance.",
-    "salary_range": { "min": 45000, "max": 100000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 45000,
+      "max": 100000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "Stable",
-    "work_style": ["Detail-oriented", "Process-driven", "Deadline-driven"],
-    "required_skills": [
-      { "skill": "Accounting", "level": "critical" },
-      { "skill": "Excel", "level": "critical" },
-      { "skill": "Tax Knowledge", "level": "critical" },
-      { "skill": "Attention to Detail", "level": "critical" },
-      { "skill": "Financial Reporting", "level": "important" },
-      { "skill": "Communication", "level": "important" },
-      { "skill": "ERP Systems (SAP/QuickBooks)", "level": "helpful" },
-      { "skill": "Auditing", "level": "helpful" }
+    "work_style": [
+      "Detail-oriented",
+      "Process-driven",
+      "Deadline-driven"
     ],
-    "entry_paths": ["Accounting degree", "CPA certification", "ACCA"],
-    "tags": ["finance", "stable", "every-industry", "numbers"]
+    "required_skills": [
+      {
+        "skill": "Accounting",
+        "level": "critical"
+      },
+      {
+        "skill": "Excel",
+        "level": "critical"
+      },
+      {
+        "skill": "Tax Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Attention to Detail",
+        "level": "critical"
+      },
+      {
+        "skill": "Financial Reporting",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "ERP Systems (SAP/QuickBooks)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Auditing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Accounting degree",
+      "CPA certification",
+      "ACCA"
+    ],
+    "tags": [
+      "finance",
+      "stable",
+      "every-industry",
+      "numbers"
+    ]
   },
   {
     "id": "hr_manager",
     "title": "HR Manager",
     "category": "Human Resources",
     "description": "Manage the full employee lifecycle â€” recruitment, onboarding, performance, L&D, and offboarding. HR managers build workplace culture, handle employee relations, and ensure compliance with labor laws.",
-    "salary_range": { "min": 55000, "max": 120000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 55000,
+      "max": 120000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "Good",
-    "work_style": ["People-focused", "Process-driven", "Cross-functional"],
-    "required_skills": [
-      { "skill": "Recruitment", "level": "critical" },
-      { "skill": "Communication", "level": "critical" },
-      { "skill": "Employment Law", "level": "critical" },
-      { "skill": "Employee Relations", "level": "important" },
-      { "skill": "Performance Management", "level": "important" },
-      { "skill": "Leadership", "level": "important" },
-      { "skill": "HRIS Systems", "level": "helpful" },
-      { "skill": "Training & Development", "level": "helpful" },
-      { "skill": "Data Analysis", "level": "helpful" }
+    "work_style": [
+      "People-focused",
+      "Process-driven",
+      "Cross-functional"
     ],
-    "entry_paths": ["HR degree", "SHRM/CIPD certification", "Administrative background"],
-    "tags": ["HR", "people", "management", "cross-industry"]
+    "required_skills": [
+      {
+        "skill": "Recruitment",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Employment Law",
+        "level": "critical"
+      },
+      {
+        "skill": "Employee Relations",
+        "level": "important"
+      },
+      {
+        "skill": "Performance Management",
+        "level": "important"
+      },
+      {
+        "skill": "Leadership",
+        "level": "important"
+      },
+      {
+        "skill": "HRIS Systems",
+        "level": "helpful"
+      },
+      {
+        "skill": "Training & Development",
+        "level": "helpful"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "HR degree",
+      "SHRM/CIPD certification",
+      "Administrative background"
+    ],
+    "tags": [
+      "HR",
+      "people",
+      "management",
+      "cross-industry"
+    ]
   },
   {
     "id": "graphic_designer",
     "title": "Graphic Designer",
     "category": "Design & Creative",
     "description": "Create visual content for brands, marketing, and digital products. Graphic designers work on logos, social media, print, packaging, and digital ads â€” anywhere visual communication matters.",
-    "salary_range": { "min": 40000, "max": 90000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 40000,
+      "max": 90000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "Moderate",
-    "work_style": ["Creative", "Freelance-friendly", "Client-facing"],
-    "required_skills": [
-      { "skill": "Adobe Photoshop", "level": "critical" },
-      { "skill": "Adobe Illustrator", "level": "critical" },
-      { "skill": "Typography", "level": "critical" },
-      { "skill": "Color Theory", "level": "critical" },
-      { "skill": "Branding", "level": "important" },
-      { "skill": "Layout Design", "level": "important" },
-      { "skill": "Communication", "level": "important" },
-      { "skill": "Figma", "level": "helpful" },
-      { "skill": "Motion Graphics", "level": "helpful" }
+    "work_style": [
+      "Creative",
+      "Freelance-friendly",
+      "Client-facing"
     ],
-    "entry_paths": ["Graphic Design degree", "Fine arts degree", "Self-taught with portfolio"],
-    "tags": ["design", "creative", "freelance-friendly", "visual"]
+    "required_skills": [
+      {
+        "skill": "Adobe Photoshop",
+        "level": "critical"
+      },
+      {
+        "skill": "Adobe Illustrator",
+        "level": "critical"
+      },
+      {
+        "skill": "Typography",
+        "level": "critical"
+      },
+      {
+        "skill": "Color Theory",
+        "level": "critical"
+      },
+      {
+        "skill": "Branding",
+        "level": "important"
+      },
+      {
+        "skill": "Layout Design",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Figma",
+        "level": "helpful"
+      },
+      {
+        "skill": "Motion Graphics",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Graphic Design degree",
+      "Fine arts degree",
+      "Self-taught with portfolio"
+    ],
+    "tags": [
+      "design",
+      "creative",
+      "freelance-friendly",
+      "visual"
+    ]
   },
   {
     "id": "content_writer",
     "title": "Content Writer / Copywriter",
     "category": "Design & Creative",
     "description": "Create written content for blogs, websites, social media, ads, and marketing materials. Strong writers who understand both storytelling and SEO are in high demand in the digital age.",
-    "salary_range": { "min": 35000, "max": 90000, "currency": "USD", "note": "Freelance to Senior" },
+    "salary_range": {
+      "min": 35000,
+      "max": 90000,
+      "currency": "USD",
+      "note": "Freelance to Senior"
+    },
     "growth_outlook": "Good",
-    "work_style": ["Independent", "Remote-friendly", "Creative"],
-    "required_skills": [
-      { "skill": "Writing", "level": "critical" },
-      { "skill": "SEO", "level": "critical" },
-      { "skill": "Research", "level": "critical" },
-      { "skill": "Copywriting", "level": "important" },
-      { "skill": "Social Media Marketing", "level": "important" },
-      { "skill": "Communication", "level": "important" },
-      { "skill": "Content Strategy", "level": "helpful" },
-      { "skill": "Marketing Automation", "level": "helpful" }
+    "work_style": [
+      "Independent",
+      "Remote-friendly",
+      "Creative"
     ],
-    "entry_paths": ["Journalism degree", "English degree", "Self-taught with portfolio", "Any background"],
-    "tags": ["writing", "creative", "remote-friendly", "freelance-friendly"]
+    "required_skills": [
+      {
+        "skill": "Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "SEO",
+        "level": "critical"
+      },
+      {
+        "skill": "Research",
+        "level": "critical"
+      },
+      {
+        "skill": "Copywriting",
+        "level": "important"
+      },
+      {
+        "skill": "Social Media Marketing",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Content Strategy",
+        "level": "helpful"
+      },
+      {
+        "skill": "Marketing Automation",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Journalism degree",
+      "English degree",
+      "Self-taught with portfolio",
+      "Any background"
+    ],
+    "tags": [
+      "writing",
+      "creative",
+      "remote-friendly",
+      "freelance-friendly"
+    ]
   },
   {
     "id": "video_producer",
     "title": "Video Producer / Editor",
     "category": "Design & Creative",
     "description": "Plan, shoot, and edit video content for YouTube, brands, films, ads, and online courses. Video is the dominant content format of the internet age, creating high demand for skilled video professionals.",
-    "salary_range": { "min": 40000, "max": 110000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 40000,
+      "max": 110000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "High",
-    "work_style": ["Creative", "Project-based", "Remote-friendly"],
-    "required_skills": [
-      { "skill": "Video Editing", "level": "critical" },
-      { "skill": "Adobe Premiere Pro", "level": "critical" },
-      { "skill": "Storytelling", "level": "critical" },
-      { "skill": "Color Grading", "level": "important" },
-      { "skill": "Audio Editing", "level": "important" },
-      { "skill": "Scriptwriting", "level": "important" },
-      { "skill": "After Effects", "level": "helpful" },
-      { "skill": "Photography", "level": "helpful" },
-      { "skill": "Social Media Marketing", "level": "helpful" }
+    "work_style": [
+      "Creative",
+      "Project-based",
+      "Remote-friendly"
     ],
-    "entry_paths": ["Film/Media degree", "Self-taught with YouTube/portfolio", "Photography background"],
-    "tags": ["creative", "video", "freelance-friendly", "remote-friendly"]
+    "required_skills": [
+      {
+        "skill": "Video Editing",
+        "level": "critical"
+      },
+      {
+        "skill": "Adobe Premiere Pro",
+        "level": "critical"
+      },
+      {
+        "skill": "Storytelling",
+        "level": "critical"
+      },
+      {
+        "skill": "Color Grading",
+        "level": "important"
+      },
+      {
+        "skill": "Audio Editing",
+        "level": "important"
+      },
+      {
+        "skill": "Scriptwriting",
+        "level": "important"
+      },
+      {
+        "skill": "After Effects",
+        "level": "helpful"
+      },
+      {
+        "skill": "Photography",
+        "level": "helpful"
+      },
+      {
+        "skill": "Social Media Marketing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Film/Media degree",
+      "Self-taught with YouTube/portfolio",
+      "Photography background"
+    ],
+    "tags": [
+      "creative",
+      "video",
+      "freelance-friendly",
+      "remote-friendly"
+    ]
   },
   {
     "id": "teacher_educator",
     "title": "Teacher / Educator",
     "category": "Education & Training",
     "description": "Educate students in schools, colleges, or online. Teachers shape the next generation and specialize in everything from early childhood to higher education and vocational training.",
-    "salary_range": { "min": 35000, "max": 80000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 35000,
+      "max": 80000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "Stable",
-    "work_style": ["People-focused", "Structured", "Impact-driven"],
-    "required_skills": [
-      { "skill": "Subject Matter Expertise", "level": "critical" },
-      { "skill": "Communication", "level": "critical" },
-      { "skill": "Curriculum Design", "level": "critical" },
-      { "skill": "Classroom Management", "level": "important" },
-      { "skill": "Patience", "level": "important" },
-      { "skill": "Assessment Design", "level": "important" },
-      { "skill": "Ed-Tech Tools", "level": "helpful" },
-      { "skill": "Differentiated Instruction", "level": "helpful" }
+    "work_style": [
+      "People-focused",
+      "Structured",
+      "Impact-driven"
     ],
-    "entry_paths": ["Education degree (B.Ed)", "Subject degree + teaching certification", "TESOL for ESL"],
-    "tags": ["education", "impact", "stable", "people"]
+    "required_skills": [
+      {
+        "skill": "Subject Matter Expertise",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Curriculum Design",
+        "level": "critical"
+      },
+      {
+        "skill": "Classroom Management",
+        "level": "important"
+      },
+      {
+        "skill": "Patience",
+        "level": "important"
+      },
+      {
+        "skill": "Assessment Design",
+        "level": "important"
+      },
+      {
+        "skill": "Ed-Tech Tools",
+        "level": "helpful"
+      },
+      {
+        "skill": "Differentiated Instruction",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Education degree (B.Ed)",
+      "Subject degree + teaching certification",
+      "TESOL for ESL"
+    ],
+    "tags": [
+      "education",
+      "impact",
+      "stable",
+      "people"
+    ]
   },
   {
     "id": "corporate_trainer",
     "title": "Corporate Trainer / L&D Specialist",
     "category": "Education & Training",
     "description": "Design and deliver training programs for employees within organizations. Corporate trainers upskill workforces, onboard new hires, and build learning cultures â€” a growing field as companies invest in talent development.",
-    "salary_range": { "min": 50000, "max": 110000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 50000,
+      "max": 110000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "Good",
-    "work_style": ["People-focused", "Presentation-heavy", "Collaborative"],
-    "required_skills": [
-      { "skill": "Training & Development", "level": "critical" },
-      { "skill": "Presentation Skills", "level": "critical" },
-      { "skill": "Communication", "level": "critical" },
-      { "skill": "Curriculum Design", "level": "important" },
-      { "skill": "Facilitation", "level": "important" },
-      { "skill": "LMS (Learning Management Systems)", "level": "important" },
-      { "skill": "Assessment Design", "level": "helpful" },
-      { "skill": "Data Analysis", "level": "helpful" }
+    "work_style": [
+      "People-focused",
+      "Presentation-heavy",
+      "Collaborative"
     ],
-    "entry_paths": ["HR background", "Teaching background", "Subject matter expert transition"],
-    "tags": ["education", "corporate", "people", "training"]
+    "required_skills": [
+      {
+        "skill": "Training & Development",
+        "level": "critical"
+      },
+      {
+        "skill": "Presentation Skills",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Curriculum Design",
+        "level": "important"
+      },
+      {
+        "skill": "Facilitation",
+        "level": "important"
+      },
+      {
+        "skill": "LMS (Learning Management Systems)",
+        "level": "important"
+      },
+      {
+        "skill": "Assessment Design",
+        "level": "helpful"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "HR background",
+      "Teaching background",
+      "Subject matter expert transition"
+    ],
+    "tags": [
+      "education",
+      "corporate",
+      "people",
+      "training"
+    ]
   },
   {
     "id": "operations_manager",
     "title": "Operations Manager",
     "category": "Business & Management",
     "description": "Oversee day-to-day business operations to improve efficiency, reduce costs, and ensure smooth delivery of products or services. Operations managers are needed in every industry.",
-    "salary_range": { "min": 60000, "max": 130000, "currency": "USD", "note": "Mid to Senior" },
+    "salary_range": {
+      "min": 60000,
+      "max": 130000,
+      "currency": "USD",
+      "note": "Mid to Senior"
+    },
     "growth_outlook": "Good",
-    "work_style": ["Process-driven", "Leadership", "Cross-functional"],
-    "required_skills": [
-      { "skill": "Leadership", "level": "critical" },
-      { "skill": "Process Improvement", "level": "critical" },
-      { "skill": "Communication", "level": "critical" },
-      { "skill": "Data Analysis", "level": "important" },
-      { "skill": "Budgeting", "level": "important" },
-      { "skill": "Risk Management", "level": "important" },
-      { "skill": "Lean / Six Sigma", "level": "helpful" },
-      { "skill": "Excel", "level": "helpful" },
-      { "skill": "ERP Systems (SAP/QuickBooks)", "level": "helpful" }
+    "work_style": [
+      "Process-driven",
+      "Leadership",
+      "Cross-functional"
     ],
-    "entry_paths": ["Business degree", "Operations coordinator progression", "Industry-specific background"],
-    "tags": ["business", "leadership", "operations", "cross-industry"]
+    "required_skills": [
+      {
+        "skill": "Leadership",
+        "level": "critical"
+      },
+      {
+        "skill": "Process Improvement",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Budgeting",
+        "level": "important"
+      },
+      {
+        "skill": "Risk Management",
+        "level": "important"
+      },
+      {
+        "skill": "Lean / Six Sigma",
+        "level": "helpful"
+      },
+      {
+        "skill": "Excel",
+        "level": "helpful"
+      },
+      {
+        "skill": "ERP Systems (SAP/QuickBooks)",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Business degree",
+      "Operations coordinator progression",
+      "Industry-specific background"
+    ],
+    "tags": [
+      "business",
+      "leadership",
+      "operations",
+      "cross-industry"
+    ]
   },
   {
     "id": "sales_manager",
     "title": "Sales Manager",
     "category": "Marketing & Sales",
     "description": "Lead a sales team to meet revenue targets, build client relationships, and develop sales strategies. Sales managers combine people leadership with commercial acumen and work across B2B and B2C environments.",
-    "salary_range": { "min": 60000, "max": 160000, "currency": "USD", "note": "Mid to Senior, plus commissions" },
+    "salary_range": {
+      "min": 60000,
+      "max": 160000,
+      "currency": "USD",
+      "note": "Mid to Senior, plus commissions"
+    },
     "growth_outlook": "Good",
-    "work_style": ["Target-driven", "Leadership", "Client-facing"],
-    "required_skills": [
-      { "skill": "Sales", "level": "critical" },
-      { "skill": "Leadership", "level": "critical" },
-      { "skill": "Negotiation", "level": "critical" },
-      { "skill": "Communication", "level": "critical" },
-      { "skill": "CRM Systems", "level": "important" },
-      { "skill": "Data Analysis", "level": "important" },
-      { "skill": "Presentation Skills", "level": "important" },
-      { "skill": "Product Knowledge", "level": "important" },
-      { "skill": "Customer Success", "level": "helpful" }
+    "work_style": [
+      "Target-driven",
+      "Leadership",
+      "Client-facing"
     ],
-    "entry_paths": ["Sales rep â†’ manager progression", "Business degree", "Any field with strong interpersonal skills"],
-    "tags": ["sales", "business", "leadership", "commission", "client-facing"]
+    "required_skills": [
+      {
+        "skill": "Sales",
+        "level": "critical"
+      },
+      {
+        "skill": "Leadership",
+        "level": "critical"
+      },
+      {
+        "skill": "Negotiation",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "CRM Systems",
+        "level": "important"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Presentation Skills",
+        "level": "important"
+      },
+      {
+        "skill": "Product Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Success",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Sales rep â†’ manager progression",
+      "Business degree",
+      "Any field with strong interpersonal skills"
+    ],
+    "tags": [
+      "sales",
+      "business",
+      "leadership",
+      "commission",
+      "client-facing"
+    ]
   },
   {
     "id": "healthcare_administrator",
     "title": "Healthcare Administrator",
     "category": "Healthcare",
     "description": "Manage the business operations of healthcare facilities â€” hospitals, clinics, or practices. Healthcare administrators handle staffing, budgets, compliance, and improving patient care delivery.",
-    "salary_range": { "min": 55000, "max": 130000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 55000,
+      "max": 130000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "High",
-    "work_style": ["Structured", "Compliance-driven", "Leadership"],
-    "required_skills": [
-      { "skill": "Healthcare Regulations", "level": "critical" },
-      { "skill": "Leadership", "level": "critical" },
-      { "skill": "Communication", "level": "critical" },
-      { "skill": "Budgeting", "level": "important" },
-      { "skill": "Data Analysis", "level": "important" },
-      { "skill": "Compliance (HIPAA)", "level": "important" },
-      { "skill": "ERP Systems (SAP/QuickBooks)", "level": "helpful" },
-      { "skill": "Excel", "level": "helpful" }
+    "work_style": [
+      "Structured",
+      "Compliance-driven",
+      "Leadership"
     ],
-    "entry_paths": ["Healthcare Management degree", "MHA", "Clinical background + management training"],
-    "tags": ["healthcare", "leadership", "management", "compliance"]
+    "required_skills": [
+      {
+        "skill": "Healthcare Regulations",
+        "level": "critical"
+      },
+      {
+        "skill": "Leadership",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Budgeting",
+        "level": "important"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Compliance (HIPAA)",
+        "level": "important"
+      },
+      {
+        "skill": "ERP Systems (SAP/QuickBooks)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Excel",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Healthcare Management degree",
+      "MHA",
+      "Clinical background + management training"
+    ],
+    "tags": [
+      "healthcare",
+      "leadership",
+      "management",
+      "compliance"
+    ]
   },
   {
     "id": "data_engineer",
     "title": "Data Engineer",
     "category": "Data & Analytics",
     "description": "Build and maintain the data infrastructure that enables analytics and machine learning. Data engineers design pipelines, warehouses, and ETL processes â€” making raw data accessible and useful at scale.",
-    "salary_range": { "min": 80000, "max": 170000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 80000,
+      "max": 170000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "Very High",
-    "work_style": ["Technical", "Infrastructure-focused", "Remote-friendly"],
-    "required_skills": [
-      { "skill": "Python", "level": "critical" },
-      { "skill": "SQL", "level": "critical" },
-      { "skill": "Data Pipelines (ETL)", "level": "critical" },
-      { "skill": "Cloud Computing", "level": "critical" },
-      { "skill": "Apache Spark", "level": "important" },
-      { "skill": "Data Warehousing", "level": "important" },
-      { "skill": "Docker", "level": "important" },
-      { "skill": "Airflow", "level": "helpful" },
-      { "skill": "Kafka", "level": "helpful" }
+    "work_style": [
+      "Technical",
+      "Infrastructure-focused",
+      "Remote-friendly"
     ],
-    "entry_paths": ["CS/Math degree", "Data Analyst progression", "Software engineer with data focus"],
-    "tags": ["data", "engineering", "infrastructure", "high-salary", "remote-friendly"]
+    "required_skills": [
+      {
+        "skill": "Python",
+        "level": "critical"
+      },
+      {
+        "skill": "SQL",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Pipelines (ETL)",
+        "level": "critical"
+      },
+      {
+        "skill": "Cloud Computing",
+        "level": "critical"
+      },
+      {
+        "skill": "Apache Spark",
+        "level": "important"
+      },
+      {
+        "skill": "Data Warehousing",
+        "level": "important"
+      },
+      {
+        "skill": "Docker",
+        "level": "important"
+      },
+      {
+        "skill": "Airflow",
+        "level": "helpful"
+      },
+      {
+        "skill": "Kafka",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "CS/Math degree",
+      "Data Analyst progression",
+      "Software engineer with data focus"
+    ],
+    "tags": [
+      "data",
+      "engineering",
+      "infrastructure",
+      "high-salary",
+      "remote-friendly"
+    ]
   },
   {
     "id": "game_developer",
     "title": "Game Developer",
     "category": "Technology",
     "description": "Create video games for PC, console, and mobile platforms. Game developers work on gameplay systems, graphics, audio, and AI â€” combining deep technical skills with creative vision.",
-    "salary_range": { "min": 55000, "max": 140000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 55000,
+      "max": 140000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "Good",
-    "work_style": ["Creative-technical blend", "Team-based", "Passion-driven"],
-    "required_skills": [
-      { "skill": "C++ or C#", "level": "critical" },
-      { "skill": "Unity or Unreal Engine", "level": "critical" },
-      { "skill": "Game Design", "level": "critical" },
-      { "skill": "Mathematics", "level": "critical" },
-      { "skill": "Physics Simulation", "level": "important" },
-      { "skill": "3D Modeling", "level": "important" },
-      { "skill": "Git", "level": "important" },
-      { "skill": "Performance Optimization", "level": "important" },
-      { "skill": "Shader Programming", "level": "helpful" }
+    "work_style": [
+      "Creative-technical blend",
+      "Team-based",
+      "Passion-driven"
     ],
-    "entry_paths": ["CS degree", "Game dev bootcamp", "Self-taught with published games"],
-    "tags": ["gaming", "creative", "technical", "passion-driven"]
+    "required_skills": [
+      {
+        "skill": "C++ or C#",
+        "level": "critical"
+      },
+      {
+        "skill": "Unity or Unreal Engine",
+        "level": "critical"
+      },
+      {
+        "skill": "Game Design",
+        "level": "critical"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "critical"
+      },
+      {
+        "skill": "Physics Simulation",
+        "level": "important"
+      },
+      {
+        "skill": "3D Modeling",
+        "level": "important"
+      },
+      {
+        "skill": "Git",
+        "level": "important"
+      },
+      {
+        "skill": "Performance Optimization",
+        "level": "important"
+      },
+      {
+        "skill": "Shader Programming",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "CS degree",
+      "Game dev bootcamp",
+      "Self-taught with published games"
+    ],
+    "tags": [
+      "gaming",
+      "creative",
+      "technical",
+      "passion-driven"
+    ]
   },
   {
     "id": "bi_developer",
     "title": "Business Intelligence (BI) Developer",
     "category": "Data & Analytics",
     "description": "Build dashboards, reports, and data models that help businesses understand their performance. BI developers turn complex data into clear visual stories for decision-makers using tools like Tableau, Power BI, and SQL.",
-    "salary_range": { "min": 65000, "max": 130000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 65000,
+      "max": 130000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "High",
-    "work_style": ["Analytical", "Business-facing", "Collaborative"],
-    "required_skills": [
-      { "skill": "SQL", "level": "critical" },
-      { "skill": "Tableau or Power BI", "level": "critical" },
-      { "skill": "Data Modeling", "level": "critical" },
-      { "skill": "Data Pipelines (ETL)", "level": "important" },
-      { "skill": "Communication", "level": "important" },
-      { "skill": "Excel", "level": "important" },
-      { "skill": "Python", "level": "helpful" },
-      { "skill": "Data Warehousing", "level": "helpful" }
+    "work_style": [
+      "Analytical",
+      "Business-facing",
+      "Collaborative"
     ],
-    "entry_paths": ["Data Analyst progression", "Business Analyst transition", "CS/Math degree"],
-    "tags": ["data", "business", "analytics", "dashboard"]
+    "required_skills": [
+      {
+        "skill": "SQL",
+        "level": "critical"
+      },
+      {
+        "skill": "Tableau or Power BI",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Modeling",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Pipelines (ETL)",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Excel",
+        "level": "important"
+      },
+      {
+        "skill": "Python",
+        "level": "helpful"
+      },
+      {
+        "skill": "Data Warehousing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Data Analyst progression",
+      "Business Analyst transition",
+      "CS/Math degree"
+    ],
+    "tags": [
+      "data",
+      "business",
+      "analytics",
+      "dashboard"
+    ]
   },
   {
     "id": "investment_analyst",
     "title": "Investment Analyst",
     "category": "Finance",
     "description": "Research investment opportunities in stocks, bonds, private equity, or real estate. Investment analysts produce research reports and financial models to guide portfolio managers and investors.",
-    "salary_range": { "min": 65000, "max": 160000, "currency": "USD", "note": "Entry to Mid, plus bonuses" },
+    "salary_range": {
+      "min": 65000,
+      "max": 160000,
+      "currency": "USD",
+      "note": "Entry to Mid, plus bonuses"
+    },
     "growth_outlook": "Good",
-    "work_style": ["Research-intensive", "High-pressure", "Client-focused"],
-    "required_skills": [
-      { "skill": "Financial Modeling", "level": "critical" },
-      { "skill": "Research", "level": "critical" },
-      { "skill": "Excel", "level": "critical" },
-      { "skill": "Accounting", "level": "important" },
-      { "skill": "Financial Reporting", "level": "important" },
-      { "skill": "Communication", "level": "important" },
-      { "skill": "Data Analysis", "level": "important" },
-      { "skill": "CFA Certification", "level": "helpful" },
-      { "skill": "Bloomberg Terminal", "level": "helpful" }
+    "work_style": [
+      "Research-intensive",
+      "High-pressure",
+      "Client-focused"
     ],
-    "entry_paths": ["Finance/Economics degree", "CFA program", "MBA"],
-    "tags": ["finance", "investment", "research", "high-salary"]
+    "required_skills": [
+      {
+        "skill": "Financial Modeling",
+        "level": "critical"
+      },
+      {
+        "skill": "Research",
+        "level": "critical"
+      },
+      {
+        "skill": "Excel",
+        "level": "critical"
+      },
+      {
+        "skill": "Accounting",
+        "level": "important"
+      },
+      {
+        "skill": "Financial Reporting",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "CFA Certification",
+        "level": "helpful"
+      },
+      {
+        "skill": "Bloomberg Terminal",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Finance/Economics degree",
+      "CFA program",
+      "MBA"
+    ],
+    "tags": [
+      "finance",
+      "investment",
+      "research",
+      "high-salary"
+    ]
   },
   {
     "id": "supply_chain_manager",
     "title": "Supply Chain Manager",
     "category": "Business & Management",
     "description": "Oversee the flow of goods from suppliers to customers, optimizing logistics, inventory, and procurement. Supply chain managers are critical in manufacturing, retail, and e-commerce.",
-    "salary_range": { "min": 65000, "max": 140000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 65000,
+      "max": 140000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "Good",
-    "work_style": ["Process-driven", "Cross-functional", "Analytical"],
-    "required_skills": [
-      { "skill": "Logistics", "level": "critical" },
-      { "skill": "Negotiation", "level": "critical" },
-      { "skill": "Data Analysis", "level": "critical" },
-      { "skill": "ERP Systems (SAP/QuickBooks)", "level": "important" },
-      { "skill": "Process Improvement", "level": "important" },
-      { "skill": "Communication", "level": "important" },
-      { "skill": "Excel", "level": "important" },
-      { "skill": "Lean / Six Sigma", "level": "helpful" },
-      { "skill": "Forecasting", "level": "helpful" }
+    "work_style": [
+      "Process-driven",
+      "Cross-functional",
+      "Analytical"
     ],
-    "entry_paths": ["Supply chain/logistics degree", "Operations background", "APICS certification"],
-    "tags": ["operations", "logistics", "business", "cross-industry"]
+    "required_skills": [
+      {
+        "skill": "Logistics",
+        "level": "critical"
+      },
+      {
+        "skill": "Negotiation",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "ERP Systems (SAP/QuickBooks)",
+        "level": "important"
+      },
+      {
+        "skill": "Process Improvement",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Excel",
+        "level": "important"
+      },
+      {
+        "skill": "Lean / Six Sigma",
+        "level": "helpful"
+      },
+      {
+        "skill": "Forecasting",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Supply chain/logistics degree",
+      "Operations background",
+      "APICS certification"
+    ],
+    "tags": [
+      "operations",
+      "logistics",
+      "business",
+      "cross-industry"
+    ]
   },
   {
     "id": "content_strategist",
     "title": "Content Strategist",
     "category": "Marketing & Sales",
     "description": "Plan, develop, and manage content across channels to achieve business goals. Content strategists blend editorial judgment with data analysis, ensuring the right content reaches the right audience at the right time.",
-    "salary_range": { "min": 55000, "max": 115000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 55000,
+      "max": 115000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "High",
-    "work_style": ["Creative", "Strategic", "Remote-friendly"],
-    "required_skills": [
-      { "skill": "Content Creation", "level": "critical" },
-      { "skill": "SEO", "level": "critical" },
-      { "skill": "Writing", "level": "critical" },
-      { "skill": "Google Analytics", "level": "important" },
-      { "skill": "Social Media Marketing", "level": "important" },
-      { "skill": "Communication", "level": "important" },
-      { "skill": "Copywriting", "level": "important" },
-      { "skill": "Content Strategy", "level": "helpful" },
-      { "skill": "Marketing Automation", "level": "helpful" }
+    "work_style": [
+      "Creative",
+      "Strategic",
+      "Remote-friendly"
     ],
-    "entry_paths": ["Journalism/English degree", "Content writer progression", "Marketing background"],
-    "tags": ["marketing", "writing", "creative", "remote-friendly"]
+    "required_skills": [
+      {
+        "skill": "Content Creation",
+        "level": "critical"
+      },
+      {
+        "skill": "SEO",
+        "level": "critical"
+      },
+      {
+        "skill": "Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "Google Analytics",
+        "level": "important"
+      },
+      {
+        "skill": "Social Media Marketing",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Copywriting",
+        "level": "important"
+      },
+      {
+        "skill": "Content Strategy",
+        "level": "helpful"
+      },
+      {
+        "skill": "Marketing Automation",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Journalism/English degree",
+      "Content writer progression",
+      "Marketing background"
+    ],
+    "tags": [
+      "marketing",
+      "writing",
+      "creative",
+      "remote-friendly"
+    ]
   },
   {
     "id": "instructional_designer",
     "title": "Instructional Designer",
     "category": "Education & Training",
     "description": "Design effective learning experiences and e-learning courses. Instructional designers apply learning science to create training for corporate, government, and educational organizations â€” increasingly in digital formats.",
-    "salary_range": { "min": 55000, "max": 110000, "currency": "USD", "note": "Entry to Senior" },
+    "salary_range": {
+      "min": 55000,
+      "max": 110000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
     "growth_outlook": "High",
-    "work_style": ["Creative-analytical blend", "Remote-friendly", "Self-directed"],
-    "required_skills": [
-      { "skill": "Curriculum Design", "level": "critical" },
-      { "skill": "Writing", "level": "critical" },
-      { "skill": "LMS (Learning Management Systems)", "level": "critical" },
-      { "skill": "Communication", "level": "important" },
-      { "skill": "Articulate Storyline or Rise", "level": "important" },
-      { "skill": "Assessment Design", "level": "important" },
-      { "skill": "Training & Development", "level": "helpful" },
-      { "skill": "Video Editing", "level": "helpful" }
+    "work_style": [
+      "Creative-analytical blend",
+      "Remote-friendly",
+      "Self-directed"
     ],
-    "entry_paths": ["Education/ID degree", "Teacher transition", "Corporate trainer progression"],
-    "tags": ["education", "e-learning", "remote-friendly", "design"]
+    "required_skills": [
+      {
+        "skill": "Curriculum Design",
+        "level": "critical"
+      },
+      {
+        "skill": "Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "LMS (Learning Management Systems)",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Articulate Storyline or Rise",
+        "level": "important"
+      },
+      {
+        "skill": "Assessment Design",
+        "level": "important"
+      },
+      {
+        "skill": "Training & Development",
+        "level": "helpful"
+      },
+      {
+        "skill": "Video Editing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Education/ID degree",
+      "Teacher transition",
+      "Corporate trainer progression"
+    ],
+    "tags": [
+      "education",
+      "e-learning",
+      "remote-friendly",
+      "design"
+    ]
+  },
+  {
+    "id": "electrician",
+    "title": "Electrician",
+    "category": "Trades & Construction",
+    "description": "Install, maintain, and repair electrical systems in homes, buildings, and factories. Read blueprints, work with circuit breakers and wiring, and ensure electrical safety. One of the most in-demand trades across India.",
+    "salary_range": {
+      "min": 8000,
+      "max": 50000,
+      "currency": "INR/month",
+      "note": "Apprentice to Master Electrician"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "Hands-on",
+      "On-site",
+      "Problem-solving"
+    ],
+    "required_skills": [
+      {
+        "skill": "Electrical Wiring",
+        "level": "critical"
+      },
+      {
+        "skill": "Circuit Diagrams",
+        "level": "critical"
+      },
+      {
+        "skill": "Safety Practices",
+        "level": "critical"
+      },
+      {
+        "skill": "Hand Tools",
+        "level": "important"
+      },
+      {
+        "skill": "Troubleshooting",
+        "level": "important"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "important"
+      },
+      {
+        "skill": "Blueprint Reading",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "ITI Electrician trade",
+      "Apprenticeship under master electrician",
+      "Polytechnic diploma in Electrical"
+    ],
+    "tags": [
+      "trade",
+      "blue-collar",
+      "in-demand",
+      "hands-on"
+    ]
+  },
+  {
+    "id": "plumber",
+    "title": "Plumber",
+    "category": "Trades & Construction",
+    "description": "Install and repair water supply systems, drainage pipes, and sanitation equipment. Plumbers work independently or with construction teams and can eventually run their own business.",
+    "salary_range": {
+      "min": 7000,
+      "max": 40000,
+      "currency": "INR/month",
+      "note": "Apprentice to Senior"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Hands-on",
+      "On-site",
+      "Independent"
+    ],
+    "required_skills": [
+      {
+        "skill": "Pipe Fitting",
+        "level": "critical"
+      },
+      {
+        "skill": "Hand Tools",
+        "level": "critical"
+      },
+      {
+        "skill": "Safety Practices",
+        "level": "critical"
+      },
+      {
+        "skill": "Problem Solving",
+        "level": "important"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "ITI Plumber trade",
+      "Apprenticeship",
+      "On-the-job training"
+    ],
+    "tags": [
+      "trade",
+      "blue-collar",
+      "in-demand",
+      "self-employment"
+    ]
+  },
+  {
+    "id": "carpenter",
+    "title": "Carpenter / Furniture Maker",
+    "category": "Trades & Construction",
+    "description": "Craft, install, and repair wooden structures, furniture, doors, and cabinets. Skilled carpenters are in demand for home interiors, construction sites, and custom furniture workshops.",
+    "salary_range": {
+      "min": 8000,
+      "max": 45000,
+      "currency": "INR/month",
+      "note": "Helper to Master Carpenter"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Hands-on",
+      "Creative",
+      "On-site"
+    ],
+    "required_skills": [
+      {
+        "skill": "Wood Working",
+        "level": "critical"
+      },
+      {
+        "skill": "Hand Tools",
+        "level": "critical"
+      },
+      {
+        "skill": "Measuring & Marking",
+        "level": "critical"
+      },
+      {
+        "skill": "Blueprint Reading",
+        "level": "important"
+      },
+      {
+        "skill": "Finishing & Polishing",
+        "level": "important"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "important"
+      },
+      {
+        "skill": "Design Sense",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "ITI Carpentry trade",
+      "Apprenticeship with furniture maker",
+      "Vocational training centre"
+    ],
+    "tags": [
+      "trade",
+      "craft",
+      "hands-on",
+      "self-employment"
+    ]
+  },
+  {
+    "id": "auto_mechanic",
+    "title": "Auto Mechanic / Car Technician",
+    "category": "Trades & Construction",
+    "description": "Diagnose, repair, and service cars, two-wheelers, and trucks. Work in garages, service centres, and dealerships. With EV adoption growing in India, EV-trained mechanics are in very high demand.",
+    "salary_range": {
+      "min": 8000,
+      "max": 50000,
+      "currency": "INR/month",
+      "note": "Helper to Senior Technician"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "Hands-on",
+      "Technical",
+      "Team-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Engine Repair",
+        "level": "critical"
+      },
+      {
+        "skill": "Diagnostics",
+        "level": "critical"
+      },
+      {
+        "skill": "Hand Tools",
+        "level": "critical"
+      },
+      {
+        "skill": "Electrical Systems",
+        "level": "important"
+      },
+      {
+        "skill": "Troubleshooting",
+        "level": "important"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "helpful"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "ITI Motor Mechanic Vehicle",
+      "Diploma in Automobile Engineering",
+      "Apprenticeship at dealership"
+    ],
+    "tags": [
+      "trade",
+      "automotive",
+      "hands-on",
+      "ev-opportunity"
+    ]
+  },
+  {
+    "id": "welder",
+    "title": "Welder / Fabricator",
+    "category": "Trades & Construction",
+    "description": "Join and cut metals to build structures, machinery, pipelines, and vehicles. Essential in construction, shipbuilding, manufacturing, and infrastructure. Skilled welders are always in demand globally.",
+    "salary_range": {
+      "min": 9000,
+      "max": 45000,
+      "currency": "INR/month",
+      "note": "Helper to Certified Welder"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Hands-on",
+      "Physical",
+      "Precise"
+    ],
+    "required_skills": [
+      {
+        "skill": "Welding Techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Safety Practices",
+        "level": "critical"
+      },
+      {
+        "skill": "Metal Fabrication",
+        "level": "critical"
+      },
+      {
+        "skill": "Blueprint Reading",
+        "level": "important"
+      },
+      {
+        "skill": "Hand Tools",
+        "level": "important"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "ITI Welder trade",
+      "NSDC Welding certification",
+      "Apprenticeship in factory"
+    ],
+    "tags": [
+      "trade",
+      "manufacturing",
+      "hands-on",
+      "global-demand"
+    ]
+  },
+  {
+    "id": "civil_engineer",
+    "title": "Civil Engineer / Site Engineer",
+    "category": "Trades & Construction",
+    "description": "Design and oversee construction of roads, bridges, buildings, dams, and infrastructure. India's massive infrastructure push under PM GatiShakti creates enormous demand for civil engineers at all levels.",
+    "salary_range": {
+      "min": 20000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Junior Engineer to Project Director"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "Field + office",
+      "Technical",
+      "Project-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Structural Design",
+        "level": "critical"
+      },
+      {
+        "skill": "AutoCAD",
+        "level": "critical"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "critical"
+      },
+      {
+        "skill": "Site Management",
+        "level": "important"
+      },
+      {
+        "skill": "Blueprint Reading",
+        "level": "important"
+      },
+      {
+        "skill": "Project Management",
+        "level": "important"
+      },
+      {
+        "skill": "Soil Testing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.E./B.Tech in Civil Engineering",
+      "Diploma in Civil Engineering",
+      "Government PWD / CPWD recruitment"
+    ],
+    "tags": [
+      "engineering",
+      "infrastructure",
+      "government",
+      "growing"
+    ]
+  },
+  {
+    "id": "nurse",
+    "title": "Nurse / Nursing Professional",
+    "category": "Healthcare",
+    "description": "Provide patient care, administer medicines, assist doctors, and support recovery. Work in hospitals, clinics, homes, and schools. Nursing offers strong job security with global opportunities in the UK, Canada, Middle East, and Australia.",
+    "salary_range": {
+      "min": 15000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Staff Nurse to Senior Nurse"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "Patient-facing",
+      "Team-based",
+      "Shift-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Patient Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Medical Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "First Aid & CPR",
+        "level": "critical"
+      },
+      {
+        "skill": "Medication Administration",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy",
+        "level": "important"
+      },
+      {
+        "skill": "Record Keeping",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "GNM (General Nursing & Midwifery)",
+      "B.Sc Nursing",
+      "ANM (Auxiliary Nurse Midwife)"
+    ],
+    "tags": [
+      "healthcare",
+      "stable",
+      "global-opportunity",
+      "essential"
+    ]
+  },
+  {
+    "id": "anaesthesiologist",
+    "title": "Anaesthesiologist",
+    "category": "Healthcare",
+    "description": "Administer anaesthesia before surgery, monitor patients during operations, and manage pain and critical care. One of the highest paid medical specialisations in India. Anaesthesiologists are always in short supply.",
+    "salary_range": {
+      "min": 100000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Senior Resident to Consultant"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "High-pressure",
+      "Precise",
+      "Hospital-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Medical Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Pharmacology",
+        "level": "critical"
+      },
+      {
+        "skill": "Patient Monitoring",
+        "level": "critical"
+      },
+      {
+        "skill": "Emergency Response",
+        "level": "critical"
+      },
+      {
+        "skill": "Attention to Detail",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Critical Care",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MBBS + MD in Anaesthesiology",
+      "DNB Anaesthesiology",
+      "Senior residency in teaching hospital"
+    ],
+    "tags": [
+      "healthcare",
+      "specialist",
+      "highest-paid",
+      "critical-care"
+    ]
+  },
+  {
+    "id": "pharmacist",
+    "title": "Pharmacist",
+    "category": "Healthcare",
+    "description": "Dispense medicines, counsel patients on drug use, and ensure safe medication. Work in hospitals, retail pharmacies, and the pharmaceutical industry. Growing demand with expanding healthcare access across India.",
+    "salary_range": {
+      "min": 18000,
+      "max": 70000,
+      "currency": "INR/month",
+      "note": "Entry to Senior Pharmacist"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Detail-oriented",
+      "Patient-facing",
+      "Regulatory"
+    ],
+    "required_skills": [
+      {
+        "skill": "Pharmacology",
+        "level": "critical"
+      },
+      {
+        "skill": "Medical Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Attention to Detail",
+        "level": "critical"
+      },
+      {
+        "skill": "Inventory Management",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "D.Pharm (Diploma in Pharmacy)",
+      "B.Pharm degree",
+      "M.Pharm for specialisation"
+    ],
+    "tags": [
+      "healthcare",
+      "stable",
+      "pharmacy",
+      "science"
+    ]
+  },
+  {
+    "id": "physiotherapist",
+    "title": "Physiotherapist",
+    "category": "Healthcare",
+    "description": "Help patients recover from injuries, surgeries, and chronic conditions through physical therapy. Work in hospitals, sports clubs, and run independent clinics. Great scope in sports physiotherapy as India grows in athletics.",
+    "salary_range": {
+      "min": 18000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Junior to Senior PT"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Hands-on",
+      "Patient-facing",
+      "Empathetic"
+    ],
+    "required_skills": [
+      {
+        "skill": "Human Anatomy",
+        "level": "critical"
+      },
+      {
+        "skill": "Exercise Therapy",
+        "level": "critical"
+      },
+      {
+        "skill": "Patient Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy",
+        "level": "important"
+      },
+      {
+        "skill": "Assessment Skills",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "BPT (Bachelor of Physiotherapy)",
+      "MPT for specialisation",
+      "Internship in hospital"
+    ],
+    "tags": [
+      "healthcare",
+      "wellness",
+      "hands-on",
+      "growing"
+    ]
+  },
+  {
+    "id": "ayurvedic_doctor",
+    "title": "Ayurvedic Doctor (BAMS)",
+    "category": "Healthcare",
+    "description": "Practice traditional Indian medicine to treat diseases holistically through herbs, diet, yoga, and panchakarma. Government hospitals, private clinics, wellness resorts, and the global wellness industry all need BAMS graduates.",
+    "salary_range": {
+      "min": 20000,
+      "max": 120000,
+      "currency": "INR/month",
+      "note": "Junior Doctor to Specialist"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "Patient-facing",
+      "Holistic",
+      "Consultative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Medical Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Ayurvedic Principles",
+        "level": "critical"
+      },
+      {
+        "skill": "Patient Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Herbal Medicine",
+        "level": "important"
+      },
+      {
+        "skill": "Yoga & Wellness",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "BAMS (Bachelor of Ayurvedic Medicine & Surgery)",
+      "MD Ayurveda for specialisation",
+      "Government AYUSH hospital posting"
+    ],
+    "tags": [
+      "healthcare",
+      "ayurveda",
+      "india-heritage",
+      "growing"
+    ]
+  },
+  {
+    "id": "chef",
+    "title": "Chef / Cook",
+    "category": "Food & Hospitality",
+    "description": "Prepare, cook, and present food in restaurants, hotels, canteens, and cloud kitchens. From street food stalls to five-star hotels — chefs are needed everywhere. India's food delivery boom with Zomato and Swiggy created thousands of new kitchen jobs.",
+    "salary_range": {
+      "min": 8000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Cook Helper to Executive Chef"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "Creative",
+      "Fast-paced",
+      "Team-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Cooking Techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Food Safety & Hygiene",
+        "level": "critical"
+      },
+      {
+        "skill": "Knife Skills",
+        "level": "important"
+      },
+      {
+        "skill": "Recipe Development",
+        "level": "important"
+      },
+      {
+        "skill": "Time Management",
+        "level": "important"
+      },
+      {
+        "skill": "Teamwork",
+        "level": "important"
+      },
+      {
+        "skill": "Baking",
+        "level": "helpful"
+      },
+      {
+        "skill": "Menu Planning",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Hotel Management course",
+      "IHM (Institute of Hotel Management)",
+      "On-the-job training",
+      "YouTube & self-practice"
+    ],
+    "tags": [
+      "food",
+      "hospitality",
+      "creative",
+      "growing"
+    ]
+  },
+  {
+    "id": "hotel_manager",
+    "title": "Hotel & Hospitality Manager",
+    "category": "Food & Hospitality",
+    "description": "Oversee operations of hotels, resorts, guest houses, or restaurants. Manage staff, bookings, guest experience, and revenue. India's tourism boom makes hospitality management one of the fastest growing careers.",
+    "salary_range": {
+      "min": 20000,
+      "max": 120000,
+      "currency": "INR/month",
+      "note": "Trainee to General Manager"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "People-facing",
+      "Leadership",
+      "Fast-paced"
+    ],
+    "required_skills": [
+      {
+        "skill": "Customer Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Team Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Problem Solving",
+        "level": "important"
+      },
+      {
+        "skill": "Financial Management",
+        "level": "important"
+      },
+      {
+        "skill": "MS Office",
+        "level": "important"
+      },
+      {
+        "skill": "Languages",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "BHM (Bachelor of Hotel Management)",
+      "Diploma in Hotel Management",
+      "Start in front desk and grow up"
+    ],
+    "tags": [
+      "hospitality",
+      "tourism",
+      "management",
+      "people-facing"
+    ]
+  },
+  {
+    "id": "baker",
+    "title": "Baker / Pastry Chef",
+    "category": "Food & Hospitality",
+    "description": "Create breads, cakes, pastries, and confections for bakeries, restaurants, and home-based businesses. Home baking businesses have exploded in India — many bakers earn well running their own kitchen startup.",
+    "salary_range": {
+      "min": 8000,
+      "max": 60000,
+      "currency": "INR/month",
+      "note": "Baker to Head Pastry Chef"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Creative",
+      "Early hours",
+      "Self-employment possible"
+    ],
+    "required_skills": [
+      {
+        "skill": "Baking",
+        "level": "critical"
+      },
+      {
+        "skill": "Food Safety & Hygiene",
+        "level": "critical"
+      },
+      {
+        "skill": "Recipe Development",
+        "level": "important"
+      },
+      {
+        "skill": "Decoration & Presentation",
+        "level": "important"
+      },
+      {
+        "skill": "Time Management",
+        "level": "important"
+      },
+      {
+        "skill": "Inventory Management",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bakery & Confectionery certificate",
+      "IHM pastry module",
+      "Online courses + home practice",
+      "Apprenticeship in bakery"
+    ],
+    "tags": [
+      "food",
+      "creative",
+      "self-employment",
+      "growing"
+    ]
+  },
+  {
+    "id": "hair_stylist",
+    "title": "Hair Stylist / Beautician",
+    "category": "Beauty & Wellness",
+    "description": "Provide hair cutting, styling, colouring, makeup, and beauty treatments. Salons are everywhere in India — this career offers fast self-employment and good income. Celebrity stylists and bridal makeup artists earn very well.",
+    "salary_range": {
+      "min": 8000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Trainee to Salon Owner / Celebrity Stylist"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Creative",
+      "People-facing",
+      "Self-employment possible"
+    ],
+    "required_skills": [
+      {
+        "skill": "Hair Styling",
+        "level": "critical"
+      },
+      {
+        "skill": "Hair Cutting",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Makeup",
+        "level": "important"
+      },
+      {
+        "skill": "Skin Care",
+        "level": "important"
+      },
+      {
+        "skill": "Colour Theory",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "VLCC / Lakme Academy diploma",
+      "NSDC Beauty & Wellness certificate",
+      "Apprenticeship at salon",
+      "NIOS Beauty & Wellness course"
+    ],
+    "tags": [
+      "beauty",
+      "self-employment",
+      "people-facing",
+      "creative"
+    ]
+  },
+  {
+    "id": "fitness_trainer",
+    "title": "Fitness Trainer / Personal Trainer",
+    "category": "Beauty & Wellness",
+    "description": "Help clients achieve fitness goals through workout plans, nutrition guidance, and motivation. Work in gyms, corporate wellness programmes, or independently. Growing market in urban India with fitness culture booming.",
+    "salary_range": {
+      "min": 12000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Gym Trainer to Celebrity Coach"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "Active",
+      "People-facing",
+      "Flexible hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Exercise Science",
+        "level": "critical"
+      },
+      {
+        "skill": "Nutrition Basics",
+        "level": "critical"
+      },
+      {
+        "skill": "Coaching",
+        "level": "critical"
+      },
+      {
+        "skill": "First Aid & CPR",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Motivation & Psychology",
+        "level": "important"
+      },
+      {
+        "skill": "Social Media",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "CPT certification (ACE/ISSA/Reebok)",
+      "Diploma in Sports Science",
+      "B.P.Ed degree",
+      "Start at local gym"
+    ],
+    "tags": [
+      "fitness",
+      "wellness",
+      "active",
+      "growing"
+    ]
+  },
+  {
+    "id": "yoga_instructor",
+    "title": "Yoga Instructor",
+    "category": "Beauty & Wellness",
+    "description": "Teach yoga postures, breathing, and meditation to students of all levels. Work in studios, gyms, schools, corporates, and online. India is the birthplace of yoga — strong global demand with excellent export opportunities.",
+    "salary_range": {
+      "min": 10000,
+      "max": 70000,
+      "currency": "INR/month",
+      "note": "Local Instructor to International Teacher"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Flexible",
+      "Mindful",
+      "Global-friendly"
+    ],
+    "required_skills": [
+      {
+        "skill": "Yoga Practice",
+        "level": "critical"
+      },
+      {
+        "skill": "Teaching & Instruction",
+        "level": "critical"
+      },
+      {
+        "skill": "Anatomy Basics",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Meditation",
+        "level": "important"
+      },
+      {
+        "skill": "Online Teaching",
+        "level": "helpful"
+      },
+      {
+        "skill": "Sanskrit Basics",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "200-Hour Yoga Teacher Training (YTT)",
+      "Morarji Desai National Institute of Yoga",
+      "Kaivalyadhama / Bihar School of Yoga"
+    ],
+    "tags": [
+      "wellness",
+      "yoga",
+      "global-demand",
+      "india-strength"
+    ]
+  },
+  {
+    "id": "fashion_designer",
+    "title": "Fashion Designer",
+    "category": "Fashion & Apparel",
+    "description": "Design clothes, accessories, and textiles for brands, boutiques, or private clients. India is one of the world's largest textile and fashion markets. From bridal wear to streetwear — opportunities are everywhere.",
+    "salary_range": {
+      "min": 12000,
+      "max": 100000,
+      "currency": "INR/month",
+      "note": "Trainee to Senior Designer"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Creative",
+      "Portfolio-based",
+      "Trend-aware"
+    ],
+    "required_skills": [
+      {
+        "skill": "Fashion Illustration",
+        "level": "critical"
+      },
+      {
+        "skill": "Sewing & Stitching",
+        "level": "critical"
+      },
+      {
+        "skill": "Fabric Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Pattern Making",
+        "level": "important"
+      },
+      {
+        "skill": "Colour Theory",
+        "level": "important"
+      },
+      {
+        "skill": "Trend Research",
+        "level": "important"
+      },
+      {
+        "skill": "Adobe Illustrator",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "NIFT (National Institute of Fashion Technology)",
+      "Pearl Academy",
+      "Diploma in Fashion Design"
+    ],
+    "tags": [
+      "fashion",
+      "creative",
+      "design",
+      "india-strength"
+    ]
+  },
+  {
+    "id": "tailor",
+    "title": "Tailor / Garment Stitcher",
+    "category": "Fashion & Apparel",
+    "description": "Stitch, alter, and repair clothing for customers or garment factories. India's wedding and festive wear market keeps skilled tailors constantly busy. Master tailors with design skills run thriving boutiques.",
+    "salary_range": {
+      "min": 7000,
+      "max": 50000,
+      "currency": "INR/month",
+      "note": "Apprentice to Master Tailor"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Hands-on",
+      "Detail-oriented",
+      "Self-employment possible"
+    ],
+    "required_skills": [
+      {
+        "skill": "Sewing & Stitching",
+        "level": "critical"
+      },
+      {
+        "skill": "Measuring & Marking",
+        "level": "critical"
+      },
+      {
+        "skill": "Fabric Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Pattern Making",
+        "level": "important"
+      },
+      {
+        "skill": "Alteration Techniques",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "ITI Dress Making trade",
+      "NSDC Tailoring course",
+      "Apprenticeship at tailoring shop"
+    ],
+    "tags": [
+      "apparel",
+      "craft",
+      "self-employment",
+      "india-market"
+    ]
+  },
+  {
+    "id": "commercial_driver",
+    "title": "Commercial Driver / Transport Operator",
+    "category": "Transport & Logistics",
+    "description": "Drive trucks, buses, taxis, or auto-rickshaws. With Ola, Uber, and Rapido, self-employed driving careers have boomed. Long-haul truck drivers are in very high demand with India's expanding highway network.",
+    "salary_range": {
+      "min": 12000,
+      "max": 50000,
+      "currency": "INR/month",
+      "note": "Auto/Taxi Driver to Long-Haul Trucker"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Independent",
+      "Flexible",
+      "Physical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Driving",
+        "level": "critical"
+      },
+      {
+        "skill": "Traffic Rules & Safety",
+        "level": "critical"
+      },
+      {
+        "skill": "Route Navigation",
+        "level": "critical"
+      },
+      {
+        "skill": "Vehicle Maintenance Basics",
+        "level": "important"
+      },
+      {
+        "skill": "Time Management",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Heavy Motor Vehicle (HMV) license",
+      "Light Motor Vehicle (LMV) license",
+      "Register on Ola/Uber/Rapido"
+    ],
+    "tags": [
+      "transport",
+      "self-employment",
+      "gig-economy",
+      "flexible"
+    ]
+  },
+  {
+    "id": "logistics_manager",
+    "title": "Logistics & Warehouse Manager",
+    "category": "Transport & Logistics",
+    "description": "Manage movement, storage, and delivery of goods. India's e-commerce boom — Amazon, Flipkart, Meesho, Blinkit — has created massive demand for logistics professionals at all levels from warehouse to fleet manager.",
+    "salary_range": {
+      "min": 15000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Coordinator to Operations Manager"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "Systematic",
+      "Team-based",
+      "Fast-paced"
+    ],
+    "required_skills": [
+      {
+        "skill": "Inventory Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Logistics Planning",
+        "level": "critical"
+      },
+      {
+        "skill": "MS Excel",
+        "level": "important"
+      },
+      {
+        "skill": "ERP Software",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Team Management",
+        "level": "helpful"
+      },
+      {
+        "skill": "Problem Solving",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Diploma in Logistics & Supply Chain",
+      "B.Com + logistics experience",
+      "Start in warehouse and grow up"
+    ],
+    "tags": [
+      "logistics",
+      "ecommerce",
+      "growing",
+      "stable"
+    ]
+  },
+  {
+    "id": "progressive_farmer",
+    "title": "Progressive Farmer / Agripreneur",
+    "category": "Agriculture & Farming",
+    "description": "Grow crops and run agri-businesses using modern techniques like organic farming, hydroponics, and direct-to-consumer models. Young farmers using technology and government schemes earn very well and are transforming Indian agriculture.",
+    "salary_range": {
+      "min": 10000,
+      "max": 100000,
+      "currency": "INR/month",
+      "note": "Subsistence to Agripreneur"
+    },
+    "growth_outlook": "Growing",
+    "work_style": [
+      "Outdoor",
+      "Seasonal",
+      "Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Crop Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Soil Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Irrigation Techniques",
+        "level": "important"
+      },
+      {
+        "skill": "Pest Control",
+        "level": "important"
+      },
+      {
+        "skill": "Financial Planning",
+        "level": "important"
+      },
+      {
+        "skill": "Marketing",
+        "level": "helpful"
+      },
+      {
+        "skill": "Technology Adoption",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.Sc Agriculture",
+      "Krishi Vigyan Kendra (KVK) training",
+      "ATMA scheme training",
+      "Government PM-KISAN scheme"
+    ],
+    "tags": [
+      "agriculture",
+      "outdoor",
+      "self-employment",
+      "india-core"
+    ]
+  },
+  {
+    "id": "agricultural_officer",
+    "title": "Agriculture Extension Officer (Govt)",
+    "category": "Agriculture & Farming",
+    "description": "Bridge between agricultural research and farmers. Advise on modern techniques, government schemes, and market access. Stable government jobs available at block, district, state, and central level with IBPS Agri Officer exam.",
+    "salary_range": {
+      "min": 25000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Officer to Senior Officer (Grade Scale I-III)"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Field-based",
+      "Advisory",
+      "Government"
+    ],
+    "required_skills": [
+      {
+        "skill": "Crop Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Regional Language",
+        "level": "critical"
+      },
+      {
+        "skill": "Soil Management",
+        "level": "important"
+      },
+      {
+        "skill": "Government Schemes Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Data Collection",
+        "level": "important"
+      },
+      {
+        "skill": "Report Writing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.Sc Agriculture",
+      "IBPS Agri Officer exam",
+      "State agricultural department exam",
+      "NABARD development assistant"
+    ],
+    "tags": [
+      "agriculture",
+      "government",
+      "advisory",
+      "stable"
+    ]
+  },
+  {
+    "id": "photographer",
+    "title": "Photographer / Videographer",
+    "category": "Arts & Performance",
+    "description": "Capture photos and videos for weddings, events, fashion, journalism, and brands. India's massive wedding market and growing content economy make photography very profitable. Top wedding photographers charge lakhs per event.",
+    "salary_range": {
+      "min": 15000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Assistant to Premium Photographer"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Creative",
+      "Freelance-friendly",
+      "Portfolio-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Photography",
+        "level": "critical"
+      },
+      {
+        "skill": "Photo Editing",
+        "level": "critical"
+      },
+      {
+        "skill": "Lighting Techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Composition",
+        "level": "important"
+      },
+      {
+        "skill": "Video Editing",
+        "level": "important"
+      },
+      {
+        "skill": "Client Management",
+        "level": "important"
+      },
+      {
+        "skill": "Social Media",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Photography courses (online + offline)",
+      "Assistant to experienced photographer",
+      "Start with events and build portfolio"
+    ],
+    "tags": [
+      "arts",
+      "creative",
+      "freelance",
+      "events"
+    ]
+  },
+  {
+    "id": "musician",
+    "title": "Musician / Performer",
+    "category": "Arts & Performance",
+    "description": "Perform, compose, or teach music across classical, film, fusion, or contemporary genres. India's music industry — Bollywood, classical, indie — offers careers in live performance, background scoring, YouTube, and teaching.",
+    "salary_range": {
+      "min": 10000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Music Teacher to Film Composer"
+    },
+    "growth_outlook": "Moderate",
+    "work_style": [
+      "Creative",
+      "Freelance",
+      "Passion-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Musical Instrument",
+        "level": "critical"
+      },
+      {
+        "skill": "Music Theory",
+        "level": "critical"
+      },
+      {
+        "skill": "Ear Training",
+        "level": "important"
+      },
+      {
+        "skill": "Stage Performance",
+        "level": "important"
+      },
+      {
+        "skill": "Music Production",
+        "level": "helpful"
+      },
+      {
+        "skill": "Teaching",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Music school / Gurukul",
+      "B.A. in Music",
+      "Self-learning + YouTube",
+      "Bollywood assistant gigs"
+    ],
+    "tags": [
+      "arts",
+      "music",
+      "creative",
+      "passion"
+    ]
+  },
+  {
+    "id": "actor",
+    "title": "Actor / Theatre Artist",
+    "category": "Arts & Performance",
+    "description": "Perform in films, TV serials, OTT platforms, theatre, and advertisements. India has one of the world's largest entertainment industries — Bollywood, regional cinema, and OTT are all creating more roles than ever before.",
+    "salary_range": {
+      "min": 5000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Background Actor to Lead"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Performance",
+      "Audition-based",
+      "Unpredictable hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Acting Techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Stage Performance",
+        "level": "critical"
+      },
+      {
+        "skill": "Voice & Diction",
+        "level": "critical"
+      },
+      {
+        "skill": "Improvisation",
+        "level": "important"
+      },
+      {
+        "skill": "Script Reading",
+        "level": "important"
+      },
+      {
+        "skill": "Dancing",
+        "level": "helpful"
+      },
+      {
+        "skill": "Physical Fitness",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "FTII (Film & Television Institute of India)",
+      "NSD (National School of Drama)",
+      "Theatre groups + auditions",
+      "Acting workshops"
+    ],
+    "tags": [
+      "entertainment",
+      "film",
+      "performance",
+      "bollywood"
+    ]
+  },
+  {
+    "id": "civil_servant_ias",
+    "title": "Civil Servant — IAS / IPS / IFS",
+    "category": "Government & Public Service",
+    "description": "Serve the nation through administrative, police, or foreign service. IAS officers run districts and departments, IPS officers lead police forces, IFS officers represent India abroad. The most prestigious career in India with full state benefits.",
+    "salary_range": {
+      "min": 56100,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Probationer to Cabinet Secretary level"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Administrative",
+      "Leadership",
+      "Field + office"
+    ],
+    "required_skills": [
+      {
+        "skill": "General Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Essay Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "Analytical Thinking",
+        "level": "critical"
+      },
+      {
+        "skill": "Ethics & Integrity",
+        "level": "critical"
+      },
+      {
+        "skill": "Decision Making",
+        "level": "important"
+      },
+      {
+        "skill": "Leadership",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Report Writing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "UPSC Civil Services Exam (CSE)",
+      "State PCS exam",
+      "2–3 years dedicated preparation + coaching"
+    ],
+    "tags": [
+      "government",
+      "upsc",
+      "prestigious",
+      "india-specific"
+    ]
+  },
+  {
+    "id": "bank_officer",
+    "title": "Bank Officer / Probationary Officer",
+    "category": "Government & Public Service",
+    "description": "Manage banking operations, customer accounts, loans, and financial products at public sector banks (SBI, PNB, Bank of Baroda). IBPS PO and SBI PO are among India's most sought-after government job exams with lakhs of applicants each year.",
+    "salary_range": {
+      "min": 23700,
+      "max": 85000,
+      "currency": "INR/month",
+      "note": "PO to General Manager"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Customer-facing",
+      "Regulated",
+      "Office-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Banking & Finance",
+        "level": "critical"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "critical"
+      },
+      {
+        "skill": "General Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "English Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Reasoning & Aptitude",
+        "level": "critical"
+      },
+      {
+        "skill": "Computer Basics",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "IBPS PO exam",
+      "SBI PO exam",
+      "RBI Grade B exam",
+      "B.Com / B.A. graduation required"
+    ],
+    "tags": [
+      "government",
+      "banking",
+      "stable",
+      "pension"
+    ]
+  },
+  {
+    "id": "police_officer",
+    "title": "Police Officer / Sub-Inspector",
+    "category": "Government & Public Service",
+    "description": "Maintain law and order, investigate crimes, and protect citizens. Entry as constable through state police recruitment, or Sub-Inspector/DSP through state PSC exams. Stable government career with pension and social respect.",
+    "salary_range": {
+      "min": 21000,
+      "max": 100000,
+      "currency": "INR/month",
+      "note": "Constable to Superintendent"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Field-based",
+      "Disciplined",
+      "Shift-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Physical Fitness",
+        "level": "critical"
+      },
+      {
+        "skill": "General Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Regional Language",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Decision Making",
+        "level": "important"
+      },
+      {
+        "skill": "Teamwork",
+        "level": "important"
+      },
+      {
+        "skill": "Legal Knowledge",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "State Police Constable Recruitment",
+      "Sub-Inspector exam",
+      "UPSC CAPF for central forces",
+      "Physical + written + medical tests"
+    ],
+    "tags": [
+      "government",
+      "law-enforcement",
+      "stable",
+      "public-service"
+    ]
+  },
+  {
+    "id": "railway_officer",
+    "title": "Railway Officer / RRB Employee",
+    "category": "Government & Public Service",
+    "description": "Work with Indian Railways — one of the world's largest employers. From station master and loco pilot to Group A gazetted officers through UPSC IRPS. Indian Railways offers enormous variety in roles, good salaries, and housing.",
+    "salary_range": {
+      "min": 19900,
+      "max": 180000,
+      "currency": "INR/month",
+      "note": "Group D to IRPS Officer"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Shift-based",
+      "Operational",
+      "Government"
+    ],
+    "required_skills": [
+      {
+        "skill": "General Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "critical"
+      },
+      {
+        "skill": "Reasoning & Aptitude",
+        "level": "critical"
+      },
+      {
+        "skill": "Computer Basics",
+        "level": "important"
+      },
+      {
+        "skill": "Technical Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Physical Fitness",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "RRB NTPC exam",
+      "RRB Group D exam",
+      "RRB JE (Junior Engineer) exam",
+      "UPSC for gazetted railway officers"
+    ],
+    "tags": [
+      "government",
+      "railway",
+      "stable",
+      "pension"
+    ]
+  },
+  {
+    "id": "retail_manager",
+    "title": "Retail Store Manager",
+    "category": "Retail & Commerce",
+    "description": "Manage staff, inventory, store presentation, and customer experience. Retail is India's second largest employer. With organised retail and quick commerce booming, store managers at good chains earn very well.",
+    "salary_range": {
+      "min": 18000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Sales Executive to Store Manager"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "People-facing",
+      "Fast-paced",
+      "Target-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Customer Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Team Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Sales",
+        "level": "critical"
+      },
+      {
+        "skill": "Inventory Management",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "MS Excel",
+        "level": "important"
+      },
+      {
+        "skill": "Problem Solving",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Start as sales associate",
+      "Retail management diploma",
+      "Grow within D-Mart/Reliance/Big Bazaar chain"
+    ],
+    "tags": [
+      "retail",
+      "management",
+      "people-facing",
+      "growing"
+    ]
+  },
+  {
+    "id": "social_worker",
+    "title": "Social Worker / NGO Professional",
+    "category": "Social Work & Community",
+    "description": "Work with communities, NGOs, and government bodies to address education, poverty, health, and women's empowerment. The sector is professionalising rapidly with international funding and growing FCRA-registered NGOs in India.",
+    "salary_range": {
+      "min": 12000,
+      "max": 70000,
+      "currency": "INR/month",
+      "note": "Field Worker to Programme Manager"
+    },
+    "growth_outlook": "Growing",
+    "work_style": [
+      "Field-based",
+      "Community-focused",
+      "Purpose-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Empathy",
+        "level": "critical"
+      },
+      {
+        "skill": "Community Outreach",
+        "level": "critical"
+      },
+      {
+        "skill": "Regional Language",
+        "level": "important"
+      },
+      {
+        "skill": "Project Management",
+        "level": "important"
+      },
+      {
+        "skill": "Report Writing",
+        "level": "important"
+      },
+      {
+        "skill": "Data Collection",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "BSW/MSW (Bachelor/Master of Social Work)",
+      "TISS (Tata Institute of Social Sciences)",
+      "Join local NGO as volunteer first"
+    ],
+    "tags": [
+      "ngo",
+      "social-impact",
+      "community",
+      "purpose-driven"
+    ]
+  },
+  {
+    "id": "journalist",
+    "title": "Journalist / Reporter",
+    "category": "Media & Journalism",
+    "description": "Research, investigate, and report news for print, digital, TV, or radio. India's massive media market — national TV channels, regional digital outlets, fact-checking sites — creates diverse opportunities. Investigative journalists drive real change.",
+    "salary_range": {
+      "min": 15000,
+      "max": 100000,
+      "currency": "INR/month",
+      "note": "Junior Reporter to Senior Correspondent"
+    },
+    "growth_outlook": "Changing",
+    "work_style": [
+      "Fast-paced",
+      "Deadline-driven",
+      "Field + desk"
+    ],
+    "required_skills": [
+      {
+        "skill": "Writing & Reporting",
+        "level": "critical"
+      },
+      {
+        "skill": "Research",
+        "level": "critical"
+      },
+      {
+        "skill": "News Sense",
+        "level": "critical"
+      },
+      {
+        "skill": "Interview Skills",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Social Media",
+        "level": "important"
+      },
+      {
+        "skill": "Video Shooting",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "BA/MA in Journalism (IIMC, AJK MCRC)",
+      "Internship at news outlet",
+      "Start a blog or YouTube channel",
+      "Regional news agencies"
+    ],
+    "tags": [
+      "media",
+      "writing",
+      "journalism",
+      "storytelling"
+    ]
   }
 ]
