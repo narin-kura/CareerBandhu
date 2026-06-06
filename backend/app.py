@@ -78,6 +78,7 @@ class RecommendRequest(BaseModel):
     skills: list[str]
     experience_level: str = "any"
     target_career: Optional[str] = None
+    region: Optional[str] = None
 
 
 class GapRequest(BaseModel):
@@ -185,17 +186,22 @@ async def list_skills():
 
 
 @app.get("/api/careers")
-async def list_careers():
+async def list_careers(region: Optional[str] = None):
+    careers = CAREERS
+    if region:
+        careers = [c for c in CAREERS if c.get("region", "IN") == region]
     return {
+        "region": region,
         "careers": [
             {
                 "id": c["id"],
                 "title": c["title"],
                 "category": c["category"],
+                "region": c.get("region", "IN"),
                 "growth_outlook": c.get("growth_outlook"),
                 "tags": c.get("tags", []),
             }
-            for c in CAREERS
+            for c in careers
         ]
     }
 
@@ -226,8 +232,11 @@ async def recommend(req: RecommendRequest):
         }
 
     # Skills-first mode: recommend careers based on skills
+    pool = CAREERS
+    if req.region:
+        pool = [c for c in CAREERS if c.get("region", "IN") == req.region]
     scored = []
-    for career in CAREERS:
+    for career in pool:
         match = calculate_match(req.skills, career)
         if match["score"] == 0:
             continue

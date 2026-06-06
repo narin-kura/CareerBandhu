@@ -48,6 +48,12 @@
     .brand-name b { color: var(--sf); font-weight: 800; }
     .brand-sub { display: block; font-size: .68rem; color: var(--mut); font-weight: 500; margin-top: -1px; letter-spacing: .01em; }
     .nav-right { display: flex; align-items: center; gap: 14px; }
+    .region-switch { display: inline-flex; background: #F1EFEC; border: 1px solid var(--line); border-radius: 999px; padding: 3px; gap: 2px; }
+    .region-switch button { border: none; background: transparent; font-family: inherit; font-size: .78rem; font-weight: 600; color: var(--mut); padding: 5px 12px; border-radius: 999px; cursor: pointer; transition: color .15s, background .15s, box-shadow .15s; white-space: nowrap; }
+    .region-switch button.on { background: #fff; color: var(--ink); box-shadow: var(--sh-sm); }
+    .region-switch button:not(.on):hover { color: var(--ink-2); }
+    @media(max-width:640px){ .nav-status { display: none; } .region-switch button { padding: 5px 9px; font-size: .74rem; } }
+    @media(max-width:420px){ .badge-beta { display: none; } }
     .nav-status { display: flex; align-items: center; gap: 6px; font-size: .72rem; color: var(--mut); font-weight: 500; }
     .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--mut-2); flex-shrink: 0; }
     .dot.g { background: var(--ok); } .dot.r { background: var(--bd-c); }
@@ -256,6 +262,10 @@
     <div><span class="brand-name">Career<b>Bandhuv</b></span><span class="brand-sub">करियर बंधु · Your Career Friend</span></div>
   </a>
   <div class="nav-right">
+    <div class="region-switch" role="group" aria-label="Choose region">
+      <button id="rg-IN" class="on" onclick="switchRegion('IN')">🇮🇳 India</button>
+      <button id="rg-US" onclick="switchRegion('US')">🇺🇸 USA</button>
+    </div>
     <span class="nav-status"><span class="dot y" id="api-dot"></span><span id="api-lbl">Connecting…</span></span>
     <span class="badge-beta">Beta</span>
   </div>
@@ -347,14 +357,26 @@
 const API = '';
 let skills = [], ratingVal = 0, currentId = null, currentMode = 'skills';
 let allCareers = [], selectedCareerId = null, checkedSkills = new Set();
+let region = 'IN';
 
-const POPULAR_SKILLS = [
-  'Cooking','Driving','Sewing & Stitching','Teaching','Electrical Wiring',
-  'Customer Service','Communication','Sales','MS Excel','Accounting',
-  'Photography','Hair Styling','Baking','Yoga Practice','Welding Techniques',
-  'Patient Care','Crop Knowledge','Physical Fitness','General Knowledge','Python',
-  'Leadership','Social Media','Drawing','Mathematics','Tally'
-];
+const POPULAR_SKILLS = {
+  IN: ['Cooking','Driving','Sewing & Stitching','Teaching','Electrical Wiring',
+       'Customer Service','Communication','Sales','MS Excel','Accounting',
+       'Photography','Hair Styling','Welding Techniques','Patient Care','Crop Knowledge',
+       'Physical Fitness','General Knowledge','Python','Leadership','Mathematics'],
+  US: ['Programming','Python','Communication','Customer Service','MS Excel',
+       'Patient Care','Driving','Electrical Wiring','Project Management','Data Analysis',
+       'Welding Techniques','Marketing Strategy','Accounting','Leadership','Problem Solving',
+       'Teaching','Physical Fitness','SQL','Mechanical Aptitude','Creativity'],
+};
+
+const CAREER_PICKS = {
+  IN: ['Air Traffic Controller','Indian Army Officer','Merchant Navy Officer (Deck / Marine Engineer)',
+       'Space Scientist / Aerospace Engineer (ISRO)','Electrician','Nurse / Nursing Professional',
+       'Civil Servant — IAS / IPS / IFS','Railway Loco Pilot (Train Driver)','Chef / Cook','Fashion Designer'],
+  US: ['Software Engineer','Registered Nurse (RN)','Commercial Airline Pilot','Air Traffic Controller (FAA)',
+       'Electrician','Data Scientist','Police Officer','HVAC Technician','Accountant / CPA','UX/UI Designer'],
+};
 
 const CAT_ICONS = {
   'Technology':'💻','Data & Analytics':'📊','Business & Management':'💼',
@@ -364,21 +386,40 @@ const CAT_ICONS = {
   'Fashion & Apparel':'👗','Transport & Logistics':'🚚','Agriculture & Farming':'🌾',
   'Arts & Performance':'🎭','Government & Public Service':'🏛️',
   'Retail & Commerce':'🛍️','Social Work & Community':'🤝','Media & Journalism':'📰',
-  'Aviation & Airport':'✈️'
+  'Aviation & Airport':'✈️','Defence & Armed Forces':'🎖️','Maritime & Shipping':'⚓',
+  'Science & Research':'🔬'
 };
 
 async function init() {
   try {
-    const d = await get('/api/health');
+    await get('/api/health');
     setDot('g'); setLbl('Live');
   } catch { setDot('r'); setLbl('Offline'); }
+  await loadCareers();
+  renderSugs(); renderChips();
+}
+
+async function loadCareers() {
   try {
-    const c = await get('/api/careers');
+    const c = await get(`/api/careers?region=${region}`);
     allCareers = c.careers || [];
     document.getElementById('stat-c').textContent = allCareers.length + '+';
     renderCareerSugs(); renderCareerDropdown('');
   } catch {}
-  renderSugs(); renderChips();
+}
+
+async function switchRegion(r) {
+  if (r === region) return;
+  region = r;
+  document.getElementById('rg-IN').className = r==='IN'?'on':'';
+  document.getElementById('rg-US').className = r==='US'?'on':'';
+  // reset selections that no longer apply
+  selectedCareerId = null;
+  document.getElementById('career-search').value = '';
+  document.getElementById('selected-box').style.display = 'none';
+  await loadCareers();
+  renderSugs();
+  switchMode(currentMode); // reset results pane to a clean empty state
 }
 
 function setDot(c) { document.getElementById('api-dot').className = `dot ${c}`; }
@@ -412,15 +453,13 @@ function renderChips() {
     : '<span class="hint">No skills added yet</span>';
 }
 function renderSugs() {
-  document.getElementById('sugs').innerHTML = POPULAR_SKILLS.map(s=>`<span class="sug" onclick="addSkill('${esc(s)}')">${s}</span>`).join('');
+  document.getElementById('sugs').innerHTML = (POPULAR_SKILLS[region]||POPULAR_SKILLS.IN).map(s=>`<span class="sug" onclick="addSkill('${esc(s)}')">${s}</span>`).join('');
 }
 document.getElementById('skill-in').addEventListener('keydown',e=>{ if(e.key==='Enter') addFromInput(); });
 
 /* career mode */
 function renderCareerSugs() {
-  const picks = ['Air Traffic Controller','Commercial Pilot','Electrician','Chef / Cook',
-    'Nurse / Nursing Professional','Civil Servant — IAS / IPS / IFS','Customs Officer (Indian Customs)',
-    'Fitness Trainer / Personal Trainer','Bank Officer / Probationary Officer','Fashion Designer'];
+  const picks = CAREER_PICKS[region] || CAREER_PICKS.IN;
   document.getElementById('career-sugs').innerHTML = picks.map(t => {
     const c = allCareers.find(c=>c.title===t);
     return c ? `<span class="sug nv" onclick="selectCareer('${c.id}','${esc(c.title)}')">${t}</span>` : '';
@@ -453,7 +492,7 @@ async function findCareers() {
   const btn = document.getElementById('find-btn');
   btn.disabled = true; btn.textContent = 'Searching…';
   setResults('<div class="status"><div class="spinner"></div><p>Matching your skills…</p></div>');
-  try { const d = await post('/api/recommend', {skills}); renderResults(d.recommendations||[]); }
+  try { const d = await post('/api/recommend', {skills, region}); renderResults(d.recommendations||[]); }
   catch(e) { setResults(`<div class="status"><p>Error: ${e.message}</p></div>`); }
   btn.disabled=false; btn.textContent='Find matching careers';
 }

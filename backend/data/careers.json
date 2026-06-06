@@ -68,7 +68,8 @@
       "programming",
       "remote-friendly",
       "high-salary"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "data_scientist",
@@ -144,7 +145,8 @@
       "AI",
       "high-salary",
       "research"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "ml_engineer",
@@ -219,7 +221,8 @@
       "AI",
       "high-salary",
       "cutting-edge"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "devops_engineer",
@@ -294,7 +297,8 @@
       "infrastructure",
       "remote-friendly",
       "high-salary"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "cloud_architect",
@@ -366,7 +370,8 @@
       "senior",
       "high-salary",
       "leadership"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "cybersecurity_analyst",
@@ -438,7 +443,8 @@
       "security",
       "critical-infrastructure",
       "high-demand"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "full_stack_developer",
@@ -509,7 +515,8 @@
       "web",
       "remote-friendly",
       "versatile"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "mobile_app_developer",
@@ -576,7 +583,8 @@
       "mobile",
       "product",
       "remote-friendly"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "ux_ui_designer",
@@ -648,7 +656,8 @@
       "creative",
       "remote-friendly",
       "product"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "product_manager",
@@ -719,7 +728,8 @@
       "leadership",
       "tech-adjacent",
       "high-salary"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "data_analyst",
@@ -787,7 +797,8 @@
       "business",
       "entry-friendly",
       "versatile"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "business_analyst",
@@ -854,7 +865,8 @@
       "analysis",
       "entry-friendly",
       "versatile"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "project_manager",
@@ -921,7 +933,8 @@
       "leadership",
       "cross-industry",
       "management"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "digital_marketing_manager",
@@ -992,7 +1005,8 @@
       "creative",
       "data-driven",
       "remote-friendly"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "financial_analyst",
@@ -1059,7 +1073,8 @@
       "analysis",
       "business",
       "office-based"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "accountant",
@@ -1122,7 +1137,8 @@
       "stable",
       "every-industry",
       "numbers"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "hr_manager",
@@ -1189,7 +1205,8 @@
       "people",
       "management",
       "cross-industry"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "graphic_designer",
@@ -1256,7 +1273,8 @@
       "creative",
       "freelance-friendly",
       "visual"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "content_writer",
@@ -1320,7 +1338,8 @@
       "creative",
       "remote-friendly",
       "freelance-friendly"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "video_producer",
@@ -1387,7 +1406,8 @@
       "video",
       "freelance-friendly",
       "remote-friendly"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "teacher_educator",
@@ -1450,7 +1470,8 @@
       "impact",
       "stable",
       "people"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "corporate_trainer",
@@ -1513,7 +1534,8 @@
       "corporate",
       "people",
       "training"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "operations_manager",
@@ -1580,7 +1602,8 @@
       "leadership",
       "operations",
       "cross-industry"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "sales_manager",
@@ -1648,7 +1671,8 @@
       "leadership",
       "commission",
       "client-facing"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "healthcare_administrator",
@@ -1711,7 +1735,8 @@
       "leadership",
       "management",
       "compliance"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "data_engineer",
@@ -1779,7 +1804,8 @@
       "infrastructure",
       "high-salary",
       "remote-friendly"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "game_developer",
@@ -1846,7 +1872,8 @@
       "creative",
       "technical",
       "passion-driven"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "bi_developer",
@@ -1909,7 +1936,8 @@
       "business",
       "analytics",
       "dashboard"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "investment_analyst",
@@ -1976,7 +2004,8 @@
       "investment",
       "research",
       "high-salary"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "supply_chain_manager",
@@ -2043,7 +2072,8 @@
       "logistics",
       "business",
       "cross-industry"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "content_strategist",
@@ -2110,7 +2140,8 @@
       "writing",
       "creative",
       "remote-friendly"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "instructional_designer",
@@ -2173,7 +2204,8 @@
       "e-learning",
       "remote-friendly",
       "design"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "electrician",
@@ -2232,7 +2264,8 @@
       "blue-collar",
       "in-demand",
       "hands-on"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "plumber",
@@ -2287,7 +2320,8 @@
       "blue-collar",
       "in-demand",
       "self-employment"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "carpenter",
@@ -2346,7 +2380,8 @@
       "craft",
       "hands-on",
       "self-employment"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "auto_mechanic",
@@ -2405,7 +2440,8 @@
       "automotive",
       "hands-on",
       "ev-opportunity"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "welder",
@@ -2460,7 +2496,8 @@
       "manufacturing",
       "hands-on",
       "global-demand"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "civil_engineer",
@@ -2519,7 +2556,8 @@
       "infrastructure",
       "government",
       "growing"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "nurse",
@@ -2578,7 +2616,8 @@
       "stable",
       "global-opportunity",
       "essential"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "anaesthesiologist",
@@ -2637,7 +2676,8 @@
       "specialist",
       "highest-paid",
       "critical-care"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "pharmacist",
@@ -2692,7 +2732,8 @@
       "stable",
       "pharmacy",
       "science"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "physiotherapist",
@@ -2747,7 +2788,8 @@
       "wellness",
       "hands-on",
       "growing"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "ayurvedic_doctor",
@@ -2802,7 +2844,8 @@
       "ayurveda",
       "india-heritage",
       "growing"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "chef",
@@ -2866,7 +2909,8 @@
       "hospitality",
       "creative",
       "growing"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "hotel_manager",
@@ -2925,7 +2969,8 @@
       "tourism",
       "management",
       "people-facing"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "baker",
@@ -2981,7 +3026,8 @@
       "creative",
       "self-employment",
       "growing"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "hair_stylist",
@@ -3041,7 +3087,8 @@
       "self-employment",
       "people-facing",
       "creative"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "fitness_trainer",
@@ -3101,7 +3148,8 @@
       "wellness",
       "active",
       "growing"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "yoga_instructor",
@@ -3160,7 +3208,8 @@
       "yoga",
       "global-demand",
       "india-strength"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "fashion_designer",
@@ -3219,7 +3268,8 @@
       "creative",
       "design",
       "india-strength"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "tailor",
@@ -3274,7 +3324,8 @@
       "craft",
       "self-employment",
       "india-market"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "commercial_driver",
@@ -3329,7 +3380,8 @@
       "self-employment",
       "gig-economy",
       "flexible"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "logistics_manager",
@@ -3388,7 +3440,8 @@
       "ecommerce",
       "growing",
       "stable"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "progressive_farmer",
@@ -3448,7 +3501,8 @@
       "outdoor",
       "self-employment",
       "india-core"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "agricultural_officer",
@@ -3508,7 +3562,8 @@
       "government",
       "advisory",
       "stable"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "photographer",
@@ -3567,7 +3622,8 @@
       "creative",
       "freelance",
       "events"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "musician",
@@ -3623,7 +3679,8 @@
       "music",
       "creative",
       "passion"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "actor",
@@ -3683,7 +3740,8 @@
       "film",
       "performance",
       "bollywood"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "civil_servant_ias",
@@ -3746,7 +3804,8 @@
       "upsc",
       "prestigious",
       "india-specific"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "bank_officer",
@@ -3806,7 +3865,8 @@
       "banking",
       "stable",
       "pension"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "police_officer",
@@ -3866,7 +3926,8 @@
       "law-enforcement",
       "stable",
       "public-service"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "railway_officer",
@@ -3922,7 +3983,8 @@
       "railway",
       "stable",
       "pension"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "retail_manager",
@@ -3981,7 +4043,8 @@
       "management",
       "people-facing",
       "growing"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "social_worker",
@@ -4040,7 +4103,8 @@
       "social-impact",
       "community",
       "purpose-driven"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "journalist",
@@ -4100,7 +4164,8 @@
       "writing",
       "journalism",
       "storytelling"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "air_traffic_controller",
@@ -4164,7 +4229,8 @@
       "airport",
       "government",
       "high-responsibility"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "commercial_pilot",
@@ -4228,7 +4294,8 @@
       "pilot",
       "travel",
       "high-pay"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "cabin_crew",
@@ -4292,7 +4359,8 @@
       "airport",
       "hospitality",
       "travel"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "aircraft_maintenance_engineer",
@@ -4352,7 +4420,8 @@
       "engineering",
       "technical",
       "licensed"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "airport_ground_staff",
@@ -4412,7 +4481,8 @@
       "aviation",
       "customer-service",
       "entry-level"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "airport_manager",
@@ -4472,7 +4542,8 @@
       "aviation",
       "management",
       "operations"
-    ]
+    ],
+    "region": "IN"
   },
   {
     "id": "customs_officer",
@@ -4533,6 +4604,1796 @@
       "customs",
       "airport",
       "security"
-    ]
+    ],
+    "region": "IN"
+  },
+  {
+    "id": "us_software_engineer",
+    "title": "Software Engineer",
+    "category": "Technology",
+    "description": "Design, build, and maintain software applications and systems. One of the highest-demand, best-paid careers in the US, with strong remote-work options. Big Tech, startups, and every industry hire engineers.",
+    "salary_range": {
+      "min": 90000,
+      "max": 220000,
+      "currency": "USD/year",
+      "note": "Junior to Senior/Staff Engineer"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Remote-friendly",
+      "Project-based",
+      "Collaborative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Programming",
+        "level": "critical"
+      },
+      {
+        "skill": "Python",
+        "level": "important"
+      },
+      {
+        "skill": "Problem Solving",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Structures & Algorithms",
+        "level": "critical"
+      },
+      {
+        "skill": "Git & Version Control",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "System Design",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Computer Science (or related)",
+      "Coding bootcamp (3-6 months)",
+      "Self-taught + strong project portfolio",
+      "Internships at tech companies"
+    ],
+    "tags": [
+      "tech",
+      "software",
+      "high-pay",
+      "remote"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_data_scientist",
+    "title": "Data Scientist",
+    "category": "Data & Analytics",
+    "description": "Turn data into insights and predictive models that drive business decisions. A top-paying, fast-growing US role across tech, finance, healthcare, and retail.",
+    "salary_range": {
+      "min": 95000,
+      "max": 200000,
+      "currency": "USD/year",
+      "note": "Analyst to Senior Data Scientist"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Remote-friendly",
+      "Analytical",
+      "Cross-functional"
+    ],
+    "required_skills": [
+      {
+        "skill": "Python",
+        "level": "critical"
+      },
+      {
+        "skill": "Statistics",
+        "level": "critical"
+      },
+      {
+        "skill": "Machine Learning",
+        "level": "critical"
+      },
+      {
+        "skill": "SQL",
+        "level": "important"
+      },
+      {
+        "skill": "Data Visualization",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's/Master's in Stats, CS, or Math",
+      "Data science bootcamp",
+      "Online certifications (Coursera, DataCamp)",
+      "Portfolio of analysis projects"
+    ],
+    "tags": [
+      "data",
+      "analytics",
+      "AI",
+      "high-pay"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_registered_nurse",
+    "title": "Registered Nurse (RN)",
+    "category": "Healthcare",
+    "description": "Provide and coordinate patient care in hospitals, clinics, and homes. A stable, well-paid, in-demand career across the US with severe nationwide shortages and strong job security.",
+    "salary_range": {
+      "min": 65000,
+      "max": 130000,
+      "currency": "USD/year",
+      "note": "Staff RN to Specialized/Travel RN"
+    },
+    "growth_outlook": "Very Strong",
+    "work_style": [
+      "Shift work",
+      "Patient-facing",
+      "Hands-on"
+    ],
+    "required_skills": [
+      {
+        "skill": "Patient Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Clinical Skills",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Empathy",
+        "level": "important"
+      },
+      {
+        "skill": "Attention to Detail",
+        "level": "critical"
+      },
+      {
+        "skill": "First Aid",
+        "level": "important"
+      },
+      {
+        "skill": "Calm Under Pressure",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "ADN (2-yr) or BSN (4-yr) degree",
+      "Pass the NCLEX-RN exam",
+      "State nursing license",
+      "Community college nursing programs"
+    ],
+    "tags": [
+      "healthcare",
+      "nursing",
+      "in-demand",
+      "stable"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_electrician",
+    "title": "Electrician",
+    "category": "Trades & Construction",
+    "description": "Install, maintain, and repair electrical systems in homes, businesses, and industry. A high-paying skilled trade in the US that you can enter through paid apprenticeship — no college debt required.",
+    "salary_range": {
+      "min": 50000,
+      "max": 100000,
+      "currency": "USD/year",
+      "note": "Apprentice to Master Electrician"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Hands-on",
+      "On-site",
+      "Physical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Electrical Wiring",
+        "level": "critical"
+      },
+      {
+        "skill": "Blueprint Reading",
+        "level": "important"
+      },
+      {
+        "skill": "Problem Solving",
+        "level": "important"
+      },
+      {
+        "skill": "Mechanical Aptitude",
+        "level": "important"
+      },
+      {
+        "skill": "Safety Procedures",
+        "level": "critical"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "High school diploma / GED",
+      "Paid apprenticeship (IBEW / NECA, 4-5 yrs)",
+      "Trade / technical school",
+      "State journeyman license exam"
+    ],
+    "tags": [
+      "trades",
+      "skilled-trade",
+      "apprenticeship",
+      "no-degree"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_accountant_cpa",
+    "title": "Accountant / CPA",
+    "category": "Finance",
+    "description": "Prepare and analyze financial records, taxes, and audits for businesses and individuals. Becoming a licensed CPA significantly boosts pay and opens senior roles across every industry.",
+    "salary_range": {
+      "min": 55000,
+      "max": 130000,
+      "currency": "USD/year",
+      "note": "Staff Accountant to CPA / Controller"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Office/remote",
+      "Detail-oriented",
+      "Seasonal peaks"
+    ],
+    "required_skills": [
+      {
+        "skill": "Accounting",
+        "level": "critical"
+      },
+      {
+        "skill": "MS Excel",
+        "level": "critical"
+      },
+      {
+        "skill": "Attention to Detail",
+        "level": "critical"
+      },
+      {
+        "skill": "Financial Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Tax Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Accounting (150 credit hours for CPA)",
+      "Pass the CPA exam",
+      "Internship at accounting firm",
+      "Entry roles at Big 4 / corporate finance"
+    ],
+    "tags": [
+      "finance",
+      "accounting",
+      "CPA",
+      "stable"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_financial_analyst",
+    "title": "Financial Analyst",
+    "category": "Finance",
+    "description": "Evaluate investments, budgets, and financial performance to guide business decisions. A strong-paying corporate career with clear paths into banking, corporate finance, and investment management.",
+    "salary_range": {
+      "min": 65000,
+      "max": 150000,
+      "currency": "USD/year",
+      "note": "Analyst to Senior / VP"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Office/remote",
+      "Analytical",
+      "Fast-paced"
+    ],
+    "required_skills": [
+      {
+        "skill": "Financial Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "MS Excel",
+        "level": "critical"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "important"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Accounting",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Finance, Economics, or Business",
+      "CFA certification (boosts pay)",
+      "Finance internships",
+      "Entry analyst roles at banks/corporates"
+    ],
+    "tags": [
+      "finance",
+      "analyst",
+      "corporate",
+      "high-pay"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_truck_driver",
+    "title": "Commercial Truck Driver (CDL)",
+    "category": "Transport & Logistics",
+    "description": "Transport goods across cities and states. A reliable, well-paying career in the US with constant demand and quick entry — many companies pay for your CDL training.",
+    "salary_range": {
+      "min": 50000,
+      "max": 90000,
+      "currency": "USD/year",
+      "note": "Company driver to Owner-Operator"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "On-the-road",
+      "Independent",
+      "Long hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Driving",
+        "level": "critical"
+      },
+      {
+        "skill": "Safety Procedures",
+        "level": "critical"
+      },
+      {
+        "skill": "Navigation",
+        "level": "important"
+      },
+      {
+        "skill": "Vehicle Maintenance",
+        "level": "helpful"
+      },
+      {
+        "skill": "Time Management",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Age 21+ (interstate), clean record",
+      "CDL training school (3-7 weeks)",
+      "Pass CDL written + driving test",
+      "Company-sponsored CDL programs"
+    ],
+    "tags": [
+      "logistics",
+      "driving",
+      "no-degree",
+      "in-demand"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_hvac_technician",
+    "title": "HVAC Technician",
+    "category": "Trades & Construction",
+    "description": "Install and repair heating, ventilation, and air-conditioning systems. A recession-resistant skilled trade with strong pay and steady demand year-round across the US.",
+    "salary_range": {
+      "min": 48000,
+      "max": 90000,
+      "currency": "USD/year",
+      "note": "Apprentice to Senior Tech"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Hands-on",
+      "On-site",
+      "Physical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Mechanical Aptitude",
+        "level": "critical"
+      },
+      {
+        "skill": "Electrical Wiring",
+        "level": "important"
+      },
+      {
+        "skill": "Problem Solving",
+        "level": "important"
+      },
+      {
+        "skill": "Safety Procedures",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "High school diploma / GED",
+      "HVAC trade school / certificate (6-24 months)",
+      "Apprenticeship",
+      "EPA 608 certification + state license"
+    ],
+    "tags": [
+      "trades",
+      "skilled-trade",
+      "apprenticeship",
+      "in-demand"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_mechanical_engineer",
+    "title": "Mechanical Engineer",
+    "category": "Technology",
+    "description": "Design and build machines, engines, and mechanical systems across automotive, aerospace, energy, and manufacturing. A versatile, well-paid engineering career.",
+    "salary_range": {
+      "min": 70000,
+      "max": 140000,
+      "currency": "USD/year",
+      "note": "Junior to Senior Engineer"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Office + lab/field",
+      "Project-based",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Mechanical Aptitude",
+        "level": "critical"
+      },
+      {
+        "skill": "CAD Software",
+        "level": "important"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "critical"
+      },
+      {
+        "skill": "Physics",
+        "level": "important"
+      },
+      {
+        "skill": "Problem Solving",
+        "level": "critical"
+      },
+      {
+        "skill": "Project Management",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Mechanical Engineering (ABET-accredited)",
+      "FE / PE licensure",
+      "Engineering internships / co-ops",
+      "Entry roles in manufacturing/aerospace"
+    ],
+    "tags": [
+      "engineering",
+      "mechanical",
+      "design",
+      "stable"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_teacher",
+    "title": "K-12 Teacher",
+    "category": "Education & Training",
+    "description": "Educate and mentor students in public or private schools. A meaningful, stable career with summers off, strong benefits, and ongoing nationwide demand — especially in STEM and special education.",
+    "salary_range": {
+      "min": 45000,
+      "max": 85000,
+      "currency": "USD/year",
+      "note": "New to Experienced Teacher"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "In-person",
+      "Structured schedule",
+      "People-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Teaching",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience",
+        "level": "important"
+      },
+      {
+        "skill": "Subject Expertise",
+        "level": "critical"
+      },
+      {
+        "skill": "Classroom Management",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's degree + teacher prep program",
+      "State teaching license / certification",
+      "Praxis exams",
+      "Alternative certification (Teach for America)"
+    ],
+    "tags": [
+      "education",
+      "teaching",
+      "stable",
+      "meaningful"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_marketing_manager",
+    "title": "Marketing Manager",
+    "category": "Marketing & Sales",
+    "description": "Plan and run campaigns that grow brands and drive sales across digital and traditional channels. A creative, strategic, well-paid role in nearly every US company.",
+    "salary_range": {
+      "min": 65000,
+      "max": 160000,
+      "currency": "USD/year",
+      "note": "Specialist to Marketing Director"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Remote-friendly",
+      "Creative",
+      "Data-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Marketing Strategy",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Social Media",
+        "level": "important"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Content Creation",
+        "level": "important"
+      },
+      {
+        "skill": "Leadership",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Marketing, Business, or Communications",
+      "Digital marketing certifications",
+      "Start in coordinator/specialist roles",
+      "Build a campaign portfolio"
+    ],
+    "tags": [
+      "marketing",
+      "digital",
+      "creative",
+      "management"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_police_officer",
+    "title": "Police Officer",
+    "category": "Government & Public Service",
+    "description": "Protect and serve communities, enforce laws, and respond to emergencies. A stable government career with pension benefits, entered through a paid police academy — no degree required in most departments.",
+    "salary_range": {
+      "min": 50000,
+      "max": 100000,
+      "currency": "USD/year",
+      "note": "Officer to Sergeant/Detective"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Shift work",
+      "Field",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Physical Fitness",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Integrity",
+        "level": "critical"
+      },
+      {
+        "skill": "Quick Decision Making",
+        "level": "important"
+      },
+      {
+        "skill": "Conflict Resolution",
+        "level": "important"
+      },
+      {
+        "skill": "First Aid",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "High school diploma / GED (some require college)",
+      "Pass written + physical + background checks",
+      "Police academy training (12-24 weeks)",
+      "Field training program"
+    ],
+    "tags": [
+      "government",
+      "law-enforcement",
+      "no-degree",
+      "pension"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_pharmacist",
+    "title": "Pharmacist",
+    "category": "Healthcare",
+    "description": "Dispense medications, advise patients, and ensure safe drug use in pharmacies, hospitals, and clinics. A high-paying, trusted healthcare profession across the US.",
+    "salary_range": {
+      "min": 110000,
+      "max": 160000,
+      "currency": "USD/year",
+      "note": "Staff to Clinical/Lead Pharmacist"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Patient-facing",
+      "Detail-oriented",
+      "Shift work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Pharmacology",
+        "level": "critical"
+      },
+      {
+        "skill": "Attention to Detail",
+        "level": "critical"
+      },
+      {
+        "skill": "Patient Care",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Chemistry",
+        "level": "important"
+      },
+      {
+        "skill": "Integrity",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Pre-pharmacy coursework",
+      "Doctor of Pharmacy (PharmD, 4 yrs)",
+      "Pass NAPLEX + state law exam",
+      "State pharmacist license"
+    ],
+    "tags": [
+      "healthcare",
+      "pharmacy",
+      "high-pay",
+      "licensed"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_physical_therapist",
+    "title": "Physical Therapist",
+    "category": "Healthcare",
+    "description": "Help patients recover movement and manage pain after injury, surgery, or illness. A rewarding, well-paid, in-demand healthcare career as the US population ages.",
+    "salary_range": {
+      "min": 80000,
+      "max": 110000,
+      "currency": "USD/year",
+      "note": "New grad to Experienced PT"
+    },
+    "growth_outlook": "Very Strong",
+    "work_style": [
+      "Hands-on",
+      "Patient-facing",
+      "Active"
+    ],
+    "required_skills": [
+      {
+        "skill": "Anatomy Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Patient Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Empathy",
+        "level": "important"
+      },
+      {
+        "skill": "Physical Fitness",
+        "level": "important"
+      },
+      {
+        "skill": "Problem Solving",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's (any) + prerequisites",
+      "Doctor of Physical Therapy (DPT, 3 yrs)",
+      "Pass the NPTE",
+      "State PT license"
+    ],
+    "tags": [
+      "healthcare",
+      "therapy",
+      "in-demand",
+      "rewarding"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_air_traffic_controller",
+    "title": "Air Traffic Controller (FAA)",
+    "category": "Aviation & Airport",
+    "description": "Direct aircraft safely through US airspace and airports. One of the highest-paid jobs you can get without a 4-year degree, hired and trained directly by the FAA. High pressure, high reward.",
+    "salary_range": {
+      "min": 90000,
+      "max": 200000,
+      "currency": "USD/year",
+      "note": "Developmental to Certified Professional Controller"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "High-pressure",
+      "Shift work",
+      "Control tower"
+    ],
+    "required_skills": [
+      {
+        "skill": "Situational Awareness",
+        "level": "critical"
+      },
+      {
+        "skill": "Quick Decision Making",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Concentration & Focus",
+        "level": "critical"
+      },
+      {
+        "skill": "English Proficiency",
+        "level": "critical"
+      },
+      {
+        "skill": "Stress Management",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "US citizen, under age 31",
+      "Pass FAA ATSA aptitude test",
+      "FAA Academy training (Oklahoma City)",
+      "Or AT-CTI college program / military ATC"
+    ],
+    "tags": [
+      "aviation",
+      "FAA",
+      "high-pay",
+      "no-degree"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_commercial_pilot",
+    "title": "Commercial Airline Pilot",
+    "category": "Aviation & Airport",
+    "description": "Fly passengers and cargo for US airlines. A high-paying career with travel benefits, in strong demand due to a nationwide pilot shortage and waves of retirements.",
+    "salary_range": {
+      "min": 90000,
+      "max": 350000,
+      "currency": "USD/year",
+      "note": "Regional First Officer to Major Captain"
+    },
+    "growth_outlook": "Very Strong",
+    "work_style": [
+      "Travel-heavy",
+      "Roster",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Aircraft Handling",
+        "level": "critical"
+      },
+      {
+        "skill": "Aviation Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Quick Decision Making",
+        "level": "critical"
+      },
+      {
+        "skill": "Situational Awareness",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Stress Management",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "FAA Private Pilot License",
+      "Commercial Pilot License + instrument rating",
+      "Build 1,500 hours (ATP requirement)",
+      "Flight school or university aviation program"
+    ],
+    "tags": [
+      "aviation",
+      "pilot",
+      "FAA",
+      "high-pay"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_dental_hygienist",
+    "title": "Dental Hygienist",
+    "category": "Healthcare",
+    "description": "Clean teeth, take x-rays, and educate patients on oral health in dental offices. A high-paying healthcare career with great work-life balance, reachable with a 2-3 year degree.",
+    "salary_range": {
+      "min": 70000,
+      "max": 100000,
+      "currency": "USD/year",
+      "note": "New to Experienced Hygienist"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Patient-facing",
+      "Part-time friendly",
+      "Hands-on"
+    ],
+    "required_skills": [
+      {
+        "skill": "Patient Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Attention to Detail",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Manual Dexterity",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Associate degree in Dental Hygiene (accredited)",
+      "Pass National Board Dental Hygiene Exam",
+      "Clinical / state board exam",
+      "State hygienist license"
+    ],
+    "tags": [
+      "healthcare",
+      "dental",
+      "work-life-balance",
+      "licensed"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_welder",
+    "title": "Welder",
+    "category": "Trades & Construction",
+    "description": "Join metal parts for construction, manufacturing, pipelines, and shipbuilding. A skilled trade with strong pay — specialized welders (underwater, pipeline) can earn six figures.",
+    "salary_range": {
+      "min": 45000,
+      "max": 100000,
+      "currency": "USD/year",
+      "note": "Entry to Specialized Welder"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Hands-on",
+      "On-site",
+      "Physical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Welding Techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Mechanical Aptitude",
+        "level": "important"
+      },
+      {
+        "skill": "Blueprint Reading",
+        "level": "important"
+      },
+      {
+        "skill": "Safety Procedures",
+        "level": "critical"
+      },
+      {
+        "skill": "Attention to Detail",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "High school diploma / GED",
+      "Welding certificate / trade school (6-18 months)",
+      "AWS certification",
+      "Apprenticeship"
+    ],
+    "tags": [
+      "trades",
+      "welding",
+      "skilled-trade",
+      "no-degree"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_ux_designer",
+    "title": "UX/UI Designer",
+    "category": "Design & Creative",
+    "description": "Design intuitive, attractive digital products and experiences. A creative, well-paid, remote-friendly tech career bridging design and user research.",
+    "salary_range": {
+      "min": 70000,
+      "max": 150000,
+      "currency": "USD/year",
+      "note": "Junior to Senior Designer"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Remote-friendly",
+      "Creative",
+      "Collaborative"
+    ],
+    "required_skills": [
+      {
+        "skill": "UI Design",
+        "level": "critical"
+      },
+      {
+        "skill": "User Research",
+        "level": "important"
+      },
+      {
+        "skill": "Figma",
+        "level": "important"
+      },
+      {
+        "skill": "Prototyping",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Creativity",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Design/HCI (or self-taught)",
+      "UX bootcamp",
+      "Build a strong portfolio",
+      "Junior designer / internship roles"
+    ],
+    "tags": [
+      "design",
+      "UX",
+      "tech",
+      "remote"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "us_construction_manager",
+    "title": "Construction Manager",
+    "category": "Trades & Construction",
+    "description": "Plan, budget, and oversee construction projects from start to finish. A high-paying leadership role you can reach through experience in the trades or a construction-management degree.",
+    "salary_range": {
+      "min": 75000,
+      "max": 160000,
+      "currency": "USD/year",
+      "note": "Assistant to Senior PM"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "On-site + office",
+      "Leadership",
+      "Fast-paced"
+    ],
+    "required_skills": [
+      {
+        "skill": "Project Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Leadership",
+        "level": "critical"
+      },
+      {
+        "skill": "Blueprint Reading",
+        "level": "important"
+      },
+      {
+        "skill": "Budgeting",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Safety Procedures",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Construction Management / Civil Eng (or trades experience)",
+      "Work up from foreman/superintendent",
+      "PMP or OSHA certifications",
+      "On-the-job project experience"
+    ],
+    "tags": [
+      "construction",
+      "management",
+      "leadership",
+      "high-pay"
+    ],
+    "region": "US"
+  },
+  {
+    "id": "army_officer",
+    "title": "Indian Army Officer",
+    "category": "Defence & Armed Forces",
+    "description": "Lead soldiers and serve the nation in the Indian Army. A prestigious, disciplined career with authority, adventure, lifelong benefits, and immense respect. Entered young through NDA or after graduation via CDS/SSC.",
+    "salary_range": {
+      "min": 56000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Lieutenant to senior ranks + allowances"
+    },
+    "growth_outlook": "Stable — prestigious government service",
+    "work_style": [
+      "Disciplined",
+      "Leadership",
+      "Field postings"
+    ],
+    "required_skills": [
+      {
+        "skill": "Physical Fitness",
+        "level": "critical"
+      },
+      {
+        "skill": "Leadership",
+        "level": "critical"
+      },
+      {
+        "skill": "Discipline",
+        "level": "critical"
+      },
+      {
+        "skill": "Quick Decision Making",
+        "level": "important"
+      },
+      {
+        "skill": "Mental Toughness",
+        "level": "critical"
+      },
+      {
+        "skill": "Teamwork",
+        "level": "important"
+      },
+      {
+        "skill": "General Knowledge",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Class 12 + NDA exam (UPSC)",
+      "Graduation + CDS exam (UPSC)",
+      "SSB interview + medical",
+      "Officers Training Academy / IMA / OTA"
+    ],
+    "tags": [
+      "defence",
+      "army",
+      "officer",
+      "government"
+    ],
+    "region": "IN"
+  },
+  {
+    "id": "navy_officer",
+    "title": "Indian Navy Officer",
+    "category": "Defence & Armed Forces",
+    "description": "Command ships, submarines, and naval aircraft protecting India's seas. A technically rich, adventurous officer career with global exposure, sea time, and strong benefits.",
+    "salary_range": {
+      "min": 56000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Sub-Lieutenant to senior ranks + allowances"
+    },
+    "growth_outlook": "Stable — prestigious government service",
+    "work_style": [
+      "Sea + shore",
+      "Technical",
+      "Leadership"
+    ],
+    "required_skills": [
+      {
+        "skill": "Physical Fitness",
+        "level": "critical"
+      },
+      {
+        "skill": "Leadership",
+        "level": "critical"
+      },
+      {
+        "skill": "Discipline",
+        "level": "critical"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "important"
+      },
+      {
+        "skill": "Mental Toughness",
+        "level": "critical"
+      },
+      {
+        "skill": "Teamwork",
+        "level": "important"
+      },
+      {
+        "skill": "Technical Aptitude",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Class 12 (PCM) + NDA exam",
+      "Graduation + CDS / INET exam",
+      "SSB interview + medical",
+      "Indian Naval Academy training"
+    ],
+    "tags": [
+      "defence",
+      "navy",
+      "officer",
+      "government"
+    ],
+    "region": "IN"
+  },
+  {
+    "id": "air_force_officer",
+    "title": "Indian Air Force Officer / Fighter Pilot",
+    "category": "Defence & Armed Forces",
+    "description": "Fly fighter jets or lead technical and ground operations in the Indian Air Force. One of the most aspirational careers in India — fly cutting-edge aircraft, serve the nation, and earn deep respect.",
+    "salary_range": {
+      "min": 56000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Flying Officer to senior ranks + flying allowance"
+    },
+    "growth_outlook": "Stable — prestigious government service",
+    "work_style": [
+      "High-pressure",
+      "Technical",
+      "Adventure"
+    ],
+    "required_skills": [
+      {
+        "skill": "Physical Fitness",
+        "level": "critical"
+      },
+      {
+        "skill": "Quick Decision Making",
+        "level": "critical"
+      },
+      {
+        "skill": "Aircraft Handling",
+        "level": "important"
+      },
+      {
+        "skill": "Discipline",
+        "level": "critical"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "important"
+      },
+      {
+        "skill": "Mental Toughness",
+        "level": "critical"
+      },
+      {
+        "skill": "Situational Awareness",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Class 12 (PCM) + NDA exam",
+      "Graduation + AFCAT exam",
+      "SSB interview + pilot aptitude (CPSS) + medical",
+      "Air Force Academy training"
+    ],
+    "tags": [
+      "defence",
+      "air-force",
+      "pilot",
+      "government"
+    ],
+    "region": "IN"
+  },
+  {
+    "id": "agniveer",
+    "title": "Agniveer (Armed Forces Soldier/Sailor/Airman)",
+    "category": "Defence & Armed Forces",
+    "description": "Serve in the Army, Navy, or Air Force as an Agniveer under the Agnipath scheme. A direct route to wear the uniform after school, with training, discipline, a service package, and skills for life after service.",
+    "salary_range": {
+      "min": 30000,
+      "max": 40000,
+      "currency": "INR/month",
+      "note": "Includes Seva Nidhi package"
+    },
+    "growth_outlook": "Stable — direct armed-forces entry",
+    "work_style": [
+      "Disciplined",
+      "Physical",
+      "Field"
+    ],
+    "required_skills": [
+      {
+        "skill": "Physical Fitness",
+        "level": "critical"
+      },
+      {
+        "skill": "Discipline",
+        "level": "critical"
+      },
+      {
+        "skill": "Mental Toughness",
+        "level": "important"
+      },
+      {
+        "skill": "Teamwork",
+        "level": "important"
+      },
+      {
+        "skill": "General Knowledge",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Class 10 / 12 (role dependent)",
+      "Agnipath online exam",
+      "Physical fitness test + medical",
+      "Service-specific training"
+    ],
+    "tags": [
+      "defence",
+      "agniveer",
+      "no-degree",
+      "government"
+    ],
+    "region": "IN"
+  },
+  {
+    "id": "merchant_navy_officer",
+    "title": "Merchant Navy Officer (Deck / Marine Engineer)",
+    "category": "Maritime & Shipping",
+    "description": "Navigate or run the engines of huge cargo ships across the world's oceans. Among the highest-paying careers you can start after Class 12, with tax-free income, world travel, and long leave periods.",
+    "salary_range": {
+      "min": 80000,
+      "max": 800000,
+      "currency": "INR/month",
+      "note": "Cadet to Captain / Chief Engineer (often tax-free)"
+    },
+    "growth_outlook": "Strong — global shipping demand",
+    "work_style": [
+      "Sea voyages",
+      "Technical",
+      "Long contracts"
+    ],
+    "required_skills": [
+      {
+        "skill": "Navigation",
+        "level": "critical"
+      },
+      {
+        "skill": "Technical Aptitude",
+        "level": "critical"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "important"
+      },
+      {
+        "skill": "Physical Fitness",
+        "level": "important"
+      },
+      {
+        "skill": "Discipline",
+        "level": "critical"
+      },
+      {
+        "skill": "Teamwork",
+        "level": "important"
+      },
+      {
+        "skill": "Mechanical Aptitude",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Class 12 (PCM) + IMU CET exam",
+      "B.Tech Marine Engineering / B.Sc Nautical Science",
+      "DG Shipping-approved maritime academy",
+      "Onboard cadet training + competency exams"
+    ],
+    "tags": [
+      "maritime",
+      "merchant-navy",
+      "high-pay",
+      "travel"
+    ],
+    "region": "IN"
+  },
+  {
+    "id": "port_operations",
+    "title": "Port Operations Executive",
+    "category": "Maritime & Shipping",
+    "description": "Manage the loading, unloading, and movement of cargo at seaports. A growing logistics career as India expands its ports and shipping trade, with paths into terminal and operations management.",
+    "salary_range": {
+      "min": 25000,
+      "max": 90000,
+      "currency": "INR/month",
+      "note": "Executive to Operations Manager"
+    },
+    "growth_outlook": "Strong — port infrastructure growth",
+    "work_style": [
+      "On-site",
+      "Coordination",
+      "Shift work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Operations Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Coordination",
+        "level": "critical"
+      },
+      {
+        "skill": "Logistics",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Computer Basics",
+        "level": "important"
+      },
+      {
+        "skill": "Safety Procedures",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Graduation / Diploma in logistics or shipping",
+      "Port & terminal management courses",
+      "Major Port Trust / private port recruitment",
+      "Start in cargo / terminal operations"
+    ],
+    "tags": [
+      "maritime",
+      "port",
+      "logistics",
+      "operations"
+    ],
+    "region": "IN"
+  },
+  {
+    "id": "loco_pilot",
+    "title": "Railway Loco Pilot (Train Driver)",
+    "category": "Transport & Logistics",
+    "description": "Drive passenger and freight trains across India's vast rail network. A secure government job with good pay, allowances, and clear promotion from assistant to senior loco pilot.",
+    "salary_range": {
+      "min": 35000,
+      "max": 90000,
+      "currency": "INR/month",
+      "note": "Assistant to Senior Loco Pilot + allowances"
+    },
+    "growth_outlook": "Stable — secure government job",
+    "work_style": [
+      "Shift work",
+      "High-responsibility",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Concentration & Focus",
+        "level": "critical"
+      },
+      {
+        "skill": "Technical Aptitude",
+        "level": "important"
+      },
+      {
+        "skill": "Quick Decision Making",
+        "level": "important"
+      },
+      {
+        "skill": "Discipline",
+        "level": "critical"
+      },
+      {
+        "skill": "Safety Procedures",
+        "level": "critical"
+      },
+      {
+        "skill": "Mechanical Aptitude",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Class 10 + ITI / diploma (relevant trade)",
+      "RRB ALP (Assistant Loco Pilot) exam",
+      "Aptitude test + medical",
+      "Promotion to Loco Pilot with experience"
+    ],
+    "tags": [
+      "railways",
+      "government",
+      "driving",
+      "stable"
+    ],
+    "region": "IN"
+  },
+  {
+    "id": "station_master",
+    "title": "Railway Station Master",
+    "category": "Transport & Logistics",
+    "description": "Run the safe operation of a railway station — train movements, signals, and passenger coordination. A respected, secure government job with authority and steady promotion.",
+    "salary_range": {
+      "min": 35000,
+      "max": 95000,
+      "currency": "INR/month",
+      "note": "Station Master to Area Manager"
+    },
+    "growth_outlook": "Stable — secure government job",
+    "work_style": [
+      "Shift work",
+      "Coordination",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Coordination",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Quick Decision Making",
+        "level": "important"
+      },
+      {
+        "skill": "Computer Basics",
+        "level": "important"
+      },
+      {
+        "skill": "Discipline",
+        "level": "critical"
+      },
+      {
+        "skill": "General Knowledge",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Graduation (any discipline)",
+      "RRB NTPC exam (Station Master)",
+      "Computer-based test + aptitude",
+      "Departmental training"
+    ],
+    "tags": [
+      "railways",
+      "government",
+      "operations",
+      "stable"
+    ],
+    "region": "IN"
+  },
+  {
+    "id": "research_scientist",
+    "title": "Research Scientist",
+    "category": "Science & Research",
+    "description": "Push the boundaries of knowledge through experiments and discovery in physics, biology, chemistry, or other fields. Work in universities, national labs (CSIR), or R&D, publishing papers and solving hard problems.",
+    "salary_range": {
+      "min": 40000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "JRF/SRF to Senior Scientist"
+    },
+    "growth_outlook": "Stable — research & academia",
+    "work_style": [
+      "Lab-based",
+      "Analytical",
+      "Deep work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Research",
+        "level": "critical"
+      },
+      {
+        "skill": "Analytical Thinking",
+        "level": "critical"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "important"
+      },
+      {
+        "skill": "Scientific Writing",
+        "level": "important"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Patience",
+        "level": "important"
+      },
+      {
+        "skill": "Subject Expertise",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "B.Sc / M.Sc in a science discipline",
+      "CSIR-UGC NET / GATE for fellowships",
+      "PhD in specialization",
+      "Postdoc / lab positions (CSIR, IISc, IITs)"
+    ],
+    "tags": [
+      "science",
+      "research",
+      "academia",
+      "R&D"
+    ],
+    "region": "IN"
+  },
+  {
+    "id": "space_scientist",
+    "title": "Space Scientist / Aerospace Engineer (ISRO)",
+    "category": "Science & Research",
+    "description": "Design rockets, satellites, and space missions — be the 'rocket scientist' building India's space program. Work at ISRO or aerospace firms on launch vehicles, propulsion, and spacecraft. Prestigious and deeply impactful.",
+    "salary_range": {
+      "min": 60000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Scientist/Engineer 'SC' to senior grades"
+    },
+    "growth_outlook": "Strong — booming space sector",
+    "work_style": [
+      "Technical",
+      "Project-based",
+      "Cutting-edge"
+    ],
+    "required_skills": [
+      {
+        "skill": "Physics",
+        "level": "critical"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "critical"
+      },
+      {
+        "skill": "Aerospace Engineering",
+        "level": "critical"
+      },
+      {
+        "skill": "Problem Solving",
+        "level": "critical"
+      },
+      {
+        "skill": "Research",
+        "level": "important"
+      },
+      {
+        "skill": "CAD Software",
+        "level": "helpful"
+      },
+      {
+        "skill": "Programming",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "B.Tech (Aerospace/Mechanical/Electronics) or M.Sc Physics",
+      "ISRO Centralised Recruitment (ICRB) exam",
+      "GATE + higher studies (IIST, IITs)",
+      "Aerospace R&D / private space startups"
+    ],
+    "tags": [
+      "science",
+      "space",
+      "ISRO",
+      "aerospace",
+      "rocket"
+    ],
+    "region": "IN"
+  },
+  {
+    "id": "defence_scientist_drdo",
+    "title": "Defence Scientist (DRDO)",
+    "category": "Science & Research",
+    "description": "Develop missiles, radars, and advanced defence technology for the nation at DRDO. A prestigious R&D career combining science and national security, with strong job stability and impact.",
+    "salary_range": {
+      "min": 60000,
+      "max": 230000,
+      "currency": "INR/month",
+      "note": "Scientist 'B' to senior grades"
+    },
+    "growth_outlook": "Stable — strategic R&D",
+    "work_style": [
+      "Lab-based",
+      "Technical",
+      "Confidential projects"
+    ],
+    "required_skills": [
+      {
+        "skill": "Research",
+        "level": "critical"
+      },
+      {
+        "skill": "Analytical Thinking",
+        "level": "critical"
+      },
+      {
+        "skill": "Engineering",
+        "level": "critical"
+      },
+      {
+        "skill": "Mathematics",
+        "level": "important"
+      },
+      {
+        "skill": "Problem Solving",
+        "level": "critical"
+      },
+      {
+        "skill": "Programming",
+        "level": "helpful"
+      },
+      {
+        "skill": "Subject Expertise",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "B.Tech / M.Sc / M.Tech (relevant field)",
+      "GATE score / DRDO RAC recruitment",
+      "Interview + technical assessment",
+      "Higher studies for senior research"
+    ],
+    "tags": [
+      "science",
+      "defence",
+      "DRDO",
+      "R&D",
+      "government"
+    ],
+    "region": "IN"
   }
 ]
