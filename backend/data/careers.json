@@ -2808,7 +2808,7 @@
     "id": "chef",
     "title": "Chef / Cook",
     "category": "Food & Hospitality",
-    "description": "Prepare, cook, and present food in restaurants, hotels, canteens, and cloud kitchens. From street food stalls to five-star hotels — chefs are needed everywhere. India's food delivery boom with Zomato and Swiggy created thousands of new kitchen jobs.",
+    "description": "Prepare, cook, and present food in restaurants, hotels, canteens, and cloud kitchens. From street food stalls to five-star hotels â€” chefs are needed everywhere. India's food delivery boom with Zomato and Swiggy created thousands of new kitchen jobs.",
     "salary_range": {
       "min": 8000,
       "max": 80000,
@@ -2931,7 +2931,7 @@
     "id": "baker",
     "title": "Baker / Pastry Chef",
     "category": "Food & Hospitality",
-    "description": "Create breads, cakes, pastries, and confections for bakeries, restaurants, and home-based businesses. Home baking businesses have exploded in India — many bakers earn well running their own kitchen startup.",
+    "description": "Create breads, cakes, pastries, and confections for bakeries, restaurants, and home-based businesses. Home baking businesses have exploded in India â€” many bakers earn well running their own kitchen startup.",
     "salary_range": {
       "min": 8000,
       "max": 60000,
@@ -2987,7 +2987,7 @@
     "id": "hair_stylist",
     "title": "Hair Stylist / Beautician",
     "category": "Beauty & Wellness",
-    "description": "Provide hair cutting, styling, colouring, makeup, and beauty treatments. Salons are everywhere in India — this career offers fast self-employment and good income. Celebrity stylists and bridal makeup artists earn very well.",
+    "description": "Provide hair cutting, styling, colouring, makeup, and beauty treatments. Salons are everywhere in India â€” this career offers fast self-employment and good income. Celebrity stylists and bridal makeup artists earn very well.",
     "salary_range": {
       "min": 8000,
       "max": 80000,
@@ -3107,7 +3107,7 @@
     "id": "yoga_instructor",
     "title": "Yoga Instructor",
     "category": "Beauty & Wellness",
-    "description": "Teach yoga postures, breathing, and meditation to students of all levels. Work in studios, gyms, schools, corporates, and online. India is the birthplace of yoga — strong global demand with excellent export opportunities.",
+    "description": "Teach yoga postures, breathing, and meditation to students of all levels. Work in studios, gyms, schools, corporates, and online. India is the birthplace of yoga â€” strong global demand with excellent export opportunities.",
     "salary_range": {
       "min": 10000,
       "max": 70000,
@@ -3166,7 +3166,7 @@
     "id": "fashion_designer",
     "title": "Fashion Designer",
     "category": "Fashion & Apparel",
-    "description": "Design clothes, accessories, and textiles for brands, boutiques, or private clients. India is one of the world's largest textile and fashion markets. From bridal wear to streetwear — opportunities are everywhere.",
+    "description": "Design clothes, accessories, and textiles for brands, boutiques, or private clients. India is one of the world's largest textile and fashion markets. From bridal wear to streetwear â€” opportunities are everywhere.",
     "salary_range": {
       "min": 12000,
       "max": 100000,
@@ -3335,7 +3335,7 @@
     "id": "logistics_manager",
     "title": "Logistics & Warehouse Manager",
     "category": "Transport & Logistics",
-    "description": "Manage movement, storage, and delivery of goods. India's e-commerce boom — Amazon, Flipkart, Meesho, Blinkit — has created massive demand for logistics professionals at all levels from warehouse to fleet manager.",
+    "description": "Manage movement, storage, and delivery of goods. India's e-commerce boom â€” Amazon, Flipkart, Meesho, Blinkit â€” has created massive demand for logistics professionals at all levels from warehouse to fleet manager.",
     "salary_range": {
       "min": 15000,
       "max": 80000,
@@ -3573,7 +3573,7 @@
     "id": "musician",
     "title": "Musician / Performer",
     "category": "Arts & Performance",
-    "description": "Perform, compose, or teach music across classical, film, fusion, or contemporary genres. India's music industry — Bollywood, classical, indie — offers careers in live performance, background scoring, YouTube, and teaching.",
+    "description": "Perform, compose, or teach music across classical, film, fusion, or contemporary genres. India's music industry â€” Bollywood, classical, indie â€” offers careers in live performance, background scoring, YouTube, and teaching.",
     "salary_range": {
       "min": 10000,
       "max": 200000,
@@ -3629,7 +3629,7 @@
     "id": "actor",
     "title": "Actor / Theatre Artist",
     "category": "Arts & Performance",
-    "description": "Perform in films, TV serials, OTT platforms, theatre, and advertisements. India has one of the world's largest entertainment industries — Bollywood, regional cinema, and OTT are all creating more roles than ever before.",
+    "description": "Perform in films, TV serials, OTT platforms, theatre, and advertisements. India has one of the world's largest entertainment industries â€” Bollywood, regional cinema, and OTT are all creating more roles than ever before.",
     "salary_range": {
       "min": 5000,
       "max": 500000,
@@ -3687,7 +3687,7 @@
   },
   {
     "id": "civil_servant_ias",
-    "title": "Civil Servant — IAS / IPS / IFS",
+    "title": "Civil Servant â€” IAS / IPS / IFS",
     "category": "Government & Public Service",
     "description": "Serve the nation through administrative, police, or foreign service. IAS officers run districts and departments, IPS officers lead police forces, IFS officers represent India abroad. The most prestigious career in India with full state benefits.",
     "salary_range": {
@@ -3739,7 +3739,7 @@
     "entry_paths": [
       "UPSC Civil Services Exam (CSE)",
       "State PCS exam",
-      "2–3 years dedicated preparation + coaching"
+      "2â€“3 years dedicated preparation + coaching"
     ],
     "tags": [
       "government",
@@ -3872,7 +3872,7 @@
     "id": "railway_officer",
     "title": "Railway Officer / RRB Employee",
     "category": "Government & Public Service",
-    "description": "Work with Indian Railways — one of the world's largest employers. From station master and loco pilot to Group A gazetted officers through UPSC IRPS. Indian Railways offers enormous variety in roles, good salaries, and housing.",
+    "description": "Work with Indian Railways â€” one of the world's largest employers. From station master and loco pilot to Group A gazetted officers through UPSC IRPS. Indian Railways offers enormous variety in roles, good salaries, and housing.",
     "salary_range": {
       "min": 19900,
       "max": 180000,
@@ -4046,7 +4046,7 @@
     "id": "journalist",
     "title": "Journalist / Reporter",
     "category": "Media & Journalism",
-    "description": "Research, investigate, and report news for print, digital, TV, or radio. India's massive media market — national TV channels, regional digital outlets, fact-checking sites — creates diverse opportunities. Investigative journalists drive real change.",
+    "description": "Research, investigate, and report news for print, digital, TV, or radio. India's massive media market â€” national TV channels, regional digital outlets, fact-checking sites â€” creates diverse opportunities. Investigative journalists drive real change.",
     "salary_range": {
       "min": 15000,
       "max": 100000,
