@@ -21,7 +21,7 @@ except ImportError:
 
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
-STATIC_DIR = BASE_DIR.parent / "mobile" / "web-build"
+UI_DIR = BASE_DIR / "static"
 DB_PATH = BASE_DIR / "ratings.db"
 
 app = FastAPI(title="CareerBandhuv API", version="1.0.0")
@@ -32,10 +32,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# Serve built web app if present
-if STATIC_DIR.exists():
-    app.mount("/app", StaticFiles(directory=str(STATIC_DIR), html=True), name="webapp")
 
 # --- Load data ---
 with open(DATA_DIR / "careers.json") as f:
@@ -172,6 +168,14 @@ Be encouraging, practical, and mention realistic timelines. Start directly with 
 # --- Routes ---
 @app.get("/")
 async def root():
+    index = UI_DIR / "index.html"
+    if index.exists():
+        return FileResponse(str(index), media_type="text/html")
+    return {"name": "CareerBandhuv API", "version": "1.0.0", "status": "running"}
+
+
+@app.get("/api/health")
+async def health():
     return {"name": "CareerBandhuv API", "version": "1.0.0", "status": "running"}
 
 
