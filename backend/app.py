@@ -201,6 +201,7 @@ async def list_careers(region: Optional[str] = None):
                 "title": c["title"],
                 "category": c["category"],
                 "region": c.get("region", "IN"),
+                "collar": c.get("collar", "white"),
                 "growth_outlook": c.get("growth_outlook"),
                 "tags": c.get("tags", []),
             }
@@ -248,6 +249,7 @@ async def recommend(req: RecommendRequest):
                 "id": career["id"],
                 "title": career["title"],
                 "category": career["category"],
+                "collar": career.get("collar", "white"),
                 "description": career["description"],
                 "salary_range": career.get("salary_range"),
                 "growth_outlook": career.get("growth_outlook", "Good"),

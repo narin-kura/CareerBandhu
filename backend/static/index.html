@@ -478,6 +478,7 @@ function switchMode(m) {
   document.getElementById('panel-career').style.display = m==='career'?'':'none';
   document.getElementById('search-pane').style.display = '';
   document.getElementById('detail').style.display = 'none';
+  if (m === 'career') renderCollarFilter();
   setResults(`<div class="empty"><div class="emo">${m==='skills'?'🎯':'🔍'}</div><h3>${m==='skills'?'Match me to careers':'Explore any career'}</h3><p>${m==='skills'?'Add your skills and tap <strong>Find matching careers</strong>.':'Search or pick a career and tap <strong>Show skills needed</strong>.'}</p></div>`);
 }
 
