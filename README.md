@@ -1,5 +1,5 @@
 ---
-title: Loka Bandhuv — Career Guidance
+title: CareerBandhuv — Career Guidance
 emoji: 🌍
 colorFrom: indigo
 colorTo: teal
@@ -8,9 +8,9 @@ app_port: 7860
 pinned: false
 ---
 
-# Loka Bandhuv 🌍
+# CareerBandhuv 🌍
 
-**Your AI-powered career companion** — *Friend of the World*
+**Your AI-powered career companion** — *A true friend for your career journey*
 
 Discover the right career based on your current skills. Get a personalized skill gap analysis, curated learning resources, and AI coaching tips to bridge the gap. Rate and explore career paths recommended by the community.
 

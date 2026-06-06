@@ -16,15 +16,15 @@ export default function AboutScreen() {
   return (
     <ScrollView style={styles.container}>
       <View style={styles.hero}>
-        <Text style={styles.logo}>Loka Bandhuv</Text>
+        <Text style={styles.logo}>CareerBandhuv</Text>
         <Text style={styles.tagline}>Your Career Companion</Text>
-        <Text style={styles.meaning}>"Friend of the World" — guiding every student, parent, and career shifter</Text>
+        <Text style={styles.meaning}>"Career Friend of the World" — guiding every student, parent, and career shifter</Text>
       </View>
 
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>What We Do</Text>
         <Text style={styles.body}>
-          Loka Bandhuv helps you discover the right career path based on skills you already have,
+          CareerBandhuv helps you discover the right career path based on skills you already have,
           then coaches you on exactly what to learn next — with real resources, not vague advice.
         </Text>
         <Text style={styles.body}>
@@ -61,7 +61,7 @@ export default function AboutScreen() {
       </View>
 
       <View style={[styles.section, styles.versionCard]}>
-        <Text style={styles.versionText}>Version 1.0.0</Text>
+        <Text style={styles.versionText}>CareerBandhuv · Version 1.0.0</Text>
         <Text style={styles.versionSubtext}>Built with FastAPI + Expo + Claude AI</Text>
       </View>
 

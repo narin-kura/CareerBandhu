@@ -8,7 +8,7 @@ export function HeroHeader() {
     <View style={styles.hero}>
       <View style={styles.logoRow}>
         <Ionicons name="globe-outline" size={32} color="#fff" />
-        <Text style={styles.logoText}>Loka Bandhuv</Text>
+        <Text style={styles.logoText}>CareerBandhuv</Text>
       </View>
       <Text style={styles.tagline}>Your Career Companion</Text>
       <Text style={styles.subtitle}>

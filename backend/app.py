@@ -24,7 +24,7 @@ DATA_DIR = BASE_DIR / "data"
 STATIC_DIR = BASE_DIR.parent / "mobile" / "web-build"
 DB_PATH = BASE_DIR / "ratings.db"
 
-app = FastAPI(title="Loka Bandhuv API", version="1.0.0")
+app = FastAPI(title="CareerBandhuv API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -172,7 +172,7 @@ Be encouraging, practical, and mention realistic timelines. Start directly with 
 # --- Routes ---
 @app.get("/")
 async def root():
-    return {"name": "Loka Bandhuv API", "version": "1.0.0", "status": "running"}
+    return {"name": "CareerBandhuv API", "version": "1.0.0", "status": "running"}
 
 
 @app.get("/api/skills")

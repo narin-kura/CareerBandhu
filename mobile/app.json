@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Loka Bandhuv",
-    "slug": "loka-bandhuv",
+    "name": "CareerBandhuv",
+    "slug": "careerbandhuv",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "lokabandhuv",
+    "scheme": "careerbandhuv",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -14,14 +14,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.lokabandhuv.app"
+      "bundleIdentifier": "com.careerbandhuv.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#6366f1"
       },
-      "package": "com.lokabandhuv.app"
+      "package": "com.careerbandhuv.app"
     },
     "web": {
       "bundler": "metro",
