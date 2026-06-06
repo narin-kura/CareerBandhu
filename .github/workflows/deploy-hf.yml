@@ -21,7 +21,7 @@ jobs:
         run: |
           git remote add hf https://knnarin:$HF_TOKEN@huggingface.co/spaces/knnarin/careerbandhuv
           for i in 1 2 3; do
-            git push hf master --force && break
+            git push hf master:main --force && break
             echo "Attempt $i failed, retrying in 30s..."
             sleep 30
           done
