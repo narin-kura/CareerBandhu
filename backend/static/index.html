@@ -133,6 +133,7 @@
     .collar-btn.active .c-lbl { color: rgba(255,255,255,.9); }
     .collar-btn .c-cnt { font-size: .6rem; font-weight: 700; color: var(--mut-2); background: var(--line); border-radius: 999px; padding: 1px 5px; }
     .collar-btn.active .c-cnt { background: rgba(255,255,255,.22); color: #fff; }
+    .collar-btn.dimmed { opacity: .3; cursor: default; }
     .collar-all { grid-column: 1 / -1; flex-direction: row; gap: 8px; padding: 8px 14px; }
     .collar-all .c-lbl { font-size: .72rem; }
 
@@ -308,8 +309,8 @@
 
 <header class="hero">
   <span class="hero-eyebrow">🙏 Namaste · Career guidance for every path</span>
-  <h1>Discover the career that<br/>fits <span class="accent">your skills</span></h1>
-  <p>Tell us what you can do and get matched to careers — or pick any career and see exactly which skills you need to get there.</p>
+  <h1>Find the career that's<br/>right for <span class="accent">you</span></h1>
+  <p>Browse careers by work type, search any job title, or add your skills to get matched — guidance for every path, for free.</p>
   <div class="hero-stats">
     <div class="stat"><div class="v" id="stat-c">65+</div><div class="l">Careers</div></div>
     <div class="stat"><div class="v">200+</div><div class="l">Skills</div></div>
@@ -320,15 +321,15 @@
 
 <div class="toggle-wrap">
   <div class="toggle">
-    <button id="tab-skills" class="on" onclick="switchMode('skills')">🎯 I have skills <span class="lbl-long">— match me</span></button>
-    <button id="tab-career" onclick="switchMode('career')">🔍 I want to be… <span class="lbl-long">show skills</span></button>
+    <button id="tab-career" class="on career" onclick="switchMode('career')">🔍 Explore careers <span class="lbl-long">— browse &amp; discover</span></button>
+    <button id="tab-skills" onclick="switchMode('skills')">🎯 I have skills <span class="lbl-long">— match me</span></button>
   </div>
 </div>
 
 <div class="main">
   <aside class="sidebar">
     <!-- Skills panel -->
-    <div class="panel" id="panel-skills">
+    <div class="panel" id="panel-skills" style="display:none">
       <div class="panel-head skills">
         <h2>✨ Enter your skills</h2>
         <p>Add what you already know — any kind of work</p>
@@ -347,7 +348,7 @@
     </div>
 
     <!-- Career panel -->
-    <div class="panel" id="panel-career" style="display:none">
+    <div class="panel" id="panel-career">
       <div class="panel-head career">
         <h2>🔍 Choose a career</h2>
         <p>See the exact skills any career requires</p>
@@ -380,9 +381,9 @@
     <div id="search-pane">
       <div id="results-area">
         <div class="empty">
-          <div class="emo">🎯</div>
-          <h3>Start your career discovery</h3>
-          <p>Add your skills on the left and tap <strong>Find matching careers</strong> — or switch to <em>"I want to be…"</em> to explore any career.</p>
+          <div class="emo">🔍</div>
+          <h3>Browse any career</h3>
+          <p>Pick a work type on the left, or search any job title to see the skills, qualifications, and entry paths.</p>
         </div>
       </div>
     </div>
@@ -407,7 +408,7 @@
 
 <script>
 const API = '';
-let skills = [], ratingVal = 0, currentId = null, currentMode = 'skills';
+let skills = [], ratingVal = 0, currentId = null, currentMode = 'career';
 let allCareers = [], selectedCareerId = null, checkedSkills = new Set();
 let region = 'IN';
 let currentCareerData = null;
@@ -542,11 +543,14 @@ function renderCareerSugs() {
     return c ? `<span class="sug nv" onclick="selectCareer('${c.id}','${esc(c.title)}')">${t}</span>` : '';
   }).filter(Boolean).join('');
 }
-function renderCollarFilter() {
-  const regional = allCareers;
+function renderCollarFilter(q = '') {
+  const ql = q.toLowerCase();
+  const pool = ql
+    ? allCareers.filter(c => c.title.toLowerCase().includes(ql) || c.category.toLowerCase().includes(ql))
+    : allCareers;
   const counts = {};
-  for (const c of regional) counts[c.collar] = (counts[c.collar]||0) + 1;
-  const total = regional.length;
+  for (const c of pool) counts[c.collar] = (counts[c.collar]||0) + 1;
+  const total = pool.length;
   const isAll = activeCollar === 'all';
 
   let html = `<button class="collar-btn collar-all${isAll?' active':''}" data-collar="all"
@@ -557,13 +561,15 @@ function renderCollarFilter() {
   </button>`;
 
   for (const m of COLLAR_META) {
-    if (!counts[m.key]) continue;
+    const cnt = counts[m.key] || 0;
+    if (!ql && !cnt) continue;
     const active = activeCollar === m.key;
-    html += `<button class="collar-btn${active?' active':''}" data-collar="${m.key}"
+    const dimmed = ql && cnt === 0;
+    html += `<button class="collar-btn${active?' active':''}${dimmed?' dimmed':''}" data-collar="${m.key}"
       style="--c-clr:${m.clr};--c-bg:${m.bg}" onclick="setCollar('${m.key}')" title="${m.tip}">
       <span class="c-ico">${m.icon}</span>
       <span class="c-lbl">${m.label.replace('-collar','')}</span>
-      <span class="c-cnt">${counts[m.key]}</span>
+      <span class="c-cnt">${cnt}</span>
     </button>`;
   }
   const el = document.getElementById('collar-filter');
@@ -571,8 +577,9 @@ function renderCollarFilter() {
 }
 function setCollar(key) {
   activeCollar = key;
-  renderCollarFilter();
-  renderCareerDropdown(document.getElementById('career-search').value || '');
+  const q = document.getElementById('career-search').value || '';
+  renderCollarFilter(q);
+  renderCareerDropdown(q);
   if (key === 'all') {
     setResults(`<div class="empty"><div class="emo">🔍</div><h3>Explore any career</h3><p>Pick a collar type above, search, or choose from popular paths.</p></div>`);
   } else {
@@ -629,7 +636,12 @@ function renderCareerDropdown(q) {
     `<div class="dd-cat">${CAT_ICONS[cat]||'📌'} ${cat}</div>
      ${cs.map(c=>`<div class="dd-item" onclick="selectCareer('${c.id}','${esc(c.title)}')">${CAT_ICONS[c.category]||'📌'} ${c.title}</div>`).join('')}`).join('');
 }
-function filterCareers() { renderCareerDropdown(document.getElementById('career-search').value); document.getElementById('dropdown').classList.add('open'); }
+function filterCareers() {
+  const q = document.getElementById('career-search').value;
+  renderCollarFilter(q);
+  renderCareerDropdown(q);
+  document.getElementById('dropdown').classList.add('open');
+}
 function openDrop() { document.getElementById('dropdown').classList.add('open'); renderCareerDropdown(''); }
 document.addEventListener('click', e => { if(!e.target.closest('.combo')) document.getElementById('dropdown').classList.remove('open'); });
 function selectCareer(id, title) {
