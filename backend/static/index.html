@@ -363,7 +363,8 @@ const CAT_ICONS = {
   'Trades & Construction':'🔧','Food & Hospitality':'🍳','Beauty & Wellness':'💆',
   'Fashion & Apparel':'👗','Transport & Logistics':'🚚','Agriculture & Farming':'🌾',
   'Arts & Performance':'🎭','Government & Public Service':'🏛️',
-  'Retail & Commerce':'🛍️','Social Work & Community':'🤝','Media & Journalism':'📰'
+  'Retail & Commerce':'🛍️','Social Work & Community':'🤝','Media & Journalism':'📰',
+  'Aviation & Airport':'✈️'
 };
 
 async function init() {
@@ -417,9 +418,9 @@ document.getElementById('skill-in').addEventListener('keydown',e=>{ if(e.key==='
 
 /* career mode */
 function renderCareerSugs() {
-  const picks = ['Electrician','Chef / Cook','Nurse / Nursing Professional','Civil Servant — IAS / IPS / IFS',
-    'Fitness Trainer / Personal Trainer','Progressive Farmer / Agripreneur','Bank Officer / Probationary Officer',
-    'Actor / Theatre Artist','Fashion Designer','Tailor / Garment Stitcher'];
+  const picks = ['Air Traffic Controller','Commercial Pilot','Electrician','Chef / Cook',
+    'Nurse / Nursing Professional','Civil Servant — IAS / IPS / IFS','Customs Officer (Indian Customs)',
+    'Fitness Trainer / Personal Trainer','Bank Officer / Probationary Officer','Fashion Designer'];
   document.getElementById('career-sugs').innerHTML = picks.map(t => {
     const c = allCareers.find(c=>c.title===t);
     return c ? `<span class="sug nv" onclick="selectCareer('${c.id}','${esc(c.title)}')">${t}</span>` : '';
