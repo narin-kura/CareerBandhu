@@ -10136,5 +10136,3379 @@
       "investment",
       "self-employed"
     ]
+  },
+  {
+    "id": "fine_artist_in",
+    "title": "Fine Artist / Painter",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Create original works of art — paintings, drawings, mixed media — for galleries, collectors, commissions, and exhibitions. Fine artists in India find opportunity through government cultural grants (Lalit Kala Akademi), art fairs (India Art Fair), digital platforms, and art education. Income is variable but the field is growing as art collecting and appreciation expands in India.",
+    "salary_range": {
+      "min": 15000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Highly variable; teaching + commissions + grants + exhibitions"
+    },
+    "growth_outlook": "Growing — art market and digital sales platforms expanding artist reach",
+    "work_style": [
+      "Creative",
+      "Self-directed",
+      "Studio-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Drawing & Painting",
+        "level": "critical"
+      },
+      {
+        "skill": "Colour Theory",
+        "level": "critical"
+      },
+      {
+        "skill": "Creative Vision",
+        "level": "critical"
+      },
+      {
+        "skill": "Art History Knowledge",
+        "level": "helpful"
+      },
+      {
+        "skill": "Portfolio Development",
+        "level": "important"
+      },
+      {
+        "skill": "Digital Marketing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor of Fine Arts (BFA) from government art colleges (JJ School of Art Mumbai, Faculty of Fine Arts Baroda, Delhi College of Art)",
+      "Master of Fine Arts (MFA) for deeper specialisation",
+      "Build portfolio; submit to galleries, art fairs, and online platforms (Saatchi Art, Artsy)",
+      "Apply for Lalit Kala Akademi grants and artist residencies",
+      "Supplement income through art workshops, commissions, and art education"
+    ],
+    "qualifications": [
+      "BFA — Bachelor of Fine Arts (5 years; JJ School of Art, Faculty of Fine Arts Baroda, Delhi College of Art)",
+      "MFA — Master of Fine Arts (for advanced specialisation and teaching)",
+      "Lalit Kala Akademi fellowship / national awards (recognition, not mandatory)",
+      "NET / SET for college-level teaching positions"
+    ],
+    "tags": [
+      "fine-art",
+      "painting",
+      "creative",
+      "gallery",
+      "artist"
+    ]
+  },
+  {
+    "id": "sculptor_ceramics_in",
+    "title": "Sculptor & Ceramic Artist",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Create three-dimensional art works in clay, stone, metal, wood, or mixed media for galleries, public installations, architecture, and collectors. Ceramic artists additionally produce functional and decorative pottery. India has rich traditions in sculpture and pottery across regions — from Moradabad brassware to Khurja ceramics.",
+    "salary_range": {
+      "min": 15000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Teaching + commissions + exports + residencies"
+    },
+    "growth_outlook": "Stable — growing interest in handmade, artisan objects and public art",
+    "work_style": [
+      "Creative",
+      "Hands-on",
+      "Studio-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Sculpture Techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Clay / Pottery / Ceramics",
+        "level": "important"
+      },
+      {
+        "skill": "Material Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Creative Vision",
+        "level": "critical"
+      },
+      {
+        "skill": "3D Spatial Thinking",
+        "level": "important"
+      },
+      {
+        "skill": "Portfolio Development",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "BFA with sculpture or applied arts specialisation",
+      "Train at ceramics studios, craft schools, or under master artisans",
+      "Government craft board training programs (state khadi/handloom/ceramic boards)",
+      "Build portfolio; exhibit at craft fairs, art galleries, and online platforms"
+    ],
+    "qualifications": [
+      "BFA in Sculpture or Applied Arts (government art colleges)",
+      "Diploma in Ceramics / Pottery from state craft institutes",
+      "MFA for academic and advanced practice",
+      "PM Vishwakarma recognition for traditional artisans"
+    ],
+    "tags": [
+      "sculpture",
+      "ceramics",
+      "pottery",
+      "craft",
+      "fine-art"
+    ]
+  },
+  {
+    "id": "jewellery_designer_in",
+    "title": "Jewellery Designer",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Design and create jewellery pieces — from traditional gold and gemstone designs to contemporary fashion jewellery. India is the world's largest jewellery market. Jewellery designers work with manufacturers, retail brands (Tanishq, Malabar), boutique studios, export houses, and as independent artisans.",
+    "salary_range": {
+      "min": 25000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Designer to creative director; own label scales significantly"
+    },
+    "growth_outlook": "Strong — India's jewellery exports growing; domestic premium segment expanding",
+    "work_style": [
+      "Creative",
+      "Detail-oriented",
+      "Studio-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Jewellery Design",
+        "level": "critical"
+      },
+      {
+        "skill": "Gemology basics",
+        "level": "important"
+      },
+      {
+        "skill": "CAD for Jewellery (Rhinoceros, Matrix, JewelCAD)",
+        "level": "important"
+      },
+      {
+        "skill": "Material Knowledge (metals, stones)",
+        "level": "critical"
+      },
+      {
+        "skill": "Sketching",
+        "level": "critical"
+      },
+      {
+        "skill": "Craftsmanship",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Diploma or Degree in Jewellery Design (NIFT, GIA India, JD Institute, SNDT)",
+      "Gemology courses (GIA, Gem & Jewellery Export Promotion Council)",
+      "Apprenticeship with established jewellery manufacturers or designers",
+      "Build portfolio; work with jewellery brands or set up own label"
+    ],
+    "qualifications": [
+      "Diploma / Degree in Jewellery Design (NIFT, GIA India, JD Institute of Fashion)",
+      "GIA (Gemological Institute of America) Graduate Gemologist — for gemology specialisation",
+      "GJEPC (Gem & Jewellery Export Promotion Council) certification",
+      "CAD software proficiency: Rhinoceros / Matrix / JewelCAD"
+    ],
+    "tags": [
+      "jewellery",
+      "design",
+      "craft",
+      "export",
+      "luxury"
+    ]
+  },
+  {
+    "id": "textile_artist_in",
+    "title": "Textile & Fabric Artist",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Create art and functional objects through weaving, dyeing, embroidery, block printing, and fabric manipulation. India's textile traditions — Banarasi silk, Kantha, Phulkari, Kalamkari, Ajrakh — are globally acclaimed. Textile artists work in fashion, home decor, galleries, craft exports, and cultural preservation.",
+    "salary_range": {
+      "min": 20000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Weaver to design head or own brand; export scales income"
+    },
+    "growth_outlook": "Growing — handloom revival, sustainable fashion, and cultural export demand",
+    "work_style": [
+      "Creative",
+      "Hands-on",
+      "Craft-focused"
+    ],
+    "required_skills": [
+      {
+        "skill": "Textile Techniques (weaving, dyeing, printing)",
+        "level": "critical"
+      },
+      {
+        "skill": "Colour Theory",
+        "level": "important"
+      },
+      {
+        "skill": "Design",
+        "level": "critical"
+      },
+      {
+        "skill": "Material Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Cultural Textile Heritage",
+        "level": "helpful"
+      },
+      {
+        "skill": "Pattern Making",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's / Diploma in Textile Design (NIFT, NID, IIAD, state polytechnics)",
+      "Train under master weavers or at weaver service centres (Government)",
+      "National Handloom Development Programme (NHDP) training",
+      "Sell through craft cooperatives, own label, or online (Craft Village, Etsy)"
+    ],
+    "qualifications": [
+      "Bachelor's / Diploma in Textile Design (NIFT, NID, state polytechnics)",
+      "National Handloom Development Programme (NHDP) certification",
+      "Weavers Service Centre training (government, free for weavers)",
+      "PM Vishwakarma Yojana recognition for traditional weavers"
+    ],
+    "tags": [
+      "textile",
+      "weaving",
+      "handloom",
+      "craft",
+      "design"
+    ]
+  },
+  {
+    "id": "us_studio_craft_artist",
+    "title": "Studio Craft Artist",
+    "category": "Arts & Crafts",
+    "region": "US",
+    "description": "Create handmade objects — pottery, glass, metalwork, woodwork, fibre art, jewellery — as both fine art and functional craft. American craft artists sell through galleries, craft fairs (American Craft Council), Etsy, and studio sales. Many supplement income through teaching workshops or artist residencies.",
+    "salary_range": {
+      "min": 30000,
+      "max": 100000,
+      "currency": "USD/year",
+      "note": "Highly variable; galleries + teaching + commissions + fairs"
+    },
+    "growth_outlook": "Stable — handmade goods market growing; craft tourism and workshops flourishing",
+    "work_style": [
+      "Creative",
+      "Self-directed",
+      "Studio-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Craft Mastery (pottery / glassblowing / metalsmithing / woodwork)",
+        "level": "critical"
+      },
+      {
+        "skill": "Creative Vision",
+        "level": "critical"
+      },
+      {
+        "skill": "Business basics",
+        "level": "important"
+      },
+      {
+        "skill": "Portfolio Development",
+        "level": "important"
+      },
+      {
+        "skill": "Marketing & Etsy / online sales",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "BFA in Craft, Studio Art, or Fine Arts (RISD, Cranbrook, Alfred University for ceramics)",
+      "MFA for teaching positions at universities and art schools",
+      "Apprenticeship / residency at craft centres",
+      "Build sales through American Craft Council fairs, Etsy, galleries"
+    ],
+    "qualifications": [
+      "BFA or MFA in Studio Art, Craft, or Fine Arts (RISD, Cranbrook, Alfred, MICA)",
+      "No mandatory credential — strong portfolio and exhibition record",
+      "Artist residency credentials (Haystack, Penland, Arrowmont — prestigious in the field)",
+      "NEA (National Endowment for the Arts) grants for recognition"
+    ],
+    "tags": [
+      "craft",
+      "studio-art",
+      "pottery",
+      "handmade",
+      "fine-art"
+    ]
+  },
+  {
+    "id": "translator_interpreter_in",
+    "title": "Translator / Interpreter",
+    "category": "Language & Diplomacy",
+    "region": "IN",
+    "description": "Convert written text (translation) or spoken language (interpretation) between languages — enabling communication across government, business, courts, hospitals, and international organisations. India's multilingual environment and growing global business presence create strong demand for translators in languages including English, French, German, Spanish, Arabic, Chinese, and Japanese.",
+    "salary_range": {
+      "min": 25000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Freelance per-word/hour to senior govt translator; UN/EU pays premium"
+    },
+    "growth_outlook": "Strong — globalisation, BPO, legal, and diplomatic demand growing",
+    "work_style": [
+      "Remote-friendly",
+      "Detail-oriented",
+      "Research-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Fluency in 2+ Languages",
+        "level": "critical"
+      },
+      {
+        "skill": "Writing Precision",
+        "level": "critical"
+      },
+      {
+        "skill": "Cultural Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Research",
+        "level": "important"
+      },
+      {
+        "skill": "Subject Matter Expertise",
+        "level": "helpful"
+      },
+      {
+        "skill": "CAT Tools (SDL Trados, memoQ)",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "BA or MA in Linguistics, Foreign Language, or Translation Studies (JNU, Hyderabad Central University, BHU)",
+      "Certifications from Central Translation Bureau or language institutes (Alliance Française, Goethe Institut, British Council)",
+      "Freelance on ProZ, Translators Café, or with corporates, courts, and hospitals",
+      "Government: Ministry of External Affairs, Doordarshan, Lok Sabha Secretariat"
+    ],
+    "qualifications": [
+      "BA / MA in Foreign Language, Linguistics, or Translation Studies",
+      "Language Proficiency Certificate: DELF (French), Goethe Zertifikat (German), JLPT (Japanese), HSK (Chinese)",
+      "Central Translation Bureau (CTB) empanelment for government translation work",
+      "ATA (American Translators Association) certification for international work"
+    ],
+    "tags": [
+      "translation",
+      "language",
+      "interpretation",
+      "multilingual",
+      "linguistics"
+    ]
+  },
+  {
+    "id": "ifs_officer_in",
+    "title": "Indian Foreign Service (IFS) Officer",
+    "category": "Language & Diplomacy",
+    "region": "IN",
+    "description": "Represent India's interests abroad as a diplomat — managing bilateral relations, trade negotiations, consular services, and cultural diplomacy from Indian embassies and consulates worldwide. IFS is one of the most prestigious civil services in India, requiring clearing the UPSC Civil Services Examination.",
+    "salary_range": {
+      "min": 75000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Plus overseas allowances, accommodation, and perquisites — effective package 2-4x base"
+    },
+    "growth_outlook": "Stable — fixed cadre; highly competitive but prestigious lifetime career",
+    "work_style": [
+      "International travel",
+      "Diplomatic",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Foreign Languages",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Negotiation",
+        "level": "critical"
+      },
+      {
+        "skill": "General Knowledge & Current Affairs",
+        "level": "critical"
+      },
+      {
+        "skill": "Writing & Report Drafting",
+        "level": "important"
+      },
+      {
+        "skill": "Cultural Sensitivity",
+        "level": "important"
+      },
+      {
+        "skill": "Leadership",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's degree in any discipline from a recognised university",
+      "Clear UPSC Civil Services Examination (Prelims → Mains → Personality Test)",
+      "Rank high enough to qualify for IFS allocation (typically top 100-150 ranks)",
+      "Foreign Service Institute training in New Delhi + language training"
+    ],
+    "qualifications": [
+      "Bachelor's degree (any discipline) from a recognised university",
+      "UPSC Civil Services Examination — IFS allocation based on rank and preference",
+      "Foreign Service Institute (FSI) training (post-selection, mandatory)",
+      "Mandatory foreign language training (Arabic, French, Russian, Chinese, etc.)"
+    ],
+    "tags": [
+      "ifs",
+      "upsc",
+      "diplomacy",
+      "foreign-service",
+      "government"
+    ]
+  },
+  {
+    "id": "conference_interpreter_in",
+    "title": "Conference Interpreter",
+    "category": "Language & Diplomacy",
+    "region": "IN",
+    "description": "Provide simultaneous or consecutive interpretation at high-level conferences, government summits, UN events, business meetings, and international forums. One of the most intellectually demanding language careers — interpreters work in real-time, often for international organisations, the Government of India, and multinational corporations.",
+    "salary_range": {
+      "min": 50000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Freelance per-day rates for senior conference interpreters can be very high"
+    },
+    "growth_outlook": "Stable — high skill barrier keeps supply low; demand steady from GOI and corporates",
+    "work_style": [
+      "High-pressure",
+      "Travel",
+      "Freelance or contracted"
+    ],
+    "required_skills": [
+      {
+        "skill": "Simultaneous Interpretation",
+        "level": "critical"
+      },
+      {
+        "skill": "Fluency in 3+ Languages",
+        "level": "critical"
+      },
+      {
+        "skill": "Active Listening & Memory",
+        "level": "critical"
+      },
+      {
+        "skill": "Quick Thinking",
+        "level": "critical"
+      },
+      {
+        "skill": "Subject Matter Expertise",
+        "level": "important"
+      },
+      {
+        "skill": "Stress Management",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MA or Postgraduate Diploma in Conference Interpretation (JNU, Hyderabad, IIFT)",
+      "Train at AIIC-recognised programmes (International Association of Conference Interpreters)",
+      "Intern at government bodies (Lok Sabha, Rajya Sabha, MEA) or international organisations",
+      "Build client base with corporates, UN agencies, and diplomatic missions in India"
+    ],
+    "qualifications": [
+      "MA or PG Diploma in Conference Interpretation or Translation",
+      "AIIC membership (International Association of Conference Interpreters — career gold standard)",
+      "UN language examination (for UN Secretariat / agency interpreter positions)",
+      "Minimum 2 working languages + 1 passive language for most conference roles"
+    ],
+    "tags": [
+      "interpretation",
+      "conference",
+      "diplomacy",
+      "language",
+      "multilingual"
+    ]
+  },
+  {
+    "id": "us_foreign_service_officer",
+    "title": "US Foreign Service Officer (Diplomat)",
+    "category": "Language & Diplomacy",
+    "region": "US",
+    "description": "Represent the United States abroad through diplomacy, consular services, trade advocacy, and public affairs at US embassies and consulates worldwide. Entry via the highly competitive Foreign Service Officer Test (FSOT). One of the most prestigious government careers in the US.",
+    "salary_range": {
+      "min": 55000,
+      "max": 150000,
+      "currency": "USD/year",
+      "note": "Plus overseas differentials, housing allowance — effective total significantly higher"
+    },
+    "growth_outlook": "Stable — Foreign Service has fixed hiring quotas; competitive but prestigious",
+    "work_style": [
+      "International travel",
+      "Diplomatic",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Negotiation",
+        "level": "critical"
+      },
+      {
+        "skill": "Foreign Language Proficiency",
+        "level": "important"
+      },
+      {
+        "skill": "Critical Thinking",
+        "level": "critical"
+      },
+      {
+        "skill": "Cultural Sensitivity",
+        "level": "critical"
+      },
+      {
+        "skill": "Leadership",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's degree in any field (International Relations, Political Science, Languages popular)",
+      "Pass FSOT — Foreign Service Officer Test (written exam)",
+      "Qualify Qualifications Evaluation Panel (QEP), Oral Assessment, and Security Clearance",
+      "Foreign Service Institute language and diplomatic training (post-appointment)"
+    ],
+    "qualifications": [
+      "Bachelor's degree (any discipline) — required for FSOT eligibility",
+      "FSOT — Foreign Service Officer Test + Oral Assessment (State Dept selection process)",
+      "Top Secret security clearance (mandatory)",
+      "Foreign language proficiency (language-designated positions — additional pay for proficiency)"
+    ],
+    "tags": [
+      "diplomacy",
+      "foreign-service",
+      "fsot",
+      "state-department",
+      "government"
+    ]
+  },
+  {
+    "id": "us_interpreter_translator",
+    "title": "Interpreter / Translator",
+    "category": "Language & Diplomacy",
+    "region": "US",
+    "description": "Convert spoken or written content between languages for courts, hospitals, government agencies, schools, corporations, and international organisations. Spanish, Mandarin, Arabic, French, and Russian are top languages in demand. Medical and legal interpreting are among the highest-paying specialisations.",
+    "salary_range": {
+      "min": 45000,
+      "max": 100000,
+      "currency": "USD/year",
+      "note": "Court-certified and medical interpreters earn premium rates"
+    },
+    "growth_outlook": "Strong — BLS projects 20% growth; immigration and globalisation driving demand",
+    "work_style": [
+      "Remote-friendly",
+      "Flexible",
+      "Specialisation-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Fluency in 2+ Languages",
+        "level": "critical"
+      },
+      {
+        "skill": "Writing Precision",
+        "level": "critical"
+      },
+      {
+        "skill": "Cultural Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Subject Matter Expertise",
+        "level": "important"
+      },
+      {
+        "skill": "CAT Tools (SDL Trados, memoQ)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Simultaneous Interpretation",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "BA in Languages, Linguistics, or Translation Studies",
+      "ATA (American Translators Association) certification for professional credibility",
+      "Court Interpreter certification (federal or state) for legal work",
+      "CMI certification (Certified Medical Interpreter) for healthcare work",
+      "Freelance through ProZ, Translators Café, or agency contracts"
+    ],
+    "qualifications": [
+      "BA in Linguistics, Foreign Language, or Translation (preferred)",
+      "ATA Certification (American Translators Association — industry gold standard)",
+      "Federal Court Interpreter Certification or State Court certification",
+      "CMI — Certified Medical Interpreter (for healthcare settings)"
+    ],
+    "tags": [
+      "translation",
+      "interpretation",
+      "language",
+      "legal",
+      "medical"
+    ]
+  },
+  {
+    "id": "commodity_trader_in",
+    "title": "Commodity Trader",
+    "category": "Trading & Commodities",
+    "region": "IN",
+    "description": "Trade commodities — agricultural products (wheat, cotton, spices), metals (gold, silver, copper), and energy (crude oil, natural gas) — on MCX (Multi Commodity Exchange) and NCDEX. Commodity traders work at brokerage firms, commodity houses, importers/exporters, or as proprietary traders.",
+    "salary_range": {
+      "min": 40000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Fixed salary + trading P&L; top traders earn significantly more"
+    },
+    "growth_outlook": "Strong — commodity markets growing with India's trade and manufacturing expansion",
+    "work_style": [
+      "Fast-paced",
+      "Analytical",
+      "High-pressure"
+    ],
+    "required_skills": [
+      {
+        "skill": "Market Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Risk Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Commodity Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Financial Modelling",
+        "level": "important"
+      },
+      {
+        "skill": "Trading Platforms (MCX, NCDEX)",
+        "level": "important"
+      },
+      {
+        "skill": "Economics",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Commerce, Economics, Finance, or Agriculture",
+      "NISM (National Institute of Securities Markets) certifications — Commodity Derivatives",
+      "Join commodity brokerage firms, trading companies, or agri-businesses",
+      "SEBI-registered research analyst or trading desk career path"
+    ],
+    "qualifications": [
+      "Bachelor's in Commerce, Economics, or Finance",
+      "NISM Series-XVII: Commodity Derivatives certification (SEBI-mandated for trading roles)",
+      "SEBI Research Analyst Registration (for publishing commodity reports)",
+      "MBA Finance or CFA for senior trading/research roles"
+    ],
+    "tags": [
+      "commodity",
+      "trading",
+      "mcx",
+      "ncdex",
+      "finance"
+    ]
+  },
+  {
+    "id": "import_export_consultant_in",
+    "title": "Import-Export Trade Consultant",
+    "category": "Trading & Commodities",
+    "region": "IN",
+    "description": "Advise businesses on international trade — including customs documentation, import-export licensing, trade regulations, HS codes, DGFT policies, foreign exchange compliance, and logistics. Critical for SMEs and manufacturers looking to export or source globally. High demand given India's growing trade volumes.",
+    "salary_range": {
+      "min": 35000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Salaried or independent consultant; fee-based for senior experts"
+    },
+    "growth_outlook": "Strong — India's export push and PLI scheme driving more businesses into international trade",
+    "work_style": [
+      "Advisory",
+      "Detail-oriented",
+      "Client-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "International Trade Regulations",
+        "level": "critical"
+      },
+      {
+        "skill": "Customs & DGFT Procedures",
+        "level": "critical"
+      },
+      {
+        "skill": "Documentation",
+        "level": "critical"
+      },
+      {
+        "skill": "FEMA & Foreign Exchange",
+        "level": "important"
+      },
+      {
+        "skill": "Logistics Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Commerce, Economics, or International Business",
+      "Diploma in Export Management (IIFT, IIBM, Export Promotion Councils)",
+      "DGFT (Directorate General of Foreign Trade) processes and IEC (Import-Export Code) registration",
+      "Work at freight forwarders, customs brokers, or export houses"
+    ],
+    "qualifications": [
+      "Bachelor's in Commerce / Economics / International Business",
+      "Diploma in Export Management (IIFT New Delhi, Indian Institute of Foreign Trade)",
+      "IEC — Importer Exporter Code (mandatory for any export/import business)",
+      "CHA — Customs House Agent license (for customs clearance professionals)"
+    ],
+    "tags": [
+      "import-export",
+      "trade",
+      "customs",
+      "dgft",
+      "international-business"
+    ]
+  },
+  {
+    "id": "stockbroker_in",
+    "title": "Stock Broker / Equity Dealer",
+    "category": "Trading & Commodities",
+    "region": "IN",
+    "description": "Execute buy and sell orders for clients or proprietary books on the NSE and BSE. Stock brokers advise retail and institutional clients on equity investments, manage trading accounts, and analyse markets. The profession spans discount broking (Zerodha, Groww model) to full-service advisory.",
+    "salary_range": {
+      "min": 30000,
+      "max": 400000,
+      "currency": "INR/month",
+      "note": "Fixed + brokerage commission; top brokers and advisors earn substantially more"
+    },
+    "growth_outlook": "Strong — India's retail investor base growing rapidly; equity market expanding",
+    "work_style": [
+      "Fast-paced",
+      "Client-facing",
+      "Analytical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Equity Research",
+        "level": "important"
+      },
+      {
+        "skill": "Market Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Client Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "SEBI Regulations",
+        "level": "critical"
+      },
+      {
+        "skill": "Financial Modelling",
+        "level": "helpful"
+      },
+      {
+        "skill": "Risk Management",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Commerce, Finance, or Economics",
+      "NISM certifications (mandatory for SEBI-regulated activities)",
+      "Join brokerage firms, investment banks, or trading desks",
+      "SEBI-registered Investment Adviser or Research Analyst for advisory roles"
+    ],
+    "qualifications": [
+      "Bachelor's in Commerce / Finance / Economics",
+      "NISM Series-VIII: Equity Derivatives (mandatory for F&O trading)",
+      "NISM Series-VII: Securities Operations and Risk Management",
+      "SEBI Research Analyst Registration (for publishing equity recommendations)",
+      "NSE/BSE Sub-Broker Registration"
+    ],
+    "tags": [
+      "stockbroker",
+      "equity",
+      "nse",
+      "bse",
+      "trading"
+    ]
+  },
+  {
+    "id": "forex_analyst_in",
+    "title": "Forex Analyst / Currency Risk Manager",
+    "category": "Trading & Commodities",
+    "region": "IN",
+    "description": "Analyse foreign exchange markets, forecast currency movements, and help businesses manage forex exposure and risk. Forex professionals work at banks (treasury divisions), corporates (hedging import/export risks), forex brokers, and financial research firms. RBI regulations govern India's forex market.",
+    "salary_range": {
+      "min": 50000,
+      "max": 400000,
+      "currency": "INR/month",
+      "note": "Bank treasury to senior forex risk manager"
+    },
+    "growth_outlook": "Growing — India's growing import-export base creates forex risk management demand",
+    "work_style": [
+      "Analytical",
+      "High-pressure",
+      "Research-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Forex Market Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Technical Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Fundamental Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Risk Management",
+        "level": "critical"
+      },
+      {
+        "skill": "FEMA (Foreign Exchange Management Act)",
+        "level": "important"
+      },
+      {
+        "skill": "Bloomberg / Reuters terminals",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Finance, Economics, or Commerce",
+      "MBA Finance or CFA for research and senior treasury roles",
+      "Join bank treasury departments or corporate forex desks",
+      "FEDAI (Foreign Exchange Dealers Association of India) courses"
+    ],
+    "qualifications": [
+      "Bachelor's in Finance / Economics",
+      "MBA Finance or CFA (CFA Institute) for senior roles",
+      "FEDAI forex dealer courses (Foreign Exchange Dealers Association of India)",
+      "NISM certifications for SEBI-regulated advisory activities"
+    ],
+    "tags": [
+      "forex",
+      "currency",
+      "treasury",
+      "risk-management",
+      "finance"
+    ]
+  },
+  {
+    "id": "us_commodities_trader",
+    "title": "Commodities Trader",
+    "category": "Trading & Commodities",
+    "region": "US",
+    "description": "Trade futures and options on agricultural commodities, energy (oil, gas, electricity), and metals (gold, silver, copper) on CME Group (Chicago Mercantile Exchange) and ICE. Traders work at commodity houses (Cargill, ADM), investment banks, hedge funds, or as proprietary traders.",
+    "salary_range": {
+      "min": 80000,
+      "max": 500000,
+      "currency": "USD/year",
+      "note": "Base + substantial P&L-based bonus; top traders earn millions"
+    },
+    "growth_outlook": "Stable — commodity markets essential; algorithmic trading changing the landscape",
+    "work_style": [
+      "Fast-paced",
+      "High-pressure",
+      "Quantitative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Market Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Risk Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Quantitative Skills",
+        "level": "important"
+      },
+      {
+        "skill": "Commodity Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Bloomberg / Reuters",
+        "level": "important"
+      },
+      {
+        "skill": "Programming (Python)",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Finance, Economics, Mathematics, or Engineering",
+      "Series 3 — National Commodity Futures Examination (FINRA, mandatory for commodity advisors)",
+      "Trading internship at commodity houses, banks, or hedge funds",
+      "CTA — Commodity Trading Advisor registration with CFTC"
+    ],
+    "qualifications": [
+      "Bachelor's in Finance / Economics / Math / Engineering",
+      "Series 3 — National Commodity Futures Examination (FINRA-required)",
+      "CTA — Commodity Trading Advisor registration (CFTC, for managing client funds)",
+      "NFA membership (National Futures Association) for compliance"
+    ],
+    "tags": [
+      "commodities",
+      "futures",
+      "trading",
+      "cme",
+      "finance"
+    ]
+  },
+  {
+    "id": "us_trade_advisor",
+    "title": "International Trade Advisor",
+    "category": "Trading & Commodities",
+    "region": "US",
+    "description": "Guide companies through the complexities of US import/export regulations, tariff classification, trade compliance, customs law, and international trade agreements. Trade advisors work at law firms, customs brokerages, Big 4 consulting practices, freight forwarders, and as independent consultants.",
+    "salary_range": {
+      "min": 65000,
+      "max": 150000,
+      "currency": "USD/year",
+      "note": "Trade compliance specialist to senior trade attorney / director"
+    },
+    "growth_outlook": "Strong — tariff volatility, supply chain restructuring, and trade compliance demand growing",
+    "work_style": [
+      "Advisory",
+      "Detail-oriented",
+      "Client-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "US Customs & Trade Regulations (CBP, BIS, OFAC)",
+        "level": "critical"
+      },
+      {
+        "skill": "Tariff Classification (HTS Codes)",
+        "level": "critical"
+      },
+      {
+        "skill": "Import/Export Documentation",
+        "level": "critical"
+      },
+      {
+        "skill": "Trade Agreement Knowledge (USMCA, FTAs)",
+        "level": "important"
+      },
+      {
+        "skill": "Compliance & Risk Management",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in International Business, Supply Chain, or Law",
+      "Licensed Customs Broker (LCB) exam (CBP — US Customs and Border Protection)",
+      "Certified Export Specialist (CES) from NASBITE",
+      "Work at customs brokerages, Big 4 trade practice, or corporate compliance teams"
+    ],
+    "qualifications": [
+      "Bachelor's in International Business / Supply Chain / Law",
+      "Licensed Customs Broker (LCB) — CBP national exam",
+      "CES — Certified Export Specialist (NASBITE International)",
+      "CUSECO or NCBFAA broker certification",
+      "JD with Trade Law specialisation for attorney-level advisory"
+    ],
+    "tags": [
+      "trade",
+      "customs",
+      "international-business",
+      "compliance",
+      "export"
+    ]
+  },
+  {
+    "id": "medical_equipment_rep_in",
+    "title": "Medical Equipment Sales Representative",
+    "category": "Medical Supplies & Distribution",
+    "region": "IN",
+    "description": "Sell and demonstrate medical devices and equipment — from diagnostic machines (MRI, CT, ultrasound) and surgical instruments to hospital beds and ICU equipment — to hospitals, clinics, and laboratories. One of India's fastest-growing sales careers as healthcare infrastructure expands rapidly.",
+    "salary_range": {
+      "min": 30000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Fixed + sales commission; top reps in capital equipment earn high commissions"
+    },
+    "growth_outlook": "Very strong — India's healthcare infrastructure investment growing significantly",
+    "work_style": [
+      "Field-based",
+      "Travel-heavy",
+      "Client-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Medical Device Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Sales",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Relationship Building",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic Clinical Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Negotiation",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Biomedical Engineering, Life Sciences, Pharmacy, or B.Sc",
+      "Some companies accept any science/commerce graduate with training",
+      "Product training provided by medical device companies",
+      "Work at Indian or multinational med-tech companies (GE Healthcare, Siemens Healthineers, Philips, local OEMs)"
+    ],
+    "qualifications": [
+      "Bachelor's in Biomedical Engineering / Pharmacy / Life Sciences / B.Sc",
+      "No specific licence required; company product training is mandatory",
+      "CDSCO (Central Drugs Standard Control Organisation) knowledge for regulated devices",
+      "MBA Marketing for sales management / senior commercial roles"
+    ],
+    "tags": [
+      "medical-devices",
+      "sales",
+      "healthcare",
+      "meditec",
+      "hospital"
+    ]
+  },
+  {
+    "id": "pharma_sales_rep_in",
+    "title": "Pharmaceutical Sales Representative (MR)",
+    "category": "Medical Supplies & Distribution",
+    "region": "IN",
+    "description": "Promote and sell prescription and OTC pharmaceutical products to doctors, hospitals, and pharmacies as a Medical Representative (MR). The pharmaceutical industry is one of India's largest employers of science graduates. India is the pharmacy of the world — the role is stable, well-structured, and offers strong growth into management.",
+    "salary_range": {
+      "min": 25000,
+      "max": 120000,
+      "currency": "INR/month",
+      "note": "MR to District Manager; CTC includes allowances and incentives"
+    },
+    "growth_outlook": "Strong — India's pharma industry growing steadily; rural healthcare expansion",
+    "work_style": [
+      "Field-based",
+      "Travel",
+      "Client-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Pharmaceutical Product Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Sales",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Relationship Building",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic Medical / Clinical Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Territory Management",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Pharmacy (B.Pharm), Life Sciences, or B.Sc",
+      "Company training programs on products and detailing skills",
+      "Join pharma companies (Sun Pharma, Cipla, Dr. Reddy's, Lupin, MNCs)",
+      "Progress: MR → Senior MR → Area Sales Manager → Regional Manager"
+    ],
+    "qualifications": [
+      "B.Pharm or B.Sc in Life Sciences (Biology, Chemistry, Microbiology)",
+      "Some companies accept any graduate and train internally",
+      "CDSCO Drug Representative knowledge (for scheduled drug promotion)",
+      "MBA Pharma / Healthcare Management for management-track roles"
+    ],
+    "tags": [
+      "pharma",
+      "medical-rep",
+      "sales",
+      "healthcare",
+      "drugs"
+    ]
+  },
+  {
+    "id": "hospital_supply_manager_in",
+    "title": "Hospital Supply Chain & Materials Manager",
+    "category": "Medical Supplies & Distribution",
+    "region": "IN",
+    "description": "Manage procurement, storage, and distribution of medical supplies, pharmaceuticals, surgical items, and equipment within hospitals and healthcare systems. A critical backend role that directly impacts patient care quality and hospital operational efficiency.",
+    "salary_range": {
+      "min": 40000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Materials manager to Supply Chain Director in hospital chains"
+    },
+    "growth_outlook": "Strong — hospital chain expansion and healthcare infrastructure investment",
+    "work_style": [
+      "Operations",
+      "Detail-oriented",
+      "Cross-functional"
+    ],
+    "required_skills": [
+      {
+        "skill": "Procurement & Inventory Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Healthcare Supply Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Vendor Management",
+        "level": "important"
+      },
+      {
+        "skill": "ERP / HMS Systems",
+        "level": "important"
+      },
+      {
+        "skill": "Quality & Compliance",
+        "level": "important"
+      },
+      {
+        "skill": "Budgeting",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Hospital Administration, Pharmacy, Supply Chain, or Commerce",
+      "MBA in Hospital Administration or Supply Chain Management",
+      "Work in hospital administration, materials department, or pharma distribution",
+      "Join hospital chains (Apollo, Fortis, Narayana Health) or government hospitals"
+    ],
+    "qualifications": [
+      "Bachelor's in Hospital Administration / Pharmacy / Supply Chain",
+      "MBA in Hospital Administration or Healthcare Management",
+      "Diploma in Materials Management (IIMM — Indian Institute of Materials Management)",
+      "APICS CSCP or CPSM certification for advanced supply chain roles"
+    ],
+    "tags": [
+      "supply-chain",
+      "hospital",
+      "procurement",
+      "healthcare",
+      "operations"
+    ]
+  },
+  {
+    "id": "medical_distributor_in",
+    "title": "Medical Supplies Distributor / Dealer",
+    "category": "Medical Supplies & Distribution",
+    "region": "IN",
+    "description": "Own and operate a business distributing medical supplies, equipment, surgical goods, diagnostic kits, or pharmaceuticals to hospitals, clinics, laboratories, and pharmacies. A growing entrepreneurial opportunity as India's healthcare market expands into tier-2 and tier-3 cities. Investment: ₹5L – ₹50L depending on product category.",
+    "salary_range": {
+      "min": 40000,
+      "max": 1000000,
+      "currency": "INR/month",
+      "note": "Business profit — scalable with territory and product range"
+    },
+    "growth_outlook": "Very strong — healthcare infrastructure building in non-metro India",
+    "work_style": [
+      "Self-employed",
+      "Operations",
+      "Relationship-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Business Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Sales & Relationship Building",
+        "level": "critical"
+      },
+      {
+        "skill": "Inventory Management",
+        "level": "important"
+      },
+      {
+        "skill": "Medical / Pharma Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Financial Management",
+        "level": "important"
+      },
+      {
+        "skill": "Logistics",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Drug License from State Drug Controller (mandatory for pharma distribution)",
+      "GST registration and business entity setup",
+      "Tie up with pharma companies or medical device OEMs as authorised distributor",
+      "Background in pharma sales (MR) or healthcare business is helpful"
+    ],
+    "qualifications": [
+      "Drug License — Form 20/21 for retail / wholesale pharma distribution (State Drug Controller)",
+      "GST Registration (mandatory)",
+      "B.Pharm or D.Pharm required for drug wholesale/retail licenses",
+      "MSME / Udyam Registration (for government supply tenders)"
+    ],
+    "tags": [
+      "medical-distribution",
+      "pharma",
+      "entrepreneurship",
+      "healthcare",
+      "business"
+    ]
+  },
+  {
+    "id": "us_medical_device_sales",
+    "title": "Medical Device Sales Representative",
+    "category": "Medical Supplies & Distribution",
+    "region": "US",
+    "description": "Sell medical devices — from surgical instruments and implants to imaging equipment and hospital IT systems — to hospitals, surgeons, and medical centres. One of the highest-paying sales careers in the US, with substantial base + commission structure. Surgical reps often observe live procedures.",
+    "salary_range": {
+      "min": 80000,
+      "max": 200000,
+      "currency": "USD/year",
+      "note": "Base + commission + bonus; top surgical device reps earn $300k+"
+    },
+    "growth_outlook": "Strong — US healthcare spending growing; device innovation driving new product launches",
+    "work_style": [
+      "Field-based",
+      "High-pressure",
+      "Relationship-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Sales",
+        "level": "critical"
+      },
+      {
+        "skill": "Medical Device Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Relationship Building",
+        "level": "critical"
+      },
+      {
+        "skill": "Clinical Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Negotiation",
+        "level": "important"
+      },
+      {
+        "skill": "Territory Management",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Biology, Biomedical Engineering, Kinesiology, or Business",
+      "Medical device companies train new reps extensively on products",
+      "Start as sales associate or clinical specialist at device companies",
+      "Experience as physical therapist, athletic trainer, or nurse often provides entry path"
+    ],
+    "qualifications": [
+      "Bachelor's degree (Life Sciences, Biomedical Engineering, Business — no strict requirement)",
+      "No FDA licence required for most reps; company product certification mandatory",
+      "NAMSR (National Association of Medical Sales Representatives) certification",
+      "MBA for sales management and commercial leadership tracks"
+    ],
+    "tags": [
+      "medical-devices",
+      "sales",
+      "healthcare",
+      "medtech",
+      "hospital"
+    ]
+  },
+  {
+    "id": "us_healthcare_supply_chain",
+    "title": "Healthcare Supply Chain Manager",
+    "category": "Medical Supplies & Distribution",
+    "region": "US",
+    "description": "Oversee procurement, logistics, and distribution of medical supplies, drugs, and equipment across hospital systems. Healthcare supply chain professionals ensure clinical teams always have what they need — while managing costs, vendor contracts, and regulatory compliance in one of the US economy's largest and most regulated sectors.",
+    "salary_range": {
+      "min": 75000,
+      "max": 150000,
+      "currency": "USD/year",
+      "note": "Supply chain analyst to VP of Supply Chain at hospital system"
+    },
+    "growth_outlook": "Strong — post-COVID supply chain resilience investment; hospital system consolidation",
+    "work_style": [
+      "Operations",
+      "Cross-functional",
+      "Analytical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Supply Chain Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Healthcare Procurement",
+        "level": "critical"
+      },
+      {
+        "skill": "Vendor Management",
+        "level": "important"
+      },
+      {
+        "skill": "ERP / Supply Chain software",
+        "level": "important"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Compliance (GPO, FDA, Joint Commission)",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Supply Chain, Healthcare Administration, Business, or Logistics",
+      "MBA or MHA (Master of Health Administration) for leadership roles",
+      "APICS CSCP (Certified Supply Chain Professional) certification",
+      "Work at hospital GPOs, IDNs, or healthcare distributors (McKesson, Cardinal Health)"
+    ],
+    "qualifications": [
+      "Bachelor's in Supply Chain / Healthcare Administration / Business",
+      "MBA or MHA for director-level and above roles",
+      "APICS CSCP — Certified Supply Chain Professional (industry credential)",
+      "AHRMM CMRP — Certified Materials and Resource Professional (healthcare-specific)"
+    ],
+    "tags": [
+      "supply-chain",
+      "healthcare",
+      "procurement",
+      "hospital",
+      "operations"
+    ]
+  },
+  {
+    "id": "manufacturing_engineer_in",
+    "title": "Manufacturing Engineer",
+    "category": "Manufacturing & Production",
+    "region": "IN",
+    "description": "Design, optimise, and manage manufacturing processes, production lines, and factory systems to produce goods efficiently and with high quality. Manufacturing engineers work across sectors — auto, electronics, FMCG, aerospace, pharma, and defence. India's PLI scheme is driving massive manufacturing investment.",
+    "salary_range": {
+      "min": 40000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Junior engineer to senior manufacturing / process engineer"
+    },
+    "growth_outlook": "Very strong — Make in India, PLI schemes, and China+1 strategy driving investment",
+    "work_style": [
+      "Plant-based",
+      "Technical",
+      "Problem-solving"
+    ],
+    "required_skills": [
+      {
+        "skill": "Manufacturing Processes",
+        "level": "critical"
+      },
+      {
+        "skill": "Lean Manufacturing",
+        "level": "important"
+      },
+      {
+        "skill": "CAD / SolidWorks / AutoCAD",
+        "level": "important"
+      },
+      {
+        "skill": "Quality Management",
+        "level": "important"
+      },
+      {
+        "skill": "Problem Solving",
+        "level": "critical"
+      },
+      {
+        "skill": "Production Planning",
+        "level": "helpful"
+      },
+      {
+        "skill": "ERP (SAP / Oracle)",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.E. / B.Tech in Mechanical, Production, Industrial, or Manufacturing Engineering",
+      "Internships in manufacturing plants during degree",
+      "Entry roles: Graduate Engineer Trainee (GET) in manufacturing companies",
+      "Work up: GET → Engineer → Senior Engineer → Asst Manager → Manager"
+    ],
+    "qualifications": [
+      "B.E. / B.Tech in Mechanical / Production / Industrial Engineering (AICTE-recognised)",
+      "M.Tech for specialisation and senior technical roles",
+      "Six Sigma Green Belt / Black Belt (Lean and quality management)",
+      "SAP PP (Production Planning) module certification (helpful for ERP-driven environments)"
+    ],
+    "tags": [
+      "manufacturing",
+      "engineering",
+      "production",
+      "lean",
+      "make-in-india"
+    ]
+  },
+  {
+    "id": "production_manager_in",
+    "title": "Production Manager",
+    "category": "Manufacturing & Production",
+    "region": "IN",
+    "description": "Plan, coordinate, and oversee all manufacturing activities to meet production targets on time, within budget, and to quality standards. Production managers are the operational backbone of factories — managing people, machines, materials, and schedules simultaneously.",
+    "salary_range": {
+      "min": 60000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Production supervisor to plant head / General Manager"
+    },
+    "growth_outlook": "Strong — every manufacturing unit needs production management professionals",
+    "work_style": [
+      "Operational",
+      "Leadership",
+      "Plant-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Production Planning & Scheduling",
+        "level": "critical"
+      },
+      {
+        "skill": "Leadership",
+        "level": "critical"
+      },
+      {
+        "skill": "Quality Management",
+        "level": "important"
+      },
+      {
+        "skill": "Lean / Kaizen / 5S",
+        "level": "important"
+      },
+      {
+        "skill": "Cost Management",
+        "level": "important"
+      },
+      {
+        "skill": "ERP Systems",
+        "level": "helpful"
+      },
+      {
+        "skill": "Problem Solving",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "B.E./B.Tech in Mechanical, Production, or Industrial Engineering",
+      "Start as production engineer or floor supervisor",
+      "MBA Operations for fast-track management roles",
+      "Relevant experience across auto, FMCG, pharma, or electronics manufacturing"
+    ],
+    "qualifications": [
+      "B.E. / B.Tech in Mechanical / Production / Industrial Engineering",
+      "MBA Operations or PG Diploma in Production / Industrial Management",
+      "Six Sigma Black Belt for process improvement leadership",
+      "Certified Production and Inventory Management (CPIM — APICS)"
+    ],
+    "tags": [
+      "production",
+      "manufacturing",
+      "operations",
+      "management",
+      "factory"
+    ]
+  },
+  {
+    "id": "qc_engineer_in",
+    "title": "Quality Control / Quality Assurance Engineer",
+    "category": "Manufacturing & Production",
+    "region": "IN",
+    "description": "Ensure products meet quality standards through inspection, testing, process audits, and root cause analysis. QC/QA engineers work in every manufacturing sector — automotive (IATF 16949), pharma (GMP), food (FSSAI), electronics (IPC), and aerospace (AS9100). The role is critical for exports and customer satisfaction.",
+    "salary_range": {
+      "min": 35000,
+      "max": 180000,
+      "currency": "INR/month",
+      "note": "QC Inspector to Senior QA Manager"
+    },
+    "growth_outlook": "Strong — quality compliance essential for export markets and PLI-linked production",
+    "work_style": [
+      "Detail-oriented",
+      "Analytical",
+      "Plant-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Quality Management Systems (ISO 9001, IATF 16949, GMP)",
+        "level": "critical"
+      },
+      {
+        "skill": "Inspection & Testing Techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Root Cause Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Statistical Process Control (SPC)",
+        "level": "important"
+      },
+      {
+        "skill": "Documentation",
+        "level": "important"
+      },
+      {
+        "skill": "Measurement Tools (CMM, gauges)",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.E./B.Tech in Mechanical, Production, or relevant engineering",
+      "ISO Lead Auditor / Internal Auditor training",
+      "Entry: Quality Inspector or QA trainee in manufacturing plants",
+      "Industry certifications: Six Sigma, ISO, sector-specific (IATF, GMP, IPC)"
+    ],
+    "qualifications": [
+      "B.E. / B.Tech in Mechanical / Production / Electronics Engineering",
+      "ISO 9001 Lead Auditor certification",
+      "Six Sigma Green Belt or Black Belt",
+      "IATF 16949 Internal Auditor (for automotive), GMP (for pharma), IPC (for electronics)"
+    ],
+    "tags": [
+      "quality",
+      "qc",
+      "qa",
+      "manufacturing",
+      "iso"
+    ]
+  },
+  {
+    "id": "industrial_engineer_in",
+    "title": "Industrial Engineer",
+    "category": "Manufacturing & Production",
+    "region": "IN",
+    "description": "Optimise complex systems — people, machines, materials, information, and energy — to eliminate waste and improve efficiency. Industrial engineers use techniques like time-motion study, line balancing, capacity planning, and simulation to make factories and operations run better.",
+    "salary_range": {
+      "min": 40000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "IE trainee to Senior Industrial Engineering Manager"
+    },
+    "growth_outlook": "Strong — automation, lean adoption, and global competitiveness driving demand",
+    "work_style": [
+      "Analytical",
+      "Plant-based",
+      "Cross-functional"
+    ],
+    "required_skills": [
+      {
+        "skill": "Industrial Engineering techniques (time study, line balancing)",
+        "level": "critical"
+      },
+      {
+        "skill": "Lean Manufacturing / Toyota Production System",
+        "level": "critical"
+      },
+      {
+        "skill": "Process Mapping & Value Stream Mapping",
+        "level": "important"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "AutoCAD / Plant Layout",
+        "level": "helpful"
+      },
+      {
+        "skill": "Ergonomics",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.E./B.Tech in Industrial Engineering, Production Engineering, or Mechanical",
+      "Internships in IE departments of manufacturing companies",
+      "Entry: Industrial Engineering trainee or Methods Engineer",
+      "Specialise in Lean, Six Sigma, simulation, or automation"
+    ],
+    "qualifications": [
+      "B.E. / B.Tech in Industrial / Production / Mechanical Engineering",
+      "M.Tech in Industrial Engineering for research and senior roles",
+      "Six Sigma Black Belt + Lean Expert certification",
+      "CPIM (Certified in Production and Inventory Management — APICS)"
+    ],
+    "tags": [
+      "industrial-engineering",
+      "lean",
+      "manufacturing",
+      "efficiency",
+      "operations"
+    ]
+  },
+  {
+    "id": "automation_robotics_engineer_in",
+    "title": "Automation & Robotics Engineer",
+    "category": "Manufacturing & Production",
+    "region": "IN",
+    "description": "Design, program, and maintain automated manufacturing systems — PLCs, SCADA, robotic arms, conveyor systems, and smart factory technologies. Automation engineers are among the most in-demand professionals in Indian manufacturing as Industry 4.0 adoption accelerates across auto, electronics, and FMCG.",
+    "salary_range": {
+      "min": 50000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Junior automation engineer to senior automation/robotics lead"
+    },
+    "growth_outlook": "Very strong — Industry 4.0, EV manufacturing, and electronics PLI driving automation investment",
+    "work_style": [
+      "Technical",
+      "Plant-based",
+      "Problem-solving"
+    ],
+    "required_skills": [
+      {
+        "skill": "PLC Programming (Siemens, Allen-Bradley)",
+        "level": "critical"
+      },
+      {
+        "skill": "SCADA / HMI Systems",
+        "level": "critical"
+      },
+      {
+        "skill": "Robotics (ABB, FANUC, KUKA)",
+        "level": "important"
+      },
+      {
+        "skill": "Electrical / Control Systems",
+        "level": "critical"
+      },
+      {
+        "skill": "Automation Design",
+        "level": "important"
+      },
+      {
+        "skill": "Python / C for automation scripting",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.E./B.Tech in Electrical, Electronics, Mechatronics, or Instrumentation Engineering",
+      "Diploma in Automation / PLC-SCADA (government ITIs, NTTF, private institutes)",
+      "PLC/SCADA certifications from Siemens, Rockwell, Schneider",
+      "Entry at machine builders, system integrators, or automotive OEMs"
+    ],
+    "qualifications": [
+      "B.E. / B.Tech in Electrical / Electronics / Mechatronics / Instrumentation",
+      "Diploma in Automation / PLC-SCADA (NTTF, CIPET, state polytechnics)",
+      "Siemens SINUMERIK / SIMATIC or Allen-Bradley ControlLogix certification",
+      "FANUC or ABB Robotics programming certification"
+    ],
+    "tags": [
+      "automation",
+      "robotics",
+      "plc",
+      "scada",
+      "industry4"
+    ]
+  },
+  {
+    "id": "us_manufacturing_engineer",
+    "title": "Manufacturing Engineer",
+    "category": "Manufacturing & Production",
+    "region": "US",
+    "description": "Design, implement, and improve manufacturing processes and production systems across the US industrial base — from automotive and aerospace to electronics, defence, and medical devices. Manufacturing engineers are central to America's reshoring push and remain in strong demand.",
+    "salary_range": {
+      "min": 70000,
+      "max": 120000,
+      "currency": "USD/year",
+      "note": "Entry to senior manufacturing engineer; management roles pay more"
+    },
+    "growth_outlook": "Strong — reshoring, CHIPS Act, IRA, and defence investment creating new manufacturing jobs",
+    "work_style": [
+      "Plant-based",
+      "Technical",
+      "Problem-solving"
+    ],
+    "required_skills": [
+      {
+        "skill": "Manufacturing Processes",
+        "level": "critical"
+      },
+      {
+        "skill": "Lean / Six Sigma",
+        "level": "important"
+      },
+      {
+        "skill": "CAD (SolidWorks / NX / CATIA)",
+        "level": "important"
+      },
+      {
+        "skill": "GD&T",
+        "level": "important"
+      },
+      {
+        "skill": "Quality Management",
+        "level": "important"
+      },
+      {
+        "skill": "ERP (SAP / Oracle)",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "BS in Mechanical, Industrial, Manufacturing, or Materials Engineering",
+      "Co-op or internship at manufacturing companies during degree",
+      "Entry: Manufacturing Engineer I at automotive, aerospace, or electronics OEMs",
+      "SME (Society of Manufacturing Engineers) membership for networking and certifications"
+    ],
+    "qualifications": [
+      "BS in Mechanical / Industrial / Manufacturing Engineering (ABET-accredited)",
+      "PE (Professional Engineer) licence for senior engineering sign-off roles",
+      "Six Sigma Green Belt / Black Belt (ASQ certification)",
+      "SME Certified Manufacturing Engineer (CMfgE)"
+    ],
+    "tags": [
+      "manufacturing",
+      "engineering",
+      "lean",
+      "aerospace",
+      "automotive"
+    ]
+  },
+  {
+    "id": "us_industrial_engineer",
+    "title": "Industrial Engineer",
+    "category": "Manufacturing & Production",
+    "region": "US",
+    "description": "Optimise production systems, supply chains, and operational workflows using engineering principles, data analysis, and process improvement methods. Industrial engineers work across manufacturing, logistics, healthcare, and technology companies — one of the most versatile engineering disciplines in the US.",
+    "salary_range": {
+      "min": 70000,
+      "max": 110000,
+      "currency": "USD/year",
+      "note": "Entry IE to senior Industrial Engineer or operations manager"
+    },
+    "growth_outlook": "Strong — BLS projects steady demand; IE skills valuable in non-manufacturing sectors too",
+    "work_style": [
+      "Analytical",
+      "Cross-functional",
+      "Problem-solving"
+    ],
+    "required_skills": [
+      {
+        "skill": "Industrial Engineering techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Lean / Six Sigma",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Process Simulation (Arena, AnyLogic)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Supply Chain Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Ergonomics",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "BS in Industrial Engineering from ABET-accredited university",
+      "Internship / co-op at manufacturing or logistics companies",
+      "Entry roles at automotive OEMs, Amazon fulfilment, healthcare systems",
+      "IISE (Institute of Industrial and Systems Engineers) membership"
+    ],
+    "qualifications": [
+      "BS in Industrial Engineering (ABET-accredited — Stanford, Georgia Tech, Penn State, Purdue)",
+      "PE licence (Professional Engineer) for senior roles",
+      "Six Sigma Black Belt (ASQ — American Society for Quality)",
+      "Lean Expert or CPIM (APICS) for operations specialisation"
+    ],
+    "tags": [
+      "industrial-engineering",
+      "lean",
+      "operations",
+      "logistics",
+      "manufacturing"
+    ]
+  },
+  {
+    "id": "supply_chain_analyst_in",
+    "title": "Supply Chain Analyst",
+    "category": "Supply Chain & Logistics",
+    "region": "IN",
+    "description": "Analyse and optimise the flow of goods, information, and money across the supply chain — from raw material sourcing to final delivery. Supply chain analysts work at FMCG, e-commerce, manufacturing, retail, and logistics companies. One of the fastest-growing career areas as India's logistics sector modernises.",
+    "salary_range": {
+      "min": 35000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Analyst to Supply Chain Manager; e-commerce pays premium"
+    },
+    "growth_outlook": "Very strong — PM Gati Shakti, logistics parks, and e-commerce growth driving demand",
+    "work_style": [
+      "Analytical",
+      "Data-driven",
+      "Cross-functional"
+    ],
+    "required_skills": [
+      {
+        "skill": "Supply Chain Analytics",
+        "level": "critical"
+      },
+      {
+        "skill": "Excel / Power BI / SQL",
+        "level": "important"
+      },
+      {
+        "skill": "Inventory Management",
+        "level": "critical"
+      },
+      {
+        "skill": "ERP (SAP / Oracle)",
+        "level": "important"
+      },
+      {
+        "skill": "Demand Forecasting",
+        "level": "important"
+      },
+      {
+        "skill": "Vendor Management",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Supply Chain, Logistics, Commerce, or Engineering",
+      "MBA in Supply Chain / Operations Management",
+      "APICS CSCP or CPIM certification",
+      "Entry at FMCG companies, e-commerce (Flipkart, Meesho), or 3PL firms"
+    ],
+    "qualifications": [
+      "Bachelor's in Supply Chain / Logistics / Commerce / Engineering",
+      "MBA in Supply Chain or Operations Management (IIM, SCMHRD, LSCM preferred)",
+      "APICS CSCP — Certified Supply Chain Professional",
+      "APICS CPIM — Certified in Production and Inventory Management"
+    ],
+    "tags": [
+      "supply-chain",
+      "logistics",
+      "analytics",
+      "operations",
+      "ecommerce"
+    ]
+  },
+  {
+    "id": "logistics_manager_in",
+    "title": "Logistics & Distribution Manager",
+    "category": "Supply Chain & Logistics",
+    "region": "IN",
+    "description": "Manage the transportation, warehousing, and distribution of goods — ensuring timely and cost-efficient delivery. Logistics managers work at 3PL companies (DHL, Mahindra Logistics), FMCG brands, e-commerce players, and manufacturing firms. India's logistics sector is growing rapidly with government infrastructure investments.",
+    "salary_range": {
+      "min": 50000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Logistics exec to Supply Chain Director"
+    },
+    "growth_outlook": "Very strong — India logistics sector growing 10%+ annually; PM Gati Shakti",
+    "work_style": [
+      "Operational",
+      "Fast-paced",
+      "Multi-location"
+    ],
+    "required_skills": [
+      {
+        "skill": "Fleet & Warehouse Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Route Optimisation",
+        "level": "important"
+      },
+      {
+        "skill": "Vendor & Carrier Management",
+        "level": "critical"
+      },
+      {
+        "skill": "ERP / WMS systems",
+        "level": "important"
+      },
+      {
+        "skill": "Cost Management",
+        "level": "important"
+      },
+      {
+        "skill": "Team Leadership",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Logistics, Supply Chain, Commerce, or Engineering",
+      "MBA Operations or PG Diploma in Logistics & Supply Chain",
+      "Start as logistics coordinator / dispatch executive in 3PL or FMCG",
+      "Progress: Coordinator → Executive → Asst Manager → Logistics Manager"
+    ],
+    "qualifications": [
+      "Bachelor's in Logistics / Supply Chain / Commerce / Engineering",
+      "MBA Operations or PG Diploma in Logistics (IIMM, NIFM, SCMHRD)",
+      "IIMM — Indian Institute of Materials Management certifications",
+      "Certified Logistics Professional (CLP) from IIMM"
+    ],
+    "tags": [
+      "logistics",
+      "distribution",
+      "warehouse",
+      "3pl",
+      "supply-chain"
+    ]
+  },
+  {
+    "id": "freight_forwarder_in",
+    "title": "Freight Forwarder / Customs Broker",
+    "category": "Supply Chain & Logistics",
+    "region": "IN",
+    "description": "Arrange the shipment of goods internationally — handling documentation, customs clearance, freight booking, and compliance on behalf of importers and exporters. Freight forwarders are the lubricant of global trade. Strong demand from India's growing import-export sector.",
+    "salary_range": {
+      "min": 25000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Operations exec to senior freight broker or own freight agency"
+    },
+    "growth_outlook": "Strong — India's trade volume growing; freight forwarding is essential infrastructure",
+    "work_style": [
+      "Detail-oriented",
+      "Client-facing",
+      "Deadline-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Import-Export Documentation",
+        "level": "critical"
+      },
+      {
+        "skill": "Customs Procedures (DGFT, ICEGATE)",
+        "level": "critical"
+      },
+      {
+        "skill": "Incoterms Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Freight Negotiation",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Logistics Software",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Commerce, International Business, or Logistics",
+      "CHA (Customs House Agent) licence from CBIC (mandatory for customs clearance)",
+      "Join freight forwarding companies (DHL, Kuehne+Nagel, DB Schenker, local players)",
+      "IATA Cargo Agent certification for air freight"
+    ],
+    "qualifications": [
+      "Bachelor's in Commerce / International Business / Logistics",
+      "CHA — Customs House Agent Licence (CBIC, mandatory for customs clearance work)",
+      "IATA Cargo Agent certification (for air freight operations)",
+      "FIATA Diploma in Freight Management (international credential)"
+    ],
+    "tags": [
+      "freight",
+      "customs",
+      "logistics",
+      "import-export",
+      "shipping"
+    ]
+  },
+  {
+    "id": "us_supply_chain_manager",
+    "title": "Supply Chain Manager",
+    "category": "Supply Chain & Logistics",
+    "region": "US",
+    "description": "Lead end-to-end supply chain operations — procurement, inventory, warehousing, and distribution — for manufacturing, retail, e-commerce, or technology companies. One of the most in-demand management roles in the US as companies invest in supply chain resilience post-COVID.",
+    "salary_range": {
+      "min": 80000,
+      "max": 140000,
+      "currency": "USD/year",
+      "note": "Supply chain analyst to director; FAANG and Fortune 500 pay premium"
+    },
+    "growth_outlook": "Very strong — BLS projects 28% growth for logisticians; supply chain resilience top priority",
+    "work_style": [
+      "Analytical",
+      "Cross-functional",
+      "Leadership"
+    ],
+    "required_skills": [
+      {
+        "skill": "Supply Chain Strategy",
+        "level": "critical"
+      },
+      {
+        "skill": "ERP (SAP / Oracle)",
+        "level": "important"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Supplier Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Demand Planning",
+        "level": "important"
+      },
+      {
+        "skill": "Team Leadership",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "BS in Supply Chain Management, Industrial Engineering, or Business",
+      "MBA with Supply Chain concentration for senior roles",
+      "APICS CSCP or CPIM certification",
+      "Entry: Supply Chain Analyst at large retailer, manufacturer, or tech company"
+    ],
+    "qualifications": [
+      "BS in Supply Chain, Operations, Industrial Engineering, or Business",
+      "MBA with Supply Chain specialisation (Michigan Ross, Michigan State, ASU preferred)",
+      "APICS CSCP — Certified Supply Chain Professional",
+      "Six Sigma Green/Black Belt for process improvement roles"
+    ],
+    "tags": [
+      "supply-chain",
+      "logistics",
+      "operations",
+      "procurement",
+      "management"
+    ]
+  },
+  {
+    "id": "soap_cosmetics_manufacturer",
+    "title": "Soap & Cosmetics Manufacturer (Cottage Industry)",
+    "category": "Entrepreneurship & MSME",
+    "region": "IN",
+    "description": "Produce handmade soaps, shampoos, skincare, and personal care products from home or a small unit. One of India's most accessible cottage industry businesses — startup costs are low (₹50,000–₹3,00,000), demand is strong (natural/organic trend), and products can be sold online, through salons, or via wholesale. Government MSME and Khadi schemes provide training and grants.",
+    "salary_range": {
+      "min": 15000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Scales with brand building and distribution reach"
+    },
+    "growth_outlook": "Very strong — natural and organic personal care booming; D2C brands thriving",
+    "work_style": [
+      "Self-employed",
+      "Creative",
+      "Home/small-unit based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Formulation & Chemistry basics",
+        "level": "critical"
+      },
+      {
+        "skill": "Quality Control",
+        "level": "critical"
+      },
+      {
+        "skill": "Packaging & Labelling",
+        "level": "important"
+      },
+      {
+        "skill": "Digital Marketing",
+        "level": "important"
+      },
+      {
+        "skill": "Business basics",
+        "level": "important"
+      },
+      {
+        "skill": "Creativity",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Learn soap/cosmetics formulation through courses (CIMAP, NIFTEM, CIPET, online)",
+      "Obtain CDSCO Cosmetics Manufacturing Licence (mandatory for selling cosmetics)",
+      "MSME/Udyam registration + GST (for scale)",
+      "Sell via Amazon, Meesho, local pharmacies, salons, and own D2C website"
+    ],
+    "qualifications": [
+      "No formal degree required",
+      "CDSCO Cosmetics Manufacturing Licence (mandatory under Drugs & Cosmetics Act)",
+      "Soap/cosmetics formulation training (CIMAP Lucknow, NIFTEM, CIPET, state institutes)",
+      "BIS certification for specific categories (optional but boosts credibility)",
+      "MSME / Udyam Registration + FSSAI if any food-grade ingredients used"
+    ],
+    "tags": [
+      "soap",
+      "cosmetics",
+      "cottage-industry",
+      "msme",
+      "d2c"
+    ]
+  },
+  {
+    "id": "garment_manufacturer_in",
+    "title": "Garment / Apparel Manufacturer (MSME)",
+    "category": "Entrepreneurship & MSME",
+    "region": "IN",
+    "description": "Set up a small garment manufacturing unit producing readymade clothes, uniforms, traditional wear, or fashion items. India is the world's 2nd largest textiles exporter and the garment sector employs millions. Small units can start with 5-10 sewing machines (₹2L-₹10L investment) and grow through job work for larger brands or direct retail/export.",
+    "salary_range": {
+      "min": 30000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Profit after costs; scales with order volume and brand positioning"
+    },
+    "growth_outlook": "Strong — India's textile PLI scheme and China+1 strategy boosting garment orders",
+    "work_style": [
+      "Self-employed",
+      "Operations-heavy",
+      "Labour management"
+    ],
+    "required_skills": [
+      {
+        "skill": "Garment Construction & Sewing",
+        "level": "critical"
+      },
+      {
+        "skill": "Quality Control",
+        "level": "critical"
+      },
+      {
+        "skill": "Pattern Making basics",
+        "level": "important"
+      },
+      {
+        "skill": "Operations Management",
+        "level": "important"
+      },
+      {
+        "skill": "Vendor & Labour Management",
+        "level": "important"
+      },
+      {
+        "skill": "Costing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "NIFT / ITI / state textile board garment manufacturing courses",
+      "Start as job-work unit for established brands or exporters",
+      "Udyam (MSME) registration + GST + Factory Licence (if >10 workers with power)",
+      "Apply for TUFS (Technology Upgradation Fund Scheme) for machinery subsidies"
+    ],
+    "qualifications": [
+      "ITI in Sewing Technology or Garment making (1 year)",
+      "Diploma in Garment Manufacturing (NIFT, state textile institutes)",
+      "Factory Licence under Factories Act (if employing 10+ workers with power)",
+      "Udyam / MSME Registration for government scheme access"
+    ],
+    "tags": [
+      "garment",
+      "apparel",
+      "textile",
+      "msme",
+      "manufacturing"
+    ]
+  },
+  {
+    "id": "plant_nursery_owner",
+    "title": "Plant Nursery Owner / Horticulturist",
+    "category": "Agriculture & Farming",
+    "region": "IN",
+    "description": "Grow and sell plants, saplings, seeds, and gardening products through a nursery — supplying home gardeners, landscape contractors, municipal authorities, and urban farming enthusiasts. India's urban gardening boom, government green initiatives, and landscape industry growth make plant nurseries a strong small business opportunity. Investment: ₹1L – ₹10L.",
+    "salary_range": {
+      "min": 20000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Seasonal variability; scale through landscape contracts and online sales"
+    },
+    "growth_outlook": "Strong — urban gardening trend + government afforestation contracts growing",
+    "work_style": [
+      "Outdoor",
+      "Self-employed",
+      "Physically active"
+    ],
+    "required_skills": [
+      {
+        "skill": "Horticulture & Plant Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Plant Propagation",
+        "level": "critical"
+      },
+      {
+        "skill": "Pest & Disease Management",
+        "level": "important"
+      },
+      {
+        "skill": "Business basics",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "important"
+      },
+      {
+        "skill": "Soil & Irrigation knowledge",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.Sc or Diploma in Horticulture or Agriculture",
+      "State Agriculture Department nursery training programs (often free)",
+      "National Horticulture Mission (NHM) schemes provide subsidies for nursery setup",
+      "Start with a small plot; supply local landscapers, housing societies, and municipal tenders"
+    ],
+    "qualifications": [
+      "B.Sc in Horticulture or Agriculture (SAU — State Agricultural Universities)",
+      "Diploma in Horticulture (state agriculture polytechnics — 2 years)",
+      "National Horticulture Mission (NHM) registration for subsidy access",
+      "State nursery registration / licence (varies by state)"
+    ],
+    "tags": [
+      "nursery",
+      "horticulture",
+      "plants",
+      "agriculture",
+      "entrepreneurship"
+    ]
+  },
+  {
+    "id": "us_nursery_horticulturist",
+    "title": "Nursery Worker / Horticulturist",
+    "category": "Agriculture & Farming",
+    "region": "US",
+    "description": "Grow, cultivate, and sell plants, shrubs, trees, and seedlings in retail nurseries, wholesale growing operations, or botanical gardens. The US nursery and floriculture industry generates $20B+ annually. Roles range from nursery worker and grower to horticulture manager and landscape designer.",
+    "salary_range": {
+      "min": 35000,
+      "max": 80000,
+      "currency": "USD/year",
+      "note": "Nursery worker to head grower or nursery owner"
+    },
+    "growth_outlook": "Stable — home gardening boomed post-COVID; landscape industry growing steadily",
+    "work_style": [
+      "Outdoor",
+      "Physically active",
+      "Seasonal variation"
+    ],
+    "required_skills": [
+      {
+        "skill": "Plant Knowledge & Identification",
+        "level": "critical"
+      },
+      {
+        "skill": "Plant Propagation",
+        "level": "critical"
+      },
+      {
+        "skill": "Pest & Disease Management",
+        "level": "important"
+      },
+      {
+        "skill": "Irrigation Systems",
+        "level": "helpful"
+      },
+      {
+        "skill": "Customer Service (retail)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Physical Fitness",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "AAS or BS in Horticulture from community college or university",
+      "On-the-job training at retail nurseries (Home Depot Garden Center, local nurseries)",
+      "Pursue Certified Professional Horticulturist (CPH) credential from ANLA",
+      "Advance to head grower, nursery manager, or own business"
+    ],
+    "qualifications": [
+      "AAS or BS in Horticulture / Plant Science",
+      "CPH — Certified Professional Horticulturist (ANLA — American Nursery & Landscape Association)",
+      "State Pesticide Applicator Licence (for chemical pest management)",
+      "Certified Nursery Professional (CNP) for retail roles"
+    ],
+    "tags": [
+      "nursery",
+      "horticulture",
+      "plants",
+      "landscape",
+      "agriculture"
+    ]
+  },
+  {
+    "id": "loan_officer_in",
+    "title": "Loan Officer / Credit Manager",
+    "category": "Finance",
+    "region": "IN",
+    "description": "Evaluate, process, and approve loan applications for individuals and businesses — including home loans, business loans, personal loans, vehicle loans, and agricultural credit. Loan officers work in banks (PSU and private), NBFCs, microfinance institutions, and HFCs (Housing Finance Companies). A stable, growing career as India's credit penetration expands.",
+    "salary_range": {
+      "min": 25000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Branch loan officer to Credit Head; NBFCs and private banks pay more"
+    },
+    "growth_outlook": "Strong — India's formalisation of credit and financial inclusion driving loan officer demand",
+    "work_style": [
+      "Client-facing",
+      "Analytical",
+      "Field & office"
+    ],
+    "required_skills": [
+      {
+        "skill": "Credit Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Financial Statement Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Risk Assessment",
+        "level": "important"
+      },
+      {
+        "skill": "KYC & Compliance",
+        "level": "important"
+      },
+      {
+        "skill": "Loan Documentation",
+        "level": "important"
+      },
+      {
+        "skill": "MS Excel",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Commerce, Finance, Economics, or Banking",
+      "JAIIB / CAIIB from IIBF (Indian Institute of Banking and Finance) for banking roles",
+      "Enter as Probationary Officer (PO) via IBPS exam (PSU banks) or bank-specific exams",
+      "Join NBFCs, HFCs, or MFIs directly (often hire commerce graduates)"
+    ],
+    "qualifications": [
+      "Bachelor's in Commerce / Finance / Economics",
+      "JAIIB — Junior Associate of Indian Institute of Bankers (IIBF)",
+      "CAIIB — Certified Associate of Indian Institute of Bankers (for senior roles)",
+      "IBPS PO / SBI PO exam for public sector bank officer positions",
+      "MBA Finance for commercial banking and credit management roles"
+    ],
+    "tags": [
+      "loan",
+      "banking",
+      "credit",
+      "finance",
+      "nbfc"
+    ]
+  },
+  {
+    "id": "teaching_assistant_in",
+    "title": "Teaching Assistant / Academic Support",
+    "category": "Education & Training",
+    "region": "IN",
+    "description": "Support classroom teachers and professors by assisting with instruction, student assessment, lab sessions, tutoring, and administrative tasks. Teaching assistants work in schools, colleges, universities, special education centres, and coaching institutes. Also a key stepping stone to a full teaching or academic career.",
+    "salary_range": {
+      "min": 12000,
+      "max": 60000,
+      "currency": "INR/month",
+      "note": "School TA to university research/teaching assistant (UGC stipend)"
+    },
+    "growth_outlook": "Stable — education sector expanding; inclusive education creating more support roles",
+    "work_style": [
+      "Student-facing",
+      "Supportive",
+      "Structured"
+    ],
+    "required_skills": [
+      {
+        "skill": "Subject Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience",
+        "level": "critical"
+      },
+      {
+        "skill": "Classroom Management",
+        "level": "important"
+      },
+      {
+        "skill": "Assessment & Feedback",
+        "level": "important"
+      },
+      {
+        "skill": "Documentation",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's degree in any subject (same subject as teaching area preferred)",
+      "B.Ed for school teaching assistant roles (in states where required)",
+      "UGC-NET / JRF for university Teaching Assistant / Research Fellow positions",
+      "Apply at coaching institutes, special schools, international schools, or universities"
+    ],
+    "qualifications": [
+      "Bachelor's degree (any relevant discipline)",
+      "B.Ed (for school assistant teacher positions in government schools)",
+      "UGC-NET / JRF (for university teaching assistantship / research fellowship)",
+      "CTET / State TET for government school eligibility"
+    ],
+    "tags": [
+      "teaching",
+      "education",
+      "assistant",
+      "school",
+      "university"
+    ]
+  },
+  {
+    "id": "us_teaching_assistant",
+    "title": "Teaching Assistant / Paraprofessional",
+    "category": "Education & Training",
+    "region": "US",
+    "description": "Support classroom teachers in K-12 schools or higher education — helping students with instruction, assessments, special needs support, and classroom management. Paraprofessionals (paras) in special education are a particularly large and growing employment category. Also the primary path for graduate students in universities.",
+    "salary_range": {
+      "min": 28000,
+      "max": 55000,
+      "currency": "USD/year",
+      "note": "K-12 para to graduate teaching assistant (with tuition waiver)"
+    },
+    "growth_outlook": "Stable — special education paras in strong demand; graduate TAs tied to university enrollment",
+    "work_style": [
+      "Student-facing",
+      "Supportive",
+      "Structured"
+    ],
+    "required_skills": [
+      {
+        "skill": "Subject Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience & Empathy",
+        "level": "critical"
+      },
+      {
+        "skill": "Classroom Management",
+        "level": "important"
+      },
+      {
+        "skill": "Differentiated Instruction",
+        "level": "helpful"
+      },
+      {
+        "skill": "Behaviour Management",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Associate's degree or 60+ college credit hours (NCLB HQP requirement for Title I schools)",
+      "State paraprofessional certification or ParaPro Assessment",
+      "Bachelor's + enroll in graduate school for university TA position",
+      "Apply at public school districts, charter schools, or universities"
+    ],
+    "qualifications": [
+      "Associate's degree or 60 college credit hours (NCLB-compliant districts)",
+      "ParaPro Assessment (ETS) — many districts require this",
+      "State paraprofessional certification (varies by state)",
+      "Special Education paraprofessional training (autism, ABA basics, behaviour management)"
+    ],
+    "tags": [
+      "teaching-assistant",
+      "para",
+      "education",
+      "school",
+      "special-education"
+    ]
+  },
+  {
+    "id": "front_desk_receptionist_in",
+    "title": "Front Desk Executive / Receptionist",
+    "category": "Business & Management",
+    "region": "IN",
+    "description": "Serve as the first point of contact for visitors, clients, and callers at hospitals, hotels, corporate offices, clinics, coworking spaces, and government offices. Front desk roles combine communication, coordination, and administrative skills. A strong entry-level career with clear pathways into administration, hospitality, and office management.",
+    "salary_range": {
+      "min": 15000,
+      "max": 50000,
+      "currency": "INR/month",
+      "note": "Entry-level; hospitality and corporate offices pay higher"
+    },
+    "growth_outlook": "Stable — required in virtually every organisation; hospitality sector growing",
+    "work_style": [
+      "Customer-facing",
+      "Structured",
+      "On-site"
+    ],
+    "required_skills": [
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Computer Skills (MS Office)",
+        "level": "important"
+      },
+      {
+        "skill": "Multitasking",
+        "level": "important"
+      },
+      {
+        "skill": "Telephone Etiquette",
+        "level": "critical"
+      },
+      {
+        "skill": "Professional Appearance",
+        "level": "important"
+      },
+      {
+        "skill": "Data Entry",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "12th pass or any Bachelor's degree",
+      "Diploma in Office Management, Hospitality, or Computer Applications",
+      "Apply at hospitals, hotels, corporate offices, clinics, and coworking spaces",
+      "Progress to Office Administrator, Executive Assistant, or Hotel Front Office Manager"
+    ],
+    "qualifications": [
+      "12th pass minimum (Bachelor's degree preferred for corporate roles)",
+      "Diploma in Office Management / Hospitality / BCA / BA",
+      "MS Office proficiency (Word, Excel, Outlook)",
+      "Hotel Management course (IHM) for hospitality front desk roles"
+    ],
+    "tags": [
+      "front-desk",
+      "receptionist",
+      "admin",
+      "customer-service",
+      "hospitality"
+    ]
+  },
+  {
+    "id": "office_administrator_in",
+    "title": "Office Administrator / Administrative Executive",
+    "category": "Business & Management",
+    "region": "IN",
+    "description": "Keep offices running smoothly — managing schedules, correspondence, facilities, vendor coordination, travel arrangements, and records. Office administrators are essential in every organisation from startups and NGOs to large corporations and government departments. A versatile career with strong job security.",
+    "salary_range": {
+      "min": 20000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Admin Executive to Office Manager / Executive Assistant to Director"
+    },
+    "growth_outlook": "Stable — every organisation needs administrative professionals",
+    "work_style": [
+      "Organised",
+      "On-site",
+      "Multi-role"
+    ],
+    "required_skills": [
+      {
+        "skill": "MS Office (Word, Excel, Outlook, PowerPoint)",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Organisation & Planning",
+        "level": "critical"
+      },
+      {
+        "skill": "Multitasking",
+        "level": "critical"
+      },
+      {
+        "skill": "Record Management",
+        "level": "important"
+      },
+      {
+        "skill": "Vendor Coordination",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in any discipline (Commerce, BCA, BA)",
+      "Diploma in Office Administration, Secretarial Practice, or Computer Applications",
+      "Entry as admin executive / office assistant; grow to senior admin roles",
+      "Specialize: Executive Assistant, HR Admin, or Facilities Manager"
+    ],
+    "qualifications": [
+      "Bachelor's degree (any discipline; Commerce or BCA preferred)",
+      "Diploma in Secretarial Practice / Office Administration",
+      "MS Office / Tally certification",
+      "Company Secretary (CS Foundation) for corporate secretarial specialisation"
+    ],
+    "tags": [
+      "admin",
+      "office-management",
+      "executive-assistant",
+      "administration",
+      "operations"
+    ]
+  },
+  {
+    "id": "us_receptionist_admin",
+    "title": "Receptionist / Administrative Assistant",
+    "category": "Business & Management",
+    "region": "US",
+    "description": "Manage front desk operations, phone lines, scheduling, and administrative tasks at offices, medical practices, law firms, hotels, and clinics. One of the largest employment categories in the US, offering entry to many industries. Medical receptionists and legal administrative assistants earn premium rates.",
+    "salary_range": {
+      "min": 32000,
+      "max": 55000,
+      "currency": "USD/year",
+      "note": "Medical and legal admin assistants earn higher; executive assistants earn 60k+"
+    },
+    "growth_outlook": "Stable — steady demand across industries; automation affecting some routine tasks",
+    "work_style": [
+      "Customer-facing",
+      "Organised",
+      "On-site"
+    ],
+    "required_skills": [
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "MS Office / Google Workspace",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Scheduling (Calendly, Outlook)",
+        "level": "important"
+      },
+      {
+        "skill": "Multitasking",
+        "level": "important"
+      },
+      {
+        "skill": "Confidentiality",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "High school diploma or associate's degree",
+      "Microsoft Office Specialist (MOS) certification strengthens resume",
+      "Apply at medical offices, law firms, corporate HQs, or hotels",
+      "Advance to Executive Assistant, Office Manager, or HR Admin"
+    ],
+    "qualifications": [
+      "High school diploma or GED (minimum)",
+      "Associate's degree in Business Administration or Office Technology (preferred)",
+      "Microsoft Office Specialist (MOS) certification",
+      "Medical Administrative Assistant certification (NCCT or AAMA) for healthcare front desk"
+    ],
+    "tags": [
+      "receptionist",
+      "admin",
+      "front-desk",
+      "office",
+      "customer-service"
+    ]
+  },
+  {
+    "id": "news_anchor_in",
+    "title": "News Anchor / TV News Reader",
+    "category": "Media & Broadcasting",
+    "region": "IN",
+    "description": "Present news bulletins, breaking news, and live news programmes on television. News anchors are the on-air face of news channels — reading scripts, conducting interviews, moderating debates, and often reporting from the field. India has over 400 news channels in multiple languages, creating widespread opportunities.",
+    "salary_range": {
+      "min": 25000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Junior anchor (regional) to prime-time anchor (national); varies greatly by channel"
+    },
+    "growth_outlook": "Stable — competitive but consistent; regional language channels growing",
+    "work_style": [
+      "On-camera",
+      "Fast-paced",
+      "Irregular hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Diction & Voice Clarity",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Script Reading / Teleprompter",
+        "level": "critical"
+      },
+      {
+        "skill": "Current Affairs Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "On-camera Presence",
+        "level": "critical"
+      },
+      {
+        "skill": "Interviewing",
+        "level": "important"
+      },
+      {
+        "skill": "Language Fluency (Hindi/English/Regional)",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's or Master's in Journalism, Mass Communication, or English (IIMC, AJK-MCRC JMI, Symbiosis, Manipal)",
+      "Voice and diction training; on-camera practice",
+      "Start as junior reporter, production assistant, or copy editor at a news channel",
+      "Language-specific channels (regional) are a strong entry point",
+      "Anchoring courses from journalism institutes or independent trainers"
+    ],
+    "qualifications": [
+      "Bachelor's or Master's in Journalism / Mass Communication (IIMC, AJKMCRC, Symbiosis, Manipal)",
+      "Diploma in Broadcast Journalism or Anchoring (private institutes, ACJ Chennai)",
+      "Voice & Diction certification (helpful for regional language channels)",
+      "IIMC entrance exam for government journalism school admission"
+    ],
+    "tags": [
+      "news-anchor",
+      "tv",
+      "journalism",
+      "broadcast",
+      "media"
+    ]
+  },
+  {
+    "id": "tv_host_in",
+    "title": "TV Host / Show Anchor",
+    "category": "Media & Broadcasting",
+    "region": "IN",
+    "description": "Host television programmes — from reality shows, talk shows, game shows, and award ceremonies to lifestyle, travel, and entertainment content on GEC (General Entertainment Channels) and OTT platforms. TV hosts combine personality, spontaneity, and communication skills to engage millions of viewers.",
+    "salary_range": {
+      "min": 30000,
+      "max": 2000000,
+      "currency": "INR/month",
+      "note": "Reality show side host to prime-time celebrity host; highly variable"
+    },
+    "growth_outlook": "Growing — OTT and GEC producing more non-fiction and hosted content",
+    "work_style": [
+      "Creative",
+      "On-camera",
+      "Irregular hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "On-camera Presence",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Spontaneity & Wit",
+        "level": "critical"
+      },
+      {
+        "skill": "Audience Engagement",
+        "level": "critical"
+      },
+      {
+        "skill": "Script Adaptation",
+        "level": "important"
+      },
+      {
+        "skill": "Entertainment Knowledge",
+        "level": "helpful"
+      },
+      {
+        "skill": "Language Fluency",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Background in journalism, acting, performance, or public speaking",
+      "Start with smaller productions, web shows, or YouTube before TV",
+      "Audition for hosting roles through production houses and talent agencies",
+      "Build a visible presence on social media to attract channel attention"
+    ],
+    "qualifications": [
+      "No mandatory formal qualification",
+      "Bachelor's in Mass Communication / Journalism / Performing Arts (helpful)",
+      "Acting or anchoring training from established coaches",
+      "Strong showreel of hosting work is the primary credential"
+    ],
+    "tags": [
+      "tv-host",
+      "anchor",
+      "entertainment",
+      "media",
+      "reality-show"
+    ]
+  },
+  {
+    "id": "radio_jockey_in",
+    "title": "Radio Jockey (RJ)",
+    "category": "Media & Broadcasting",
+    "region": "IN",
+    "description": "Host radio programmes — playing music, entertaining audiences, discussing current events, conducting listener interactions, and featuring celebrities. RJs are the voice of FM radio stations across India. With 300+ FM stations now, and podcasting growing, voice-based content creation is a strong career avenue.",
+    "salary_range": {
+      "min": 20000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Entry RJ (small city FM) to prime-time RJ (metro); top RJs also earn from events"
+    },
+    "growth_outlook": "Stable — FM radio steady; podcasting growing as an adjacent opportunity",
+    "work_style": [
+      "On-air",
+      "Creative",
+      "Early hours / split shifts"
+    ],
+    "required_skills": [
+      {
+        "skill": "Voice & Diction",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Storytelling",
+        "level": "critical"
+      },
+      {
+        "skill": "Music Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Audience Engagement",
+        "level": "critical"
+      },
+      {
+        "skill": "Improvisation",
+        "level": "important"
+      },
+      {
+        "skill": "Script Writing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Bachelor's in Mass Communication, English, or any field",
+      "RJ training programs from radio stations (Radio Mirchi, Red FM conduct intern drives)",
+      "Voice training and diction coaching",
+      "Start at community radio, college radio, or internet radio stations",
+      "Audition through radio station open calls and online auditions"
+    ],
+    "qualifications": [
+      "No mandatory formal qualification",
+      "Bachelor's in Mass Communication / Journalism / English (helpful)",
+      "Radio Jockey training certificate (Radio Mirchi Academy, private institutes)",
+      "Voice & Diction certification",
+      "Strong voice demo reel is the primary hiring criterion"
+    ],
+    "tags": [
+      "radio",
+      "rj",
+      "fm",
+      "broadcast",
+      "media"
+    ]
+  },
+  {
+    "id": "video_jockey_in",
+    "title": "Video Jockey (VJ) / Content Host",
+    "category": "Media & Broadcasting",
+    "region": "IN",
+    "description": "Host music video programmes, entertainment shows, and youth-oriented content on music channels (MTV, VH1, Vh1) and digital platforms. The VJ role has expanded significantly into YouTube hosting, Instagram live, and OTT content creator-hosting, making it a growing career for charismatic on-camera personalities.",
+    "salary_range": {
+      "min": 25000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Entry VJ to popular digital content host; influencer income supplements"
+    },
+    "growth_outlook": "Growing — digital video and creator economy expanding VJ opportunities beyond TV",
+    "work_style": [
+      "On-camera",
+      "Creative",
+      "Entertainment-focused"
+    ],
+    "required_skills": [
+      {
+        "skill": "On-camera Presence",
+        "level": "critical"
+      },
+      {
+        "skill": "Entertainment Knowledge (music, pop culture)",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Spontaneity",
+        "level": "critical"
+      },
+      {
+        "skill": "Social Media",
+        "level": "important"
+      },
+      {
+        "skill": "Script Adaptation",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "No strict educational requirement — personality and on-camera skills are key",
+      "Build YouTube / Instagram presence with hosted content",
+      "Audition for music channels (MTV India, VH1, 9XM) via open calls",
+      "Work in event hosting, live shows, and brand activations to build reel"
+    ],
+    "qualifications": [
+      "No mandatory qualification",
+      "Bachelor's in Mass Communication / Performing Arts / Film (helpful)",
+      "Acting or hosting training from media schools",
+      "Strong video reel and social media following are primary credentials"
+    ],
+    "tags": [
+      "vj",
+      "music-channel",
+      "digital-host",
+      "entertainment",
+      "media"
+    ]
+  },
+  {
+    "id": "model_in",
+    "title": "Model (Fashion / Commercial / Ramp)",
+    "category": "Media & Broadcasting",
+    "region": "IN",
+    "description": "Represent brands and designers through fashion ramp walks, print advertisements, TV commercials, product endorsements, and digital campaigns. India's modelling industry spans high fashion (FDCI, Lakme Fashion Week), commercial print, regional advertising, and the growing digital creator economy.",
+    "salary_range": {
+      "min": 20000,
+      "max": 2000000,
+      "currency": "INR/month",
+      "note": "Entry model (catalogue) to high-fashion ramp model; celebrity endorsements earn crores"
+    },
+    "growth_outlook": "Growing — India's fashion, beauty, and D2C advertising market expanding rapidly",
+    "work_style": [
+      "Project-based",
+      "Physical",
+      "Travel-heavy"
+    ],
+    "required_skills": [
+      {
+        "skill": "Posing & Body Language",
+        "level": "critical"
+      },
+      {
+        "skill": "Ramp Walk",
+        "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Grooming",
+        "level": "critical"
+      },
+      {
+        "skill": "Confidence",
+        "level": "critical"
+      },
+      {
+        "skill": "Adaptability",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "helpful"
+      },
+      {
+        "skill": "Social Media Presence",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Register with modelling agencies (Elite Model Management India, Toabh, Anima Creative)",
+      "Participate in modelling contests and fashion weeks (fresh faces)",
+      "Build a professional portfolio with a photographer",
+      "Start with catalogue work, regional ads, and e-commerce brands",
+      "Social media presence accelerates casting for commercial and digital campaigns"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Modelling course / grooming training (FDCI, Fashion Design Council, agencies)",
+      "Professional portfolio (composite card) — primary credential for agency registration",
+      "Physical requirements vary by category: height (ramp 5'7\"+/5'10\"+), measurements (catalogue flexible)"
+    ],
+    "tags": [
+      "modelling",
+      "fashion",
+      "ramp",
+      "advertising",
+      "entertainment"
+    ]
+  },
+  {
+    "id": "podcast_host_creator_in",
+    "title": "Podcast Host / Digital Content Creator",
+    "category": "Media & Broadcasting",
+    "region": "IN",
+    "description": "Create, host, and produce audio or video podcast content on platforms like Spotify, YouTube, JioSaavn, and Audible. India's podcasting market is booming — from true crime, business, and comedy to spirituality, education, and storytelling. Monetisation comes through ads, Spotify deals, Patreon, brand sponsorships, and live events.",
+    "salary_range": {
+      "min": 10000,
+      "max": 1000000,
+      "currency": "INR/month",
+      "note": "Highly variable — top Indian podcasters earn ₹10L+ per month through multiple streams"
+    },
+    "growth_outlook": "Very strong — India podcast listenership growing 30%+ annually",
+    "work_style": [
+      "Creative",
+      "Self-directed",
+      "Remote"
+    ],
+    "required_skills": [
+      {
+        "skill": "Content Creation",
+        "level": "critical"
+      },
+      {
+        "skill": "Storytelling",
+        "level": "critical"
+      },
+      {
+        "skill": "Audio / Video Editing",
+        "level": "important"
+      },
+      {
+        "skill": "Research",
+        "level": "important"
+      },
+      {
+        "skill": "Consistency",
+        "level": "critical"
+      },
+      {
+        "skill": "Audience Engagement",
+        "level": "critical"
+      },
+      {
+        "skill": "Marketing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Start a podcast on any platform (Spotify, Anchor, Google Podcasts)",
+      "Learn basic audio recording and editing (Audacity, GarageBand, Adobe Audition)",
+      "Build an audience through consistent content and social media promotion",
+      "Monetise: brand deals → Spotify exclusives → premium subscriptions → live events"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Journalism / Mass Communication background helpful but not mandatory",
+      "Anchor / Spotify creator account setup",
+      "Audio production skills (self-taught widely accepted)"
+    ],
+    "tags": [
+      "podcast",
+      "content-creator",
+      "audio",
+      "digital-media",
+      "creator-economy"
+    ]
+  },
+  {
+    "id": "us_news_anchor",
+    "title": "News Anchor / Broadcast Journalist",
+    "category": "Media & Broadcasting",
+    "region": "US",
+    "description": "Present news on local, national, or cable TV networks — from local market stations to CNN, Fox News, NBC, and ABC. Most anchors begin in small markets, hone skills, and move to larger markets over time. A competitive career requiring strong journalism skills, camera presence, and consistent delivery.",
+    "salary_range": {
+      "min": 35000,
+      "max": 300000,
+      "currency": "USD/year",
+      "note": "Small market anchor to network anchor; top national anchors earn millions"
+    },
+    "growth_outlook": "Declining in traditional broadcast; digital news video growing",
+    "work_style": [
+      "On-camera",
+      "Fast-paced",
+      "Irregular hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "On-camera Presence",
+        "level": "critical"
+      },
+      {
+        "skill": "Journalism",
+        "level": "critical"
+      },
+      {
+        "skill": "Clear Diction & Vocal Delivery",
+        "level": "critical"
+      },
+      {
+        "skill": "Script Writing",
+        "level": "important"
+      },
+      {
+        "skill": "Breaking News Handling",
+        "level": "critical"
+      },
+      {
+        "skill": "Interviewing",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "BS in Journalism, Broadcasting, or Communications from accredited program",
+      "College TV / radio station experience",
+      "Start in small markets (markets 150-200+); build reel and move up",
+      "SPJ (Society of Professional Journalists) membership"
+    ],
+    "qualifications": [
+      "BS in Journalism / Broadcasting / Communications (ACEJMC-accredited preferred)",
+      "Strong on-air demo reel (1-2 minutes) is the primary hiring tool",
+      "RTNDA (Radio Television Digital News Association) membership",
+      "AP Broadcast Style proficiency"
+    ],
+    "tags": [
+      "news-anchor",
+      "broadcast",
+      "journalism",
+      "tv",
+      "media"
+    ]
+  },
+  {
+    "id": "us_radio_jockey",
+    "title": "Radio Host / Disc Jockey (DJ/RJ)",
+    "category": "Media & Broadcasting",
+    "region": "US",
+    "description": "Host radio programmes — playing music, entertaining listeners, sharing commentary, conducting celebrity interviews, and interacting with audiences on terrestrial (AM/FM), satellite (SiriusXM), and internet radio. Radio hosts often build strong local or national audiences and supplement income with live events and podcasting.",
+    "salary_range": {
+      "min": 30000,
+      "max": 200000,
+      "currency": "USD/year",
+      "note": "Small market morning show to nationally syndicated host"
+    },
+    "growth_outlook": "Declining in traditional terrestrial radio; stable in satellite and digital audio",
+    "work_style": [
+      "On-air",
+      "Creative",
+      "Early hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Voice & Diction",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Music Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Entertainment / Pop Culture",
+        "level": "important"
+      },
+      {
+        "skill": "Audience Engagement",
+        "level": "critical"
+      },
+      {
+        "skill": "Improvisation",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Associate's or Bachelor's in Broadcasting, Communications, or Journalism",
+      "College radio station experience",
+      "Internship at commercial radio stations",
+      "Start in small markets; build to major markets over time"
+    ],
+    "qualifications": [
+      "Associate's / Bachelor's in Broadcasting / Communications (helpful, not mandatory)",
+      "FCC Restricted Radiotelephone Operator Permit (for AM/FM transmitter operation)",
+      "Strong demo reel / voice sample",
+      "NAB (National Association of Broadcasters) membership"
+    ],
+    "tags": [
+      "radio",
+      "disc-jockey",
+      "broadcast",
+      "entertainment",
+      "media"
+    ]
+  },
+  {
+    "id": "us_model",
+    "title": "Model (Fashion / Commercial / Digital)",
+    "category": "Media & Broadcasting",
+    "region": "US",
+    "description": "Work as a professional model for fashion designers, luxury brands, commercial advertisers, catalogues, and digital campaigns. The US modelling industry spans high fashion in New York, commercial work in LA and Chicago, and a growing market for diverse and inclusive models for digital-first brands.",
+    "salary_range": {
+      "min": 30000,
+      "max": 500000,
+      "currency": "USD/year",
+      "note": "Commercial and plus-size models earn steadily; runway models earn per show + editorials"
+    },
+    "growth_outlook": "Stable — digital advertising and inclusive representation expanding commercial modelling",
+    "work_style": [
+      "Project-based",
+      "Travel-heavy",
+      "Physical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Posing & Body Language",
+        "level": "critical"
+      },
+      {
+        "skill": "Professionalism",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Grooming",
+        "level": "critical"
+      },
+      {
+        "skill": "Adaptability",
+        "level": "important"
+      },
+      {
+        "skill": "Social Media Presence",
+        "level": "important"
+      },
+      {
+        "skill": "Runway Walk (for fashion)",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Register with a modelling agency (Wilhelmina, Ford, IMG Models, Next Models)",
+      "Build a professional portfolio with a reputable photographer",
+      "Start with test shoots, student fashion shows, and local brand campaigns",
+      "Social media following increasingly opens direct brand collaboration"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Professional portfolio (comp card with various looks)",
+      "Agency representation (for major market bookings)",
+      "SAG-AFTRA membership for union commercial shoots"
+    ],
+    "tags": [
+      "modelling",
+      "fashion",
+      "commercial",
+      "advertising",
+      "entertainment"
+    ]
   }
 ]
