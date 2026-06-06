@@ -1,0 +1,750 @@
+"""Add batch 5: No-degree accessible careers — everyday work, skilled services, trades.
+All careers in this batch require no formal degree; skills are learned on the job,
+through apprenticeship, short courses, or just experience."""
+import json
+from pathlib import Path
+
+PATH = Path(__file__).resolve().parent.parent / "backend" / "data" / "careers.json"
+
+
+def s(skill, level):
+    return {"skill": skill, "level": level}
+
+
+CAREERS = [
+
+    # ══════════════════════════════════════════════════════
+    # EVERYDAY WORK & ACCESSIBLE TRADES — INDIA
+    # ══════════════════════════════════════════════════════
+    {
+        "id": "delivery_executive_in",
+        "title": "Delivery Executive / Courier Agent",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Deliver food, groceries, packages, and documents directly to customers on behalf of platforms like Swiggy, Zomato, Amazon, Blinkit, Zepto, and logistics companies. One of India's fastest-growing employment categories — millions are now earning a stable livelihood through gig delivery. No educational qualification required; just a two-wheeler/cycle, smartphone, and a valid driving licence.",
+        "salary_range": {"min": 12000, "max": 35000, "currency": "INR/month", "note": "Incentives + tips can push earnings higher; peak hours pay more"},
+        "growth_outlook": "Very strong — quick commerce and food delivery expanding rapidly across India",
+        "work_style": ["Outdoor", "Physical", "Flexible hours"],
+        "required_skills": [
+            s("Local Area Knowledge", "critical"), s("Two-wheeler / Bicycle riding", "critical"),
+            s("Smartphone & App usage", "critical"), s("Customer Service", "important"),
+            s("Time Management", "important"), s("Physical Fitness", "helpful"),
+        ],
+        "entry_paths": [
+            "Register directly on Swiggy, Zomato, Amazon Flex, Blinkit, Dunzo delivery partner apps",
+            "Requirements: 18+, valid driving licence, smartphone, two-wheeler (own or rented)",
+            "No interview — just document verification and onboarding training (1-2 days)",
+            "Earn daily/weekly; choose your own hours",
+        ],
+        "qualifications": [
+            "No formal education required — even 8th pass eligible",
+            "Valid two-wheeler or four-wheeler driving licence",
+            "Aadhaar, PAN, and bank account for onboarding",
+            "Food Handler Certificate (for food delivery platforms — usually provided by them)",
+        ],
+        "tags": ["delivery", "gig", "swiggy", "zomato", "amazon", "no-degree"],
+    },
+    {
+        "id": "cab_driver_in",
+        "title": "Cab Driver / Ride-share Driver",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Provide passenger transport through platforms like Ola, Uber, InDrive, and Rapido — or operate a private/rented taxi. Cab driving is a significant source of self-employment income for millions in India, especially with flexible hours and the option to own a vehicle through a loan. A commercial driving badge (All India Tourist Permit or local permit) is the main requirement.",
+        "salary_range": {"min": 18000, "max": 50000, "currency": "INR/month", "note": "Earnings depend on hours driven, city, and platform incentives"},
+        "growth_outlook": "Strong — urban mobility demand growing; EV vehicle support from platforms",
+        "work_style": ["Outdoor", "Self-employed", "Flexible hours"],
+        "required_skills": [
+            s("Driving", "critical"), s("Local Area Knowledge", "critical"),
+            s("Customer Service", "important"), s("Smartphone & App usage", "critical"),
+            s("Vehicle Maintenance basics", "helpful"), s("Traffic Rules Knowledge", "critical"),
+        ],
+        "entry_paths": [
+            "Obtain a commercial vehicle driving licence (badge) from RTO",
+            "Register on Ola, Uber, Rapido, or InDrive partner driver app",
+            "Own vehicle or lease/finance through platform-linked schemes",
+            "No educational qualification required — driving skill + licence is sufficient",
+        ],
+        "qualifications": [
+            "8th pass minimum (for commercial licence eligibility in most states)",
+            "Commercial Vehicle Driving Licence / Badge from RTO",
+            "All India Tourist Permit (for outstation trips)",
+            "Vehicle Insurance (mandatory)",
+        ],
+        "tags": ["cab-driver", "ola", "uber", "transport", "self-employed", "no-degree"],
+    },
+    {
+        "id": "auto_rickshaw_driver_in",
+        "title": "Auto Rickshaw / E-Rickshaw Driver",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Operate a three-wheeled auto rickshaw or electric rickshaw (e-rickshaw) for local passenger transport. Auto rickshaws are the backbone of last-mile urban and semi-urban transport in India. E-rickshaws are growing rapidly due to low operating costs and government subsidies. Self-employment with daily cash income.",
+        "salary_range": {"min": 12000, "max": 30000, "currency": "INR/month", "note": "After fuel/electricity costs; own vehicle yields higher net income"},
+        "growth_outlook": "Stable — e-rickshaws growing rapidly with government promotion",
+        "work_style": ["Outdoor", "Self-employed", "Early mornings"],
+        "required_skills": [
+            s("Driving (3-wheeler)", "critical"), s("Local Area Knowledge", "critical"),
+            s("Customer Service", "important"), s("Basic Vehicle Maintenance", "helpful"),
+        ],
+        "entry_paths": [
+            "Obtain auto rickshaw driving licence from RTO (3-wheeler badge)",
+            "Own, hire, or finance an auto through bank loan or PMEGP/MUDRA scheme",
+            "E-rickshaw: no licence needed in many states (speed <25 km/h); FAME II subsidy available",
+            "Register with local auto union or app-based platforms (Namma Yatri, Rapido Auto)",
+        ],
+        "qualifications": [
+            "No formal education required",
+            "3-Wheeler Commercial Driving Licence from RTO",
+            "E-rickshaw: no licence needed in many states (check local RTO rules)",
+            "Vehicle permit from local transport authority",
+        ],
+        "tags": ["auto-rickshaw", "e-rickshaw", "transport", "self-employed", "no-degree"],
+    },
+    {
+        "id": "truck_driver_in",
+        "title": "Truck / Heavy Vehicle Driver",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Drive trucks, tankers, tippers, and heavy commercial vehicles to transport goods across cities and states. Truck drivers are the lifeline of India's supply chain — moving everything from food and construction materials to industrial goods. A genuine shortage of commercial drivers makes this a stable, income-generating career.",
+        "salary_range": {"min": 18000, "max": 60000, "currency": "INR/month", "note": "Local delivery to long-haul intercity; owner-driver earns significantly more"},
+        "growth_outlook": "Very strong — chronic driver shortage in India; logistics boom driving demand",
+        "work_style": ["Outdoor", "Long hours", "Travel"],
+        "required_skills": [
+            s("Heavy Vehicle Driving", "critical"), s("Route Knowledge", "important"),
+            s("Vehicle Maintenance basics", "important"), s("Fatigue Management", "critical"),
+            s("Loading & Unloading coordination", "helpful"),
+        ],
+        "entry_paths": [
+            "Obtain Heavy Motor Vehicle (HMV) commercial driving licence from RTO",
+            "Start as helper/cleaner on trucks → light vehicle licence → HMV licence",
+            "Enroll in government ITI or NSDC motor driving courses (subsidised)",
+            "Apply to trucking companies, logistics firms, or join as owner-driver",
+        ],
+        "qualifications": [
+            "8th pass minimum for commercial licence eligibility",
+            "HMV — Heavy Motor Vehicle Commercial Driving Licence from RTO",
+            "AITP — All India Tourist Permit (for interstate transport)",
+            "Hazmat licence (for tankers carrying dangerous goods)",
+        ],
+        "tags": ["truck-driver", "hgv", "logistics", "transport", "no-degree"],
+    },
+    {
+        "id": "security_guard_in",
+        "title": "Security Guard / Watchman",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Protect premises, people, and property at offices, residential societies, malls, banks, hospitals, factories, and events. Security guards are one of the most widely employed categories in India with millions of jobs across private security agencies (G4S, Securitas, SIS, TOPSGRUP) and government establishments.",
+        "salary_range": {"min": 10000, "max": 25000, "currency": "INR/month", "note": "Varies by city, employer, and risk category; ESI and PF usually included"},
+        "growth_outlook": "Stable — consistent demand across all commercial and residential sectors",
+        "work_style": ["On-site", "Shift-based", "Physically active"],
+        "required_skills": [
+            s("Alertness & Observation", "critical"), s("Communication", "important"),
+            s("Physical Fitness", "critical"), s("Integrity", "critical"),
+            s("Emergency Response basics", "helpful"),
+        ],
+        "entry_paths": [
+            "10th pass minimum for most private security companies",
+            "Physical fitness test and background verification",
+            "PSARA (Private Security Agencies Regulation Act) training — 100-160 hours (provided by agency)",
+            "Apply directly to private security agencies or government establishments",
+        ],
+        "qualifications": [
+            "10th pass (minimum for most agencies); 8th pass for some rural/industrial posts",
+            "PSARA training certificate (100-160 hours; provided by most agencies at no cost)",
+            "Ex-servicemen get preference in many security guard roles",
+            "Physical fitness: height, weight, eyesight standards vary by employer",
+        ],
+        "tags": ["security", "watchman", "guard", "no-degree", "everday-work"],
+    },
+    {
+        "id": "house_painter_in",
+        "title": "House Painter / Whitewash & Wall Coating Worker",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Paint interior and exterior walls, apply textures, waterproofing coatings, and decorative finishes for residential and commercial buildings. House painters are in continuous demand wherever there is construction or renovation — a skilled trade that can be learnt in weeks and generates steady daily or contract income.",
+        "salary_range": {"min": 15000, "max": 50000, "currency": "INR/month", "note": "Daily wage ₹500-₹1500; experienced painters on contracts earn more"},
+        "growth_outlook": "Stable — construction and renovation always create painter demand",
+        "work_style": ["Physical", "Outdoor/Indoor", "Contract-based"],
+        "required_skills": [
+            s("Painting Techniques", "critical"), s("Surface Preparation", "critical"),
+            s("Colour Mixing", "important"), s("Waterproofing & Texture application", "helpful"),
+            s("Safety at heights", "important"), s("Physical Fitness", "critical"),
+        ],
+        "entry_paths": [
+            "No formal education required — learn through apprenticeship on construction sites",
+            "Government ITI Painter (General) trade — 1 year training (recommended)",
+            "Start as a helper/apprentice with an experienced painter for 3-6 months",
+            "Build your own contracting work through word of mouth or platforms like UrbanClap/Urban Company",
+        ],
+        "qualifications": [
+            "No formal qualification required",
+            "ITI Painter (General) trade certificate — 1 year (valuable but not mandatory)",
+            "NSDC / PMKVY Painter Skill certificate (free government training available)",
+            "Urban Company / UrbanClap partner onboarding training",
+        ],
+        "tags": ["painter", "construction", "trade", "no-degree", "self-employed"],
+    },
+    {
+        "id": "tailor_in",
+        "title": "Tailor / Stitching Professional",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Stitch, alter, and repair garments — from salwar suits, blouses, and kurtas to school uniforms and formal wear. Tailoring is one of India's most widespread self-employment professions, practised from home or small shops. Women's tailoring (especially bridal, blouse, and designer wear) commands premium rates.",
+        "salary_range": {"min": 10000, "max": 60000, "currency": "INR/month", "note": "Home tailor to specialised boutique tailor; bridal wear commands premium"},
+        "growth_outlook": "Stable — always in demand; custom and boutique tailoring growing with fashion awareness",
+        "work_style": ["Self-employed", "Home-based / Shop", "Flexible"],
+        "required_skills": [
+            s("Stitching / Sewing", "critical"), s("Pattern Making", "important"),
+            s("Measurement & Fitting", "critical"), s("Fabric Knowledge", "important"),
+            s("Embroidery / Embellishment", "helpful"), s("Customer Service", "helpful"),
+        ],
+        "entry_paths": [
+            "Learn through family tradition or 3-6 month tailoring course",
+            "Government ITI Sewing Technology trade — 1 year (recommended)",
+            "PMKVY / NSDC free tailoring skill training programs",
+            "Start from home; register on Urban Company for steady clients",
+        ],
+        "qualifications": [
+            "No formal qualification required — stitching skill is the credential",
+            "ITI Sewing Technology certificate — 1 year (increases income and credibility)",
+            "NSDC / PMKVY Tailor Skill Certificate (free, government-backed training)",
+            "Urban Company onboarding (for home service clients)",
+        ],
+        "tags": ["tailor", "stitching", "garment", "self-employed", "no-degree"],
+    },
+    {
+        "id": "carpenter_in",
+        "title": "Carpenter / Furniture Maker",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Design, build, and repair wooden furniture, doors, windows, cabinets, and interior fixtures. Carpenters are in constant demand in construction, renovation, interior design, and furniture manufacturing. Skilled carpenters with interior wood-working expertise command significantly higher rates.",
+        "salary_range": {"min": 15000, "max": 60000, "currency": "INR/month", "note": "Daily wage carpenter to master carpenter running own workshop"},
+        "growth_outlook": "Stable — construction and real estate renovation permanently fuel demand",
+        "work_style": ["Physical", "Hands-on", "Contract/Daily wage"],
+        "required_skills": [
+            s("Woodworking Techniques", "critical"), s("Tool Proficiency", "critical"),
+            s("Measurement & Precision", "critical"), s("Furniture Design basics", "helpful"),
+            s("Physical Fitness", "important"), s("Material Knowledge", "important"),
+        ],
+        "entry_paths": [
+            "Apprenticeship under an experienced carpenter (3-6 months standard)",
+            "Government ITI Carpenter trade — 1 year (strongly recommended)",
+            "PMKVY free carpenter skill training",
+            "Work on construction sites, furniture shops, or set up own workshop",
+        ],
+        "qualifications": [
+            "No formal qualification required — skill is the credential",
+            "ITI Carpenter trade certificate — 1 year (significantly increases earnings)",
+            "NSDC / PMKVY Carpenter Skill Certificate",
+            "PM Vishwakarma Yojana recognition for traditional carpenter artisans",
+        ],
+        "tags": ["carpenter", "woodwork", "furniture", "trade", "no-degree"],
+    },
+    {
+        "id": "plumber_in",
+        "title": "Plumber",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Install, repair, and maintain water supply pipes, drainage systems, bathroom fittings, geysers, and water tanks in homes and commercial buildings. Plumbers are among the most consistently employed tradespeople — every building needs plumbing work. Skilled plumbers who handle modern bathroom fittings and sanitary ware earn significantly above daily wage.",
+        "salary_range": {"min": 15000, "max": 60000, "currency": "INR/month", "note": "Daily labour to skilled plumber on Urban Company; emergencies pay premium"},
+        "growth_outlook": "Stable — real estate construction and renovation continuously drive demand",
+        "work_style": ["Physical", "On-call", "Self-employed or contractor"],
+        "required_skills": [
+            s("Pipe Fitting & Installation", "critical"), s("Leak Detection & Repair", "critical"),
+            s("Drainage & Sanitation systems", "critical"), s("Tool proficiency", "important"),
+            s("Problem Solving", "important"), s("Physical Fitness", "important"),
+        ],
+        "entry_paths": [
+            "Apprenticeship with an experienced plumber (3-12 months)",
+            "Government ITI Plumber trade — 1 year",
+            "PMKVY free plumber skill certification",
+            "Register on Urban Company, UrbanClap for direct customer access",
+        ],
+        "qualifications": [
+            "No formal qualification required",
+            "ITI Plumber trade certificate — 1 year (significantly increases credibility and earnings)",
+            "NSDC / PMKVY Plumber Skill Certificate",
+            "Urban Company partner onboarding training",
+        ],
+        "tags": ["plumber", "plumbing", "trade", "construction", "no-degree"],
+    },
+    {
+        "id": "welder_in",
+        "title": "Welder / Fabricator",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Join, cut, and shape metal parts for construction, manufacturing, automobile repair, pipelines, and structural steel work. Welding is a skilled trade that pays well and is always in demand — especially in fabrication shops, construction sites, auto repair workshops, and manufacturing units.",
+        "salary_range": {"min": 18000, "max": 60000, "currency": "INR/month", "note": "Semi-skilled welder to certified industrial welder; MIG/TIG welders earn more"},
+        "growth_outlook": "Strong — infrastructure and manufacturing growth keeping demand high",
+        "work_style": ["Physical", "Industrial/Outdoor", "Skilled trade"],
+        "required_skills": [
+            s("Welding Techniques (MIG, TIG, ARC)", "critical"), s("Metal Fabrication", "important"),
+            s("Safety Practices", "critical"), s("Blueprint Reading basics", "helpful"),
+            s("Tool Proficiency", "critical"), s("Physical Fitness", "important"),
+        ],
+        "entry_paths": [
+            "Government ITI Welder trade — 1 year (most common path)",
+            "Apprenticeship at fabrication shop or construction site",
+            "NSDC / PMKVY free welder skill training",
+            "Certification from Boiler Inspection Authority for pressure vessel welding (higher pay)",
+        ],
+        "qualifications": [
+            "No formal degree required",
+            "ITI Welder trade certificate — 1 year (strongly recommended; required by most industries)",
+            "NSDC / PMKVY Welder Skill Certificate",
+            "ASME / AWS welding certification for industrial and export-level work",
+        ],
+        "tags": ["welder", "fabricator", "trade", "manufacturing", "no-degree"],
+    },
+    {
+        "id": "mason_in",
+        "title": "Mason / Construction Worker (Skilled)",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Lay bricks, concrete, stone, and tiles to build walls, floors, and structures. Skilled masons who can do plastering, tile work, waterproofing, and finishing earn significantly more than unskilled construction labour. One of India's oldest and most widespread skilled trades.",
+        "salary_range": {"min": 15000, "max": 50000, "currency": "INR/month", "note": "Unskilled helper to skilled mason; tile/marble workers earn more"},
+        "growth_outlook": "Stable — India's infrastructure and housing construction permanently creates demand",
+        "work_style": ["Physical", "Outdoor", "Site-based"],
+        "required_skills": [
+            s("Bricklaying & Plastering", "critical"), s("Tiling & Flooring", "important"),
+            s("Concrete Mixing & Casting", "important"), s("Measurement & Levelling", "critical"),
+            s("Physical Fitness", "critical"), s("Material Knowledge", "helpful"),
+        ],
+        "entry_paths": [
+            "Learn on construction sites as a helper and apprentice (most common)",
+            "Government ITI Mason trade — 1 year",
+            "PMKVY / NSDC free construction skills training (Infrastructure sector)",
+            "National Skill Development Corporation (NSDC) Real Estate & Construction skills",
+        ],
+        "qualifications": [
+            "No formal qualification required",
+            "ITI Mason / Building Construction Worker trade certificate",
+            "NSDC / PMKVY Masonry Skill Certificate",
+            "CIDC (Construction Industry Development Council) skill certificate",
+        ],
+        "tags": ["mason", "construction", "bricklayer", "trade", "no-degree"],
+    },
+    {
+        "id": "domestic_cook_in",
+        "title": "Domestic Cook / Personal Chef",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Cook daily meals for households — from simple home food for working families to elaborate multi-cuisine cooking for affluent households. Domestic cooks are widely employed in urban India, especially in metro cities. Cooks specialising in South Indian, North Indian, or specific regional cuisines, or those with party cooking skills, earn premium wages.",
+        "salary_range": {"min": 8000, "max": 40000, "currency": "INR/month", "note": "Simple daily cooking to specialised home chef; multiple households increases income"},
+        "growth_outlook": "Stable — dual-income urban households consistently need domestic cooks",
+        "work_style": ["Home-based", "Morning hours", "Flexible"],
+        "required_skills": [
+            s("Cooking", "critical"), s("Hygiene & Cleanliness", "critical"),
+            s("Meal Planning", "helpful"), s("Cuisine Versatility", "important"),
+            s("Reliability & Punctuality", "critical"),
+        ],
+        "entry_paths": [
+            "No formal training required — cooking skills from home are sufficient for entry",
+            "Short culinary courses from government polytechnics or NSDC",
+            "Register with domestic help agencies or platforms (Bai.co, Housr, YoHo)",
+            "Work for 2-3 households to maximise income",
+        ],
+        "qualifications": [
+            "No formal qualification required",
+            "NSDC / PMKVY Domestic Cook certificate (optional, boosts credibility)",
+            "Food Handler Certificate (some urban employers require it)",
+            "Short course in specific cuisine (useful for premium household employment)",
+        ],
+        "tags": ["cook", "domestic", "home-chef", "household", "no-degree"],
+    },
+    {
+        "id": "data_entry_operator_in",
+        "title": "Data Entry Operator",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Enter, update, and manage data in computers — typing records, updating databases, processing forms, and maintaining digital files for offices, hospitals, government departments, and BPOs. One of India's most accessible office-based jobs requiring only typing skills and basic computer knowledge. A stable stepping stone into office work.",
+        "salary_range": {"min": 10000, "max": 25000, "currency": "INR/month", "note": "Entry-level; government DEO roles pay better with job security"},
+        "growth_outlook": "Stable — always demand in offices, hospitals, and government; remote work options growing",
+        "work_style": ["Office-based or remote", "Repetitive", "Fixed hours"],
+        "required_skills": [
+            s("Typing Speed (25+ WPM)", "critical"), s("MS Office (Excel, Word)", "critical"),
+            s("Accuracy & Attention to Detail", "critical"), s("Basic Computer Knowledge", "critical"),
+            s("Data Organisation", "important"),
+        ],
+        "entry_paths": [
+            "12th pass with basic computer knowledge is enough for most private roles",
+            "Government DEO (Data Entry Operator): SSC CHSL exam or state equivalent",
+            "Typing speed certification from O-level / computer coaching centre",
+            "Start at small offices, BPOs, hospitals; apply for government DEO through SSC/UPSC",
+        ],
+        "qualifications": [
+            "12th pass (minimum for most private roles)",
+            "NIELIT O-Level certificate (government computer proficiency standard)",
+            "Typing speed certificate: 25+ WPM English / 15+ WPM Hindi (for government posts)",
+            "SSC CHSL exam for central government DEO positions",
+        ],
+        "tags": ["data-entry", "computer", "office", "bpo", "no-degree"],
+    },
+    {
+        "id": "gardener_mali_in",
+        "title": "Gardener / Mali",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Maintain gardens, lawns, plants, and green spaces at homes, housing societies, offices, hotels, parks, and institutions. Skilled gardeners who understand landscaping, plant care, and irrigation systems earn more. Opportunity to grow into landscape contractor or nursery business.",
+        "salary_range": {"min": 8000, "max": 30000, "currency": "INR/month", "note": "Gardener in single household to landscape maintenance contractor"},
+        "growth_outlook": "Growing — urban gardening boom, smart city parks, and housing society greening",
+        "work_style": ["Outdoor", "Physical", "Morning hours"],
+        "required_skills": [
+            s("Plant Care & Maintenance", "critical"), s("Lawn & Garden Maintenance", "critical"),
+            s("Pruning & Shaping", "important"), s("Watering & Irrigation", "important"),
+            s("Pest & Disease identification basics", "helpful"), s("Physical Fitness", "critical"),
+        ],
+        "entry_paths": [
+            "No formal training needed — learn through practice or family tradition",
+            "State horticulture department / agriculture university short training",
+            "Start at housing societies, bungalows, and offices",
+            "Grow into landscape contractor for corporate campuses and hotels",
+        ],
+        "qualifications": [
+            "No formal qualification required",
+            "NSDC / PMKVY Horticulture / Landscaping Skill Certificate (optional)",
+            "NHB (National Horticulture Board) training programs",
+            "ITI Horticulture assistant course (for higher income roles)",
+        ],
+        "tags": ["gardener", "mali", "horticulture", "landscape", "no-degree"],
+    },
+    {
+        "id": "laundry_worker_in",
+        "title": "Laundry / Dry Cleaning Worker & Operator",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Wash, iron, dry-clean, and deliver clothes for households and commercial clients. Traditional dhobis (washermen) are evolving into modern laundry businesses using machines, steam irons, and dry-cleaning equipment. A growing small business opportunity with platforms like Laundry Basket, Washmart, and Uclean offering franchise and aggregation models.",
+        "salary_range": {"min": 10000, "max": 60000, "currency": "INR/month", "note": "Home laundry to small laundry shop owner; franchise models scale income"},
+        "growth_outlook": "Growing — organised laundry is a growing service industry in urban India",
+        "work_style": ["Physical", "Self-employed", "Home or shop-based"],
+        "required_skills": [
+            s("Fabric Knowledge", "critical"), s("Washing & Ironing", "critical"),
+            s("Dry Cleaning techniques", "helpful"), s("Customer Service", "important"),
+            s("Machine Operation", "important"), s("Stain Removal", "important"),
+        ],
+        "entry_paths": [
+            "Learn through family trade or 1-2 week training from laundry equipment supplier",
+            "Start home pickup-delivery laundry service with a washing machine",
+            "Tie up with Uclean, Washmart, or Laundry Basket franchise for brand recognition",
+            "Serve housing societies and office complexes for bulk business",
+        ],
+        "qualifications": [
+            "No formal qualification required",
+            "NSDC laundry / dryclean skill training (optional)",
+            "GST registration + MSME/Udyam for business setup",
+            "Franchise agreement training (if taking brand franchise)",
+        ],
+        "tags": ["laundry", "dry-cleaning", "dhobi", "service", "no-degree"],
+    },
+    {
+        "id": "electrician_helper_in",
+        "title": "Electrician Helper / Wireman",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Assist licensed electricians with wiring, electrical installations, switches, panels, and repairs in homes and buildings. Wiremen can also independently handle household electrical maintenance work. The ITI Electrician trade is one of India's most popular pathways — a clear progression from helper to licensed electrician to electrical contractor.",
+        "salary_range": {"min": 12000, "max": 40000, "currency": "INR/month", "note": "Helper to licensed wireman; electrical contractor income is much higher"},
+        "growth_outlook": "Strong — construction, solar, and EV charging installation driving demand",
+        "work_style": ["Physical", "Site-based", "Skilled trade"],
+        "required_skills": [
+            s("Basic Electrical Knowledge", "critical"), s("Wiring", "critical"),
+            s("Safety Practices", "critical"), s("Tool Proficiency", "important"),
+            s("Panel & Switch Installation", "important"), s("Troubleshooting", "helpful"),
+        ],
+        "entry_paths": [
+            "Start as helper on electrical sites — learn on the job",
+            "Government ITI Electrician trade — 2 years (strongly recommended)",
+            "Wireman Licence from state electricity board after ITI / experience",
+            "PMKVY free electrical skill training for basics",
+        ],
+        "qualifications": [
+            "No formal qualification for helper roles",
+            "ITI Electrician trade certificate — 2 years (required for independent work)",
+            "Wireman / Electrical Licence from State Electricity Board (mandatory for independent electrical work)",
+            "NSDC / PMKVY Electrician Skill Certificate for entry-level",
+        ],
+        "tags": ["electrician", "wireman", "electrical", "trade", "no-degree"],
+    },
+    {
+        "id": "mobile_repair_technician_in",
+        "title": "Mobile Phone Repair Technician",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Repair smartphones, tablets, and feature phones — replacing screens, batteries, charging ports, cameras, and fixing software issues. One of India's most accessible technical businesses, startable with ₹20,000-₹1,00,000 investment. With 600M+ smartphone users in India, demand is constant and a good technician builds a loyal local clientele quickly.",
+        "salary_range": {"min": 15000, "max": 50000, "currency": "INR/month", "note": "Shop assistant to own repair shop; repair shops in malls earn more"},
+        "growth_outlook": "Strong — smartphone penetration growing; repair market massive and underserved",
+        "work_style": ["Shop-based", "Technical", "Self-employed"],
+        "required_skills": [
+            s("Smartphone Hardware Knowledge", "critical"), s("Soldering", "important"),
+            s("Screen Replacement", "critical"), s("Software Flashing & Troubleshooting", "important"),
+            s("Customer Service", "important"), s("Attention to Detail", "critical"),
+        ],
+        "entry_paths": [
+            "Learn through 3-6 month apprenticeship at a mobile repair shop",
+            "Short courses from private institutes (iRepair Academy, YouTube tutorials + practice)",
+            "NSDC / PMKVY mobile phone repair training program",
+            "Open own shop or work at mobile repair centres, service stations",
+        ],
+        "qualifications": [
+            "No formal qualification required",
+            "NSDC / PMKVY Mobile Phone Hardware Repair certificate",
+            "Private institute mobile repair certification (iRepair, etc.)",
+            "Brand service certification (Samsung, Apple Authorised — for premium service centre work)",
+        ],
+        "tags": ["mobile-repair", "smartphone", "technician", "self-employed", "no-degree"],
+    },
+    {
+        "id": "ac_refrigeration_technician_in",
+        "title": "AC & Refrigeration Technician",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Install, service, and repair air conditioners, refrigerators, and cooling systems at homes, offices, and commercial establishments. One of India's best-paid technical trades — skilled AC technicians are in extreme shortage during summer months and earn excellent daily wages. A skill that's learnable in 3-6 months.",
+        "salary_range": {"min": 20000, "max": 70000, "currency": "INR/month", "note": "Peak summer earnings are very high; regular servicing contracts provide steady income"},
+        "growth_outlook": "Very strong — AC penetration rising rapidly; summer heat driving demand year-round",
+        "work_style": ["On-call", "Physical", "Self-employed or service company"],
+        "required_skills": [
+            s("Refrigeration & AC mechanics", "critical"), s("Gas Charging (R-22, R-32, R-410A)", "critical"),
+            s("Electrical basics", "important"), s("Troubleshooting", "critical"),
+            s("Tool Proficiency", "important"), s("Customer Service", "helpful"),
+        ],
+        "entry_paths": [
+            "Government ITI Refrigeration & Air Conditioning trade — 2 years (recommended)",
+            "3-6 month private AC repair training course",
+            "NSDC / PMKVY HVAC technician training (free)",
+            "Work with AC service companies (Voltas, Daikin service centres) or go independent",
+        ],
+        "qualifications": [
+            "No formal degree required",
+            "ITI RAC — Refrigeration & Air Conditioning trade certificate (2 years, preferred)",
+            "NSDC / PMKVY HVAC Technician Skill Certificate",
+            "Brand-authorised service training (Voltas, Daikin, Hitachi — for authorised service centre work)",
+        ],
+        "tags": ["ac-repair", "refrigeration", "hvac", "technician", "no-degree"],
+    },
+    {
+        "id": "beauty_parlour_worker_in",
+        "title": "Beautician / Parlour Worker",
+        "category": "Everyday Work & Trades",
+        "region": "IN",
+        "description": "Provide beauty services — facials, threading, waxing, manicure, pedicure, hair colouring, styling, and bridal make-up — at beauty parlours, salons, and as a home-visit beautician. One of India's most popular self-employment options for women, with very low entry barriers and the ability to work from home.",
+        "salary_range": {"min": 10000, "max": 60000, "currency": "INR/month", "note": "Parlour assistant to senior beautician or own parlour; bridal packages pay well"},
+        "growth_outlook": "Strong — beauty and wellness market growing 15%+ annually in India",
+        "work_style": ["Client-facing", "Flexible", "Home or salon-based"],
+        "required_skills": [
+            s("Beauty Treatments (facials, threading, waxing)", "critical"),
+            s("Hair Styling & Colouring", "important"), s("Bridal Make-up", "helpful"),
+            s("Hygiene & Sanitation", "critical"), s("Customer Service", "critical"),
+            s("Product Knowledge", "helpful"),
+        ],
+        "entry_paths": [
+            "3-6 month beautician course from private beauty academies or government ITI",
+            "Government ITI Cosmetology trade — 1 year",
+            "NSDC / PMKVY Beauty & Wellness Skill certificate (free)",
+            "Apprentice at a local salon before starting independently",
+        ],
+        "qualifications": [
+            "No formal qualification required for basic services",
+            "ITI Cosmetology trade certificate — 1 year (for salon employment and credibility)",
+            "NSDC / PMKVY Beauty & Wellness Skill Certificate",
+            "VLCC, LAKME Academy, Schwarzkopf certification for premium salon employment",
+        ],
+        "tags": ["beautician", "beauty-parlour", "cosmetology", "self-employed", "no-degree"],
+    },
+
+    # ══════════════════════════════════════════════════════
+    # EVERYDAY WORK & ACCESSIBLE TRADES — USA
+    # ══════════════════════════════════════════════════════
+    {
+        "id": "us_delivery_driver",
+        "title": "Delivery Driver",
+        "category": "Everyday Work & Trades",
+        "region": "US",
+        "description": "Deliver packages, food, or groceries for platforms like Amazon Flex, UPS, FedEx, DoorDash, Instacart, or Uber Eats. One of the largest employment categories in the US, with both W-2 (employee) and gig/independent contractor models. No degree needed — just a valid driver's licence and a reliable vehicle.",
+        "salary_range": {"min": 35000, "max": 70000, "currency": "USD/year", "note": "UPS/FedEx drivers earn $25-$30/hr; gig drivers vary by hours and market"},
+        "growth_outlook": "Very strong — e-commerce growth driving massive demand for last-mile delivery",
+        "work_style": ["Outdoor", "Physical", "Flexible or structured routes"],
+        "required_skills": [
+            s("Driving", "critical"), s("Time Management", "critical"),
+            s("Physical Fitness", "important"), s("Customer Service", "important"),
+            s("Smartphone & App navigation", "critical"),
+        ],
+        "entry_paths": [
+            "Sign up on Amazon Flex, DoorDash, Instacart, Uber Eats, or Grubhub apps",
+            "Apply directly to UPS, FedEx, USPS for route driver positions (higher pay, benefits)",
+            "Requirements: valid driver's licence, clean driving record, vehicle insurance",
+            "CDL (Commercial Driver's Licence) for larger vehicle / LTL trucking roles",
+        ],
+        "qualifications": [
+            "High school diploma or GED (preferred for company jobs; not required for gig)",
+            "Valid driver's licence (CDL for commercial truck/LTL driving)",
+            "Clean driving record (required by most employers)",
+            "DOT medical certificate for commercial driving roles",
+        ],
+        "tags": ["delivery", "driver", "gig", "amazon", "fedex", "no-degree"],
+    },
+    {
+        "id": "us_warehouse_worker",
+        "title": "Warehouse / Fulfillment Center Worker",
+        "category": "Everyday Work & Trades",
+        "region": "US",
+        "description": "Pick, pack, sort, and ship orders in warehouses and fulfillment centres for Amazon, Walmart, UPS, Target, and thousands of smaller companies. One of America's largest employment categories, often offering immediate hiring, stable income, and advancement into team lead and supervisor roles. Many companies provide on-the-job training.",
+        "salary_range": {"min": 35000, "max": 55000, "currency": "USD/year", "note": "Amazon starting pay ~$18/hr; senior roles and team leads earn more"},
+        "growth_outlook": "Strong — e-commerce and supply chain growth keeping warehouse jobs abundant",
+        "work_style": ["Physical", "Shift-based", "Structured"],
+        "required_skills": [
+            s("Physical Fitness", "critical"), s("Attention to Detail", "critical"),
+            s("Inventory Management basics", "helpful"), s("Forklift operation", "helpful"),
+            s("Reliability & Punctuality", "critical"), s("Teamwork", "important"),
+        ],
+        "entry_paths": [
+            "Apply directly on Amazon Jobs, Indeed, or company career sites",
+            "No degree required — high school diploma or GED preferred",
+            "On-the-job training provided; forklift certification earned on-site",
+            "Advance: Picker → Lead Picker → Team Lead → Operations Supervisor",
+        ],
+        "qualifications": [
+            "High school diploma or GED (preferred, not always required)",
+            "Forklift Operator Certification (OSHA-compliant; provided on-site by most employers)",
+            "OSHA 10 or 30 hour General Industry Safety card (valuable for advancement)",
+        ],
+        "tags": ["warehouse", "fulfillment", "amazon", "logistics", "no-degree"],
+    },
+    {
+        "id": "us_security_guard",
+        "title": "Security Guard / Security Officer",
+        "category": "Everyday Work & Trades",
+        "region": "US",
+        "description": "Protect buildings, people, and assets at retail stores, office buildings, hospitals, schools, events, and residential communities. Security is one of the US's largest employment sectors, with millions of jobs at companies like Allied Universal, Securitas, and G4S. Armed security officers earn significantly more.",
+        "salary_range": {"min": 30000, "max": 55000, "currency": "USD/year", "note": "Unarmed guard to armed officer; supervisors and special event security earn more"},
+        "growth_outlook": "Stable — consistent demand across all commercial, healthcare, and residential sectors",
+        "work_style": ["On-site", "Shift-based", "Physical"],
+        "required_skills": [
+            s("Alertness & Observation", "critical"), s("Communication", "important"),
+            s("Physical Fitness", "critical"), s("Integrity & Reliability", "critical"),
+            s("Emergency Response basics", "helpful"), s("Report Writing", "helpful"),
+        ],
+        "entry_paths": [
+            "High school diploma or GED",
+            "State Security Guard Licence (required in most states — 8-16 hours training + exam)",
+            "Armed Guard permit (additional training + background check + firearm qualification)",
+            "Apply to Allied Universal, Securitas, G4S, or in-house corporate security",
+        ],
+        "qualifications": [
+            "High school diploma or GED",
+            "State Security Guard Licence (mandatory in most states)",
+            "Armed Security Permit (for armed guard roles — additional training required)",
+            "CPR/AED certification (often required or preferred)",
+            "BSIS certification (California) or equivalent state-specific licence",
+        ],
+        "tags": ["security", "guard", "officer", "no-degree", "everyday-work"],
+    },
+    {
+        "id": "us_janitor_custodian",
+        "title": "Janitor / Custodian",
+        "category": "Everyday Work & Trades",
+        "region": "US",
+        "description": "Clean and maintain offices, schools, hospitals, factories, and residential buildings. Janitorial and custodial work is one of the most stable employment categories in the US — with jobs available in virtually every building and sector. Union janitor positions at schools and hospitals offer strong wages and benefits.",
+        "salary_range": {"min": 28000, "max": 50000, "currency": "USD/year", "note": "Non-union to union custodian; government and hospital janitors earn near the high end"},
+        "growth_outlook": "Stable — always required; growing healthcare facilities driving demand",
+        "work_style": ["Physical", "Shift-based", "Indoor"],
+        "required_skills": [
+            s("Cleaning Techniques", "critical"), s("Chemical Safety", "important"),
+            s("Physical Fitness", "critical"), s("Reliability", "critical"),
+            s("Equipment Operation (floor buffer, vacuum)", "helpful"),
+        ],
+        "entry_paths": [
+            "No formal education or experience required — on-the-job training provided",
+            "Apply directly to school districts, hospitals, cleaning companies, or property managers",
+            "OSHA Hazard Communication training (GHS — often provided by employer)",
+            "Join SEIU or other union for better-paying public sector custodial positions",
+        ],
+        "qualifications": [
+            "No formal qualification required",
+            "OSHA GHS / Hazard Communication training (often provided by employer)",
+            "ISSA Cleaning Industry Management Standard (CIMS) for supervisory roles",
+            "Union membership (SEIU) for government/hospital custodial positions",
+        ],
+        "tags": ["janitor", "custodian", "cleaning", "no-degree", "everyday-work"],
+    },
+    {
+        "id": "us_landscaper",
+        "title": "Landscaper / Groundskeeper",
+        "category": "Everyday Work & Trades",
+        "region": "US",
+        "description": "Maintain lawns, gardens, trees, and outdoor spaces for homes, commercial properties, golf courses, parks, and schools. Landscaping is a large, consistent employment sector in the US. Skilled landscape crew members and irrigation specialists earn well. Many landscapers eventually start their own lawn care or landscaping businesses.",
+        "salary_range": {"min": 30000, "max": 55000, "currency": "USD/year", "note": "Crew member to landscape crew lead; own business scales significantly"},
+        "growth_outlook": "Stable — residential and commercial landscaping consistently in demand",
+        "work_style": ["Outdoor", "Physical", "Seasonal variation"],
+        "required_skills": [
+            s("Lawn Mowing & Maintenance", "critical"), s("Plant Knowledge", "important"),
+            s("Power Equipment Operation", "critical"), s("Physical Fitness", "critical"),
+            s("Irrigation System basics", "helpful"), s("Pesticide Application basics", "helpful"),
+        ],
+        "entry_paths": [
+            "No degree required — join a landscaping crew to learn on the job",
+            "State Pesticide Applicator Licence for chemical applications",
+            "Certified Landscape Technician (CLT) from NALP for career advancement",
+            "Start own lawn care business with basic equipment ($2,000-$10,000 startup)",
+        ],
+        "qualifications": [
+            "No formal qualification required",
+            "State Pesticide Applicator Licence (for herbicide/pesticide application)",
+            "CLT — Certified Landscape Technician (NALP — National Association of Landscape Professionals)",
+            "OSHA 10-hour General Industry safety card",
+        ],
+        "tags": ["landscaping", "groundskeeper", "lawn-care", "no-degree", "outdoor"],
+    },
+    {
+        "id": "us_house_painter",
+        "title": "House Painter / Painting Contractor",
+        "category": "Everyday Work & Trades",
+        "region": "US",
+        "description": "Paint interior and exterior surfaces of homes and commercial buildings. Painting contractors are consistently in demand and the trade pays well — especially for those who build a client base and hire crews. Many painters eventually run their own small painting businesses.",
+        "salary_range": {"min": 38000, "max": 65000, "currency": "USD/year", "note": "Painter's helper to journeyman painter; own contracting business earns more"},
+        "growth_outlook": "Stable — construction and renovation continuously fuel demand",
+        "work_style": ["Physical", "Contract-based", "Outdoor/Indoor"],
+        "required_skills": [
+            s("Painting Techniques", "critical"), s("Surface Preparation", "critical"),
+            s("Safety at heights", "critical"), s("Colour Mixing basics", "helpful"),
+            s("Physical Fitness", "important"), s("Customer Service", "helpful"),
+        ],
+        "entry_paths": [
+            "Start as a painter's helper and learn on the job",
+            "PDCA (Painting and Decorating Contractors of America) apprenticeship program",
+            "IUPAT (International Union of Painters and Allied Trades) apprenticeship",
+            "Obtain contractor's licence in your state to run own painting business",
+        ],
+        "qualifications": [
+            "No formal degree required",
+            "PDCA or IUPAT apprenticeship (3-4 years, combines work and classroom training)",
+            "State Contractor's Licence (for running own painting business above a threshold value)",
+            "OSHA 10-hour Construction Safety card",
+        ],
+        "tags": ["painter", "painting", "contractor", "trade", "no-degree"],
+    },
+]
+
+
+def main():
+    careers = json.loads(PATH.read_text(encoding="utf-8"))
+    existing = {c["id"] for c in careers}
+    added = []
+    skipped = []
+    for c in CAREERS:
+        if c["id"] in existing:
+            skipped.append(c["id"])
+            continue
+        careers.append(c)
+        added.append(f"[{c['region']}] {c['title']}")
+
+    PATH.write_text(json.dumps(careers, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    in_n = sum(1 for c in careers if c.get("region") == "IN")
+    us_n = sum(1 for c in careers if c.get("region") == "US")
+    print(f"\nAdded {len(added)} careers. Total: {len(careers)}  (IN: {in_n}, US: {us_n})")
+    for t in added:
+        print(f"  + {t}")
+    if skipped:
+        print(f"\nSkipped (already exist): {', '.join(skipped)}")
+
+
+if __name__ == "__main__":
+    main()
