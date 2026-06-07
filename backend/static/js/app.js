@@ -122,7 +122,7 @@ async function loadCareers() {
     allCareers = c.careers || [];
     document.getElementById('stat-c').textContent = allCareers.length + '+';
     activeCollar = 'all';
-    renderCollarFilter(); renderCareerSugs(); renderCareerDropdown('');
+    renderCollarFilter(); renderCareerSugs(); renderCareerDropdown(''); renderMoreFields();
     initWelcomeBanner();
   } catch {}
 }
@@ -132,6 +132,20 @@ function quickExplore(category) {
   document.getElementById('career-search').value = category;
   filterCareers();
   document.querySelector('.sidebar').scrollIntoView({behavior:'smooth', block:'start'});
+}
+
+const HF_INITIAL = ['Technology','Healthcare','Government & Public Service','Design & Creative','Science & Research','Business & Management','Education & Training','Trades & Construction'];
+function renderMoreFields() {
+  const more = document.getElementById('hf-more');
+  if (!more || !allCareers.length) return;
+  const cats = [...new Set(allCareers.map(c => c.category))].filter(c => !HF_INITIAL.includes(c)).sort();
+  more.innerHTML = cats.map(c => `<button class="field-pill" onclick="quickExplore('${esc(c)}')">${CAT_ICONS[c]||'📌'} ${c}</button>`).join('');
+}
+function toggleMoreFields() {
+  const more = document.getElementById('hf-more');
+  const btn = document.getElementById('hf-toggle');
+  const open = more.classList.toggle('open');
+  btn.textContent = open ? 'Show fewer fields ▴' : 'Show more fields ▾';
 }
 
 async function switchRegion(r) {
