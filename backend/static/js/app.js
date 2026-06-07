@@ -4,6 +4,7 @@ let allCareers = [], selectedCareerId = null, checkedSkills = new Set();
 let region = 'IN';
 let currentCareerData = null;
 let activeCollar = 'all';
+let careerQuery = '';
 
 const COLLAR_META = [
   { key:'white', icon:'⚪', label:'White-collar' , tip:'Office & knowledge work',      clr:'#475569', bg:'#f1f5f9' },
@@ -134,6 +135,7 @@ async function switchRegion(r) {
   // reset selections that no longer apply
   selectedCareerId = null;
   document.getElementById('career-search').value = '';
+  careerQuery = '';
   document.getElementById('selected-box').style.display = 'none';
   await loadCareers();
   renderSugs();
@@ -237,9 +239,8 @@ function renderCollarFilter(q = '') {
 }
 function setCollar(key) {
   activeCollar = key;
-  const q = document.getElementById('career-search').value || '';
-  renderCollarFilter(q);
-  renderCareerDropdown(q);
+  renderCollarFilter(careerQuery);
+  renderCareerDropdown(careerQuery);
   if (key === 'all') {
     setResults(`<div class="empty"><div class="emo">🔍</div><h3>Explore any career</h3><p>Pick a collar type above, search, or choose from popular paths.</p></div>`);
   } else {
@@ -298,6 +299,7 @@ function renderCareerDropdown(q) {
 }
 function filterCareers() {
   const q = document.getElementById('career-search').value;
+  careerQuery = q;
   renderCollarFilter(q);
   renderCareerDropdown(q);
   document.getElementById('dropdown').classList.add('open');
@@ -307,9 +309,12 @@ document.addEventListener('click', e => { if(!e.target.closest('.combo')) docume
 function selectCareer(id, title) {
   selectedCareerId = id;
   document.getElementById('career-search').value = title;
+  careerQuery = '';
   document.getElementById('dropdown').classList.remove('open');
   document.getElementById('selected-box').style.display = '';
   document.getElementById('selected-name').textContent = title;
+  renderCollarFilter();
+  renderCareerDropdown('');
 }
 
 /* actions */
