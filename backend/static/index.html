@@ -581,7 +581,7 @@ const CAT_ICONS = {
 
 async function init() {
   try {
-    await get('/api/health');
+    await get('/api/health', 15000);
     setDot('g'); setLbl('Live');
   } catch { setDot('r'); setLbl('Offline'); }
   await loadCareers();
@@ -615,8 +615,26 @@ async function switchRegion(r) {
 
 function setDot(c) { document.getElementById('api-dot').className = `dot ${c}`; }
 function setLbl(t) { document.getElementById('api-lbl').textContent = t; }
-async function get(path) { const r = await fetch(API+path); if(!r.ok) throw Error(r.status); return r.json(); }
-async function post(path, body) { const r = await fetch(API+path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}); if(!r.ok) throw Error(r.status); return r.json(); }
+async function fetchJSON(path, opts, timeoutMs = 35000) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), timeoutMs);
+  try {
+    const r = await fetch(API+path, {...opts, signal: ctrl.signal});
+    if (!r.ok) throw Error(r.status);
+    return await r.json();
+  } catch (e) {
+    if (e.name === 'AbortError') throw Error('timeout');
+    throw e;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+async function get(path, timeoutMs) { return fetchJSON(path, undefined, timeoutMs); }
+async function post(path, body) { return fetchJSON(path, {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}); }
+function describeError(e) {
+  if (e && e.message === 'timeout') return 'The server is waking up from sleep (free hosting tier) — this can take up to a minute. Please try again.';
+  return `Something went wrong${e && e.message ? ` (${e.message})` : ''}. Please try again.`;
+}
 
 function switchMode(m) {
   currentCareerData = null;
@@ -774,7 +792,7 @@ async function findCareers() {
   btn.disabled = true; btn.textContent = 'Searching…';
   setResults('<div class="status"><div class="spinner"></div><p>Matching your skills…</p></div>');
   try { const d = await post('/api/recommend', {skills, region}); renderResults(d.recommendations||[]); }
-  catch(e) { setResults(`<div class="status"><p>Error: ${e.message}</p></div>`); }
+  catch(e) { setResults(`<div class="empty"><div class="emo">⚠️</div><h3>${describeError(e)}</h3><button class="full-cta" onclick="findCareers()">Try again</button></div>`); }
   btn.disabled=false; btn.textContent='Find matching careers';
 }
 async function exploreCareer() {
@@ -788,7 +806,7 @@ async function exploreCareer() {
     const [cv, gv] = await Promise.all([ get(`/api/career/${selectedCareerId}`), post(`/api/career/${selectedCareerId}/gap`, {skills: []}) ]);
     renderCareerSkillView(cv, gv);
   } catch(e) {
-    setResults(`<div class="status"><p>Error: ${e.message}</p></div>`);
+    setResults(`<div class="empty"><div class="emo">⚠️</div><h3>${describeError(e)}</h3><button class="full-cta" onclick="exploreCareer()">Try again</button></div>`);
   } finally {
     btn.disabled=false; btn.textContent='Show skills needed';
   }
@@ -912,7 +930,7 @@ async function openDetail(id, fromMode) {
   try {
     const [cv,gv] = await Promise.all([ get(`/api/career/${id}`), post(`/api/career/${id}/gap`,{skills:mySkills}) ]);
     renderDetail(cv, gv);
-  } catch(e) { document.getElementById('detail-body').innerHTML=`<div class="status"><p>Error: ${e.message}</p></div>`; }
+  } catch(e) { document.getElementById('detail-body').innerHTML=`<div class="empty"><div class="emo">⚠️</div><h3>${describeError(e)}</h3><button class="full-cta" onclick="openDetail('${id}','${fromMode}')">Try again</button></div>`; }
 }
 
 function renderDetail(cv, gv) {
