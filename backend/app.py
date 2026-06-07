@@ -36,6 +36,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.mount("/static", StaticFiles(directory=str(UI_DIR)), name="static")
+
 # --- Load data ---
 with open(DATA_DIR / "careers.json") as f:
     CAREERS: list[dict] = json.load(f)
