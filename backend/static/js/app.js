@@ -127,6 +127,13 @@ async function loadCareers() {
   } catch {}
 }
 
+function quickExplore(category) {
+  switchMode('career');
+  document.getElementById('career-search').value = category;
+  filterCareers();
+  document.querySelector('.sidebar').scrollIntoView({behavior:'smooth', block:'start'});
+}
+
 async function switchRegion(r) {
   if (r === region) return;
   region = r;
@@ -217,8 +224,11 @@ function renderCollarFilter(q = '') {
 
   let html = `<button class="collar-btn collar-all${isAll?' active':''}" data-collar="all"
     style="--c-clr:#4338ca;--c-bg:#eef2ff" onclick="setCollar('all')">
-    <span class="c-ico">🌐</span>
-    <span class="c-lbl">All careers</span>
+    <span class="c-ico-wrap"><span class="c-ico">🌐</span></span>
+    <span class="c-body">
+      <span class="c-lbl">All career paths</span>
+      <span class="c-tip">Browse the full catalogue</span>
+    </span>
     <span class="c-cnt">${total}</span>
   </button>`;
 
@@ -229,8 +239,11 @@ function renderCollarFilter(q = '') {
     const dimmed = ql && cnt === 0;
     html += `<button class="collar-btn${active?' active':''}${dimmed?' dimmed':''}" data-collar="${m.key}"
       style="--c-clr:${m.clr};--c-bg:${m.bg}" onclick="setCollar('${m.key}')" title="${m.tip}">
-      <span class="c-ico">${m.icon}</span>
-      <span class="c-lbl">${m.label.replace('-collar','')}</span>
+      <span class="c-ico-wrap"><span class="c-ico">${m.icon}</span></span>
+      <span class="c-body">
+        <span class="c-lbl">${m.label.replace('-collar',' careers')}</span>
+        <span class="c-tip">${m.tip}</span>
+      </span>
       <span class="c-cnt">${cnt}</span>
     </button>`;
   }
@@ -269,12 +282,22 @@ function showCollarCareers(collarKey) {
   for (const [cat, cs] of Object.entries(byCat)) {
     html += `<div class="collar-section">
       <div class="collar-cat-label">${CAT_ICONS[cat]||'📌'} ${cat}</div>
-      <div class="collar-career-grid">
-        ${cs.map(c=>`<div class="collar-career-card" onclick="selectAndExplore('${c.id}','${esc(c.title)}')">
-          <div class="cc-title">${c.title}</div>
-          <div class="cc-outlook">${c.growth_outlook||''}</div>
-        </div>`).join('')}
-      </div>
+      ${cs.map(c=>`<div class="card" onclick="selectAndExplore('${c.id}','${esc(c.title)}')">
+        <div class="card-body">
+          <div class="card-top">
+            <div class="cc-icon" style="--ic-clr:${meta.clr};--ic-bg:${meta.bg}">${CAT_ICONS[c.category]||meta.icon}</div>
+            <div class="cc-info">
+              <div class="cc-eyebrow">${cat}</div>
+              <div class="card-title">${c.title}</div>
+            </div>
+          </div>
+          <div class="cc-pills" style="margin-top:13px">
+            ${c.growth_outlook?`<span class="stat-pill">📈 ${c.growth_outlook}</span>`:''}
+            <span class="stat-pill">${c.region==='US'?'🇺🇸 USA':'🇮🇳 India'}</span>
+          </div>
+        </div>
+        <div class="card-foot"><div class="meta"><span>${meta.icon} ${meta.label.replace('-collar',' career')}</span></div><span class="view">Explore career →</span></div>
+      </div>`).join('')}
     </div>`;
   }
   setResults(html);
@@ -352,21 +375,31 @@ function renderResults(list) {
   if(!list.length) { setResults('<div class="empty"><div class="emo">🤔</div><h3>No matches found</h3><p>Try adding more skills — trades, soft skills, or tools you know.</p></div>'); return; }
   const hdr = `<div class="results-head"><h3>Career matches for you</h3><span class="count">${list.length} found</span></div>`;
   const cards = list.map((r,i) => {
-    const sc=r.score, c=col(sc);
+    const sc=r.score, c=col(sc), cr=r.career;
+    const meta = COLLAR_META.find(m=>m.key===cr.collar) || {clr:'#4338CA', bg:'#EEF2FF', icon:'📌', label:'Career'};
     const haves=(r.matching_skills||[]).slice(0,3).map(s=>`<span class="tag have">${s.skill}</span>`).join('');
     const needs=(r.top_gaps||[]).slice(0,2).map(s=>`<span class="tag need">${s.skill}</span>`).join('');
-    const sal = r.career.salary_range ? formatSal(r.career.salary_range) : '';
-    return `<div class="card" onclick="openDetail('${r.career.id}','skills')">
+    const sal = cr.salary_range ? formatSal(cr.salary_range) : '';
+    return `<div class="card" onclick="openDetail('${cr.id}','skills')">
       <div class="card-body">
         <div class="card-top">
-          <div class="rank ${rankClass(i)}">${i+1}</div>
-          <div><div class="card-title">${r.career.title}</div><div class="card-cat">${r.career.category}</div></div>
+          <div class="cc-icon" style="--ic-clr:${meta.clr};--ic-bg:${meta.bg}">${CAT_ICONS[cr.category]||meta.icon}</div>
+          <div class="cc-info">
+            <div class="cc-eyebrow">${cr.category}</div>
+            <div class="card-title">${cr.title}</div>
+          </div>
           <div class="score"><div class="pct" style="color:${c}">${sc}%</div><div class="pl">Match</div></div>
+        </div>
+        ${cr.description?`<p class="cc-desc">${cr.description}</p>`:''}
+        <div class="cc-pills">
+          ${sal?`<span class="stat-pill">💰 ${sal}</span>`:''}
+          <span class="stat-pill">📈 ${cr.growth_outlook||'Good'}</span>
+          <span class="stat-pill">${meta.icon} ${meta.label.replace('-collar',' collar')}</span>
         </div>
         <div class="track"><div style="width:${sc}%;background:${c}"></div></div>
         <div class="tags">${haves}${needs}</div>
       </div>
-      <div class="card-foot"><div class="meta">${sal?`<span>${sal}</span>`:''}<span>📈 ${r.career.growth_outlook||'Good'}</span></div><span class="view">View gap →</span></div>
+      <div class="card-foot"><div class="meta"><span>📋 Tap for the full skill roadmap</span></div><span class="view">View gap →</span></div>
     </div>`;
   }).join('');
   setResults(hdr + cards);
@@ -397,25 +430,31 @@ function renderCareerSkillView(cv, gv) {
   const quals = (c.qualifications||[]).map(q=>`<div class="entry">${q}</div>`).join('');
   const total = (g.gaps||[]).length;
 
+  const meta = COLLAR_META.find(m=>m.key===c.collar);
   setResults(`
     <div class="d-hero career">
+      <div class="d-icon">${CAT_ICONS[c.category]||'📌'}</div>
       <div class="d-top">
-        <div><div style="font-size:1.6rem;margin-bottom:6px">${CAT_ICONS[c.category]||'📌'}</div>
+        <div>
           <div class="d-title">${c.title}</div>
-          <div class="d-cat">${c.category}${c.collar ? ` &nbsp;·&nbsp; ${(COLLAR_META.find(m=>m.key===c.collar)||{icon:'',label:''}).icon} ${(COLLAR_META.find(m=>m.key===c.collar)||{label:c.collar}).label}-collar` : ''}</div></div>
-        <div class="d-score"><div class="n">${total}</div><div class="s">Skills</div></div>
+          <div class="d-cat">${c.category}${meta ? ` · ${meta.icon} ${meta.label}` : ''}</div>
+        </div>
+        <div class="d-score"><div class="n">${total}</div><div class="s">Skills mapped</div></div>
       </div>
-      <div class="d-track"><div style="width:100%"></div></div>
       <p class="d-desc">${c.description}</p>
-      <div class="d-meta">${sal?`<span>${sal}</span>`:''}<span>📈 ${c.growth_outlook}</span></div>
+      <div class="d-pills">
+        ${sal?`<span class="d-pill">💰 ${sal}</span>`:''}
+        <span class="d-pill">📈 ${c.growth_outlook}</span>
+        ${meta?`<span class="d-pill">${meta.icon} ${meta.tip}</span>`:''}
+      </div>
     </div>
 
-    ${quals?`<div class="box"><div class="box-title">🎓 Qualifications needed</div>${quals}</div>`:''}
+    ${quals?`<div class="box"><div class="box-title">📜 Prerequisites &amp; qualifications</div>${quals}</div>`:''}
 
-    ${entry?`<div class="box"><div class="box-title">🚀 How to enter this career</div>${entry}</div>`:''}
+    ${entry?`<div class="box"><div class="box-title">🎓 Pathways into this career</div>${entry}</div>`:''}
 
     <div class="box">
-      <div class="box-title">📋 Skills needed — tick what you already have</div>
+      <div class="box-title">📘 Curriculum — skills you'll need, tick what you already have</div>
       <div id="skill-checker">${sections}</div>
       <div class="live-box">
         <div class="k">Your live match score</div>
@@ -481,26 +520,35 @@ function renderDetail(cv, gv) {
   }).join('');
 
   const haveHtml = (g.matching_skills||[]).length
-    ? `<div class="box"><div class="box-title">✅ Skills you already have</div><div class="have-chips">${(g.matching_skills||[]).map(s=>`<span class="have-chip">${s.skill}</span>`).join('')}</div></div>` : '';
+    ? `<div class="box"><div class="box-title">✅ Skills you bring to the table</div><div class="have-chips">${(g.matching_skills||[]).map(s=>`<span class="have-chip">${s.skill}</span>`).join('')}</div></div>` : '';
   const fbs = cv.recent_feedback||[];
   const fbHtml = fbs.length ? `<div class="box"><div class="box-title">💬 Community feedback</div>
     ${fbs.map(f=>`<div class="fb"><div class="fb-top"><span class="fb-stars">${'★'.repeat(f.rating)}${'☆'.repeat(5-f.rating)}</span>${f.pursuing?'<span class="pursuing">Pursuing</span>':''}</div>${f.comment?`<p class="fb-comment">${f.comment}</p>`:''}</div>`).join('')}</div>` : '';
-  const entryHtml = (c.entry_paths||[]).length ? `<div class="box"><div class="box-title">🚀 How to enter this career</div>${(c.entry_paths||[]).map(p=>`<div class="entry">${p}</div>`).join('')}</div>` : '';
+  const entryHtml = (c.entry_paths||[]).length ? `<div class="box"><div class="box-title">🎓 Pathways into this career</div>${(c.entry_paths||[]).map(p=>`<div class="entry">${p}</div>`).join('')}</div>` : '';
   const aiHtml = g.ai_advice ? `<div class="ai-box"><h3>🤖 AI coaching tips</h3><p>${g.ai_advice}</p></div>` : '';
   const sal = c.salary_range ? formatSal(c.salary_range) : '';
+  const meta = COLLAR_META.find(m=>m.key===c.collar);
 
   document.getElementById('detail-body').innerHTML = `
     <div class="d-hero skills">
+      <div class="d-icon">${CAT_ICONS[c.category]||'📌'}</div>
       <div class="d-top">
-        <div><div class="d-title">${c.title}</div><div class="d-cat">${c.category}</div></div>
-        <div class="d-score"><div class="n">${sc}%</div><div class="s">Match</div></div>
+        <div>
+          <div class="d-title">${c.title}</div>
+          <div class="d-cat">${c.category}${meta ? ` · ${meta.icon} ${meta.label}` : ''}</div>
+        </div>
+        <div class="d-score"><div class="n">${sc}%</div><div class="s">Your match</div></div>
       </div>
       <div class="d-track"><div style="width:${sc}%"></div></div>
       <p class="d-desc">${c.description}</p>
-      <div class="d-meta">${sal?`<span>${sal}</span>`:''}<span>📈 ${c.growth_outlook}</span>${cv.avg_rating?`<span>⭐ ${cv.avg_rating}/5 (${cv.rating_count})</span>`:''}</div>
+      <div class="d-pills">
+        ${sal?`<span class="d-pill">💰 ${sal}</span>`:''}
+        <span class="d-pill">📈 ${c.growth_outlook}</span>
+        ${cv.avg_rating?`<span class="d-pill">⭐ ${cv.avg_rating}/5 · ${cv.rating_count} reviews</span>`:''}
+      </div>
     </div>
     ${haveHtml}
-    ${(g.gaps||[]).length?`<div class="box"><div class="box-title">📋 Skills to develop</div>${gapHtml}</div>`:`<div class="box"><p style="color:var(--ok);font-weight:600">🎉 You have all required skills for this career!</p></div>`}
+    ${(g.gaps||[]).length?`<div class="box"><div class="box-title">📘 Skill gaps to close</div>${gapHtml}</div>`:`<div class="box"><p style="color:var(--ok);font-weight:600">🎉 You have all required skills for this career!</p></div>`}
     ${entryHtml}
     ${aiHtml}
     <div class="box">
