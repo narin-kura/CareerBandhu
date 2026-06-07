@@ -221,6 +221,23 @@ function renderCollarFilter(q = '') {
   for (const c of pool) counts[c.collar] = (counts[c.collar]||0) + 1;
   const total = pool.length;
   const isAll = activeCollar === 'all';
+  const activeMeta = COLLAR_META.find(m => m.key === activeCollar);
+
+  const trigger = document.getElementById('collar-trigger');
+  if (trigger) {
+    const trgIcon = isAll ? '🌐' : (activeMeta ? activeMeta.icon : '🌐');
+    trigger.style.setProperty('--c-clr', isAll ? '#4338ca' : (activeMeta ? activeMeta.clr : '#4338ca'));
+    trigger.style.setProperty('--c-bg', isAll ? '#eef2ff' : (activeMeta ? activeMeta.bg : '#eef2ff'));
+    trigger.innerHTML = `
+      <span class="c-ico-wrap"><span class="c-ico">${trgIcon}</span></span>
+      <span class="c-body">
+        <span class="c-lbl">${isAll ? 'All career paths' : activeMeta.label.replace('-collar',' careers')}</span>
+        <span class="c-tip">${isAll ? 'Browse the full catalogue' : activeMeta.tip}</span>
+      </span>
+      <span class="c-cnt">${isAll ? total : (counts[activeCollar] || 0)}</span>
+      <span class="collar-chev">▾</span>
+    `;
+  }
 
   let html = `<button class="collar-btn collar-all${isAll?' active':''}" data-collar="all"
     style="--c-clr:#4338ca;--c-bg:#eef2ff" onclick="setCollar('all')">
@@ -247,13 +264,25 @@ function renderCollarFilter(q = '') {
       <span class="c-cnt">${cnt}</span>
     </button>`;
   }
-  const el = document.getElementById('collar-filter');
+  const el = document.getElementById('collar-dropdown');
   if (el) el.innerHTML = html;
 }
+function toggleCollarDrop(e) {
+  e.stopPropagation();
+  const dd = document.getElementById('collar-dropdown');
+  const open = dd.classList.toggle('open');
+  document.getElementById('collar-trigger').setAttribute('aria-expanded', open ? 'true' : 'false');
+}
+function closeCollarDrop() {
+  document.getElementById('collar-dropdown').classList.remove('open');
+  document.getElementById('collar-trigger').setAttribute('aria-expanded', 'false');
+}
+document.addEventListener('click', e => { if (!e.target.closest('.collar-combo')) closeCollarDrop(); });
 function setCollar(key) {
   activeCollar = key;
   renderCollarFilter(careerQuery);
   renderCareerDropdown(careerQuery);
+  closeCollarDrop();
   if (key === 'all') {
     setResults(`<div class="empty"><div class="emo">🔍</div><h3>Explore any career</h3><p>Pick a collar type above, search, or choose from popular paths.</p></div>`);
   } else {

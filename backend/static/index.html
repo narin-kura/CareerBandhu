@@ -91,7 +91,10 @@
           <div class="collar-label" style="margin-bottom:0">Select work type</div>
           <button class="collar-info-btn" onclick="openCollarGuide()" title="What are collar types?">ⓘ What's this?</button>
         </div>
-        <div class="collar-grid" id="collar-filter"></div>
+        <div class="collar-combo" id="collar-combo">
+          <button type="button" class="collar-trigger" id="collar-trigger" onclick="toggleCollarDrop(event)" aria-haspopup="listbox" aria-expanded="false"></button>
+          <div class="collar-dropdown" id="collar-dropdown" role="listbox"></div>
+        </div>
 
         <div class="or-divider"><span>or search by title</span></div>
 

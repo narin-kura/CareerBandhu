@@ -119,7 +119,13 @@ nav { background: rgba(255,255,255,.85); backdrop-filter: saturate(180%) blur(12
 
 /* collar selector — "browse by path" catalog rows */
 .collar-label { font-size: .68rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--mut-2); margin-bottom: 9px; }
-.collar-grid { display: flex; flex-direction: column; gap: 6px; margin-bottom: 4px; }
+.collar-combo { position: relative; margin-bottom: 4px; }
+.collar-trigger { width: 100%; display: flex; align-items: center; gap: 12px; padding: 9px 12px; border-radius: 14px; border: 1.5px solid var(--line); background: var(--c-bg, var(--sur)); cursor: pointer; font-family: inherit; text-align: left; transition: all .15s; }
+.collar-trigger:hover { border-color: var(--c-clr, var(--nv)); }
+.collar-trigger .collar-chev { margin-left: auto; flex-shrink: 0; font-size: .7rem; color: var(--mut); transition: transform .15s; }
+.collar-trigger[aria-expanded="true"] .collar-chev { transform: rotate(180deg); }
+.collar-dropdown { position: absolute; top: calc(100% + 6px); left: 0; right: 0; display: none; flex-direction: column; gap: 6px; background: #fff; border: 1px solid var(--line); border-radius: 14px; max-height: 380px; overflow-y: auto; z-index: 30; box-shadow: var(--sh-lg); padding: 8px; }
+.collar-dropdown.open { display: flex; }
 .collar-btn { display: flex; align-items: center; gap: 12px; padding: 9px 12px; border-radius: 14px; border: 1.5px solid var(--line); background: var(--sur); cursor: pointer; font-family: inherit; text-align: left; transition: all .15s; min-width: 0; }
 .collar-btn:hover { border-color: var(--c-clr, var(--nv)); background: var(--c-bg, var(--nv-l)); transform: translateX(2px); }
 .collar-btn.active { border-color: var(--c-clr, var(--nv)); background: var(--c-clr, var(--nv)); color: #fff; box-shadow: 0 4px 14px color-mix(in srgb, var(--c-clr, var(--nv)) 32%, transparent); }
@@ -137,7 +143,6 @@ nav { background: rgba(255,255,255,.85); backdrop-filter: saturate(180%) blur(12
 .collar-all .c-ico-wrap { background: linear-gradient(135deg, #4338CA, #6D28D9); }
 .collar-all .c-ico { color: #fff; }
 .collar-all.active .c-ico-wrap { background: rgba(255,255,255,.22); }
-@media(min-width: 1180px){ .collar-grid { display: grid; grid-template-columns: 1fr 1fr; } .collar-all { grid-column: 1 / -1; } }
 
 /* search section divider */
 .or-divider { display: flex; align-items: center; gap: 10px; margin: 14px 0 12px; }
