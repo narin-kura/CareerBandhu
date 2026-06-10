@@ -305,6 +305,14 @@ nav { background: rgba(255,255,255,.85); backdrop-filter: saturate(180%) blur(12
 .entry:last-child { border-bottom: none; }
 .entry::before { content: '→'; color: var(--sf); font-weight: 700; flex-shrink: 0; }
 
+.src-note { font-size: .8rem; color: var(--mut); margin-bottom: 12px; line-height: 1.5; }
+.src-link { display: flex; align-items: center; gap: 11px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; text-decoration: none; margin-bottom: 8px; transition: background .15s, border-color .15s; }
+.src-link:last-child { margin-bottom: 0; }
+.src-link:hover { background: var(--sf-l); border-color: var(--sf-bd); }
+.src-ico { font-size: 1.2rem; flex-shrink: 0; }
+.src-name { display: block; font-size: .82rem; font-weight: 700; color: var(--ink); }
+.src-desc { display: block; font-size: .74rem; color: var(--mut); margin-top: 1px; }
+
 .ai-box { background: linear-gradient(135deg, var(--ok-l), #fff); border: 1px solid var(--ok-bd); border-radius: 16px; padding: 20px; margin-bottom: 13px; }
 .ai-box h3 { font-size: .9rem; font-weight: 700; color: var(--ok); margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
 .ai-box p { font-size: .86rem; line-height: 1.75; color: #166534; white-space: pre-line; }

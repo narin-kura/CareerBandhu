@@ -496,6 +496,8 @@ function renderCareerSkillView(cv, gv) {
 
     ${entry?`<div class="box"><div class="box-title">🎓 Pathways into this career</div>${entry}</div>`:''}
 
+    ${renderSources(c)}
+
     <div class="box">
       <div class="box-title">📘 Curriculum — skills you'll need, tick what you already have</div>
       <div id="skill-checker">${sections}</div>
@@ -532,6 +534,27 @@ function updateLiveScore(c) {
 function formatSal(sr) {
   if(sr.currency==='INR/month') return `₹${(sr.min/1000)|0}k–₹${(sr.max/1000)|0}k/mo`;
   return `$${(sr.min/1000)|0}k–$${(sr.max/1000)|0}k/yr`;
+}
+
+const REGION_SOURCES = {
+  IN: [
+    { icon:'🇮🇳', label:'National Career Service (Govt. of India)', desc:'Career guidance, qualifications & job market info', url:'https://www.ncs.gov.in/' },
+    { icon:'💰', label:'AmbitionBox', desc:'Salary insights reported by employees in India', url:'https://www.ambitionbox.com/' },
+  ],
+  US: [
+    { icon:'🇺🇸', label:'Bureau of Labor Statistics — Occupational Outlook Handbook', desc:'Pay, growth outlook & how to qualify', url:'https://www.bls.gov/ooh/' },
+    { icon:'🎓', label:'O*NET OnLine', desc:'Skills, tasks & qualifications by occupation', url:'https://www.onetonline.org/' },
+  ],
+};
+
+function renderSources(c) {
+  const srcs = REGION_SOURCES[c.region] || [];
+  if (!srcs.length) return '';
+  return `<div class="box src-box">
+    <div class="box-title">🔗 Sources &amp; references</div>
+    <p class="src-note">Salary, growth outlook, and qualification details above are estimates compiled for guidance — verify current figures with these sources:</p>
+    ${srcs.map(s => `<a class="src-link" href="${s.url}" target="_blank" rel="noopener"><span class="src-ico">${s.icon}</span><span><span class="src-name">${s.label}</span><span class="src-desc">${s.desc}</span></span></a>`).join('')}
+  </div>`;
 }
 
 async function openDetail(id, fromMode) {
@@ -593,6 +616,7 @@ function renderDetail(cv, gv) {
     ${haveHtml}
     ${(g.gaps||[]).length?`<div class="box"><div class="box-title">📘 Skill gaps to close</div>${gapHtml}</div>`:`<div class="box"><p style="color:var(--ok);font-weight:600">🎉 You have all required skills for this career!</p></div>`}
     ${entryHtml}
+    ${renderSources(c)}
     ${aiHtml}
     <div class="box">
       <div class="box-title">⭐ Rate this career ${cv.avg_rating?`<span style="margin-left:auto;font-size:.74rem;color:var(--mut);font-weight:400">${cv.avg_rating}/5 · ${cv.rating_count} ratings</span>`:''}</div>
