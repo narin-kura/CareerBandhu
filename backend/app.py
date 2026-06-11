@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Optional
 
 from fastapi import FastAPI, HTTPException
+from fastapi.concurrency import run_in_threadpool
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
@@ -178,7 +179,8 @@ Be encouraging, practical, and mention realistic timelines. Start directly with 
 
 
 def _ai_advice_gemini(prompt: str, api_key: str) -> str:
-    genai.configure(api_key=api_key)
+    # REST transport: default gRPC channels hang silently on Cloud Run's gVisor sandbox
+    genai.configure(api_key=api_key, transport="rest")
     model = genai.GenerativeModel("gemini-2.5-flash")
     response = model.generate_content(prompt, request_options={"timeout": 30})
     return response.text
@@ -329,7 +331,8 @@ async def gap_analysis(career_id: str, req: GapRequest):
 
     match = calculate_match(req.skills, career)
     gap_resources = {g["skill"]: get_resources_for(g["skill"]) for g in match["gaps"]}
-    ai_advice = get_ai_advice(req.skills, career, match["score"], match["gaps"])
+    # threadpool: LLM call must not block the event loop
+    ai_advice = await run_in_threadpool(get_ai_advice, req.skills, career, match["score"], match["gaps"])
 
     return {
         "career_id": career_id,
