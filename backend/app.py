@@ -179,7 +179,7 @@ Be encouraging, practical, and mention realistic timelines. Start directly with 
 
 def _ai_advice_gemini(prompt: str, api_key: str) -> str:
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
     response = model.generate_content(prompt, request_options={"timeout": 30})
     return response.text
 
