@@ -185,7 +185,7 @@ def _ai_advice_gemini(prompt: str, api_key: str) -> str:
 
 
 def _ai_advice_anthropic(prompt: str, api_key: str) -> str:
-    client = anthropic.Anthropic(api_key=api_key)
+    client = anthropic.Anthropic(api_key=api_key, timeout=30.0, max_retries=1)
     message = client.messages.create(
         model="claude-haiku-4-5",
         max_tokens=600,
