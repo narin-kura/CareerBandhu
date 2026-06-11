@@ -54,6 +54,38 @@
   </div>
 </header>
 
+<!-- How it works intro -->
+<section class="intro" id="how-it-works" aria-label="How CareerBandhuv works">
+  <div class="intro-head">
+    <span class="hf-label">How it works</span>
+    <h2>Four parts, one simple page</h2>
+  </div>
+  <div class="intro-grid">
+    <div class="intro-card">
+      <div class="ic-top"><span class="ic-num">1</span><span class="ic-emo">🌏</span></div>
+      <h3>Pick your region</h3>
+      <p>Use the <b>🇮🇳 / 🇺🇸 switch</b> in the top bar. Careers, qualifications, entry exams and salary figures all change to match your country.</p>
+    </div>
+    <button type="button" class="intro-card clickable" onclick="switchMode('career'); document.querySelector('.main').scrollIntoView({behavior:'smooth'})">
+      <div class="ic-top"><span class="ic-num">2</span><span class="ic-emo">🔍</span></div>
+      <h3>Explore careers</h3>
+      <p>In the <b>left panel</b>, pick a colour-coded work type — office, hands-on, creative, government and more — or just search any job title.</p>
+      <span class="ic-go">Try it →</span>
+    </button>
+    <button type="button" class="intro-card clickable" onclick="switchMode('skills'); document.querySelector('.main').scrollIntoView({behavior:'smooth'})">
+      <div class="ic-top"><span class="ic-num">3</span><span class="ic-emo">🎯</span></div>
+      <h3>Or start from your skills</h3>
+      <p>Switch to <b>“I have skills”</b>, add what you already know — cooking, driving, Python, anything — and we rank the careers that fit you best.</p>
+      <span class="ic-go">Try it →</span>
+    </button>
+    <div class="intro-card">
+      <div class="ic-top"><span class="ic-num">4</span><span class="ic-emo">📋</span></div>
+      <h3>Read the career sheet</h3>
+      <p>Every result opens a full sheet: skills needed, qualifications, entry paths and estimated salary — use <b>← Back</b> to compare more.</p>
+    </div>
+  </div>
+</section>
+
 <div class="toggle-wrap">
   <div class="toggle">
     <button id="tab-career" class="on career" onclick="switchMode('career')">🔍 Explore careers <span class="lbl-long">— browse &amp; discover</span></button>

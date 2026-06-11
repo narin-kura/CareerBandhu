@@ -71,6 +71,24 @@ nav { background: rgba(255,255,255,.85); backdrop-filter: saturate(180%) blur(12
 .hf-toggle { display: block; margin: 12px auto 0; font-family: inherit; font-size: .76rem; font-weight: 700; color: var(--sf-d); background: none; border: none; cursor: pointer; padding: 4px 10px; }
 .hf-toggle:hover { text-decoration: underline; }
 
+/* ---------- INTRO / HOW IT WORKS ---------- */
+.intro { max-width: 1140px; margin: 0 auto; padding: 10px clamp(16px,4vw,32px) 18px; }
+.intro-head { text-align: center; margin-bottom: 16px; }
+.intro-head h2 { font-size: 1.25rem; font-weight: 800; color: var(--ink); margin-top: 2px; }
+.intro-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+@media(max-width:980px){ .intro-grid { grid-template-columns: repeat(2, 1fr); } }
+@media(max-width:520px){ .intro-grid { grid-template-columns: 1fr; } }
+.intro-card { text-align: left; background: var(--sur); border: 1px solid var(--line); border-radius: 16px; padding: 18px 18px 16px; box-shadow: var(--sh-sm); display: flex; flex-direction: column; }
+.intro-card.clickable { font-family: inherit; cursor: pointer; transition: border-color .15s, transform .12s, box-shadow .15s; }
+.intro-card.clickable:hover { border-color: var(--sf); transform: translateY(-2px); box-shadow: var(--sh-md); }
+.ic-top { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.ic-num { width: 24px; height: 24px; border-radius: 999px; background: var(--sf-l); color: var(--sf-d); border: 1px solid var(--sf-bd); font-family: 'Sora'; font-weight: 800; font-size: .76rem; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.ic-emo { font-size: 1.25rem; line-height: 1; }
+.intro-card h3 { font-size: .94rem; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
+.intro-card p { font-size: .8rem; color: var(--mut); line-height: 1.55; }
+.intro-card p b { color: var(--ink-2); font-weight: 600; }
+.ic-go { margin-top: 10px; font-size: .76rem; font-weight: 700; color: var(--sf-d); }
+
 /* ---------- MODE TOGGLE ---------- */
 .toggle-wrap { display: flex; justify-content: center; padding: 8px 20px 4px; }
 .toggle { display: inline-flex; background: #F1EFEC; border: 1px solid var(--line); border-radius: 12px; padding: 4px; gap: 4px; box-shadow: var(--sh-sm); }
