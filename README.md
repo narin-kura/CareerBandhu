@@ -10,6 +10,8 @@ pinned: false
 
 # CareerBandhuv 🌍
 
+[![Live App](https://img.shields.io/badge/Live%20App-Hugging%20Face-indigo?style=flat-square&logo=huggingface)](https://knnarin-careerbandhuv.hf.space)
+
 **Your AI-powered career companion** — *A true friend for your career journey*
 
 Discover the right career based on your current skills. Get a personalized skill gap analysis, curated learning resources, and AI coaching tips to bridge the gap. Rate and explore career paths recommended by the community.
