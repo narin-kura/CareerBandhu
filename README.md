@@ -10,7 +10,8 @@ pinned: false
 
 # CareerBandhuv 🌍
 
-[![Live App](https://img.shields.io/badge/Live%20App-Hugging%20Face-indigo?style=flat-square&logo=huggingface)](https://knnarin-careerbandhuv.hf.space)
+[![Hugging Face](https://img.shields.io/badge/Live%20App-Hugging%20Face-indigo?style=flat-square&logo=huggingface)](https://knnarin-careerbandhuv.hf.space)
+[![Google Cloud Run](https://img.shields.io/badge/Live%20App-GCP%20Cloud%20Run-indigo?style=flat-square&logo=google-cloud)](https://careerbandhuv-982110430844.us-central1.run.app/)
 
 **Your AI-powered career companion** — *A true friend for your career journey*
 
