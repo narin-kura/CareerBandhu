@@ -18,9 +18,15 @@ from pydantic import BaseModel
 
 try:
     import anthropic
-    _AI_AVAILABLE = True
+    _ANTHROPIC_AVAILABLE = True
 except ImportError:
-    _AI_AVAILABLE = False
+    _ANTHROPIC_AVAILABLE = False
+
+try:
+    import google.generativeai as genai
+    _GEMINI_AVAILABLE = True
+except ImportError:
+    _GEMINI_AVAILABLE = False
 
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
@@ -145,15 +151,8 @@ def get_resources_for(skill: str) -> list[dict]:
 
 
 def get_ai_advice(skills: list[str], career: dict, score: float, gaps: list[dict]) -> Optional[str]:
-    if not _AI_AVAILABLE:
-        return None
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        return None
-    try:
-        client = anthropic.Anthropic(api_key=api_key)
-        top_gaps = [g["skill"] for g in gaps if g["level"] in ("critical", "important")][:5]
-        prompt = f"""A person wants to become a {career['title']}.
+    top_gaps = [g["skill"] for g in gaps if g["level"] in ("critical", "important")][:5]
+    prompt = f"""A person wants to become a {career['title']}.
 Current skills: {', '.join(skills) if skills else 'none listed'}.
 Match score: {score}%.
 Critical/important skills still needed: {', '.join(top_gaps) if top_gaps else 'none — great match!'}.
@@ -161,14 +160,38 @@ Critical/important skills still needed: {', '.join(top_gaps) if top_gaps else 'n
 Give 3 specific, actionable tips (2-3 sentences each) to help them transition into this career.
 Be encouraging, practical, and mention realistic timelines. Start directly with Tip 1."""
 
-        message = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=600,
-            messages=[{"role": "user", "content": prompt}]
-        )
-        return message.content[0].text
-    except Exception:
-        return None
+    gemini_key = os.environ.get("GEMINI_API_KEY")
+    if _GEMINI_AVAILABLE and gemini_key:
+        try:
+            return _ai_advice_gemini(prompt, gemini_key)
+        except Exception:
+            pass
+
+    anthropic_key = os.environ.get("ANTHROPIC_API_KEY")
+    if _ANTHROPIC_AVAILABLE and anthropic_key:
+        try:
+            return _ai_advice_anthropic(prompt, anthropic_key)
+        except Exception:
+            pass
+
+    return None
+
+
+def _ai_advice_gemini(prompt: str, api_key: str) -> str:
+    genai.configure(api_key=api_key)
+    model = genai.GenerativeModel("gemini-1.5-flash")
+    response = model.generate_content(prompt, request_options={"timeout": 30})
+    return response.text
+
+
+def _ai_advice_anthropic(prompt: str, api_key: str) -> str:
+    client = anthropic.Anthropic(api_key=api_key)
+    message = client.messages.create(
+        model="claude-haiku-4-5",
+        max_tokens=600,
+        messages=[{"role": "user", "content": prompt}]
+    )
+    return message.content[0].text
 
 
 # --- Routes ---
