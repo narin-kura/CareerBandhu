@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Runtime data
+*.db
+ratings.db
+
+# Node / Expo (mobile/)
+node_modules/
+.expo/
+mobile/node_modules/
+mobile/.expo/
+web-build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
