@@ -1,7 +1,7 @@
 # Copyright (c) 2025-2026 K.N.Narin (github.com/narin-kura). All rights reserved.
 # Non-commercial use only. Commercial use requires written permission: github.com/narin-kura
 # See LICENSE for full terms.
-"""CareerBandhuv — Career Guidance API"""
+"""CareerBandhu — Career Guidance API"""
 
 from __future__ import annotations
 import json
@@ -38,7 +38,7 @@ DATA_DIR = BASE_DIR / "data"
 UI_DIR = BASE_DIR / "static"
 DB_PATH = BASE_DIR / "ratings.db"
 
-app = FastAPI(title="CareerBandhuv API", version="1.0.0")
+app = FastAPI(title="CareerBandhu API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -208,12 +208,12 @@ async def root():
     index = UI_DIR / "index.html"
     if index.exists():
         return FileResponse(str(index), media_type="text/html")
-    return {"name": "CareerBandhuv API", "version": "1.0.0", "status": "running"}
+    return {"name": "CareerBandhu API", "version": "1.0.0", "status": "running"}
 
 
 @app.get("/api/health")
 async def health():
-    return {"name": "CareerBandhuv API", "version": "1.0.0", "status": "running"}
+    return {"name": "CareerBandhu API", "version": "1.0.0", "status": "running"}
 
 
 @app.get("/api/skills")

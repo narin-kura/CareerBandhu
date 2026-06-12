@@ -20,7 +20,7 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git remote add hf https://knnarin:$HF_TOKEN@huggingface.co/spaces/knnarin/careerbandhuv
+          git remote add hf https://knnarin:$HF_TOKEN@huggingface.co/spaces/knnarin/careerbandhu
 
           success=false
           for i in 1 2 3; do
@@ -44,12 +44,12 @@ jobs:
 
       - name: Summary
         run: |
-          echo "## CareerBandhuv Deployed" >> $GITHUB_STEP_SUMMARY
+          echo "## CareerBandhu Deployed" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**Live URL:** https://knnarin-careerbandhuv.hf.space" >> $GITHUB_STEP_SUMMARY
+          echo "**Live URL:** https://knnarin-careerbandhu.hf.space" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| | |" >> $GITHUB_STEP_SUMMARY
           echo "|---|---|" >> $GITHUB_STEP_SUMMARY
-          echo "| Space | [knnarin/careerbandhuv](https://huggingface.co/spaces/knnarin/careerbandhuv) |" >> $GITHUB_STEP_SUMMARY
+          echo "| Space | [knnarin/careerbandhu](https://huggingface.co/spaces/knnarin/careerbandhu) |" >> $GITHUB_STEP_SUMMARY
           echo "| Commit | \`${{ github.sha }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| Triggered by | ${{ github.actor }} |" >> $GITHUB_STEP_SUMMARY

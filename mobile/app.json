@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "CareerBandhuv",
-    "slug": "careerbandhuv",
+    "name": "CareerBandhu",
+    "slug": "careerbandhu",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "careerbandhuv",
+    "scheme": "careerbandhu",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -14,14 +14,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.careerbandhuv.app"
+      "bundleIdentifier": "com.careerbandhu.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#6366f1"
       },
-      "package": "com.careerbandhuv.app"
+      "package": "com.careerbandhu.app"
     },
     "web": {
       "bundler": "metro",

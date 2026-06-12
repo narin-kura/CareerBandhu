@@ -1,7 +1,7 @@
 import urllib.request, json, time
 
 TOKEN = "YOUR_GITHUB_TOKEN_HERE"  # set via env: export GITHUB_TOKEN=...
-REPO  = "narin-kura/loka-bandhuv"
+REPO  = "narin-kura/CareerBandhu"
 BASE  = f"https://api.github.com/repos/{REPO}"
 HEADERS = {
     "Authorization": f"Bearer {TOKEN}",
@@ -31,15 +31,15 @@ issues = [
     (1, ["testing","backend"], "Test FastAPI backend locally",
      "Run `cd backend && pip install -r requirements.txt && python app.py`. Hit http://localhost:8000/docs to verify all endpoints."),
     (1, ["testing","backend"], "Verify HF Spaces deployment is live",
-     "Check https://knnarin-careerbandhuv.hf.space returns API status. Test /api/careers and /api/recommend endpoints."),
+     "Check https://knnarin-careerbandhu.hf.space returns API status. Test /api/careers and /api/recommend endpoints."),
     (1, ["testing","mobile"],  "Connect Expo app to live HF Spaces API",
-     "Set EXPO_PUBLIC_API_URL=https://knnarin-careerbandhuv.hf.space in mobile/.env and test the full flow on a real device."),
+     "Set EXPO_PUBLIC_API_URL=https://knnarin-careerbandhu.hf.space in mobile/.env and test the full flow on a real device."),
     (1, ["testing"],           "End-to-end test: skills to career to rating",
      "Full journey: add 5 skills, see recommendations, open a career, run gap analysis, submit a rating. Verify data saves in DB."),
 
     # Phase 2 - Mobile Polish
     (2, ["mobile"],  "Design and add app icon and splash screen",
-     "Create a CareerBandhuv icon (1024x1024) and splash screen (2048x2048) with indigo brand color. Place in mobile/assets/."),
+     "Create a CareerBandhu icon (1024x1024) and splash screen (2048x2048) with indigo brand color. Place in mobile/assets/."),
     (2, ["mobile"],  "Add skeleton loading states for career cards",
      "Replace ActivityIndicator spinners with animated skeleton placeholders while career data loads."),
     (2, ["mobile"],  "Add empty state illustrations",
@@ -91,11 +91,11 @@ issues = [
     (5, ["web","infra"], "Deploy web build to Vercel",
      "Create a Vercel project, set root to mobile/, build command to `npx expo export --platform web`, output dir to `dist/`."),
     (5, ["web"],         "Set EXPO_PUBLIC_API_URL environment variable on Vercel",
-     "In Vercel project settings -> Environment Variables -> add EXPO_PUBLIC_API_URL=https://knnarin-careerbandhuv.hf.space"),
-    (5, ["web"],         "Register domain careerbandhuv.com",
-     "Register careerbandhuv.com on Namecheap or GoDaddy (~$10/year). Point DNS to Vercel."),
+     "In Vercel project settings -> Environment Variables -> add EXPO_PUBLIC_API_URL=https://knnarin-careerbandhu.hf.space"),
+    (5, ["web"],         "Register domain careerbandhu.com",
+     "Register careerbandhu.com on Namecheap or GoDaddy (~$10/year). Point DNS to Vercel."),
     (5, ["web"],         "Add SEO meta tags and Open Graph images",
-     "Add title, description, og:image, og:title, twitter:card meta tags. Create a 1200x630 OG image with the CareerBandhuv brand."),
+     "Add title, description, og:image, og:title, twitter:card meta tags. Create a 1200x630 OG image with the CareerBandhu brand."),
     (5, ["web"],         "Set up Google Analytics on web build",
      "Add GA4 tracking. Track key events: skill_submitted, career_viewed, rating_submitted."),
 
@@ -121,9 +121,9 @@ issues = [
     (7, ["launch"],           "Fix top 5 issues from beta feedback",
      "Triage feedback, prioritize top 5 issues, fix and release before public launch."),
     (7, ["launch","web"],     "Create marketing landing page",
-     "Build careerbandhuv.com with: headline, 3 feature highlights, app store buttons, screenshot gallery."),
+     "Build careerbandhu.com with: headline, 3 feature highlights, app store buttons, screenshot gallery."),
     (7, ["launch"],           "Set up social media accounts",
-     "Create Instagram @careerbandhuv, LinkedIn page, Twitter @careerbandhuv. Post launch content."),
+     "Create Instagram @careerbandhu, LinkedIn page, Twitter @careerbandhu. Post launch content."),
     (7, ["launch","app-store"], "Submit to Google Play open testing",
      "Promote from internal to open testing on Play Console. Share the opt-in link publicly."),
     (7, ["launch","app-store"], "Submit to Apple App Store for review",
@@ -131,7 +131,7 @@ issues = [
     (7, ["launch"],           "Launch on Product Hunt",
      "Schedule Product Hunt launch. Prepare tagline, description, GIF demo, and gallery. Notify your network on launch day."),
     (7, ["launch"],           "Write launch story on LinkedIn and Medium",
-     "Write the origin story: from loka-bandhuv (2013 idea) to CareerBandhuv (2026 launch). Publish to build audience."),
+     "Write the origin story: from loka-bandhuv (2013 idea) to CareerBandhu (2026 launch). Publish to build audience."),
 ]
 
 total = 0

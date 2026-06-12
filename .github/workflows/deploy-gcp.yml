@@ -12,7 +12,7 @@ on:
 env:
   PROJECT_ID: project-f281922f-0040-402f-b61
   REGION: us-central1
-  SERVICE: careerbandhuv
+  SERVICE: careerbandhu
 
 jobs:
   check-hf-deployment:
@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: Check HF space health
         run: |
-          HF_URL="https://knnarin-careerbandhuv.hf.space"
+          HF_URL="https://knnarin-careerbandhu.hf.space"
           echo "Checking HF space: $HF_URL"
           for i in 1 2 3 4 5; do
             response=$(curl -s -o /dev/null -w "%{http_code}" "$HF_URL")
@@ -88,5 +88,5 @@ jobs:
       - name: Show service URL
         run: |
           URL=$(gcloud run services describe ${{ env.SERVICE }} --region ${{ env.REGION }} --format 'value(status.url)')
-          echo "## CareerBandhuv deployed" >> $GITHUB_STEP_SUMMARY
+          echo "## CareerBandhu deployed" >> $GITHUB_STEP_SUMMARY
           echo "**Live URL:** $URL" >> $GITHUB_STEP_SUMMARY

@@ -1,5 +1,5 @@
 ---
-title: CareerBandhuv — Career Guidance
+title: CareerBandhu — Career Guidance
 emoji: 🌍
 colorFrom: indigo
 colorTo: green
@@ -8,10 +8,10 @@ app_port: 7860
 pinned: false
 ---
 
-# CareerBandhuv 🌍
+# CareerBandhu 🌍
 
-[![Hugging Face](https://img.shields.io/badge/Live%20App-Hugging%20Face-indigo?style=flat-square&logo=huggingface)](https://knnarin-careerbandhuv.hf.space)
-[![Google Cloud Run](https://img.shields.io/badge/Live%20App-GCP%20Cloud%20Run-indigo?style=flat-square&logo=google-cloud)](https://careerbandhuv-h5axc6napq-uc.a.run.app/)
+[![Hugging Face](https://img.shields.io/badge/Live%20App-Hugging%20Face-indigo?style=flat-square&logo=huggingface)](https://knnarin-careerbandhu.hf.space)
+[![Google Cloud Run](https://img.shields.io/badge/Live%20App-GCP%20Cloud%20Run-indigo?style=flat-square&logo=google-cloud)](https://careerbandhu-h5axc6napq-uc.a.run.app/)
 
 **Your AI-powered career companion** — *A true friend for your career journey*
 
