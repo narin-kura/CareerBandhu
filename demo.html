@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerBandhuv — Career Guidance Demo</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --primary: #6366f1;
+      --primary-dark: #4f46e5;
+      --secondary: #14b8a6;
+      --success: #22c55e;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --text: #1e293b;
+      --muted: #94a3b8;
+      --border: #e2e8f0;
+    }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+    /* Hero */
+    .hero { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 40px 24px 48px; text-align: center; }
+    .hero h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.5px; }
+    .hero p { margin-top: 8px; opacity: 0.85; font-size: 1rem; }
+    .hero .stats { display: flex; justify-content: center; gap: 32px; margin-top: 24px; }
+    .hero .stat { text-align: center; }
+    .hero .stat .val { font-size: 1.5rem; font-weight: 700; }
+    .hero .stat .lbl { font-size: 0.75rem; opacity: 0.7; margin-top: 2px; }
+
+    /* Container */
+    .container { max-width: 800px; margin: 0 auto; padding: 24px 16px; }
+
+    /* Card */
+    .card { background: var(--surface); border-radius: 16px; padding: 24px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); border: 1px solid var(--border); }
+    .card h2 { font-size: 1rem; font-weight: 700; margin-bottom: 16px; color: var(--text); }
+
+    /* Skills input */
+    .skill-input-row { display: flex; gap: 8px; }
+    .skill-input-row input { flex: 1; padding: 10px 14px; border: 2px solid var(--border); border-radius: 10px; font-size: 0.9rem; outline: none; transition: border-color 0.2s; }
+    .skill-input-row input:focus { border-color: var(--primary); }
+    .skill-input-row button { background: var(--primary); color: white; border: none; border-radius: 10px; padding: 10px 18px; cursor: pointer; font-weight: 600; font-size: 0.9rem; }
+    .skill-input-row button:hover { background: var(--primary-dark); }
+
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; min-height: 32px; }
+    .chip { display: inline-flex; align-items: center; gap: 6px; background: #eef2ff; color: var(--primary); padding: 4px 10px; border-radius: 999px; font-size: 0.82rem; font-weight: 600; }
+    .chip .remove { cursor: pointer; opacity: 0.6; font-size: 1rem; line-height: 1; }
+    .chip .remove:hover { opacity: 1; }
+
+    .suggestions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .suggestion { background: var(--bg); border: 1px solid var(--border); color: var(--muted); padding: 4px 10px; border-radius: 999px; font-size: 0.8rem; cursor: pointer; transition: all 0.15s; }
+    .suggestion:hover { border-color: var(--primary); color: var(--primary); background: #eef2ff; }
+
+    /* Search button */
+    .btn-primary { width: 100%; background: var(--primary); color: white; border: none; border-radius: 12px; padding: 14px; font-size: 1rem; font-weight: 700; cursor: pointer; margin-top: 4px; transition: background 0.2s; }
+    .btn-primary:hover { background: var(--primary-dark); }
+    .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    /* Results */
+    .result-card { background: var(--surface); border-radius: 16px; padding: 20px; margin-bottom: 14px; border: 1px solid var(--border); cursor: pointer; transition: box-shadow 0.2s, border-color 0.2s; }
+    .result-card:hover { box-shadow: 0 4px 12px rgba(99,102,241,0.15); border-color: var(--primary); }
+    .result-header { display: flex; justify-content: space-between; align-items: flex-start; }
+    .result-title { font-size: 1.05rem; font-weight: 700; }
+    .result-category { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
+    .score-badge { background: var(--primary); color: white; border-radius: 10px; padding: 4px 10px; font-size: 0.85rem; font-weight: 700; white-space: nowrap; }
+    .score-bar-wrap { margin: 12px 0 8px; background: var(--bg); border-radius: 999px; height: 6px; overflow: hidden; }
+    .score-bar { height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--primary), var(--secondary)); transition: width 0.6s ease; }
+    .skill-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+    .skill-tag { font-size: 0.75rem; padding: 2px 8px; border-radius: 999px; font-weight: 600; }
+    .skill-have { background: #dcfce7; color: #16a34a; }
+    .skill-need { background: #fee2e2; color: #dc2626; }
+    .result-footer { display: flex; gap: 16px; margin-top: 12px; font-size: 0.8rem; color: var(--muted); }
+
+    /* Detail panel */
+    .detail-panel { display: none; }
+    .detail-panel.open { display: block; }
+    .back-btn { background: none; border: none; color: var(--primary); cursor: pointer; font-size: 0.9rem; font-weight: 600; display: flex; align-items: center; gap: 4px; margin-bottom: 16px; }
+
+    .gap-section { margin-top: 16px; }
+    .gap-level { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; padding: 3px 8px; border-radius: 4px; display: inline-block; }
+    .level-critical { background: #fee2e2; color: #dc2626; }
+    .level-important { background: #fef3c7; color: #d97706; }
+    .level-helpful { background: #dbeafe; color: #2563eb; }
+    .gap-skill-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--border); }
+    .gap-skill-name { font-weight: 600; font-size: 0.9rem; }
+    .resource-link { font-size: 0.78rem; color: var(--primary); text-decoration: none; }
+    .resource-link:hover { text-decoration: underline; }
+
+    /* Status */
+    .status { text-align: center; padding: 40px; color: var(--muted); font-size: 0.9rem; }
+    .spinner { display: inline-block; width: 24px; height: 24px; border: 3px solid var(--border); border-top-color: var(--primary); border-radius: 50%; animation: spin 0.8s linear infinite; margin-bottom: 12px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* API status dot */
+    .api-status { display: flex; align-items: center; gap: 6px; font-size: 0.78rem; margin-bottom: 16px; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; }
+    .dot.green { background: var(--success); }
+    .dot.red { background: var(--danger); }
+    .dot.yellow { background: var(--warning); animation: pulse 1.5s infinite; }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.4; } }
+
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 1.5rem; }
+      .hero .stats { gap: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>CareerBandhuv 🌍</h1>
+  <p>Your AI-powered career companion — <em>Career Friend of the World</em></p>
+  <div class="stats">
+    <div class="stat"><div class="val" id="stat-careers">...</div><div class="lbl">Careers</div></div>
+    <div class="stat"><div class="val" id="stat-skills">200+</div><div class="lbl">Skills</div></div>
+    <div class="stat"><div class="val">AI</div><div class="lbl">Coaching</div></div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- API status -->
+  <div class="api-status">
+    <div class="dot yellow" id="api-dot"></div>
+    <span id="api-label">Connecting to CareerBandhuv API...</span>
+  </div>
+
+  <!-- Search panel -->
+  <div id="search-panel">
+    <div class="card">
+      <h2>🎯 Find Your Career Path</h2>
+      <div class="skill-input-row">
+        <input type="text" id="skill-input" placeholder="e.g. Python, Excel, Communication..." />
+        <button onclick="addSkillFromInput()">Add</button>
+      </div>
+      <div class="chips" id="skill-chips"></div>
+      <div style="margin-top:12px; font-size:0.8rem; color:var(--muted); font-weight:600;">Popular Skills</div>
+      <div class="suggestions" id="popular-suggestions"></div>
+      <button class="btn-primary" id="search-btn" onclick="searchCareers()" style="margin-top:16px;">
+        Find Matching Careers →
+      </button>
+    </div>
+
+    <!-- Results -->
+    <div id="results-area"></div>
+  </div>
+
+  <!-- Detail panel -->
+  <div class="detail-panel" id="detail-panel">
+    <button class="back-btn" onclick="showSearch()">← Back to results</button>
+    <div id="detail-content"></div>
+  </div>
+
+</div>
+
+<script>
+const API = 'https://knnarin-careerbandhuv.hf.space';
+let skills = [];
+let lastResults = [];
+
+const POPULAR = ['Python', 'JavaScript', 'SQL', 'Excel', 'Communication', 'Leadership', 'Data Analysis', 'Marketing', 'Project Management', 'Design'];
+
+// --- Init ---
+async function init() {
+  try {
+    const r = await fetch(`${API}/`);
+    const d = await r.json();
+    document.getElementById('api-dot').className = 'dot green';
+    document.getElementById('api-label').textContent = `API live — ${d.name} v${d.version}`;
+  } catch(e) {
+    document.getElementById('api-dot').className = 'dot red';
+    document.getElementById('api-label').textContent = 'API unavailable — check console';
+  }
+  try {
+    const r = await fetch(`${API}/api/careers`);
+    const d = await r.json();
+    document.getElementById('stat-careers').textContent = d.careers.length + '+';
+  } catch(e) {}
+
+  renderPopular();
+}
+
+function renderPopular() {
+  const el = document.getElementById('popular-suggestions');
+  el.innerHTML = POPULAR.map(s =>
+    `<span class="suggestion" onclick="addSkill('${s}')">${s}</span>`
+  ).join('');
+}
+
+// --- Skills ---
+function addSkill(name) {
+  const n = name.trim();
+  if (!n || skills.includes(n)) return;
+  skills.push(n);
+  renderChips();
+}
+
+function addSkillFromInput() {
+  const input = document.getElementById('skill-input');
+  addSkill(input.value);
+  input.value = '';
+  input.focus();
+}
+
+function removeSkill(name) {
+  skills = skills.filter(s => s !== name);
+  renderChips();
+}
+
+function renderChips() {
+  const el = document.getElementById('skill-chips');
+  if (skills.length === 0) {
+    el.innerHTML = '<span style="color:var(--muted);font-size:0.82rem;">No skills added yet</span>';
+    return;
+  }
+  el.innerHTML = skills.map(s =>
+    `<span class="chip">${s}<span class="remove" onclick="removeSkill('${s}')">×</span></span>`
+  ).join('');
+}
+
+document.getElementById('skill-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') addSkillFromInput();
+});
+
+// --- Search ---
+async function searchCareers() {
+  if (skills.length === 0) {
+    alert('Please add at least one skill first!');
+    return;
+  }
+  const btn = document.getElementById('search-btn');
+  btn.disabled = true;
+  btn.textContent = 'Searching...';
+  const area = document.getElementById('results-area');
+  area.innerHTML = '<div class="status"><div class="spinner"></div><br>Matching your skills to 35+ careers...</div>';
+
+  try {
+    const r = await fetch(`${API}/api/recommend`, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({skills})
+    });
+    const d = await r.json();
+    lastResults = d.recommendations || [];
+    renderResults(lastResults);
+  } catch(e) {
+    area.innerHTML = `<div class="status">Error: ${e.message}</div>`;
+  }
+  btn.disabled = false;
+  btn.textContent = 'Find Matching Careers →';
+}
+
+function renderResults(results) {
+  const area = document.getElementById('results-area');
+  if (!results.length) {
+    area.innerHTML = '<div class="status">No matching careers found. Try adding more skills.</div>';
+    return;
+  }
+
+  area.innerHTML = `<div style="margin-bottom:12px;font-size:0.85rem;color:var(--muted);">Found <strong>${results.length}</strong> matching careers for your ${skills.length} skill(s)</div>` +
+    results.map((r, i) => {
+      const matchTags = (r.matching_skills || []).slice(0,3).map(s =>
+        `<span class="skill-tag skill-have">${s.skill}</span>`).join('');
+      const gapTags = (r.top_gaps || []).slice(0,2).map(s =>
+        `<span class="skill-tag skill-need">${s.skill}</span>`).join('');
+      const score = r.score;
+      const scoreColor = score >= 60 ? 'var(--success)' : score >= 30 ? 'var(--warning)' : 'var(--danger)';
+      return `
+        <div class="result-card" onclick="openDetail('${r.career.id}')">
+          <div class="result-header">
+            <div>
+              <div class="result-title">${i+1}. ${r.career.title}</div>
+              <div class="result-category">${r.career.category}</div>
+            </div>
+            <div class="score-badge" style="background:${scoreColor}">${score}%</div>
+          </div>
+          <div class="score-bar-wrap"><div class="score-bar" style="width:${score}%;background:${scoreColor}"></div></div>
+          <div class="skill-tags">${matchTags}${gapTags}</div>
+          <div class="result-footer">
+            <span>📈 ${r.career.growth_outlook || 'Good'}</span>
+            ${r.career.salary_range ? `<span>💰 $${r.career.salary_range.min/1000|0}k–$${r.career.salary_range.max/1000|0}k</span>` : ''}
+            <span>→ Tap for gap analysis</span>
+          </div>
+        </div>
+      `;
+    }).join('');
+}
+
+// --- Detail ---
+async function openDetail(careerId) {
+  document.getElementById('search-panel').style.display = 'none';
+  const panel = document.getElementById('detail-panel');
+  panel.className = 'detail-panel open';
+  document.getElementById('detail-content').innerHTML =
+    '<div class="status"><div class="spinner"></div><br>Running gap analysis...</div>';
+
+  try {
+    const [careerRes, gapRes] = await Promise.all([
+      fetch(`${API}/api/career/${careerId}`).then(r => r.json()),
+      fetch(`${API}/api/career/${careerId}/gap`, {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({skills})
+      }).then(r => r.json())
+    ]);
+
+    const career = careerRes.career;
+    const gap = gapRes;
+    const score = gap.score;
+    const scoreColor = score >= 60 ? 'var(--success)' : score >= 30 ? 'var(--warning)' : 'var(--danger)';
+
+    const byLevel = {critical: [], important: [], helpful: []};
+    for (const g of (gap.gaps || [])) {
+      (byLevel[g.level] = byLevel[g.level] || []).push(g);
+    }
+
+    const gapHtml = ['critical','important','helpful'].map(level => {
+      const items = byLevel[level] || [];
+      if (!items.length) return '';
+      const badge = `<span class="gap-level level-${level}">${level}</span>`;
+      const rows = items.map(g => {
+        const resources = (gap.resources || {})[g.skill] || [];
+        const firstFree = resources.find(r => r.free);
+        const link = firstFree
+          ? `<a class="resource-link" href="${firstFree.url}" target="_blank">${firstFree.platform} →</a>`
+          : (resources[0] ? `<a class="resource-link" href="${resources[0].url}" target="_blank">${resources[0].platform} →</a>` : '');
+        return `<div class="gap-skill-row"><span class="gap-skill-name">📚 ${g.skill}</span>${link}</div>`;
+      }).join('');
+      return `<div class="gap-section">${badge}${rows}</div>`;
+    }).join('');
+
+    const aiSection = gap.ai_advice
+      ? `<div class="card" style="margin-top:16px;background:#f0fdf4;border-color:#bbf7d0">
+          <h2 style="color:#16a34a">🤖 AI Coaching Tips</h2>
+          <p style="font-size:0.88rem;line-height:1.7;color:#15803d;white-space:pre-line">${gap.ai_advice}</p>
+        </div>`
+      : '';
+
+    const matchingHtml = (gap.matching_skills || []).length
+      ? `<div style="margin:12px 0"><strong style="font-size:0.8rem;color:var(--muted)">Skills you have:</strong><div class="skill-tags" style="margin-top:6px">${(gap.matching_skills||[]).map(s => `<span class="skill-tag skill-have">${s.skill}</span>`).join('')}</div></div>`
+      : '';
+
+    document.getElementById('detail-content').innerHTML = `
+      <div class="card">
+        <div class="result-header">
+          <div>
+            <div class="result-title" style="font-size:1.2rem">${career.title}</div>
+            <div class="result-category">${career.category}</div>
+          </div>
+          <div class="score-badge" style="background:${scoreColor};font-size:1rem;padding:6px 14px">${score}%</div>
+        </div>
+        <div class="score-bar-wrap" style="height:8px;margin:14px 0"><div class="score-bar" style="width:${score}%;background:${scoreColor}"></div></div>
+        <p style="font-size:0.88rem;color:var(--muted);line-height:1.6">${career.description}</p>
+        ${matchingHtml}
+        <div style="margin-top:14px;font-size:0.85rem;font-weight:700;color:var(--text)">Skill Gaps to Bridge:</div>
+        ${gapHtml || '<div style="color:var(--success);margin-top:8px;font-weight:600">🎉 You have all required skills!</div>'}
+        <div style="margin-top:16px;display:flex;gap:12px;font-size:0.8rem;color:var(--muted)">
+          ${career.salary_range ? `<span>💰 $${career.salary_range.min/1000|0}k–$${career.salary_range.max/1000|0}k/yr</span>` : ''}
+          <span>📈 ${career.growth_outlook}</span>
+          ${careerRes.avg_rating ? `<span>⭐ ${careerRes.avg_rating}/5 (${careerRes.rating_count} ratings)</span>` : ''}
+        </div>
+      </div>
+      ${aiSection}
+    `;
+  } catch(e) {
+    document.getElementById('detail-content').innerHTML = `<div class="status">Error: ${e.message}</div>`;
+  }
+}
+
+function showSearch() {
+  document.getElementById('search-panel').style.display = '';
+  document.getElementById('detail-panel').className = 'detail-panel';
+  window.scrollTo(0, 0);
+}
+
+init();
+renderChips();
+</script>
+</body>
+</html>

@@ -5,10 +5,14 @@
 
 from __future__ import annotations
 import json
+import logging
 import os
 import sqlite3
 from pathlib import Path
 from typing import Optional
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 from fastapi import FastAPI, HTTPException
 from fastapi.concurrency import run_in_threadpool
@@ -166,15 +170,17 @@ Be encouraging, practical, and mention realistic timelines. Start directly with 
         try:
             return _ai_advice_gemini(prompt, gemini_key)
         except Exception:
-            pass
+            logger.exception("Gemini AI advice failed; falling back to Anthropic")
 
     anthropic_key = os.environ.get("ANTHROPIC_API_KEY")
     if _ANTHROPIC_AVAILABLE and anthropic_key:
         try:
             return _ai_advice_anthropic(prompt, anthropic_key)
         except Exception:
-            pass
+            logger.exception("Anthropic AI advice failed; returning no advice")
 
+    if not gemini_key and not anthropic_key:
+        logger.warning("get_ai_advice: no GEMINI_API_KEY or ANTHROPIC_API_KEY set")
     return None
 
 
