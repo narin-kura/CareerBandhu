@@ -20011,5 +20011,72 @@
     ],
     "region": "IN",
     "collar": "new"
+  },
+  {
+    "id": "us_hair_stylist",
+    "title": "Hair Stylist / Cosmetologist",
+    "category": "Beauty & Wellness",
+    "region": "US",
+    "description": "Provide hair cutting, styling, colouring, makeup application, and nail/skin care treatments. Hair styling and cosmetology in the US is a thriving career path with high demand in salons, resorts, spas, or as an independent mobile/celebrity stylist. Requires attending an accredited school and obtaining a state license.",
+    "salary_range": {
+      "min": 25000,
+      "max": 75000,
+      "currency": "USD",
+      "note": "Entry level stylist to premium salon designer/owner; tips and product commission add significantly"
+    },
+    "growth_outlook": "High — personal care and styling services remain in strong demand",
+    "work_style": [
+      "Client-facing",
+      "Creative",
+      "Flexible schedule possible"
+    ],
+    "required_skills": [
+      {
+        "skill": "Hair Styling",
+        "level": "critical"
+      },
+      {
+        "skill": "Hair Cutting",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Makeup",
+        "level": "important"
+      },
+      {
+        "skill": "Skin Care",
+        "level": "important"
+      },
+      {
+        "skill": "Hygiene & Sanitation",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Cosmetology program at a state-approved beauty school",
+      "Apprenticeship (only in states that permit it, e.g., California)",
+      "Pass the State Board Cosmetology licensing examination"
+    ],
+    "qualifications": [
+      "High school diploma or GED equivalent",
+      "State-licensed cosmetology school graduation (typically requiring 1,000 to 1,500 training hours)",
+      "Active State Board Cosmetology License (requires passing written and practical examinations)"
+    ],
+    "tags": [
+      "beauty",
+      "cosmetology",
+      "licensed",
+      "salon",
+      "no-degree"
+    ],
+    "collar": "pink"
   }
 ]
