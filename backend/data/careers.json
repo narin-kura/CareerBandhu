@@ -19874,5 +19874,142 @@
       "university"
     ],
     "collar": "white"
+  },
+  {
+    "id": "prompt_engineer",
+    "title": "Prompt Engineer / AI Prompt Specialist",
+    "category": "Technology",
+    "description": "Design, refine, and optimize prompts for Large Language Models (LLMs) and generative AI systems to produce high-quality, accurate, and safe outputs. Prompt engineers work across natural language processing and software systems to build AI-driven applications.",
+    "salary_range": {
+      "min": 85000,
+      "max": 190000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "Remote-friendly",
+      "Analytical",
+      "Creative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Prompt Engineering",
+        "level": "critical"
+      },
+      {
+        "skill": "Python",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "LLM Fine-tuning",
+        "level": "important"
+      },
+      {
+        "skill": "Natural Language Processing",
+        "level": "important"
+      },
+      {
+        "skill": "Critical Thinking",
+        "level": "important"
+      },
+      {
+        "skill": "REST APIs",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Computer Science / Data Science degree",
+      "AI hackathons and prompt portfolio showcase",
+      "Transition from copywriting, technical writing, or software engineering"
+    ],
+    "qualifications": [
+      "Bachelor's in CS, Data Science, or a related field (humanities with strong AI experience also accepted)",
+      "Strong portfolio demonstrating built LLM applications or agentic prompt workflows",
+      "Certifications in Prompt Engineering or Generative AI fundamentals"
+    ],
+    "tags": [
+      "tech",
+      "AI",
+      "remote-friendly",
+      "emerging"
+    ],
+    "region": "US",
+    "collar": "new"
+  },
+  {
+    "id": "blockchain_developer",
+    "title": "Blockchain Developer / Web3 Engineer",
+    "category": "Technology",
+    "description": "Design, build, and secure decentralized applications (dApps) and smart contracts on blockchain networks. Blockchain developers write and deploy protocols to facilitate secure, peer-to-peer digital transactions.",
+    "salary_range": {
+      "min": 90000,
+      "max": 200000,
+      "currency": "USD",
+      "note": "Entry to Senior"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Remote-friendly",
+      "Detail-oriented",
+      "Security-focused"
+    ],
+    "required_skills": [
+      {
+        "skill": "Solidity",
+        "level": "critical"
+      },
+      {
+        "skill": "Smart Contract Development",
+        "level": "critical"
+      },
+      {
+        "skill": "Cryptography",
+        "level": "critical"
+      },
+      {
+        "skill": "JavaScript",
+        "level": "important"
+      },
+      {
+        "skill": "TypeScript",
+        "level": "important"
+      },
+      {
+        "skill": "REST APIs",
+        "level": "important"
+      },
+      {
+        "skill": "Go",
+        "level": "helpful"
+      },
+      {
+        "skill": "Rust",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Computer Science or IT degree",
+      "Web3 developer bootcamps and certifications",
+      "Contributing to open-source smart contracts and blockchain projects"
+    ],
+    "qualifications": [
+      "Bachelor's in CS / IT / Software Engineering or equivalent experience",
+      "Proven project portfolio of deployed smart contracts on Ethereum or other testnets",
+      "Certified Blockchain Developer / Security Specialist credentials"
+    ],
+    "tags": [
+      "tech",
+      "web3",
+      "blockchain",
+      "high-salary",
+      "remote-friendly"
+    ],
+    "region": "IN",
+    "collar": "new"
   }
 ]

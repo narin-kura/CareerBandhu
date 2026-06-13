@@ -2,12 +2,12 @@
   "categories": {
     "Programming Languages": [
       "Python", "JavaScript", "TypeScript", "Java", "C++", "C#", "Go", "Rust",
-      "Ruby", "PHP", "Swift", "Kotlin", "R", "MATLAB", "Scala", "Dart"
+      "Ruby", "PHP", "Swift", "Kotlin", "R", "MATLAB", "Scala", "Dart", "Solidity"
     ],
     "Web Technologies": [
       "HTML & CSS", "React", "Angular", "Vue.js", "Node.js", "Next.js",
       "Django", "FastAPI", "Flask", "Spring Boot", "REST APIs", "GraphQL",
-      "WebSockets", "TypeScript"
+      "WebSockets", "TypeScript", "Smart Contract Development"
     ],
     "Mobile Development": [
       "React Native", "Flutter", "Swift", "Kotlin", "Dart",
@@ -29,7 +29,7 @@
     "Cloud & DevOps": [
       "Cloud Computing", "AWS", "Google Cloud", "Azure", "Docker",
       "Kubernetes", "Terraform", "CI/CD", "Linux", "Networking",
-      "Monitoring & Alerting", "Security", "MLOps", "Scripting (Bash or Python)"
+      "Monitoring & Alerting", "Security", "MLOps", "Scripting (Bash or Python)", "Cryptography"
     ],
     "Databases": [
       "SQL", "PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch",
@@ -103,7 +103,7 @@
     "Cloud Computing", "Coaching", "Color Grading", "Color Theory",
     "Communication", "Compensation & Benefits", "Compliance (GDPR, HIPAA)",
     "Compliance (HIPAA)", "Computer Vision", "Content Creation",
-    "Content Strategy", "Copywriting", "Critical Thinking", "CRM Systems",
+    "Content Strategy", "Copywriting", "Critical Thinking", "CRM Systems", "Cryptography",
     "Curriculum Design", "Customer Service", "Customer Success",
     "Dart", "Data Analysis", "Data Modeling", "Data Pipelines (ETL)",
     "Data Science", "Data Visualization", "Data Warehousing", "Decision Making",
@@ -139,7 +139,7 @@
     "Research", "Research Methods", "Risk Management",
     "Roadmapping", "Ruby", "Rust", "Scala",
     "SQL", "Sales", "Scripting (Bash or Python)", "Security",
-    "SEO", "Shader Programming", "Social Media Marketing",
+    "SEO", "Shader Programming", "Smart Contract Development", "Social Media Marketing", "Solidity",
     "Spring Boot", "Stakeholder Management", "Statistics",
     "Strategic Planning", "Subject Matter Expertise", "Swift",
     "Tableau or Power BI", "Tax Knowledge", "Teamwork",
