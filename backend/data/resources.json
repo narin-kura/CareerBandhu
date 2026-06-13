@@ -275,5 +275,26 @@
   "Process Improvement": [
     { "name": "Lean Six Sigma Green Belt", "platform": "ASQ / Coursera", "type": "certification", "level": "intermediate", "free": false, "url": "https://asq.org" },
     { "name": "Lean Management Principles", "platform": "edX / MIT", "type": "course", "level": "intermediate", "free": false, "url": "https://edx.org" }
+  ],
+  "Prompt Engineering": [
+    { "name": "ChatGPT Prompt Engineering for Developers", "platform": "DeepLearning.AI", "type": "course", "level": "beginner", "free": true, "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/" },
+    { "name": "Prompt Engineering Guide", "platform": "DAIR.AI", "type": "documentation", "level": "beginner", "free": true, "url": "https://www.promptingguide.ai/" },
+    { "name": "Learn Prompting", "platform": "LearnPrompting.org", "type": "course", "level": "beginner", "free": true, "url": "https://learnprompting.org/" }
+  ],
+  "LLM Fine-tuning": [
+    { "name": "Generative AI with Large Language Models", "platform": "Coursera / DeepLearning.AI", "type": "course", "level": "intermediate", "free": false, "url": "https://coursera.org" },
+    { "name": "Finetuning Large Language Models", "platform": "DeepLearning.AI", "type": "course", "level": "intermediate", "free": true, "url": "https://www.deeplearning.ai/short-courses/finetuning-large-language-models/" }
+  ],
+  "Solidity": [
+    { "name": "CryptoZombies - Learn Solidity", "platform": "CryptoZombies", "type": "interactive", "level": "beginner", "free": true, "url": "https://cryptozombies.io" },
+    { "name": "Solidity Official Documentation", "platform": "Solidity", "type": "documentation", "level": "beginner", "free": true, "url": "https://docs.soliditylang.org" }
+  ],
+  "Smart Contract Development": [
+    { "name": "Solidity, Blockchain, and Smart Contract Course", "platform": "freeCodeCamp / Patrick Collins", "type": "course", "level": "beginner", "free": true, "url": "https://freecodecamp.org" },
+    { "name": "Ethereum Smart Contract Tutorials", "platform": "Ethereum.org", "type": "tutorial", "level": "intermediate", "free": true, "url": "https://ethereum.org/en/developers/tutorials/" }
+  ],
+  "Cryptography": [
+    { "name": "Applied Cryptography Course", "platform": "Udacity", "type": "course", "level": "intermediate", "free": true, "url": "https://udacity.com" },
+    { "name": "Cryptography I", "platform": "Coursera / Stanford", "type": "course", "level": "intermediate", "free": false, "url": "https://coursera.org" }
   ]
 }
