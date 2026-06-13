@@ -89,6 +89,9 @@
       "Time Management", "Attention to Detail", "Research",
       "Writing", "Presentation Skills", "Customer Service",
       "Emotional Intelligence", "Networking", "Work Ethic"
+    ],
+    "Beauty & Wellness": [
+      "Hair Styling", "Hair Cutting", "Makeup", "Skin Care", "Beauty Treatments (facials, threading, waxing)", "Bridal Make-up", "Hygiene & Sanitation"
     ]
   },
   "all_skills": [
@@ -97,7 +100,8 @@
     "Agile & Scrum", "Airflow", "Angular", "Animation", "Apache Spark",
     "App Store Deployment", "Articulate Storyline or Rise", "Assessment Design",
     "Attention to Detail", "Audio Editing", "Auditing",
-    "Bloomberg Terminal", "Brand Management", "Branding", "Budgeting",
+    "Beauty Treatments (facials, threading, waxing)",
+    "Bloomberg Terminal", "Brand Management", "Branding", "Bridal Make-up", "Budgeting",
     "Business Acumen", "C# ", "C++", "CFA Certification",
     "CI/CD", "CRM Systems", "Classroom Management", "Clinical Knowledge",
     "Cloud Computing", "Coaching", "Color Grading", "Color Theory",
@@ -116,13 +120,14 @@
     "Financial Reporting", "Firebase", "Flask", "Forecasting",
     "Figma", "GCP (Good Clinical Practice)", "Game Design", "Git",
     "Go", "Google Analytics", "Google Cloud", "GraphQL",
-    "HTML & CSS", "HIPAA Compliance", "HRIS Systems", "Healthcare Regulations",
+    "Hair Cutting", "Hair Styling",
+    "HTML & CSS", "HIPAA Compliance", "HRIS Systems", "Healthcare Regulations", "Hygiene & Sanitation",
     "iOS Development", "Incident Response", "Investment Analysis",
     "Java", "JavaScript", "Kafka",
     "Kotlin", "Kubernetes", "Layout Design", "Leadership",
     "Lean / Six Sigma", "Linux", "LLM Fine-tuning",
     "LMS (Learning Management Systems)", "Logistics", "MATLAB",
-    "Machine Learning", "Market Research", "Marketing Automation",
+    "Machine Learning", "Makeup", "Market Research", "Marketing Automation",
     "Mathematics", "Medical Terminology", "Mentoring", "Mobile UI Design",
     "MongoDB", "Monitoring & Alerting", "Motion Graphics", "MLOps",
     "MySQL", "Natural Language Processing", "Negotiation",
@@ -139,7 +144,7 @@
     "Research", "Research Methods", "Risk Management",
     "Roadmapping", "Ruby", "Rust", "Scala",
     "SQL", "Sales", "Scripting (Bash or Python)", "Security",
-    "SEO", "Shader Programming", "Smart Contract Development", "Social Media Marketing", "Solidity",
+    "SEO", "Shader Programming", "Skin Care", "Smart Contract Development", "Social Media Marketing", "Solidity",
     "Spring Boot", "Stakeholder Management", "Statistics",
     "Strategic Planning", "Subject Matter Expertise", "Swift",
     "Tableau or Power BI", "Tax Knowledge", "Teamwork",
