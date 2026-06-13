@@ -65,11 +65,11 @@ const POPULAR_SKILLS = {
   IN: ['Cooking','Driving','Sewing & Stitching','Teaching','Electrical Wiring',
        'Customer Service','Communication','Sales','MS Excel','Accounting',
        'Photography','Hair Styling','Welding Techniques','Patient Care','Crop Knowledge',
-       'Physical Fitness','General Knowledge','Python','Leadership','Mathematics'],
+       'Physical Fitness','General Knowledge','Python','Leadership','Mathematics','Solidity','Prompt Engineering'],
   US: ['Programming','Python','Communication','Customer Service','MS Excel',
        'Patient Care','Driving','Electrical Wiring','Project Management','Data Analysis',
        'Welding Techniques','Marketing Strategy','Accounting','Leadership','Problem Solving',
-       'Teaching','Physical Fitness','SQL','Mechanical Aptitude','Creativity'],
+       'Teaching','Physical Fitness','SQL','Mechanical Aptitude','Creativity','Prompt Engineering'],
 };
 
 const CAREER_PICKS = {
