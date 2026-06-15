@@ -14,7 +14,7 @@ from typing import Optional
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-from fastapi import FastAPI, HTTPException
+from fastapi import Depends, FastAPI, HTTPException
 from fastapi.concurrency import run_in_threadpool
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -32,6 +32,11 @@ try:
     _GEMINI_AVAILABLE = True
 except ImportError:
     _GEMINI_AVAILABLE = False
+
+try:
+    from backend.auth import get_current_user, supabase, SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_CONFIGURED
+except ImportError:
+    from auth import get_current_user, supabase, SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_CONFIGURED
 
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
@@ -107,6 +112,19 @@ class RatingRequest(BaseModel):
     comment: Optional[str] = None
     pursuing: bool = False
     skills: list[str] = []
+
+
+class ProfileUpdateRequest(BaseModel):
+    skills: list[str] = []
+    region: Optional[str] = None
+
+
+class BookmarkRequest(BaseModel):
+    career_id: str
+
+
+class ProgressUpdateRequest(BaseModel):
+    learned_skills: list[str] = []
 
 
 # --- Core logic ---
@@ -214,6 +232,15 @@ async def root():
 @app.get("/api/health")
 async def health():
     return {"name": "CareerBandhu API", "version": "1.0.0", "status": "running"}
+
+
+@app.get("/api/config")
+async def get_config():
+    return {
+        "supabase_url": SUPABASE_URL,
+        "supabase_anon_key": SUPABASE_ANON_KEY,
+        "auth_enabled": SUPABASE_CONFIGURED,
+    }
 
 
 @app.get("/api/skills")
@@ -394,6 +421,98 @@ async def career_stats(career_id: str):
         "total_ratings": row["total"],
         "pursuing_count": row["pursuing_count"] or 0,
     }
+
+
+# --- Personalization (requires Supabase auth) ---
+@app.get("/api/profile")
+async def get_profile(user_id: str = Depends(get_current_user)):
+    resp = supabase.table("profiles").select("*").eq("user_id", user_id).execute()
+    if resp.data:
+        return resp.data[0]
+    return {"user_id": user_id, "skills": [], "region": "IN"}
+
+
+@app.put("/api/profile")
+async def update_profile(req: ProfileUpdateRequest, user_id: str = Depends(get_current_user)):
+    payload = {"user_id": user_id, "skills": req.skills}
+    if req.region:
+        payload["region"] = req.region
+    resp = supabase.table("profiles").upsert(payload).execute()
+    return resp.data[0] if resp.data else payload
+
+
+@app.get("/api/bookmarks")
+async def list_bookmarks(user_id: str = Depends(get_current_user)):
+    resp = (
+        supabase.table("bookmarks")
+        .select("career_id, created_at")
+        .eq("user_id", user_id)
+        .order("created_at", desc=True)
+        .execute()
+    )
+    careers = []
+    for row in resp.data:
+        c = CAREERS_BY_ID.get(row["career_id"])
+        if not c:
+            continue
+        careers.append({
+            "id": c["id"],
+            "title": c["title"],
+            "category": c["category"],
+            "collar": c.get("collar", "white"),
+            "region": c.get("region", "IN"),
+            "growth_outlook": c.get("growth_outlook"),
+            "tags": c.get("tags", []),
+            "bookmarked_at": row["created_at"],
+        })
+    return {"bookmarks": careers}
+
+
+@app.post("/api/bookmarks")
+async def add_bookmark(req: BookmarkRequest, user_id: str = Depends(get_current_user)):
+    if req.career_id not in CAREERS_BY_ID:
+        raise HTTPException(404, "Career not found")
+    supabase.table("bookmarks").upsert({"user_id": user_id, "career_id": req.career_id}).execute()
+    return {"success": True}
+
+
+@app.delete("/api/bookmarks/{career_id}")
+async def remove_bookmark(career_id: str, user_id: str = Depends(get_current_user)):
+    supabase.table("bookmarks").delete().eq("user_id", user_id).eq("career_id", career_id).execute()
+    return {"success": True}
+
+
+@app.get("/api/career/{career_id}/progress")
+async def get_progress(career_id: str, user_id: str = Depends(get_current_user)):
+    career = CAREERS_BY_ID.get(career_id)
+    if not career:
+        raise HTTPException(404, "Career not found")
+
+    resp = (
+        supabase.table("career_progress")
+        .select("learned_skills")
+        .eq("user_id", user_id)
+        .eq("career_id", career_id)
+        .execute()
+    )
+    learned = resp.data[0]["learned_skills"] if resp.data else []
+    match = calculate_match(learned, career)
+    return {"career_id": career_id, "learned_skills": learned, "score": match["score"], "gaps": match["gaps"]}
+
+
+@app.put("/api/career/{career_id}/progress")
+async def update_progress(career_id: str, req: ProgressUpdateRequest, user_id: str = Depends(get_current_user)):
+    career = CAREERS_BY_ID.get(career_id)
+    if not career:
+        raise HTTPException(404, "Career not found")
+
+    supabase.table("career_progress").upsert({
+        "user_id": user_id,
+        "career_id": career_id,
+        "learned_skills": req.learned_skills,
+    }).execute()
+    match = calculate_match(req.learned_skills, career)
+    return {"success": True, "score": match["score"]}
 
 
 if __name__ == "__main__":

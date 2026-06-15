@@ -6,6 +6,11 @@ let currentCareerData = null;
 let activeCollar = 'all';
 let careerQuery = '';
 
+/* auth & personalization state */
+let supa = null, session = null, authEnabled = false, authMode = 'signin';
+let bookmarkedIds = new Set();
+let progressTimer = null;
+
 const COLLAR_META = [
   { key:'white', icon:'⚪', label:'White-collar' , tip:'Office & knowledge work',      clr:'#475569', bg:'#f1f5f9' },
   { key:'blue',  icon:'🔵', label:'Blue-collar'  , tip:'Physical & skilled trades',    clr:'#1d4ed8', bg:'#eff6ff' },
@@ -114,6 +119,7 @@ async function init() {
   } catch { setDot('r'); setLbl('Offline'); }
   await loadCareers();
   renderSugs(); renderChips();
+  await initAuth();
 }
 
 async function loadCareers() {
@@ -186,16 +192,244 @@ function describeError(e) {
   return `Something went wrong${e && e.message ? ` (${e.message})` : ''}. Please try again.`;
 }
 
+/* ---------- AUTH (optional — for personalization features) ---------- */
+function authHeaders() {
+  return session ? { Authorization: `Bearer ${session.access_token}` } : {};
+}
+async function getAuth(path, timeoutMs) { return fetchJSON(path, {headers: authHeaders()}, timeoutMs); }
+async function postAuth(path, body) { return fetchJSON(path, {method:'POST', headers:{...authHeaders(),'Content-Type':'application/json'}, body:JSON.stringify(body)}); }
+async function putAuth(path, body) { return fetchJSON(path, {method:'PUT', headers:{...authHeaders(),'Content-Type':'application/json'}, body:JSON.stringify(body)}); }
+async function delAuth(path) { return fetchJSON(path, {method:'DELETE', headers:authHeaders()}); }
+
+async function initAuth() {
+  try {
+    const cfg = await get('/api/config');
+    authEnabled = !!cfg.auth_enabled;
+    if (!authEnabled) { renderAccountUI(); return; }
+    const mod = await import('https://esm.sh/@supabase/supabase-js@2');
+    supa = mod.createClient(cfg.supabase_url, cfg.supabase_anon_key);
+    const { data } = await supa.auth.getSession();
+    session = data.session;
+    await onSessionChange();
+    supa.auth.onAuthStateChange(async (_event, sess) => {
+      const wasLoggedIn = !!session;
+      session = sess;
+      await onSessionChange();
+      if (session && !wasLoggedIn) closeAuthModal();
+    });
+  } catch (e) {
+    authEnabled = false;
+    renderAccountUI();
+  }
+}
+async function onSessionChange() {
+  renderAccountUI();
+  await loadBookmarkIds();
+  syncBookmarkButtons();
+  await loadMyProfile();
+  updatePersonalizationUI();
+}
+function updatePersonalizationUI() {
+  const tabSaved = document.getElementById('tab-saved');
+  if (tabSaved) tabSaved.style.display = session ? '' : 'none';
+  const saveBtn = document.getElementById('save-skills-btn');
+  if (saveBtn) saveBtn.style.display = session ? '' : 'none';
+  if (currentMode === 'saved' && !session) switchMode('career');
+}
+
+function renderAccountUI() {
+  const el = document.getElementById('account-area');
+  if (!el) return;
+  if (!authEnabled) { el.innerHTML = ''; return; }
+  if (session && session.user) {
+    const email = session.user.email || '';
+    el.innerHTML = `
+      <div class="account-combo" id="account-combo">
+        <button class="account-trigger" onclick="toggleAccountDrop(event)" aria-haspopup="listbox" aria-expanded="false">
+          <span class="account-avatar">${esc((email[0]||'?').toUpperCase())}</span>
+          <span class="account-email">${esc(email)}</span>
+          <span class="collar-chev">▾</span>
+        </button>
+        <div class="account-dropdown" id="account-dropdown">
+          <div class="dd-item" onclick="closeAccountDrop();switchMode('saved')">⭐ My saved careers</div>
+          <div class="dd-item" onclick="closeAccountDrop();signOut()">🚪 Sign out</div>
+        </div>
+      </div>`;
+  } else {
+    el.innerHTML = `<button class="signin-btn" onclick="openAuthModal('signin')">Sign in</button>`;
+  }
+}
+function toggleAccountDrop(e) {
+  e.stopPropagation();
+  const open = document.getElementById('account-dropdown').classList.toggle('open');
+  e.currentTarget.setAttribute('aria-expanded', open ? 'true' : 'false');
+}
+function closeAccountDrop() {
+  const dd = document.getElementById('account-dropdown');
+  if (dd) dd.classList.remove('open');
+  const trg = document.querySelector('.account-trigger');
+  if (trg) trg.setAttribute('aria-expanded', 'false');
+}
+document.addEventListener('click', e => { if (!e.target.closest('.account-combo')) closeAccountDrop(); });
+
+function openAuthModal(mode) {
+  switchAuthTab(mode || 'signin');
+  document.getElementById('auth-modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeAuthModal(e) {
+  if (e && e.target !== document.getElementById('auth-modal')) return;
+  document.getElementById('auth-modal').classList.remove('open');
+  document.body.style.overflow = '';
+  document.getElementById('auth-msg').innerHTML = '';
+  document.getElementById('auth-email').value = '';
+  document.getElementById('auth-password').value = '';
+}
+function switchAuthTab(mode) {
+  authMode = mode;
+  document.getElementById('auth-tab-signin').className = 'auth-tab' + (mode==='signin'?' on':'');
+  document.getElementById('auth-tab-signup').className = 'auth-tab' + (mode==='signup'?' on':'');
+  document.getElementById('auth-submit').textContent = mode==='signin' ? 'Sign in' : 'Create account';
+  document.getElementById('auth-modal-title').textContent = mode==='signin' ? '👋 Welcome back' : '✨ Create your account';
+  document.getElementById('auth-msg').innerHTML = '';
+}
+async function submitAuthForm() {
+  const email = document.getElementById('auth-email').value.trim();
+  const password = document.getElementById('auth-password').value;
+  const msg = document.getElementById('auth-msg');
+  const btn = document.getElementById('auth-submit');
+  if (!email || !password) { msg.innerHTML = '<div class="auth-error">Please enter your email and password.</div>'; return; }
+  if (!supa) { msg.innerHTML = '<div class="auth-error">Accounts aren\'t available right now. Please try again later.</div>'; return; }
+  btn.disabled = true;
+  msg.innerHTML = '';
+  try {
+    if (authMode === 'signin') {
+      const { error } = await supa.auth.signInWithPassword({ email, password });
+      if (error) throw error;
+      closeAuthModal();
+    } else {
+      const { data, error } = await supa.auth.signUp({ email, password });
+      if (error) throw error;
+      if (data.session) { closeAuthModal(); }
+      else { msg.innerHTML = '<div class="auth-ok">✓ Check your email to confirm your account, then sign in.</div>'; }
+    }
+  } catch (e) {
+    msg.innerHTML = `<div class="auth-error">${esc(e.message || 'Something went wrong. Please try again.')}</div>`;
+  } finally {
+    btn.disabled = false;
+  }
+}
+async function signInWithGoogle() {
+  if (!supa) return;
+  await supa.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: location.origin + location.pathname } });
+}
+async function signOut() {
+  if (!supa) return;
+  await supa.auth.signOut();
+}
+
+/* ---------- BOOKMARKS ---------- */
+async function loadBookmarkIds() {
+  if (!session) { bookmarkedIds = new Set(); return; }
+  try {
+    const d = await getAuth('/api/bookmarks');
+    bookmarkedIds = new Set((d.bookmarks||[]).map(c=>c.id));
+  } catch(e) { bookmarkedIds = new Set(); }
+}
+function syncBookmarkButtons() {
+  document.querySelectorAll('.bookmark-btn').forEach(btn => {
+    const id = btn.dataset.careerId;
+    if (!id) return;
+    const on = bookmarkedIds.has(id);
+    btn.classList.toggle('on', on);
+    btn.title = on ? 'Remove from saved careers' : 'Save this career';
+    btn.innerHTML = btn.classList.contains('d-bookmark') ? (on ? '★ Saved' : '☆ Save') : (on ? '★' : '☆');
+  });
+}
+async function toggleBookmark(id, el) {
+  if (!session) { openAuthModal('signin'); return; }
+  const wasOn = bookmarkedIds.has(id);
+  try {
+    if (wasOn) { await delAuth(`/api/bookmarks/${id}`); bookmarkedIds.delete(id); }
+    else { await postAuth('/api/bookmarks', {career_id: id}); bookmarkedIds.add(id); }
+    syncBookmarkButtons();
+    if (currentMode === 'saved' && wasOn) loadSavedCareers();
+  } catch(e) {}
+}
+
+/* ---------- SAVED CAREERS ---------- */
+async function loadSavedCareers() {
+  setResults('<div class="status"><div class="spinner"></div><p>Loading your saved careers…</p></div>');
+  try {
+    const d = await getAuth('/api/bookmarks');
+    renderSavedCareers(d.bookmarks || []);
+  } catch(e) {
+    setResults(`<div class="empty"><div class="emo">⚠️</div><h3>${describeError(e)}</h3><button class="full-cta" onclick="loadSavedCareers()">Try again</button></div>`);
+  }
+}
+function renderSavedCareers(list) {
+  if (!list.length) {
+    setResults(`<div class="empty"><div class="emo">⭐</div><h3>No saved careers yet</h3><p>Tap the ☆ on any career card to save it here for quick access later.</p></div>`);
+    return;
+  }
+  const hdr = `<div class="results-head"><h3>Your saved careers</h3><span class="count">${list.length} saved</span></div>`;
+  const cards = list.map(c => {
+    const meta = COLLAR_META.find(m=>m.key===c.collar) || {clr:'#4338CA', bg:'#EEF2FF', icon:'📌'};
+    return `<div class="card" onclick="openDetail('${c.id}','career')">
+      <div class="card-body">
+        <div class="card-top">
+          <div class="cc-icon" style="--ic-clr:${meta.clr};--ic-bg:${meta.bg}">${CAT_ICONS[c.category]||meta.icon}</div>
+          <div class="cc-info">
+            <div class="cc-eyebrow">${c.category}</div>
+            <div class="card-title">${c.title}</div>
+          </div>
+          <button class="bookmark-btn on" data-career-id="${c.id}" title="Remove from saved careers" onclick="event.stopPropagation();toggleBookmark('${c.id}',this)">★</button>
+        </div>
+        <div class="cc-pills" style="margin-top:13px">
+          ${c.growth_outlook?`<span class="stat-pill">📈 ${c.growth_outlook}</span>`:''}
+          <span class="stat-pill">${c.region==='US'?'🇺🇸 USA':'🇮🇳 India'}</span>
+        </div>
+      </div>
+      <div class="card-foot"><div class="meta"><span>${meta.icon||'📌'} Saved</span></div><span class="view">View career →</span></div>
+    </div>`;
+  }).join('');
+  setResults(hdr + cards);
+}
+
+/* ---------- SKILL PROFILE ---------- */
+async function loadMyProfile() {
+  if (!session || skills.length) return;
+  try {
+    const p = await getAuth('/api/profile');
+    if (p.skills && p.skills.length) { skills = p.skills.slice(); renderChips(); }
+  } catch(e) {}
+}
+async function saveMySkills() {
+  if (!session) { openAuthModal('signin'); return; }
+  const btn = document.getElementById('save-skills-btn');
+  if (!skills.length) { alert('Add at least one skill first.'); return; }
+  if (btn) { btn.disabled = true; btn.textContent = 'Saving…'; }
+  try {
+    await putAuth('/api/profile', {skills, region});
+    if (btn) { btn.textContent = '✓ Saved to your account'; setTimeout(()=>{ btn.textContent='💾 Save my skills to my account'; btn.disabled=false; }, 1800); }
+  } catch(e) {
+    if (btn) { btn.textContent = 'Error — try again'; btn.disabled=false; }
+  }
+}
+
 function switchMode(m) {
   currentCareerData = null;
   currentMode = m;
   document.getElementById('tab-skills').className = m==='skills'?'on':'';
   document.getElementById('tab-career').className = m==='career'?'on career':'';
+  const tabSaved = document.getElementById('tab-saved');
+  if (tabSaved) tabSaved.className = m==='saved'?'on':'';
   document.getElementById('panel-skills').style.display = m==='skills'?'':'none';
   document.getElementById('panel-career').style.display = m==='career'?'':'none';
   document.getElementById('search-pane').style.display = '';
   document.getElementById('detail').style.display = 'none';
   if (m === 'career') renderCollarFilter();
+  if (m === 'saved') { loadSavedCareers(); return; }
   setResults(`<div class="empty"><div class="emo">${m==='skills'?'🎯':'🔍'}</div><h3>${m==='skills'?'Match me to careers':'Explore any career'}</h3><p>${m==='skills'?'Add your skills and tap <strong>Find matching careers</strong>.':'Search or pick a career and tap <strong>Show skills needed</strong>.'}</p></div>`);
 }
 
@@ -333,6 +567,7 @@ function showCollarCareers(collarKey) {
               <div class="cc-eyebrow">${cat}</div>
               <div class="card-title">${c.title}</div>
             </div>
+            <button class="bookmark-btn${bookmarkedIds.has(c.id)?' on':''}" data-career-id="${c.id}" title="${bookmarkedIds.has(c.id)?'Remove from saved careers':'Save this career'}" onclick="event.stopPropagation();toggleBookmark('${c.id}',this)">${bookmarkedIds.has(c.id)?'★':'☆'}</button>
           </div>
           <div class="cc-pills" style="margin-top:13px">
             ${c.growth_outlook?`<span class="stat-pill">📈 ${c.growth_outlook}</span>`:''}
@@ -402,6 +637,12 @@ async function exploreCareer() {
   currentCareerData = null;
   try {
     const [cv, gv] = await Promise.all([ get(`/api/career/${selectedCareerId}`), post(`/api/career/${selectedCareerId}/gap`, {skills: []}) ]);
+    if (session) {
+      try {
+        const prog = await getAuth(`/api/career/${selectedCareerId}/progress`);
+        (prog.learned_skills||[]).forEach(s => checkedSkills.add(s));
+      } catch(e) {}
+    }
     renderCareerSkillView(cv, gv);
   } catch(e) {
     setResults(`<div class="empty"><div class="emo">⚠️</div><h3>${describeError(e)}</h3><button class="full-cta" onclick="exploreCareer()">Try again</button></div>`);
@@ -432,6 +673,7 @@ function renderResults(list) {
             <div class="card-title">${cr.title}</div>
           </div>
           <div class="score"><div class="pct" style="color:${c}">${sc}%</div><div class="pl">Match</div></div>
+          <button class="bookmark-btn${bookmarkedIds.has(cr.id)?' on':''}" data-career-id="${cr.id}" title="${bookmarkedIds.has(cr.id)?'Remove from saved careers':'Save this career'}" onclick="event.stopPropagation();toggleBookmark('${cr.id}',this)">${bookmarkedIds.has(cr.id)?'★':'☆'}</button>
         </div>
         ${cr.description?`<p class="cc-desc">${cr.description}</p>`:''}
         <div class="cc-pills">
@@ -461,8 +703,9 @@ function renderCareerSkillView(cv, gv) {
       ${items.map(gap => {
         const res=(g.resources||{})[gap.skill]||[]; const r2=res.find(r=>r.free)||res[0];
         const link=r2?`<a class="res-link" href="${r2.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${r2.platform}</a>`:'';
-        return `<div class="skill-row tick" onclick="toggleSkillCheck(this,'${esc(gap.skill)}')">
-          <input type="checkbox" onclick="event.stopPropagation();toggleSkillCheck(this.parentElement,'${esc(gap.skill)}')">
+        const checked = checkedSkills.has(gap.skill);
+        return `<div class="skill-row tick${checked?' checked':''}" onclick="toggleSkillCheck(this,'${esc(gap.skill)}')">
+          <input type="checkbox" ${checked?'checked':''} onclick="event.stopPropagation();toggleSkillCheck(this.parentElement,'${esc(gap.skill)}')">
           <span class="sname">${gap.skill}</span>${link}
         </div>`;
       }).join('')}</div>`;
@@ -505,6 +748,7 @@ function renderCareerSkillView(cv, gv) {
         <div class="k">Your live match score</div>
         <div class="live-track"><div id="live-fill"></div></div>
         <div class="live-text" id="live-text">0% — tick the skills you already have</div>
+        ${session ? '' : `<div class="progress-hint">💡 <a href="javascript:void(0)" onclick="openAuthModal('signin')">Sign in</a> to save your progress and come back to it later.</div>`}
       </div>
     </div>
 
@@ -519,6 +763,15 @@ function toggleSkillCheck(el, skillName) {
   if(nowChecked) { checkedSkills.add(skillName); el.classList.add('checked'); if(cb) cb.checked=true; }
   else { checkedSkills.delete(skillName); el.classList.remove('checked'); if(cb) cb.checked=false; }
   if(currentCareerData) updateLiveScore(currentCareerData);
+  scheduleProgressSave();
+}
+function scheduleProgressSave() {
+  if (!session || !currentCareerData) return;
+  const careerId = currentCareerData.id;
+  clearTimeout(progressTimer);
+  progressTimer = setTimeout(() => {
+    putAuth(`/api/career/${careerId}/progress`, {learned_skills: Array.from(checkedSkills)}).catch(()=>{});
+  }, 800);
 }
 function updateLiveScore(c) {
   const req = c.required_skills||[]; const wts={critical:3,important:2,helpful:1};
@@ -603,7 +856,10 @@ function renderDetail(cv, gv) {
           <div class="d-title">${c.title}</div>
           <div class="d-cat">${c.category}${meta ? ` · ${meta.icon} ${meta.label}` : ''}</div>
         </div>
-        <div class="d-score"><div class="n">${sc}%</div><div class="s">Your match</div></div>
+        <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+          <div class="d-score"><div class="n">${sc}%</div><div class="s">Your match</div></div>
+          <button class="bookmark-btn d-bookmark${bookmarkedIds.has(c.id)?' on':''}" data-career-id="${c.id}" title="${bookmarkedIds.has(c.id)?'Remove from saved careers':'Save this career'}" onclick="toggleBookmark('${c.id}',this)">${bookmarkedIds.has(c.id)?'★ Saved':'☆ Save'}</button>
+        </div>
       </div>
       <div class="d-track"><div style="width:${sc}%"></div></div>
       <p class="d-desc">${c.description}</p>
