@@ -77,7 +77,7 @@ jobs:
             --port 7860 \
             --allow-unauthenticated \
             --execution-environment gen2 \
-            --set-secrets=ANTHROPIC_API_KEY=anthropic-api-key:latest,GEMINI_API_KEY=gemini-api-key:latest
+            --set-secrets=ANTHROPIC_API_KEY=anthropic-api-key:latest,GEMINI_API_KEY=gemini-api-key:latest,SUPABASE_URL=supabase-url:latest,SUPABASE_ANON_KEY=supabase-anon-key:latest,SUPABASE_SERVICE_KEY=supabase-service-key:latest
 
       - name: Show service URL
         run: |
