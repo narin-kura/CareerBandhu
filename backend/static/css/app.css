@@ -36,6 +36,7 @@ nav { background: rgba(255,255,255,.85); backdrop-filter: saturate(180%) blur(12
 .brand-name { font-family: 'Sora'; font-weight: 700; font-size: 1.05rem; color: var(--ink); }
 .brand-name b { color: var(--sf); font-weight: 800; }
 .brand-sub { display: block; font-size: .68rem; color: var(--mut); font-weight: 500; margin-top: -1px; letter-spacing: .01em; }
+.brand-formerly { display: block; font-size: .6rem; color: var(--mut); font-weight: 500; opacity: .6; margin-top: 1px; }
 .nav-right { display: flex; align-items: center; gap: 14px; }
 .region-switch { display: inline-flex; background: #F1EFEC; border: 1px solid var(--line); border-radius: 999px; padding: 3px; gap: 2px; }
 .region-switch button { border: none; background: transparent; font-family: inherit; font-size: .78rem; font-weight: 600; color: var(--mut); padding: 5px 12px; border-radius: 999px; cursor: pointer; transition: color .15s, background .15s, box-shadow .15s; white-space: nowrap; }
