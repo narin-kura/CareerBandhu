@@ -1,19 +1,21 @@
 ---
-title: CareerBandhu — Career Guidance
-emoji: 🌍
+title: CareerCompass — Career Guidance
+emoji: 🧭
 colorFrom: indigo
-colorTo: green
+colorTo: blue
 sdk: docker
 app_port: 7860
 pinned: false
 ---
 
-# CareerBandhu 🌍
+# CareerCompass 🧭
+*formerly CareerBandhu*
 
-[![Hugging Face](https://img.shields.io/badge/Live%20App-Hugging%20Face-indigo?style=flat-square&logo=huggingface)](https://knnarin-careerbandhu.hf.space)
-[![Google Cloud Run](https://img.shields.io/badge/Live%20App-GCP%20Cloud%20Run-indigo?style=flat-square&logo=google-cloud)](https://careerbandhu-h5axc6napq-uc.a.run.app/)
+[![Website](https://img.shields.io/badge/Live%20App-careercompass.vigyatri.com-indigo?style=flat-square&logo=google-chrome)](https://careercompass.vigyatri.com)
+[![Hugging Face](https://img.shields.io/badge/Mirror-Hugging%20Face-gray?style=flat-square&logo=huggingface)](https://knnarin-careerbandhu.hf.space)
+[![Google Cloud Run](https://img.shields.io/badge/Powered%20by-GCP%20Cloud%20Run-gray?style=flat-square&logo=google-cloud)](https://careerbandhu-h5axc6napq-uc.a.run.app/)
 
-**Your AI-powered career companion** — *A true friend for your career journey*
+**Your AI-powered career guide** — explore 65+ career paths, match your skills, and plan your future.
 
 Discover the right career based on your current skills. Get a personalized skill gap analysis, curated learning resources, and AI coaching tips to bridge the gap. Rate and explore career paths recommended by the community.
 
