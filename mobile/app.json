@@ -34,6 +34,9 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "apiUrl": "https://REPLACE-WITH-CAREERBANDHU-CLOUD-RUN-URL"
     }
   }
 }
