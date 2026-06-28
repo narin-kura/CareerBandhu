@@ -14,12 +14,15 @@ from typing import Optional
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-from fastapi import Depends, FastAPI, HTTPException
+from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.concurrency import run_in_threadpool
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.errors import RateLimitExceeded
+from slowapi.util import get_remote_address
 
 try:
     import anthropic
@@ -51,6 +54,20 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+def _client_ip(request: Request) -> str:
+    """Real client IP from X-Forwarded-For (Cloud Run / HF proxy), else peer IP."""
+    xff = request.headers.get("x-forwarded-for")
+    if xff:
+        return xff.split(",")[0].strip()
+    return get_remote_address(request)
+
+
+# Per-client rate limiting (in-memory). Applied per-route on the write/LLM paths.
+limiter = Limiter(key_func=_client_ip)
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 app.mount("/static", StaticFiles(directory=str(UI_DIR)), name="static")
 
@@ -271,7 +288,8 @@ async def list_careers(region: Optional[str] = None):
 
 
 @app.post("/api/recommend")
-async def recommend(req: RecommendRequest):
+@limiter.limit("40/minute")
+async def recommend(request: Request, req: RecommendRequest):
     if not req.skills and not req.target_career:
         raise HTTPException(400, "Provide at least one skill or a target career")
 
@@ -357,7 +375,8 @@ async def get_career(career_id: str):
 
 
 @app.post("/api/career/{career_id}/gap")
-async def gap_analysis(career_id: str, req: GapRequest):
+@limiter.limit("20/minute")
+async def gap_analysis(request: Request, career_id: str, req: GapRequest):
     career = CAREERS_BY_ID.get(career_id)
     if not career:
         raise HTTPException(404, "Career not found")
@@ -380,7 +399,8 @@ async def gap_analysis(career_id: str, req: GapRequest):
 
 
 @app.post("/api/rate")
-async def submit_rating(req: RatingRequest):
+@limiter.limit("20/minute")
+async def submit_rating(request: Request, req: RatingRequest):
     if not (1 <= req.rating <= 5):
         raise HTTPException(400, "Rating must be 1–5")
     if req.career_id not in CAREERS_BY_ID:
