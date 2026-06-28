@@ -26742,5 +26742,2027 @@
       "data"
     ],
     "collar": "white"
+  },
+  {
+    "id": "cardiologist_in",
+    "title": "Cardiologist",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Diagnose and treat heart and blood-vessel conditions - from check-ups to interventions and cardiac care.",
+    "salary_range": {
+      "min": 70000,
+      "max": 800000,
+      "currency": "INR/month",
+      "note": "Resident to senior consultant; private practice varies widely"
+    },
+    "growth_outlook": "Strong - specialist demand",
+    "work_style": [
+      "Hospital/Clinic",
+      "Knowledge work",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Clinical Diagnosis",
+        "level": "critical"
+      },
+      {
+        "skill": "Cardiology",
+        "level": "critical"
+      },
+      {
+        "skill": "ECG/Echo Interpretation",
+        "level": "important"
+      },
+      {
+        "skill": "Patient Management",
+        "level": "important"
+      },
+      {
+        "skill": "Medical Ethics",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MBBS + MD + DM (Cardiology)",
+      "Residency and council registration",
+      "Hospital consultant or private practice"
+    ],
+    "qualifications": [
+      "MBBS + MD + DM (Cardiology)",
+      "NMC registration"
+    ],
+    "tags": [
+      "cardiologist",
+      "heart",
+      "doctor",
+      "specialist"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "dermatologist_in",
+    "title": "Dermatologist",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Treat skin, hair and nail conditions, and provide cosmetic dermatology - a high-demand, lifestyle-friendly specialty.",
+    "salary_range": {
+      "min": 70000,
+      "max": 800000,
+      "currency": "INR/month",
+      "note": "Resident to senior consultant; private practice varies widely"
+    },
+    "growth_outlook": "Strong - specialist demand",
+    "work_style": [
+      "Hospital/Clinic",
+      "Knowledge work",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Clinical Diagnosis",
+        "level": "critical"
+      },
+      {
+        "skill": "Dermatology",
+        "level": "critical"
+      },
+      {
+        "skill": "Skin Procedures",
+        "level": "important"
+      },
+      {
+        "skill": "Patient Management",
+        "level": "important"
+      },
+      {
+        "skill": "Medical Ethics",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MBBS + MD (Dermatology)",
+      "Residency and council registration",
+      "Hospital consultant or private practice"
+    ],
+    "qualifications": [
+      "MBBS + MD (Dermatology)",
+      "NMC registration"
+    ],
+    "tags": [
+      "dermatologist",
+      "skin",
+      "doctor",
+      "specialist"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "psychiatrist_in",
+    "title": "Psychiatrist",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Diagnose and treat mental-health conditions with therapy and medication - a fast-growing field as awareness rises.",
+    "salary_range": {
+      "min": 70000,
+      "max": 800000,
+      "currency": "INR/month",
+      "note": "Resident to senior consultant; private practice varies widely"
+    },
+    "growth_outlook": "Strong - specialist demand",
+    "work_style": [
+      "Hospital/Clinic",
+      "Knowledge work",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Clinical Diagnosis",
+        "level": "critical"
+      },
+      {
+        "skill": "Psychiatry",
+        "level": "critical"
+      },
+      {
+        "skill": "Psychopharmacology",
+        "level": "important"
+      },
+      {
+        "skill": "Patient Management",
+        "level": "important"
+      },
+      {
+        "skill": "Medical Ethics",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MBBS + MD (Psychiatry)",
+      "Residency and council registration",
+      "Hospital consultant or private practice"
+    ],
+    "qualifications": [
+      "MBBS + MD (Psychiatry)",
+      "NMC registration"
+    ],
+    "tags": [
+      "psychiatrist",
+      "mental-health",
+      "doctor",
+      "specialist"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "radiologist_in",
+    "title": "Radiologist",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Interpret medical images (X-ray, CT, MRI, ultrasound) to diagnose disease and guide treatment.",
+    "salary_range": {
+      "min": 70000,
+      "max": 800000,
+      "currency": "INR/month",
+      "note": "Resident to senior consultant; private practice varies widely"
+    },
+    "growth_outlook": "Strong - specialist demand",
+    "work_style": [
+      "Hospital/Clinic",
+      "Knowledge work",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Clinical Diagnosis",
+        "level": "critical"
+      },
+      {
+        "skill": "Radiology & Imaging",
+        "level": "critical"
+      },
+      {
+        "skill": "Image Interpretation",
+        "level": "important"
+      },
+      {
+        "skill": "Patient Management",
+        "level": "important"
+      },
+      {
+        "skill": "Medical Ethics",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MBBS + MD (Radiology)",
+      "Residency and council registration",
+      "Hospital consultant or private practice"
+    ],
+    "qualifications": [
+      "MBBS + MD (Radiology)",
+      "NMC registration"
+    ],
+    "tags": [
+      "radiologist",
+      "imaging",
+      "doctor",
+      "specialist"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "gynecologist_in",
+    "title": "Gynaecologist / Obstetrician",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Care for women's reproductive health, pregnancy and childbirth - one of the most in-demand specialties.",
+    "salary_range": {
+      "min": 70000,
+      "max": 800000,
+      "currency": "INR/month",
+      "note": "Resident to senior consultant; private practice varies widely"
+    },
+    "growth_outlook": "Strong - specialist demand",
+    "work_style": [
+      "Hospital/Clinic",
+      "Knowledge work",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Clinical Diagnosis",
+        "level": "critical"
+      },
+      {
+        "skill": "Obstetrics & Gynaecology",
+        "level": "critical"
+      },
+      {
+        "skill": "Surgical/Delivery Skills",
+        "level": "important"
+      },
+      {
+        "skill": "Patient Management",
+        "level": "important"
+      },
+      {
+        "skill": "Medical Ethics",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MBBS + MS/MD (OBG)",
+      "Residency and council registration",
+      "Hospital consultant or private practice"
+    ],
+    "qualifications": [
+      "MBBS + MS/MD (OBG)",
+      "NMC registration"
+    ],
+    "tags": [
+      "gynaecologist",
+      "obstetrics",
+      "doctor",
+      "specialist"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "orthopedic_in",
+    "title": "Orthopaedic Surgeon",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Treat bones, joints, muscles and the spine - fractures, replacements and sports injuries.",
+    "salary_range": {
+      "min": 70000,
+      "max": 800000,
+      "currency": "INR/month",
+      "note": "Resident to senior consultant; private practice varies widely"
+    },
+    "growth_outlook": "Strong - specialist demand",
+    "work_style": [
+      "Hospital/Clinic",
+      "Knowledge work",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Clinical Diagnosis",
+        "level": "critical"
+      },
+      {
+        "skill": "Orthopaedics",
+        "level": "critical"
+      },
+      {
+        "skill": "Orthopaedic Surgery",
+        "level": "important"
+      },
+      {
+        "skill": "Patient Management",
+        "level": "important"
+      },
+      {
+        "skill": "Medical Ethics",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MBBS + MS (Orthopaedics)",
+      "Residency and council registration",
+      "Hospital consultant or private practice"
+    ],
+    "qualifications": [
+      "MBBS + MS (Orthopaedics)",
+      "NMC registration"
+    ],
+    "tags": [
+      "orthopaedic",
+      "bones",
+      "surgeon",
+      "specialist"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "ophthalmologist_in",
+    "title": "Ophthalmologist (Eye Surgeon)",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Diagnose and treat eye diseases and perform eye surgery such as cataract and LASIK.",
+    "salary_range": {
+      "min": 70000,
+      "max": 800000,
+      "currency": "INR/month",
+      "note": "Resident to senior consultant; private practice varies widely"
+    },
+    "growth_outlook": "Strong - specialist demand",
+    "work_style": [
+      "Hospital/Clinic",
+      "Knowledge work",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Clinical Diagnosis",
+        "level": "critical"
+      },
+      {
+        "skill": "Ophthalmology",
+        "level": "critical"
+      },
+      {
+        "skill": "Eye Surgery",
+        "level": "important"
+      },
+      {
+        "skill": "Patient Management",
+        "level": "important"
+      },
+      {
+        "skill": "Medical Ethics",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MBBS + MS (Ophthalmology)",
+      "Residency and council registration",
+      "Hospital consultant or private practice"
+    ],
+    "qualifications": [
+      "MBBS + MS (Ophthalmology)",
+      "NMC registration"
+    ],
+    "tags": [
+      "ophthalmologist",
+      "eye",
+      "surgeon",
+      "specialist"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "ent_in",
+    "title": "ENT Specialist (Otolaryngologist)",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Treat ear, nose and throat conditions, including surgery and hearing/balance disorders.",
+    "salary_range": {
+      "min": 70000,
+      "max": 800000,
+      "currency": "INR/month",
+      "note": "Resident to senior consultant; private practice varies widely"
+    },
+    "growth_outlook": "Strong - specialist demand",
+    "work_style": [
+      "Hospital/Clinic",
+      "Knowledge work",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Clinical Diagnosis",
+        "level": "critical"
+      },
+      {
+        "skill": "ENT (Otolaryngology)",
+        "level": "critical"
+      },
+      {
+        "skill": "ENT Surgery",
+        "level": "important"
+      },
+      {
+        "skill": "Patient Management",
+        "level": "important"
+      },
+      {
+        "skill": "Medical Ethics",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MBBS + MS (ENT)",
+      "Residency and council registration",
+      "Hospital consultant or private practice"
+    ],
+    "qualifications": [
+      "MBBS + MS (ENT)",
+      "NMC registration"
+    ],
+    "tags": [
+      "ent",
+      "otolaryngology",
+      "surgeon",
+      "specialist"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "clinical_psychologist_in",
+    "title": "Clinical Psychologist",
+    "category": "Mental Health & Therapy",
+    "region": "IN",
+    "description": "Assess and treat mental-health and behavioural issues with psychotherapy and psychological testing.",
+    "salary_range": {
+      "min": 30000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Practitioner to senior clinician/consultant"
+    },
+    "growth_outlook": "Growing fast - mental-health awareness",
+    "work_style": [
+      "Clinic / Online",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Clinical Assessment",
+        "level": "critical"
+      },
+      {
+        "skill": "Psychotherapy",
+        "level": "critical"
+      },
+      {
+        "skill": "Psychological Testing",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy & Rapport",
+        "level": "important"
+      },
+      {
+        "skill": "Case Documentation",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "M.A/M.Sc Psychology + M.Phil Clinical Psychology (RCI)",
+      "RCI registration",
+      "Hospital/clinic/private practice"
+    ],
+    "qualifications": [
+      "M.Phil/PsyD Clinical Psychology; RCI registration"
+    ],
+    "tags": [
+      "psychology",
+      "mental-health",
+      "therapy",
+      "clinical"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "counsellor_in",
+    "title": "Counsellor / Psychotherapist",
+    "category": "Mental Health & Therapy",
+    "region": "IN",
+    "description": "Support people through emotional, relationship, career and life challenges with talk-based counselling.",
+    "salary_range": {
+      "min": 20000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Counsellor to own practice"
+    },
+    "growth_outlook": "Growing fast",
+    "work_style": [
+      "Clinic / Online",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Counselling Skills",
+        "level": "critical"
+      },
+      {
+        "skill": "Active Listening & Empathy",
+        "level": "critical"
+      },
+      {
+        "skill": "Therapeutic Techniques",
+        "level": "important"
+      },
+      {
+        "skill": "Ethics & Boundaries",
+        "level": "important"
+      },
+      {
+        "skill": "Online Practice",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Psychology degree + counselling certification/PG diploma",
+      "Clinic/NGO/school/online roles",
+      "Own counselling practice"
+    ],
+    "qualifications": [
+      "Psychology degree; counselling diploma/certification"
+    ],
+    "tags": [
+      "counselling",
+      "mental-health",
+      "therapy",
+      "wellness"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "homeopathy_doctor_in",
+    "title": "Homeopathy Doctor (BHMS)",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Diagnose and treat patients using homeopathic medicine - a recognised AYUSH system with wide patient demand in India.",
+    "salary_range": {
+      "min": 20000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "New graduate to established practice"
+    },
+    "growth_outlook": "Stable - AYUSH demand",
+    "work_style": [
+      "Clinic",
+      "Knowledge work",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Homeopathic Materia Medica",
+        "level": "critical"
+      },
+      {
+        "skill": "Case Taking & Diagnosis",
+        "level": "critical"
+      },
+      {
+        "skill": "Patient Counselling",
+        "level": "important"
+      },
+      {
+        "skill": "Clinical Knowledge",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "BHMS degree + internship",
+      "Register with Homeopathy Council",
+      "Clinic/practice or AYUSH roles"
+    ],
+    "qualifications": [
+      "BHMS degree",
+      "Homeopathy/AYUSH council registration"
+    ],
+    "tags": [
+      "homeopathy",
+      "ayush",
+      "doctor",
+      "healthcare"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "potter_in",
+    "title": "Potter / Ceramic Artisan (Kumhar)",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Shape clay into pots, diyas, planters, tableware and art on the wheel - a heritage craft with festive and studio-pottery demand.",
+    "salary_range": {
+      "min": 10000,
+      "max": 60000,
+      "currency": "INR/month",
+      "note": "Artisan to studio-pottery entrepreneur"
+    },
+    "growth_outlook": "Stable - festive & studio-pottery revival",
+    "work_style": [
+      "Workshop",
+      "Hands-on",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Wheel Throwing & Hand-building",
+        "level": "critical"
+      },
+      {
+        "skill": "Glazing & Firing",
+        "level": "important"
+      },
+      {
+        "skill": "Clay Preparation",
+        "level": "important"
+      },
+      {
+        "skill": "Design Variety",
+        "level": "important"
+      },
+      {
+        "skill": "Selling/Marketing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Family craft or pottery training",
+      "Sell at melas, festivals, studios",
+      "Studio pottery brand / workshops"
+    ],
+    "qualifications": [
+      "No formal degree - apprenticeship; ceramics course optional"
+    ],
+    "tags": [
+      "pottery",
+      "ceramics",
+      "handicraft",
+      "heritage-craft"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "blacksmith_in",
+    "title": "Blacksmith / Metal Forger (Lohar)",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Forge and shape iron and steel into tools, gates, grills and decorative metalwork - a traditional trade with modern decor demand.",
+    "salary_range": {
+      "min": 12000,
+      "max": 60000,
+      "currency": "INR/month",
+      "note": "Artisan to fabrication/decor business"
+    },
+    "growth_outlook": "Stable - decor & custom metalwork",
+    "work_style": [
+      "Workshop",
+      "Physical",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Forging & Metal Shaping",
+        "level": "critical"
+      },
+      {
+        "skill": "Tool Making",
+        "level": "important"
+      },
+      {
+        "skill": "Welding/Fabrication",
+        "level": "important"
+      },
+      {
+        "skill": "Design",
+        "level": "helpful"
+      },
+      {
+        "skill": "Safety",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Family craft or apprenticeship",
+      "Tools/fabrication/decor jobs",
+      "Decorative metal-art business"
+    ],
+    "qualifications": [
+      "No formal degree - apprenticeship"
+    ],
+    "tags": [
+      "blacksmith",
+      "metalwork",
+      "handicraft",
+      "trades"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "bamboo_craftsman_in",
+    "title": "Bamboo & Cane Craftsman",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Weave bamboo and cane into furniture, baskets, decor and eco-products - a sustainable craft with rising green-product demand.",
+    "salary_range": {
+      "min": 10000,
+      "max": 50000,
+      "currency": "INR/month",
+      "note": "Artisan to eco-craft entrepreneur"
+    },
+    "growth_outlook": "Growing - eco-products demand",
+    "work_style": [
+      "Workshop",
+      "Hands-on",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Bamboo/Cane Weaving",
+        "level": "critical"
+      },
+      {
+        "skill": "Furniture/Product Making",
+        "level": "important"
+      },
+      {
+        "skill": "Design",
+        "level": "important"
+      },
+      {
+        "skill": "Finishing",
+        "level": "important"
+      },
+      {
+        "skill": "Selling",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Community craft or NER/handicraft training",
+      "Sell via melas, eco-stores, online",
+      "Eco-craft brand"
+    ],
+    "qualifications": [
+      "No formal degree - apprenticeship; handicraft training"
+    ],
+    "tags": [
+      "bamboo",
+      "cane",
+      "handicraft",
+      "eco-friendly"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "woodcarver_in",
+    "title": "Woodcarver / Wood Artisan",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Carve and craft wood into furniture, doors, idols and decorative art - skilled heritage work (Saharanpur, Channapatna, etc.).",
+    "salary_range": {
+      "min": 12000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Artisan to custom furniture/art business"
+    },
+    "growth_outlook": "Stable - decor & export demand",
+    "work_style": [
+      "Workshop",
+      "Hands-on",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Wood Carving",
+        "level": "critical"
+      },
+      {
+        "skill": "Joinery & Finishing",
+        "level": "important"
+      },
+      {
+        "skill": "Design & Pattern",
+        "level": "important"
+      },
+      {
+        "skill": "Tool Mastery",
+        "level": "important"
+      },
+      {
+        "skill": "Selling",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Apprentice in a woodcraft cluster",
+      "Custom/export furniture & art jobs",
+      "Own workshop / brand"
+    ],
+    "qualifications": [
+      "No formal degree - apprenticeship"
+    ],
+    "tags": [
+      "woodcarving",
+      "woodwork",
+      "handicraft",
+      "heritage-craft"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "stone_sculptor_in",
+    "title": "Stone Sculptor / Shilpi",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Carve stone into idols, statues, temple work and architectural elements - a revered heritage craft (Mahabalipuram, Rajasthan).",
+    "salary_range": {
+      "min": 12000,
+      "max": 100000,
+      "currency": "INR/month",
+      "note": "Artisan to commissioned sculptor"
+    },
+    "growth_outlook": "Stable - temples & commissions",
+    "work_style": [
+      "Workshop",
+      "Physical",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Stone Carving",
+        "level": "critical"
+      },
+      {
+        "skill": "Sculptural Design",
+        "level": "important"
+      },
+      {
+        "skill": "Iconography/Proportions",
+        "level": "important"
+      },
+      {
+        "skill": "Tool & Material Knowledge",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Apprentice under a master sculptor (sthapati tradition)",
+      "Temple/commission work",
+      "Independent commissions"
+    ],
+    "qualifications": [
+      "No formal degree - traditional apprenticeship; fine-arts optional"
+    ],
+    "tags": [
+      "sculpture",
+      "stone-carving",
+      "handicraft",
+      "heritage"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "idol_maker_in",
+    "title": "Idol Maker / Murti Artisan",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Sculpt and paint idols (Ganesh, Durga, etc.) in clay, plaster or eco-materials for festivals - highly seasonal, high-demand work.",
+    "salary_range": {
+      "min": 12000,
+      "max": 120000,
+      "currency": "INR/month",
+      "note": "Artisan to festive-idol business"
+    },
+    "growth_outlook": "Stable - festival demand; eco shift",
+    "work_style": [
+      "Workshop",
+      "Creative",
+      "Seasonal"
+    ],
+    "required_skills": [
+      {
+        "skill": "Idol Sculpting & Moulding",
+        "level": "critical"
+      },
+      {
+        "skill": "Painting & Detailing",
+        "level": "important"
+      },
+      {
+        "skill": "Eco-material Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Seasonal Production Planning",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Family craft or apprenticeship in idol clusters",
+      "Seasonal festival production & sales",
+      "Workshop/brand for eco-idols"
+    ],
+    "qualifications": [
+      "No formal degree - apprenticeship"
+    ],
+    "tags": [
+      "idol-making",
+      "murti",
+      "handicraft",
+      "festive"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "halwai_in",
+    "title": "Halwai / Sweet Maker",
+    "category": "Food & Hospitality",
+    "region": "IN",
+    "description": "Make traditional Indian sweets and snacks (mithai, namkeen) for shops, festivals and catering - a strong small-business path.",
+    "salary_range": {
+      "min": 12000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Sweet maker to mithai-shop owner"
+    },
+    "growth_outlook": "Stable - festive & daily demand",
+    "work_style": [
+      "Kitchen/Shop",
+      "Hands-on",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Sweet & Snack Making",
+        "level": "critical"
+      },
+      {
+        "skill": "Recipe & Quality Consistency",
+        "level": "critical"
+      },
+      {
+        "skill": "Hygiene & Food Safety",
+        "level": "important"
+      },
+      {
+        "skill": "Costing & Selling",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Learn under an experienced halwai",
+      "Shop/catering work",
+      "Own mithai shop / festive supply"
+    ],
+    "qualifications": [
+      "No formal degree - apprenticeship; FSSAI licence for a shop"
+    ],
+    "tags": [
+      "sweets",
+      "mithai",
+      "food",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "papad_pickle_in",
+    "title": "Papad / Pickle Home-Food Entrepreneur",
+    "category": "Entrepreneurship & MSME",
+    "region": "IN",
+    "description": "Make and sell papad, pickles, masalas and home-foods - a classic low-capital women-led MSME with growing D2C reach.",
+    "salary_range": {
+      "min": 10000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Home producer to packaged-food brand"
+    },
+    "growth_outlook": "Growing - D2C home foods",
+    "work_style": [
+      "Home-based",
+      "Self-employed",
+      "Entrepreneurial"
+    ],
+    "required_skills": [
+      {
+        "skill": "Traditional Food Production",
+        "level": "critical"
+      },
+      {
+        "skill": "Hygiene & Shelf-life",
+        "level": "critical"
+      },
+      {
+        "skill": "Packaging & Branding",
+        "level": "important"
+      },
+      {
+        "skill": "Marketing/D2C",
+        "level": "important"
+      },
+      {
+        "skill": "Costing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Start from home kitchen; get FSSAI registration",
+      "Sell locally, then via stores/online",
+      "Build a packaged brand / SHG"
+    ],
+    "qualifications": [
+      "No degree; FSSAI registration; MSME/Udyam for growth"
+    ],
+    "tags": [
+      "food",
+      "papad",
+      "pickle",
+      "msme",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "shepherd_goat_in",
+    "title": "Goat / Sheep Farmer (Pashupalak)",
+    "category": "Agriculture & Farming",
+    "region": "IN",
+    "description": "Rear goats or sheep for meat, milk and wool - a low-input, high-return rural livestock business with strong meat demand.",
+    "salary_range": {
+      "min": 12000,
+      "max": 120000,
+      "currency": "INR/month",
+      "note": "Smallholder to commercial goat/sheep farm"
+    },
+    "growth_outlook": "Good - meat demand",
+    "work_style": [
+      "Farm/Field",
+      "Outdoor",
+      "Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Livestock Rearing",
+        "level": "critical"
+      },
+      {
+        "skill": "Animal Health & Breeding",
+        "level": "important"
+      },
+      {
+        "skill": "Grazing/Feed Management",
+        "level": "important"
+      },
+      {
+        "skill": "Marketing",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Livestock training (KVK/animal husbandry dept)",
+      "Start with a small flock",
+      "Scale to commercial farming"
+    ],
+    "qualifications": [
+      "Animal husbandry training; no degree required"
+    ],
+    "tags": [
+      "goat-farming",
+      "livestock",
+      "agriculture",
+      "agripreneur"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "fisherman_aqua_in",
+    "title": "Fish Farmer / Aquaculture Entrepreneur",
+    "category": "Agriculture & Farming",
+    "region": "IN",
+    "description": "Breed and raise fish or shrimp in ponds/tanks for sale - a high-value agribusiness backed by fisheries (Blue Revolution) schemes.",
+    "salary_range": {
+      "min": 12000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Smallholder to commercial aquaculture"
+    },
+    "growth_outlook": "Growing - Blue Revolution",
+    "work_style": [
+      "Farm/Pond",
+      "Self-employed",
+      "Entrepreneurial"
+    ],
+    "required_skills": [
+      {
+        "skill": "Fish/Shrimp Rearing",
+        "level": "critical"
+      },
+      {
+        "skill": "Water Quality Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Feed & Disease Management",
+        "level": "important"
+      },
+      {
+        "skill": "Marketing & Supply",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Fisheries training (KVK/fisheries dept)",
+      "Start a pond/tank unit",
+      "Scale to commercial aquaculture"
+    ],
+    "qualifications": [
+      "Fisheries training; no degree required"
+    ],
+    "tags": [
+      "aquaculture",
+      "fish-farming",
+      "agriculture",
+      "agripreneur"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "instrumentation_engineer_in",
+    "title": "Instrumentation & Control Engineer",
+    "category": "Manufacturing & Production",
+    "region": "IN",
+    "description": "Design and maintain instruments and control systems that measure and automate industrial processes (oil, power, pharma).",
+    "salary_range": {
+      "min": 28000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Graduate engineer to senior/control lead"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Plant/Office",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Instrumentation & Control",
+        "level": "critical"
+      },
+      {
+        "skill": "PLC/SCADA",
+        "level": "important"
+      },
+      {
+        "skill": "Process Measurement",
+        "level": "important"
+      },
+      {
+        "skill": "Electronics",
+        "level": "important"
+      },
+      {
+        "skill": "Calibration",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.E Instrumentation/Electronics",
+      "Process-industry roles",
+      "Specialise (automation/control)"
+    ],
+    "qualifications": [
+      "B.E/B.Tech in Instrumentation/Control Engineering"
+    ],
+    "tags": [
+      "instrumentation",
+      "control",
+      "automation",
+      "engineering"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "iot_engineer_in",
+    "title": "IoT Engineer",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Build connected-device systems - sensors, embedded firmware, connectivity and cloud dashboards - for smart homes, industry and cities.",
+    "salary_range": {
+      "min": 35000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Engineer to IoT solutions lead"
+    },
+    "growth_outlook": "Growing - smart devices",
+    "work_style": [
+      "Office/Lab",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Embedded & Firmware",
+        "level": "critical"
+      },
+      {
+        "skill": "Sensors & Connectivity (MQTT/BLE)",
+        "level": "critical"
+      },
+      {
+        "skill": "Cloud/IoT Platforms",
+        "level": "important"
+      },
+      {
+        "skill": "Programming (C/Python)",
+        "level": "important"
+      },
+      {
+        "skill": "Data Handling",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "ECE/CS background + IoT projects",
+      "IoT/embedded roles",
+      "Solutions architecture"
+    ],
+    "qualifications": [
+      "B.E/B.Tech (ECE/CS); IoT project portfolio"
+    ],
+    "tags": [
+      "iot",
+      "embedded",
+      "emerging-tech",
+      "engineering"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "frontend_developer_in",
+    "title": "Front-end Developer",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Build the user-facing part of websites and apps - responsive, accessible interfaces with modern frameworks.",
+    "salary_range": {
+      "min": 30000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Junior to senior/lead front-end engineer"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Office / Remote",
+      "Team-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "HTML/CSS/JavaScript",
+        "level": "critical"
+      },
+      {
+        "skill": "React/Vue/Angular",
+        "level": "critical"
+      },
+      {
+        "skill": "Responsive & Accessible UI",
+        "level": "important"
+      },
+      {
+        "skill": "APIs & State Management",
+        "level": "important"
+      },
+      {
+        "skill": "Testing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Learn web dev + build projects",
+      "Front-end roles",
+      "Specialise/lead or go full-stack"
+    ],
+    "qualifications": [
+      "Any degree or self-taught; portfolio matters most"
+    ],
+    "tags": [
+      "frontend",
+      "web",
+      "javascript",
+      "react"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "backend_developer_in",
+    "title": "Back-end Developer",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Build the server-side logic, APIs and databases that power applications - performance, security and scalability.",
+    "salary_range": {
+      "min": 35000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Junior to senior/lead back-end engineer"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Office / Remote",
+      "Team-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Server-side Language (Node/Python/Java)",
+        "level": "critical"
+      },
+      {
+        "skill": "Databases & SQL",
+        "level": "critical"
+      },
+      {
+        "skill": "API Design",
+        "level": "important"
+      },
+      {
+        "skill": "Auth & Security",
+        "level": "important"
+      },
+      {
+        "skill": "Cloud Basics",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Learn backend + build APIs/projects",
+      "Back-end roles",
+      "Specialise/architect or full-stack"
+    ],
+    "qualifications": [
+      "Any degree or self-taught; portfolio matters most"
+    ],
+    "tags": [
+      "backend",
+      "api",
+      "web",
+      "software"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "footballer_in",
+    "title": "Professional Footballer",
+    "category": "Sports & Athletics",
+    "region": "IN",
+    "description": "Play football professionally for clubs and country, training intensively - growing in India with ISL and academies.",
+    "salary_range": {
+      "min": 20000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Academy/club player to pro league; varies hugely"
+    },
+    "growth_outlook": "Growing - ISL & academies",
+    "work_style": [
+      "Field",
+      "Physical",
+      "Performance-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Football Skill & Tactics",
+        "level": "critical"
+      },
+      {
+        "skill": "Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Teamwork",
+        "level": "important"
+      },
+      {
+        "skill": "Discipline",
+        "level": "important"
+      },
+      {
+        "skill": "Mental Toughness",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Train at academies from a young age",
+      "Trials and club contracts",
+      "Pro leagues / coaching later"
+    ],
+    "qualifications": [
+      "No degree - talent, training and trials"
+    ],
+    "tags": [
+      "football",
+      "sports",
+      "athlete",
+      "fitness"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "athlete_track_in",
+    "title": "Athlete (Track & Field)",
+    "category": "Sports & Athletics",
+    "region": "IN",
+    "description": "Compete in running, jumping or throwing events at state, national and international level, with intense training.",
+    "salary_range": {
+      "min": 15000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Trainee to national/international athlete"
+    },
+    "growth_outlook": "Stable - govt support & quotas",
+    "work_style": [
+      "Track/Field",
+      "Physical",
+      "Performance-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Event-specific Technique",
+        "level": "critical"
+      },
+      {
+        "skill": "Strength & Conditioning",
+        "level": "critical"
+      },
+      {
+        "skill": "Discipline & Diet",
+        "level": "important"
+      },
+      {
+        "skill": "Mental Focus",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Train under a coach; compete at school/state",
+      "SAI/national camps & competitions",
+      "Pro/govt-job-via-sports quota"
+    ],
+    "qualifications": [
+      "No degree - talent and training; sports quota jobs possible"
+    ],
+    "tags": [
+      "athletics",
+      "sports",
+      "athlete",
+      "fitness"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "wrestler_in",
+    "title": "Wrestler / Pehlwan (Professional)",
+    "category": "Sports & Athletics",
+    "region": "IN",
+    "description": "Compete in wrestling (kushti/freestyle) at akhadas, nationals and internationals - a deep-rooted Indian sport with Olympic glory.",
+    "salary_range": {
+      "min": 15000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Akhada trainee to national/Olympic wrestler"
+    },
+    "growth_outlook": "Stable - strong tradition & quotas",
+    "work_style": [
+      "Akhada/Mat",
+      "Physical",
+      "Performance-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Wrestling Technique",
+        "level": "critical"
+      },
+      {
+        "skill": "Strength & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Diet & Discipline",
+        "level": "critical"
+      },
+      {
+        "skill": "Mental Toughness",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Train at an akhada/academy",
+      "State & national competitions",
+      "International/Olympic path; sports-quota jobs"
+    ],
+    "qualifications": [
+      "No degree - training and competition record"
+    ],
+    "tags": [
+      "wrestling",
+      "kushti",
+      "sports",
+      "athlete"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "cricket_umpire_in",
+    "title": "Cricket Umpire / Referee",
+    "category": "Sports & Athletics",
+    "region": "IN",
+    "description": "Officiate cricket matches - applying the laws, making decisions and managing the game at club to international level.",
+    "salary_range": {
+      "min": 15000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Local umpire to elite-panel official"
+    },
+    "growth_outlook": "Stable - cricket's scale",
+    "work_style": [
+      "Field",
+      "Focus-intensive"
+    ],
+    "required_skills": [
+      {
+        "skill": "Laws of Cricket",
+        "level": "critical"
+      },
+      {
+        "skill": "Decision-making & Focus",
+        "level": "critical"
+      },
+      {
+        "skill": "Match Management",
+        "level": "important"
+      },
+      {
+        "skill": "Fitness",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Pass state/BCCI umpiring exams",
+      "Officiate club/state matches",
+      "Rise to national/elite panels"
+    ],
+    "qualifications": [
+      "Umpiring certification (state assoc/BCCI)"
+    ],
+    "tags": [
+      "umpire",
+      "cricket",
+      "sports",
+      "officiating"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "sports_physio_in",
+    "title": "Sports Physiotherapist",
+    "category": "Sports & Athletics",
+    "region": "IN",
+    "description": "Prevent, assess and rehabilitate athletes' injuries and optimise performance with sport-specific physiotherapy.",
+    "salary_range": {
+      "min": 25000,
+      "max": 180000,
+      "currency": "INR/month",
+      "note": "Physio to team/elite sports physio"
+    },
+    "growth_outlook": "Growing - sports investment",
+    "work_style": [
+      "Clinic/Field",
+      "Hands-on"
+    ],
+    "required_skills": [
+      {
+        "skill": "Sports Injury Rehab",
+        "level": "critical"
+      },
+      {
+        "skill": "Anatomy & Biomechanics",
+        "level": "critical"
+      },
+      {
+        "skill": "Manual Therapy",
+        "level": "important"
+      },
+      {
+        "skill": "Strength & Conditioning",
+        "level": "important"
+      },
+      {
+        "skill": "Athlete Communication",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "BPT + sports physio specialisation",
+      "Clinic/academy/team roles",
+      "Elite-team physio"
+    ],
+    "qualifications": [
+      "BPT + sports physiotherapy training; council registration"
+    ],
+    "tags": [
+      "sports-physio",
+      "physiotherapy",
+      "sports",
+      "rehab"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "waiter_steward_in",
+    "title": "Waiter / Restaurant Steward",
+    "category": "Food & Hospitality",
+    "region": "IN",
+    "description": "Serve food and drink and look after guests in restaurants and hotels - the front line of hospitality service.",
+    "salary_range": {
+      "min": 12000,
+      "max": 45000,
+      "currency": "INR/month",
+      "note": "Steward to captain/F&B supervisor"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Restaurant/Hotel",
+      "Customer-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Food & Beverage Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Menu Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Hygiene & Etiquette",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "On-the-job or hotel-management certificate",
+      "Restaurant/hotel roles",
+      "Captain/supervisor/F&B"
+    ],
+    "qualifications": [
+      "No degree; F&B/hotel-management certificate helps"
+    ],
+    "tags": [
+      "waiter",
+      "hospitality",
+      "service",
+      "f&b"
+    ],
+    "collar": "pink"
+  },
+  {
+    "id": "gardener_landscaper_in",
+    "title": "Gardener / Landscaper (Mali)",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Plant and maintain gardens, lawns and green spaces for homes, societies and businesses - and design landscapes.",
+    "salary_range": {
+      "min": 12000,
+      "max": 70000,
+      "currency": "INR/month",
+      "note": "Gardener to landscaping business owner"
+    },
+    "growth_outlook": "Stable - urban green demand",
+    "work_style": [
+      "Outdoor",
+      "Physical",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Plant & Garden Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Landscaping & Design",
+        "level": "important"
+      },
+      {
+        "skill": "Soil/Irrigation",
+        "level": "important"
+      },
+      {
+        "skill": "Tools & Maintenance",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Learn on the job or horticulture training",
+      "Garden-maintenance contracts",
+      "Landscaping business"
+    ],
+    "qualifications": [
+      "No degree; horticulture/landscaping course optional"
+    ],
+    "tags": [
+      "gardening",
+      "landscaping",
+      "horticulture",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "housekeeping_in",
+    "title": "Housekeeping Supervisor / Staff",
+    "category": "Food & Hospitality",
+    "region": "IN",
+    "description": "Maintain cleanliness, hygiene and presentation in hotels, hospitals and corporates - rooms, public areas and laundry.",
+    "salary_range": {
+      "min": 12000,
+      "max": 55000,
+      "currency": "INR/month",
+      "note": "Attendant to housekeeping supervisor/executive"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Hotel/Facility",
+      "Physical",
+      "Service"
+    ],
+    "required_skills": [
+      {
+        "skill": "Cleaning & Hygiene Standards",
+        "level": "critical"
+      },
+      {
+        "skill": "Attention to Detail",
+        "level": "important"
+      },
+      {
+        "skill": "Team Coordination",
+        "level": "important"
+      },
+      {
+        "skill": "Inventory/Supplies",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "On-the-job training",
+      "Hotel/hospital/facility roles",
+      "Supervisor/executive housekeeper"
+    ],
+    "qualifications": [
+      "No degree; hotel-management certificate helps for supervisory roles"
+    ],
+    "tags": [
+      "housekeeping",
+      "hospitality",
+      "facilities",
+      "service"
+    ],
+    "collar": "pink"
+  },
+  {
+    "id": "youtuber_in",
+    "title": "YouTuber / Video Content Creator",
+    "category": "Media & Broadcasting",
+    "region": "IN",
+    "description": "Create videos for YouTube/social platforms in a niche, building an audience and monetising via ads, sponsorships and products.",
+    "salary_range": {
+      "min": 10000,
+      "max": 1000000,
+      "currency": "INR/month",
+      "note": "Hobbyist to full-time creator with brand deals"
+    },
+    "growth_outlook": "Growing fast - creator economy",
+    "work_style": [
+      "Online / Remote",
+      "Self-employed",
+      "Creative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Video Creation & Editing",
+        "level": "critical"
+      },
+      {
+        "skill": "Niche Content & Storytelling",
+        "level": "critical"
+      },
+      {
+        "skill": "Audience Growth & SEO",
+        "level": "important"
+      },
+      {
+        "skill": "On-camera/Presentation",
+        "level": "important"
+      },
+      {
+        "skill": "Monetisation & Brand Deals",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Pick a niche and publish consistently",
+      "Grow audience and engagement",
+      "Monetise via ads/sponsors/products"
+    ],
+    "qualifications": [
+      "No degree - skill, consistency and creativity"
+    ],
+    "tags": [
+      "youtube",
+      "content-creator",
+      "video",
+      "social-media"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "virtual_assistant_in",
+    "title": "Virtual Assistant",
+    "category": "Business & Management",
+    "region": "IN",
+    "description": "Provide remote admin, scheduling, email, research and support to businesses and entrepreneurs worldwide.",
+    "salary_range": {
+      "min": 15000,
+      "max": 120000,
+      "currency": "INR/month",
+      "note": "VA to VA-agency owner"
+    },
+    "growth_outlook": "Growing - remote work",
+    "work_style": [
+      "Online / Remote",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Organisation & Admin",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication (written)",
+        "level": "critical"
+      },
+      {
+        "skill": "Tools (Calendar/Docs/CRM)",
+        "level": "important"
+      },
+      {
+        "skill": "Time Management",
+        "level": "important"
+      },
+      {
+        "skill": "Discretion",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Build admin/communication skills",
+      "Freelance platforms or direct clients",
+      "Specialise or run a VA agency"
+    ],
+    "qualifications": [
+      "No degree; reliability and communication matter"
+    ],
+    "tags": [
+      "virtual-assistant",
+      "remote",
+      "admin",
+      "freelance"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "seo_specialist_in",
+    "title": "SEO Specialist",
+    "category": "Marketing & Sales",
+    "region": "IN",
+    "description": "Improve websites' search rankings and organic traffic through content, technical SEO and link strategy.",
+    "salary_range": {
+      "min": 20000,
+      "max": 180000,
+      "currency": "INR/month",
+      "note": "Executive to SEO/organic-growth lead"
+    },
+    "growth_outlook": "Strong - digital marketing",
+    "work_style": [
+      "Office / Remote",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "SEO (on-page/technical/off-page)",
+        "level": "critical"
+      },
+      {
+        "skill": "Keyword & Content Strategy",
+        "level": "critical"
+      },
+      {
+        "skill": "Analytics (GA/Search Console)",
+        "level": "important"
+      },
+      {
+        "skill": "Basic HTML",
+        "level": "important"
+      },
+      {
+        "skill": "Copywriting",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Learn SEO + practise on a site",
+      "Agency/in-house roles",
+      "Grow to organic-growth lead/consultant"
+    ],
+    "qualifications": [
+      "No fixed degree; results and portfolio matter"
+    ],
+    "tags": [
+      "seo",
+      "digital-marketing",
+      "content",
+      "growth"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "community_manager_in",
+    "title": "Community Manager",
+    "category": "Marketing & Sales",
+    "region": "IN",
+    "description": "Build and nurture online communities (Discord, social, forums) for brands and products - engagement, moderation and growth.",
+    "salary_range": {
+      "min": 20000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Associate to community/growth lead"
+    },
+    "growth_outlook": "Growing - community-led growth",
+    "work_style": [
+      "Online / Remote",
+      "People-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Community Building & Moderation",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Content & Events",
+        "level": "important"
+      },
+      {
+        "skill": "Analytics",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Run/grow a community or volunteer",
+      "Brand/product community roles",
+      "Grow to community/growth lead"
+    ],
+    "qualifications": [
+      "No fixed degree; community track record matters"
+    ],
+    "tags": [
+      "community",
+      "social-media",
+      "marketing",
+      "engagement"
+    ],
+    "collar": "white"
   }
 ]
