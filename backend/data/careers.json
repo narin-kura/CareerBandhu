@@ -21843,5 +21843,3043 @@
       "self-employment"
     ],
     "collar": "no"
+  },
+  {
+    "id": "general_physician_in",
+    "title": "General Physician (MBBS Doctor)",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Diagnose and treat common illnesses, manage patients, and refer to specialists. The frontline of clinical medicine in hospitals, clinics and private practice.",
+    "salary_range": {
+      "min": 40000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Junior resident to established practitioner/consultant"
+    },
+    "growth_outlook": "Strong - persistent doctor demand",
+    "work_style": [
+      "Hospital/Clinic",
+      "Knowledge work",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Clinical Diagnosis",
+        "level": "critical"
+      },
+      {
+        "skill": "Patient Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Pharmacology",
+        "level": "critical"
+      },
+      {
+        "skill": "Medical Ethics",
+        "level": "important"
+      },
+      {
+        "skill": "Emergency Care",
+        "level": "important"
+      },
+      {
+        "skill": "Communication & Empathy",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Complete MBBS + internship",
+      "Register with the Medical Council (NMC/state)",
+      "Practise or pursue PG (MD/MS)"
+    ],
+    "qualifications": [
+      "MBBS degree",
+      "NMC/State Medical Council registration"
+    ],
+    "tags": [
+      "doctor",
+      "medicine",
+      "healthcare",
+      "clinical"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "surgeon_in",
+    "title": "Surgeon (General / Specialist)",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Perform surgical procedures to treat injury, disease and deformity, from general surgery to specialised fields. High-skill, high-responsibility medical work.",
+    "salary_range": {
+      "min": 80000,
+      "max": 800000,
+      "currency": "INR/month",
+      "note": "Resident to senior consultant surgeon"
+    },
+    "growth_outlook": "Strong - specialist demand",
+    "work_style": [
+      "Hospital",
+      "High-responsibility",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Surgical Technique",
+        "level": "critical"
+      },
+      {
+        "skill": "Anatomy",
+        "level": "critical"
+      },
+      {
+        "skill": "Patient Assessment",
+        "level": "critical"
+      },
+      {
+        "skill": "Sterile/OT Protocols",
+        "level": "important"
+      },
+      {
+        "skill": "Post-op Care",
+        "level": "important"
+      },
+      {
+        "skill": "Decision-making Under Pressure",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MBBS then MS/MCh in a surgical specialty",
+      "Surgical residency and supervised practice",
+      "Hospital consultant or private practice"
+    ],
+    "qualifications": [
+      "MBBS + MS/MCh (surgical specialty)",
+      "NMC registration"
+    ],
+    "tags": [
+      "surgeon",
+      "surgery",
+      "medicine",
+      "specialist"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "pediatrician_in",
+    "title": "Pediatrician",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Care for the health of infants, children and adolescents - growth, vaccination, and treatment of childhood illnesses.",
+    "salary_range": {
+      "min": 60000,
+      "max": 400000,
+      "currency": "INR/month",
+      "note": "Resident to senior child-health consultant"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Hospital/Clinic",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Child Health & Development",
+        "level": "critical"
+      },
+      {
+        "skill": "Clinical Diagnosis",
+        "level": "critical"
+      },
+      {
+        "skill": "Vaccination/Immunisation",
+        "level": "important"
+      },
+      {
+        "skill": "Parent Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Emergency Pediatrics",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MBBS then MD/DNB Paediatrics",
+      "Residency and registration",
+      "Hospital or private clinic"
+    ],
+    "qualifications": [
+      "MBBS + MD/DNB (Paediatrics)",
+      "NMC registration"
+    ],
+    "tags": [
+      "pediatrician",
+      "child-health",
+      "doctor",
+      "medicine"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "dentist_in",
+    "title": "Dentist (BDS)",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Diagnose and treat teeth and gum conditions - fillings, extractions, root canals, cosmetic and preventive dentistry.",
+    "salary_range": {
+      "min": 30000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "New graduate to established dental practice owner"
+    },
+    "growth_outlook": "Good",
+    "work_style": [
+      "Clinic",
+      "Hands-on",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Dental Procedures",
+        "level": "critical"
+      },
+      {
+        "skill": "Oral Diagnosis",
+        "level": "critical"
+      },
+      {
+        "skill": "Patient Care",
+        "level": "important"
+      },
+      {
+        "skill": "Dental Equipment Handling",
+        "level": "important"
+      },
+      {
+        "skill": "Practice Management",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Complete BDS + internship",
+      "Register with Dental Council",
+      "Clinic job, then own practice or MDS specialisation"
+    ],
+    "qualifications": [
+      "BDS degree",
+      "Dental Council registration"
+    ],
+    "tags": [
+      "dentist",
+      "dental",
+      "healthcare"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "nurse_practitioner_in",
+    "title": "Staff Nurse / Nursing Officer",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Provide patient care, administer medication, assist procedures and monitor recovery in hospitals and clinics.",
+    "salary_range": {
+      "min": 18000,
+      "max": 90000,
+      "currency": "INR/month",
+      "note": "Staff nurse to nursing superintendent"
+    },
+    "growth_outlook": "Strong - global nurse shortage",
+    "work_style": [
+      "Hospital",
+      "Shift work",
+      "Hands-on"
+    ],
+    "required_skills": [
+      {
+        "skill": "Patient Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Medication Administration",
+        "level": "critical"
+      },
+      {
+        "skill": "Vitals & Monitoring",
+        "level": "critical"
+      },
+      {
+        "skill": "Infection Control",
+        "level": "important"
+      },
+      {
+        "skill": "Emergency Response",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "GNM diploma or B.Sc Nursing",
+      "Register with Nursing Council",
+      "Hospital roles; specialise (ICU/OT/cardiac)"
+    ],
+    "qualifications": [
+      "GNM / B.Sc Nursing",
+      "State Nursing Council registration"
+    ],
+    "tags": [
+      "nurse",
+      "nursing",
+      "healthcare",
+      "patient-care"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "lab_technician_in",
+    "title": "Medical Lab Technician",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Collect samples and run diagnostic tests (blood, urine, pathology) that doctors rely on for diagnosis.",
+    "salary_range": {
+      "min": 15000,
+      "max": 60000,
+      "currency": "INR/month",
+      "note": "Lab technician to lab supervisor"
+    },
+    "growth_outlook": "Good - diagnostics growth",
+    "work_style": [
+      "Lab",
+      "Hands-on"
+    ],
+    "required_skills": [
+      {
+        "skill": "Sample Collection & Handling",
+        "level": "critical"
+      },
+      {
+        "skill": "Lab Test Procedures",
+        "level": "critical"
+      },
+      {
+        "skill": "Lab Equipment Operation",
+        "level": "important"
+      },
+      {
+        "skill": "Quality Control",
+        "level": "important"
+      },
+      {
+        "skill": "Biosafety",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "DMLT/B.Sc MLT",
+      "Lab internship",
+      "Hospital/diagnostic-lab roles"
+    ],
+    "qualifications": [
+      "DMLT / B.Sc in Medical Lab Technology"
+    ],
+    "tags": [
+      "lab-technician",
+      "pathology",
+      "healthcare",
+      "diagnostics"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "radiology_technician_in",
+    "title": "Radiology / X-Ray Technician",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Operate X-ray, CT and MRI machines to capture diagnostic images while ensuring patient and radiation safety.",
+    "salary_range": {
+      "min": 18000,
+      "max": 70000,
+      "currency": "INR/month",
+      "note": "Technician to radiology supervisor"
+    },
+    "growth_outlook": "Good",
+    "work_style": [
+      "Hospital/Diagnostic centre",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Imaging Equipment Operation",
+        "level": "critical"
+      },
+      {
+        "skill": "Radiation Safety",
+        "level": "critical"
+      },
+      {
+        "skill": "Patient Positioning",
+        "level": "important"
+      },
+      {
+        "skill": "Image Quality Assessment",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "B.Sc/Diploma in Radiology/Imaging Technology",
+      "Hospital internship",
+      "Diagnostic centre/hospital roles"
+    ],
+    "qualifications": [
+      "Diploma/B.Sc in Radiology / Medical Imaging Technology"
+    ],
+    "tags": [
+      "radiology",
+      "imaging",
+      "healthcare",
+      "x-ray"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "paramedic_emt_in",
+    "title": "Paramedic / Emergency Medical Technician",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Provide pre-hospital emergency care and transport - first response, life support and stabilisation en route to hospital.",
+    "salary_range": {
+      "min": 15000,
+      "max": 60000,
+      "currency": "INR/month",
+      "note": "EMT to senior paramedic / ambulance supervisor"
+    },
+    "growth_outlook": "Growing - emergency services expansion",
+    "work_style": [
+      "Field/Ambulance",
+      "On-call",
+      "High-pressure"
+    ],
+    "required_skills": [
+      {
+        "skill": "Emergency First Response",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic/Advanced Life Support",
+        "level": "critical"
+      },
+      {
+        "skill": "Patient Stabilisation",
+        "level": "important"
+      },
+      {
+        "skill": "Ambulance Operations",
+        "level": "important"
+      },
+      {
+        "skill": "Calm Under Pressure",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "EMT/paramedic certification course",
+      "Ambulance/hospital emergency roles"
+    ],
+    "qualifications": [
+      "EMT / Paramedic certification (e.g. from a recognised institute)"
+    ],
+    "tags": [
+      "paramedic",
+      "emt",
+      "emergency",
+      "healthcare"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "medical_coder_in",
+    "title": "Medical Coder / Billing Specialist",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Translate diagnoses and procedures into standardized codes (ICD/CPT) for insurance and records. A large remote-friendly healthcare-BPO field in India.",
+    "salary_range": {
+      "min": 18000,
+      "max": 70000,
+      "currency": "INR/month",
+      "note": "Coder to coding team lead/auditor"
+    },
+    "growth_outlook": "Strong - healthcare BPO growth",
+    "work_style": [
+      "Office / Remote",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Medical Coding (ICD-10/CPT)",
+        "level": "critical"
+      },
+      {
+        "skill": "Medical Terminology",
+        "level": "critical"
+      },
+      {
+        "skill": "Anatomy basics",
+        "level": "important"
+      },
+      {
+        "skill": "Insurance/Claims Process",
+        "level": "important"
+      },
+      {
+        "skill": "Accuracy & Compliance",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Life-science/nursing/pharma background helps",
+      "Medical coding certification (CPC/CCS)",
+      "Healthcare BPO roles (often remote)"
+    ],
+    "qualifications": [
+      "Coding certification (CPC/CCS) preferred",
+      "Any science/health graduate"
+    ],
+    "tags": [
+      "medical-coding",
+      "healthcare",
+      "bpo",
+      "remote"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "optometrist_in",
+    "title": "Optometrist",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Test vision, prescribe spectacles/contact lenses and screen for eye conditions, often alongside ophthalmologists or in optical retail.",
+    "salary_range": {
+      "min": 18000,
+      "max": 90000,
+      "currency": "INR/month",
+      "note": "Optometrist to optical store owner"
+    },
+    "growth_outlook": "Good",
+    "work_style": [
+      "Clinic/Retail",
+      "Hands-on"
+    ],
+    "required_skills": [
+      {
+        "skill": "Vision Testing & Refraction",
+        "level": "critical"
+      },
+      {
+        "skill": "Eye Anatomy",
+        "level": "important"
+      },
+      {
+        "skill": "Lens/Contact Fitting",
+        "level": "important"
+      },
+      {
+        "skill": "Patient Counselling",
+        "level": "important"
+      },
+      {
+        "skill": "Optical Retail",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.Optom or diploma in optometry",
+      "Clinic/optical-retail roles",
+      "Own optical store"
+    ],
+    "qualifications": [
+      "B.Optom / Diploma in Optometry"
+    ],
+    "tags": [
+      "optometry",
+      "eye-care",
+      "healthcare"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "qa_engineer_in",
+    "title": "QA / Test Engineer",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Ensure software quality through manual and automated testing - writing test cases, finding bugs, and building test automation.",
+    "salary_range": {
+      "min": 30000,
+      "max": 180000,
+      "currency": "INR/month",
+      "note": "Junior QA to QA lead/SDET"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Office / Remote",
+      "Team-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Test Case Design",
+        "level": "critical"
+      },
+      {
+        "skill": "Manual Testing",
+        "level": "critical"
+      },
+      {
+        "skill": "Test Automation (Selenium/Cypress)",
+        "level": "important"
+      },
+      {
+        "skill": "Bug Tracking (JIRA)",
+        "level": "important"
+      },
+      {
+        "skill": "API Testing",
+        "level": "important"
+      },
+      {
+        "skill": "Basic Programming",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "CS/IT degree or self-study",
+      "Learn testing + an automation tool",
+      "QA roles, grow to SDET/lead"
+    ],
+    "qualifications": [
+      "Any degree; testing certifications (ISTQB) optional"
+    ],
+    "tags": [
+      "qa",
+      "testing",
+      "software",
+      "automation"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "sre_in",
+    "title": "Site Reliability Engineer (SRE)",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Keep large systems reliable and scalable - monitoring, incident response, automation and performance, blending software and operations.",
+    "salary_range": {
+      "min": 80000,
+      "max": 400000,
+      "currency": "INR/month",
+      "note": "SRE to senior/staff SRE"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Office / Remote",
+      "On-call",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Linux & Networking",
+        "level": "critical"
+      },
+      {
+        "skill": "Cloud (AWS/GCP/Azure)",
+        "level": "critical"
+      },
+      {
+        "skill": "Monitoring & Observability",
+        "level": "critical"
+      },
+      {
+        "skill": "Scripting (Python/Go)",
+        "level": "important"
+      },
+      {
+        "skill": "Incident Management",
+        "level": "important"
+      },
+      {
+        "skill": "Infrastructure as Code",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Strong software + systems background",
+      "Cloud and observability skills",
+      "Move from SWE/DevOps into SRE"
+    ],
+    "qualifications": [
+      "CS/IT degree or equivalent experience",
+      "Cloud certifications (optional)"
+    ],
+    "tags": [
+      "sre",
+      "reliability",
+      "devops",
+      "cloud"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "dba_in",
+    "title": "Database Administrator (DBA)",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Design, secure, tune and maintain databases - ensuring data availability, performance and backups for applications.",
+    "salary_range": {
+      "min": 40000,
+      "max": 220000,
+      "currency": "INR/month",
+      "note": "DBA to senior/lead DBA"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Office / Remote",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "SQL & Query Tuning",
+        "level": "critical"
+      },
+      {
+        "skill": "Database Administration (Oracle/PostgreSQL/MySQL)",
+        "level": "critical"
+      },
+      {
+        "skill": "Backup & Recovery",
+        "level": "important"
+      },
+      {
+        "skill": "Security & Access Control",
+        "level": "important"
+      },
+      {
+        "skill": "Performance Monitoring",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "CS/IT background",
+      "Master a major DBMS",
+      "DBA roles in enterprises/cloud"
+    ],
+    "qualifications": [
+      "Any IT degree; DB vendor certifications optional"
+    ],
+    "tags": [
+      "dba",
+      "database",
+      "sql",
+      "data"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "network_engineer_in",
+    "title": "Network Engineer",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Design, configure and maintain computer networks - routers, switches, firewalls, VPNs - for reliable, secure connectivity.",
+    "salary_range": {
+      "min": 30000,
+      "max": 180000,
+      "currency": "INR/month",
+      "note": "Network engineer to network architect"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Office/Datacentre",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Networking (TCP/IP, routing, switching)",
+        "level": "critical"
+      },
+      {
+        "skill": "Network Security/Firewalls",
+        "level": "important"
+      },
+      {
+        "skill": "Cisco/Juniper Equipment",
+        "level": "important"
+      },
+      {
+        "skill": "Troubleshooting",
+        "level": "critical"
+      },
+      {
+        "skill": "Cloud Networking",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "IT/ECE background",
+      "CCNA and hands-on labs",
+      "NOC/network roles, grow to architect"
+    ],
+    "qualifications": [
+      "Any IT/ECE degree",
+      "CCNA/CCNP certifications valued"
+    ],
+    "tags": [
+      "networking",
+      "infrastructure",
+      "it",
+      "cisco"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "it_support_in",
+    "title": "IT Support / Help Desk Technician",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Provide first-line technical support - troubleshooting hardware, software, accounts and networks for users.",
+    "salary_range": {
+      "min": 15000,
+      "max": 60000,
+      "currency": "INR/month",
+      "note": "Support tech to IT support lead"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Office / Remote",
+      "Customer-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Hardware & OS Troubleshooting",
+        "level": "critical"
+      },
+      {
+        "skill": "Networking Basics",
+        "level": "important"
+      },
+      {
+        "skill": "Ticketing Systems",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "important"
+      },
+      {
+        "skill": "Remote Support Tools",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "IT diploma/degree or self-study",
+      "Entry help-desk roles",
+      "Grow into sysadmin/network roles"
+    ],
+    "qualifications": [
+      "Any IT background; CompTIA A+ optional"
+    ],
+    "tags": [
+      "it-support",
+      "helpdesk",
+      "technician",
+      "it"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "sysadmin_in",
+    "title": "Systems Administrator",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Install, configure and maintain servers and IT infrastructure - keeping systems secure, updated and running.",
+    "salary_range": {
+      "min": 30000,
+      "max": 160000,
+      "currency": "INR/month",
+      "note": "Sysadmin to infrastructure lead"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Office/Datacentre",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Linux/Windows Server Admin",
+        "level": "critical"
+      },
+      {
+        "skill": "Scripting (Bash/PowerShell)",
+        "level": "important"
+      },
+      {
+        "skill": "Virtualization",
+        "level": "important"
+      },
+      {
+        "skill": "Backup & Security",
+        "level": "important"
+      },
+      {
+        "skill": "Networking",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "IT background",
+      "Server admin skills",
+      "Sysadmin roles; move to DevOps/SRE"
+    ],
+    "qualifications": [
+      "Any IT degree; RHCSA/MCSA optional"
+    ],
+    "tags": [
+      "sysadmin",
+      "infrastructure",
+      "linux",
+      "it"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "pentester_in",
+    "title": "Penetration Tester / Ethical Hacker",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Legally attack systems to find vulnerabilities before criminals do - web, network, cloud and app security testing.",
+    "salary_range": {
+      "min": 40000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Junior pentester to security consultant"
+    },
+    "growth_outlook": "Strong - security demand",
+    "work_style": [
+      "Office / Remote",
+      "High-skill"
+    ],
+    "required_skills": [
+      {
+        "skill": "Ethical Hacking & Exploitation",
+        "level": "critical"
+      },
+      {
+        "skill": "Networking & Web Security",
+        "level": "critical"
+      },
+      {
+        "skill": "Scripting (Python)",
+        "level": "important"
+      },
+      {
+        "skill": "Security Tools (Burp/Metasploit)",
+        "level": "important"
+      },
+      {
+        "skill": "Reporting",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Strong security fundamentals",
+      "Practise on labs (HTB/TryHackMe), get OSCP/CEH",
+      "Security firm/consultancy roles"
+    ],
+    "qualifications": [
+      "Any IT degree",
+      "OSCP/CEH certifications valued"
+    ],
+    "tags": [
+      "pentesting",
+      "ethical-hacking",
+      "cybersecurity",
+      "security"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "soc_analyst_in",
+    "title": "SOC Analyst (Security Operations)",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Monitor, detect and respond to security threats in real time using SIEM tools in a Security Operations Centre.",
+    "salary_range": {
+      "min": 30000,
+      "max": 180000,
+      "currency": "INR/month",
+      "note": "L1 analyst to SOC lead/threat hunter"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Office / Remote",
+      "Shift work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Security Monitoring (SIEM)",
+        "level": "critical"
+      },
+      {
+        "skill": "Incident Response",
+        "level": "critical"
+      },
+      {
+        "skill": "Networking & Logs",
+        "level": "important"
+      },
+      {
+        "skill": "Threat Intelligence",
+        "level": "important"
+      },
+      {
+        "skill": "Scripting",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Security fundamentals + SIEM training",
+      "SOC L1 roles, grow to threat hunting"
+    ],
+    "qualifications": [
+      "Any IT degree",
+      "Security certs (CompTIA Security+, etc.) valued"
+    ],
+    "tags": [
+      "soc",
+      "cybersecurity",
+      "monitoring",
+      "security"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "salesforce_dev_in",
+    "title": "Salesforce Developer / Admin",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Customize and build on the Salesforce CRM platform - automation, integrations and apps for businesses.",
+    "salary_range": {
+      "min": 40000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Admin to senior Salesforce developer/architect"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Office / Remote",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Salesforce Admin & Config",
+        "level": "critical"
+      },
+      {
+        "skill": "Apex/Lightning Development",
+        "level": "important"
+      },
+      {
+        "skill": "Flows & Automation",
+        "level": "important"
+      },
+      {
+        "skill": "Integrations",
+        "level": "important"
+      },
+      {
+        "skill": "CRM Process Knowledge",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Learn Salesforce via Trailhead",
+      "Get certified (Admin/Developer)",
+      "CRM consultancy/enterprise roles"
+    ],
+    "qualifications": [
+      "Any degree",
+      "Salesforce certifications (Admin/Platform Dev)"
+    ],
+    "tags": [
+      "salesforce",
+      "crm",
+      "software",
+      "cloud"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "sap_consultant_in",
+    "title": "SAP / ERP Consultant",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Implement and customise SAP/ERP modules for enterprises - finance, supply chain, HR - bridging business and tech.",
+    "salary_range": {
+      "min": 40000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Consultant to senior/principal consultant"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Office / Client-site",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "SAP/ERP Module Expertise",
+        "level": "critical"
+      },
+      {
+        "skill": "Business Process Mapping",
+        "level": "critical"
+      },
+      {
+        "skill": "Configuration",
+        "level": "important"
+      },
+      {
+        "skill": "Stakeholder Communication",
+        "level": "important"
+      },
+      {
+        "skill": "ABAP basics",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Domain or IT background",
+      "SAP module training/certification",
+      "Consultancy/enterprise implementation roles"
+    ],
+    "qualifications": [
+      "Any degree; SAP module certification valued"
+    ],
+    "tags": [
+      "sap",
+      "erp",
+      "consulting",
+      "enterprise"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "building_painter_in",
+    "title": "Painter (Building / Decorative)",
+    "category": "Trades & Construction",
+    "region": "IN",
+    "description": "Prepare surfaces and apply paints, textures and finishes to buildings - interior and exterior.",
+    "salary_range": {
+      "min": 14000,
+      "max": 55000,
+      "currency": "INR/month",
+      "note": "Helper to painting contractor"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Site",
+      "Physical",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Surface Prep & Painting",
+        "level": "critical"
+      },
+      {
+        "skill": "Texture/Decorative Finishes",
+        "level": "important"
+      },
+      {
+        "skill": "Colour Mixing",
+        "level": "important"
+      },
+      {
+        "skill": "Tools & Spray Equipment",
+        "level": "important"
+      },
+      {
+        "skill": "Site Safety",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Learn on-site under experienced painters",
+      "Take painting jobs, build a crew",
+      "Become a contractor"
+    ],
+    "qualifications": [
+      "No formal degree - apprenticeship"
+    ],
+    "tags": [
+      "painter",
+      "construction",
+      "trades",
+      "finishing"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "surveyor_in",
+    "title": "Land Surveyor",
+    "category": "Architecture & Urban Planning",
+    "region": "IN",
+    "description": "Measure and map land, boundaries and construction sites using instruments and software for building and legal purposes.",
+    "salary_range": {
+      "min": 18000,
+      "max": 90000,
+      "currency": "INR/month",
+      "note": "Survey assistant to licensed surveyor"
+    },
+    "growth_outlook": "Good - infrastructure growth",
+    "work_style": [
+      "Field + Office",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Surveying (Total Station/GPS)",
+        "level": "critical"
+      },
+      {
+        "skill": "CAD & Mapping Software",
+        "level": "important"
+      },
+      {
+        "skill": "Measurement & Calculation",
+        "level": "critical"
+      },
+      {
+        "skill": "Field Data Collection",
+        "level": "important"
+      },
+      {
+        "skill": "Drawing Interpretation",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Diploma in civil/surveying",
+      "Field assistant roles",
+      "Govt/private surveying, licensing"
+    ],
+    "qualifications": [
+      "Diploma/Degree in Civil Engineering or Surveying"
+    ],
+    "tags": [
+      "surveyor",
+      "construction",
+      "mapping",
+      "civil"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "heavy_equipment_operator_in",
+    "title": "Heavy Equipment Operator",
+    "category": "Trades & Construction",
+    "region": "IN",
+    "description": "Operate excavators, cranes, loaders, bulldozers and other heavy machinery on construction and infrastructure sites.",
+    "salary_range": {
+      "min": 18000,
+      "max": 70000,
+      "currency": "INR/month",
+      "note": "Operator to senior operator/supervisor"
+    },
+    "growth_outlook": "Good - infrastructure push",
+    "work_style": [
+      "Site",
+      "Physical",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Heavy Machinery Operation",
+        "level": "critical"
+      },
+      {
+        "skill": "Site Safety",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic Machine Maintenance",
+        "level": "important"
+      },
+      {
+        "skill": "Load/Ground Awareness",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Equipment operator training/ITI",
+      "On-site experience",
+      "Construction/infra/mining roles"
+    ],
+    "qualifications": [
+      "ITI or operator training certification"
+    ],
+    "tags": [
+      "heavy-equipment",
+      "construction",
+      "operator",
+      "trades"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "solar_installer_in",
+    "title": "Solar Panel Installer / Technician",
+    "category": "Energy & Utilities",
+    "region": "IN",
+    "description": "Install, wire and maintain rooftop and ground solar PV systems - a fast-growing green-jobs field backed by India's solar mission.",
+    "salary_range": {
+      "min": 16000,
+      "max": 70000,
+      "currency": "INR/month",
+      "note": "Installer to solar project technician/entrepreneur"
+    },
+    "growth_outlook": "Growing fast - solar push",
+    "work_style": [
+      "Field/Rooftop",
+      "Physical",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Solar PV Installation",
+        "level": "critical"
+      },
+      {
+        "skill": "Electrical Wiring & Safety",
+        "level": "critical"
+      },
+      {
+        "skill": "Panel & Inverter Setup",
+        "level": "important"
+      },
+      {
+        "skill": "Maintenance & Troubleshooting",
+        "level": "important"
+      },
+      {
+        "skill": "Site Assessment",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "ITI (electrician) + solar training (e.g. Suryamitra)",
+      "Installer roles with solar firms",
+      "Own solar installation service"
+    ],
+    "qualifications": [
+      "ITI electrical + Suryamitra/solar technician certification"
+    ],
+    "tags": [
+      "solar",
+      "green-jobs",
+      "renewable",
+      "technician"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "lift_technician_in",
+    "title": "Lift / Elevator Technician",
+    "category": "Trades & Construction",
+    "region": "IN",
+    "description": "Install, service and repair lifts and escalators in buildings - a specialised electromechanical trade with steady urban demand.",
+    "salary_range": {
+      "min": 18000,
+      "max": 75000,
+      "currency": "INR/month",
+      "note": "Technician to service supervisor"
+    },
+    "growth_outlook": "Good - urban construction",
+    "work_style": [
+      "Field/Building",
+      "Technical",
+      "Hands-on"
+    ],
+    "required_skills": [
+      {
+        "skill": "Electromechanical Systems",
+        "level": "critical"
+      },
+      {
+        "skill": "Lift Installation & Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Electrical Troubleshooting",
+        "level": "important"
+      },
+      {
+        "skill": "Safety Standards",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "ITI (electrical/mechanical)",
+      "OEM/installer training",
+      "Service contracts with lift companies"
+    ],
+    "qualifications": [
+      "ITI electrical/mechanical + manufacturer training"
+    ],
+    "tags": [
+      "lift",
+      "elevator",
+      "technician",
+      "trades"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "locksmith_in",
+    "title": "Locksmith",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Install, repair and open locks and security systems - keys, safes, automotive and digital locks.",
+    "salary_range": {
+      "min": 12000,
+      "max": 50000,
+      "currency": "INR/month",
+      "note": "Apprentice to own locksmith service"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Mobile/Shop",
+      "Hands-on",
+      "Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Lock Mechanisms & Repair",
+        "level": "critical"
+      },
+      {
+        "skill": "Key Cutting",
+        "level": "critical"
+      },
+      {
+        "skill": "Security Systems",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Trust & Ethics",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Learn under an experienced locksmith",
+      "Build tools and clientele",
+      "Mobile or shop service"
+    ],
+    "qualifications": [
+      "No formal degree - apprenticeship"
+    ],
+    "tags": [
+      "locksmith",
+      "security",
+      "trades",
+      "self-employment"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "pest_control_in",
+    "title": "Pest Control Technician",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Inspect and treat homes and businesses for pests - insects, rodents, termites - using safe chemical and non-chemical methods.",
+    "salary_range": {
+      "min": 14000,
+      "max": 60000,
+      "currency": "INR/month",
+      "note": "Technician to pest-control business owner"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Field",
+      "Hands-on",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Pest Identification",
+        "level": "critical"
+      },
+      {
+        "skill": "Safe Pesticide Handling",
+        "level": "critical"
+      },
+      {
+        "skill": "Treatment Methods",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "important"
+      },
+      {
+        "skill": "Safety & Compliance",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "On-the-job training with a pest-control firm",
+      "Certification/licensing where required",
+      "Own a pest-control service"
+    ],
+    "qualifications": [
+      "No formal degree; pesticide-handling certification"
+    ],
+    "tags": [
+      "pest-control",
+      "services",
+      "trades",
+      "self-employment"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "hotel_manager_in",
+    "title": "Hotel Manager",
+    "category": "Food & Hospitality",
+    "region": "IN",
+    "description": "Run hotel operations - guest experience, staff, rooms, F&B and revenue - ensuring smooth, profitable service.",
+    "salary_range": {
+      "min": 30000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Trainee to general manager"
+    },
+    "growth_outlook": "Good - tourism growth",
+    "work_style": [
+      "Hotel",
+      "Customer-facing",
+      "Leadership"
+    ],
+    "required_skills": [
+      {
+        "skill": "Hospitality Operations",
+        "level": "critical"
+      },
+      {
+        "skill": "Team & Staff Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Guest Relations",
+        "level": "important"
+      },
+      {
+        "skill": "Revenue/Cost Management",
+        "level": "important"
+      },
+      {
+        "skill": "Problem-solving",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Hotel management degree/diploma",
+      "Work up from operations roles",
+      "Manage properties"
+    ],
+    "qualifications": [
+      "Degree/Diploma in Hotel Management (IHM, etc.)"
+    ],
+    "tags": [
+      "hotel",
+      "hospitality",
+      "management",
+      "service"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "chef_in",
+    "title": "Chef de Cuisine / Executive Chef",
+    "category": "Food & Hospitality",
+    "region": "IN",
+    "description": "Lead a kitchen - menu creation, cooking, food quality and kitchen team - in restaurants, hotels or own ventures.",
+    "salary_range": {
+      "min": 25000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Commis to executive chef / restaurateur"
+    },
+    "growth_outlook": "Good - food & cloud-kitchen boom",
+    "work_style": [
+      "Kitchen",
+      "Creative",
+      "Physical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Culinary Skills & Cuisine Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Menu Planning",
+        "level": "important"
+      },
+      {
+        "skill": "Kitchen Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Food Safety & Hygiene",
+        "level": "important"
+      },
+      {
+        "skill": "Cost Control",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Culinary diploma or kitchen apprenticeship",
+      "Work up the kitchen brigade",
+      "Head a kitchen or open a restaurant"
+    ],
+    "qualifications": [
+      "Culinary diploma or hands-on kitchen experience"
+    ],
+    "tags": [
+      "chef",
+      "culinary",
+      "food",
+      "hospitality"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "bartender_in",
+    "title": "Bartender / Mixologist",
+    "category": "Food & Hospitality",
+    "region": "IN",
+    "description": "Mix and serve drinks, craft cocktails and create great bar experiences in bars, hotels and events.",
+    "salary_range": {
+      "min": 15000,
+      "max": 90000,
+      "currency": "INR/month",
+      "note": "Bartender to head bartender/bar manager"
+    },
+    "growth_outlook": "Good",
+    "work_style": [
+      "Bar/Events",
+      "Customer-facing",
+      "Evening shifts"
+    ],
+    "required_skills": [
+      {
+        "skill": "Mixology & Cocktail Craft",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Bar Operations & Inventory",
+        "level": "important"
+      },
+      {
+        "skill": "Speed & Showmanship",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Bartending course or on-the-job training",
+      "Bar roles, build a signature style",
+      "Bar manager / consultant"
+    ],
+    "qualifications": [
+      "Bartending/mixology course (optional)"
+    ],
+    "tags": [
+      "bartender",
+      "mixology",
+      "hospitality",
+      "service"
+    ],
+    "collar": "pink"
+  },
+  {
+    "id": "event_planner_in",
+    "title": "Event Planner / Manager",
+    "category": "Media & Broadcasting",
+    "region": "IN",
+    "description": "Plan and execute events - weddings, corporate, concerts - handling logistics, vendors, budgets and on-day coordination.",
+    "salary_range": {
+      "min": 20000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Coordinator to own event company"
+    },
+    "growth_outlook": "Good - events economy",
+    "work_style": [
+      "On-site",
+      "High-energy",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Event Planning & Logistics",
+        "level": "critical"
+      },
+      {
+        "skill": "Vendor & Budget Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Client Relations",
+        "level": "important"
+      },
+      {
+        "skill": "Creativity & Theming",
+        "level": "important"
+      },
+      {
+        "skill": "Crisis Management",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Event-management course or assist an event company",
+      "Build a portfolio and vendor network",
+      "Start your own events business"
+    ],
+    "qualifications": [
+      "Any degree; event management diploma helps"
+    ],
+    "tags": [
+      "events",
+      "wedding",
+      "management",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "travel_agent_in",
+    "title": "Travel Agent / Tour Operator",
+    "category": "Transport & Logistics",
+    "region": "IN",
+    "description": "Plan and book travel - flights, hotels, tours and packages - and craft itineraries for leisure and business travellers.",
+    "salary_range": {
+      "min": 15000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Agent to travel-agency owner"
+    },
+    "growth_outlook": "Good - travel recovery",
+    "work_style": [
+      "Office / Remote",
+      "Customer-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Travel Planning & Booking",
+        "level": "critical"
+      },
+      {
+        "skill": "Destination Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Vendor Negotiation",
+        "level": "important"
+      },
+      {
+        "skill": "Marketing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Travel & tourism course or agency experience",
+      "Build supplier tie-ups",
+      "Run an agency / niche tours"
+    ],
+    "qualifications": [
+      "Diploma in Travel & Tourism (optional)"
+    ],
+    "tags": [
+      "travel",
+      "tourism",
+      "booking",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "field_sales_in",
+    "title": "Sales Executive / Field Sales",
+    "category": "Marketing & Sales",
+    "region": "IN",
+    "description": "Sell products/services to customers - prospecting, pitching, closing and relationship-building - across B2B or B2C.",
+    "salary_range": {
+      "min": 15000,
+      "max": 120000,
+      "currency": "INR/month",
+      "note": "Executive to sales manager"
+    },
+    "growth_outlook": "Strong - always in demand",
+    "work_style": [
+      "Field / Office",
+      "Target-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Selling & Negotiation",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication & Persuasion",
+        "level": "critical"
+      },
+      {
+        "skill": "Product Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "CRM & Follow-up",
+        "level": "important"
+      },
+      {
+        "skill": "Resilience",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Any background - sales rewards skill",
+      "Entry sales roles with targets",
+      "Grow into sales management"
+    ],
+    "qualifications": [
+      "Any degree; sales experience matters most"
+    ],
+    "tags": [
+      "sales",
+      "field-sales",
+      "business",
+      "b2b"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "insurance_agent_in",
+    "title": "Insurance Agent / Advisor",
+    "category": "Insurance & Actuarial",
+    "region": "IN",
+    "description": "Advise clients on and sell insurance policies (life, health, general), earning through commissions and renewals.",
+    "salary_range": {
+      "min": 12000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Agent to agency/financial advisor"
+    },
+    "growth_outlook": "Stable - large under-insured market",
+    "work_style": [
+      "Field / Remote",
+      "Commission-based",
+      "Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Insurance Products Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Selling & Trust-building",
+        "level": "critical"
+      },
+      {
+        "skill": "Financial Needs Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Client Service & Renewals",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Clear IRDAI agent exam (insurer-sponsored)",
+      "Build a client base",
+      "Grow to agency/financial advisory"
+    ],
+    "qualifications": [
+      "IRDAI agent licence",
+      "Any educational background"
+    ],
+    "tags": [
+      "insurance",
+      "sales",
+      "advisory",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "call_center_in",
+    "title": "Customer Support / Call Centre Executive",
+    "category": "Business & Management",
+    "region": "IN",
+    "description": "Handle customer queries and support over calls, chat or email - resolving issues and ensuring satisfaction.",
+    "salary_range": {
+      "min": 15000,
+      "max": 60000,
+      "currency": "INR/month",
+      "note": "Associate to team lead/quality analyst"
+    },
+    "growth_outlook": "Stable - large BPO sector",
+    "work_style": [
+      "Office / Remote",
+      "Shift work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Problem-solving",
+        "level": "critical"
+      },
+      {
+        "skill": "Product/Process Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "CRM Tools",
+        "level": "important"
+      },
+      {
+        "skill": "Patience & Empathy",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "12th/graduate + good communication",
+      "BPO/customer-support roles",
+      "Grow to team lead/QA/operations"
+    ],
+    "qualifications": [
+      "12th pass / graduate; communication skills key"
+    ],
+    "tags": [
+      "customer-support",
+      "bpo",
+      "call-center",
+      "service"
+    ],
+    "collar": "pink"
+  },
+  {
+    "id": "management_consultant_in",
+    "title": "Management Consultant",
+    "category": "Business & Management",
+    "region": "IN",
+    "description": "Advise organisations on strategy, operations and growth - solving complex business problems with analysis and recommendations.",
+    "salary_range": {
+      "min": 50000,
+      "max": 600000,
+      "currency": "INR/month",
+      "note": "Analyst to partner"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Office / Client-site",
+      "High-intensity"
+    ],
+    "required_skills": [
+      {
+        "skill": "Business Analysis & Strategy",
+        "level": "critical"
+      },
+      {
+        "skill": "Problem Structuring",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Communication & Presentation",
+        "level": "important"
+      },
+      {
+        "skill": "Stakeholder Management",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Strong academics (MBA/engineering helps)",
+      "Consulting firm roles",
+      "Specialise and rise to partner"
+    ],
+    "qualifications": [
+      "MBA or strong analytical degree (typical)"
+    ],
+    "tags": [
+      "consulting",
+      "strategy",
+      "business",
+      "analysis"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "hr_recruiter_in",
+    "title": "HR Recruiter / Talent Acquisition",
+    "category": "Human Resources",
+    "region": "IN",
+    "description": "Find, screen and hire talent - sourcing candidates, interviewing and managing the recruitment pipeline.",
+    "salary_range": {
+      "min": 20000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Recruiter to TA lead/HRBP"
+    },
+    "growth_outlook": "Good",
+    "work_style": [
+      "Office / Remote",
+      "People-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Sourcing & Screening",
+        "level": "critical"
+      },
+      {
+        "skill": "Interviewing",
+        "level": "critical"
+      },
+      {
+        "skill": "ATS & Job Portals",
+        "level": "important"
+      },
+      {
+        "skill": "Stakeholder Management",
+        "level": "important"
+      },
+      {
+        "skill": "Employer Branding",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Any degree (HR/MBA helps)",
+      "Recruitment agency/in-house roles",
+      "Grow to TA lead / HR business partner"
+    ],
+    "qualifications": [
+      "Any degree; MBA-HR helps"
+    ],
+    "tags": [
+      "hr",
+      "recruitment",
+      "talent",
+      "people"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "accountant_bookkeeper_in",
+    "title": "Accountant / Bookkeeper",
+    "category": "Finance",
+    "region": "IN",
+    "description": "Maintain financial records, ledgers, invoices, GST and reconciliations for businesses - the backbone of every company's finances.",
+    "salary_range": {
+      "min": 15000,
+      "max": 100000,
+      "currency": "INR/month",
+      "note": "Junior accountant to accounts manager"
+    },
+    "growth_outlook": "Stable - every business needs it",
+    "work_style": [
+      "Office / Remote",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Accounting & Bookkeeping",
+        "level": "critical"
+      },
+      {
+        "skill": "Tally/Accounting Software",
+        "level": "critical"
+      },
+      {
+        "skill": "GST & TDS basics",
+        "level": "important"
+      },
+      {
+        "skill": "Reconciliation",
+        "level": "important"
+      },
+      {
+        "skill": "MS Excel",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "B.Com or accounting course",
+      "Tally/accounting practice",
+      "Accounts roles; grow to manager or CA path"
+    ],
+    "qualifications": [
+      "B.Com / accounting diploma"
+    ],
+    "tags": [
+      "accounting",
+      "bookkeeping",
+      "finance",
+      "tally"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "office_admin_in",
+    "title": "Office Administrator / Manager",
+    "category": "Business & Management",
+    "region": "IN",
+    "description": "Keep an office running - scheduling, records, vendors, facilities and support - so everyone else can do their work.",
+    "salary_range": {
+      "min": 15000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Admin executive to office manager"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Office",
+      "Organised"
+    ],
+    "required_skills": [
+      {
+        "skill": "Office Coordination",
+        "level": "critical"
+      },
+      {
+        "skill": "MS Office",
+        "level": "critical"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Record-keeping",
+        "level": "important"
+      },
+      {
+        "skill": "Time Management",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Any graduate with organisation skills",
+      "Admin/front-office roles",
+      "Grow to office manager"
+    ],
+    "qualifications": [
+      "Any degree; computer literacy"
+    ],
+    "tags": [
+      "admin",
+      "office",
+      "operations",
+      "support"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "firefighter_in",
+    "title": "Firefighter",
+    "category": "Government & Public Service",
+    "region": "IN",
+    "description": "Respond to fires and emergencies, rescue people, and run prevention and safety operations.",
+    "salary_range": {
+      "min": 20000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Fireman to station officer"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Field",
+      "Physical",
+      "High-risk"
+    ],
+    "required_skills": [
+      {
+        "skill": "Firefighting & Rescue",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness",
+        "level": "critical"
+      },
+      {
+        "skill": "Emergency Response",
+        "level": "critical"
+      },
+      {
+        "skill": "Equipment Handling",
+        "level": "important"
+      },
+      {
+        "skill": "Teamwork",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Clear fire-service recruitment + physical",
+      "Fire training academy",
+      "Service and promotions"
+    ],
+    "qualifications": [
+      "12th pass + physical standards; fire-service recruitment"
+    ],
+    "tags": [
+      "firefighter",
+      "emergency",
+      "government",
+      "public-service"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "forest_officer_in",
+    "title": "Forest Officer / Ranger",
+    "category": "Government & Public Service",
+    "region": "IN",
+    "description": "Protect forests and wildlife - manage reserves, prevent poaching and illegal logging, and balance conservation with communities.",
+    "salary_range": {
+      "min": 25000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Forest guard/ranger to IFS officer"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Field/Outdoor",
+      "Physical",
+      "Public-service"
+    ],
+    "required_skills": [
+      {
+        "skill": "Forestry & Wildlife Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Field & Physical Fitness",
+        "level": "critical"
+      },
+      {
+        "skill": "Law Enforcement (forest)",
+        "level": "important"
+      },
+      {
+        "skill": "Community Engagement",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Forest guard/ranger exams, or UPSC for IFS",
+      "Training and field posting",
+      "Service and promotions"
+    ],
+    "qualifications": [
+      "Science graduate (for IFS); recruitment exam + physical"
+    ],
+    "tags": [
+      "forest",
+      "wildlife",
+      "conservation",
+      "government"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "professor_in",
+    "title": "College Professor / Lecturer",
+    "category": "Education & Training",
+    "region": "IN",
+    "description": "Teach and research at colleges/universities - lectures, mentoring, papers and academic contribution.",
+    "salary_range": {
+      "min": 35000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Assistant professor to professor"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "College",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Subject Expertise",
+        "level": "critical"
+      },
+      {
+        "skill": "Teaching & Pedagogy",
+        "level": "critical"
+      },
+      {
+        "skill": "Research & Publishing",
+        "level": "important"
+      },
+      {
+        "skill": "Mentoring",
+        "level": "important"
+      },
+      {
+        "skill": "Curriculum Design",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Master's + clear NET/SET; PhD for higher roles",
+      "Assistant professor roles",
+      "Rise to associate/full professor"
+    ],
+    "qualifications": [
+      "Master's + UGC-NET/SET; PhD preferred"
+    ],
+    "tags": [
+      "professor",
+      "teaching",
+      "academia",
+      "education"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "school_teacher_in",
+    "title": "School Teacher",
+    "category": "Education & Training",
+    "region": "IN",
+    "description": "Teach school students a subject, shape young minds, assess progress and manage classrooms.",
+    "salary_range": {
+      "min": 18000,
+      "max": 90000,
+      "currency": "INR/month",
+      "note": "Teacher to senior teacher/coordinator"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "School",
+      "People-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Subject Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Teaching & Classroom Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Assessment",
+        "level": "important"
+      },
+      {
+        "skill": "Patience & Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Lesson Planning",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "B.Ed + subject degree; clear TET/CTET",
+      "School teaching roles",
+      "Grow to senior teacher/coordinator"
+    ],
+    "qualifications": [
+      "Graduate + B.Ed; TET/CTET for govt schools"
+    ],
+    "tags": [
+      "teacher",
+      "school",
+      "education",
+      "teaching"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "special_educator_in",
+    "title": "Special Education Teacher",
+    "category": "Education & Training",
+    "region": "IN",
+    "description": "Teach and support children with learning, developmental or physical disabilities using individualised methods.",
+    "salary_range": {
+      "min": 20000,
+      "max": 90000,
+      "currency": "INR/month",
+      "note": "Special educator to coordinator"
+    },
+    "growth_outlook": "Growing - inclusion focus",
+    "work_style": [
+      "School/Centre",
+      "People-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Special Education Methods",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience & Empathy",
+        "level": "critical"
+      },
+      {
+        "skill": "Individualised Plans (IEP)",
+        "level": "important"
+      },
+      {
+        "skill": "Behaviour Support",
+        "level": "important"
+      },
+      {
+        "skill": "Parent Collaboration",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "B.Ed in Special Education (RCI-recognised)",
+      "RCI registration",
+      "School/centre roles"
+    ],
+    "qualifications": [
+      "B.Ed Special Education; RCI registration"
+    ],
+    "tags": [
+      "special-education",
+      "teaching",
+      "inclusion",
+      "education"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "private_tutor_in",
+    "title": "Private Tutor / Online Educator",
+    "category": "Education & Training",
+    "region": "IN",
+    "description": "Teach students one-on-one or in groups, in person or online - from school subjects to test prep and skills.",
+    "salary_range": {
+      "min": 12000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Home tutor to online educator/edupreneur"
+    },
+    "growth_outlook": "Growing - edtech & tuition demand",
+    "work_style": [
+      "Home / Online",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Subject Mastery",
+        "level": "critical"
+      },
+      {
+        "skill": "Explaining & Simplifying",
+        "level": "critical"
+      },
+      {
+        "skill": "Lesson Planning",
+        "level": "important"
+      },
+      {
+        "skill": "Online Teaching Tools",
+        "level": "important"
+      },
+      {
+        "skill": "Student Motivation",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Strong subject knowledge",
+      "Start with local/online students",
+      "Scale via YouTube/edtech platforms"
+    ],
+    "qualifications": [
+      "Subject expertise; teaching ability matters most"
+    ],
+    "tags": [
+      "tutor",
+      "teaching",
+      "online-education",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "interior_designer_in",
+    "title": "Interior Designer",
+    "category": "Design & Creative",
+    "region": "IN",
+    "description": "Design functional, beautiful interior spaces for homes and businesses - layouts, materials, lighting and decor.",
+    "salary_range": {
+      "min": 20000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Junior designer to own studio"
+    },
+    "growth_outlook": "Good - real estate & renovation",
+    "work_style": [
+      "Studio/Site",
+      "Creative",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Interior Design & Space Planning",
+        "level": "critical"
+      },
+      {
+        "skill": "CAD/3D Software",
+        "level": "important"
+      },
+      {
+        "skill": "Material & Colour Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Client Management",
+        "level": "important"
+      },
+      {
+        "skill": "Project Execution",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Degree/diploma in interior design",
+      "Junior roles or assist a designer",
+      "Build a portfolio and own studio"
+    ],
+    "qualifications": [
+      "Degree/Diploma in Interior Design"
+    ],
+    "tags": [
+      "interior-design",
+      "creative",
+      "design",
+      "architecture"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "social_media_manager_in",
+    "title": "Social Media Manager",
+    "category": "Marketing & Sales",
+    "region": "IN",
+    "description": "Build and run brands' social presence - content, campaigns, community and analytics across platforms.",
+    "salary_range": {
+      "min": 20000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Executive to social media/brand lead"
+    },
+    "growth_outlook": "Strong - digital marketing growth",
+    "work_style": [
+      "Office / Remote",
+      "Creative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Content Strategy",
+        "level": "critical"
+      },
+      {
+        "skill": "Copywriting & Creatives",
+        "level": "important"
+      },
+      {
+        "skill": "Platform & Trends Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Analytics",
+        "level": "important"
+      },
+      {
+        "skill": "Community Management",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Build your own social presence/portfolio",
+      "Agency or in-house roles",
+      "Grow to brand/marketing lead"
+    ],
+    "qualifications": [
+      "Any degree; portfolio and results matter"
+    ],
+    "tags": [
+      "social-media",
+      "marketing",
+      "content",
+      "branding"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "voice_artist_in",
+    "title": "Voice Artist / Dubbing Artist",
+    "category": "Media & Broadcasting",
+    "region": "IN",
+    "description": "Lend your voice to ads, films, dubbing, audiobooks, animation and IVR - a growing field with OTT and regional-content boom.",
+    "salary_range": {
+      "min": 15000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Beginner to sought-after voice talent"
+    },
+    "growth_outlook": "Growing - OTT & dubbing demand",
+    "work_style": [
+      "Studio / Remote",
+      "Creative",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Voice Modulation & Acting",
+        "level": "critical"
+      },
+      {
+        "skill": "Diction & Languages",
+        "level": "important"
+      },
+      {
+        "skill": "Recording Basics",
+        "level": "important"
+      },
+      {
+        "skill": "Script Interpretation",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Train your voice; build a demo reel",
+      "Audition for ads/dubbing/animation",
+      "Home studio + agency tie-ups"
+    ],
+    "qualifications": [
+      "No formal degree - voice skill and demo reel"
+    ],
+    "tags": [
+      "voice-artist",
+      "dubbing",
+      "media",
+      "creative"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "interpreter_translator_in",
+    "title": "Translator / Language Specialist",
+    "category": "Language & Diplomacy",
+    "region": "IN",
+    "description": "Translate and localise text or speech between languages for documents, media, business and government.",
+    "salary_range": {
+      "min": 18000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Freelance to senior translator/localiser"
+    },
+    "growth_outlook": "Good - localisation & content",
+    "work_style": [
+      "Office / Remote",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Bilingual/Multilingual Fluency",
+        "level": "critical"
+      },
+      {
+        "skill": "Translation & Localisation",
+        "level": "critical"
+      },
+      {
+        "skill": "Subject Vocabulary",
+        "level": "important"
+      },
+      {
+        "skill": "Cultural Nuance",
+        "level": "important"
+      },
+      {
+        "skill": "CAT Tools",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Strong command of 2+ languages",
+      "Translation diploma/certification",
+      "Freelance, agencies, or in-house localisation"
+    ],
+    "qualifications": [
+      "Language degree/diploma; proven fluency"
+    ],
+    "tags": [
+      "translation",
+      "languages",
+      "localisation",
+      "freelance"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "caregiver_in",
+    "title": "Caregiver / Elder Care Attendant",
+    "category": "Mental Health & Therapy",
+    "region": "IN",
+    "description": "Assist elderly, sick or differently-abled people with daily living, mobility, medication reminders and companionship.",
+    "salary_range": {
+      "min": 12000,
+      "max": 50000,
+      "currency": "INR/month",
+      "note": "Attendant to senior caregiver/agency"
+    },
+    "growth_outlook": "Growing fast - ageing population",
+    "work_style": [
+      "Home/Facility",
+      "Hands-on",
+      "Compassion"
+    ],
+    "required_skills": [
+      {
+        "skill": "Personal & Patient Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Empathy & Patience",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic First Aid",
+        "level": "important"
+      },
+      {
+        "skill": "Hygiene & Mobility Support",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Caregiver/nursing-aide training",
+      "Home-care agency or hospital roles",
+      "Senior caregiver or run an agency"
+    ],
+    "qualifications": [
+      "Caregiver/home-health-aide certification (optional)"
+    ],
+    "tags": [
+      "caregiver",
+      "elder-care",
+      "healthcare",
+      "service"
+    ],
+    "collar": "pink"
+  },
+  {
+    "id": "massage_therapist_in",
+    "title": "Massage / Spa Therapist",
+    "category": "Beauty & Wellness",
+    "region": "IN",
+    "description": "Provide therapeutic and relaxation massages and spa treatments at spas, salons, hotels and wellness centres.",
+    "salary_range": {
+      "min": 15000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Therapist to spa manager/owner"
+    },
+    "growth_outlook": "Good - wellness growth",
+    "work_style": [
+      "Spa/Salon",
+      "Hands-on",
+      "Service"
+    ],
+    "required_skills": [
+      {
+        "skill": "Massage Techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Anatomy basics",
+        "level": "important"
+      },
+      {
+        "skill": "Client Care & Hygiene",
+        "level": "important"
+      },
+      {
+        "skill": "Spa Treatments",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Massage/spa therapy course",
+      "Spa/salon/hotel roles",
+      "Senior therapist or own setup"
+    ],
+    "qualifications": [
+      "Massage therapy / spa course certification"
+    ],
+    "tags": [
+      "massage",
+      "spa",
+      "wellness",
+      "beauty"
+    ],
+    "collar": "pink"
+  },
+  {
+    "id": "tattoo_artist_in",
+    "title": "Tattoo Artist",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Design and ink permanent tattoos - blending art skill, hygiene and client trust. A growing urban creative profession.",
+    "salary_range": {
+      "min": 15000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Apprentice to renowned tattoo artist/studio owner"
+    },
+    "growth_outlook": "Growing - urban acceptance rising",
+    "work_style": [
+      "Studio",
+      "Creative",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Tattooing & Linework",
+        "level": "critical"
+      },
+      {
+        "skill": "Drawing/Design",
+        "level": "critical"
+      },
+      {
+        "skill": "Hygiene & Sterilisation",
+        "level": "critical"
+      },
+      {
+        "skill": "Client Consultation",
+        "level": "important"
+      },
+      {
+        "skill": "Studio Management",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Apprentice under an experienced artist",
+      "Build a portfolio and hygiene practice",
+      "Studio artist or own studio"
+    ],
+    "qualifications": [
+      "No formal degree - apprenticeship and portfolio; hygiene training"
+    ],
+    "tags": [
+      "tattoo",
+      "art",
+      "creative",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "calligrapher_in",
+    "title": "Calligrapher / Lettering Artist",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Create beautiful hand-lettering and calligraphy for invitations, branding, art and events - across Devanagari, Urdu and modern scripts.",
+    "salary_range": {
+      "min": 10000,
+      "max": 100000,
+      "currency": "INR/month",
+      "note": "Hobbyist to commissioned lettering artist"
+    },
+    "growth_outlook": "Niche - design & events demand",
+    "work_style": [
+      "Studio / Remote",
+      "Creative",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Calligraphy & Lettering",
+        "level": "critical"
+      },
+      {
+        "skill": "Script Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Design Sense",
+        "level": "important"
+      },
+      {
+        "skill": "Commission/Client Work",
+        "level": "helpful"
+      },
+      {
+        "skill": "Social Media Showcasing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Practise scripts and build a portfolio",
+      "Take commissions (weddings, brands, art)",
+      "Workshops as added income"
+    ],
+    "qualifications": [
+      "No formal degree - skill and portfolio"
+    ],
+    "tags": [
+      "calligraphy",
+      "lettering",
+      "art",
+      "creative"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "life_coach_in",
+    "title": "Life Coach / Personal Development Coach",
+    "category": "Mental Health & Therapy",
+    "region": "IN",
+    "description": "Help clients set and reach personal and professional goals through structured coaching, accountability and motivation.",
+    "salary_range": {
+      "min": 20000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "New coach to established personal brand"
+    },
+    "growth_outlook": "Growing - self-improvement market",
+    "work_style": [
+      "Online / Remote",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Coaching & Active Listening",
+        "level": "critical"
+      },
+      {
+        "skill": "Goal-setting Frameworks",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy & Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Personal Branding",
+        "level": "important"
+      },
+      {
+        "skill": "Content Creation",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Coaching certification (ICF-aligned helps)",
+      "Build a niche and client base",
+      "Scale via content, courses, workshops"
+    ],
+    "qualifications": [
+      "Coaching certification (optional); credibility matters"
+    ],
+    "tags": [
+      "life-coach",
+      "coaching",
+      "personal-development",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "nutritionist_in",
+    "title": "Nutritionist / Diet Consultant",
+    "category": "Food Science & Nutrition",
+    "region": "IN",
+    "description": "Advise clients on diet and nutrition for health, weight, sports or medical needs - increasingly online and subscription-based.",
+    "salary_range": {
+      "min": 18000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Consultant to own nutrition practice"
+    },
+    "growth_outlook": "Growing - health & fitness trend",
+    "work_style": [
+      "Clinic / Online",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Nutrition Science",
+        "level": "critical"
+      },
+      {
+        "skill": "Diet Planning",
+        "level": "critical"
+      },
+      {
+        "skill": "Client Counselling",
+        "level": "important"
+      },
+      {
+        "skill": "Health Assessment",
+        "level": "important"
+      },
+      {
+        "skill": "Online Coaching",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.Sc/M.Sc Nutrition & Dietetics or certification",
+      "Clinic/gym/online roles",
+      "Own practice / app-based coaching"
+    ],
+    "qualifications": [
+      "B.Sc/M.Sc in Nutrition & Dietetics (or certification)"
+    ],
+    "tags": [
+      "nutrition",
+      "diet",
+      "wellness",
+      "health"
+    ],
+    "collar": "no"
   }
 ]
