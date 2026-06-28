@@ -246,6 +246,36 @@
   </span>
 </footer>
 
+<!-- Feedback widget -->
+<button class="fb-fab" onclick="openFeedback()" aria-label="Send feedback">💬 Feedback</button>
+<div class="fb-modal" id="fb-modal">
+  <div class="fb-card" id="fb-card">
+    <div class="fb-head">
+      <h3>Send Feedback</h3>
+      <button class="fb-x" onclick="closeFeedback()" aria-label="Close">×</button>
+    </div>
+    <div class="fb-bd" id="fb-body">
+      <div class="fb-lbl">What's this about?</div>
+      <div class="fb-cats" id="fb-cats">
+        <button class="fb-cat on" data-cat="general" onclick="setFbCat(this)">💬 General</button>
+        <button class="fb-cat" data-cat="bug" onclick="setFbCat(this)">🐞 Bug</button>
+        <button class="fb-cat" data-cat="feature" onclick="setFbCat(this)">💡 Feature idea</button>
+        <button class="fb-cat" data-cat="career_request" onclick="setFbCat(this)">➕ Add a career</button>
+      </div>
+      <div class="fb-lbl">Your message</div>
+      <textarea class="fb-txt" id="fb-txt" placeholder="Tell us what you think, or which career we should add…"></textarea>
+      <div class="fb-lbl">Rate the app (optional)</div>
+      <div class="fb-stars" id="fb-stars">
+        <span class="fb-star" data-v="1" onclick="setFbStars(1)">★</span><span class="fb-star" data-v="2" onclick="setFbStars(2)">★</span><span class="fb-star" data-v="3" onclick="setFbStars(3)">★</span><span class="fb-star" data-v="4" onclick="setFbStars(4)">★</span><span class="fb-star" data-v="5" onclick="setFbStars(5)">★</span>
+      </div>
+      <div class="fb-lbl">Email (optional)</div>
+      <input class="fb-email" id="fb-email" type="email" placeholder="So we can follow up" />
+      <button class="fb-send" id="fb-send" onclick="submitFeedback()">Send Feedback</button>
+      <p class="fb-note">We only store your message to improve CareerCompass. Email is optional and never shared.</p>
+    </div>
+  </div>
+</div>
+
 <script src="/static/js/app.js"></script>
 </body>
 </html>

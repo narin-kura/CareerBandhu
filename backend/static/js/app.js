@@ -848,6 +848,17 @@ function renderDetail(cv, gv) {
   const sal = c.salary_range ? formatSal(c.salary_range) : '';
   const meta = COLLAR_META.find(m=>m.key===c.collar);
 
+  // --- Enriched detail (from /api/career/{id} `detail`) ---
+  const ex = cv.detail || {};
+  const rm = (g.roadmap && (g.roadmap.phases||[]).length) ? g.roadmap : (ex.roadmap || null);
+  const roadmapHtml = (rm && (rm.phases||[]).length) ? `<div class="box"><div class="box-title">🗺️ Learning roadmap <span style="margin-left:auto;font-size:.74rem;color:var(--mut);font-weight:600">${rm.total_estimate}</span></div>
+    ${rm.phases.map(p=>`<div class="phase"><div class="phase-head"><span class="phase-name ${p.level[0]}">${p.name}</span><span class="phase-est">${p.estimate}</span></div><p class="phase-blurb">${p.blurb}</p><div class="have-chips">${p.skills.map(s=>`<span class="have-chip">${s}</span>`).join('')}</div></div>`).join('')}
+    <p class="road-note">Estimates assume focused self-study; your pace may vary.</p></div>` : '';
+  const ladderHtml = (ex.job_ladder||[]).length ? `<div class="box"><div class="box-title">🪜 Career path</div>${ex.job_ladder.map((r,i)=>`<div class="ladder"><span class="ladder-num">${i+1}</span><div class="ladder-body"><div class="ladder-title">${r.title}</div><div class="ladder-note">${r.note}</div></div></div>`).join('')}</div>` : '';
+  const qualHtml = (ex.qualifications||[]).length ? `<div class="box"><div class="box-title">🎖️ Qualifications & credentials</div>${ex.qualifications.map(q=>`<div class="entry">${q}</div>`).join('')}</div>` : '';
+  const relatedHtml = (ex.related||[]).length ? `<div class="box"><div class="box-title">🔗 Related careers</div>${ex.related.map(r=>`<div class="related-row" onclick="openDetail('${r.id}','career')"><div><div class="related-title">${r.title}</div><div class="related-meta">${r.category}${r.shared_skills>0?` · ${r.shared_skills} shared skill${r.shared_skills!==1?'s':''}`:''}</div></div><span class="related-arrow">→</span></div>`).join('')}</div>` : '';
+  const gapTitle = `📘 Skill gaps to close${(g.roadmap && g.roadmap.total_weeks>0)?` <span style="margin-left:auto;font-size:.74rem;color:var(--mut);font-weight:600">${g.roadmap.total_estimate}</span>`:''}`;
+
   document.getElementById('detail-body').innerHTML = `
     <div class="d-hero skills">
       <div class="d-icon">${CAT_ICONS[c.category]||'📌'}</div>
@@ -870,10 +881,14 @@ function renderDetail(cv, gv) {
       </div>
     </div>
     ${haveHtml}
-    ${(g.gaps||[]).length?`<div class="box"><div class="box-title">📘 Skill gaps to close</div>${gapHtml}</div>`:`<div class="box"><p style="color:var(--ok);font-weight:600">🎉 You have all required skills for this career!</p></div>`}
+    ${(g.gaps||[]).length?`<div class="box"><div class="box-title">${gapTitle}</div>${gapHtml}</div>`:`<div class="box"><p style="color:var(--ok);font-weight:600">🎉 You have all required skills for this career!</p></div>`}
+    ${roadmapHtml}
+    ${ladderHtml}
+    ${qualHtml}
     ${entryHtml}
     ${renderSources(c)}
     ${aiHtml}
+    ${relatedHtml}
     <div class="box">
       <div class="box-title">⭐ Rate this career ${cv.avg_rating?`<span style="margin-left:auto;font-size:.74rem;color:var(--mut);font-weight:400">${cv.avg_rating}/5 · ${cv.rating_count} ratings</span>`:''}</div>
       <div class="stars">${[1,2,3,4,5].map(n=>`<span class="star" data-v="${n}" onclick="setRating(${n})">★</span>`).join('')}</div>
@@ -906,4 +921,22 @@ function backToSearch() {
 }
 
 function esc(s){ return (s||'').replace(/'/g,"\\'").replace(/\n/g,''); }
+
+/* --- Feedback widget --- */
+let fbCat='general', fbStars=0;
+function openFeedback(){ document.getElementById('fb-modal').classList.add('open'); }
+function closeFeedback(){ document.getElementById('fb-modal').classList.remove('open'); }
+function setFbCat(el){ fbCat=el.dataset.cat; document.querySelectorAll('#fb-cats .fb-cat').forEach(b=>b.classList.toggle('on', b===el)); }
+function setFbStars(n){ fbStars=n; document.querySelectorAll('#fb-stars .fb-star').forEach(s=>s.classList.toggle('on', parseInt(s.dataset.v)<=n)); }
+async function submitFeedback(){
+  const msg=(document.getElementById('fb-txt').value||'').trim();
+  if(msg.length<3){ alert('Please add a short message (at least a few words).'); return; }
+  const btn=document.getElementById('fb-send'); btn.disabled=true; btn.textContent='Sending…';
+  try{
+    await post('/api/feedback',{category:fbCat,message:msg,rating:fbStars||null,email:(document.getElementById('fb-email').value||'').trim()||null});
+    document.getElementById('fb-body').innerHTML='<div class="fb-done"><div class="emo">🎉</div><h3>Thank you!</h3><p>Your feedback helps make CareerCompass better — we read every message.</p></div>';
+  }catch(e){ btn.disabled=false; btn.textContent='Send Feedback'; alert('Could not send feedback: '+(e.message||'please try again')); }
+}
+document.addEventListener('click', e=>{ const m=document.getElementById('fb-modal'); if(m && e.target===m) closeFeedback(); });
+
 init();
