@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, ScrollView, StyleSheet, TouchableOpacity, Linking } from "react-native";
+import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { Colors } from "../../constants/Colors";
 
@@ -13,6 +14,7 @@ const FEATURES = [
 ];
 
 export default function AboutScreen() {
+  const router = useRouter();
   return (
     <ScrollView style={styles.container}>
       <View style={styles.hero}>
@@ -58,6 +60,18 @@ export default function AboutScreen() {
         ].map((item) => (
           <Text key={item} style={styles.bullet}>{item}</Text>
         ))}
+      </View>
+
+      {/* Feedback */}
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>Feedback</Text>
+        <Text style={styles.body}>
+          Found a bug, have an idea, or want us to add a specific career? We'd love to hear it.
+        </Text>
+        <TouchableOpacity style={styles.feedbackBtn} onPress={() => router.push("/feedback")}>
+          <Ionicons name="chatbubble-ellipses-outline" size={18} color="#fff" />
+          <Text style={styles.feedbackBtnText}>Send Feedback</Text>
+        </TouchableOpacity>
       </View>
 
       <View style={[styles.section, styles.versionCard]}>
@@ -114,4 +128,16 @@ const styles = StyleSheet.create({
   versionCard: { alignItems: "center", marginBottom: 0 },
   versionText: { fontSize: 14, fontWeight: "700", color: Colors.textMuted },
   versionSubtext: { fontSize: 12, color: Colors.textMuted, marginTop: 4 },
+  feedbackBtn: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 8,
+    backgroundColor: Colors.primary,
+    borderRadius: 12,
+    paddingVertical: 13,
+    marginTop: 8,
+  },
+  feedbackBtnText: { color: "#fff", fontSize: 15, fontWeight: "700" },
 });
+

@@ -19,6 +19,10 @@ export default function RootLayout() {
           name="career/[id]"
           options={{ title: "Career Details", headerBackTitle: "Back" }}
         />
+        <Stack.Screen
+          name="feedback"
+          options={{ title: "Feedback", headerBackTitle: "Back" }}
+        />
       </Stack>
     </>
   );
