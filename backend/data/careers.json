@@ -20078,5 +20078,1770 @@
       "no-degree"
     ],
     "collar": "pink"
+  },
+  {
+    "id": "saree_weaver_in",
+    "title": "Handloom Saree Weaver",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Weave traditional sarees such as Banarasi, Kanjeevaram, Pochampally or Chanderi on handlooms. A heritage craft with strong demand from premium and export markets, and government weaver schemes.",
+    "salary_range": {
+      "min": 12000,
+      "max": 60000,
+      "currency": "INR/month",
+      "note": "Karigar wages to master weaver running own looms"
+    },
+    "growth_outlook": "Stable - premium and export demand for authentic handloom",
+    "work_style": [
+      "Home-based / Workshop",
+      "Self-employed",
+      "Skilled craft"
+    ],
+    "required_skills": [
+      {
+        "skill": "Handloom Weaving (pit/frame loom)",
+        "level": "critical"
+      },
+      {
+        "skill": "Traditional Motif & Pattern Design",
+        "level": "critical"
+      },
+      {
+        "skill": "Yarn Dyeing & Preparation",
+        "level": "important"
+      },
+      {
+        "skill": "Zari / Brocade Work",
+        "level": "important"
+      },
+      {
+        "skill": "Quality Finishing",
+        "level": "important"
+      },
+      {
+        "skill": "Costing & Selling to Buyers",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Learn under a master weaver in a weaving cluster (Varanasi, Kanchipuram, Pochampally)",
+      "Join a weavers' cooperative society or SHG",
+      "Apply for handloom development schemes and weaver credit cards"
+    ],
+    "qualifications": [
+      "No formal degree required - apprenticeship under a master weaver",
+      "Diploma in Handloom Technology (IIHT) optional for supervisory roles"
+    ],
+    "tags": [
+      "handloom",
+      "saree",
+      "weaving",
+      "textile",
+      "heritage-craft",
+      "self-employment"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "saree_retailer_in",
+    "title": "Saree Retail Entrepreneur",
+    "category": "Entrepreneurship & MSME",
+    "region": "IN",
+    "description": "Run a saree retail business - physical store, exhibitions, or online (Instagram/WhatsApp/marketplace). Sourcing directly from weaving clusters and selling to end customers is a popular low-capital business across India.",
+    "salary_range": {
+      "min": 20000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Small shop to multi-store or online saree business"
+    },
+    "growth_outlook": "Growing - social commerce expanding reach",
+    "work_style": [
+      "Self-employed",
+      "Customer-facing",
+      "Online + Offline"
+    ],
+    "required_skills": [
+      {
+        "skill": "Sourcing from Weaving Clusters",
+        "level": "critical"
+      },
+      {
+        "skill": "Sales & Customer Relationship",
+        "level": "critical"
+      },
+      {
+        "skill": "Inventory & Working Capital Management",
+        "level": "important"
+      },
+      {
+        "skill": "Social Media Selling (Reels/Live)",
+        "level": "important"
+      },
+      {
+        "skill": "Pricing & Margins",
+        "level": "important"
+      },
+      {
+        "skill": "Basic Accounting/GST",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Start small sourcing from wholesale hubs (Surat, Varanasi, Kanchipuram)",
+      "Sell via Instagram/WhatsApp before opening a physical store",
+      "Register MSME (Udyam) and GST for wholesale supply"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "MSME / Udyam registration for credit and benefits"
+    ],
+    "tags": [
+      "saree",
+      "retail",
+      "ethnic-wear",
+      "small-business",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "boutique_designer_in",
+    "title": "Boutique Owner / Ethnic Wear Designer",
+    "category": "Fashion & Apparel",
+    "region": "IN",
+    "description": "Design and tailor custom ethnic and fusion wear - lehengas, kurtas, blouses, bridal outfits - and run a boutique. Combines design sense with tailoring and client management.",
+    "salary_range": {
+      "min": 25000,
+      "max": 400000,
+      "currency": "INR/month",
+      "note": "Home boutique to established designer label"
+    },
+    "growth_outlook": "Good - strong wedding and festive market",
+    "work_style": [
+      "Self-employed",
+      "Creative",
+      "Customer-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Garment Design & Sketching",
+        "level": "critical"
+      },
+      {
+        "skill": "Tailoring & Pattern Making",
+        "level": "critical"
+      },
+      {
+        "skill": "Fabric & Trend Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Client Consultation & Fitting",
+        "level": "important"
+      },
+      {
+        "skill": "Embroidery & Embellishment",
+        "level": "important"
+      },
+      {
+        "skill": "Boutique Marketing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Diploma in fashion design or apprenticeship with a designer/tailor",
+      "Start a home boutique and grow via word of mouth and Instagram",
+      "Tie up with local tailors and karigars for volume"
+    ],
+    "qualifications": [
+      "Diploma/Degree in Fashion Design (NIFT, NID, or private institute) - optional",
+      "Tailoring certification or hands-on apprenticeship"
+    ],
+    "tags": [
+      "boutique",
+      "fashion",
+      "ethnic-wear",
+      "design",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "zardozi_artisan_in",
+    "title": "Zardozi & Zari Embroidery Artisan",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Practise Zardozi/Zari hand embroidery - metallic thread, bead and stone work on bridal and couture garments. A Mughal-era craft central to India's luxury fashion and export houses.",
+    "salary_range": {
+      "min": 12000,
+      "max": 70000,
+      "currency": "INR/month",
+      "note": "Karigar to master embroiderer with own unit"
+    },
+    "growth_outlook": "Stable - couture and export demand",
+    "work_style": [
+      "Workshop-based",
+      "Skilled craft",
+      "Team or self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Zardozi / Aari Hand Embroidery",
+        "level": "critical"
+      },
+      {
+        "skill": "Thread, Bead & Stone Work",
+        "level": "critical"
+      },
+      {
+        "skill": "Design Tracing & Frame (Adda) Work",
+        "level": "important"
+      },
+      {
+        "skill": "Finishing & Quality",
+        "level": "important"
+      },
+      {
+        "skill": "Working with Designers/Export Houses",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Apprentice under a master karigar in Lucknow, Delhi or Mumbai embroidery units",
+      "Join an export house or couture designer's karkhana",
+      "Set up own adda unit and take job-work orders"
+    ],
+    "qualifications": [
+      "No formal degree - traditional apprenticeship",
+      "Craft certification from a handicraft board (optional)"
+    ],
+    "tags": [
+      "zardozi",
+      "embroidery",
+      "zari",
+      "handicraft",
+      "couture",
+      "heritage-craft"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "kundan_meenakari_in",
+    "title": "Kundan & Meenakari Jewellery Maker",
+    "category": "Gemology & Jewelry",
+    "region": "IN",
+    "description": "Craft traditional Kundan, Polki and Meenakari (enamel) jewellery by hand - a Rajasthani/Mughal heritage craft with high value in bridal and luxury markets.",
+    "salary_range": {
+      "min": 15000,
+      "max": 120000,
+      "currency": "INR/month",
+      "note": "Karigar to independent jewellery artisan/brand"
+    },
+    "growth_outlook": "Good - bridal and luxury jewellery demand",
+    "work_style": [
+      "Workshop-based",
+      "Skilled craft",
+      "Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Kundan Setting (gold foil & stones)",
+        "level": "critical"
+      },
+      {
+        "skill": "Meenakari Enamelling",
+        "level": "critical"
+      },
+      {
+        "skill": "Goldsmithing Basics",
+        "level": "important"
+      },
+      {
+        "skill": "Design & Motif Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Stone Selection & Grading",
+        "level": "helpful"
+      },
+      {
+        "skill": "Selling / Branding",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Apprentice in a Jaipur or Bikaner jewellery workshop",
+      "Learn goldsmithing then specialise in Kundan/Meena work",
+      "Build an Instagram/boutique brand for direct sales"
+    ],
+    "qualifications": [
+      "Traditional apprenticeship under a master karigar",
+      "Jewellery design course (optional, e.g. from a gem & jewellery institute)"
+    ],
+    "tags": [
+      "jewellery",
+      "kundan",
+      "meenakari",
+      "handicraft",
+      "heritage-craft",
+      "self-employment"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "bangle_maker_in",
+    "title": "Lac & Glass Bangle Maker",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Make traditional lac (lakh) and glass bangles - shaping, colouring and embellishing - a craft concentrated in Firozabad and Rajasthan with festive and bridal demand.",
+    "salary_range": {
+      "min": 10000,
+      "max": 45000,
+      "currency": "INR/month",
+      "note": "Artisan wages to small bangle workshop owner"
+    },
+    "growth_outlook": "Stable - festive and bridal demand",
+    "work_style": [
+      "Workshop-based",
+      "Skilled craft",
+      "Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Lac/Glass Bangle Shaping",
+        "level": "critical"
+      },
+      {
+        "skill": "Colouring & Stone Embellishment",
+        "level": "critical"
+      },
+      {
+        "skill": "Heat & Mould Handling",
+        "level": "important"
+      },
+      {
+        "skill": "Design Variety",
+        "level": "important"
+      },
+      {
+        "skill": "Wholesale Selling",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Apprentice in a Firozabad or Jaipur bangle unit",
+      "Family craft transfer / SHG training",
+      "Supply to wholesalers or sell at melas and online"
+    ],
+    "qualifications": [
+      "No formal degree - hands-on apprenticeship",
+      "Craft/SHG training programme (optional)"
+    ],
+    "tags": [
+      "bangles",
+      "lac",
+      "handicraft",
+      "festive",
+      "self-employment"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "numerologist_in",
+    "title": "Numerologist",
+    "category": "Spiritual & Religious",
+    "region": "IN",
+    "description": "Advise clients using numerology - name/number analysis, lucky numbers, name-correction and business naming - increasingly popular via apps, YouTube and matrimony/branding consults.",
+    "salary_range": {
+      "min": 15000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Local practice to celebrity numerologist with online following"
+    },
+    "growth_outlook": "Growing - digital astrology/occult market expanding",
+    "work_style": [
+      "Consulting",
+      "Online / Remote",
+      "Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Numerology Systems (Pythagorean/Chaldean)",
+        "level": "critical"
+      },
+      {
+        "skill": "Name & Date Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Client Counselling & Empathy",
+        "level": "critical"
+      },
+      {
+        "skill": "Report Writing",
+        "level": "important"
+      },
+      {
+        "skill": "Digital Content / Social Reach",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Learn from a guru or certified numerology course",
+      "Start free readings to build reputation, then charge consults",
+      "Build a YouTube/Instagram presence and join astro platforms"
+    ],
+    "qualifications": [
+      "Numerology certification/diploma (private institutes) - optional",
+      "No formal degree required for private practice"
+    ],
+    "tags": [
+      "numerology",
+      "spiritual",
+      "consulting",
+      "self-employment",
+      "occult"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "palmist_in",
+    "title": "Palmist (Hast Rekha Shastra)",
+    "category": "Spiritual & Religious",
+    "region": "IN",
+    "description": "Read palms (Hast Rekha) - lines, mounts and hand shape - for guidance on career, relationships and health, often alongside astrology. Demand at fairs, online and private consults.",
+    "salary_range": {
+      "min": 12000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Local readings to established palmistry consultant"
+    },
+    "growth_outlook": "Stable to growing - steady traditional demand",
+    "work_style": [
+      "Consulting",
+      "Online / Remote",
+      "Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Palmistry (lines, mounts, hand types)",
+        "level": "critical"
+      },
+      {
+        "skill": "Client Reading & Counselling",
+        "level": "critical"
+      },
+      {
+        "skill": "Astrology basics (complementary)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Communication & Empathy",
+        "level": "critical"
+      },
+      {
+        "skill": "Social Media Presence",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Study under an experienced palmist or via books/courses",
+      "Practise readings at fairs/exhibitions to gain experience",
+      "Offer online consultations and build a following"
+    ],
+    "qualifications": [
+      "No formal degree - apprenticeship/self-study",
+      "Palmistry course certificate (optional)"
+    ],
+    "tags": [
+      "palmistry",
+      "hast-rekha",
+      "spiritual",
+      "consulting",
+      "occult"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "tarot_reader_in",
+    "title": "Tarot Card Reader",
+    "category": "Spiritual & Religious",
+    "region": "IN",
+    "description": "Give tarot card readings for guidance on love, career and decisions - a fast-growing urban and online practice among younger Indians, popular on Instagram and consultation apps.",
+    "salary_range": {
+      "min": 15000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Part-time readings to full-time tarot consultant/creator"
+    },
+    "growth_outlook": "Growing fast - popular with urban youth online",
+    "work_style": [
+      "Consulting",
+      "Online / Remote",
+      "Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Tarot Card Systems & Spreads",
+        "level": "critical"
+      },
+      {
+        "skill": "Intuitive Reading & Storytelling",
+        "level": "critical"
+      },
+      {
+        "skill": "Client Counselling & Empathy",
+        "level": "critical"
+      },
+      {
+        "skill": "Content Creation (Reels/YouTube)",
+        "level": "important"
+      },
+      {
+        "skill": "Booking & Online Tools",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Take a tarot certification course or learn from a mentor",
+      "Practise with friends, then offer paid online readings",
+      "Grow via Instagram Reels and consultation platforms"
+    ],
+    "qualifications": [
+      "Tarot certification (private/online) - optional",
+      "No formal degree required"
+    ],
+    "tags": [
+      "tarot",
+      "spiritual",
+      "consulting",
+      "content-creator",
+      "occult"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "reiki_healer_in",
+    "title": "Reiki / Pranic Healer",
+    "category": "Mental Health & Therapy",
+    "region": "IN",
+    "description": "Practise energy healing (Reiki, Pranic Healing) for stress, wellness and relaxation - often combined with meditation and offered at wellness centres or independently.",
+    "salary_range": {
+      "min": 15000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Part-time healer to wellness-centre practitioner/trainer"
+    },
+    "growth_outlook": "Growing - wellness and holistic health demand",
+    "work_style": [
+      "Consulting",
+      "Wellness centre",
+      "Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Reiki / Pranic Healing Levels",
+        "level": "critical"
+      },
+      {
+        "skill": "Energy & Chakra Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Client Counselling & Empathy",
+        "level": "critical"
+      },
+      {
+        "skill": "Meditation Guidance",
+        "level": "important"
+      },
+      {
+        "skill": "Wellness Marketing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Get attuned and certified through Reiki Levels 1-3 / Master under a teacher",
+      "Practise on clients and at wellness centres",
+      "Offer distance healing and workshops online"
+    ],
+    "qualifications": [
+      "Reiki Level certifications (I, II, Master)",
+      "Pranic Healing course (optional)",
+      "No formal degree required"
+    ],
+    "tags": [
+      "reiki",
+      "healing",
+      "wellness",
+      "spiritual",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "mehndi_artist_in",
+    "title": "Mehndi / Henna Artist",
+    "category": "Beauty & Wellness",
+    "region": "IN",
+    "description": "Apply mehndi (henna) designs for weddings, festivals and events - bridal, Arabic, and contemporary styles. High festive/wedding-season demand and strong social-media discoverability.",
+    "salary_range": {
+      "min": 15000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Per-function fees to bridal mehndi brand with a team"
+    },
+    "growth_outlook": "Good - steady wedding and festive demand",
+    "work_style": [
+      "Event-based",
+      "Self-employed",
+      "Creative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Mehndi Design (bridal/Arabic/Indo-Arabic)",
+        "level": "critical"
+      },
+      {
+        "skill": "Cone Control & Speed",
+        "level": "critical"
+      },
+      {
+        "skill": "Trend & Pattern Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Client Handling & Booking",
+        "level": "important"
+      },
+      {
+        "skill": "Instagram Portfolio Building",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Practise extensively and build a design portfolio",
+      "Start with small events, then bridal bookings",
+      "Promote on Instagram and tie up with wedding planners"
+    ],
+    "qualifications": [
+      "No formal degree - skill and portfolio matter most",
+      "Mehndi/beauty course certificate (optional)"
+    ],
+    "tags": [
+      "mehndi",
+      "henna",
+      "bridal",
+      "beauty",
+      "self-employment",
+      "creative"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "rangoli_artist_in",
+    "title": "Rangoli & Floor Art Artist",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Create rangoli and floor art for festivals, weddings, events and brand activations - including large 3D and themed rangolis. Seasonal but high-visibility creative work.",
+    "salary_range": {
+      "min": 10000,
+      "max": 120000,
+      "currency": "INR/month",
+      "note": "Per-event fees to commissioned festive art business"
+    },
+    "growth_outlook": "Stable - festive and event demand",
+    "work_style": [
+      "Event-based",
+      "Self-employed",
+      "Creative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Rangoli Design & Colour Work",
+        "level": "critical"
+      },
+      {
+        "skill": "Large-format & 3D Rangoli",
+        "level": "important"
+      },
+      {
+        "skill": "Speed & Precision",
+        "level": "important"
+      },
+      {
+        "skill": "Event Coordination",
+        "level": "helpful"
+      },
+      {
+        "skill": "Social Media Showcasing",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Build a portfolio of festival and event rangolis",
+      "Offer services for Diwali/Onam/weddings and corporate events",
+      "Share time-lapse videos on social media to get bookings"
+    ],
+    "qualifications": [
+      "No formal qualification - creativity and portfolio",
+      "Fine arts background (optional)"
+    ],
+    "tags": [
+      "rangoli",
+      "floor-art",
+      "festive",
+      "creative",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "classical_dancer_in",
+    "title": "Classical Dancer (Bharatanatyam / Kathak)",
+    "category": "Arts & Performance",
+    "region": "IN",
+    "description": "Perform and teach Indian classical dance such as Bharatanatyam, Kathak, Odissi or Kuchipudi. Income blends stage performances, teaching a dance school, choreography and cultural programmes.",
+    "salary_range": {
+      "min": 15000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Performance fees + teaching; varies widely by reputation"
+    },
+    "growth_outlook": "Stable - cultural and teaching demand",
+    "work_style": [
+      "Performance + Teaching",
+      "Self-employed",
+      "Creative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Classical Dance Technique (a specific style)",
+        "level": "critical"
+      },
+      {
+        "skill": "Abhinaya & Expression",
+        "level": "critical"
+      },
+      {
+        "skill": "Rhythm (Tala) & Music Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Choreography",
+        "level": "important"
+      },
+      {
+        "skill": "Teaching & Running a Dance School",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Train for years under a guru (guru-shishya parampara)",
+      "Complete graded exams / Arangetram (debut performance)",
+      "Build income via performances, teaching and cultural bodies"
+    ],
+    "qualifications": [
+      "Visharad / degree in dance (e.g. from a music-dance university) - optional but respected",
+      "Years of guru-led training and a public debut (Arangetram)"
+    ],
+    "tags": [
+      "dance",
+      "classical",
+      "performing-arts",
+      "teaching",
+      "heritage"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "folk_artist_in",
+    "title": "Folk Artist / Lok Kalakar",
+    "category": "Arts & Performance",
+    "region": "IN",
+    "description": "Perform regional folk art forms - dance, music, theatre such as Bhavai, Lavani, Bihu, Garba, or storytelling - at festivals, tourism events and cultural programmes, often with government and tourism support.",
+    "salary_range": {
+      "min": 10000,
+      "max": 100000,
+      "currency": "INR/month",
+      "note": "Programme fees; supported by govt cultural schemes"
+    },
+    "growth_outlook": "Stable - government and tourism patronage",
+    "work_style": [
+      "Performance",
+      "Self-employed",
+      "Creative"
+    ],
+    "required_skills": [
+      {
+        "skill": "A Folk Art Form (regional)",
+        "level": "critical"
+      },
+      {
+        "skill": "Stage Performance",
+        "level": "critical"
+      },
+      {
+        "skill": "Traditional Music/Instruments",
+        "level": "important"
+      },
+      {
+        "skill": "Costume & Presentation",
+        "level": "helpful"
+      },
+      {
+        "skill": "Event & Tourism Networking",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Learn the form within community/family tradition",
+      "Register with cultural/tourism departments and Sangeet Natak Akademi",
+      "Perform at festivals, tourism circuits and cultural exchanges"
+    ],
+    "qualifications": [
+      "No formal degree - community/traditional training",
+      "Empanelment with cultural bodies (ICCR, state akademis)"
+    ],
+    "tags": [
+      "folk-art",
+      "performing-arts",
+      "culture",
+      "heritage",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "dhol_percussion_in",
+    "title": "Dhol / Percussion Artist",
+    "category": "Music Industry",
+    "region": "IN",
+    "description": "Play dhol, nagada, or other percussion at weddings, processions, festivals and events. High demand in the wedding and DJ/event circuit, especially in North and West India.",
+    "salary_range": {
+      "min": 12000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Per-event fees to busy wedding/event percussionist"
+    },
+    "growth_outlook": "Good - strong wedding/event demand",
+    "work_style": [
+      "Event-based",
+      "Self-employed",
+      "Creative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Dhol / Percussion Playing",
+        "level": "critical"
+      },
+      {
+        "skill": "Rhythm & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Repertoire (wedding/festival beats)",
+        "level": "important"
+      },
+      {
+        "skill": "Stage Energy & Showmanship",
+        "level": "important"
+      },
+      {
+        "skill": "Event Networking",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Learn from senior players / community groups",
+      "Join a dhol/baraat troupe for events",
+      "Build bookings via wedding planners and social media"
+    ],
+    "qualifications": [
+      "No formal degree - apprenticeship and practice",
+      "Music school percussion training (optional)"
+    ],
+    "tags": [
+      "dhol",
+      "percussion",
+      "music",
+      "wedding",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "puppeteer_in",
+    "title": "Puppeteer (Kathputli & Modern)",
+    "category": "Arts & Performance",
+    "region": "IN",
+    "description": "Perform and craft puppets - traditional Kathputli string puppets or modern puppetry - for shows, education, tourism and media. A niche heritage art with workshop and edutainment demand.",
+    "salary_range": {
+      "min": 10000,
+      "max": 90000,
+      "currency": "INR/month",
+      "note": "Show fees; supplemented by workshops and tourism"
+    },
+    "growth_outlook": "Niche - heritage and edutainment demand",
+    "work_style": [
+      "Performance + Workshops",
+      "Self-employed",
+      "Creative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Puppet Performance & Manipulation",
+        "level": "critical"
+      },
+      {
+        "skill": "Puppet Making",
+        "level": "important"
+      },
+      {
+        "skill": "Storytelling & Voice",
+        "level": "important"
+      },
+      {
+        "skill": "Workshop Facilitation",
+        "level": "helpful"
+      },
+      {
+        "skill": "Event/Tourism Networking",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Learn within a puppeteer community (e.g. Rajasthan) or arts org",
+      "Perform at schools, fairs, tourism and cultural events",
+      "Run puppet-making workshops as an added income stream"
+    ],
+    "qualifications": [
+      "No formal degree - traditional/community training",
+      "Theatre or fine-arts background (optional)"
+    ],
+    "tags": [
+      "puppetry",
+      "kathputli",
+      "performing-arts",
+      "heritage",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "equestrian_instructor_in",
+    "title": "Equestrian / Horse Riding Instructor",
+    "category": "Sports & Athletics",
+    "region": "IN",
+    "description": "Train riders and care for horses at riding schools, clubs, resorts and for equestrian sport. Combines coaching, horse management and sometimes competition or wedding/film horse work.",
+    "salary_range": {
+      "min": 20000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Riding school instructor to own stable/academy"
+    },
+    "growth_outlook": "Niche but growing - clubs, resorts and sport",
+    "work_style": [
+      "Outdoor",
+      "Coaching",
+      "Self-employed or club"
+    ],
+    "required_skills": [
+      {
+        "skill": "Horse Riding & Training",
+        "level": "critical"
+      },
+      {
+        "skill": "Horse Care & Stable Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Coaching & Safety",
+        "level": "important"
+      },
+      {
+        "skill": "Competition/Dressage (for sport track)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Client & Resort Liaison",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Train at a riding school / cavalry or police equestrian background",
+      "Get coaching experience at clubs or resorts",
+      "Build towards running your own stable or academy"
+    ],
+    "qualifications": [
+      "Equestrian Federation of India coaching credentials (for sport)",
+      "No formal degree required - skill and experience matter"
+    ],
+    "tags": [
+      "equestrian",
+      "horse-riding",
+      "sports",
+      "coaching",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "stunt_performer_in",
+    "title": "Stunt Performer / Action Choreographer",
+    "category": "Film & Entertainment",
+    "region": "IN",
+    "description": "Perform film/TV stunts and choreograph action sequences - fights, falls, fire, vehicle and wire work. High-skill, high-risk work in film, OTT, ads and events.",
+    "salary_range": {
+      "min": 25000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Per-shoot fees; top action directors earn much more"
+    },
+    "growth_outlook": "Good - growing film/OTT/ad production",
+    "work_style": [
+      "Project-based",
+      "High-risk",
+      "Physical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Stunt & Action Skills (martial arts/gymnastics)",
+        "level": "critical"
+      },
+      {
+        "skill": "Safety & Rigging",
+        "level": "critical"
+      },
+      {
+        "skill": "Fitness & Conditioning",
+        "level": "critical"
+      },
+      {
+        "skill": "Action Choreography",
+        "level": "important"
+      },
+      {
+        "skill": "Film Set Coordination",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Train in martial arts/gymnastics and join a stunt union/team",
+      "Start as a junior stunt artist and build credits",
+      "Progress to action choreographer/director"
+    ],
+    "qualifications": [
+      "Stunt training and union membership (e.g. Movie Stunt Artists Association)",
+      "No formal degree - physical skill and safety record matter"
+    ],
+    "tags": [
+      "stunts",
+      "action",
+      "film",
+      "fitness",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "adventure_guide_in",
+    "title": "Mountaineering / Trekking Guide",
+    "category": "Sports & Athletics",
+    "region": "IN",
+    "description": "Lead treks, mountaineering expeditions and adventure tours in the Himalayas and beyond, ensuring safety and a great experience. Demand driven by India's booming adventure-tourism market.",
+    "salary_range": {
+      "min": 18000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Seasonal guiding to running an adventure travel firm"
+    },
+    "growth_outlook": "Growing - adventure tourism boom",
+    "work_style": [
+      "Outdoor",
+      "Seasonal",
+      "Physical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Mountaineering & Trekking Skills",
+        "level": "critical"
+      },
+      {
+        "skill": "Wilderness First Aid & Safety",
+        "level": "critical"
+      },
+      {
+        "skill": "Navigation & Weather Reading",
+        "level": "important"
+      },
+      {
+        "skill": "Group Leadership",
+        "level": "important"
+      },
+      {
+        "skill": "Tour Logistics & Hospitality",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Complete courses at NIM/HMI/ABVIMAS mountaineering institutes",
+      "Guide with established adventure operators",
+      "Build towards leading expeditions or your own travel firm"
+    ],
+    "qualifications": [
+      "Basic/Advanced Mountaineering Course (NIM, HMI, ABVIMAS)",
+      "Wilderness first-aid certification"
+    ],
+    "tags": [
+      "mountaineering",
+      "trekking",
+      "adventure",
+      "tourism",
+      "outdoor",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "scuba_instructor_in",
+    "title": "Scuba Diving Instructor",
+    "category": "Sports & Athletics",
+    "region": "IN",
+    "description": "Teach and guide scuba diving at coastal/island destinations (Andamans, Goa, Lakshadweep) - certifying divers and leading dives. Tied to coastal tourism growth.",
+    "salary_range": {
+      "min": 25000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Resort instructor to dive-centre owner"
+    },
+    "growth_outlook": "Growing - coastal adventure tourism",
+    "work_style": [
+      "Outdoor / Water",
+      "Seasonal",
+      "Physical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Scuba Diving & Instruction (PADI/SSI)",
+        "level": "critical"
+      },
+      {
+        "skill": "Underwater Safety & Rescue",
+        "level": "critical"
+      },
+      {
+        "skill": "Swimming & Fitness",
+        "level": "critical"
+      },
+      {
+        "skill": "Equipment Maintenance",
+        "level": "important"
+      },
+      {
+        "skill": "Tourist Handling",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Progress through PADI/SSI: Open Water -> Divemaster -> Instructor",
+      "Work at a dive centre in a coastal destination",
+      "Build towards owning a dive centre"
+    ],
+    "qualifications": [
+      "PADI/SSI Instructor certification",
+      "Strong swimming ability; medical fitness"
+    ],
+    "tags": [
+      "scuba",
+      "diving",
+      "adventure",
+      "tourism",
+      "coastal",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "wildlife_photographer_in",
+    "title": "Wildlife Photographer",
+    "category": "Photography & Visual Media",
+    "region": "IN",
+    "description": "Photograph wildlife and nature for magazines, documentaries, stock, NGOs and prints, often working from India's national parks and sanctuaries. Income mixes assignments, workshops, stock and tours.",
+    "salary_range": {
+      "min": 20000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Assignments + prints/stock; varies with reputation"
+    },
+    "growth_outlook": "Niche - conservation media and tourism",
+    "work_style": [
+      "Outdoor",
+      "Project-based",
+      "Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Wildlife & Nature Photography",
+        "level": "critical"
+      },
+      {
+        "skill": "Field Craft & Patience",
+        "level": "critical"
+      },
+      {
+        "skill": "Photo Editing",
+        "level": "important"
+      },
+      {
+        "skill": "Knowledge of Species & Habitats",
+        "level": "important"
+      },
+      {
+        "skill": "Selling Stock / Running Tours",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Build a strong portfolio at national parks and sanctuaries",
+      "Sell to magazines, stock platforms and NGOs",
+      "Run photography tours and workshops for steady income"
+    ],
+    "qualifications": [
+      "No formal degree - portfolio is the credential",
+      "Photography course or naturalist training (optional)"
+    ],
+    "tags": [
+      "wildlife",
+      "photography",
+      "nature",
+      "creative",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "snake_rescuer_in",
+    "title": "Wildlife Rescuer / Snake Catcher",
+    "category": "Veterinary & Animal Care",
+    "region": "IN",
+    "description": "Rescue and safely relocate snakes and urban wildlife, educate communities, and assist forest departments. A specialised, public-service-oriented field tied to conservation and human-wildlife conflict.",
+    "salary_range": {
+      "min": 12000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Often honorarium/NGO-paid; some run rescue services"
+    },
+    "growth_outlook": "Niche - rising urban wildlife conflict",
+    "work_style": [
+      "Outdoor",
+      "On-call",
+      "Public-service"
+    ],
+    "required_skills": [
+      {
+        "skill": "Snake/Wildlife Handling & Safety",
+        "level": "critical"
+      },
+      {
+        "skill": "Species Identification",
+        "level": "critical"
+      },
+      {
+        "skill": "First Response & Relocation",
+        "level": "important"
+      },
+      {
+        "skill": "Community Education",
+        "level": "important"
+      },
+      {
+        "skill": "Coordination with Forest Dept",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Train with experienced rescuers and herpetology groups",
+      "Volunteer with NGOs and forest department",
+      "Build a recognised rescue service in your area"
+    ],
+    "qualifications": [
+      "No formal degree - hands-on training and safety record",
+      "Forest department recognition / wildlife NGO training"
+    ],
+    "tags": [
+      "wildlife",
+      "snake-rescue",
+      "conservation",
+      "animal-care",
+      "public-service"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "chess_coach_in",
+    "title": "Chess Coach / Professional Player",
+    "category": "Gaming & Esports",
+    "region": "IN",
+    "description": "Coach chess and/or compete professionally - a fast-growing field in India after its world-stage success, with strong demand for academies, online coaching and school programmes.",
+    "salary_range": {
+      "min": 15000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Coaching + tournament income; titled players earn more"
+    },
+    "growth_outlook": "Growing fast - chess boom in India",
+    "work_style": [
+      "Coaching",
+      "Online / Remote",
+      "Self-employed"
+    ],
+    "required_skills": [
+      {
+        "skill": "Advanced Chess Play & Theory",
+        "level": "critical"
+      },
+      {
+        "skill": "Coaching & Curriculum",
+        "level": "critical"
+      },
+      {
+        "skill": "Game Analysis (engines/databases)",
+        "level": "important"
+      },
+      {
+        "skill": "Online Coaching Tools",
+        "level": "important"
+      },
+      {
+        "skill": "Tournament Experience",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Earn a rating/title via tournaments (AICF/FIDE)",
+      "Coach at academies, schools and online platforms",
+      "Build an online coaching brand"
+    ],
+    "qualifications": [
+      "FIDE rating/title (helpful)",
+      "AICF arbiter/coach certification (optional)",
+      "No formal degree required"
+    ],
+    "tags": [
+      "chess",
+      "coaching",
+      "sports",
+      "online-coaching",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "beekeeper_in",
+    "title": "Beekeeper / Apiculturist",
+    "category": "Agriculture & Farming",
+    "region": "IN",
+    "description": "Keep bees for honey and hive products, pollination services and value-added products. Supported by government apiculture missions and rising demand for natural honey.",
+    "salary_range": {
+      "min": 15000,
+      "max": 120000,
+      "currency": "INR/month",
+      "note": "Small apiary to honey brand with distribution"
+    },
+    "growth_outlook": "Growing - natural honey demand and govt support",
+    "work_style": [
+      "Outdoor / Farm",
+      "Self-employed",
+      "Entrepreneurial"
+    ],
+    "required_skills": [
+      {
+        "skill": "Beekeeping & Hive Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Honey Extraction & Processing",
+        "level": "critical"
+      },
+      {
+        "skill": "Pest/Disease Management",
+        "level": "important"
+      },
+      {
+        "skill": "Packaging & Branding",
+        "level": "important"
+      },
+      {
+        "skill": "Marketing/Selling Honey",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Train via KVK / National Bee Board / agri-university programmes",
+      "Start with a few hives and scale up",
+      "Build a brand and sell direct + via FPOs/markets"
+    ],
+    "qualifications": [
+      "Beekeeping training (KVK, National Bee Board)",
+      "No formal degree required"
+    ],
+    "tags": [
+      "beekeeping",
+      "apiculture",
+      "agriculture",
+      "agripreneur",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "mushroom_farmer_in",
+    "title": "Mushroom Farming Entrepreneur",
+    "category": "Agriculture & Farming",
+    "region": "IN",
+    "description": "Grow mushrooms (button, oyster, milky) in controlled conditions and supply to markets, restaurants and processors. Low land requirement and quick cycles make it popular for rural/peri-urban entrepreneurs.",
+    "salary_range": {
+      "min": 15000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Small unit to commercial mushroom supply business"
+    },
+    "growth_outlook": "Growing - high-value, low-land agribusiness",
+    "work_style": [
+      "Farm / Indoor",
+      "Self-employed",
+      "Entrepreneurial"
+    ],
+    "required_skills": [
+      {
+        "skill": "Mushroom Cultivation & Spawn Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Climate/Hygiene Control",
+        "level": "critical"
+      },
+      {
+        "skill": "Harvest & Post-harvest Handling",
+        "level": "important"
+      },
+      {
+        "skill": "Marketing & Supply",
+        "level": "important"
+      },
+      {
+        "skill": "Basic Costing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Train at KVK / agri-university mushroom courses",
+      "Start a small grow room and secure local buyers",
+      "Scale to commercial supply and value-added products"
+    ],
+    "qualifications": [
+      "Mushroom cultivation training (KVK, agri-university)",
+      "No formal degree required"
+    ],
+    "tags": [
+      "mushroom",
+      "farming",
+      "agriculture",
+      "agripreneur",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "organic_farmer_in",
+    "title": "Organic Farming Agripreneur",
+    "category": "Agriculture & Farming",
+    "region": "IN",
+    "description": "Grow and market organic/natural produce, often building a direct-to-consumer brand or supplying FPOs and exporters. Driven by health-conscious demand and government organic missions.",
+    "salary_range": {
+      "min": 15000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Smallholder to organic brand with FPO/exports"
+    },
+    "growth_outlook": "Growing - organic and natural food demand",
+    "work_style": [
+      "Farm",
+      "Self-employed",
+      "Entrepreneurial"
+    ],
+    "required_skills": [
+      {
+        "skill": "Organic/Natural Farming Practices",
+        "level": "critical"
+      },
+      {
+        "skill": "Soil & Pest Management (organic)",
+        "level": "critical"
+      },
+      {
+        "skill": "Certification & Compliance",
+        "level": "important"
+      },
+      {
+        "skill": "Direct Marketing / D2C",
+        "level": "important"
+      },
+      {
+        "skill": "Farm Record-keeping",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Train via organic farming missions / KVKs",
+      "Convert land and obtain organic certification",
+      "Build a D2C brand or supply FPOs and exporters"
+    ],
+    "qualifications": [
+      "Organic certification (e.g. PGS/India Organic)",
+      "Agriculture diploma/degree (optional)"
+    ],
+    "tags": [
+      "organic",
+      "farming",
+      "agriculture",
+      "agripreneur",
+      "sustainability",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "upsc_mentor_in",
+    "title": "UPSC / Civil Services Mentor",
+    "category": "Education & Training",
+    "region": "IN",
+    "description": "Coach aspirants for UPSC and state civil-services exams - teaching, mentoring, test series and content. A large, prestige-driven market across coaching hubs and online platforms.",
+    "salary_range": {
+      "min": 30000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Faculty to star educator/edtech founder"
+    },
+    "growth_outlook": "Strong - large, prestige-driven aspirant base",
+    "work_style": [
+      "Teaching",
+      "Online + Offline",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Subject Mastery (GS/optional)",
+        "level": "critical"
+      },
+      {
+        "skill": "Exam Strategy & Answer Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "Teaching & Mentoring",
+        "level": "critical"
+      },
+      {
+        "skill": "Content/Test-series Creation",
+        "level": "important"
+      },
+      {
+        "skill": "Online Teaching Tools",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Strong exam performance or deep subject expertise",
+      "Teach at coaching institutes or online platforms",
+      "Build a personal brand via YouTube/Telegram"
+    ],
+    "qualifications": [
+      "Postgraduate degree in the subject (typical)",
+      "UPSC/state-services attempt experience (valued)"
+    ],
+    "tags": [
+      "upsc",
+      "civil-services",
+      "teaching",
+      "mentoring",
+      "edtech"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "gst_consultant_in",
+    "title": "GST & Taxation Consultant",
+    "category": "Finance",
+    "region": "IN",
+    "description": "Help businesses with GST registration, returns, reconciliations, income tax and compliance. High demand from India's vast MSME base after GST rollout.",
+    "salary_range": {
+      "min": 20000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Independent practice to tax advisory firm"
+    },
+    "growth_outlook": "Strong - large MSME compliance market",
+    "work_style": [
+      "Office / Remote",
+      "Self-employed",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "GST Law & Returns",
+        "level": "critical"
+      },
+      {
+        "skill": "Income Tax Compliance",
+        "level": "critical"
+      },
+      {
+        "skill": "Accounting & Reconciliation",
+        "level": "important"
+      },
+      {
+        "skill": "Tax Software (Tally/Portals)",
+        "level": "important"
+      },
+      {
+        "skill": "Client Advisory",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Commerce background + GST/tax certification courses",
+      "Start with small businesses and shops",
+      "Build a practice or join a CA/tax firm"
+    ],
+    "qualifications": [
+      "B.Com or commerce background (typical)",
+      "GST practitioner certification; CA/CMA (optional, higher-end)"
+    ],
+    "tags": [
+      "gst",
+      "taxation",
+      "compliance",
+      "finance",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "drone_pilot_in",
+    "title": "Drone Pilot / Agri-Drone Operator",
+    "category": "Aviation & Airport",
+    "region": "IN",
+    "description": "Fly drones for agriculture (spraying/mapping), surveying, inspection, photography and deliveries. A fast-emerging field backed by India's drone policy and agri-drone schemes.",
+    "salary_range": {
+      "min": 20000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Operator to drone-services business owner"
+    },
+    "growth_outlook": "Growing fast - drone policy and agri-drone push",
+    "work_style": [
+      "Field",
+      "Self-employed or firm",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Drone Piloting & Safety",
+        "level": "critical"
+      },
+      {
+        "skill": "DGCA Regulations & Compliance",
+        "level": "critical"
+      },
+      {
+        "skill": "Mission Planning / Mapping",
+        "level": "important"
+      },
+      {
+        "skill": "Maintenance & Troubleshooting",
+        "level": "important"
+      },
+      {
+        "skill": "Data/Imagery Handling",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Get DGCA-approved RPC/remote pilot certificate from an RPTO",
+      "Specialise (agri-spraying, survey, inspection, media)",
+      "Offer drone services or join an operator"
+    ],
+    "qualifications": [
+      "DGCA Remote Pilot Certificate (from approved RPTO)",
+      "No degree required; technical aptitude helps"
+    ],
+    "tags": [
+      "drone",
+      "agri-tech",
+      "aviation",
+      "emerging-tech",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "food_content_creator_in",
+    "title": "Food Blogger / Culinary Content Creator",
+    "category": "Media & Broadcasting",
+    "region": "IN",
+    "description": "Create food and recipe content - reels, videos, blogs and reviews - monetised via brand deals, ads, restaurant promotions and events. A booming creator niche in India's food-obsessed social media.",
+    "salary_range": {
+      "min": 15000,
+      "max": 400000,
+      "currency": "INR/month",
+      "note": "Hobby to full-time creator with brand deals"
+    },
+    "growth_outlook": "Growing fast - large food creator economy",
+    "work_style": [
+      "Online / Remote",
+      "Self-employed",
+      "Creative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Food Content Creation (video/photo)",
+        "level": "critical"
+      },
+      {
+        "skill": "Recipe/Storytelling",
+        "level": "critical"
+      },
+      {
+        "skill": "Editing & Reels",
+        "level": "important"
+      },
+      {
+        "skill": "Audience Growth & SEO",
+        "level": "important"
+      },
+      {
+        "skill": "Brand Collaboration & Monetisation",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Pick a niche (regional/street food/healthy) and post consistently",
+      "Grow on Instagram/YouTube and engage your audience",
+      "Monetise via brand deals, ads and events"
+    ],
+    "qualifications": [
+      "No formal degree - content quality and consistency",
+      "Culinary or media background (optional)"
+    ],
+    "tags": [
+      "food",
+      "content-creator",
+      "social-media",
+      "blogging",
+      "self-employment"
+    ],
+    "collar": "no"
   }
 ]

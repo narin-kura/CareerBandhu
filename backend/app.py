@@ -41,6 +41,11 @@ try:
 except ImportError:
     from auth import get_current_user, supabase, SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_CONFIGURED
 
+try:
+    from backend.enrich import career_detail, learning_roadmap, time_to_learn
+except ImportError:
+    from enrich import career_detail, learning_roadmap, time_to_learn
+
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
 UI_DIR = BASE_DIR / "static"
@@ -104,6 +109,16 @@ def init_db() -> None:
             created_at TEXT DEFAULT (datetime('now'))
         )
     """)
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS app_feedback (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            category TEXT NOT NULL,
+            message TEXT NOT NULL,
+            rating INTEGER,
+            email TEXT,
+            created_at TEXT DEFAULT (datetime('now'))
+        )
+    """)
     conn.commit()
     conn.close()
 
@@ -142,6 +157,13 @@ class BookmarkRequest(BaseModel):
 
 class ProgressUpdateRequest(BaseModel):
     learned_skills: list[str] = []
+
+
+class FeedbackRequest(BaseModel):
+    category: str = "general"      # general | bug | career_request | feature
+    message: str
+    rating: Optional[int] = None   # optional 1-5 app rating
+    email: Optional[str] = None    # optional, for follow-up
 
 
 # --- Core logic ---
@@ -280,6 +302,7 @@ async def list_careers(region: Optional[str] = None):
                 "region": c.get("region", "IN"),
                 "collar": c.get("collar", "white"),
                 "growth_outlook": c.get("growth_outlook"),
+                "salary_range": c.get("salary_range"),
                 "tags": c.get("tags", []),
             }
             for c in careers
@@ -368,6 +391,7 @@ async def get_career(career_id: str):
 
     return {
         "career": career,
+        "detail": career_detail(career, CAREERS),
         "avg_rating": round(row["avg_r"], 1) if row["avg_r"] else None,
         "rating_count": row["cnt"],
         "recent_feedback": [dict(c) for c in comments],
@@ -382,17 +406,24 @@ async def gap_analysis(request: Request, career_id: str, req: GapRequest):
         raise HTTPException(404, "Career not found")
 
     match = calculate_match(req.skills, career)
-    gap_resources = {g["skill"]: get_resources_for(g["skill"]) for g in match["gaps"]}
+    gaps = match["gaps"]
+    # Attach a per-skill time-to-learn estimate to each remaining gap
+    for g in gaps:
+        g["weeks"] = time_to_learn(g["level"])
+    gap_resources = {g["skill"]: get_resources_for(g["skill"]) for g in gaps}
+    # A learning roadmap covering only what the user still needs
+    roadmap = learning_roadmap(gaps)
     # threadpool: LLM call must not block the event loop
-    ai_advice = await run_in_threadpool(get_ai_advice, req.skills, career, match["score"], match["gaps"])
+    ai_advice = await run_in_threadpool(get_ai_advice, req.skills, career, match["score"], gaps)
 
     return {
         "career_id": career_id,
         "career_title": career["title"],
         "score": match["score"],
         "matching_skills": match["matching_skills"],
-        "gaps": match["gaps"],
+        "gaps": gaps,
         "resources": gap_resources,
+        "roadmap": roadmap,
         "ai_advice": ai_advice,
         "entry_paths": career.get("entry_paths", []),
     }
@@ -423,6 +454,28 @@ async def submit_rating(request: Request, req: RatingRequest):
         "new_avg_rating": round(row["avg_r"], 1),
         "total_ratings": row["cnt"],
     }
+
+
+@app.post("/api/feedback")
+@limiter.limit("10/minute")
+async def submit_feedback(request: Request, req: FeedbackRequest):
+    msg = (req.message or "").strip()
+    if len(msg) < 3:
+        raise HTTPException(400, "Feedback message is too short.")
+    if len(msg) > 4000:
+        msg = msg[:4000]
+    category = req.category if req.category in {"general", "bug", "career_request", "feature"} else "general"
+    rating = req.rating if (req.rating is not None and 1 <= req.rating <= 5) else None
+    email = (req.email or "").strip()[:200] or None
+
+    conn = get_db()
+    conn.execute(
+        "INSERT INTO app_feedback (category, message, rating, email) VALUES (?,?,?,?)",
+        (category, msg, rating, email),
+    )
+    conn.commit()
+    conn.close()
+    return {"success": True, "message": "Thanks for your feedback!"}
 
 
 @app.get("/api/career/{career_id}/stats")
