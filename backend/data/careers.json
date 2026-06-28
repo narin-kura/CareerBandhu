@@ -24881,5 +24881,1866 @@
       "health"
     ],
     "collar": "no"
+  },
+  {
+    "id": "electrical_engineer_in",
+    "title": "Electrical Engineer",
+    "category": "Energy & Utilities",
+    "region": "IN",
+    "description": "Design and manage electrical systems - power generation, distribution, machines and control - across industries and utilities.",
+    "salary_range": {
+      "min": 25000,
+      "max": 180000,
+      "currency": "INR/month",
+      "note": "Graduate engineer to senior engineer"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Office/Site/Plant",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Electrical Systems & Circuits",
+        "level": "critical"
+      },
+      {
+        "skill": "Power Distribution",
+        "level": "important"
+      },
+      {
+        "skill": "Control Systems",
+        "level": "important"
+      },
+      {
+        "skill": "Electrical Safety/Codes",
+        "level": "important"
+      },
+      {
+        "skill": "CAD/Schematics",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Diploma/B.E Electrical",
+      "Utility/industry/construction roles",
+      "Specialise (power/control)"
+    ],
+    "qualifications": [
+      "Diploma/B.E/B.Tech in Electrical Engineering"
+    ],
+    "tags": [
+      "electrical",
+      "engineering",
+      "power",
+      "energy"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "electronics_engineer_in",
+    "title": "Electronics & Communication Engineer",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Design electronic circuits, embedded systems and communication equipment - from chips to telecom to consumer electronics.",
+    "salary_range": {
+      "min": 25000,
+      "max": 180000,
+      "currency": "INR/month",
+      "note": "Graduate engineer to design/lead engineer"
+    },
+    "growth_outlook": "Good",
+    "work_style": [
+      "Office/Lab",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Electronics & Circuit Design",
+        "level": "critical"
+      },
+      {
+        "skill": "Embedded Systems",
+        "level": "important"
+      },
+      {
+        "skill": "Signal/Communication Systems",
+        "level": "important"
+      },
+      {
+        "skill": "PCB Design",
+        "level": "important"
+      },
+      {
+        "skill": "Microcontrollers",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.E/B.Tech ECE or diploma",
+      "Electronics/telecom/embedded roles",
+      "Specialise (VLSI/embedded/telecom)"
+    ],
+    "qualifications": [
+      "Diploma/B.E/B.Tech in Electronics & Communication"
+    ],
+    "tags": [
+      "electronics",
+      "engineering",
+      "embedded",
+      "telecom"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "civil_structural_engineer_in",
+    "title": "Structural Engineer",
+    "category": "Architecture & Urban Planning",
+    "region": "IN",
+    "description": "Design safe, stable structures - buildings, bridges, towers - calculating loads, materials and resilience.",
+    "salary_range": {
+      "min": 28000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Graduate engineer to senior structural engineer"
+    },
+    "growth_outlook": "Good - infrastructure",
+    "work_style": [
+      "Office/Site",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Structural Analysis & Design",
+        "level": "critical"
+      },
+      {
+        "skill": "Building Codes & Standards",
+        "level": "critical"
+      },
+      {
+        "skill": "Structural Software (STAAD/ETABS)",
+        "level": "important"
+      },
+      {
+        "skill": "Materials Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Site Coordination",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.E Civil + structural specialisation/M.Tech",
+      "Consultancy/construction roles",
+      "Senior/independent design"
+    ],
+    "qualifications": [
+      "B.E/B.Tech Civil; M.Tech Structural valued"
+    ],
+    "tags": [
+      "structural",
+      "civil",
+      "engineering",
+      "construction"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "chemical_engineer_in",
+    "title": "Chemical Engineer",
+    "category": "Manufacturing & Production",
+    "region": "IN",
+    "description": "Design and run chemical processes and plants - converting raw materials into products in petrochemicals, pharma, FMCG and more.",
+    "salary_range": {
+      "min": 28000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Graduate engineer to plant/process lead"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Plant/Office",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Chemical Process Design",
+        "level": "critical"
+      },
+      {
+        "skill": "Process Safety",
+        "level": "critical"
+      },
+      {
+        "skill": "Mass & Heat Transfer",
+        "level": "important"
+      },
+      {
+        "skill": "Plant Operations",
+        "level": "important"
+      },
+      {
+        "skill": "Quality Control",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.E/B.Tech Chemical",
+      "Process/plant roles in chemicals/pharma/oil",
+      "Specialise and lead"
+    ],
+    "qualifications": [
+      "B.E/B.Tech in Chemical Engineering"
+    ],
+    "tags": [
+      "chemical",
+      "engineering",
+      "process",
+      "manufacturing"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "biomedical_engineer_in",
+    "title": "Biomedical Engineer",
+    "category": "Healthcare",
+    "region": "IN",
+    "description": "Design and maintain medical devices and healthcare technology - imaging, implants, diagnostics - bridging engineering and medicine.",
+    "salary_range": {
+      "min": 25000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Graduate engineer to senior/clinical engineer"
+    },
+    "growth_outlook": "Growing - medtech",
+    "work_style": [
+      "Hospital/Industry",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Biomedical Instrumentation",
+        "level": "critical"
+      },
+      {
+        "skill": "Medical Device Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Electronics",
+        "level": "important"
+      },
+      {
+        "skill": "Regulatory/Quality Standards",
+        "level": "important"
+      },
+      {
+        "skill": "Maintenance & Calibration",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.Tech Biomedical Engineering",
+      "Hospital/medical-device roles",
+      "Specialise (devices/clinical engineering)"
+    ],
+    "qualifications": [
+      "B.E/B.Tech in Biomedical Engineering"
+    ],
+    "tags": [
+      "biomedical",
+      "engineering",
+      "healthcare",
+      "devices"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "robotics_engineer_in",
+    "title": "Robotics Engineer",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Design, build and program robots and automation systems for manufacturing, logistics, healthcare and research.",
+    "salary_range": {
+      "min": 35000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Graduate engineer to robotics lead"
+    },
+    "growth_outlook": "Growing fast - automation",
+    "work_style": [
+      "Lab/Plant",
+      "Technical",
+      "High-skill"
+    ],
+    "required_skills": [
+      {
+        "skill": "Robotics & Control",
+        "level": "critical"
+      },
+      {
+        "skill": "Programming (C++/Python/ROS)",
+        "level": "critical"
+      },
+      {
+        "skill": "Mechatronics",
+        "level": "important"
+      },
+      {
+        "skill": "Sensors & Actuators",
+        "level": "important"
+      },
+      {
+        "skill": "Computer Vision",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Engineering (mech/ECE/CS) + robotics projects",
+      "Automation/robotics firms or R&D",
+      "Specialise and lead"
+    ],
+    "qualifications": [
+      "B.E/B.Tech + robotics specialisation/projects"
+    ],
+    "tags": [
+      "robotics",
+      "automation",
+      "engineering",
+      "emerging-tech"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "marine_engineer_in",
+    "title": "Marine Engineer",
+    "category": "Maritime & Shipping",
+    "region": "IN",
+    "description": "Operate and maintain ship engines and machinery aboard merchant vessels - a well-paid global seafaring career.",
+    "salary_range": {
+      "min": 40000,
+      "max": 400000,
+      "currency": "INR/month",
+      "note": "Cadet to chief engineer"
+    },
+    "growth_outlook": "Good - global shipping",
+    "work_style": [
+      "Ship/Sea",
+      "Contract voyages",
+      "High-pay"
+    ],
+    "required_skills": [
+      {
+        "skill": "Marine Engineering Systems",
+        "level": "critical"
+      },
+      {
+        "skill": "Engine Maintenance",
+        "level": "critical"
+      },
+      {
+        "skill": "Safety at Sea",
+        "level": "critical"
+      },
+      {
+        "skill": "Troubleshooting",
+        "level": "important"
+      },
+      {
+        "skill": "Watchkeeping",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Marine Engineering degree (DG Shipping approved)",
+      "Sail as cadet/junior engineer",
+      "Rise to chief engineer"
+    ],
+    "qualifications": [
+      "B.E Marine Engineering (DG Shipping approved); CoC certifications"
+    ],
+    "tags": [
+      "marine",
+      "shipping",
+      "engineering",
+      "seafaring"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "mining_engineer_in",
+    "title": "Mining Engineer",
+    "category": "Energy & Utilities",
+    "region": "IN",
+    "description": "Plan and oversee safe, efficient extraction of minerals and coal - mine design, operations and safety.",
+    "salary_range": {
+      "min": 35000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Graduate engineer to mine manager"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Mine/Field",
+      "Physical",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Mine Planning & Operations",
+        "level": "critical"
+      },
+      {
+        "skill": "Mining Safety",
+        "level": "critical"
+      },
+      {
+        "skill": "Geology basics",
+        "level": "important"
+      },
+      {
+        "skill": "Equipment & Blasting",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "B.Tech Mining Engineering",
+      "Mine site roles",
+      "Statutory certs, rise to manager"
+    ],
+    "qualifications": [
+      "B.E/B.Tech in Mining Engineering; statutory certificates"
+    ],
+    "tags": [
+      "mining",
+      "engineering",
+      "minerals",
+      "energy"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "statistician_in",
+    "title": "Statistician / Biostatistician",
+    "category": "Data & Analytics",
+    "region": "IN",
+    "description": "Apply statistical methods to design studies and interpret data - in research, pharma, government, finance and analytics.",
+    "salary_range": {
+      "min": 35000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Analyst to senior statistician"
+    },
+    "growth_outlook": "Strong - data demand",
+    "work_style": [
+      "Office / Remote",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Statistics & Probability",
+        "level": "critical"
+      },
+      {
+        "skill": "Statistical Software (R/SAS/Python)",
+        "level": "critical"
+      },
+      {
+        "skill": "Study/Experiment Design",
+        "level": "important"
+      },
+      {
+        "skill": "Data Interpretation",
+        "level": "important"
+      },
+      {
+        "skill": "Communication of Results",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "M.Sc Statistics or related",
+      "Analytics/pharma/research roles",
+      "Specialise (bio/econometrics)"
+    ],
+    "qualifications": [
+      "M.Sc Statistics / strong quantitative degree"
+    ],
+    "tags": [
+      "statistics",
+      "data",
+      "analytics",
+      "research"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "microbiologist_in",
+    "title": "Microbiologist",
+    "category": "Science & Research",
+    "region": "IN",
+    "description": "Study microorganisms for healthcare, food, pharma and environment - testing, quality control and research.",
+    "salary_range": {
+      "min": 20000,
+      "max": 120000,
+      "currency": "INR/month",
+      "note": "Lab scientist to senior microbiologist"
+    },
+    "growth_outlook": "Good",
+    "work_style": [
+      "Lab",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Microbiology Techniques",
+        "level": "critical"
+      },
+      {
+        "skill": "Lab & Sterile Practice",
+        "level": "critical"
+      },
+      {
+        "skill": "Sample Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Quality Control",
+        "level": "important"
+      },
+      {
+        "skill": "Documentation",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.Sc/M.Sc Microbiology",
+      "Lab/QC roles in pharma/food/diagnostics",
+      "Research or QA management"
+    ],
+    "qualifications": [
+      "B.Sc/M.Sc in Microbiology"
+    ],
+    "tags": [
+      "microbiology",
+      "science",
+      "lab",
+      "research"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "environmental_scientist_in",
+    "title": "Environmental Scientist",
+    "category": "Science & Research",
+    "region": "IN",
+    "description": "Study and protect the environment - pollution, water, climate, impact assessments - for industry, govt and NGOs.",
+    "salary_range": {
+      "min": 25000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Analyst to senior environmental scientist"
+    },
+    "growth_outlook": "Growing - ESG & regulation",
+    "work_style": [
+      "Field/Lab/Office",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Environmental Science",
+        "level": "critical"
+      },
+      {
+        "skill": "Sampling & Lab Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "EIA & Compliance",
+        "level": "important"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Report Writing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.Sc/M.Sc Environmental Science",
+      "Consultancy/industry/NGO/govt roles",
+      "Specialise (EIA/water/air)"
+    ],
+    "qualifications": [
+      "B.Sc/M.Sc in Environmental Science"
+    ],
+    "tags": [
+      "environment",
+      "science",
+      "sustainability",
+      "ecology"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "geologist_in",
+    "title": "Geologist",
+    "category": "Energy & Utilities",
+    "region": "IN",
+    "description": "Study the earth's structure and resources - for mining, oil and gas, groundwater, and natural-hazard assessment.",
+    "salary_range": {
+      "min": 28000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Junior geologist to senior/exploration geologist"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Field/Lab",
+      "Technical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Geology & Mineralogy",
+        "level": "critical"
+      },
+      {
+        "skill": "Field Survey & Mapping",
+        "level": "critical"
+      },
+      {
+        "skill": "GIS & Remote Sensing",
+        "level": "important"
+      },
+      {
+        "skill": "Sample Analysis",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "M.Sc Geology",
+      "Mining/oil/groundwater/survey roles",
+      "Specialise (exploration/hydro)"
+    ],
+    "qualifications": [
+      "M.Sc in Geology / Applied Geology"
+    ],
+    "tags": [
+      "geology",
+      "earth-science",
+      "mining",
+      "exploration"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "makeup_artist_in",
+    "title": "Makeup Artist",
+    "category": "Beauty & Wellness",
+    "region": "IN",
+    "description": "Do makeup for weddings, fashion, film, TV and events - bridal, HD, special effects and editorial looks.",
+    "salary_range": {
+      "min": 15000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Freelancer to celebrity/bridal makeup artist"
+    },
+    "growth_outlook": "Good - weddings & media",
+    "work_style": [
+      "Studio/On-location",
+      "Creative",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Makeup Techniques (bridal/HD/SFX)",
+        "level": "critical"
+      },
+      {
+        "skill": "Skin & Colour Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Hygiene",
+        "level": "important"
+      },
+      {
+        "skill": "Client Handling",
+        "level": "important"
+      },
+      {
+        "skill": "Portfolio & Social Media",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Makeup course + assist a senior artist",
+      "Build a portfolio (weddings/shoots)",
+      "Freelance brand / studio tie-ups"
+    ],
+    "qualifications": [
+      "Professional makeup course; portfolio is key"
+    ],
+    "tags": [
+      "makeup",
+      "beauty",
+      "bridal",
+      "creative"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "hair_stylist_in",
+    "title": "Hair Stylist / Hairdresser",
+    "category": "Beauty & Wellness",
+    "region": "IN",
+    "description": "Cut, colour, style and treat hair in salons or freelance - a steady, creative, in-person service everywhere.",
+    "salary_range": {
+      "min": 14000,
+      "max": 120000,
+      "currency": "INR/month",
+      "note": "Stylist to salon owner"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Salon",
+      "Hands-on",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Hair Cutting & Styling",
+        "level": "critical"
+      },
+      {
+        "skill": "Colouring & Treatments",
+        "level": "important"
+      },
+      {
+        "skill": "Client Consultation",
+        "level": "important"
+      },
+      {
+        "skill": "Hygiene & Tools",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Hairdressing course or salon apprenticeship",
+      "Salon roles",
+      "Senior stylist or own salon"
+    ],
+    "qualifications": [
+      "Hairdressing/cosmetology course (optional)"
+    ],
+    "tags": [
+      "hair",
+      "beauty",
+      "salon",
+      "service"
+    ],
+    "collar": "pink"
+  },
+  {
+    "id": "illustrator_in",
+    "title": "Illustrator / Concept Artist",
+    "category": "Design & Creative",
+    "region": "IN",
+    "description": "Create illustrations and concept art for books, games, ads, animation and brands - across digital and traditional media.",
+    "salary_range": {
+      "min": 18000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Freelancer to senior/lead artist"
+    },
+    "growth_outlook": "Good - games & content",
+    "work_style": [
+      "Studio / Remote",
+      "Creative",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Drawing & Illustration",
+        "level": "critical"
+      },
+      {
+        "skill": "Digital Art Tools (Photoshop/Procreate)",
+        "level": "critical"
+      },
+      {
+        "skill": "Composition & Colour",
+        "level": "important"
+      },
+      {
+        "skill": "Concept Development",
+        "level": "important"
+      },
+      {
+        "skill": "Client/Brief Work",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Build a strong portfolio",
+      "Freelance or studio (games/animation/publishing)",
+      "Specialise (concept/editorial)"
+    ],
+    "qualifications": [
+      "No fixed degree - portfolio is the credential; art education helps"
+    ],
+    "tags": [
+      "illustration",
+      "art",
+      "concept-art",
+      "creative"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "choreographer_in",
+    "title": "Choreographer / Dance Director",
+    "category": "Film & Entertainment",
+    "region": "IN",
+    "description": "Create and direct dance routines for films, stage, events and music videos, and train performers.",
+    "salary_range": {
+      "min": 18000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Assistant to lead choreographer"
+    },
+    "growth_outlook": "Good - film & events",
+    "work_style": [
+      "Studio/Set",
+      "Creative",
+      "Physical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Choreography & Dance",
+        "level": "critical"
+      },
+      {
+        "skill": "Music & Rhythm",
+        "level": "important"
+      },
+      {
+        "skill": "Teaching/Direction",
+        "level": "important"
+      },
+      {
+        "skill": "Creativity",
+        "level": "important"
+      },
+      {
+        "skill": "Team Coordination",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Strong dance background",
+      "Assist established choreographers",
+      "Lead projects/own dance company"
+    ],
+    "qualifications": [
+      "No formal degree - skill and credits"
+    ],
+    "tags": [
+      "choreography",
+      "dance",
+      "film",
+      "creative"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "cnc_machinist_in",
+    "title": "CNC Machinist / Operator",
+    "category": "Manufacturing & Production",
+    "region": "IN",
+    "description": "Set up and run CNC machines to produce precision metal/plastic parts from engineering drawings.",
+    "salary_range": {
+      "min": 16000,
+      "max": 70000,
+      "currency": "INR/month",
+      "note": "Operator to CNC programmer/supervisor"
+    },
+    "growth_outlook": "Good - manufacturing push",
+    "work_style": [
+      "Workshop",
+      "Technical",
+      "Hands-on"
+    ],
+    "required_skills": [
+      {
+        "skill": "CNC Operation & Setup",
+        "level": "critical"
+      },
+      {
+        "skill": "Blueprint Reading",
+        "level": "critical"
+      },
+      {
+        "skill": "Measurement/Metrology",
+        "level": "important"
+      },
+      {
+        "skill": "CNC Programming (G-code)",
+        "level": "important"
+      },
+      {
+        "skill": "Quality Inspection",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "ITI (machinist/turner) + CNC training",
+      "Manufacturing shop-floor roles",
+      "Programmer/supervisor"
+    ],
+    "qualifications": [
+      "ITI (Machinist/Turner) + CNC training"
+    ],
+    "tags": [
+      "cnc",
+      "machining",
+      "manufacturing",
+      "trades"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "diesel_mechanic_in",
+    "title": "Diesel / Heavy Vehicle Mechanic",
+    "category": "Automotive & EV",
+    "region": "IN",
+    "description": "Service and repair trucks, buses and heavy diesel engines - keeping commercial and transport fleets running.",
+    "salary_range": {
+      "min": 16000,
+      "max": 70000,
+      "currency": "INR/month",
+      "note": "Mechanic to workshop in-charge"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Workshop",
+      "Hands-on",
+      "Physical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Diesel Engine Repair",
+        "level": "critical"
+      },
+      {
+        "skill": "Diagnostics",
+        "level": "important"
+      },
+      {
+        "skill": "Hydraulics/Transmission",
+        "level": "important"
+      },
+      {
+        "skill": "Tools & Safety",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "ITI (diesel mechanic)",
+      "Fleet/transport workshop roles",
+      "Workshop in-charge or own garage"
+    ],
+    "qualifications": [
+      "ITI (Mechanic Diesel)"
+    ],
+    "tags": [
+      "diesel",
+      "mechanic",
+      "automotive",
+      "trades"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "mobile_repair_in",
+    "title": "Mobile / Electronics Repair Technician",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Diagnose and repair smartphones, laptops and electronics - hardware, software and component-level fixes.",
+    "salary_range": {
+      "min": 12000,
+      "max": 70000,
+      "currency": "INR/month",
+      "note": "Technician to repair-shop owner"
+    },
+    "growth_outlook": "Stable - huge device base",
+    "work_style": [
+      "Shop",
+      "Hands-on",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Mobile/Electronics Repair",
+        "level": "critical"
+      },
+      {
+        "skill": "Component-level Diagnostics",
+        "level": "important"
+      },
+      {
+        "skill": "Soldering",
+        "level": "important"
+      },
+      {
+        "skill": "Software/Flashing",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Mobile repair course or apprenticeship",
+      "Repair-shop roles",
+      "Own a repair shop"
+    ],
+    "qualifications": [
+      "Mobile repair course (optional); hands-on skill"
+    ],
+    "tags": [
+      "mobile-repair",
+      "electronics",
+      "trades",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "barber_in",
+    "title": "Barber / Hairdresser (Men's)",
+    "category": "Beauty & Wellness",
+    "region": "IN",
+    "description": "Cut and style men's hair and beards, give grooming services - a steady neighbourhood and premium-salon trade.",
+    "salary_range": {
+      "min": 12000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Barber to salon owner"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Salon",
+      "Hands-on",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Haircutting & Beard Styling",
+        "level": "critical"
+      },
+      {
+        "skill": "Grooming Services",
+        "level": "important"
+      },
+      {
+        "skill": "Hygiene & Tools",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Learn under an experienced barber",
+      "Salon roles",
+      "Own a salon/grooming lounge"
+    ],
+    "qualifications": [
+      "No formal degree - apprenticeship; grooming course optional"
+    ],
+    "tags": [
+      "barber",
+      "grooming",
+      "salon",
+      "service"
+    ],
+    "collar": "pink"
+  },
+  {
+    "id": "florist_in",
+    "title": "Florist / Flower Decorator",
+    "category": "Arts & Crafts",
+    "region": "IN",
+    "description": "Arrange flowers and design decor for weddings, events, gifts and shops - a creative, seasonal-demand business.",
+    "salary_range": {
+      "min": 12000,
+      "max": 100000,
+      "currency": "INR/month",
+      "note": "Shop assistant to floral-decor business owner"
+    },
+    "growth_outlook": "Stable - weddings & gifting",
+    "work_style": [
+      "Shop/Events",
+      "Creative",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Floral Arrangement & Design",
+        "level": "critical"
+      },
+      {
+        "skill": "Event Decor",
+        "level": "important"
+      },
+      {
+        "skill": "Sourcing & Freshness",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Learn floristry on the job or via courses",
+      "Flower shop or event-decor work",
+      "Own shop / event florist"
+    ],
+    "qualifications": [
+      "No formal degree - skill and taste"
+    ],
+    "tags": [
+      "florist",
+      "flowers",
+      "decor",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "agronomist_in",
+    "title": "Agronomist / Agriculture Officer",
+    "category": "Agriculture & Farming",
+    "region": "IN",
+    "description": "Advise farmers and agri-businesses on crops, soil, irrigation and yield - improving productivity with science.",
+    "salary_range": {
+      "min": 25000,
+      "max": 120000,
+      "currency": "INR/month",
+      "note": "Field officer to agronomy lead"
+    },
+    "growth_outlook": "Good - agritech",
+    "work_style": [
+      "Field/Office",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Agronomy & Crop Science",
+        "level": "critical"
+      },
+      {
+        "skill": "Soil & Nutrient Management",
+        "level": "important"
+      },
+      {
+        "skill": "Pest/Disease Management",
+        "level": "important"
+      },
+      {
+        "skill": "Farmer Advisory",
+        "level": "important"
+      },
+      {
+        "skill": "Data/Field Trials",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "B.Sc/M.Sc Agriculture",
+      "Agri-input/agritech/govt extension roles",
+      "Specialise and lead"
+    ],
+    "qualifications": [
+      "B.Sc/M.Sc in Agriculture / Agronomy"
+    ],
+    "tags": [
+      "agronomy",
+      "agriculture",
+      "crop-science",
+      "advisory"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "poultry_farmer_in",
+    "title": "Poultry Farming Entrepreneur",
+    "category": "Agriculture & Farming",
+    "region": "IN",
+    "description": "Raise chickens for eggs or meat - a high-demand, scalable agribusiness with broiler and layer models.",
+    "salary_range": {
+      "min": 15000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Small unit to commercial poultry business"
+    },
+    "growth_outlook": "Good - protein demand",
+    "work_style": [
+      "Farm",
+      "Self-employed",
+      "Entrepreneurial"
+    ],
+    "required_skills": [
+      {
+        "skill": "Poultry Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Disease/Biosecurity",
+        "level": "critical"
+      },
+      {
+        "skill": "Feed & Nutrition",
+        "level": "important"
+      },
+      {
+        "skill": "Marketing & Supply",
+        "level": "important"
+      },
+      {
+        "skill": "Costing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Poultry training (KVK/agri-university)",
+      "Start a small unit; tie up buyers/integrators",
+      "Scale to commercial"
+    ],
+    "qualifications": [
+      "Poultry farming training (KVK); no degree required"
+    ],
+    "tags": [
+      "poultry",
+      "farming",
+      "agriculture",
+      "agripreneur"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "dairy_entrepreneur_in",
+    "title": "Dairy Farming Entrepreneur",
+    "category": "Agriculture & Farming",
+    "region": "IN",
+    "description": "Raise dairy cattle and produce/sell milk and products, often through cooperatives or direct D2C.",
+    "salary_range": {
+      "min": 15000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Smallholder to dairy business owner"
+    },
+    "growth_outlook": "Stable - steady milk demand",
+    "work_style": [
+      "Farm",
+      "Self-employed",
+      "Entrepreneurial"
+    ],
+    "required_skills": [
+      {
+        "skill": "Dairy Cattle Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Animal Health & Breeding",
+        "level": "important"
+      },
+      {
+        "skill": "Milk Quality & Handling",
+        "level": "important"
+      },
+      {
+        "skill": "Marketing/Cooperative tie-up",
+        "level": "important"
+      },
+      {
+        "skill": "Costing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Dairy training (KVK/NDDB)",
+      "Start with a few animals; join a cooperative",
+      "Scale and add value (products)"
+    ],
+    "qualifications": [
+      "Dairy farming training (KVK/NDDB); no degree required"
+    ],
+    "tags": [
+      "dairy",
+      "farming",
+      "agriculture",
+      "agripreneur"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "sericulture_in",
+    "title": "Sericulture / Silk Farmer",
+    "category": "Agriculture & Farming",
+    "region": "IN",
+    "description": "Rear silkworms and produce raw silk cocoons - a traditional agribusiness with govt support and steady textile demand.",
+    "salary_range": {
+      "min": 12000,
+      "max": 120000,
+      "currency": "INR/month",
+      "note": "Smallholder to silk-rearing business"
+    },
+    "growth_outlook": "Stable - silk demand",
+    "work_style": [
+      "Farm",
+      "Self-employed",
+      "Entrepreneurial"
+    ],
+    "required_skills": [
+      {
+        "skill": "Silkworm Rearing",
+        "level": "critical"
+      },
+      {
+        "skill": "Mulberry Cultivation",
+        "level": "critical"
+      },
+      {
+        "skill": "Cocoon Handling",
+        "level": "important"
+      },
+      {
+        "skill": "Disease Management",
+        "level": "important"
+      },
+      {
+        "skill": "Marketing",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Sericulture training (dept of sericulture/KVK)",
+      "Start rearing; sell cocoons to reelers",
+      "Scale and add reeling"
+    ],
+    "qualifications": [
+      "Sericulture training; no degree required"
+    ],
+    "tags": [
+      "sericulture",
+      "silk",
+      "agriculture",
+      "heritage"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "cost_accountant_in",
+    "title": "Cost & Management Accountant (CMA)",
+    "category": "Finance",
+    "region": "IN",
+    "description": "Analyse and control costs, budgeting, and management accounting to drive business profitability and decisions.",
+    "salary_range": {
+      "min": 30000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Trainee to CFO-track / cost head"
+    },
+    "growth_outlook": "Good",
+    "work_style": [
+      "Office",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Cost Accounting",
+        "level": "critical"
+      },
+      {
+        "skill": "Management Accounting",
+        "level": "critical"
+      },
+      {
+        "skill": "Budgeting & Costing",
+        "level": "important"
+      },
+      {
+        "skill": "Financial Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Compliance",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Clear ICMAI's CMA programme",
+      "Industry costing/finance roles",
+      "Rise to cost head/CFO track"
+    ],
+    "qualifications": [
+      "ICMAI CMA qualification"
+    ],
+    "tags": [
+      "cma",
+      "cost-accounting",
+      "finance",
+      "management"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "credit_analyst_in",
+    "title": "Credit / Risk Analyst",
+    "category": "Finance",
+    "region": "IN",
+    "description": "Assess the creditworthiness of borrowers and manage financial risk for banks, NBFCs and lenders.",
+    "salary_range": {
+      "min": 30000,
+      "max": 220000,
+      "currency": "INR/month",
+      "note": "Analyst to risk manager"
+    },
+    "growth_outlook": "Good",
+    "work_style": [
+      "Office",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Credit & Financial Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Risk Assessment",
+        "level": "critical"
+      },
+      {
+        "skill": "Financial Statements",
+        "level": "important"
+      },
+      {
+        "skill": "Excel/Modelling",
+        "level": "important"
+      },
+      {
+        "skill": "Regulatory Knowledge",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Finance degree/MBA/CA",
+      "Bank/NBFC credit roles",
+      "Grow to risk management"
+    ],
+    "qualifications": [
+      "MBA/CA/finance degree"
+    ],
+    "tags": [
+      "credit",
+      "risk",
+      "finance",
+      "banking"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "business_dev_manager_in",
+    "title": "Business Development Manager",
+    "category": "Business & Management",
+    "region": "IN",
+    "description": "Drive company growth - finding partnerships, new markets, clients and revenue opportunities, and closing deals.",
+    "salary_range": {
+      "min": 30000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Executive to BD/growth head"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Office / Field",
+      "Target-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Business Development & Sales",
+        "level": "critical"
+      },
+      {
+        "skill": "Relationship Building",
+        "level": "critical"
+      },
+      {
+        "skill": "Market Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Negotiation",
+        "level": "important"
+      },
+      {
+        "skill": "Strategy",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Sales/marketing/strategy background",
+      "BD/partnerships roles",
+      "Grow to BD/growth head"
+    ],
+    "qualifications": [
+      "Any degree; MBA helps; track record matters"
+    ],
+    "tags": [
+      "business-development",
+      "sales",
+      "growth",
+      "strategy"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "prompt_engineer_in",
+    "title": "AI / Prompt Engineer",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Design prompts, tools and pipelines that get reliable results from LLMs - building AI features and agents for products.",
+    "salary_range": {
+      "min": 50000,
+      "max": 400000,
+      "currency": "INR/month",
+      "note": "Practitioner to senior AI engineer"
+    },
+    "growth_outlook": "Growing fast - AI adoption",
+    "work_style": [
+      "Office / Remote",
+      "High-skill"
+    ],
+    "required_skills": [
+      {
+        "skill": "LLM/Prompt Engineering",
+        "level": "critical"
+      },
+      {
+        "skill": "Programming (Python)",
+        "level": "critical"
+      },
+      {
+        "skill": "APIs & Integration",
+        "level": "important"
+      },
+      {
+        "skill": "Evaluation & Testing",
+        "level": "important"
+      },
+      {
+        "skill": "Domain Understanding",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Software/ML background + hands-on LLM work",
+      "Build AI features/agents; portfolio",
+      "AI engineering roles"
+    ],
+    "qualifications": [
+      "Any technical degree; demonstrable AI projects"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "prompt-engineering",
+      "emerging-tech"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "mlops_engineer_in",
+    "title": "MLOps Engineer",
+    "category": "Technology",
+    "region": "IN",
+    "description": "Deploy, scale and monitor machine-learning models in production - pipelines, infra and reliability for ML systems.",
+    "salary_range": {
+      "min": 60000,
+      "max": 400000,
+      "currency": "INR/month",
+      "note": "Engineer to senior/lead MLOps"
+    },
+    "growth_outlook": "Strong",
+    "work_style": [
+      "Office / Remote",
+      "High-skill"
+    ],
+    "required_skills": [
+      {
+        "skill": "ML Pipelines & Deployment",
+        "level": "critical"
+      },
+      {
+        "skill": "Cloud & Containers (Docker/K8s)",
+        "level": "critical"
+      },
+      {
+        "skill": "CI/CD for ML",
+        "level": "important"
+      },
+      {
+        "skill": "Monitoring",
+        "level": "important"
+      },
+      {
+        "skill": "Python",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "ML + DevOps/cloud skills",
+      "Move from ML/DevOps into MLOps",
+      "Own model deployment & reliability"
+    ],
+    "qualifications": [
+      "CS/IT degree or equivalent; cloud/ML experience"
+    ],
+    "tags": [
+      "mlops",
+      "ml",
+      "devops",
+      "cloud"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "sustainability_manager_in",
+    "title": "Sustainability / ESG Manager",
+    "category": "Business & Management",
+    "region": "IN",
+    "description": "Help organisations measure and improve environmental, social and governance performance - reporting, compliance and strategy.",
+    "salary_range": {
+      "min": 40000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Analyst to ESG/sustainability head"
+    },
+    "growth_outlook": "Growing fast - ESG mandates",
+    "work_style": [
+      "Office",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "ESG & Sustainability Frameworks",
+        "level": "critical"
+      },
+      {
+        "skill": "Carbon/Impact Measurement",
+        "level": "important"
+      },
+      {
+        "skill": "Reporting & Compliance",
+        "level": "important"
+      },
+      {
+        "skill": "Stakeholder Engagement",
+        "level": "important"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Environment/business background + ESG certification",
+      "Sustainability/CSR roles",
+      "Grow to ESG head"
+    ],
+    "qualifications": [
+      "Any degree; ESG/sustainability certification valued"
+    ],
+    "tags": [
+      "esg",
+      "sustainability",
+      "green-jobs",
+      "corporate"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "affiliate_marketer_in",
+    "title": "Affiliate / Performance Marketer",
+    "category": "Marketing & Sales",
+    "region": "IN",
+    "description": "Drive online sales through content, ads and affiliate links, earning commissions or managing performance campaigns.",
+    "salary_range": {
+      "min": 15000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Beginner to full-time performance marketer"
+    },
+    "growth_outlook": "Growing - creator/affiliate economy",
+    "work_style": [
+      "Online / Remote",
+      "Self-employed option"
+    ],
+    "required_skills": [
+      {
+        "skill": "Digital Marketing & Funnels",
+        "level": "critical"
+      },
+      {
+        "skill": "SEO/Content or Paid Ads",
+        "level": "critical"
+      },
+      {
+        "skill": "Analytics",
+        "level": "important"
+      },
+      {
+        "skill": "Audience Building",
+        "level": "important"
+      },
+      {
+        "skill": "Copywriting",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Build a niche site/channel or learn paid ads",
+      "Affiliate programs / performance roles",
+      "Scale to agency or own brand"
+    ],
+    "qualifications": [
+      "No fixed degree; results and skill matter"
+    ],
+    "tags": [
+      "affiliate",
+      "marketing",
+      "digital",
+      "self-employment"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "ux_researcher_in",
+    "title": "UX Researcher",
+    "category": "Design & Creative",
+    "region": "IN",
+    "description": "Study user behaviour and needs through interviews, testing and data to guide product and design decisions.",
+    "salary_range": {
+      "min": 35000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Researcher to lead UX researcher"
+    },
+    "growth_outlook": "Good - product maturity",
+    "work_style": [
+      "Office / Remote",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "User Research Methods",
+        "level": "critical"
+      },
+      {
+        "skill": "Usability Testing",
+        "level": "critical"
+      },
+      {
+        "skill": "Interviewing",
+        "level": "important"
+      },
+      {
+        "skill": "Data Synthesis",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "Psychology/design/HCI background",
+      "Research/UX roles",
+      "Specialise and lead research"
+    ],
+    "qualifications": [
+      "Any degree; HCI/psychology/design helps; portfolio matters"
+    ],
+    "tags": [
+      "ux-research",
+      "design",
+      "product",
+      "research"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "data_governance_in",
+    "title": "Data Governance / Privacy Analyst",
+    "category": "Data & Analytics",
+    "region": "IN",
+    "description": "Ensure data is accurate, secure and compliant - policies, quality, privacy (DPDP/GDPR) and cataloguing across an organisation.",
+    "salary_range": {
+      "min": 35000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Analyst to governance lead"
+    },
+    "growth_outlook": "Growing - data regulation",
+    "work_style": [
+      "Office / Remote",
+      "Knowledge work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Data Governance & Quality",
+        "level": "critical"
+      },
+      {
+        "skill": "Privacy/Compliance (DPDP/GDPR)",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Cataloguing",
+        "level": "important"
+      },
+      {
+        "skill": "SQL/Data Basics",
+        "level": "important"
+      },
+      {
+        "skill": "Stakeholder Management",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Data/IT/compliance background",
+      "Governance/privacy roles",
+      "Grow to data governance lead"
+    ],
+    "qualifications": [
+      "Any degree; data/privacy certifications valued"
+    ],
+    "tags": [
+      "data-governance",
+      "privacy",
+      "compliance",
+      "data"
+    ],
+    "collar": "white"
   }
 ]
