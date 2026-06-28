@@ -456,38 +456,58 @@ async def submit_rating(request: Request, req: RatingRequest):
     }
 
 
-def _send_feedback_email(category: str, message: str, rating, user_email) -> None:
-    """Best-effort email delivery of feedback. No-ops if SMTP isn't configured;
-    the DB row remains the source of truth. Destination is server-side only."""
-    host = os.environ.get("SMTP_HOST")
-    if not host:
-        return
-    import smtplib
-    from email.message import EmailMessage
-
-    port = int(os.environ.get("SMTP_PORT", "587"))
-    user = os.environ.get("SMTP_USER", "")
-    password = os.environ.get("SMTP_PASS", "")
-    sender = os.environ.get("SMTP_FROM", user or "noreply@vigyatrisolutions.com")
-    to_addr = os.environ.get("FEEDBACK_TO", "info@vigyatrisolutions.com")
-
-    mail = EmailMessage()
-    mail["Subject"] = f"[CareerCompass] {category} feedback"
-    mail["From"] = sender
-    mail["To"] = to_addr
-    if user_email:
-        mail["Reply-To"] = user_email
-    mail.set_content(
+def _notify_feedback(category: str, message: str, rating, user_email) -> None:
+    """Best-effort feedback delivery without needing an SMTP server. Tries, in order:
+      1. Web3Forms  (set FEEDBACK_WEB3FORMS_KEY)  -> emails the registered inbox
+      2. Generic webhook (set FEEDBACK_WEBHOOK_URL) -> Slack/Discord/Apps Script/Zapier
+      3. SMTP        (set SMTP_HOST ...)            -> classic email
+    No-ops if none configured; the DB row remains the source of truth. The
+    destination address is never exposed to the client."""
+    summary = (
         f"Category: {category}\n"
         f"App rating: {rating if rating is not None else '-'}\n"
         f"From: {user_email or 'anonymous'}\n\n"
         f"{message}\n"
     )
-    with smtplib.SMTP(host, port, timeout=15) as s:
-        s.starttls()
-        if user:
-            s.login(user, password)
-        s.send_message(mail)
+
+    # Primary: Gmail SMTP. Needs a Gmail address (SMTP_USER) + a Google
+    # App Password (SMTP_PASS, with 2-Step Verification on). Host defaults to
+    # Gmail, so only user + password are required.
+    smtp_user = os.environ.get("SMTP_USER", "")
+    smtp_pass = os.environ.get("SMTP_PASS", "")
+    if smtp_user and smtp_pass:
+        import smtplib
+        from email.message import EmailMessage
+
+        host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
+        port = int(os.environ.get("SMTP_PORT", "587"))
+        mail = EmailMessage()
+        mail["Subject"] = f"[CareerCompass] {category} feedback"
+        mail["From"] = os.environ.get("SMTP_FROM", smtp_user)
+        mail["To"] = os.environ.get("FEEDBACK_TO", "info@vigyatrisolutions.com")
+        if user_email:
+            mail["Reply-To"] = user_email
+        mail.set_content(summary)
+        with smtplib.SMTP(host, port, timeout=15) as s:
+            s.starttls()
+            s.login(smtp_user, smtp_pass)
+            s.send_message(mail)
+        return
+
+    # Optional fallback: generic JSON webhook (Slack/Discord/Apps Script/Zapier).
+    hook = os.environ.get("FEEDBACK_WEBHOOK_URL")
+    if hook:
+        import json as _json
+        import urllib.request
+        payload = {
+            "text": f"*[CareerCompass] {category} feedback*\n{summary}",
+            "category": category, "message": message, "rating": rating, "email": user_email,
+        }
+        req = urllib.request.Request(
+            hook, data=_json.dumps(payload).encode(),
+            headers={"Content-Type": "application/json"},
+        )
+        urllib.request.urlopen(req, timeout=15).read()
 
 
 @app.post("/api/feedback")
@@ -512,7 +532,7 @@ async def submit_feedback(request: Request, req: FeedbackRequest):
 
     # Best-effort email notification (never blocks/fails the request)
     try:
-        await run_in_threadpool(_send_feedback_email, category, msg, rating, email)
+        await run_in_threadpool(_notify_feedback, category, msg, rating, email)
     except Exception:
         logger.exception("Feedback email delivery failed (stored in DB)")
 
