@@ -456,6 +456,40 @@ async def submit_rating(request: Request, req: RatingRequest):
     }
 
 
+def _send_feedback_email(category: str, message: str, rating, user_email) -> None:
+    """Best-effort email delivery of feedback. No-ops if SMTP isn't configured;
+    the DB row remains the source of truth. Destination is server-side only."""
+    host = os.environ.get("SMTP_HOST")
+    if not host:
+        return
+    import smtplib
+    from email.message import EmailMessage
+
+    port = int(os.environ.get("SMTP_PORT", "587"))
+    user = os.environ.get("SMTP_USER", "")
+    password = os.environ.get("SMTP_PASS", "")
+    sender = os.environ.get("SMTP_FROM", user or "noreply@vigyatrisolutions.com")
+    to_addr = os.environ.get("FEEDBACK_TO", "info@vigyatrisolutions.com")
+
+    mail = EmailMessage()
+    mail["Subject"] = f"[CareerCompass] {category} feedback"
+    mail["From"] = sender
+    mail["To"] = to_addr
+    if user_email:
+        mail["Reply-To"] = user_email
+    mail.set_content(
+        f"Category: {category}\n"
+        f"App rating: {rating if rating is not None else '-'}\n"
+        f"From: {user_email or 'anonymous'}\n\n"
+        f"{message}\n"
+    )
+    with smtplib.SMTP(host, port, timeout=15) as s:
+        s.starttls()
+        if user:
+            s.login(user, password)
+        s.send_message(mail)
+
+
 @app.post("/api/feedback")
 @limiter.limit("10/minute")
 async def submit_feedback(request: Request, req: FeedbackRequest):
@@ -475,6 +509,13 @@ async def submit_feedback(request: Request, req: FeedbackRequest):
     )
     conn.commit()
     conn.close()
+
+    # Best-effort email notification (never blocks/fails the request)
+    try:
+        await run_in_threadpool(_send_feedback_email, category, msg, rating, email)
+    except Exception:
+        logger.exception("Feedback email delivery failed (stored in DB)")
+
     return {"success": True, "message": "Thanks for your feedback!"}
 
 
