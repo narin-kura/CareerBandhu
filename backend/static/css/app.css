@@ -52,11 +52,13 @@ nav { background: rgba(255,255,255,.85); backdrop-filter: saturate(180%) blur(12
 .badge-beta { font-size: .68rem; font-weight: 600; color: var(--sf); background: var(--sf-l); border: 1px solid var(--sf-bd); padding: 3px 10px; border-radius: 999px; }
 
 /* ---------- HERO ---------- */
-.hero { text-align: center; padding: 30px 20px 22px; position: relative; }
+.hero { text-align: center; padding: 26px 20px 16px; position: relative; }
 .explore-fields { text-align: center; padding: 6px 20px 10px; }
 .explore-fields .hf-label { margin-bottom: 10px; }
+.hero-stats.mini { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 16px; margin-top: 12px; font-size: .82rem; color: var(--mut); }
+.hero-stats.mini b { color: var(--ink); font-weight: 700; }
 .hero-eyebrow { display: inline-flex; align-items: center; gap: 7px; font-size: .76rem; font-weight: 600; color: var(--sf-d); background: var(--sf-l); border: 1px solid var(--sf-bd); padding: 5px 13px; border-radius: 999px; margin-bottom: 20px; }
-.hero h1 { font-size: clamp(1.9rem, 4.5vw, 3rem); font-weight: 800; line-height: 1.1; color: var(--ink); }
+.hero h1 { font-size: clamp(1.5rem, 3.4vw, 2.2rem); font-weight: 800; line-height: 1.15; color: var(--ink); }
 .hero h1 .accent { background: linear-gradient(120deg, var(--sf), #F59E0B); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
 .hero p { margin: 16px auto 0; max-width: 540px; font-size: clamp(.95rem,1.6vw,1.08rem); color: var(--mut); line-height: 1.6; }
 .hero-stats { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
