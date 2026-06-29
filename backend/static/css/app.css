@@ -139,8 +139,14 @@ nav { background: rgba(255,255,255,.85); backdrop-filter: saturate(180%) blur(12
 .ac-wrap { position: relative; }
 .skill-ac { position: absolute; top: calc(100% + 4px); left: 0; right: 0; background: #fff; border: 1.5px solid var(--sf); border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,.1); z-index: 200; overflow: hidden; display: none; }
 .skill-ac.open { display: block; }
-.ac-item { padding: 9px 13px; font-size: .86rem; cursor: pointer; color: var(--ink); transition: background .1s; }
+.ac-item { padding: 9px 13px; font-size: .86rem; cursor: pointer; color: var(--ink); transition: background .1s; border-bottom: 1px solid var(--line-2); }
+.ac-item:last-child { border-bottom: none; }
 .ac-item:hover, .ac-item.hi { background: var(--sf-l); color: var(--sf-d); }
+.ac-item.ac-custom { color: var(--mut); font-size: .82rem; }
+.ac-item.ac-custom:hover { color: var(--sf-d); }
+.ac-careers { padding: 7px 13px; font-size: .76rem; color: var(--mut-2); border-top: 1px solid var(--line-2); background: var(--bg); }
+.ac-careers span { color: var(--nv); font-weight: 600; cursor: pointer; margin-left: 6px; }
+.ac-careers span:hover { text-decoration: underline; }
 .sug-cats { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }
 .sug-cat { font-family: inherit; font-size: .72rem; font-weight: 600; color: var(--mut); background: var(--bg); border: 1.5px solid var(--line); padding: 4px 10px; border-radius: 999px; cursor: pointer; transition: all .15s; white-space: nowrap; }
 .sug-cat:hover { border-color: var(--sf); color: var(--sf); }

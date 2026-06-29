@@ -67,6 +67,69 @@ function initWelcomeBanner() {
   try { if (localStorage.getItem('cb_welcomed')) { dismissBanner(); } } catch(_) {}
 }
 
+// Synonym map: everyday words → canonical skill names in skills.json
+const SKILL_SYNONYMS = {
+  'talk': ['Public Speaking','Communication','Talking to Strangers / Networking','Oratory'],
+  'talking': ['Public Speaking','Communication','Talking to Strangers / Networking','Oratory'],
+  'speak': ['Public Speaking','Oratory','Motivational Speaking','English Speaking (Fluent)'],
+  'speaking': ['Public Speaking','Oratory','English Speaking (Fluent)','Motivational Speaking'],
+  'orator': ['Oratory','Public Speaking','Motivational Speaking','Stage Presence'],
+  'oratory': ['Oratory','Public Speaking','Motivational Speaking'],
+  'rj': ['Radio Jockeying (RJ)','Voice Modulation','Podcast Hosting'],
+  'radio': ['Radio Jockeying (RJ)','Voice Modulation','Podcast Hosting'],
+  'anchor': ['TV Anchoring','Anchoring & Hosting Events','News Anchoring'],
+  'host': ['Podcast Hosting','Anchoring & Hosting Events','Compering (MC / Emcee)'],
+  'mc': ['Compering (MC / Emcee)','Anchoring & Hosting Events','Stage Presence'],
+  'emcee': ['Compering (MC / Emcee)','Anchoring & Hosting Events'],
+  'debate': ['Debating','Argumentation & Advocacy','Persuasive Speaking'],
+  'debating': ['Debating','Argumentation & Advocacy','Persuasive Speaking'],
+  'present': ['Presentation Skills','Keynote Presentation','Public Speaking'],
+  'presentation': ['Presentation Skills','Keynote Presentation','Pitching Ideas to an Audience'],
+  'cook': ['Home Cooking','Cooking Regional Indian Cuisine','Kitchen Management'],
+  'cooking': ['Home Cooking','Cooking Regional Indian Cuisine','Kitchen Management'],
+  'drive': ['Driving (Two-Wheeler)','Driving (Car / 4-Wheeler)','Google Maps & Navigation'],
+  'driving': ['Driving (Two-Wheeler)','Driving (Car / 4-Wheeler)','Driving (Heavy Vehicle)'],
+  'code': ['Python','JavaScript','Java','C++','SQL'],
+  'coding': ['Python','JavaScript','Java','C++','SQL','Data Structures & Algorithms'],
+  'program': ['Python','JavaScript','Java','C++','Data Structures & Algorithms'],
+  'programming': ['Python','JavaScript','Java','C++','Data Structures & Algorithms'],
+  'design': ['UI/UX Design','Graphic Design','Product Design','Figma'],
+  'draw': ['Sketching & Drawing','Illustration','Graphic Design'],
+  'drawing': ['Sketching & Drawing','Illustration','Graphic Design'],
+  'sing': ['Singing','Vocal Training','Music Performance'],
+  'singing': ['Singing','Vocal Training','Music Performance'],
+  'dance': ['Classical Dance','Dance Performance','Zumba & Dance Fitness'],
+  'dancing': ['Classical Dance','Dance Performance','Choreography'],
+  'write': ['Writing','Content Writing','Creative Writing','Copywriting'],
+  'writing': ['Writing','Content Writing','Creative Writing','Academic Writing'],
+  'teach': ['Teaching','Training & Development','Explaining Things Simply'],
+  'teaching': ['Teaching','Pedagogy','Explaining Things Simply','Curriculum Development'],
+  'sell': ['Sales','B2B Sales','Retail Sales','Persuasion & Convincing'],
+  'selling': ['Sales','B2B Sales','Persuasion & Convincing','Cold Calling'],
+  'manage': ['Project Management','Team Management','Operations Management'],
+  'management': ['Project Management','Team Management','Leadership','Operations Management'],
+  'lead': ['Leadership','Team Management','People Management'],
+  'leadership': ['Leadership','Team Management','Strategic Thinking','Decision Making'],
+  'photo': ['Photography','Smartphone Photography','Photo Editing','Lightroom'],
+  'photography': ['Photography','Smartphone Photography','Photo Editing','Product Photography'],
+  'video': ['Video Editing','Videography','YouTube Video Shooting (Home)','Basic Video Editing (CapCut, InShot)'],
+  'edit': ['Video Editing','Photo Editing','Content Editing','Basic Video Editing (CapCut, InShot)'],
+  'editing': ['Video Editing','Photo Editing','Content Editing','Basic Video Editing (CapCut, InShot)'],
+  'stitch': ['Basic Sewing & Stitching','Tailoring','Embroidery'],
+  'sewing': ['Basic Sewing & Stitching','Tailoring','Fashion Design'],
+  'garden': ['Gardening at Home','Plant Care','Horticulture','Indoor Plants'],
+  'gardening': ['Gardening at Home','Plant Care','Horticulture'],
+  'paint': ['Painting Walls (DIY)','Watercolour Painting','Acrylic Painting'],
+  'painting': ['Painting Walls (DIY)','Watercolour Painting','Madhubani Art'],
+  'yoga': ['Yoga (Personal Practice)','Yoga Therapy','Breathing Exercises'],
+  'fitness': ['Physical Fitness & Stamina','Home Workout','Gym Basics','Bodyweight Training'],
+  'gym': ['Gym Basics','Bodyweight Training','Physical Fitness & Stamina'],
+  'money': ['Personal Finance & Budgeting','Savings & Investment Basics','Financial Modelling'],
+  'finance': ['Personal Finance & Budgeting','Financial Modelling','Accounting','GST Filing'],
+  'accounts': ['Accounting','Tally ERP','GST Filing','Bookkeeping'],
+  'accounting': ['Accounting','Tally ERP','GST Filing','Management Accounting'],
+};
+
 const POPULAR_SKILLS = {
   IN: ['Cooking','Driving','Sewing & Stitching','Teaching','Electrical Wiring',
        'Customer Service','Communication','Sales','MS Excel','Accounting',
@@ -482,14 +545,50 @@ function selectSugCat(cat) { activeSugCat = cat; renderSugs(); }
 
 const skillInEl = document.getElementById('skill-in');
 skillInEl.addEventListener('input', function() {
-  const q = this.value.trim().toLowerCase();
+  const raw = this.value.trim();
+  const q = raw.toLowerCase();
   const ac = document.getElementById('skill-ac');
-  if (!q || !allSkillsData) { ac.className = 'skill-ac'; return; }
-  const matches = allSkillsData.all_skills.filter(s => s.toLowerCase().includes(q)).slice(0, 10);
-  if (!matches.length) { ac.className = 'skill-ac'; return; }
-  ac.innerHTML = matches.map(s =>
-    `<div class="ac-item" onclick="addSkill('${esc(s)}');document.getElementById('skill-in').value='';document.getElementById('skill-ac').className='skill-ac';">${s}</div>`
+  if (!q) { ac.className = 'skill-ac'; return; }
+  const allList = allSkillsData ? allSkillsData.all_skills : [];
+  const seen = new Set();
+  const dedup = arr => arr.filter(s => { const k = s.toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; });
+
+  // 1. Synonym map — exact word matches get top priority
+  const synMatches = (SKILL_SYNONYMS[q] || []).filter(s => allList.some(a => a.toLowerCase() === s.toLowerCase()));
+
+  // 2. Substring matches from full skills list
+  const subMatches = allList.filter(s => s.toLowerCase().includes(q));
+
+  // 3. Word-by-word fuzzy for multi-word queries or no substring hits
+  const words = q.split(/\s+/).filter(w => w.length > 2);
+  const fuzzyMatches = words.length ? allList.filter(s => {
+    const sl = s.toLowerCase();
+    return words.some(w => sl.includes(w));
+  }) : [];
+
+  const matches = dedup([...synMatches, ...subMatches, ...fuzzyMatches]).slice(0, 9);
+
+  // Related careers based on what's matched
+  let careerHints = [];
+  if (matches.length && allCareers.length) {
+    const matchSet = new Set(matches.map(s => s.toLowerCase()));
+    const scored = allCareers.map(c => {
+      const hits = (c.required_skills || []).filter(rs => matchSet.has(rs.skill.toLowerCase())).length;
+      return { title: c.title, id: c.id, hits };
+    }).filter(c => c.hits > 0).sort((a, b) => b.hits - a.hits).slice(0, 3);
+    careerHints = scored;
+  }
+
+  const closeAc = `document.getElementById('skill-in').value='';document.getElementById('skill-ac').className='skill-ac';`;
+  const skillRows = matches.map(s =>
+    `<div class="ac-item" onclick="addSkill('${esc(s)}');${closeAc}">${s}</div>`
   ).join('');
+  const careerRow = careerHints.length
+    ? `<div class="ac-careers">Related careers: ${careerHints.map(c => `<span onclick="selectCareer('${c.id}','${esc(c.title)}');${closeAc}">${c.title}</span>`).join('')}</div>`
+    : '';
+  const addCustom = `<div class="ac-item ac-custom" onclick="addSkill('${esc(raw)}');${closeAc}">+ Add "<b>${raw}</b>" as a skill</div>`;
+
+  ac.innerHTML = skillRows + careerRow + addCustom;
   ac.className = 'skill-ac open';
   acIdx = -1;
 });
