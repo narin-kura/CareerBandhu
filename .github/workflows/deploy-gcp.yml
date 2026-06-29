@@ -1,6 +1,12 @@
 name: Deploy to Cloud Run (GCP)
 
+# GCP Cloud Run is PRODUCTION (users land here, incl. careercompass.vigyatri.com).
+# Hugging Face Spaces is the TEST/staging environment (auto-deploys on every push).
+# Promote to production deliberately: push a version tag (v1.2.3) or run manually.
 on:
+  push:
+    tags:
+      - 'v*'
   workflow_dispatch:
 
 env:

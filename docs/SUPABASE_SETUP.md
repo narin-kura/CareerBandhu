@@ -45,12 +45,17 @@ This creates `profiles`, `bookmarks`, and `career_progress` tables with RLS enab
 ## 5. Configure redirect URLs
 
 Authentication → URL Configuration:
-- **Site URL**: `https://knnarin-careerbandhu.hf.space`
+- **Site URL**: `https://careercompass.vigyatri.com` (production — GCP Cloud Run)
 - **Redirect URLs** (add all of these):
   - `http://localhost:8000` (local web dev)
-  - `https://knnarin-careerbandhu.hf.space` (HF Spaces)
-  - your GCP Cloud Run `*.run.app` URL (once deployed)
+  - `https://careercompass.vigyatri.com` (production custom domain)
+  - `https://careerbandhu-h5axc6napq-uc.a.run.app` (GCP Cloud Run direct)
+  - `https://knnarin-careerbandhu.hf.space` (HF Spaces — test/staging)
   - `careerbandhu://auth/callback` (mobile deep link)
+
+> **Production is GCP Cloud Run; HF Spaces is the test environment.** Google OAuth
+> only redirects back to URLs registered above, so the production domain MUST be the
+> Site URL or sign-in breaks for real users.
 
 ## 6. Set environment variables
 
