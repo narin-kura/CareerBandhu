@@ -12,9 +12,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          lfs: true
 
       - name: Push to Hugging Face Space
         env:
@@ -22,10 +19,16 @@ jobs:
         run: |
           git remote add hf https://knnarin:$HF_TOKEN@huggingface.co/spaces/knnarin/careerbandhu
 
+          # Orphan push: send only current file state, not full git history.
+          # Prevents HF 10MB-per-file pre-receive rejection on old large blobs.
+          git checkout --orphan hf-deploy
+          git add -A
+          git commit -m "Deploy $(git rev-parse --short HEAD)"
+
           success=false
           for i in 1 2 3; do
             echo "Attempt $i/3..."
-            if git push hf master:main --force --verbose 2>&1; then
+            if git push hf hf-deploy:main --force --verbose 2>&1; then
               success=true
               echo "Push succeeded on attempt $i"
               break
