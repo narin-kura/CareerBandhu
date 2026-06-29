@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/static/css/app.css?v=20260628d" />
+  <link rel="stylesheet" href="/static/css/app.css?v=20260628e" />
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SHGLN1M60X"></script>
   <script>
@@ -39,27 +39,12 @@
 <header class="hero">
   <span class="hero-eyebrow">🎓 Namaste · Your free career guidance counsellor</span>
   <h1>Explore career paths,<br/>plan your <span class="accent">future</span></h1>
-  <p>Think of it as a prospectus for every profession — browse career families, compare what each path expects of you, and map the skills you'll need to get there. Built for students, parents, and career-switchers, completely free.</p>
+  <p>One search for every profession — type a skill or a job title and see the careers, salaries, and exactly what each path needs. Free, for India 🇮🇳 &amp; USA 🇺🇸.</p>
   <div class="hero-stats">
     <div class="stat"><div class="v" id="stat-c">65+</div><div class="l">Career paths</div></div>
     <div class="stat"><div class="v" id="stat-s">2000+</div><div class="l">Skills mapped</div></div>
     <div class="stat"><div class="v" id="stat-f">50+</div><div class="l">Career families</div></div>
     <div class="stat"><div class="v">Free</div><div class="l">Always</div></div>
-  </div>
-  <div class="hero-fields">
-    <span class="hf-label">Explore by field</span>
-    <div class="hf-row">
-      <button class="field-pill" onclick="quickExplore('Technology')">💻 Technology</button>
-      <button class="field-pill" onclick="quickExplore('Healthcare')">🏥 Healthcare</button>
-      <button class="field-pill" onclick="quickExplore('Government & Public Service')">🏛️ Government</button>
-      <button class="field-pill" onclick="quickExplore('Design & Creative')">🎨 Design &amp; Creative</button>
-      <button class="field-pill" onclick="quickExplore('Science & Research')">🔬 Science</button>
-      <button class="field-pill" onclick="quickExplore('Business & Management')">💼 Business</button>
-      <button class="field-pill" onclick="quickExplore('Education & Training')">📚 Education</button>
-      <button class="field-pill" onclick="quickExplore('Trades & Construction')">🔧 Trades</button>
-    </div>
-    <div class="hf-row hf-more" id="hf-more"></div>
-    <button type="button" class="hf-toggle" id="hf-toggle" onclick="toggleMoreFields()">Show more fields ▾</button>
   </div>
 </header>
 
@@ -139,6 +124,23 @@
     </div>
   </main>
 </div>
+
+<!-- Explore by field (below the tool) -->
+<section class="explore-fields">
+  <span class="hf-label">Or explore by field</span>
+  <div class="hf-row">
+    <button class="field-pill" onclick="quickExplore('Technology')">💻 Technology</button>
+    <button class="field-pill" onclick="quickExplore('Healthcare')">🏥 Healthcare</button>
+    <button class="field-pill" onclick="quickExplore('Government & Public Service')">🏛️ Government</button>
+    <button class="field-pill" onclick="quickExplore('Design & Creative')">🎨 Design &amp; Creative</button>
+    <button class="field-pill" onclick="quickExplore('Science & Research')">🔬 Science</button>
+    <button class="field-pill" onclick="quickExplore('Business & Management')">💼 Business</button>
+    <button class="field-pill" onclick="quickExplore('Education & Training')">📚 Education</button>
+    <button class="field-pill" onclick="quickExplore('Trades & Construction')">🔧 Trades</button>
+  </div>
+  <div class="hf-row hf-more" id="hf-more"></div>
+  <button type="button" class="hf-toggle" id="hf-toggle" onclick="toggleMoreFields()">Show more fields ▾</button>
+</section>
 
 <!-- How it works (below the tool) -->
 <section class="intro" id="how-it-works" aria-label="How CareerCompass works">
@@ -263,7 +265,7 @@
   </div>
 </div>
 
-<script src="/static/js/synonyms.js?v=20260628d"></script>
-<script src="/static/js/app.js?v=20260628d"></script>
+<script src="/static/js/synonyms.js?v=20260628e"></script>
+<script src="/static/js/app.js?v=20260628e"></script>
 </body>
 </html>
