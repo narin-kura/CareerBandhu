@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/static/css/app.css?v=20260628c" />
+  <link rel="stylesheet" href="/static/css/app.css?v=20260628d" />
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SHGLN1M60X"></script>
   <script>
@@ -63,61 +63,21 @@
   </div>
 </header>
 
-<!-- How it works intro -->
-<section class="intro" id="how-it-works" aria-label="How CareerCompass works">
-  <div class="intro-head">
-    <span class="hf-label">How it works</span>
-    <h2>Four parts, one simple page</h2>
-  </div>
-  <div class="intro-grid">
-    <div class="intro-card">
-      <div class="ic-top"><span class="ic-num">1</span><span class="ic-emo">🌏</span></div>
-      <h3>Pick your region</h3>
-      <p>Use the <b>🇮🇳 / 🇺🇸 switch</b> in the top bar. Careers, qualifications, entry exams and salary figures all change to match your country.</p>
-    </div>
-    <button type="button" class="intro-card clickable" onclick="switchMode('career'); document.querySelector('.main').scrollIntoView({behavior:'smooth'})">
-      <div class="ic-top"><span class="ic-num">2</span><span class="ic-emo">🔍</span></div>
-      <h3>Explore careers</h3>
-      <p>In the <b>left panel</b>, pick a colour-coded work type — office, hands-on, creative, government and more — or just search any job title.</p>
-      <span class="ic-go">Try it →</span>
-    </button>
-    <button type="button" class="intro-card clickable" onclick="switchMode('skills'); document.querySelector('.main').scrollIntoView({behavior:'smooth'})">
-      <div class="ic-top"><span class="ic-num">3</span><span class="ic-emo">🎯</span></div>
-      <h3>Or start from your skills</h3>
-      <p>Switch to <b>“I have skills”</b>, add what you already know — cooking, driving, Python, anything — and we rank the careers that fit you best.</p>
-      <span class="ic-go">Try it →</span>
-    </button>
-    <div class="intro-card">
-      <div class="ic-top"><span class="ic-num">4</span><span class="ic-emo">📋</span></div>
-      <h3>Read the career sheet</h3>
-      <p>Every result opens a full sheet: skills needed, qualifications, entry paths and estimated salary — use <b>← Back</b> to compare more.</p>
-    </div>
-  </div>
-</section>
-
-<div class="toggle-wrap">
-  <div class="toggle">
-    <button id="tab-career" class="on career" onclick="switchMode('career')">🔍 Explore careers <span class="lbl-long">— browse &amp; discover</span></button>
-    <button id="tab-skills" onclick="switchMode('skills')">🎯 I have skills <span class="lbl-long">— match me</span></button>
-    <button id="tab-saved" style="display:none" onclick="switchMode('saved')">⭐ Saved <span class="lbl-long">— your careers</span></button>
-  </div>
-</div>
-
 <div class="main">
   <aside class="sidebar">
-    <!-- Skills panel -->
-    <div class="panel" id="panel-skills" style="display:none">
+    <!-- Unified search panel -->
+    <div class="panel" id="panel-skills">
       <div class="panel-head skills">
-        <h2>✨ Enter your skills</h2>
-        <p>Add what you already know — any kind of work</p>
+        <h2>🔎 Search</h2>
+        <p>Type a skill or a job title — we'll find your careers</p>
       </div>
       <div class="panel-body">
         <div class="field ac-wrap">
-          <input id="skill-in" type="text" placeholder="e.g. Cooking, Driving, Python…" autocomplete="off" />
+          <input id="skill-in" type="text" placeholder="Try: Cooking, Chef, Driving, IAS, Python…" autocomplete="off" />
           <button class="btn-add" onclick="addFromInput()">Add</button>
           <div id="skill-ac" class="skill-ac"></div>
         </div>
-        <div class="chips" id="chips"><span class="hint">No skills added yet</span></div>
+        <div class="chips" id="chips"><span class="hint">Add skills to match careers — or pick a job above to see what it needs</span></div>
         <button class="cta skills" id="find-btn" onclick="findCareers()">Find matching careers</button>
         <button class="save-skills-btn" id="save-skills-btn" style="display:none" onclick="saveMySkills()">💾 Save my skills to my account</button>
         <div class="sep"></div>
@@ -127,8 +87,8 @@
       </div>
     </div>
 
-    <!-- Career panel -->
-    <div class="panel" id="panel-career">
+    <!-- Legacy career panel (kept hidden in DOM; helper fns reference its elements) -->
+    <div class="panel" id="panel-career" style="display:none">
       <div class="panel-head career">
         <h2>🔍 Choose a career</h2>
         <p>See the exact skills any career requires</p>
@@ -167,9 +127,9 @@
     <div id="search-pane">
       <div id="results-area">
         <div class="empty">
-          <div class="emo">🔍</div>
-          <h3>Browse any career</h3>
-          <p>Pick a work type on the left, or search any job title to see the skills, qualifications, and entry paths.</p>
+          <div class="emo">🧭</div>
+          <h3>Find your career path</h3>
+          <p>Type a <strong>skill</strong> (cooking, Python) or a <strong>job title</strong> (Chef, IAS) in the search box. Add a few skills and tap <strong>Find matching careers</strong>, or pick any job to see exactly what it takes.</p>
         </div>
       </div>
     </div>
@@ -179,6 +139,31 @@
     </div>
   </main>
 </div>
+
+<!-- How it works (below the tool) -->
+<section class="intro" id="how-it-works" aria-label="How CareerCompass works">
+  <div class="intro-head">
+    <span class="hf-label">How it works</span>
+    <h2>One search, three simple steps</h2>
+  </div>
+  <div class="intro-grid">
+    <div class="intro-card">
+      <div class="ic-top"><span class="ic-num">1</span><span class="ic-emo">🔎</span></div>
+      <h3>Type anything</h3>
+      <p>Enter a <b>skill</b> (cooking, driving, Python) or a <b>job title</b> (Chef, IAS, Electrician) in the one search box — it finds both.</p>
+    </div>
+    <div class="intro-card">
+      <div class="ic-top"><span class="ic-num">2</span><span class="ic-emo">🎯</span></div>
+      <h3>Pick a skill or a job</h3>
+      <p>Add a few skills and tap <b>Find matching careers</b> to get ranked matches — or tap any job title to jump straight to it.</p>
+    </div>
+    <div class="intro-card">
+      <div class="ic-top"><span class="ic-num">3</span><span class="ic-emo">📋</span></div>
+      <h3>Read the career sheet</h3>
+      <p>Every career opens a full sheet: skills needed, qualifications, entry paths, salary and a learning roadmap. Switch 🇮🇳 / 🇺🇸 any time.</p>
+    </div>
+  </div>
+</section>
 
 <!-- Collar guide modal -->
 <div class="modal-backdrop" id="collar-modal" onclick="closeCollarGuide(event)">
@@ -278,7 +263,7 @@
   </div>
 </div>
 
-<script src="/static/js/synonyms.js?v=20260628c"></script>
-<script src="/static/js/app.js?v=20260628c"></script>
+<script src="/static/js/synonyms.js?v=20260628d"></script>
+<script src="/static/js/app.js?v=20260628d"></script>
 </body>
 </html>

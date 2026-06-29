@@ -139,6 +139,10 @@ nav { background: rgba(255,255,255,.85); backdrop-filter: saturate(180%) blur(12
 .ac-wrap { position: relative; }
 .skill-ac { position: absolute; top: calc(100% + 4px); left: 0; right: 0; background: #fff; border: 1.5px solid var(--sf); border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,.1); z-index: 200; overflow: hidden; display: none; }
 .skill-ac.open { display: block; }
+.ac-group-label { padding: 8px 13px 4px; font-size: .66rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; color: var(--mut-2); background: var(--bg); border-bottom: 1px solid var(--line-2); }
+.ac-item.ac-career { display: flex; align-items: center; gap: 8px; }
+.ac-item.ac-career .ac-ico { font-size: 1rem; flex-shrink: 0; }
+.ac-item.ac-career .ac-sub { margin-left: auto; font-size: .72rem; color: var(--mut-2); white-space: nowrap; }
 .ac-item { padding: 9px 13px; font-size: .86rem; cursor: pointer; color: var(--ink); transition: background .1s; border-bottom: 1px solid var(--line-2); }
 .ac-item:last-child { border-bottom: none; }
 .ac-item:hover, .ac-item.hi { background: var(--sf-l); color: var(--sf-d); }

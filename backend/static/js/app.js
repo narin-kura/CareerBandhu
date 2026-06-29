@@ -120,6 +120,7 @@ async function init() {
   } catch { setDot('r'); setLbl('Offline'); }
   await Promise.all([loadCareers(), loadSkillStats()]);
   renderSugs(); renderChips();
+  switchMode('skills');
   await initAuth();
 }
 
@@ -147,10 +148,29 @@ async function loadCareers() {
 }
 
 function quickExplore(category) {
-  switchMode('career');
-  document.getElementById('career-search').value = category;
-  filterCareers();
-  document.querySelector('.sidebar').scrollIntoView({behavior:'smooth', block:'start'});
+  switchMode('skills');
+  const careers = allCareers.filter(c => c.category === category);
+  if (!careers.length) { setResults(`<div class="empty"><div class="emo">📌</div><h3>No ${category} careers in this region yet</h3></div>`); return; }
+  const hdr = `<div class="results-head"><h3>${CAT_ICONS[category]||'📌'} ${category}</h3><span class="count">${careers.length} careers</span></div>`;
+  const cards = careers.map(c => {
+    const meta = COLLAR_META.find(m=>m.key===c.collar) || {clr:'#4338CA', bg:'#EEF2FF', icon:'📌', label:'Career'};
+    return `<div class="card" onclick="selectAndExplore('${esc(c.id)}','${esc(c.title)}')">
+      <div class="card-body">
+        <div class="card-top">
+          <div class="cc-icon" style="--ic-clr:${meta.clr};--ic-bg:${meta.bg}">${CAT_ICONS[c.category]||meta.icon}</div>
+          <div class="cc-info"><div class="cc-eyebrow">${c.category}</div><div class="card-title">${c.title}</div></div>
+          <button class="bookmark-btn${bookmarkedIds.has(c.id)?' on':''}" data-career-id="${c.id}" title="${bookmarkedIds.has(c.id)?'Remove from saved careers':'Save this career'}" onclick="event.stopPropagation();toggleBookmark('${c.id}',this)">${bookmarkedIds.has(c.id)?'★':'☆'}</button>
+        </div>
+        <div class="cc-pills" style="margin-top:13px">
+          ${c.growth_outlook?`<span class="stat-pill">📈 ${c.growth_outlook}</span>`:''}
+          <span class="stat-pill">${c.region==='US'?'🇺🇸 USA':'🇮🇳 India'}</span>
+        </div>
+      </div>
+      <div class="card-foot"><div class="meta"><span>${meta.icon} ${meta.label.replace('-collar',' career')}</span></div><span class="view">Explore career →</span></div>
+    </div>`;
+  }).join('');
+  setResults(hdr + cards);
+  document.querySelector('.main').scrollIntoView({behavior:'smooth', block:'start'});
 }
 
 const HF_INITIAL = ['Technology','Healthcare','Government & Public Service','Design & Creative','Science & Research','Business & Management','Education & Training','Trades & Construction'];
@@ -247,7 +267,7 @@ function updatePersonalizationUI() {
   if (tabSaved) tabSaved.style.display = session ? '' : 'none';
   const saveBtn = document.getElementById('save-skills-btn');
   if (saveBtn) saveBtn.style.display = session ? '' : 'none';
-  if (currentMode === 'saved' && !session) switchMode('career');
+  if (currentMode === 'saved' && !session) switchMode('skills');
 }
 
 function renderAccountUI() {
@@ -430,20 +450,23 @@ async function saveMySkills() {
   }
 }
 
+function unifiedEmpty() {
+  return `<div class="empty"><div class="emo">🧭</div><h3>Find your career path</h3><p>Type a <strong>skill</strong> (cooking, Python) or a <strong>job title</strong> (Chef, IAS) in the search box. Add a few skills and tap <strong>Find matching careers</strong>, or pick any job to see exactly what it takes.</p></div>`;
+}
 function switchMode(m) {
   currentCareerData = null;
   currentMode = m;
-  document.getElementById('tab-skills').className = m==='skills'?'on':'';
-  document.getElementById('tab-career').className = m==='career'?'on career':'';
-  const tabSaved = document.getElementById('tab-saved');
-  if (tabSaved) tabSaved.className = m==='saved'?'on':'';
-  document.getElementById('panel-skills').style.display = m==='skills'?'':'none';
-  document.getElementById('panel-career').style.display = m==='career'?'':'none';
+  // Unified single-search: the search panel is always visible; the legacy
+  // career panel stays in the DOM (hidden) so its helper functions don't break.
+  const ts = document.getElementById('tab-skills'); if (ts) ts.className = m==='skills'?'on':'';
+  const tc = document.getElementById('tab-career'); if (tc) tc.className = m==='career'?'on career':'';
+  const tabSaved = document.getElementById('tab-saved'); if (tabSaved) tabSaved.className = m==='saved'?'on':'';
+  const ps = document.getElementById('panel-skills'); if (ps) ps.style.display = '';
+  const pc = document.getElementById('panel-career'); if (pc) pc.style.display = 'none';
   document.getElementById('search-pane').style.display = '';
   document.getElementById('detail').style.display = 'none';
-  if (m === 'career') renderCollarFilter();
   if (m === 'saved') { loadSavedCareers(); return; }
-  setResults(`<div class="empty"><div class="emo">${m==='skills'?'🎯':'🔍'}</div><h3>${m==='skills'?'Match me to careers':'Explore any career'}</h3><p>${m==='skills'?'Add your skills and tap <strong>Find matching careers</strong>.':'Search or pick a career and tap <strong>Show skills needed</strong>.'}</p></div>`);
+  setResults(unifiedEmpty());
 }
 
 /* skills mode */
@@ -490,46 +513,41 @@ skillInEl.addEventListener('input', function() {
   const q = raw.toLowerCase();
   const ac = document.getElementById('skill-ac');
   if (!q) { ac.className = 'skill-ac'; return; }
+  const closeAc = `document.getElementById('skill-in').value='';document.getElementById('skill-ac').className='skill-ac';`;
+
+  // ---- Careers (job titles / designations) — click opens the career sheet ----
+  const careerMatches = allCareers
+    .filter(c => c.title.toLowerCase().includes(q) || c.category.toLowerCase().includes(q))
+    .sort((a, b) => {
+      const aStarts = a.title.toLowerCase().startsWith(q) ? 0 : 1;
+      const bStarts = b.title.toLowerCase().startsWith(q) ? 0 : 1;
+      return aStarts - bStarts;
+    })
+    .slice(0, 6);
+  const careerHtml = careerMatches.length
+    ? `<div class="ac-group-label">Careers</div>` + careerMatches.map(c =>
+        `<div class="ac-item ac-career" onclick="selectAndExplore('${esc(c.id)}','${esc(c.title)}');${closeAc}"><span class="ac-ico">${CAT_ICONS[c.category]||'📌'}</span><span>${c.title}</span><span class="ac-sub">${c.category}</span></div>`
+      ).join('')
+    : '';
+
+  // ---- Skills (synonym map + substring + word-fuzzy) — click adds a chip ----
   const allList = allSkillsData ? allSkillsData.all_skills : [];
   const seen = new Set();
   const dedup = arr => arr.filter(s => { const k = s.toLowerCase(); if (seen.has(k)) return false; seen.add(k); return true; });
-
-  // 1. Synonym map — exact word matches get top priority
   const synMatches = (SKILL_SYNONYMS[q] || []).filter(s => allList.some(a => a.toLowerCase() === s.toLowerCase()));
-
-  // 2. Substring matches from full skills list
   const subMatches = allList.filter(s => s.toLowerCase().includes(q));
-
-  // 3. Word-by-word fuzzy for multi-word queries or no substring hits
   const words = q.split(/\s+/).filter(w => w.length > 2);
-  const fuzzyMatches = words.length ? allList.filter(s => {
-    const sl = s.toLowerCase();
-    return words.some(w => sl.includes(w));
-  }) : [];
-
-  const matches = dedup([...synMatches, ...subMatches, ...fuzzyMatches]).slice(0, 9);
-
-  // Related careers based on what's matched
-  let careerHints = [];
-  if (matches.length && allCareers.length) {
-    const matchSet = new Set(matches.map(s => s.toLowerCase()));
-    const scored = allCareers.map(c => {
-      const hits = (c.required_skills || []).filter(rs => matchSet.has(rs.skill.toLowerCase())).length;
-      return { title: c.title, id: c.id, hits };
-    }).filter(c => c.hits > 0).sort((a, b) => b.hits - a.hits).slice(0, 3);
-    careerHints = scored;
-  }
-
-  const closeAc = `document.getElementById('skill-in').value='';document.getElementById('skill-ac').className='skill-ac';`;
-  const skillRows = matches.map(s =>
-    `<div class="ac-item" onclick="addSkill('${esc(s)}');${closeAc}">${s}</div>`
-  ).join('');
-  const careerRow = careerHints.length
-    ? `<div class="ac-careers">Related careers: ${careerHints.map(c => `<span onclick="selectCareer('${c.id}','${esc(c.title)}');${closeAc}">${c.title}</span>`).join('')}</div>`
+  const fuzzyMatches = words.length ? allList.filter(s => { const sl = s.toLowerCase(); return words.some(w => sl.includes(w)); }) : [];
+  const skillMatches = dedup([...synMatches, ...subMatches, ...fuzzyMatches]).slice(0, 8);
+  const skillHtml = skillMatches.length
+    ? `<div class="ac-group-label">Skills</div>` + skillMatches.map(s =>
+        `<div class="ac-item" onclick="addSkill('${esc(s)}');${closeAc}">${s}</div>`
+      ).join('')
     : '';
+
   const addCustom = `<div class="ac-item ac-custom" onclick="addSkill('${esc(raw)}');${closeAc}">+ Add "<b>${raw}</b>" as a skill</div>`;
 
-  ac.innerHTML = skillRows + careerRow + addCustom;
+  ac.innerHTML = careerHtml + skillHtml + addCustom;
   ac.className = 'skill-ac open';
   acIdx = -1;
 });
@@ -546,7 +564,7 @@ skillInEl.addEventListener('keydown', function(e) {
     e.preventDefault();
   } else if (e.key === 'Enter') {
     if (acIdx >= 0 && items[acIdx]) {
-      addSkill(items[acIdx].textContent); this.value = ''; ac.className = 'skill-ac'; e.preventDefault();
+      items[acIdx].click(); e.preventDefault();
     } else { addFromInput(); }
   } else if (e.key === 'Escape') { ac.className = 'skill-ac'; }
 });
