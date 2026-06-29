@@ -136,6 +136,15 @@ nav { background: rgba(255,255,255,.85); backdrop-filter: saturate(180%) blur(12
 .sug { background: var(--bg); border: 1px solid var(--line); color: var(--ink-2); padding: 5px 11px; border-radius: 999px; font-size: .78rem; font-weight: 500; cursor: pointer; font-family: inherit; transition: all .15s; }
 .sug:hover { border-color: var(--sf); color: var(--sf); background: var(--sf-l); }
 .sug.nv:hover { border-color: var(--nv); color: var(--nv); background: var(--nv-l); }
+.ac-wrap { position: relative; }
+.skill-ac { position: absolute; top: calc(100% + 4px); left: 0; right: 0; background: #fff; border: 1.5px solid var(--sf); border-radius: 10px; box-shadow: 0 4px 16px rgba(0,0,0,.1); z-index: 200; overflow: hidden; display: none; }
+.skill-ac.open { display: block; }
+.ac-item { padding: 9px 13px; font-size: .86rem; cursor: pointer; color: var(--ink); transition: background .1s; }
+.ac-item:hover, .ac-item.hi { background: var(--sf-l); color: var(--sf-d); }
+.sug-cats { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }
+.sug-cat { font-family: inherit; font-size: .72rem; font-weight: 600; color: var(--mut); background: var(--bg); border: 1.5px solid var(--line); padding: 4px 10px; border-radius: 999px; cursor: pointer; transition: all .15s; white-space: nowrap; }
+.sug-cat:hover { border-color: var(--sf); color: var(--sf); }
+.sug-cat.on { border-color: var(--sf); color: var(--sf-d); background: var(--sf-l); }
 
 .cta { width: 100%; border: none; border-radius: 11px; padding: 13px; font-size: .92rem; font-weight: 700; font-family: inherit; color: #fff; cursor: pointer; margin-top: 18px; transition: transform .12s, box-shadow .15s, opacity .15s; }
 .cta.skills { background: linear-gradient(135deg, var(--sf), var(--sf-d)); box-shadow: 0 4px 14px rgba(234,88,12,.28); }

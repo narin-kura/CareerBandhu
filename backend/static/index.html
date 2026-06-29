@@ -112,14 +112,16 @@
         <p>Add what you already know — any kind of work</p>
       </div>
       <div class="panel-body">
-        <div class="field">
-          <input id="skill-in" type="text" placeholder="e.g. Cooking, Driving, Python…" />
+        <div class="field ac-wrap">
+          <input id="skill-in" type="text" placeholder="e.g. Cooking, Driving, Python…" autocomplete="off" />
           <button class="btn-add" onclick="addFromInput()">Add</button>
+          <div id="skill-ac" class="skill-ac"></div>
         </div>
         <div class="chips" id="chips"><span class="hint">No skills added yet</span></div>
         <button class="save-skills-btn" id="save-skills-btn" style="display:none" onclick="saveMySkills()">💾 Save my skills to my account</button>
         <div class="sep"></div>
-        <div class="sug-label">Quick add — all kinds of skills</div>
+        <div class="sug-label">Browse by category</div>
+        <div class="sug-cats" id="sug-cats"></div>
         <div class="sugs" id="sugs"></div>
         <button class="cta skills" id="find-btn" onclick="findCareers()">Find matching careers</button>
       </div>

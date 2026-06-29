@@ -3,6 +3,7 @@ let skills = [], ratingVal = 0, currentId = null, currentMode = 'career';
 let allCareers = [], selectedCareerId = null, checkedSkills = new Set();
 let region = 'IN';
 let currentCareerData = null;
+let allSkillsData = null, activeSugCat = null, acIdx = -1;
 let activeCollar = 'all';
 let careerQuery = '';
 
@@ -125,10 +126,12 @@ async function init() {
 async function loadSkillStats() {
   try {
     const d = await get('/api/skills');
+    allSkillsData = d;
     const total = (d.all_skills || []).length;
     const cats = Object.keys(d.categories || {}).length;
     document.getElementById('stat-s').textContent = total.toLocaleString() + '+';
     document.getElementById('stat-f').textContent = cats + '+';
+    renderSugs();
   } catch {}
 }
 
@@ -458,9 +461,58 @@ function renderChips() {
     : '<span class="hint">No skills added yet</span>';
 }
 function renderSugs() {
-  document.getElementById('sugs').innerHTML = (POPULAR_SKILLS[region]||POPULAR_SKILLS.IN).map(s=>`<span class="sug" onclick="addSkill('${esc(s)}')">${s}</span>`).join('');
+  const catsEl = document.getElementById('sug-cats');
+  const sugsEl = document.getElementById('sugs');
+  if (!allSkillsData) {
+    catsEl.innerHTML = '';
+    sugsEl.innerHTML = (POPULAR_SKILLS[region]||POPULAR_SKILLS.IN).map(s=>`<span class="sug" onclick="addSkill('${esc(s)}')">${s}</span>`).join('');
+    return;
+  }
+  const cats = Object.keys(allSkillsData.categories).sort();
+  if (!activeSugCat || !allSkillsData.categories[activeSugCat]) {
+    activeSugCat = cats.includes('Everyday Life Skills') ? 'Everyday Life Skills' : cats[0];
+  }
+  catsEl.innerHTML = cats.map(c =>
+    `<button class="sug-cat${c===activeSugCat?' on':''}" onclick="selectSugCat('${esc(c)}')">${c}</button>`
+  ).join('');
+  const catSkills = allSkillsData.categories[activeSugCat] || [];
+  sugsEl.innerHTML = catSkills.map(s=>`<span class="sug" onclick="addSkill('${esc(s)}')">${s}</span>`).join('');
 }
-document.getElementById('skill-in').addEventListener('keydown',e=>{ if(e.key==='Enter') addFromInput(); });
+function selectSugCat(cat) { activeSugCat = cat; renderSugs(); }
+
+const skillInEl = document.getElementById('skill-in');
+skillInEl.addEventListener('input', function() {
+  const q = this.value.trim().toLowerCase();
+  const ac = document.getElementById('skill-ac');
+  if (!q || !allSkillsData) { ac.className = 'skill-ac'; return; }
+  const matches = allSkillsData.all_skills.filter(s => s.toLowerCase().includes(q)).slice(0, 10);
+  if (!matches.length) { ac.className = 'skill-ac'; return; }
+  ac.innerHTML = matches.map(s =>
+    `<div class="ac-item" onclick="addSkill('${esc(s)}');document.getElementById('skill-in').value='';document.getElementById('skill-ac').className='skill-ac';">${s}</div>`
+  ).join('');
+  ac.className = 'skill-ac open';
+  acIdx = -1;
+});
+skillInEl.addEventListener('keydown', function(e) {
+  const ac = document.getElementById('skill-ac');
+  const items = ac.querySelectorAll('.ac-item');
+  if (e.key === 'ArrowDown') {
+    acIdx = Math.min(acIdx + 1, items.length - 1);
+    items.forEach((el, i) => el.classList.toggle('hi', i === acIdx));
+    e.preventDefault();
+  } else if (e.key === 'ArrowUp') {
+    acIdx = Math.max(acIdx - 1, 0);
+    items.forEach((el, i) => el.classList.toggle('hi', i === acIdx));
+    e.preventDefault();
+  } else if (e.key === 'Enter') {
+    if (acIdx >= 0 && items[acIdx]) {
+      addSkill(items[acIdx].textContent); this.value = ''; ac.className = 'skill-ac'; e.preventDefault();
+    } else { addFromInput(); }
+  } else if (e.key === 'Escape') { ac.className = 'skill-ac'; }
+});
+document.addEventListener('click', e => {
+  if (!e.target.closest('.ac-wrap')) document.getElementById('skill-ac').className = 'skill-ac';
+});
 
 /* career mode */
 function renderCareerSugs() {
