@@ -33490,5 +33490,1413 @@
       "ACLS, ATLS, PALS certifications mandatory; fellowship from SEMI (Society for Emergency Medicine India)"
     ],
     "collar": "white"
+  },
+  {
+    "id": "housemaid_in",
+    "title": "Housemaid / Domestic Helper",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Help run households - cleaning, washing, cooking, and caring for children or elders in private homes. One of India's largest informal-sector occupations, employing millions (largely women) in urban homes. No formal education required; work is found through word-of-mouth, local agencies, or apps like BookMyBai and Urban Company.",
+    "salary_range": {
+      "min": 8000,
+      "max": 25000,
+      "currency": "INR/month",
+      "note": "Per-house part-time to full-time live-in; multiple houses increase income"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "On-site",
+      "Physically active",
+      "Flexible hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Home Cleaning & Hygiene",
+        "level": "critical"
+      },
+      {
+        "skill": "Laundry & Fabric Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Home Cooking",
+        "level": "important"
+      },
+      {
+        "skill": "Home Organisation & Decluttering",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Honesty & Integrity",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Following Instructions",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "No formal education needed - skills learned at home",
+      "Find work through neighbours, local references, or maid-placement agencies",
+      "Register on apps like Urban Company, BookMyBai, or Helper4U",
+      "Build trust with one family, then get referred to others"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Basic ability to follow instructions",
+      "Reference or police verification often asked by employers"
+    ],
+    "tags": [
+      "domestic-help",
+      "maid",
+      "housekeeping",
+      "informal",
+      "women"
+    ],
+    "collar": "pink"
+  },
+  {
+    "id": "street_vendor_in",
+    "title": "Street Vendor / Hawker",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Sell goods - vegetables, fruit, snacks, toys, clothes, household items - from a cart, stall, or footpath. Street vending is protected under the Street Vendors Act 2014. A self-employed path needing little capital and no education, found in every Indian market, station, and street corner.",
+    "salary_range": {
+      "min": 6000,
+      "max": 40000,
+      "currency": "INR/month",
+      "note": "Highly variable by location, product, and footfall; festival seasons peak"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "Self-employed",
+      "Outdoor",
+      "Long hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "critical"
+      },
+      {
+        "skill": "Shopping & Bargaining",
+        "level": "critical"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Persuasion & Convincing",
+        "level": "important"
+      },
+      {
+        "skill": "Quick Mental Maths",
+        "level": "important"
+      },
+      {
+        "skill": "UPI & Digital Payments (PhonePe, GPay, Paytm)",
+        "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - start with small capital for stock",
+      "Pick a high-footfall spot (market, station, school, office area)",
+      "Get a vending certificate under the Street Vendors Act from the local municipal body",
+      "Reinvest profits to grow stock and variety"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Basic counting and money handling",
+      "Municipal vending license recommended"
+    ],
+    "tags": [
+      "street-vendor",
+      "hawker",
+      "self-employed",
+      "informal",
+      "small-business"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "daily_wage_labourer_in",
+    "title": "Daily Wage Labourer",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Do paid manual work on a day-to-day basis - at construction sites, farms, markets, loading points, and events. Workers gather at labour chowks (naka) each morning to be hired. The most accessible paid work in India, requiring only physical ability and no education.",
+    "salary_range": {
+      "min": 300,
+      "max": 800,
+      "currency": "INR/month",
+      "note": "Per-day wage (Rs 300-800/day); MGNREGA guarantees rural work at notified rates"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "On-site",
+      "Physically demanding",
+      "Day-to-day"
+    ],
+    "required_skills": [
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Heavy Lifting & Loading",
+        "level": "critical"
+      },
+      {
+        "skill": "Working in Heat / Outdoors",
+        "level": "critical"
+      },
+      {
+        "skill": "Following Instructions",
+        "level": "critical"
+      },
+      {
+        "skill": "Endurance & Long Hours",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "important"
+      },
+      {
+        "skill": "Working in a Team",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - turn up at a labour naka or contractor",
+      "Register for MGNREGA at your Gram Panchayat for guaranteed rural work days",
+      "Build a reputation with contractors for repeat hiring",
+      "Learn a trade (mason, bar-bender) on site to earn skilled-labour rates"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Physical fitness",
+      "MGNREGA job card for rural government work"
+    ],
+    "tags": [
+      "daily-wage",
+      "labour",
+      "manual",
+      "mgnrega",
+      "informal"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "cobbler_in",
+    "title": "Cobbler / Shoe Repairer (Mochi)",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Repair and polish footwear, fix bags and belts, and stitch leather goods from a small roadside setup. A traditional self-employed trade passed down in families, needing skilled hands but no schooling. Steady demand wherever people walk.",
+    "salary_range": {
+      "min": 6000,
+      "max": 20000,
+      "currency": "INR/month",
+      "note": "Per-repair earnings; busy roadside spots and shoe-shine add income"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "Self-employed",
+      "Roadside",
+      "Seated work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Shoe Repair",
+        "level": "critical"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Steady Hands (Precision Work)",
+        "level": "critical"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - learn the craft from a family member or senior cobbler",
+      "Set up at a steady-footfall spot (station, market, office area)",
+      "Add key-making or umbrella repair to increase income",
+      "Tie up with nearby shops and offices for regular customers"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Hand skill with leather and stitching tools",
+      "Traditional apprenticeship under an experienced mochi"
+    ],
+    "tags": [
+      "cobbler",
+      "mochi",
+      "leather",
+      "self-employed",
+      "traditional-trade"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "dhobi_in",
+    "title": "Dhobi / Laundry Washerman",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Wash, dry, and iron clothes for households, hostels, and small hotels. Dhobis run neighbourhood laundry services or work at dhobi ghats. A hereditary trade requiring stamina and care with fabrics, but no education.",
+    "salary_range": {
+      "min": 8000,
+      "max": 30000,
+      "currency": "INR/month",
+      "note": "Per-piece or monthly per-household; bulk hostel/hotel contracts pay more"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "Self-employed",
+      "Physically active",
+      "Outdoor"
+    ],
+    "required_skills": [
+      {
+        "skill": "Laundry & Fabric Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - learn washing and pressing from family or on the job",
+      "Start by collecting clothes from nearby homes and hostels",
+      "Add doorstep pickup and delivery to win more customers",
+      "Scale up with a steam press and helpers for bulk contracts"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Knowledge of fabrics and stain removal",
+      "Physical stamina"
+    ],
+    "tags": [
+      "dhobi",
+      "laundry",
+      "washerman",
+      "ironing",
+      "self-employed"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "ironing_wala_in",
+    "title": "Ironing / Press Wala (Istri Wala)",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Press clothes for a neighbourhood from a roadside cart or small kiosk, usually with a coal or electric iron. Low-capital self-employment found on nearly every Indian residential street, needing no education.",
+    "salary_range": {
+      "min": 7000,
+      "max": 22000,
+      "currency": "INR/month",
+      "note": "Per-piece (Rs 5-15/garment); volume from nearby homes drives earnings"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "Self-employed",
+      "Roadside",
+      "Standing work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Laundry & Fabric Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Standing for Long Hours",
+        "level": "important"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - learn pressing technique on the job",
+      "Set up a cart near a residential cluster",
+      "Offer pickup and delivery for busy households",
+      "Add washing or dry-clean tie-ups to expand"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Skill with iron and different fabrics",
+      "Small capital for cart and iron"
+    ],
+    "tags": [
+      "ironing",
+      "press",
+      "istri",
+      "self-employed",
+      "informal"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "milkman_in",
+    "title": "Milk Vendor / Milkman (Doodhwala)",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Deliver fresh milk to homes daily, early each morning, on a cycle or two-wheeler. Many also keep cattle or buy from a dairy and resell. A trusted neighbourhood role built on reliability, needing no education.",
+    "salary_range": {
+      "min": 9000,
+      "max": 35000,
+      "currency": "INR/month",
+      "note": "Margin per litre x daily volume; own cattle increase margins"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "Self-employed",
+      "Early hours",
+      "On-the-move"
+    ],
+    "required_skills": [
+      {
+        "skill": "Driving (Two-Wheeler)",
+        "level": "important"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "critical"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Quick Mental Maths",
+        "level": "important"
+      },
+      {
+        "skill": "UPI & Digital Payments (PhonePe, GPay, Paytm)",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - start a milk round in your area",
+      "Source from a local dairy or keep your own cattle",
+      "Build a fixed daily-customer list for steady income",
+      "Add curd, paneer, and ghee to increase sales"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Reliability and early-morning discipline",
+      "Basic money handling"
+    ],
+    "tags": [
+      "milkman",
+      "doodhwala",
+      "dairy",
+      "delivery",
+      "self-employed"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "office_peon_in",
+    "title": "Office Peon / Office Assistant",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Support an office with daily errands - serving tea, moving files, photocopying, posting mail, and helping staff. A common entry job in government offices, schools, banks, and companies, needing minimal education and offering stable hours.",
+    "salary_range": {
+      "min": 9000,
+      "max": 22000,
+      "currency": "INR/month",
+      "note": "Govt peon posts pay more with PF/pension; private varies"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "On-site",
+      "Office-based",
+      "Fixed hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Making Tea / Hospitality at Office",
+        "level": "important"
+      },
+      {
+        "skill": "Following Instructions",
+        "level": "critical"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Filing & Documentation (Basic)",
+        "level": "important"
+      },
+      {
+        "skill": "Printing, Scanning & Photocopying",
+        "level": "important"
+      },
+      {
+        "skill": "Phone Etiquette",
+        "level": "helpful"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "8th or 10th pass usually enough; govt posts via state recruitment boards",
+      "Apply to schools, offices, banks, and companies directly",
+      "Govt peon/MTS jobs come with job security - watch for notifications",
+      "Show reliability to grow into a clerk or assistant role"
+    ],
+    "qualifications": [
+      "8th-10th pass (varies by employer)",
+      "Basic literacy",
+      "Govt posts need a recruitment exam/interview"
+    ],
+    "tags": [
+      "peon",
+      "office-assistant",
+      "mts",
+      "government",
+      "stable-job"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "sweeper_sanitation_in",
+    "title": "Sweeper / Sanitation Worker (Safai Karamchari)",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Keep streets, drains, offices, hospitals, and public spaces clean. Employed by municipal bodies, contractors, and private establishments. Essential public-service work with no education barrier; government posts carry job security and benefits.",
+    "salary_range": {
+      "min": 9000,
+      "max": 28000,
+      "currency": "INR/month",
+      "note": "Municipal/govt posts pay more with PF, ESI, pension; private contract lower"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "On-site",
+      "Physically active",
+      "Shift-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Home Cleaning & Hygiene",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Following Instructions",
+        "level": "critical"
+      },
+      {
+        "skill": "Waste Sorting & Recycling",
+        "level": "important"
+      },
+      {
+        "skill": "Working in Heat / Outdoors",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - apply to municipal corporations or contractors",
+      "Govt safai karamchari posts via municipal/state recruitment - watch notifications",
+      "Private jobs at hospitals, malls, offices through housekeeping agencies",
+      "Permanent govt posts bring pension and job security"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Physical fitness",
+      "Govt posts need application/verification"
+    ],
+    "tags": [
+      "sweeper",
+      "sanitation",
+      "safai-karamchari",
+      "municipal",
+      "public-service"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "waste_collector_in",
+    "title": "Waste Collector / Ragpicker (Kabadiwala)",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Collect, sort, and sell recyclable waste - paper, plastic, metal, glass - from homes, streets, and bins. Self-employed kabadiwalas are the backbone of India's recycling economy. No education needed; growing demand as cities push recycling.",
+    "salary_range": {
+      "min": 7000,
+      "max": 30000,
+      "currency": "INR/month",
+      "note": "Margin on sorted scrap sold to dealers; own collection round increases income"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "Self-employed",
+      "Outdoor",
+      "Physically active"
+    ],
+    "required_skills": [
+      {
+        "skill": "Waste Sorting & Recycling",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "important"
+      },
+      {
+        "skill": "Shopping & Bargaining",
+        "level": "important"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Quick Mental Maths",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - start a door-to-door scrap collection round",
+      "Build buying relationships with homes, shops, and offices",
+      "Sell sorted material to scrap dealers (bhangar) at best rates",
+      "Grow into a scrap-dealer/aggregator with a collection point"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Knowledge of scrap types and rates",
+      "Small capital for a cart or cycle"
+    ],
+    "tags": [
+      "waste",
+      "kabadiwala",
+      "ragpicker",
+      "recycling",
+      "self-employed"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "coolie_porter_in",
+    "title": "Coolie / Luggage Porter",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Carry passengers' luggage at railway stations, bus stands, and airports for a fee. Licensed station coolies wear numbered red shirts. Hard physical work needing only strength and stamina, no education.",
+    "salary_range": {
+      "min": 8000,
+      "max": 25000,
+      "currency": "INR/month",
+      "note": "Per-bag tips plus fixed rates; busy stations and festival rush pay more"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "On-site",
+      "Physically demanding",
+      "On-the-move"
+    ],
+    "required_skills": [
+      {
+        "skill": "Heavy Lifting & Loading",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Local Area Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "helpful"
+      },
+      {
+        "skill": "Endurance & Long Hours",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - apply for a station coolie licence via the railway",
+      "Work bus stands, markets, and wholesale areas as a freelance porter",
+      "Build regular customers among traders and vendors",
+      "Move to loader/logistics work for steadier monthly pay"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Physical strength and stamina",
+      "Railway licence for official station coolies"
+    ],
+    "tags": [
+      "coolie",
+      "porter",
+      "luggage",
+      "railway",
+      "manual"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "nanny_babysitter_in",
+    "title": "Nanny / Babysitter (Aaya)",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Care for infants and young children in their home - feeding, bathing, playing, and keeping them safe while parents work. Rising demand from nuclear and working-parent families in cities. Caring nature matters more than education.",
+    "salary_range": {
+      "min": 10000,
+      "max": 35000,
+      "currency": "INR/month",
+      "note": "Full-time live-in to part-time; experience and infant care raise pay"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "On-site",
+      "Caring",
+      "Flexible hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Childcare & Babysitting",
+        "level": "critical"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic First Aid at Home",
+        "level": "important"
+      },
+      {
+        "skill": "Home Cooking",
+        "level": "helpful"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Home Cleaning & Hygiene",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "No formal education needed - childcare skills count most",
+      "Find work via families, agencies, and apps (Urban Company, BookMyBai)",
+      "Take a short childcare/first-aid course to command higher pay",
+      "Build trust and references for better-paying live-in roles"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Experience caring for children",
+      "Police verification often requested"
+    ],
+    "tags": [
+      "nanny",
+      "babysitter",
+      "aaya",
+      "childcare",
+      "women"
+    ],
+    "collar": "pink"
+  },
+  {
+    "id": "tea_stall_in",
+    "title": "Tea Stall Operator (Chaiwala)",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Run a roadside tea stall serving chai, coffee, snacks, and cigarettes to a steady stream of regulars. Among the most iconic Indian micro-businesses - low capital, no education, and reliable daily cash flow from a good spot.",
+    "salary_range": {
+      "min": 9000,
+      "max": 50000,
+      "currency": "INR/month",
+      "note": "High-footfall spots (offices, colleges, stations) can earn well above range"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "Self-employed",
+      "Roadside",
+      "Long hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Tea & Coffee Making",
+        "level": "critical"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Snack Preparation",
+        "level": "important"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Quick Mental Maths",
+        "level": "important"
+      },
+      {
+        "skill": "UPI & Digital Payments (PhonePe, GPay, Paytm)",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - start with a kettle, stove, and a good location",
+      "Pick a spot near offices, colleges, stations, or markets",
+      "Add snacks, biscuits, and cigarettes for more sales",
+      "Reinvest to add seating, a helper, or a second stall"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Tea-making and basic snack skills",
+      "Small starting capital"
+    ],
+    "tags": [
+      "chaiwala",
+      "tea-stall",
+      "food",
+      "self-employed",
+      "micro-business"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "vegetable_vendor_in",
+    "title": "Fruit & Vegetable Vendor (Sabziwala)",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Sell fresh fruit and vegetables from a cart, thela, or market stall. Buy at wholesale mandis early morning and sell through the day. A classic self-employed trade with daily cash flow and no education requirement.",
+    "salary_range": {
+      "min": 8000,
+      "max": 40000,
+      "currency": "INR/month",
+      "note": "Margin x daily volume; mandi sourcing skill and a good spot drive profit"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "Self-employed",
+      "Outdoor",
+      "Early hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Shopping & Bargaining",
+        "level": "critical"
+      },
+      {
+        "skill": "Vegetable & Fruit Identification",
+        "level": "critical"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "critical"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Quick Mental Maths",
+        "level": "important"
+      },
+      {
+        "skill": "UPI & Digital Payments (PhonePe, GPay, Paytm)",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - start with a cart and morning mandi stock",
+      "Learn to buy fresh at the wholesale mandi at the best price",
+      "Fix a regular route or spot to build repeat customers",
+      "Add home delivery via WhatsApp for nearby homes"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Ability to judge produce quality",
+      "Small capital for stock and cart"
+    ],
+    "tags": [
+      "sabziwala",
+      "vegetable",
+      "fruit",
+      "vendor",
+      "self-employed"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "kirana_helper_in",
+    "title": "Kirana Store Helper / Shop Assistant",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Help run a neighbourhood grocery (kirana) shop - serving customers, weighing and packing goods, stocking shelves, and billing. A common first job for young people in towns and cities, needing basic literacy but no formal education.",
+    "salary_range": {
+      "min": 8000,
+      "max": 20000,
+      "currency": "INR/month",
+      "note": "Monthly wage; live-in arrangements common; can grow into running a shop"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "On-site",
+      "Retail",
+      "Long hours"
+    ],
+    "required_skills": [
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic Inventory Counting",
+        "level": "important"
+      },
+      {
+        "skill": "Measuring & Weighing",
+        "level": "important"
+      },
+      {
+        "skill": "Quick Mental Maths",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "UPI & Digital Payments (PhonePe, GPay, Paytm)",
+        "level": "important"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Basic literacy and counting enough - learn on the job",
+      "Apply directly at neighbourhood kirana and provision stores",
+      "Learn stock, suppliers, and billing to become a trusted hand",
+      "Save and learn the trade to open your own shop later"
+    ],
+    "qualifications": [
+      "No formal qualification required (basic literacy helps)",
+      "Counting and money-handling ability",
+      "On-the-job training"
+    ],
+    "tags": [
+      "kirana",
+      "grocery",
+      "shop-assistant",
+      "retail",
+      "entry-job"
+    ],
+    "collar": "no"
+  },
+  {
+    "id": "packer_in",
+    "title": "Packer / Packaging Helper",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Pack, label, and seal products for shipping at warehouses, factories, e-commerce hubs, and food units. Booming with the growth of online shopping and quick-commerce. No education needed; steady factory/warehouse wages.",
+    "salary_range": {
+      "min": 10000,
+      "max": 22000,
+      "currency": "INR/month",
+      "note": "Monthly wage plus overtime; e-commerce peak seasons add shifts"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "On-site",
+      "Warehouse",
+      "Shift-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Packing & Wrapping",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Following Instructions",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic Inventory Counting",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Working in a Team",
+        "level": "important"
+      },
+      {
+        "skill": "Accuracy & Attention to Detail",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - apply at warehouses, factories, and fulfilment centres",
+      "E-commerce hubs (Amazon, Flipkart, Meesho) hire packers in bulk",
+      "Staffing agencies place packers quickly across cities",
+      "Move up to picker, quality-checker, or supervisor with experience"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Physical fitness and attention to detail",
+      "On-the-job training"
+    ],
+    "tags": [
+      "packer",
+      "packaging",
+      "warehouse",
+      "ecommerce",
+      "factory"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "loader_in",
+    "title": "Loader / Material Handler (Hamaal)",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Load and unload goods from trucks, tempos, and godowns at markets, warehouses, and factories. Pure physical work moving sacks, boxes, and cartons. No education needed - strength, stamina, and reliability are what count.",
+    "salary_range": {
+      "min": 10000,
+      "max": 25000,
+      "currency": "INR/month",
+      "note": "Daily or monthly wage; piece-rate at mandis; overtime common"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "On-site",
+      "Physically demanding",
+      "Shift-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Heavy Lifting & Loading",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Endurance & Long Hours",
+        "level": "important"
+      },
+      {
+        "skill": "Working in a Team",
+        "level": "important"
+      },
+      {
+        "skill": "Following Instructions",
+        "level": "critical"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - apply at mandis, godowns, and transport companies",
+      "Find work through loading contractors and labour groups",
+      "Build a reputation for steady piece-rate or monthly hire",
+      "Move into warehouse or logistics roles for steadier pay"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Physical strength and stamina",
+      "Reliability"
+    ],
+    "tags": [
+      "loader",
+      "hamaal",
+      "material-handler",
+      "warehouse",
+      "manual"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "factory_helper_in",
+    "title": "Factory Helper / Machine Operator Helper",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Assist on a factory floor - feeding material to machines, moving parts, cleaning, and helping operators. The most common entry into manufacturing, needing no education and offering a path to skilled operator roles.",
+    "salary_range": {
+      "min": 10000,
+      "max": 24000,
+      "currency": "INR/month",
+      "note": "Monthly wage plus overtime; skilled-operator promotion raises pay"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "On-site",
+      "Factory",
+      "Shift-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Following Instructions",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Safety Awareness",
+        "level": "critical"
+      },
+      {
+        "skill": "Working in a Team",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic Inventory Counting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Heavy Lifting & Loading",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - apply at factories and industrial estates",
+      "Staffing/contractor agencies hire helpers in bulk",
+      "Learn the machine from operators to become a skilled operator",
+      "An ITI certificate later raises you to technician pay"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Physical fitness and safety sense",
+      "On-the-job training"
+    ],
+    "tags": [
+      "factory-helper",
+      "machine-operator",
+      "manufacturing",
+      "entry-job",
+      "industrial"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "mechanic_helper_in",
+    "title": "Mechanic Helper / Workshop Assistant (Chhotu)",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Assist a mechanic at a garage or workshop - fetching tools, cleaning parts, helping with repairs on bikes, cars, or appliances. A classic learn-while-you-earn route into a skilled trade, needing no education.",
+    "salary_range": {
+      "min": 7000,
+      "max": 20000,
+      "currency": "INR/month",
+      "note": "Low starting wage but rises fast as you learn the trade"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "On-site",
+      "Workshop",
+      "Physically active"
+    ],
+    "required_skills": [
+      {
+        "skill": "Following Instructions",
+        "level": "critical"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Safety Awareness",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic Vehicle Maintenance",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - join a garage or workshop as a helper",
+      "Learn by watching and assisting the head mechanic",
+      "Master a speciality (engine, electrical, AC, denting) to earn more",
+      "Open your own workshop once skilled and trusted"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Willingness to learn a trade hands-on",
+      "Apprenticeship under a mechanic"
+    ],
+    "tags": [
+      "mechanic-helper",
+      "workshop",
+      "apprentice",
+      "automobile",
+      "skilled-trade"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "cart_puller_in",
+    "title": "Cart Puller / Hand-Cart Operator (Thela Wala)",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Move goods short distances on a hand cart or cycle cart for shops, mandis, and markets, or rent the cart to vendors. Self-employed work in dense market areas needing only strength and local knowledge, no education.",
+    "salary_range": {
+      "min": 7000,
+      "max": 22000,
+      "currency": "INR/month",
+      "note": "Per-trip charges; market and wholesale areas give steady work"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "Self-employed",
+      "Outdoor",
+      "Physically demanding"
+    ],
+    "required_skills": [
+      {
+        "skill": "Heavy Lifting & Loading",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Local Area Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "helpful"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "helpful"
+      },
+      {
+        "skill": "Endurance & Long Hours",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "No education needed - own or rent a hand/cycle cart",
+      "Work wholesale markets and mandis where goods move constantly",
+      "Build regular shop and trader customers for repeat trips",
+      "Save toward a tempo or e-rickshaw for higher earnings"
+    ],
+    "qualifications": [
+      "No formal qualification required",
+      "Physical strength",
+      "Cart (owned or rented)"
+    ],
+    "tags": [
+      "cart-puller",
+      "thela",
+      "hand-cart",
+      "market",
+      "manual"
+    ],
+    "collar": "blue"
+  },
+  {
+    "id": "watchman_caretaker_in",
+    "title": "Building Caretaker / Society Caretaker",
+    "category": "Everyday Work & Trades",
+    "region": "IN",
+    "description": "Look after a residential building or society - basic upkeep, coordinating cleaning and repairs, managing visitors and deliveries, and keeping registers. A trusted live-in or daily role in urban housing, needing reliability over education.",
+    "salary_range": {
+      "min": 10000,
+      "max": 28000,
+      "currency": "INR/month",
+      "note": "Often includes free accommodation; larger societies pay more"
+    },
+    "growth_outlook": "Stable - consistent demand across urban and rural India",
+    "work_style": [
+      "On-site",
+      "Residential",
+      "On-call"
+    ],
+    "required_skills": [
+      {
+        "skill": "Alertness & Observation",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Note-taking & Record Keeping",
+        "level": "helpful"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "helpful"
+      },
+      {
+        "skill": "Phone Etiquette",
+        "level": "helpful"
+      },
+      {
+        "skill": "Basic Home Repairs (DIY)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Following Instructions",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "Basic literacy enough - apply to societies and building managers",
+      "Find roles via security agencies and society committees",
+      "Many roles include free quarters - good for families",
+      "Grow into a society manager/supervisor role with experience"
+    ],
+    "qualifications": [
+      "No formal qualification required (basic literacy helps)",
+      "Trustworthiness and reliability",
+      "Reference/verification usually asked"
+    ],
+    "tags": [
+      "caretaker",
+      "society",
+      "building",
+      "residential",
+      "stable-job"
+    ],
+    "collar": "no"
   }
 ]

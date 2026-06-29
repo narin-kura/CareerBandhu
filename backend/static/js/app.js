@@ -472,9 +472,13 @@ function renderSugs() {
   if (!activeSugCat || !allSkillsData.categories[activeSugCat]) {
     activeSugCat = cats.includes('Everyday Life Skills') ? 'Everyday Life Skills' : cats[0];
   }
-  catsEl.innerHTML = cats.map(c =>
-    `<button class="sug-cat${c===activeSugCat?' on':''}" onclick="selectSugCat('${esc(c)}')">${c}</button>`
-  ).join('');
+  catsEl.innerHTML =
+    `<select class="sug-cat-select" onchange="selectSugCat(this.value)" aria-label="Skill category">` +
+    cats.map(c => {
+      const n = allSkillsData.categories[c].length;
+      return `<option value="${esc(c)}"${c===activeSugCat?' selected':''}>${c} (${n})</option>`;
+    }).join('') +
+    `</select>`;
   const catSkills = allSkillsData.categories[activeSugCat] || [];
   sugsEl.innerHTML = catSkills.map(s=>`<span class="sug" onclick="addSkill('${esc(s)}')">${s}</span>`).join('');
 }
