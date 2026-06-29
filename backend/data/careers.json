@@ -28764,5 +28764,1675 @@
       "engagement"
     ],
     "collar": "white"
+  },
+  {
+    "id": "hr_business_partner_in",
+    "title": "HR Business Partner",
+    "category": "Human Resources",
+    "description": "Align human resources strategy with business goals. Work closely with senior leadership to handle talent management, workforce planning, employee relations, and organizational design. A strategic HR role that bridges people and business.",
+    "salary_range": {
+      "min": 50000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Mid to Senior level"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Collaborative",
+      "Strategic",
+      "People-focused"
+    ],
+    "required_skills": [
+      {
+        "skill": "Employee Relations",
+        "level": "critical"
+      },
+      {
+        "skill": "Talent Management",
+        "level": "critical"
+      },
+      {
+        "skill": "HR Policies & Compliance",
+        "level": "critical"
+      },
+      {
+        "skill": "Workforce Planning",
+        "level": "important"
+      },
+      {
+        "skill": "Performance Management",
+        "level": "important"
+      },
+      {
+        "skill": "HRIS Systems (SAP, Workday)",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      },
+      {
+        "skill": "Conflict Resolution",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "MBA in HR",
+      "Postgraduate Diploma in HRM",
+      "HR Generalist to HRBP progression"
+    ],
+    "tags": [
+      "hr",
+      "people",
+      "corporate",
+      "strategic"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "MBA / PGDM in Human Resources (XLRI, TISS, Symbiosis preferred)",
+      "SHRM-CP or PHRi certification is a plus",
+      "5+ years as HR Generalist before transitioning to HRBP role"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "talent_acquisition_in",
+    "title": "Talent Acquisition Specialist",
+    "category": "Human Resources",
+    "description": "Source, attract, and hire top talent for organizations. Manage end-to-end recruitment from writing job descriptions to onboarding. Specialists in tech hiring, campus recruitment, or executive search command premium salaries.",
+    "salary_range": {
+      "min": 30000,
+      "max": 120000,
+      "currency": "INR/month",
+      "note": "Entry to Senior Recruiter"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "People-oriented",
+      "Target-driven",
+      "Networking-heavy"
+    ],
+    "required_skills": [
+      {
+        "skill": "Sourcing & Boolean Search",
+        "level": "critical"
+      },
+      {
+        "skill": "LinkedIn Recruiter",
+        "level": "critical"
+      },
+      {
+        "skill": "Candidate Assessment",
+        "level": "critical"
+      },
+      {
+        "skill": "ATS Tools (Workday, Taleo, Keka)",
+        "level": "important"
+      },
+      {
+        "skill": "Employer Branding",
+        "level": "important"
+      },
+      {
+        "skill": "Negotiation",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "MBA in HR",
+      "Any graduate + HR certification",
+      "Staffing agency experience"
+    ],
+    "tags": [
+      "hr",
+      "recruitment",
+      "hiring",
+      "people"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "Bachelor's or MBA in HR or related field",
+      "Certifications: LinkedIn Recruiter credential",
+      "Experience with tech recruiting is highly valued"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "learning_development_in",
+    "title": "Learning & Development Manager",
+    "category": "Human Resources",
+    "description": "Design, implement, and manage employee training and development programs. Identify skill gaps, create learning paths, and measure training effectiveness. Growing in importance as companies invest in upskilling their workforce.",
+    "salary_range": {
+      "min": 60000,
+      "max": 180000,
+      "currency": "INR/month",
+      "note": "Manager to Head of L&D"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Collaborative",
+      "Creative",
+      "Analytical"
+    ],
+    "required_skills": [
+      {
+        "skill": "Instructional Design",
+        "level": "critical"
+      },
+      {
+        "skill": "LMS Platforms (TalentLMS, Cornerstone)",
+        "level": "critical"
+      },
+      {
+        "skill": "Training Needs Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "eLearning Tools (Articulate, Adobe Captivate)",
+        "level": "important"
+      },
+      {
+        "skill": "Facilitation & Presentation",
+        "level": "important"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "helpful"
+      },
+      {
+        "skill": "Budget Management",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "MBA in HR",
+      "Training & OD specialization",
+      "Corporate trainer to L&D Manager"
+    ],
+    "tags": [
+      "hr",
+      "training",
+      "upskilling",
+      "corporate"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "MBA / PGDM in HR or Organisational Behaviour",
+      "Certified Professional in Learning and Performance (CPTD) is a plus",
+      "3-5 years in corporate training or instructional design"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "digital_archivist_in",
+    "title": "Digital Archivist / Library Information Specialist",
+    "category": "Library & Information Science",
+    "description": "Preserve, organise, and provide access to digital and physical records, manuscripts, and media. Work in government archives, universities, museums, media houses, and corporate knowledge centres. India has vast heritage collections needing digitization.",
+    "salary_range": {
+      "min": 25000,
+      "max": 90000,
+      "currency": "INR/month",
+      "note": "Junior to Senior Archivist"
+    },
+    "growth_outlook": "Medium",
+    "work_style": [
+      "Detail-oriented",
+      "Research-focused",
+      "Quiet environment"
+    ],
+    "required_skills": [
+      {
+        "skill": "Archival Science",
+        "level": "critical"
+      },
+      {
+        "skill": "Digital Preservation Standards",
+        "level": "critical"
+      },
+      {
+        "skill": "Library Software (Koha, DSpace)",
+        "level": "important"
+      },
+      {
+        "skill": "Metadata Standards (Dublin Core, MARC)",
+        "level": "important"
+      },
+      {
+        "skill": "Scanning & Digitisation",
+        "level": "important"
+      },
+      {
+        "skill": "Research & Cataloguing",
+        "level": "critical"
+      },
+      {
+        "skill": "Database Management",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "MLIS (Master of Library & Information Science)",
+      "BA + BLIS + MLIS",
+      "Government recruitment via UPSC/SSC"
+    ],
+    "tags": [
+      "library",
+      "archives",
+      "heritage",
+      "research"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "Bachelor of Library & Information Science (BLIS) + MLIS",
+      "UGC-NET in Library & Information Science for lectureship/research",
+      "Diploma in Digital Preservation or Archival Studies is a plus"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "community_development_officer_in",
+    "title": "Community Development Officer",
+    "category": "Social Work & Community",
+    "description": "Plan and implement programs to improve living standards in communities covering health, education, livelihood, housing, and sanitation. Work with NGOs, government, UN agencies, and CSR wings. Impactful career for those driven by social change.",
+    "salary_range": {
+      "min": 20000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Field Officer to Program Manager"
+    },
+    "growth_outlook": "Medium",
+    "work_style": [
+      "Field-based",
+      "Mission-driven",
+      "Team-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Community Mobilisation",
+        "level": "critical"
+      },
+      {
+        "skill": "Project Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Report Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "Monitoring & Evaluation",
+        "level": "important"
+      },
+      {
+        "skill": "Local Language Communication",
+        "level": "important"
+      },
+      {
+        "skill": "MS Office / Google Workspace",
+        "level": "important"
+      },
+      {
+        "skill": "Stakeholder Engagement",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MSW (Master of Social Work)",
+      "MA Sociology / Rural Development",
+      "Volunteer to Field Officer"
+    ],
+    "tags": [
+      "ngo",
+      "community",
+      "social-impact",
+      "field-work"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "Bachelor's or Master's in Social Work (BSW / MSW)",
+      "TISS, Jamia Millia, Delhi School of Social Work are top institutions",
+      "UN Volunteers or NYKS experience is a strong credential"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "retail_store_manager_in",
+    "title": "Retail Store Manager",
+    "category": "Retail & Commerce",
+    "description": "Oversee day-to-day operations of a retail store managing staff, inventory, customer experience, and sales targets. Works across fashion, electronics, grocery, and consumer goods. Entry point to regional and national retail leadership.",
+    "salary_range": {
+      "min": 25000,
+      "max": 80000,
+      "currency": "INR/month",
+      "note": "Store to Regional Manager"
+    },
+    "growth_outlook": "Medium",
+    "work_style": [
+      "Customer-facing",
+      "Fast-paced",
+      "Target-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Team Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Inventory Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Sales & Upselling",
+        "level": "important"
+      },
+      {
+        "skill": "POS Systems",
+        "level": "important"
+      },
+      {
+        "skill": "Visual Merchandising",
+        "level": "helpful"
+      },
+      {
+        "skill": "Loss Prevention",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Any graduate + retail trainee program",
+      "BBA / MBA in Retail Management",
+      "Sales associate to Team lead to Manager"
+    ],
+    "tags": [
+      "retail",
+      "sales",
+      "management",
+      "consumer"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "Bachelor's in any field; BBA or MBA in Retail Management preferred",
+      "Diploma in Retail Management (Pearl Academy, Amity)",
+      "Company training programs (Reliance, Tata, DMart, Zara India)"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "ecommerce_manager_in",
+    "title": "E-Commerce Manager",
+    "category": "Retail & Commerce",
+    "description": "Manage online retail operations including product listings, pricing, inventory, seller coordination, and performance marketing on Amazon, Flipkart, Meesho, or a brand's own website. High demand as India's e-commerce market grows rapidly.",
+    "salary_range": {
+      "min": 40000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Executive to Head of E-Commerce"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "Data-driven",
+      "Analytical",
+      "Fast-paced"
+    ],
+    "required_skills": [
+      {
+        "skill": "Marketplace Management (Amazon, Flipkart)",
+        "level": "critical"
+      },
+      {
+        "skill": "Product Catalogue Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Performance Marketing (Meta, Google Ads)",
+        "level": "important"
+      },
+      {
+        "skill": "Excel / Google Sheets",
+        "level": "critical"
+      },
+      {
+        "skill": "Inventory & Logistics Coordination",
+        "level": "important"
+      },
+      {
+        "skill": "SEO Basics",
+        "level": "helpful"
+      },
+      {
+        "skill": "Shopify / WooCommerce",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "BBA / MBA in Marketing",
+      "E-commerce certification courses",
+      "Seller on Amazon to Manager role"
+    ],
+    "tags": [
+      "ecommerce",
+      "digital",
+      "retail",
+      "marketplace"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "Bachelor's in Marketing / Commerce or any field",
+      "Certifications: Amazon Seller University, Google Digital Marketing",
+      "Experience running own e-commerce store or internship with D2C brand"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "pharma_research_scientist_in",
+    "title": "Pharmaceutical Research Scientist",
+    "category": "Biotechnology & Pharma R&D",
+    "description": "Develop and test new drugs, formulations, and therapies. Work in drug discovery, clinical research, regulatory affairs, or quality assurance. India is the world's pharmacy with Sun Pharma, Cipla, and Dr. Reddy's as major employers.",
+    "salary_range": {
+      "min": 40000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Research Associate to Principal Scientist"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Lab-based",
+      "Detail-oriented",
+      "Research-focused"
+    ],
+    "required_skills": [
+      {
+        "skill": "Organic Chemistry / Medicinal Chemistry",
+        "level": "critical"
+      },
+      {
+        "skill": "Drug Formulation",
+        "level": "critical"
+      },
+      {
+        "skill": "GMP & GLP Compliance",
+        "level": "critical"
+      },
+      {
+        "skill": "Analytical Techniques (HPLC, NMR, MS)",
+        "level": "important"
+      },
+      {
+        "skill": "Clinical Trial Protocols",
+        "level": "important"
+      },
+      {
+        "skill": "Documentation & Regulatory Writing",
+        "level": "important"
+      },
+      {
+        "skill": "Statistical Analysis",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "M.Pharm / PhD in Pharmacy",
+      "M.Sc. Chemistry + pharma R&D internship",
+      "NIPER (National Institute of Pharma Ed)"
+    ],
+    "tags": [
+      "pharma",
+      "research",
+      "drug-discovery",
+      "science"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "M.Pharm, M.Sc. Pharma Chemistry, or PhD in Pharmaceutical Sciences",
+      "NIPER (Mohali, Hyderabad, Ahmedabad) is the premier institution",
+      "CSIR-NET / GATE score required for government research positions"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "bioinformatics_in",
+    "title": "Bioinformatics Scientist",
+    "category": "Biotechnology & Pharma R&D",
+    "description": "Apply computational tools to analyse biological data including genomics, proteomics, drug target identification, and disease research. Sits at the intersection of biology, statistics, and computer science. Rapidly growing with India's genomics push.",
+    "salary_range": {
+      "min": 40000,
+      "max": 180000,
+      "currency": "INR/month",
+      "note": "Analyst to Principal Scientist"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "Computational",
+      "Research-focused",
+      "Independent"
+    ],
+    "required_skills": [
+      {
+        "skill": "Python / R",
+        "level": "critical"
+      },
+      {
+        "skill": "Genomic Data Analysis",
+        "level": "critical"
+      },
+      {
+        "skill": "Bioinformatics Tools (BLAST, Galaxy, Bioconductor)",
+        "level": "critical"
+      },
+      {
+        "skill": "Statistics & Machine Learning",
+        "level": "important"
+      },
+      {
+        "skill": "Linux / HPC",
+        "level": "important"
+      },
+      {
+        "skill": "Molecular Biology Fundamentals",
+        "level": "important"
+      },
+      {
+        "skill": "Biological Databases (NCBI, Ensembl)",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "M.Sc. Bioinformatics",
+      "PhD in Computational Biology",
+      "BTech Biotechnology + self-taught coding"
+    ],
+    "tags": [
+      "bioinformatics",
+      "genomics",
+      "research",
+      "biotech"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "M.Sc. in Bioinformatics, Computational Biology, or Biotechnology",
+      "IISC, JNU, Pune University offer strong programs",
+      "DBT-JRF or CSIR-NET for government research fellowships"
+    ],
+    "collar": "new"
+  },
+  {
+    "id": "income_tax_officer_in",
+    "title": "Income Tax Officer (IRS)",
+    "category": "Government & Public Service",
+    "description": "Assess and collect income tax, investigate tax evasion, conduct audits, and enforce tax laws under the Indian Revenue Service (IRS). Prestigious government job with job security and good perks. Entry through UPSC Civil Services or SSC CGL.",
+    "salary_range": {
+      "min": 44900,
+      "max": 142400,
+      "currency": "INR/month",
+      "note": "ITO to Commissioner (7th Pay Commission)"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Office-based",
+      "Analytical",
+      "Authority-role"
+    ],
+    "required_skills": [
+      {
+        "skill": "Income Tax Laws & Acts",
+        "level": "critical"
+      },
+      {
+        "skill": "Financial Auditing",
+        "level": "critical"
+      },
+      {
+        "skill": "Tax Assessment Procedures",
+        "level": "critical"
+      },
+      {
+        "skill": "Investigation Techniques",
+        "level": "important"
+      },
+      {
+        "skill": "Legal Documentation",
+        "level": "important"
+      },
+      {
+        "skill": "Computer Applications",
+        "level": "important"
+      },
+      {
+        "skill": "Communication",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "UPSC Civil Services (IRS - IT)",
+      "SSC CGL (Tax Assistant / Inspector)",
+      "UPSC CMS for departmental officers"
+    ],
+    "tags": [
+      "government",
+      "irs",
+      "tax",
+      "upsc",
+      "ssc"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "Any bachelor's degree for UPSC / SSC CGL eligibility",
+      "Crack UPSC Civil Services (IRS-IT cadre) for gazetted officer entry",
+      "SSC CGL for Tax Assistant to Inspector to ITO promotion path"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "customs_inspector_in",
+    "title": "Customs Inspector / IRS (Customs & Indirect Taxes)",
+    "category": "Government & Public Service",
+    "description": "Inspect goods at ports, airports, and border checkpoints to prevent smuggling, assess customs duty, and enforce import/export laws. Senior officers join IRS (Customs & IT) through UPSC. Exciting field with international exposure.",
+    "salary_range": {
+      "min": 35400,
+      "max": 112400,
+      "currency": "INR/month",
+      "note": "Inspector to Deputy Commissioner"
+    },
+    "growth_outlook": "Stable",
+    "work_style": [
+      "Field-based",
+      "Investigative",
+      "Shift-work"
+    ],
+    "required_skills": [
+      {
+        "skill": "Customs Act & GST Laws",
+        "level": "critical"
+      },
+      {
+        "skill": "Import / Export Procedures",
+        "level": "critical"
+      },
+      {
+        "skill": "Risk Assessment",
+        "level": "important"
+      },
+      {
+        "skill": "Cargo Inspection Techniques",
+        "level": "important"
+      },
+      {
+        "skill": "ICEGATE Portal",
+        "level": "important"
+      },
+      {
+        "skill": "Legal Procedures",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "UPSC Civil Services (IRS C&IT)",
+      "SSC CGL to Customs Inspector",
+      "Department promotion path"
+    ],
+    "tags": [
+      "government",
+      "customs",
+      "border",
+      "upsc",
+      "gst"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "Any bachelor's degree for SSC CGL eligibility",
+      "UPSC Civil Services for IRS Customs & Indirect Taxes cadre",
+      "Training at National Academy of Customs Indirect Taxes & Narcotics (NACIN)"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "scrum_master_in",
+    "title": "Scrum Master / Agile Coach",
+    "category": "Technology",
+    "description": "Facilitate agile software development processes, remove impediments for teams, and coach organisations in Scrum and Kanban methodologies. A key role in IT companies, startups, and large enterprises adopting agile transformation.",
+    "salary_range": {
+      "min": 60000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Scrum Master to Enterprise Agile Coach"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Collaborative",
+      "Process-oriented",
+      "Servant-leader"
+    ],
+    "required_skills": [
+      {
+        "skill": "Scrum Framework",
+        "level": "critical"
+      },
+      {
+        "skill": "Agile Methodologies",
+        "level": "critical"
+      },
+      {
+        "skill": "Jira / Azure DevOps",
+        "level": "critical"
+      },
+      {
+        "skill": "Facilitation & Coaching",
+        "level": "critical"
+      },
+      {
+        "skill": "Conflict Resolution",
+        "level": "important"
+      },
+      {
+        "skill": "Kanban",
+        "level": "important"
+      },
+      {
+        "skill": "SAFe Framework",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "CSM Certification + IT experience",
+      "QA / BA to Scrum Master",
+      "PSM I certification (Scrum.org)"
+    ],
+    "tags": [
+      "agile",
+      "scrum",
+      "tech",
+      "management",
+      "process"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "CSM (Certified ScrumMaster) from Scrum Alliance or PSM from Scrum.org",
+      "SAFe Scrum Master (SSM) for large enterprise environments",
+      "3+ years of IT project experience before transitioning to SM role"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "cloud_engineer_in",
+    "title": "Cloud Engineer",
+    "category": "Technology",
+    "description": "Design, build, and maintain cloud infrastructure on AWS, GCP, or Azure. Different from a Cloud Architect who plans, cloud engineers implement, automate, and optimise cloud environments. One of the most in-demand tech roles globally.",
+    "salary_range": {
+      "min": 60000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Junior to Senior Cloud Engineer"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "Remote-friendly",
+      "Technical",
+      "Problem-solving"
+    ],
+    "required_skills": [
+      {
+        "skill": "AWS / GCP / Azure",
+        "level": "critical"
+      },
+      {
+        "skill": "Terraform / Infrastructure as Code",
+        "level": "critical"
+      },
+      {
+        "skill": "Linux & Shell Scripting",
+        "level": "critical"
+      },
+      {
+        "skill": "Docker & Kubernetes",
+        "level": "important"
+      },
+      {
+        "skill": "CI/CD Pipelines",
+        "level": "important"
+      },
+      {
+        "skill": "Networking (VPC, DNS, Load Balancing)",
+        "level": "important"
+      },
+      {
+        "skill": "Python / Bash Scripting",
+        "level": "important"
+      },
+      {
+        "skill": "Security Best Practices",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "AWS/GCP/Azure certification + projects",
+      "BTech CS + cloud internship",
+      "DevOps Engineer to Cloud Engineer"
+    ],
+    "tags": [
+      "cloud",
+      "aws",
+      "gcp",
+      "azure",
+      "tech",
+      "remote"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "BTech / BSc in CS or IT",
+      "Cloud certifications: AWS Solutions Architect, GCP ACE, Azure AZ-104",
+      "HashiCorp Terraform Associate certification is highly valued"
+    ],
+    "collar": "new"
+  },
+  {
+    "id": "ar_vr_developer_in",
+    "title": "AR / VR Developer",
+    "category": "Technology",
+    "description": "Build immersive augmented reality and virtual reality experiences for gaming, education, healthcare, retail, and training. Rapidly growing with adoption of Meta Quest, Apple Vision Pro, and enterprise XR applications.",
+    "salary_range": {
+      "min": 50000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Junior to Senior XR Developer"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "Creative",
+      "Technical",
+      "Remote-friendly"
+    ],
+    "required_skills": [
+      {
+        "skill": "Unity 3D",
+        "level": "critical"
+      },
+      {
+        "skill": "C#",
+        "level": "critical"
+      },
+      {
+        "skill": "ARKit / ARCore",
+        "level": "critical"
+      },
+      {
+        "skill": "3D Modelling Basics",
+        "level": "important"
+      },
+      {
+        "skill": "Unreal Engine",
+        "level": "helpful"
+      },
+      {
+        "skill": "OpenXR / WebXR",
+        "level": "important"
+      },
+      {
+        "skill": "Git",
+        "level": "important"
+      },
+      {
+        "skill": "Performance Optimisation",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "Unity / Unreal self-learning + portfolio",
+      "BTech CS + game dev specialization",
+      "Game developer to XR specialization"
+    ],
+    "tags": [
+      "ar",
+      "vr",
+      "xr",
+      "tech",
+      "gaming",
+      "metaverse"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "BTech / BSc in CS, IT, or Game Design",
+      "Unity Certified Developer or Epic Games Unreal certification",
+      "Strong portfolio of AR/VR demos on GitHub or app stores is essential"
+    ],
+    "collar": "new"
+  },
+  {
+    "id": "neurologist_in",
+    "title": "Neurologist",
+    "category": "Healthcare",
+    "description": "Diagnose and treat disorders of the nervous system including brain, spinal cord, and nerves. Manages epilepsy, stroke, Parkinson's, MS, dementia, and headache disorders. One of the most respected and highest-paid medical specialties in India.",
+    "salary_range": {
+      "min": 150000,
+      "max": 600000,
+      "currency": "INR/month",
+      "note": "Junior Consultant to Senior Consultant"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Hospital-based",
+      "Consultative",
+      "High-responsibility"
+    ],
+    "required_skills": [
+      {
+        "skill": "Neurology Clinical Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "EEG / EMG Interpretation",
+        "level": "critical"
+      },
+      {
+        "skill": "MRI / CT Neuroimaging",
+        "level": "critical"
+      },
+      {
+        "skill": "Lumbar Puncture",
+        "level": "important"
+      },
+      {
+        "skill": "Stroke Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Patient Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Research & Case Study",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "MBBS to MD Medicine to DM Neurology",
+      "MBBS to MD Pediatrics to DM Pediatric Neurology"
+    ],
+    "tags": [
+      "doctor",
+      "specialist",
+      "neurology",
+      "hospital",
+      "high-salary"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "MBBS (5.5 years) from NMC-recognized college",
+      "MD in General Medicine (3 years) via NEET-PG",
+      "DM in Neurology (3 years) via NEET-SS; top institutes: NIMHANS, AIIMS, PGI Chandigarh"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "gastroenterologist_in",
+    "title": "Gastroenterologist",
+    "category": "Healthcare",
+    "description": "Diagnose and treat diseases of the digestive system including stomach, intestines, liver, pancreas, and gallbladder. Performs endoscopy and colonoscopy procedures. High demand given India's growing prevalence of GI disorders and liver disease.",
+    "salary_range": {
+      "min": 120000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Consultant to Senior Consultant"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Procedural",
+      "Hospital-based",
+      "Consultative"
+    ],
+    "required_skills": [
+      {
+        "skill": "GI Clinical Knowledge",
+        "level": "critical"
+      },
+      {
+        "skill": "Endoscopy & Colonoscopy",
+        "level": "critical"
+      },
+      {
+        "skill": "Liver Disease Management",
+        "level": "critical"
+      },
+      {
+        "skill": "ERCP / EUS Procedures",
+        "level": "important"
+      },
+      {
+        "skill": "Hepatology",
+        "level": "important"
+      },
+      {
+        "skill": "Patient Counselling",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MBBS to MD Medicine to DM Gastroenterology",
+      "MBBS to MS Surgery to MCh GI Surgery (surgical route)"
+    ],
+    "tags": [
+      "doctor",
+      "specialist",
+      "gastro",
+      "hospital"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "MBBS + MD General Medicine via NEET-PG",
+      "DM Gastroenterology via NEET-SS; SGPGI, AIIMS, CMC Vellore are top institutes",
+      "Fellowship in Advanced Endoscopy post-DM adds significant value"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "epidemiologist_in",
+    "title": "Epidemiologist / Public Health Specialist",
+    "category": "Science & Research",
+    "description": "Study the patterns, causes, and control of diseases in populations. Work in disease surveillance, outbreak response, health policy, and preventive healthcare. India's ICMR, NCDC, and WHO India office are major employers.",
+    "salary_range": {
+      "min": 50000,
+      "max": 180000,
+      "currency": "INR/month",
+      "note": "Research Scientist to Program Director"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Research-focused",
+      "Field & Office hybrid",
+      "Mission-driven"
+    ],
+    "required_skills": [
+      {
+        "skill": "Epidemiological Methods",
+        "level": "critical"
+      },
+      {
+        "skill": "Biostatistics",
+        "level": "critical"
+      },
+      {
+        "skill": "Disease Surveillance Systems",
+        "level": "critical"
+      },
+      {
+        "skill": "SPSS / STATA / R",
+        "level": "important"
+      },
+      {
+        "skill": "Public Health Policy",
+        "level": "important"
+      },
+      {
+        "skill": "Field Investigation",
+        "level": "important"
+      },
+      {
+        "skill": "Report Writing",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "MBBS + MD Community Medicine",
+      "MPH (Master of Public Health)",
+      "MSc Epidemiology + ICMR research"
+    ],
+    "tags": [
+      "public-health",
+      "research",
+      "science",
+      "who",
+      "icmr"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "MBBS + MD Community Medicine via NEET-PG or",
+      "MPH from TISS, AIIMS, CMC Vellore, or international (Johns Hopkins)",
+      "FETP (Field Epidemiology Training Programme) by MoHFW is a prestigious fellowship"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "compliance_officer_in",
+    "title": "Compliance Officer",
+    "category": "Finance",
+    "description": "Ensure organisations comply with laws, regulations, and internal policies covering SEBI regulations, RBI guidelines, taxation, labour laws, and anti-money laundering rules. Critical role in banks, NBFCs, listed companies, and fintech firms.",
+    "salary_range": {
+      "min": 60000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Compliance Executive to Chief Compliance Officer"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Office-based",
+      "Analytical",
+      "Detail-oriented"
+    ],
+    "required_skills": [
+      {
+        "skill": "SEBI / RBI Regulations",
+        "level": "critical"
+      },
+      {
+        "skill": "Companies Act & Corporate Law",
+        "level": "critical"
+      },
+      {
+        "skill": "AML / KYC Compliance",
+        "level": "critical"
+      },
+      {
+        "skill": "Risk Assessment",
+        "level": "important"
+      },
+      {
+        "skill": "Audit & Internal Controls",
+        "level": "important"
+      },
+      {
+        "skill": "MCA Portal / SEBI Filing",
+        "level": "important"
+      },
+      {
+        "skill": "Documentation & Reporting",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "LLB / CS + compliance certification",
+      "CA / MBA Finance + SEBI experience",
+      "Bank officer to Compliance specialization"
+    ],
+    "tags": [
+      "finance",
+      "legal",
+      "banking",
+      "regulation",
+      "risk"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "LLB / CS (Company Secretary) or CA is the most common qualification",
+      "Certified Anti-Money Laundering Specialist (CAMS) is internationally recognized",
+      "SEBI-registered compliance officer certification for capital market firms"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "risk_analyst_in",
+    "title": "Risk Analyst",
+    "category": "Finance",
+    "description": "Identify, assess, and mitigate financial, operational, credit, or market risks for banks, insurance companies, and corporates. Produces risk reports, models exposure, and recommends controls. Growing role as the Indian financial sector matures.",
+    "salary_range": {
+      "min": 40000,
+      "max": 180000,
+      "currency": "INR/month",
+      "note": "Analyst to Risk Manager"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Analytical",
+      "Office-based",
+      "Quantitative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Financial Risk Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Excel & Financial Modelling",
+        "level": "critical"
+      },
+      {
+        "skill": "Credit Risk Assessment",
+        "level": "important"
+      },
+      {
+        "skill": "Basel III / RBI Risk Norms",
+        "level": "important"
+      },
+      {
+        "skill": "Python / R for Risk Modelling",
+        "level": "helpful"
+      },
+      {
+        "skill": "VaR & Stress Testing",
+        "level": "important"
+      },
+      {
+        "skill": "Report Writing",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MBA Finance + risk internship",
+      "CA / CFA + banking experience",
+      "FRM (Financial Risk Manager) certification"
+    ],
+    "tags": [
+      "finance",
+      "risk",
+      "banking",
+      "analytics"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "MBA Finance (IIM, FMS, NMIMS) or CA/CFA",
+      "FRM (GARP) or PRM certification is the gold standard for risk professionals",
+      "PGDM Banking & Risk from NIBM Pune is a specialized option"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "patent_attorney_in",
+    "title": "Patent Attorney / IP Lawyer",
+    "category": "Legal & Justice",
+    "description": "Draft, file, and prosecute patent applications and advise on intellectual property rights covering inventions, trademarks, copyrights, and trade secrets. Requires both technical and legal knowledge. Growing with India's startup and pharma patent filings.",
+    "salary_range": {
+      "min": 60000,
+      "max": 300000,
+      "currency": "INR/month",
+      "note": "Junior Patent Agent to Partner"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Office-based",
+      "Research-intensive",
+      "Detail-oriented"
+    ],
+    "required_skills": [
+      {
+        "skill": "Patent Law & The Patents Act 1970",
+        "level": "critical"
+      },
+      {
+        "skill": "Patent Drafting",
+        "level": "critical"
+      },
+      {
+        "skill": "Technical Domain Knowledge (CS / Bio / Mech)",
+        "level": "critical"
+      },
+      {
+        "skill": "Prior Art Search",
+        "level": "important"
+      },
+      {
+        "skill": "Trademark & Copyright Law",
+        "level": "important"
+      },
+      {
+        "skill": "PCT / WIPO Filing Procedures",
+        "level": "important"
+      },
+      {
+        "skill": "Litigation Support",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "BTech + LLB (Dual degree)",
+      "BE/BTech + LLB independently",
+      "Patent Agent Exam (CGPDTM)"
+    ],
+    "tags": [
+      "legal",
+      "patents",
+      "ip",
+      "tech-law",
+      "high-salary"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "BTech / BSc in Science/Tech + LLB or LLM in IP Law",
+      "Pass the Patent Agent Examination (CGPDTM, India Office of the Controller General)",
+      "LLM in IP Law from NLU, NALSAR, or NUJS; WIPO online courses available"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "corporate_lawyer_in",
+    "title": "Corporate Lawyer",
+    "category": "Legal & Justice",
+    "description": "Handle legal matters for businesses including M&A deals, contracts, corporate governance, foreign investment, fundraising, and regulatory compliance. Work in law firms, in-house legal teams, or investment banks. Top earner in the legal profession.",
+    "salary_range": {
+      "min": 60000,
+      "max": 500000,
+      "currency": "INR/month",
+      "note": "Associate to Partner at top law firms"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "High-pressure",
+      "Deal-driven",
+      "Client-facing"
+    ],
+    "required_skills": [
+      {
+        "skill": "Companies Act & SEBI Regulations",
+        "level": "critical"
+      },
+      {
+        "skill": "Contract Drafting & Negotiation",
+        "level": "critical"
+      },
+      {
+        "skill": "M&A Transaction Structuring",
+        "level": "critical"
+      },
+      {
+        "skill": "Due Diligence",
+        "level": "critical"
+      },
+      {
+        "skill": "Foreign Exchange Management Act (FEMA)",
+        "level": "important"
+      },
+      {
+        "skill": "Legal Research",
+        "level": "important"
+      },
+      {
+        "skill": "Financial Literacy",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "NLU to Tier-1 law firm (AZB, Cyril, Trilegal)",
+      "LLB + LLM (Corporate Law)",
+      "CA to Corporate lawyer (5-year LLB)"
+    ],
+    "tags": [
+      "legal",
+      "corporate",
+      "finance",
+      "deals",
+      "high-salary"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "BA LLB (5-year) or LLB (3-year) from NLU or Bar Council recognized college",
+      "CLAT for National Law Universities — the top 5 NLUs lead to Tier-1 firms",
+      "LLM in Corporate Law from NLU Delhi, NALSAR, or foreign university is a plus"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "environmental_engineer_in",
+    "title": "Environmental Engineer",
+    "category": "Energy & Utilities",
+    "description": "Design systems to protect the environment including wastewater treatment, air pollution control, solid waste management, and environmental impact assessments. Work with industries, municipalities, NGOs, and environmental consultancies.",
+    "salary_range": {
+      "min": 35000,
+      "max": 150000,
+      "currency": "INR/month",
+      "note": "Graduate Engineer to Senior Consultant"
+    },
+    "growth_outlook": "High",
+    "work_style": [
+      "Field & Office",
+      "Analytical",
+      "Collaborative"
+    ],
+    "required_skills": [
+      {
+        "skill": "Environmental Laws & EIA",
+        "level": "critical"
+      },
+      {
+        "skill": "Wastewater Treatment Design",
+        "level": "important"
+      },
+      {
+        "skill": "Air Quality Monitoring",
+        "level": "important"
+      },
+      {
+        "skill": "GIS Mapping",
+        "level": "helpful"
+      },
+      {
+        "skill": "AutoCAD",
+        "level": "helpful"
+      },
+      {
+        "skill": "Environmental Sampling & Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Report Writing",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "BTech Environmental Engineering",
+      "BTech Civil + MTech Environmental",
+      "CPCB / SPCB recruitment"
+    ],
+    "tags": [
+      "environment",
+      "engineering",
+      "pollution",
+      "sustainability"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "BTech / BE in Environmental Engineering or Civil Engineering",
+      "MTech in Environmental Engineering from IIT, NIT, or BITS is preferred for senior roles",
+      "GATE score required for PSU / government research positions"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "sustainability_consultant_in",
+    "title": "Sustainability Consultant / ESG Analyst",
+    "category": "Energy & Utilities",
+    "description": "Help companies measure, report, and improve their Environmental, Social, and Governance (ESG) performance. Growing rapidly as SEBI mandates BRSR reporting for listed companies and global investors demand ESG data.",
+    "salary_range": {
+      "min": 50000,
+      "max": 200000,
+      "currency": "INR/month",
+      "note": "Analyst to Director, ESG"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "Consultative",
+      "Data-driven",
+      "Cross-functional"
+    ],
+    "required_skills": [
+      {
+        "skill": "ESG Frameworks (GRI, SASB, TCFD)",
+        "level": "critical"
+      },
+      {
+        "skill": "Carbon Accounting & LCA",
+        "level": "important"
+      },
+      {
+        "skill": "BRSR / Sustainability Reporting",
+        "level": "critical"
+      },
+      {
+        "skill": "Data Analysis",
+        "level": "important"
+      },
+      {
+        "skill": "Stakeholder Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Climate Risk Assessment",
+        "level": "helpful"
+      },
+      {
+        "skill": "Excel / Power BI",
+        "level": "important"
+      }
+    ],
+    "entry_paths": [
+      "MBA + ESG certification",
+      "Engineering/Science background + sustainability courses",
+      "CSR to ESG consulting"
+    ],
+    "tags": [
+      "esg",
+      "sustainability",
+      "environment",
+      "corporate",
+      "climate"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "MBA / PGDM or BTech/MTech in Environmental Science or related",
+      "GRI Certified Sustainability Professional or SASB FSA Credential",
+      "CFA ESG Investing Certificate is recognized globally"
+    ],
+    "collar": "new"
+  },
+  {
+    "id": "product_designer_in",
+    "title": "Product Designer",
+    "category": "Design & Creative",
+    "description": "Design digital products end-to-end from user research and wireframes to high-fidelity prototypes and design systems. Works closely with product managers and engineers. Owns the full product experience from discovery to launch.",
+    "salary_range": {
+      "min": 50000,
+      "max": 250000,
+      "currency": "INR/month",
+      "note": "Junior to Staff Product Designer"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "Creative",
+      "Collaborative",
+      "Remote-friendly"
+    ],
+    "required_skills": [
+      {
+        "skill": "Figma",
+        "level": "critical"
+      },
+      {
+        "skill": "User Research Methods",
+        "level": "critical"
+      },
+      {
+        "skill": "Design Systems",
+        "level": "critical"
+      },
+      {
+        "skill": "Prototyping",
+        "level": "important"
+      },
+      {
+        "skill": "Usability Testing",
+        "level": "important"
+      },
+      {
+        "skill": "Information Architecture",
+        "level": "important"
+      },
+      {
+        "skill": "Cross-functional Collaboration",
+        "level": "helpful"
+      },
+      {
+        "skill": "Motion Design",
+        "level": "helpful"
+      }
+    ],
+    "entry_paths": [
+      "BTech + self-taught Figma portfolio",
+      "BDes / MDes (IIT, NID)",
+      "Graphic designer to Product designer"
+    ],
+    "tags": [
+      "design",
+      "ux",
+      "product",
+      "figma",
+      "remote"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "BDes / MDes from NID Ahmedabad, IIT (IDC), or Srishti Institute",
+      "Bachelor's in any field + strong Figma portfolio (self-taught path widely accepted)",
+      "Google UX Design Certificate (Coursera) for career changers"
+    ],
+    "collar": "white"
+  },
+  {
+    "id": "emergency_physician_in",
+    "title": "Emergency Medicine Physician",
+    "category": "Healthcare",
+    "description": "Provide immediate treatment for acute illnesses, injuries, and life-threatening conditions in emergency departments. Manages trauma, cardiac arrests, strokes, and poisoning. A high-stakes specialty that is rapidly professionalising in India.",
+    "salary_range": {
+      "min": 100000,
+      "max": 400000,
+      "currency": "INR/month",
+      "note": "Senior Resident to Consultant"
+    },
+    "growth_outlook": "Very High",
+    "work_style": [
+      "High-pressure",
+      "Shift-based",
+      "Team-based"
+    ],
+    "required_skills": [
+      {
+        "skill": "Emergency Clinical Protocols (ACLS, ATLS)",
+        "level": "critical"
+      },
+      {
+        "skill": "Resuscitation & Airway Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Trauma Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Point-of-Care Ultrasound (POCUS)",
+        "level": "important"
+      },
+      {
+        "skill": "Critical Care Triage",
+        "level": "critical"
+      },
+      {
+        "skill": "Team Leadership",
+        "level": "important"
+      },
+      {
+        "skill": "Clinical Decision Making",
+        "level": "critical"
+      }
+    ],
+    "entry_paths": [
+      "MBBS to MD Emergency Medicine",
+      "MBBS to DNB Emergency Medicine",
+      "MBBS to Fellowship in Emergency Medicine (FEM)"
+    ],
+    "tags": [
+      "doctor",
+      "emergency",
+      "hospital",
+      "critical-care"
+    ],
+    "region": "IN",
+    "qualifications": [
+      "MBBS from NMC-recognized college",
+      "MD / DNB Emergency Medicine (3 years) via NEET-PG",
+      "ACLS, ATLS, PALS certifications mandatory; fellowship from SEMI (Society for Emergency Medicine India)"
+    ],
+    "collar": "white"
   }
 ]
