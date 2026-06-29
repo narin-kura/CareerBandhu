@@ -1576,6 +1576,38 @@
       {
         "skill": "Differentiated Instruction",
         "level": "helpful"
+      },
+      {
+        "skill": "Explaining Things Simply",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "critical"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "important"
+      },
+      {
+        "skill": "Hindi Communication",
+        "level": "helpful"
+      },
+      {
+        "skill": "Regional Language Fluency",
+        "level": "helpful"
+      },
+      {
+        "skill": "Self-Motivation & Discipline",
+        "level": "important"
+      },
+      {
+        "skill": "Encouraging Others",
+        "level": "important"
+      },
+      {
+        "skill": "Working in a Team",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -2442,6 +2474,30 @@
       {
         "skill": "Blueprint Reading",
         "level": "helpful"
+      },
+      {
+        "skill": "Basic Electrical Fixes (Bulb, Switch)",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic Electrical Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Working in Heat / Outdoors",
+        "level": "helpful"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "important"
+      },
+      {
+        "skill": "Safety Awareness",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -2504,6 +2560,18 @@
       {
         "skill": "Customer Service",
         "level": "helpful"
+      },
+      {
+        "skill": "Basic Plumbing Fixes",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -2570,6 +2638,22 @@
       {
         "skill": "Design Sense",
         "level": "helpful"
+      },
+      {
+        "skill": "Furniture Assembly",
+        "level": "important"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Measuring & Weighing",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -2697,6 +2781,22 @@
       {
         "skill": "Mathematics",
         "level": "helpful"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Steady Hands (Precision Work)",
+        "level": "critical"
+      },
+      {
+        "skill": "Safety Awareness",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -2829,6 +2929,38 @@
       },
       {
         "skill": "Record Keeping",
+        "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Working Night Shifts",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "critical"
+      },
+      {
+        "skill": "Active Listening",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Standing for Long Hours",
+        "level": "important"
+      },
+      {
+        "skill": "Stress Management",
         "level": "important"
       }
     ],
@@ -3020,6 +3152,22 @@
       {
         "skill": "Assessment Skills",
         "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "critical"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -3152,6 +3300,30 @@
       {
         "skill": "Menu Planning",
         "level": "helpful"
+      },
+      {
+        "skill": "Home Cooking",
+        "level": "critical"
+      },
+      {
+        "skill": "Cooking Regional Indian Cuisine",
+        "level": "critical"
+      },
+      {
+        "skill": "Kitchen Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Meal Planning",
+        "level": "important"
+      },
+      {
+        "skill": "Food Hygiene",
+        "level": "critical"
+      },
+      {
+        "skill": "Creativity",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -3219,6 +3391,22 @@
       {
         "skill": "Languages",
         "level": "helpful"
+      },
+      {
+        "skill": "Household Management",
+        "level": "helpful"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Working in a Team",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -3280,6 +3468,18 @@
       {
         "skill": "Inventory Management",
         "level": "helpful"
+      },
+      {
+        "skill": "Baking at Home",
+        "level": "important"
+      },
+      {
+        "skill": "Meal Planning",
+        "level": "helpful"
+      },
+      {
+        "skill": "Precision & Measurement",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -3347,6 +3547,30 @@
       {
         "skill": "Communication",
         "level": "helpful"
+      },
+      {
+        "skill": "Haircare Routine",
+        "level": "important"
+      },
+      {
+        "skill": "Talking to Strangers / Networking",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "helpful"
+      },
+      {
+        "skill": "Colour Recognition",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -3413,6 +3637,30 @@
       },
       {
         "skill": "Social Media",
+        "level": "helpful"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Home Workout",
+        "level": "important"
+      },
+      {
+        "skill": "Gym Basics",
+        "level": "important"
+      },
+      {
+        "skill": "Bodyweight Training",
+        "level": "important"
+      },
+      {
+        "skill": "Stretching & Flexibility",
+        "level": "important"
+      },
+      {
+        "skill": "Teaching Yourself New Skills",
         "level": "helpful"
       }
     ],
@@ -3481,6 +3729,26 @@
       {
         "skill": "Sanskrit Basics",
         "level": "helpful"
+      },
+      {
+        "skill": "Yoga (Personal Practice)",
+        "level": "critical"
+      },
+      {
+        "skill": "Breathing Exercises",
+        "level": "critical"
+      },
+      {
+        "skill": "Mindfulness & Presence",
+        "level": "important"
+      },
+      {
+        "skill": "Teaching Yourself New Skills",
+        "level": "important"
+      },
+      {
+        "skill": "Flexibility",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -3547,6 +3815,22 @@
       {
         "skill": "Adobe Illustrator",
         "level": "helpful"
+      },
+      {
+        "skill": "Basic Sewing & Stitching",
+        "level": "important"
+      },
+      {
+        "skill": "Colour Recognition",
+        "level": "important"
+      },
+      {
+        "skill": "Creativity",
+        "level": "critical"
+      },
+      {
+        "skill": "Instagram Reels Shooting",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -3609,6 +3893,22 @@
       {
         "skill": "Customer Service",
         "level": "helpful"
+      },
+      {
+        "skill": "Basic Sewing & Stitching",
+        "level": "critical"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Measuring & Weighing",
+        "level": "important"
+      },
+      {
+        "skill": "Cutting & Trimming (Precision)",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -3671,6 +3971,18 @@
       {
         "skill": "Customer Service",
         "level": "helpful"
+      },
+      {
+        "skill": "Driving (Heavy Vehicle)",
+        "level": "critical"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -3802,6 +4114,34 @@
       },
       {
         "skill": "Technology Adoption",
+        "level": "helpful"
+      },
+      {
+        "skill": "Gardening at Home",
+        "level": "helpful"
+      },
+      {
+        "skill": "Working in Heat / Outdoors",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Water Conservation",
+        "level": "important"
+      },
+      {
+        "skill": "Waste Sorting & Recycling",
+        "level": "helpful"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Grocery Shopping & Budgeting",
         "level": "helpful"
       }
     ],
@@ -3936,6 +4276,30 @@
       },
       {
         "skill": "Social Media",
+        "level": "helpful"
+      },
+      {
+        "skill": "Smartphone Photography",
+        "level": "helpful"
+      },
+      {
+        "skill": "Basic Video Editing (CapCut, InShot)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Instagram Reels Shooting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Colour Recognition",
+        "level": "important"
+      },
+      {
+        "skill": "Creativity",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
         "level": "helpful"
       }
     ],
@@ -4203,6 +4567,30 @@
       {
         "skill": "Customer Service",
         "level": "helpful"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "important"
+      },
+      {
+        "skill": "UPI & Digital Payments (PhonePe, GPay, Paytm)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "helpful"
+      },
+      {
+        "skill": "MS Excel (Basic)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -4400,6 +4788,34 @@
       {
         "skill": "Problem Solving",
         "level": "helpful"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "critical"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "important"
+      },
+      {
+        "skill": "Working in a Team",
+        "level": "important"
+      },
+      {
+        "skill": "Basic Inventory Counting",
+        "level": "important"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "helpful"
+      },
+      {
+        "skill": "UPI & Digital Payments (PhonePe, GPay, Paytm)",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -4465,6 +4881,34 @@
       {
         "skill": "Data Collection",
         "level": "helpful"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "critical"
+      },
+      {
+        "skill": "Community Service",
+        "level": "important"
+      },
+      {
+        "skill": "Volunteering & Community Service",
+        "level": "important"
+      },
+      {
+        "skill": "Hindi Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Regional Language Fluency",
+        "level": "important"
+      },
+      {
+        "skill": "Civic Responsibility",
+        "level": "helpful"
+      },
+      {
+        "skill": "Field Research",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -4531,6 +4975,34 @@
       {
         "skill": "Video Shooting",
         "level": "helpful"
+      },
+      {
+        "skill": "Reading Books & Articles",
+        "level": "important"
+      },
+      {
+        "skill": "Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "Smartphone Photography",
+        "level": "helpful"
+      },
+      {
+        "skill": "Social Media (Facebook, Instagram, YouTube)",
+        "level": "important"
+      },
+      {
+        "skill": "WhatsApp & Messaging Apps",
+        "level": "helpful"
+      },
+      {
+        "skill": "Talking to Strangers / Networking",
+        "level": "critical"
+      },
+      {
+        "skill": "Curiosity & Research",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -5219,6 +5691,38 @@
       {
         "skill": "Calm Under Pressure",
         "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Working Night Shifts",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "critical"
+      },
+      {
+        "skill": "Active Listening",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Standing for Long Hours",
+        "level": "important"
+      },
+      {
+        "skill": "Stress Management",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -5283,6 +5787,30 @@
       {
         "skill": "Mathematics",
         "level": "helpful"
+      },
+      {
+        "skill": "Basic Electrical Fixes (Bulb, Switch)",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic Electrical Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Working in Heat / Outdoors",
+        "level": "helpful"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "important"
+      },
+      {
+        "skill": "Safety Awareness",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -5468,6 +5996,22 @@
       {
         "skill": "Time Management",
         "level": "important"
+      },
+      {
+        "skill": "Driving (Heavy Vehicle)",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Endurance & Long Hours",
+        "level": "important"
+      },
+      {
+        "skill": "Basic Vehicle Maintenance",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -5654,6 +6198,38 @@
       {
         "skill": "Empathy",
         "level": "important"
+      },
+      {
+        "skill": "Explaining Things Simply",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "critical"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "important"
+      },
+      {
+        "skill": "Hindi Communication",
+        "level": "helpful"
+      },
+      {
+        "skill": "Regional Language Fluency",
+        "level": "helpful"
+      },
+      {
+        "skill": "Self-Motivation & Discipline",
+        "level": "important"
+      },
+      {
+        "skill": "Encouraging Others",
+        "level": "important"
+      },
+      {
+        "skill": "Working in a Team",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -6156,6 +6732,22 @@
       {
         "skill": "Attention to Detail",
         "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Steady Hands (Precision Work)",
+        "level": "critical"
+      },
+      {
+        "skill": "Safety Awareness",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -7143,6 +7735,30 @@
       {
         "skill": "Negotiation",
         "level": "important"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "important"
+      },
+      {
+        "skill": "UPI & Digital Payments (PhonePe, GPay, Paytm)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "helpful"
+      },
+      {
+        "skill": "MS Excel (Basic)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -7335,6 +7951,30 @@
       {
         "skill": "Attention to Detail",
         "level": "important"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "important"
+      },
+      {
+        "skill": "UPI & Digital Payments (PhonePe, GPay, Paytm)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "helpful"
+      },
+      {
+        "skill": "MS Excel (Basic)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -7398,6 +8038,30 @@
       {
         "skill": "Financial Literacy",
         "level": "helpful"
+      },
+      {
+        "skill": "Talking to Strangers / Networking",
+        "level": "critical"
+      },
+      {
+        "skill": "Persuasion & Convincing",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "important"
+      },
+      {
+        "skill": "WhatsApp & Messaging Apps",
+        "level": "important"
+      },
+      {
+        "skill": "Self-Motivation & Discipline",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -7589,6 +8253,30 @@
       {
         "skill": "Mathematics",
         "level": "important"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "important"
+      },
+      {
+        "skill": "UPI & Digital Payments (PhonePe, GPay, Paytm)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "helpful"
+      },
+      {
+        "skill": "MS Excel (Basic)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -7968,6 +8656,30 @@
       {
         "skill": "Math",
         "level": "helpful"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "important"
+      },
+      {
+        "skill": "UPI & Digital Payments (PhonePe, GPay, Paytm)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "helpful"
+      },
+      {
+        "skill": "MS Excel (Basic)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -9805,6 +10517,30 @@
       {
         "skill": "Physical Fitness",
         "level": "helpful"
+      },
+      {
+        "skill": "Home Cooking",
+        "level": "critical"
+      },
+      {
+        "skill": "Street Food Preparation",
+        "level": "critical"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Shopping & Bargaining",
+        "level": "important"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -9869,6 +10605,26 @@
       },
       {
         "skill": "Design",
+        "level": "helpful"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Colour Recognition",
+        "level": "important"
+      },
+      {
+        "skill": "Cutting & Trimming (Precision)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Online Shopping (Amazon, Flipkart, Meesho)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Social Media (Facebook, Instagram, YouTube)",
         "level": "helpful"
       }
     ],
@@ -9935,6 +10691,26 @@
       {
         "skill": "Food Safety & Hygiene",
         "level": "critical"
+      },
+      {
+        "skill": "Home Cooking",
+        "level": "critical"
+      },
+      {
+        "skill": "Meal Planning",
+        "level": "important"
+      },
+      {
+        "skill": "Online Shopping (Amazon, Flipkart, Meesho)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Food Delivery Apps (Zomato, Swiggy)",
+        "level": "important"
+      },
+      {
+        "skill": "UPI & Digital Payments (PhonePe, GPay, Paytm)",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -10134,6 +10910,26 @@
       },
       {
         "skill": "Communication",
+        "level": "helpful"
+      },
+      {
+        "skill": "Online Shopping (Amazon, Flipkart, Meesho)",
+        "level": "important"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "critical"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "important"
+      },
+      {
+        "skill": "MS Excel (Basic)",
+        "level": "important"
+      },
+      {
+        "skill": "Google Sheets",
         "level": "helpful"
       }
     ],
@@ -12620,6 +13416,54 @@
       {
         "skill": "Soil & Irrigation knowledge",
         "level": "helpful"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Working Night Shifts",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "critical"
+      },
+      {
+        "skill": "Active Listening",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Standing for Long Hours",
+        "level": "important"
+      },
+      {
+        "skill": "Stress Management",
+        "level": "important"
+      },
+      {
+        "skill": "Plant Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Indoor Plants",
+        "level": "important"
+      },
+      {
+        "skill": "Gardening at Home",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -12684,6 +13528,38 @@
       },
       {
         "skill": "Physical Fitness",
+        "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Working Night Shifts",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "critical"
+      },
+      {
+        "skill": "Active Listening",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Standing for Long Hours",
+        "level": "important"
+      },
+      {
+        "skill": "Stress Management",
         "level": "important"
       }
     ],
@@ -12954,6 +13830,34 @@
       {
         "skill": "Data Entry",
         "level": "helpful"
+      },
+      {
+        "skill": "Phone Etiquette",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Being Approachable",
+        "level": "critical"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "important"
+      },
+      {
+        "skill": "MS Word (Basic)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Basic Typing",
+        "level": "helpful"
+      },
+      {
+        "skill": "Talking to Strangers / Networking",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -13019,6 +13923,50 @@
       {
         "skill": "Vendor Coordination",
         "level": "helpful"
+      },
+      {
+        "skill": "MS Word (Basic)",
+        "level": "critical"
+      },
+      {
+        "skill": "MS Excel (Basic)",
+        "level": "important"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Scanning & Printing Documents",
+        "level": "important"
+      },
+      {
+        "skill": "Basic Typing",
+        "level": "important"
+      },
+      {
+        "skill": "Filing & Documentation (Basic)",
+        "level": "important"
+      },
+      {
+        "skill": "Phone Etiquette",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Google Docs & Sheets",
+        "level": "helpful"
+      },
+      {
+        "skill": "Printing, Scanning & Photocopying",
+        "level": "important"
+      },
+      {
+        "skill": "Basic Stationery & Office Supply Management",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -13083,6 +14031,34 @@
       },
       {
         "skill": "Confidentiality",
+        "level": "important"
+      },
+      {
+        "skill": "Phone Etiquette",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Being Approachable",
+        "level": "critical"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "important"
+      },
+      {
+        "skill": "MS Word (Basic)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Basic Typing",
+        "level": "helpful"
+      },
+      {
+        "skill": "Talking to Strangers / Networking",
         "level": "important"
       }
     ],
@@ -13758,6 +14734,38 @@
       {
         "skill": "Physical Fitness",
         "level": "helpful"
+      },
+      {
+        "skill": "Driving (Two-Wheeler)",
+        "level": "critical"
+      },
+      {
+        "skill": "Google Maps & Navigation",
+        "level": "critical"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "important"
+      },
+      {
+        "skill": "UPI & Digital Payments (PhonePe, GPay, Paytm)",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -13824,6 +14832,30 @@
       {
         "skill": "Traffic Rules Knowledge",
         "level": "critical"
+      },
+      {
+        "skill": "Driving (Car / 4-Wheeler)",
+        "level": "critical"
+      },
+      {
+        "skill": "Google Maps & Navigation",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "critical"
+      },
+      {
+        "skill": "Cab Booking Apps (Ola, Uber)",
+        "level": "important"
+      },
+      {
+        "skill": "Talking to Strangers / Networking",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -13882,6 +14914,22 @@
       {
         "skill": "Basic Vehicle Maintenance",
         "level": "helpful"
+      },
+      {
+        "skill": "Driving (Two-Wheeler)",
+        "level": "critical"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "important"
+      },
+      {
+        "skill": "Sense of Direction",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -13943,6 +14991,22 @@
       {
         "skill": "Loading & Unloading coordination",
         "level": "helpful"
+      },
+      {
+        "skill": "Driving (Heavy Vehicle)",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Endurance & Long Hours",
+        "level": "important"
+      },
+      {
+        "skill": "Basic Vehicle Maintenance",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -14003,6 +15067,34 @@
       },
       {
         "skill": "Emergency Response basics",
+        "level": "helpful"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Working Night Shifts",
+        "level": "important"
+      },
+      {
+        "skill": "Standing for Long Hours",
+        "level": "critical"
+      },
+      {
+        "skill": "Following Instructions",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic First Aid at Home",
+        "level": "helpful"
+      },
+      {
+        "skill": "Smartphone Usage",
         "level": "helpful"
       }
     ],
@@ -14069,6 +15161,22 @@
       {
         "skill": "Physical Fitness",
         "level": "critical"
+      },
+      {
+        "skill": "Painting Walls (DIY)",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Working in Heat / Outdoors",
+        "level": "important"
+      },
+      {
+        "skill": "Colour Recognition",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -14134,6 +15242,22 @@
       {
         "skill": "Customer Service",
         "level": "helpful"
+      },
+      {
+        "skill": "Basic Sewing & Stitching",
+        "level": "critical"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Measuring & Weighing",
+        "level": "important"
+      },
+      {
+        "skill": "Cutting & Trimming (Precision)",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -14198,6 +15322,22 @@
       },
       {
         "skill": "Material Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Furniture Assembly",
+        "level": "important"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Measuring & Weighing",
         "level": "important"
       }
     ],
@@ -14264,6 +15404,18 @@
       {
         "skill": "Physical Fitness",
         "level": "important"
+      },
+      {
+        "skill": "Basic Plumbing Fixes",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -14329,6 +15481,22 @@
       {
         "skill": "Physical Fitness",
         "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Steady Hands (Precision Work)",
+        "level": "critical"
+      },
+      {
+        "skill": "Safety Awareness",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -14394,6 +15562,18 @@
       {
         "skill": "Material Knowledge",
         "level": "helpful"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Working in Heat / Outdoors",
+        "level": "critical"
+      },
+      {
+        "skill": "Heavy Lifting & Loading",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -14454,6 +15634,26 @@
       },
       {
         "skill": "Reliability & Punctuality",
+        "level": "critical"
+      },
+      {
+        "skill": "Home Cooking",
+        "level": "critical"
+      },
+      {
+        "skill": "Cooking Regional Indian Cuisine",
+        "level": "critical"
+      },
+      {
+        "skill": "Kitchen Management",
+        "level": "important"
+      },
+      {
+        "skill": "Grocery Shopping & Budgeting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Punctuality & Reliability",
         "level": "critical"
       }
     ],
@@ -14516,6 +15716,26 @@
       {
         "skill": "Data Organisation",
         "level": "important"
+      },
+      {
+        "skill": "Basic Typing",
+        "level": "critical"
+      },
+      {
+        "skill": "MS Excel (Basic)",
+        "level": "critical"
+      },
+      {
+        "skill": "MS Word (Basic)",
+        "level": "important"
+      },
+      {
+        "skill": "Scanning & Printing Documents",
+        "level": "helpful"
+      },
+      {
+        "skill": "Following Instructions",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -14581,6 +15801,30 @@
       {
         "skill": "Physical Fitness",
         "level": "critical"
+      },
+      {
+        "skill": "Gardening at Home",
+        "level": "critical"
+      },
+      {
+        "skill": "Plant Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Working in Heat / Outdoors",
+        "level": "important"
+      },
+      {
+        "skill": "Water Conservation",
+        "level": "helpful"
+      },
+      {
+        "skill": "Crop Knowledge",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -14645,6 +15889,22 @@
       },
       {
         "skill": "Stain Removal",
+        "level": "important"
+      },
+      {
+        "skill": "Laundry & Fabric Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Home Cleaning & Hygiene",
+        "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "helpful"
+      },
+      {
+        "skill": "Punctuality & Reliability",
         "level": "important"
       }
     ],
@@ -14711,6 +15971,26 @@
       {
         "skill": "Troubleshooting",
         "level": "helpful"
+      },
+      {
+        "skill": "Basic Electrical Fixes (Bulb, Switch)",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Working in Heat / Outdoors",
+        "level": "helpful"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "important"
+      },
+      {
+        "skill": "Safety Awareness",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -15097,6 +16377,34 @@
       {
         "skill": "Report Writing",
         "level": "helpful"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Working Night Shifts",
+        "level": "important"
+      },
+      {
+        "skill": "Standing for Long Hours",
+        "level": "critical"
+      },
+      {
+        "skill": "Following Instructions",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic First Aid at Home",
+        "level": "helpful"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -15288,6 +16596,22 @@
       },
       {
         "skill": "Customer Service",
+        "level": "helpful"
+      },
+      {
+        "skill": "Painting Walls (DIY)",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Working in Heat / Outdoors",
+        "level": "important"
+      },
+      {
+        "skill": "Colour Recognition",
         "level": "helpful"
       }
     ],
@@ -16002,6 +17326,30 @@
       {
         "skill": "Photography & Documentation",
         "level": "critical"
+      },
+      {
+        "skill": "Talking to Strangers / Networking",
+        "level": "critical"
+      },
+      {
+        "skill": "Persuasion & Convincing",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "important"
+      },
+      {
+        "skill": "WhatsApp & Messaging Apps",
+        "level": "important"
+      },
+      {
+        "skill": "Self-Motivation & Discipline",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -16066,6 +17414,30 @@
       {
         "skill": "CRM Software",
         "level": "helpful"
+      },
+      {
+        "skill": "Talking to Strangers / Networking",
+        "level": "critical"
+      },
+      {
+        "skill": "Persuasion & Convincing",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "important"
+      },
+      {
+        "skill": "WhatsApp & Messaging Apps",
+        "level": "important"
+      },
+      {
+        "skill": "Self-Motivation & Discipline",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -16512,6 +17884,26 @@
       {
         "skill": "Communication",
         "level": "critical"
+      },
+      {
+        "skill": "Yoga (Personal Practice)",
+        "level": "critical"
+      },
+      {
+        "skill": "Breathing Exercises",
+        "level": "critical"
+      },
+      {
+        "skill": "Mindfulness & Presence",
+        "level": "important"
+      },
+      {
+        "skill": "Teaching Yourself New Skills",
+        "level": "important"
+      },
+      {
+        "skill": "Flexibility",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -18696,6 +20088,18 @@
       {
         "skill": "Research & Evidence-Based Practice",
         "level": "important"
+      },
+      {
+        "skill": "Meal Planning",
+        "level": "critical"
+      },
+      {
+        "skill": "Home Cooking",
+        "level": "helpful"
+      },
+      {
+        "skill": "Basic Nutrition for Skin & Hair",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -18890,6 +20294,26 @@
       {
         "skill": "Social Media & Author Platform Building",
         "level": "important"
+      },
+      {
+        "skill": "Reading Books & Articles",
+        "level": "critical"
+      },
+      {
+        "skill": "Journalling",
+        "level": "helpful"
+      },
+      {
+        "skill": "Creative Writing",
+        "level": "critical"
+      },
+      {
+        "skill": "Self-Motivation & Discipline",
+        "level": "important"
+      },
+      {
+        "skill": "Self-Study & Online Courses",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -19150,6 +20574,30 @@
       {
         "skill": "Equipment Management",
         "level": "important"
+      },
+      {
+        "skill": "Smartphone Photography",
+        "level": "helpful"
+      },
+      {
+        "skill": "Basic Video Editing (CapCut, InShot)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Instagram Reels Shooting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Colour Recognition",
+        "level": "important"
+      },
+      {
+        "skill": "Creativity",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -19279,6 +20727,30 @@
       {
         "skill": "Ritual Materials & Samagri Knowledge",
         "level": "important"
+      },
+      {
+        "skill": "Puja & Religious Rituals",
+        "level": "critical"
+      },
+      {
+        "skill": "Aarti & Prayer Conduct",
+        "level": "critical"
+      },
+      {
+        "skill": "Sanskrit",
+        "level": "important"
+      },
+      {
+        "skill": "Flower Garland Making (Haar / Gajra)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Regional Language Fluency",
+        "level": "important"
+      },
+      {
+        "skill": "Memory & Retention Techniques",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -19342,6 +20814,26 @@
       },
       {
         "skill": "Digital Content Creation (for YouTube / social reach)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Talking to Strangers / Networking",
+        "level": "important"
+      },
+      {
+        "skill": "Memory for Faces & Names",
+        "level": "helpful"
+      },
+      {
+        "skill": "Explaining Things Simply",
+        "level": "important"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "helpful"
+      },
+      {
+        "skill": "Online Forms & Applications",
         "level": "helpful"
       }
     ],
@@ -19407,6 +20899,38 @@
       },
       {
         "skill": "Online Course Creation (helpful)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Explaining Things Simply",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "critical"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "important"
+      },
+      {
+        "skill": "Hindi Communication",
+        "level": "helpful"
+      },
+      {
+        "skill": "Regional Language Fluency",
+        "level": "helpful"
+      },
+      {
+        "skill": "Self-Motivation & Discipline",
+        "level": "important"
+      },
+      {
+        "skill": "Encouraging Others",
+        "level": "important"
+      },
+      {
+        "skill": "Working in a Team",
         "level": "helpful"
       }
     ],
@@ -19727,6 +21251,30 @@
       {
         "skill": "Donor Reporting (USAID, UN, CSR)",
         "level": "important"
+      },
+      {
+        "skill": "Volunteering & Community Service",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "critical"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "important"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "helpful"
+      },
+      {
+        "skill": "WhatsApp & Messaging Apps",
+        "level": "helpful"
+      },
+      {
+        "skill": "Hindi Communication",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -20058,6 +21606,30 @@
       {
         "skill": "Communication",
         "level": "helpful"
+      },
+      {
+        "skill": "Haircare Routine",
+        "level": "important"
+      },
+      {
+        "skill": "Talking to Strangers / Networking",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "helpful"
+      },
+      {
+        "skill": "Colour Recognition",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -20121,6 +21693,22 @@
       {
         "skill": "Costing & Selling to Buyers",
         "level": "helpful"
+      },
+      {
+        "skill": "Saree Weaving",
+        "level": "critical"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Colour Recognition",
+        "level": "important"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -20184,6 +21772,34 @@
       {
         "skill": "Basic Accounting/GST",
         "level": "helpful"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "critical"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "important"
+      },
+      {
+        "skill": "Working in a Team",
+        "level": "important"
+      },
+      {
+        "skill": "Basic Inventory Counting",
+        "level": "important"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "helpful"
+      },
+      {
+        "skill": "UPI & Digital Payments (PhonePe, GPay, Paytm)",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -20717,6 +22333,22 @@
       {
         "skill": "Instagram Portfolio Building",
         "level": "important"
+      },
+      {
+        "skill": "Mehndi / Henna Application",
+        "level": "critical"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Steady Hands (Precision Work)",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -20776,6 +22408,46 @@
       {
         "skill": "Social Media Showcasing",
         "level": "important"
+      },
+      {
+        "skill": "Rangoli Making",
+        "level": "critical"
+      },
+      {
+        "skill": "Colour Recognition",
+        "level": "critical"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "important"
+      },
+      {
+        "skill": "Creativity",
+        "level": "critical"
+      },
+      {
+        "skill": "Volunteering & Community Service",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "critical"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "important"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "helpful"
+      },
+      {
+        "skill": "WhatsApp & Messaging Apps",
+        "level": "helpful"
+      },
+      {
+        "skill": "Hindi Communication",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -20833,6 +22505,30 @@
       },
       {
         "skill": "Teaching & Running a Dance School",
+        "level": "helpful"
+      },
+      {
+        "skill": "Classical Dance",
+        "level": "critical"
+      },
+      {
+        "skill": "Flexibility",
+        "level": "critical"
+      },
+      {
+        "skill": "Balance & Coordination",
+        "level": "critical"
+      },
+      {
+        "skill": "Memory & Retention Techniques",
+        "level": "important"
+      },
+      {
+        "skill": "Yoga (Personal Practice)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Endurance & Long Hours",
         "level": "helpful"
       }
     ],
@@ -21300,6 +22996,30 @@
       {
         "skill": "Selling Stock / Running Tours",
         "level": "helpful"
+      },
+      {
+        "skill": "Smartphone Photography",
+        "level": "helpful"
+      },
+      {
+        "skill": "Basic Video Editing (CapCut, InShot)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Instagram Reels Shooting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Colour Recognition",
+        "level": "important"
+      },
+      {
+        "skill": "Creativity",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -21533,6 +23253,34 @@
       {
         "skill": "Basic Costing",
         "level": "helpful"
+      },
+      {
+        "skill": "Gardening at Home",
+        "level": "helpful"
+      },
+      {
+        "skill": "Working in Heat / Outdoors",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Water Conservation",
+        "level": "important"
+      },
+      {
+        "skill": "Waste Sorting & Recycling",
+        "level": "helpful"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Grocery Shopping & Budgeting",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -21591,6 +23339,38 @@
       {
         "skill": "Farm Record-keeping",
         "level": "helpful"
+      },
+      {
+        "skill": "Gardening at Home",
+        "level": "helpful"
+      },
+      {
+        "skill": "Working in Heat / Outdoors",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Water Conservation",
+        "level": "important"
+      },
+      {
+        "skill": "Waste Sorting & Recycling",
+        "level": "helpful"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Grocery Shopping & Budgeting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Plant Care",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -21824,6 +23604,34 @@
       {
         "skill": "Brand Collaboration & Monetisation",
         "level": "important"
+      },
+      {
+        "skill": "Home Cooking",
+        "level": "critical"
+      },
+      {
+        "skill": "Smartphone Photography",
+        "level": "critical"
+      },
+      {
+        "skill": "Instagram Reels Shooting",
+        "level": "critical"
+      },
+      {
+        "skill": "YouTube Video Shooting (Home)",
+        "level": "important"
+      },
+      {
+        "skill": "Basic Video Editing (CapCut, InShot)",
+        "level": "important"
+      },
+      {
+        "skill": "Storytelling in Conversation",
+        "level": "important"
+      },
+      {
+        "skill": "Social Media (Facebook, Instagram, YouTube)",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -22120,6 +23928,38 @@
       {
         "skill": "Empathy",
         "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Working Night Shifts",
+        "level": "important"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "critical"
+      },
+      {
+        "skill": "Active Listening",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Standing for Long Hours",
+        "level": "important"
+      },
+      {
+        "skill": "Stress Management",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -22176,6 +24016,22 @@
       {
         "skill": "Biosafety",
         "level": "important"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "important"
+      },
+      {
+        "skill": "Steady Hands (Precision Work)",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Attention to Detail",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -22283,6 +24139,18 @@
       {
         "skill": "Calm Under Pressure",
         "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic First Aid at Home",
+        "level": "important"
+      },
+      {
+        "skill": "Working Night Shifts",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -23390,6 +25258,22 @@
       {
         "skill": "Problem-solving",
         "level": "important"
+      },
+      {
+        "skill": "Household Management",
+        "level": "helpful"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Working in a Team",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -23446,6 +25330,26 @@
       {
         "skill": "Cost Control",
         "level": "helpful"
+      },
+      {
+        "skill": "Home Cooking",
+        "level": "critical"
+      },
+      {
+        "skill": "Cooking Regional Indian Cuisine",
+        "level": "critical"
+      },
+      {
+        "skill": "Meal Planning",
+        "level": "important"
+      },
+      {
+        "skill": "Food Hygiene",
+        "level": "critical"
+      },
+      {
+        "skill": "Creativity",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -23664,6 +25568,38 @@
       {
         "skill": "Resilience",
         "level": "important"
+      },
+      {
+        "skill": "Talking to Strangers / Networking",
+        "level": "critical"
+      },
+      {
+        "skill": "Persuasion & Convincing",
+        "level": "critical"
+      },
+      {
+        "skill": "Driving (Two-Wheeler)",
+        "level": "helpful"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "important"
+      },
+      {
+        "skill": "Walking Long Distances",
+        "level": "helpful"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "helpful"
+      },
+      {
+        "skill": "Self-Motivation & Discipline",
+        "level": "critical"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -23716,6 +25652,30 @@
       {
         "skill": "Client Service & Renewals",
         "level": "important"
+      },
+      {
+        "skill": "Talking to Strangers / Networking",
+        "level": "critical"
+      },
+      {
+        "skill": "Persuasion & Convincing",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "important"
+      },
+      {
+        "skill": "WhatsApp & Messaging Apps",
+        "level": "important"
+      },
+      {
+        "skill": "Self-Motivation & Discipline",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -23772,6 +25732,42 @@
       {
         "skill": "Patience & Empathy",
         "level": "important"
+      },
+      {
+        "skill": "Phone Etiquette",
+        "level": "critical"
+      },
+      {
+        "skill": "English Speaking (Basic)",
+        "level": "important"
+      },
+      {
+        "skill": "Hindi Communication",
+        "level": "important"
+      },
+      {
+        "skill": "Active Listening",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Complaint Handling (Basic)",
+        "level": "critical"
+      },
+      {
+        "skill": "Working Night Shifts",
+        "level": "helpful"
+      },
+      {
+        "skill": "Basic Computer Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Keeping Calm Under Stress",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -23826,6 +25822,30 @@
       },
       {
         "skill": "Stakeholder Management",
+        "level": "important"
+      },
+      {
+        "skill": "Reading Books & Articles",
+        "level": "important"
+      },
+      {
+        "skill": "Self-Study & Online Courses",
+        "level": "helpful"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "critical"
+      },
+      {
+        "skill": "PowerPoint (Basic)",
+        "level": "critical"
+      },
+      {
+        "skill": "MS Excel (Basic)",
+        "level": "critical"
+      },
+      {
+        "skill": "Networking & Making Connections",
         "level": "important"
       }
     ],
@@ -23992,6 +26012,50 @@
       {
         "skill": "Time Management",
         "level": "important"
+      },
+      {
+        "skill": "MS Word (Basic)",
+        "level": "critical"
+      },
+      {
+        "skill": "MS Excel (Basic)",
+        "level": "important"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "critical"
+      },
+      {
+        "skill": "Scanning & Printing Documents",
+        "level": "important"
+      },
+      {
+        "skill": "Basic Typing",
+        "level": "important"
+      },
+      {
+        "skill": "Filing & Documentation (Basic)",
+        "level": "important"
+      },
+      {
+        "skill": "Phone Etiquette",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Google Docs & Sheets",
+        "level": "helpful"
+      },
+      {
+        "skill": "Printing, Scanning & Photocopying",
+        "level": "important"
+      },
+      {
+        "skill": "Basic Stationery & Office Supply Management",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -24155,6 +26219,22 @@
       {
         "skill": "Curriculum Design",
         "level": "helpful"
+      },
+      {
+        "skill": "Explaining Things Simply",
+        "level": "critical"
+      },
+      {
+        "skill": "Reading Books & Articles",
+        "level": "important"
+      },
+      {
+        "skill": "Self-Study & Online Courses",
+        "level": "important"
+      },
+      {
+        "skill": "Academic Writing",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -24210,6 +26290,38 @@
       {
         "skill": "Lesson Planning",
         "level": "important"
+      },
+      {
+        "skill": "Explaining Things Simply",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "critical"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "important"
+      },
+      {
+        "skill": "Hindi Communication",
+        "level": "helpful"
+      },
+      {
+        "skill": "Regional Language Fluency",
+        "level": "helpful"
+      },
+      {
+        "skill": "Self-Motivation & Discipline",
+        "level": "important"
+      },
+      {
+        "skill": "Encouraging Others",
+        "level": "important"
+      },
+      {
+        "skill": "Working in a Team",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -24264,6 +26376,22 @@
       },
       {
         "skill": "Parent Collaboration",
+        "level": "important"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "critical"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "critical"
+      },
+      {
+        "skill": "Encouraging Others",
+        "level": "critical"
+      },
+      {
+        "skill": "Adaptability to Change",
         "level": "important"
       }
     ],
@@ -24320,6 +26448,30 @@
       {
         "skill": "Student Motivation",
         "level": "important"
+      },
+      {
+        "skill": "Explaining Things Simply",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "critical"
+      },
+      {
+        "skill": "Subject Matter Expertise",
+        "level": "critical"
+      },
+      {
+        "skill": "Goal Setting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "helpful"
+      },
+      {
+        "skill": "Video Calling (Zoom, Google Meet, WhatsApp)",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -24431,6 +26583,30 @@
       {
         "skill": "Community Management",
         "level": "important"
+      },
+      {
+        "skill": "Social Media (Facebook, Instagram, YouTube)",
+        "level": "critical"
+      },
+      {
+        "skill": "Instagram Reels Shooting",
+        "level": "important"
+      },
+      {
+        "skill": "Creating Thumbnails (Canva)",
+        "level": "important"
+      },
+      {
+        "skill": "YouTube Watching & Uploading",
+        "level": "helpful"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "important"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -24590,6 +26766,38 @@
       {
         "skill": "Hygiene & Mobility Support",
         "level": "important"
+      },
+      {
+        "skill": "Elder Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Childcare & Babysitting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic First Aid at Home",
+        "level": "important"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Home Cooking",
+        "level": "helpful"
+      },
+      {
+        "skill": "Household Management",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -24698,6 +26906,30 @@
       {
         "skill": "Studio Management",
         "level": "helpful"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Steady Hands (Precision Work)",
+        "level": "critical"
+      },
+      {
+        "skill": "Colour Recognition",
+        "level": "important"
+      },
+      {
+        "skill": "Creativity",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Consultation",
+        "level": "important"
+      },
+      {
+        "skill": "Basic Hygiene & Sanitation",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -24809,6 +27041,38 @@
       {
         "skill": "Content Creation",
         "level": "helpful"
+      },
+      {
+        "skill": "Empathy & Compassion",
+        "level": "critical"
+      },
+      {
+        "skill": "Active Listening",
+        "level": "critical"
+      },
+      {
+        "skill": "Encouraging Others",
+        "level": "critical"
+      },
+      {
+        "skill": "Self-Awareness",
+        "level": "important"
+      },
+      {
+        "skill": "Emotional Regulation",
+        "level": "important"
+      },
+      {
+        "skill": "Goal Setting",
+        "level": "critical"
+      },
+      {
+        "skill": "Self-Motivation & Discipline",
+        "level": "important"
+      },
+      {
+        "skill": "Gratitude Practice",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -24864,6 +27128,18 @@
       {
         "skill": "Online Coaching",
         "level": "helpful"
+      },
+      {
+        "skill": "Meal Planning",
+        "level": "critical"
+      },
+      {
+        "skill": "Home Cooking",
+        "level": "helpful"
+      },
+      {
+        "skill": "Basic Nutrition for Skin & Hair",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -25575,6 +27851,26 @@
       {
         "skill": "Portfolio & Social Media",
         "level": "important"
+      },
+      {
+        "skill": "Skincare Routine",
+        "level": "important"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Colour Recognition",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Mehndi / Henna Application",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -25626,6 +27922,30 @@
       },
       {
         "skill": "Hygiene & Tools",
+        "level": "important"
+      },
+      {
+        "skill": "Haircare Routine",
+        "level": "important"
+      },
+      {
+        "skill": "Talking to Strangers / Networking",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Patience in Difficult Situations",
+        "level": "helpful"
+      },
+      {
+        "skill": "Colour Recognition",
         "level": "important"
       }
     ],
@@ -25955,6 +28275,30 @@
       {
         "skill": "Customer Service",
         "level": "important"
+      },
+      {
+        "skill": "Hair Cutting",
+        "level": "critical"
+      },
+      {
+        "skill": "Haircare Routine",
+        "level": "important"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Talking to Strangers / Networking",
+        "level": "helpful"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -26007,6 +28351,30 @@
       {
         "skill": "Customer Service",
         "level": "important"
+      },
+      {
+        "skill": "Flower Garland Making (Haar / Gajra)",
+        "level": "critical"
+      },
+      {
+        "skill": "Plant Care",
+        "level": "important"
+      },
+      {
+        "skill": "Colour Recognition",
+        "level": "critical"
+      },
+      {
+        "skill": "Creativity",
+        "level": "critical"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "important"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -26117,6 +28485,34 @@
       },
       {
         "skill": "Costing",
+        "level": "helpful"
+      },
+      {
+        "skill": "Gardening at Home",
+        "level": "helpful"
+      },
+      {
+        "skill": "Working in Heat / Outdoors",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "critical"
+      },
+      {
+        "skill": "Water Conservation",
+        "level": "important"
+      },
+      {
+        "skill": "Waste Sorting & Recycling",
+        "level": "helpful"
+      },
+      {
+        "skill": "Local Market Knowledge",
+        "level": "important"
+      },
+      {
+        "skill": "Grocery Shopping & Budgeting",
         "level": "helpful"
       }
     ],
@@ -27400,6 +29796,18 @@
       {
         "skill": "Selling/Marketing",
         "level": "helpful"
+      },
+      {
+        "skill": "Clay / Pottery / Ceramics",
+        "level": "critical"
+      },
+      {
+        "skill": "Fine Motor Skills & Dexterity",
+        "level": "critical"
+      },
+      {
+        "skill": "Working in Heat / Outdoors",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -27724,6 +30132,22 @@
       {
         "skill": "Costing & Selling",
         "level": "important"
+      },
+      {
+        "skill": "Festival Food Preparation",
+        "level": "critical"
+      },
+      {
+        "skill": "Sweets & Mithai Making",
+        "level": "critical"
+      },
+      {
+        "skill": "Cooking Regional Indian Cuisine",
+        "level": "critical"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -27779,6 +30203,22 @@
       },
       {
         "skill": "Costing",
+        "level": "helpful"
+      },
+      {
+        "skill": "Preserving & Pickling",
+        "level": "critical"
+      },
+      {
+        "skill": "Pickle & Chutney Making",
+        "level": "critical"
+      },
+      {
+        "skill": "Home Cooking",
+        "level": "important"
+      },
+      {
+        "skill": "Grocery Shopping & Budgeting",
         "level": "helpful"
       }
     ],
@@ -28474,6 +30914,30 @@
       {
         "skill": "Tools & Maintenance",
         "level": "important"
+      },
+      {
+        "skill": "Gardening at Home",
+        "level": "critical"
+      },
+      {
+        "skill": "Plant Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Working in Heat / Outdoors",
+        "level": "important"
+      },
+      {
+        "skill": "Water Conservation",
+        "level": "helpful"
+      },
+      {
+        "skill": "Crop Knowledge",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -28526,6 +30990,30 @@
       {
         "skill": "Inventory/Supplies",
         "level": "helpful"
+      },
+      {
+        "skill": "Home Cleaning & Hygiene",
+        "level": "critical"
+      },
+      {
+        "skill": "Laundry & Fabric Care",
+        "level": "critical"
+      },
+      {
+        "skill": "Home Organisation & Decluttering",
+        "level": "important"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "critical"
+      },
+      {
+        "skill": "Physical Fitness & Stamina",
+        "level": "important"
+      },
+      {
+        "skill": "Following Instructions",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -28582,6 +31070,46 @@
       {
         "skill": "Monetisation & Brand Deals",
         "level": "important"
+      },
+      {
+        "skill": "YouTube Video Shooting (Home)",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic Video Editing (CapCut, InShot)",
+        "level": "critical"
+      },
+      {
+        "skill": "YouTube Watching & Uploading",
+        "level": "important"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "critical"
+      },
+      {
+        "skill": "Instagram Reels Shooting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Storytelling in Conversation",
+        "level": "important"
+      },
+      {
+        "skill": "Creating Thumbnails (Canva)",
+        "level": "important"
+      },
+      {
+        "skill": "Vlogging",
+        "level": "important"
+      },
+      {
+        "skill": "Audience Building",
+        "level": "important"
+      },
+      {
+        "skill": "Self-Motivation & Discipline",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -28637,6 +31165,50 @@
       {
         "skill": "Discretion",
         "level": "helpful"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "critical"
+      },
+      {
+        "skill": "MS Word (Basic)",
+        "level": "important"
+      },
+      {
+        "skill": "MS Excel (Basic)",
+        "level": "important"
+      },
+      {
+        "skill": "Google Docs & Sheets",
+        "level": "important"
+      },
+      {
+        "skill": "Video Calling (Zoom, Google Meet, WhatsApp)",
+        "level": "critical"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "critical"
+      },
+      {
+        "skill": "Basic Typing",
+        "level": "critical"
+      },
+      {
+        "skill": "Scanning & Printing Documents",
+        "level": "helpful"
+      },
+      {
+        "skill": "Calendar Management",
+        "level": "important"
+      },
+      {
+        "skill": "Online Forms & Applications",
+        "level": "helpful"
+      },
+      {
+        "skill": "Time Management (Daily)",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -29144,6 +31716,34 @@
       {
         "skill": "Loss Prevention",
         "level": "helpful"
+      },
+      {
+        "skill": "Customer Greeting & Service",
+        "level": "critical"
+      },
+      {
+        "skill": "Cash Handling & Billing",
+        "level": "critical"
+      },
+      {
+        "skill": "Punctuality & Reliability",
+        "level": "important"
+      },
+      {
+        "skill": "Working in a Team",
+        "level": "important"
+      },
+      {
+        "skill": "Basic Inventory Counting",
+        "level": "important"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "helpful"
+      },
+      {
+        "skill": "UPI & Digital Payments (PhonePe, GPay, Paytm)",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -29209,6 +31809,26 @@
       },
       {
         "skill": "Shopify / WooCommerce",
+        "level": "helpful"
+      },
+      {
+        "skill": "Online Shopping (Amazon, Flipkart, Meesho)",
+        "level": "important"
+      },
+      {
+        "skill": "Smartphone Usage",
+        "level": "critical"
+      },
+      {
+        "skill": "Email Writing & Management",
+        "level": "important"
+      },
+      {
+        "skill": "MS Excel (Basic)",
+        "level": "important"
+      },
+      {
+        "skill": "Google Sheets",
         "level": "helpful"
       }
     ],
