@@ -117,9 +117,19 @@ async function init() {
     await get('/api/health', 15000);
     setDot('g'); setLbl('Live');
   } catch { setDot('r'); setLbl('Offline'); }
-  await loadCareers();
+  await Promise.all([loadCareers(), loadSkillStats()]);
   renderSugs(); renderChips();
   await initAuth();
+}
+
+async function loadSkillStats() {
+  try {
+    const d = await get('/api/skills');
+    const total = (d.all_skills || []).length;
+    const cats = Object.keys(d.categories || {}).length;
+    document.getElementById('stat-s').textContent = total.toLocaleString() + '+';
+    document.getElementById('stat-f').textContent = cats + '+';
+  } catch {}
 }
 
 async function loadCareers() {
