@@ -150,7 +150,8 @@ nav { background: rgba(255,255,255,.85); backdrop-filter: saturate(180%) blur(12
 .sug-cats { margin-bottom: 10px; }
 .sug-cat-select { width: 100%; font-family: inherit; font-size: .82rem; font-weight: 600; color: var(--ink); background: var(--bg); border: 1.5px solid var(--line); border-radius: 10px; padding: 9px 12px; cursor: pointer; transition: border-color .15s, box-shadow .15s; appearance: none; -webkit-appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23ea580c' d='M6 8L1 3h10z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; padding-right: 30px; }
 .sug-cat-select:focus { outline: none; border-color: var(--sf); box-shadow: 0 0 0 3px var(--sf-l); }
-.sugs { max-height: 220px; overflow-y: auto; padding: 2px; }
+.sugs { max-height: 160px; overflow-y: auto; padding: 2px; }
+.sug-hint { font-weight: 500; text-transform: none; letter-spacing: 0; color: var(--mut-2); }
 
 .cta { width: 100%; border: none; border-radius: 11px; padding: 13px; font-size: .92rem; font-weight: 700; font-family: inherit; color: #fff; cursor: pointer; margin-top: 18px; transition: transform .12s, box-shadow .15s, opacity .15s; }
 .cta.skills { background: linear-gradient(135deg, var(--sf), var(--sf-d)); box-shadow: 0 4px 14px rgba(234,88,12,.28); }
