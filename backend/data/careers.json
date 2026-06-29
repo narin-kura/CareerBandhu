@@ -1608,6 +1608,26 @@
       {
         "skill": "Working in a Team",
         "level": "helpful"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "critical"
+      },
+      {
+        "skill": "Voice Modulation",
+        "level": "important"
+      },
+      {
+        "skill": "Storytelling on Stage",
+        "level": "important"
+      },
+      {
+        "skill": "Seminar & Workshop Facilitation",
+        "level": "helpful"
+      },
+      {
+        "skill": "Handling Q&A from Audience",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -1678,6 +1698,26 @@
       },
       {
         "skill": "Data Analysis",
+        "level": "helpful"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "critical"
+      },
+      {
+        "skill": "Corporate Training Delivery",
+        "level": "critical"
+      },
+      {
+        "skill": "Seminar & Workshop Facilitation",
+        "level": "critical"
+      },
+      {
+        "skill": "Voice Modulation",
+        "level": "important"
+      },
+      {
+        "skill": "Pitching Ideas to an Audience",
         "level": "helpful"
       }
     ],
@@ -4501,6 +4541,22 @@
       {
         "skill": "Report Writing",
         "level": "helpful"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "important"
+      },
+      {
+        "skill": "Group Discussion (GD)",
+        "level": "important"
+      },
+      {
+        "skill": "Seminar & Workshop Facilitation",
+        "level": "helpful"
+      },
+      {
+        "skill": "Oratory",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -4909,6 +4965,18 @@
       {
         "skill": "Field Research",
         "level": "important"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "helpful"
+      },
+      {
+        "skill": "Persuasive Speaking",
+        "level": "helpful"
+      },
+      {
+        "skill": "Hindi Oratory",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -5003,6 +5071,18 @@
       {
         "skill": "Curiosity & Research",
         "level": "critical"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "helpful"
+      },
+      {
+        "skill": "Podcast Hosting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Confidence on Camera",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -6229,6 +6309,26 @@
       },
       {
         "skill": "Working in a Team",
+        "level": "helpful"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "critical"
+      },
+      {
+        "skill": "Voice Modulation",
+        "level": "important"
+      },
+      {
+        "skill": "Storytelling on Stage",
+        "level": "important"
+      },
+      {
+        "skill": "Seminar & Workshop Facilitation",
+        "level": "helpful"
+      },
+      {
+        "skill": "Handling Q&A from Audience",
         "level": "helpful"
       }
     ],
@@ -14129,6 +14229,30 @@
       {
         "skill": "Language Fluency (Hindi/English/Regional)",
         "level": "critical"
+      },
+      {
+        "skill": "TV Anchoring",
+        "level": "critical"
+      },
+      {
+        "skill": "Voice Modulation",
+        "level": "critical"
+      },
+      {
+        "skill": "Confidence on Camera",
+        "level": "critical"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "critical"
+      },
+      {
+        "skill": "Impromptu Speaking",
+        "level": "important"
+      },
+      {
+        "skill": "Reading the Room",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -14268,6 +14392,26 @@
       {
         "skill": "Script Writing",
         "level": "helpful"
+      },
+      {
+        "skill": "Radio Jockeying (RJ)",
+        "level": "critical"
+      },
+      {
+        "skill": "Voice Modulation",
+        "level": "critical"
+      },
+      {
+        "skill": "Impromptu Speaking",
+        "level": "important"
+      },
+      {
+        "skill": "Podcast Hosting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Adapting Tone for Audience",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -14474,6 +14618,22 @@
       {
         "skill": "Marketing",
         "level": "helpful"
+      },
+      {
+        "skill": "Podcast Hosting",
+        "level": "critical"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "important"
+      },
+      {
+        "skill": "Confidence on Camera",
+        "level": "helpful"
+      },
+      {
+        "skill": "Impromptu Speaking",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -14539,6 +14699,30 @@
       {
         "skill": "Interviewing",
         "level": "important"
+      },
+      {
+        "skill": "TV Anchoring",
+        "level": "critical"
+      },
+      {
+        "skill": "Voice Modulation",
+        "level": "critical"
+      },
+      {
+        "skill": "Confidence on Camera",
+        "level": "critical"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "critical"
+      },
+      {
+        "skill": "Impromptu Speaking",
+        "level": "important"
+      },
+      {
+        "skill": "Reading the Room",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -14603,6 +14787,26 @@
       },
       {
         "skill": "Improvisation",
+        "level": "important"
+      },
+      {
+        "skill": "Radio Jockeying (RJ)",
+        "level": "critical"
+      },
+      {
+        "skill": "Voice Modulation",
+        "level": "critical"
+      },
+      {
+        "skill": "Impromptu Speaking",
+        "level": "important"
+      },
+      {
+        "skill": "Podcast Hosting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Adapting Tone for Audience",
         "level": "important"
       }
     ],
@@ -20932,6 +21136,26 @@
       {
         "skill": "Working in a Team",
         "level": "helpful"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "critical"
+      },
+      {
+        "skill": "Voice Modulation",
+        "level": "important"
+      },
+      {
+        "skill": "Storytelling on Stage",
+        "level": "important"
+      },
+      {
+        "skill": "Seminar & Workshop Facilitation",
+        "level": "helpful"
+      },
+      {
+        "skill": "Handling Q&A from Audience",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -21275,6 +21499,18 @@
       {
         "skill": "Hindi Communication",
         "level": "helpful"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "helpful"
+      },
+      {
+        "skill": "Motivational Speaking",
+        "level": "helpful"
+      },
+      {
+        "skill": "Pitching Ideas to an Audience",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -22448,6 +22684,18 @@
       {
         "skill": "Hindi Communication",
         "level": "helpful"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "helpful"
+      },
+      {
+        "skill": "Motivational Speaking",
+        "level": "helpful"
+      },
+      {
+        "skill": "Pitching Ideas to an Audience",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -24082,6 +24330,26 @@
       },
       {
         "skill": "Image Quality Assessment",
+        "level": "important"
+      },
+      {
+        "skill": "Radio Jockeying (RJ)",
+        "level": "critical"
+      },
+      {
+        "skill": "Voice Modulation",
+        "level": "critical"
+      },
+      {
+        "skill": "Impromptu Speaking",
+        "level": "important"
+      },
+      {
+        "skill": "Podcast Hosting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Adapting Tone for Audience",
         "level": "important"
       }
     ],
@@ -25847,6 +26115,22 @@
       {
         "skill": "Networking & Making Connections",
         "level": "important"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "critical"
+      },
+      {
+        "skill": "Keynote Presentation",
+        "level": "important"
+      },
+      {
+        "skill": "Pitching Ideas to an Audience",
+        "level": "critical"
+      },
+      {
+        "skill": "Persuasive Speaking",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -26235,6 +26519,22 @@
       {
         "skill": "Academic Writing",
         "level": "important"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "critical"
+      },
+      {
+        "skill": "Keynote Presentation",
+        "level": "important"
+      },
+      {
+        "skill": "Seminar & Workshop Facilitation",
+        "level": "important"
+      },
+      {
+        "skill": "Handling Q&A from Audience",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -26321,6 +26621,26 @@
       },
       {
         "skill": "Working in a Team",
+        "level": "helpful"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "critical"
+      },
+      {
+        "skill": "Voice Modulation",
+        "level": "important"
+      },
+      {
+        "skill": "Storytelling on Stage",
+        "level": "important"
+      },
+      {
+        "skill": "Seminar & Workshop Facilitation",
+        "level": "helpful"
+      },
+      {
+        "skill": "Handling Q&A from Audience",
         "level": "helpful"
       }
     ],
@@ -26472,6 +26792,18 @@
       {
         "skill": "Video Calling (Zoom, Google Meet, WhatsApp)",
         "level": "helpful"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "important"
+      },
+      {
+        "skill": "Confidence on Camera",
+        "level": "helpful"
+      },
+      {
+        "skill": "Adapting Tone for Audience",
+        "level": "critical"
       }
     ],
     "entry_paths": [
@@ -27073,6 +27405,26 @@
       {
         "skill": "Gratitude Practice",
         "level": "helpful"
+      },
+      {
+        "skill": "Motivational Speaking",
+        "level": "critical"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "critical"
+      },
+      {
+        "skill": "Stage Presence",
+        "level": "important"
+      },
+      {
+        "skill": "Storytelling on Stage",
+        "level": "important"
+      },
+      {
+        "skill": "Persuasive Speaking",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -29348,6 +29700,26 @@
       {
         "skill": "Medical Ethics",
         "level": "important"
+      },
+      {
+        "skill": "Radio Jockeying (RJ)",
+        "level": "critical"
+      },
+      {
+        "skill": "Voice Modulation",
+        "level": "critical"
+      },
+      {
+        "skill": "Impromptu Speaking",
+        "level": "important"
+      },
+      {
+        "skill": "Podcast Hosting",
+        "level": "helpful"
+      },
+      {
+        "skill": "Adapting Tone for Audience",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -31110,6 +31482,22 @@
       {
         "skill": "Self-Motivation & Discipline",
         "level": "critical"
+      },
+      {
+        "skill": "YouTube Talking-Head Videos",
+        "level": "critical"
+      },
+      {
+        "skill": "Confidence on Camera",
+        "level": "critical"
+      },
+      {
+        "skill": "Storytelling on Stage",
+        "level": "important"
+      },
+      {
+        "skill": "Voice Modulation",
+        "level": "important"
       }
     ],
     "entry_paths": [
@@ -31385,6 +31773,22 @@
       },
       {
         "skill": "Conflict Resolution",
+        "level": "helpful"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "important"
+      },
+      {
+        "skill": "Corporate Training Delivery",
+        "level": "helpful"
+      },
+      {
+        "skill": "Seminar & Workshop Facilitation",
+        "level": "helpful"
+      },
+      {
+        "skill": "Pitching Ideas to an Audience",
         "level": "helpful"
       }
     ],
@@ -32696,6 +33100,14 @@
       {
         "skill": "Litigation Support",
         "level": "helpful"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "helpful"
+      },
+      {
+        "skill": "Persuasive Speaking",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
@@ -32763,6 +33175,30 @@
       {
         "skill": "Financial Literacy",
         "level": "important"
+      },
+      {
+        "skill": "Oratory",
+        "level": "critical"
+      },
+      {
+        "skill": "Debating",
+        "level": "critical"
+      },
+      {
+        "skill": "Persuasive Speaking",
+        "level": "critical"
+      },
+      {
+        "skill": "Public Speaking",
+        "level": "important"
+      },
+      {
+        "skill": "Handling Q&A from Audience",
+        "level": "important"
+      },
+      {
+        "skill": "Pitching Ideas to an Audience",
+        "level": "helpful"
       }
     ],
     "entry_paths": [
