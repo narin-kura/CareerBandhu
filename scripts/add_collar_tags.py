@@ -77,6 +77,11 @@ CATEGORY_DEFAULT = {
     "Biotechnology & Pharma R&D":   "gold",
     "NGO & Development":            "pink",
     "Library & Information Science":"white",
+    "Pharma & Life Sciences":         "gold",
+    "Executive & Leadership":        "gold",
+    "VFX & Virtual Production":      "new",
+    "3D Printing & Additive Manufacturing": "gray",
+    "Creator Economy & Digital Business":   "open",
 }
 
 # Career-specific overrides — take precedence over category default

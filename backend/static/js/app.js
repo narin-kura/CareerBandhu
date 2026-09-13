@@ -110,7 +110,9 @@ const CAT_ICONS = {
   'Publishing & Writing':'📝','Photography & Visual Media':'📷',
   'Spiritual & Religious':'🙏','Gemology & Jewelry':'💎',
   'Pharma & Life Sciences':'🧬','NGO & Development':'🌱',
-  'Library & Information Science':'📖','Executive & Leadership':'👔'
+  'Library & Information Science':'📖','Executive & Leadership':'👔',
+  'VFX & Virtual Production':'🎥','3D Printing & Additive Manufacturing':'🖨️',
+  'Creator Economy & Digital Business':'📱'
 };
 
 async function init() {
@@ -516,14 +518,32 @@ skillInEl.addEventListener('input', function() {
   const closeAc = `document.getElementById('skill-in').value='';document.getElementById('skill-ac').className='skill-ac';`;
 
   // ---- Careers (job titles / designations) — click opens the career sheet ----
+  // Rank: title prefix > title substring > category > dash-insensitive title > tags.
+  // Tag matching is what lets "3d animation", "zbrush" or "mobile repair" find
+  // careers whose titles do not literally contain those words.
+  const normTerm = s => s.toLowerCase().replace(/[-_/]+/g, ' ').replace(/\s+/g, ' ').trim();
+  const qn = normTerm(q);
+  const careerRank = c => {
+    const t = c.title.toLowerCase();
+    if (t.startsWith(q)) return 0;
+    if (t.includes(q)) return 1;
+    if (c.category.toLowerCase().includes(q)) return 2;
+    if (qn && normTerm(c.title).includes(qn)) return 3;
+    if (qn && (c.tags || []).some(tag => normTerm(tag).includes(qn))) return 4;
+    // Multi-word fallback: every word present somewhere in title/category/tags,
+    // so "3d animation" still reaches "3D Character Animator".
+    if (qn.indexOf(' ') > -1) {
+      const hay = normTerm(c.title + ' ' + c.category + ' ' + (c.tags || []).join(' '));
+      if (qn.split(' ').every(w => hay.indexOf(w) > -1)) return 5;
+    }
+    return 99;
+  };
   const careerMatches = allCareers
-    .filter(c => c.title.toLowerCase().includes(q) || c.category.toLowerCase().includes(q))
-    .sort((a, b) => {
-      const aStarts = a.title.toLowerCase().startsWith(q) ? 0 : 1;
-      const bStarts = b.title.toLowerCase().startsWith(q) ? 0 : 1;
-      return aStarts - bStarts;
-    })
-    .slice(0, 6);
+    .map(c => ({ c, r: careerRank(c) }))
+    .filter(x => x.r < 99)
+    .sort((a, b) => a.r - b.r)
+    .slice(0, 6)
+    .map(x => x.c);
   const careerHtml = careerMatches.length
     ? `<div class="ac-group-label">Careers</div>` + careerMatches.map(c =>
         `<div class="ac-item ac-career" onclick="selectAndExplore('${esc(c.id)}','${esc(c.title)}');${closeAc}"><span class="ac-ico">${CAT_ICONS[c.category]||'📌'}</span><span>${c.title}</span><span class="ac-sub">${c.category}</span></div>`
