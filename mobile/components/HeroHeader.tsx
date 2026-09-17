@@ -8,7 +8,7 @@ export function HeroHeader() {
     <View style={styles.hero}>
       <View style={styles.logoRow}>
         <Ionicons name="globe-outline" size={32} color="#fff" />
-        <Text style={styles.logoText}>CareerBandhu</Text>
+        <Text style={styles.logoText}>CareerCompass</Text>
       </View>
       <Text style={styles.tagline}>Your Career Companion</Text>
       <Text style={styles.subtitle}>
@@ -16,9 +16,9 @@ export function HeroHeader() {
       </Text>
       <View style={styles.statsRow}>
         {[
-          { n: "35+", label: "Careers" },
-          { n: "200+", label: "Skills" },
-          { n: "AI", label: "Powered" },
+          { n: "700+", label: "Careers" },
+          { n: "3,000+", label: "Skills" },
+          { n: "60+", label: "Fields" },
         ].map((s) => (
           <View key={s.label} style={styles.stat}>
             <Text style={styles.statNum}>{s.n}</Text>

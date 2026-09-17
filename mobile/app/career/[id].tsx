@@ -16,6 +16,7 @@ import { useApi } from "../../hooks/useApi";
 import { SkillBadge } from "../../components/SkillBadge";
 import { ResourceCard } from "../../components/ResourceCard";
 import { StarRating } from "../../components/StarRating";
+import { COLLAR_LABEL } from "../../constants/careerMeta";
 
 type Career = {
   id: string;
@@ -86,11 +87,6 @@ const LEVEL_LABEL: Record<string, string> = {
   critical: "Must Have",
   important: "Important",
   helpful: "Nice to Have",
-};
-
-const COLLAR_LABEL: Record<string, string> = {
-  white: "White-collar", blue: "Blue-collar", grey: "Grey-collar",
-  pink: "Service", green: "Green job", new: "New-collar", no: "No-collar / Freelance",
 };
 
 type TabKey = "overview" | "skills" | "roadmap" | "reviews";

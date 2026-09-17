@@ -42,7 +42,7 @@ type Recommendation = {
 
 export default function FindCareerScreen() {
   const router = useRouter();
-  const { call, loading } = useApi();
+  const { call, loading, error } = useApi();
 
   const [inputText, setInputText] = useState("");
   const [selectedSkills, setSelectedSkills] = useState<string[]>([]);
@@ -156,6 +156,14 @@ export default function FindCareerScreen() {
           )}
         </TouchableOpacity>
       </View>
+
+      {/* Errors (timeout, offline, server asleep) */}
+      {error && !loading && (
+        <View style={styles.errorBox}>
+          <Ionicons name="cloud-offline-outline" size={18} color={Colors.warning} />
+          <Text style={styles.errorText}>{error}</Text>
+        </View>
+      )}
 
       {/* Results */}
       {hasSearched && recommendations.length === 0 && !loading && (
@@ -285,4 +293,6 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   emptyText: { fontSize: 14, color: Colors.textMuted, textAlign: "center" },
+  errorBox: { flexDirection: "row", gap: 10, alignItems: "center", marginHorizontal: 16, marginTop: 12, padding: 12, borderRadius: 10, backgroundColor: Colors.warningLight },
+  errorText: { flex: 1, fontSize: 13, color: Colors.textPrimary },
 });

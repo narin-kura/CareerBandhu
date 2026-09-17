@@ -13,6 +13,7 @@ import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { Colors } from "../../constants/Colors";
 import { useApi } from "../../hooks/useApi";
+import { shortOutlook, outlookColor, COLLAR_FILTERS } from "../../constants/careerMeta";
 
 type SalaryRange = { min: number; max: number; currency: string; note?: string };
 type CareerSummary = {
@@ -26,20 +27,7 @@ type CareerSummary = {
   tags: string[];
 };
 
-const OUTLOOK_COLOR: Record<string, string> = {
-  "Very High": Colors.success,
-  High: Colors.secondary,
-  Good: Colors.warning,
-  Stable: Colors.textSecondary,
-  Moderate: Colors.textMuted,
-};
-
-const COLLARS = [
-  { key: "all", label: "All collars" },
-  { key: "white", label: "White-collar" },
-  { key: "blue", label: "Blue-collar" },
-  { key: "no", label: "Freelance" },
-];
+const COLLARS = COLLAR_FILTERS;
 const REGIONS = [
   { key: "all", label: "All" },
   { key: "IN", label: "🇮🇳 India" },
@@ -61,7 +49,7 @@ function shortSalary(s?: SalaryRange | null): string | null {
 
 export default function ExploreScreen() {
   const router = useRouter();
-  const { call, loading } = useApi();
+  const { call, loading, error } = useApi();
   const [careers, setCareers] = useState<CareerSummary[]>([]);
   const [query, setQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState("All");
@@ -70,10 +58,12 @@ export default function ExploreScreen() {
   const [sort, setSort] = useState("default");
   const [showFilters, setShowFilters] = useState(false);
 
-  useEffect(() => {
+  const load = () =>
     call<{ careers: CareerSummary[] }>("/api/careers").then((data) => {
       if (data) setCareers(data.careers);
     });
+  useEffect(() => {
+    load();
   }, []);
 
   // Categories derived from the data (All first, then by frequency)
@@ -120,9 +110,9 @@ export default function ExploreScreen() {
             <Text style={styles.careerTitle}>{item.title}</Text>
             <Text style={styles.category}>{item.category}</Text>
           </View>
-          <View style={[styles.outlookBadge, { backgroundColor: (OUTLOOK_COLOR[item.growth_outlook] ?? Colors.textMuted) + "20" }]}>
-            <Text style={[styles.outlookText, { color: OUTLOOK_COLOR[item.growth_outlook] ?? Colors.textMuted }]}>
-              {item.growth_outlook}
+          <View style={[styles.outlookBadge, { backgroundColor: outlookColor(item.growth_outlook) + "20" }]}>
+            <Text style={[styles.outlookText, { color: outlookColor(item.growth_outlook) }]}>
+              {shortOutlook(item.growth_outlook)}
             </Text>
           </View>
         </View>
@@ -157,7 +147,7 @@ export default function ExploreScreen() {
           <Ionicons name="search-outline" size={18} color={Colors.textMuted} />
           <TextInput
             style={styles.searchInput}
-            placeholder="Search 300+ careers..."
+            placeholder="Search 700+ careers..."
             placeholderTextColor={Colors.textMuted}
             value={query}
             onChangeText={setQuery}
@@ -207,6 +197,14 @@ export default function ExploreScreen() {
 
       {loading ? (
         <ActivityIndicator style={{ marginTop: 40 }} color={Colors.primary} size="large" />
+      ) : error && careers.length === 0 ? (
+        <View style={styles.empty}>
+          <Ionicons name="cloud-offline-outline" size={48} color={Colors.textMuted} />
+          <Text style={styles.emptyText}>{error}</Text>
+          <TouchableOpacity style={styles.retryBtn} onPress={load}>
+            <Text style={styles.retryText}>Try again</Text>
+          </TouchableOpacity>
+        </View>
       ) : (
         <FlatList
           data={filtered}
@@ -308,5 +306,7 @@ const styles = StyleSheet.create({
   tag: { backgroundColor: Colors.primaryLight, borderRadius: 6, paddingHorizontal: 8, paddingVertical: 3 },
   tagText: { fontSize: 11, color: Colors.primaryDark, fontWeight: "500" },
   empty: { alignItems: "center", padding: 40 },
-  emptyText: { fontSize: 14, color: Colors.textMuted, marginTop: 12 },
+  emptyText: { fontSize: 14, color: Colors.textMuted, marginTop: 12, textAlign: "center" },
+  retryBtn: { marginTop: 16, backgroundColor: Colors.primary, borderRadius: 10, paddingHorizontal: 20, paddingVertical: 10 },
+  retryText: { color: "#fff", fontWeight: "700", fontSize: 14 },
 });

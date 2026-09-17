@@ -77,6 +77,7 @@ const styles = StyleSheet.create({
   name: { fontSize: 13, fontWeight: "600", color: Colors.textPrimary, marginBottom: 2 },
   meta: { fontSize: 11, color: Colors.textMuted },
   badge: { borderRadius: 6, paddingHorizontal: 7, paddingVertical: 3 },
+  badgeText: { fontSize: 10, fontWeight: "700" },
   badgeFree: { backgroundColor: Colors.successLight },
   badgePaid: { backgroundColor: Colors.warningLight },
   badgeFreeText: { fontSize: 10, fontWeight: "700", color: "#166534" },
