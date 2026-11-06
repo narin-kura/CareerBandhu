@@ -40,7 +40,12 @@
       "typedRoutes": true
     },
     "extra": {
-      "apiUrl": "https://careercompass.vigyatri.com"
-    }
+      "apiUrl": "https://careercompass.vigyatri.com",
+      "router": {},
+      "eas": {
+        "projectId": "16a37ded-4a76-49f6-ae16-84bf2e7137a6"
+      }
+    },
+    "owner": "vigyatri"
   }
 }
