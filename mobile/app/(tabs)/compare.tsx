@@ -12,7 +12,7 @@ import {
 import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { Colors } from "../../constants/Colors";
-import { formatSalary } from "../../constants/careerMeta";
+import { COLLAR_LABEL, formatSalary } from "../../constants/careerMeta";
 import { useApi } from "../../hooks/useApi";
 
 type Summary = { id: string; title: string; category: string };
@@ -30,6 +30,8 @@ type FullCareer = {
   detail?: { collar: string; region: string; roadmap: { total_estimate: string } };
 };
 
+
+const collarLabel = (c?: string) => (c ? COLLAR_LABEL[c] ?? c : "—");
 
 export default function CompareScreen() {
   const router = useRouter();
@@ -135,7 +137,7 @@ export default function CompareScreen() {
         <>
           <CompareRow label="Salary" a={formatSalary(a.career.salary_range) ?? "—"} b={formatSalary(b.career.salary_range) ?? "—"} />
           <CompareRow label="Growth outlook" a={a.career.growth_outlook} b={b.career.growth_outlook} />
-          <CompareRow label="Type" a={a.detail?.collar ?? "—"} b={b.detail?.collar ?? "—"} />
+          <CompareRow label="Type" a={collarLabel(a.detail?.collar)} b={collarLabel(b.detail?.collar)} />
           <CompareRow label="Region" a={a.detail?.region ?? "—"} b={b.detail?.region ?? "—"} />
           <CompareRow label="Skills required" a={`${a.career.required_skills.length}`} b={`${b.career.required_skills.length}`} />
           <CompareRow label="Time to learn" a={a.detail?.roadmap?.total_estimate ?? "—"} b={b.detail?.roadmap?.total_estimate ?? "—"} />
