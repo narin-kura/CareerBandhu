@@ -111,6 +111,7 @@ export default function CareerDetailScreen() {
   // Rating state
   const [userRating, setUserRating] = useState(0);
   const [comment, setComment] = useState("");
+  const [reported, setReported] = useState<string[]>([]);
   const [pursuing, setPursuing] = useState(false);
   const [ratingSubmitted, setRatingSubmitted] = useState(false);
   const [submittingRating, setSubmittingRating] = useState(false);
@@ -167,6 +168,28 @@ export default function CareerDetailScreen() {
     );
   }
   if (!detail) return null;
+
+  const reportComment = (text: string) => {
+    Alert.alert(
+      "Report this comment?",
+      "We review reported comments and remove anything abusive, hateful or inappropriate.",
+      [
+        { text: "Cancel", style: "cancel" },
+        {
+          text: "Report",
+          style: "destructive",
+          onPress: async () => {
+            const res = await call<{ success: boolean }>("/api/feedback", {
+              method: "POST",
+              body: JSON.stringify({ category: "general", message: `[REPORTED COMMENT] career=${id}: ${text}` }),
+            });
+            if (res) setReported((r) => [...r, text]);
+            else Alert.alert("Could not send report", "Please check your connection and try again.");
+          },
+        },
+      ]
+    );
+  };
 
   const { career, avg_rating, rating_count, recent_feedback } = detail;
   const extra = detail.detail;
@@ -242,7 +265,8 @@ export default function CareerDetailScreen() {
           <ReviewsTab
             avg_rating={avg_rating}
             rating_count={rating_count}
-            recent_feedback={recent_feedback}
+            recent_feedback={recent_feedback.filter((fb) => !reported.includes(fb.comment))}
+            reportComment={reportComment}
             userRating={userRating}
             setUserRating={setUserRating}
             comment={comment}
@@ -509,7 +533,7 @@ function RoadmapTab({ roadmap, extra, personalized }: { roadmap?: Roadmap; extra
 /* ---------------- Reviews tab ---------------- */
 function ReviewsTab(props: any) {
   const {
-    avg_rating, rating_count, recent_feedback,
+    avg_rating, rating_count, recent_feedback, reportComment,
     userRating, setUserRating, comment, setComment, pursuing, setPursuing,
     ratingSubmitted, submittingRating, submitRating, showFeedback, setShowFeedback,
   } = props;
@@ -549,6 +573,9 @@ function ReviewsTab(props: any) {
               multiline
               numberOfLines={3}
             />
+            <Text style={styles.rulesText}>
+              Comments are public. Keep it respectful: no abuse, personal details or spam. Reported comments are reviewed and removed.
+            </Text>
             <TouchableOpacity style={styles.pursuingRow} onPress={() => setPursuing(!pursuing)}>
               <View style={[styles.checkbox, pursuing && styles.checkboxChecked]}>
                 {pursuing && <Ionicons name="checkmark" size={14} color="#fff" />}
@@ -582,6 +609,12 @@ function ReviewsTab(props: any) {
                 <View style={styles.feedbackHeader}>
                   <StarRating value={fb.rating} readonly size={14} />
                   {fb.pursuing === 1 && <Text style={styles.pursuingBadge}>Pursuing this career</Text>}
+                  {fb.comment ? (
+                    <TouchableOpacity style={styles.reportBtn} onPress={() => reportComment(fb.comment)}>
+                      <Ionicons name="flag-outline" size={12} color={Colors.textMuted} />
+                      <Text style={styles.reportText}>Report</Text>
+                    </TouchableOpacity>
+                  ) : null}
                 </View>
                 {fb.comment ? <Text style={styles.feedbackComment}>{fb.comment}</Text> : null}
               </View>
@@ -686,5 +719,8 @@ const styles = StyleSheet.create({
   feedbackItem: { borderTopWidth: 1, borderTopColor: Colors.border, paddingTop: 12, marginTop: 12 },
   feedbackHeader: { flexDirection: "row", alignItems: "center", gap: 10, marginBottom: 6 },
   pursuingBadge: { backgroundColor: Colors.secondaryLight, borderRadius: 6, paddingHorizontal: 8, paddingVertical: 3, fontSize: 11, color: Colors.secondary, fontWeight: "600" },
+  reportBtn: { flexDirection: "row", alignItems: "center", gap: 3, marginLeft: "auto", padding: 4 },
+  reportText: { fontSize: 11, color: Colors.textMuted },
+  rulesText: { fontSize: 11, color: Colors.textMuted, lineHeight: 16, marginTop: 8 },
   feedbackComment: { fontSize: 13, color: Colors.textSecondary, lineHeight: 19 },
 });

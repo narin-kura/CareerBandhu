@@ -90,7 +90,8 @@ Skill names sent for matching are ephemeral and not stored, so they are not "col
 ## Content rating questionnaire
 
 The app contains **user-generated content** (rating comments shown to other users) — answer
-"Yes" to UGC and note that comments are anonymous, text only, and can be removed on request.
+"Yes" to UGC and note that comments are anonymous, text only, and can be reported in-app
+(Report link on every comment; reports arrive via `/api/feedback` tagged `[REPORTED COMMENT]`).
 No violence, sexuality, profanity, controlled substances or gambling. Expect **Everyone**
 (possibly "Everyone" with a UGC note).
 
@@ -98,9 +99,9 @@ No violence, sexuality, profanity, controlled substances or gambling. Expect **E
 
 | Asset | Requirement | Status |
 |---|---|---|
-| App icon | 512×512 PNG | export from `assets/icon.png` (1024²; Play accepts it or downscale) |
+| App icon | 512×512 PNG | `store/icon-512.png` ✅ |
 | Feature graphic | 1024×500 | `store/feature-graphic-1024x500.png` ✅ |
-| Phone screenshots | 2–8, 16:9 to 9:16, ≥320px | **take from the preview APK on a real phone** |
+| Phone screenshots | 2–8, 9:16, ≥320px | `store/screenshots/` (5 × 1080×1920, captured from the web build) ✅ |
 
 Suggested screenshot sequence: (1) Find Career with a few skill chips and results,
 (2) Explore with the category pills and a filter open, (3) a career detail on the Skills tab
