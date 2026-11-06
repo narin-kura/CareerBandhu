@@ -54,3 +54,21 @@ export const COLLAR_FILTERS: { key: string; label: string }[] = [
   { key: "no", label: "Creative" },
   { key: "open", label: "Remote" },
 ];
+
+/**
+ * salary_range.currency in careers.json is one of "USD", "INR", "USD/year" or
+ * "INR/month". Plain values are yearly. Rupee yearly figures read as lakhs.
+ */
+export function formatSalary(s?: { min: number; max: number; currency?: string } | null): string | null {
+  if (!s) return null;
+  const currency = s.currency ?? "";
+  const isInr = currency.startsWith("INR");
+  const monthly = currency.includes("month");
+  const symbol = isInr ? "₹" : currency.startsWith("USD") ? "$" : "";
+  const short = (n: number) => {
+    if (isInr && n >= 100000) return `${Number((n / 100000).toFixed(1))}L`;
+    if (n >= 1000) return `${Math.round(n / 1000)}k`;
+    return String(n);
+  };
+  return `${symbol}${short(s.min)}–${symbol}${short(s.max)}${monthly ? "/mo" : "/yr"}`;
+}

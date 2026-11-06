@@ -16,7 +16,7 @@ import { useApi } from "../../hooks/useApi";
 import { SkillBadge } from "../../components/SkillBadge";
 import { ResourceCard } from "../../components/ResourceCard";
 import { StarRating } from "../../components/StarRating";
-import { COLLAR_LABEL } from "../../constants/careerMeta";
+import { COLLAR_LABEL, formatSalary } from "../../constants/careerMeta";
 
 type Career = {
   id: string;
@@ -278,8 +278,7 @@ function OverviewTab({ career, extra, router }: { career: Career; extra?: Career
               <Ionicons name="cash-outline" size={16} color={Colors.primary} />
               <Text style={styles.metaMuted}>Salary: </Text>
               <Text style={styles.metaVal}>
-                {career.salary_range.currency} {career.salary_range.min.toLocaleString()}–
-                {career.salary_range.max.toLocaleString()}
+                {formatSalary(career.salary_range)}
               </Text>
             </View>
           )}

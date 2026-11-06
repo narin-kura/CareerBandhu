@@ -54,7 +54,7 @@ COMMUNITY
 Rate careers and read what others pursuing the same path have to say. No account needed.
 
 BUILT FOR INDIA AND THE US
-Salaries are shown in the right currency for the region, and entry paths reflect how hiring actually works in each country.
+Careers are listed for both countries, with entry paths that reflect how hiring actually works in each.
 
 HONEST BY DESIGN
 Salary and outlook figures are general guidance compiled from public sources, shown as ranges, never as promises. No ads, no tracking, no sign-in.

@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { Colors } from "../constants/Colors";
+import { formatSalary } from "../constants/careerMeta";
 
 type Skill = { skill: string; level: string };
 type Career = {
@@ -83,9 +84,7 @@ export function CareerCard({ rank, career, score, matchingSkills, topGaps, onPre
         <View style={styles.footerMeta}>
           {career.salary_range && (
             <Text style={styles.salary}>
-              💰 {career.salary_range.currency}
-              {(career.salary_range.min / 1000).toFixed(0)}k–
-              {(career.salary_range.max / 1000).toFixed(0)}k
+              💰 {formatSalary(career.salary_range)}
             </Text>
           )}
           <Text style={styles.outlook}>📈 {career.growth_outlook}</Text>

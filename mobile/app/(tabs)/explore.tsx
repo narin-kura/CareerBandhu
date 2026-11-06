@@ -13,7 +13,7 @@ import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { Colors } from "../../constants/Colors";
 import { useApi } from "../../hooks/useApi";
-import { shortOutlook, outlookColor, COLLAR_FILTERS } from "../../constants/careerMeta";
+import { shortOutlook, outlookColor, COLLAR_FILTERS, formatSalary } from "../../constants/careerMeta";
 
 type SalaryRange = { min: number; max: number; currency: string; note?: string };
 type CareerSummary = {
@@ -38,14 +38,6 @@ const SORTS = [
   { key: "salary", label: "Salary ↓" },
   { key: "az", label: "A → Z" },
 ];
-
-function shortSalary(s?: SalaryRange | null): string | null {
-  if (!s) return null;
-  const f = (n: number) => (n >= 100000 ? `${Math.round(n / 1000)}k` : n.toLocaleString());
-  const cur = s.currency?.includes("INR") ? "₹" : s.currency === "USD" ? "$" : "";
-  const per = s.currency?.includes("month") ? "/mo" : "/yr";
-  return `${cur}${f(s.min)}–${cur}${f(s.max)}${per}`;
-}
 
 export default function ExploreScreen() {
   const router = useRouter();
@@ -99,7 +91,7 @@ export default function ExploreScreen() {
   const activeFilterCount = (collar !== "all" ? 1 : 0) + (region !== "all" ? 1 : 0) + (sort !== "default" ? 1 : 0);
 
   const renderCareer = ({ item }: { item: CareerSummary }) => {
-    const salary = shortSalary(item.salary_range);
+    const salary = formatSalary(item.salary_range);
     return (
       <TouchableOpacity
         style={styles.card}
@@ -180,6 +172,7 @@ export default function ExploreScreen() {
       <FlatList
         horizontal
         data={categories}
+        style={styles.categoryRow}
         keyExtractor={(c) => c}
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={styles.categoryList}
@@ -286,6 +279,7 @@ const styles = StyleSheet.create({
   filterChipActive: { backgroundColor: Colors.primaryLight, borderColor: Colors.primary },
   filterChipText: { fontSize: 12, color: Colors.textSecondary, fontWeight: "600" },
   filterChipTextActive: { color: Colors.primaryDark },
+  categoryRow: { flexGrow: 0, flexShrink: 0 },
   categoryList: { paddingHorizontal: 16, paddingBottom: 8, gap: 8 },
   categoryPill: { borderRadius: 20, paddingHorizontal: 14, paddingVertical: 7, backgroundColor: Colors.surface, borderWidth: 1, borderColor: Colors.border },
   categoryPillActive: { backgroundColor: Colors.primary, borderColor: Colors.primary },

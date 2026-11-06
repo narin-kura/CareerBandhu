@@ -12,6 +12,7 @@ import {
 import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { Colors } from "../../constants/Colors";
+import { formatSalary } from "../../constants/careerMeta";
 import { useApi } from "../../hooks/useApi";
 
 type Summary = { id: string; title: string; category: string };
@@ -29,13 +30,6 @@ type FullCareer = {
   detail?: { collar: string; region: string; roadmap: { total_estimate: string } };
 };
 
-function salaryStr(s?: { min: number; max: number; currency: string } | null): string {
-  if (!s) return "—";
-  const f = (n: number) => (n >= 100000 ? `${Math.round(n / 1000)}k` : n.toLocaleString());
-  const cur = s.currency?.includes("INR") ? "₹" : s.currency === "USD" ? "$" : "";
-  const per = s.currency?.includes("month") ? "/mo" : "/yr";
-  return `${cur}${f(s.min)}–${cur}${f(s.max)}${per}`;
-}
 
 export default function CompareScreen() {
   const router = useRouter();
@@ -139,7 +133,7 @@ export default function CompareScreen() {
 
       {a && b ? (
         <>
-          <CompareRow label="Salary" a={salaryStr(a.career.salary_range)} b={salaryStr(b.career.salary_range)} />
+          <CompareRow label="Salary" a={formatSalary(a.career.salary_range) ?? "—"} b={formatSalary(b.career.salary_range) ?? "—"} />
           <CompareRow label="Growth outlook" a={a.career.growth_outlook} b={b.career.growth_outlook} />
           <CompareRow label="Type" a={a.detail?.collar ?? "—"} b={b.detail?.collar ?? "—"} />
           <CompareRow label="Region" a={a.detail?.region ?? "—"} b={b.detail?.region ?? "—"} />
