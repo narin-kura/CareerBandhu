@@ -26,6 +26,7 @@ Discover the right career based on your current skills. Get a personalized skill
 - **Learning Resources** — curated free and paid courses, certifications, and books per skill
 - **AI Coaching** — Claude AI generates personalized tips for your specific skill set
 - **Community Ratings** — rate careers, leave feedback, mark if you're pursuing
+- **Skills in the News** — recent tech and jobs headlines (TechCrunch, BBC, Economic Times, Mint and others) tagged with the skills they mention and linked to the careers that use those skills. Matching is by keyword, not AI, and every headline links to its publisher. Each career page shows an "In the news" box. Topics and feeds are edited in `backend/data/news_topics.json`; check an edit with `python scripts/check_news_topics.py`.
 
 ## API Endpoints
 
@@ -37,6 +38,10 @@ Discover the right career based on your current skills. Get a personalized skill
 | GET | `/api/career/{id}` | Career detail + ratings |
 | POST | `/api/career/{id}/gap` | Gap analysis for a career |
 | POST | `/api/rate` | Submit a rating |
+| GET | `/api/news?region=IN&topic=…` | Recent headlines tagged with skill topics, plus topic counts and linked careers |
+| GET | `/api/career/{id}/news` | Recent headlines that mention this career's skills |
+
+Tests: `python -m unittest discover -s tests -v`
 
 ## Deployment
 

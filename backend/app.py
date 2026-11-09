@@ -8,6 +8,7 @@ import json
 import logging
 import os
 import sqlite3
+from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Optional
 
@@ -46,12 +47,24 @@ try:
 except ImportError:
     from enrich import career_detail, learning_roadmap, time_to_learn
 
+try:
+    from backend.news import NewsStore
+except ImportError:
+    from news import NewsStore
+
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
 UI_DIR = BASE_DIR / "static"
 DB_PATH = BASE_DIR / "ratings.db"
 
-app = FastAPI(title="CareerBandhu API", version="1.0.0")
+
+@asynccontextmanager
+async def lifespan(_app: FastAPI):
+    NEWS.ensure_fresh()   # start collecting stories in the background so the first visitor doesn't wait
+    yield
+
+
+app = FastAPI(title="CareerBandhu API", version="1.0.0", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -87,6 +100,8 @@ with open(DATA_DIR / "resources.json") as f:
     RESOURCES: dict = json.load(f)
 
 CAREERS_BY_ID: dict[str, dict] = {c["id"]: c for c in CAREERS}
+
+NEWS = NewsStore.from_files(DATA_DIR, CAREERS)
 
 
 # --- Database ---
@@ -368,6 +383,32 @@ async def recommend(request: Request, req: RecommendRequest):
         "recommendations": scored[:8],
         "total_skills_submitted": len(req.skills),
     }
+
+
+async def _news_ready() -> None:
+    """Refresh stale stories in the background; on a cold start, wait briefly for the first batch."""
+    NEWS.ensure_fresh()
+    if not NEWS.ready:
+        await run_in_threadpool(NEWS.wait_ready, 20)
+
+
+@app.get("/api/news")
+@limiter.limit("30/minute")
+async def news_feed(request: Request, region: Optional[str] = None, topic: Optional[str] = None, limit: int = 40):
+    """Recent tech/jobs headlines tagged with the skill topics they mention (see backend/news.py)."""
+    await _news_ready()
+    return NEWS.feed(region=region if region in ("IN", "US") else None,
+                     topic=topic or None, limit=max(1, min(limit, 100)))
+
+
+@app.get("/api/career/{career_id}/news")
+@limiter.limit("60/minute")
+async def career_news(request: Request, career_id: str, limit: int = 4):
+    """Recent stories that mention skills this career needs."""
+    if career_id not in CAREERS_BY_ID:
+        raise HTTPException(404, "Career not found")
+    await _news_ready()
+    return NEWS.career_news(career_id, limit=max(1, min(limit, 10)))
 
 
 @app.get("/api/career/{career_id}")

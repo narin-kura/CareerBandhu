@@ -502,3 +502,77 @@ footer b { color: var(--sf); }
 .vg-badge:hover { background:rgba(99,102,241,.2); }
 .brand-wrap { display:flex; align-items:center; gap:12px; }
 @media (max-width:700px) { .brand-wrap .by-vigyatri { display:none; } }
+
+/* ---------- SKILLS IN THE NEWS ---------- */
+.hero-news { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--nv-bd); background: var(--nv-l); color: var(--nv); font-weight: 600; font-size: .8rem; line-height: 1.2; font-family: inherit; cursor: pointer; transition: background .15s, transform .12s; }
+.hero-news:hover { background: #E0E7FF; transform: translateY(-1px); }
+.hero-news .new { background: var(--nv); color: #fff; font-size: .64rem; font-weight: 700; letter-spacing: .04em; padding: 2px 6px; border-radius: 999px; }
+
+.news-teaser { display: flex; align-items: center; gap: 12px; width: 100%; max-width: 460px; margin: 22px auto 0; padding: 13px 16px; text-align: left; background: var(--nv-l); border: 1px solid var(--nv-bd); border-radius: 12px; font-family: inherit; font-size: 1.3rem; color: var(--ink); cursor: pointer; transition: border-color .15s, box-shadow .15s; }
+.news-teaser:hover { border-color: var(--nv); box-shadow: var(--sh-md); }
+.news-teaser > span:not(.nt-arrow) { display: flex; flex-direction: column; gap: 2px; flex: 1; min-width: 0; }
+.news-teaser b { font-size: .9rem; color: var(--nv); }
+.news-teaser span span { font-size: .78rem; color: var(--mut); line-height: 1.4; }
+.news-teaser .nt-arrow { font-size: 1rem; color: var(--nv); font-weight: 700; }
+
+.news-head { margin-bottom: 14px; }
+.news-head h3 { font-size: 1.15rem; font-weight: 700; color: var(--ink); }
+.news-head p { font-size: .84rem; color: var(--mut); margin-top: 4px; line-height: 1.5; }
+
+.news-topics { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 16px; }
+.topic-chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--sur); color: var(--ink-2); font-weight: 600; font-size: .78rem; line-height: 1.2; font-family: inherit; cursor: pointer; transition: border-color .15s, background .15s; }
+.topic-chip b { font-size: .7rem; color: var(--mut); font-weight: 700; }
+.topic-chip:hover { border-color: var(--nv-bd); background: var(--nv-l); }
+.topic-chip.on { background: var(--nv); border-color: var(--nv); color: #fff; }
+.topic-chip.on b { color: #E0E7FF; }
+.topic-chip.sm { padding: 3px 9px; font-size: .72rem; background: var(--nv-l); border-color: var(--nv-bd); color: var(--nv); }
+.topic-chip.sm.on { background: var(--nv); color: #fff; }
+
+.topic-box .tb-count { margin-left: auto; font-size: .74rem; font-weight: 700; color: var(--mut); }
+.career-pills { display: flex; flex-wrap: wrap; gap: 7px; }
+.career-pill { padding: 6px 12px; border-radius: 8px; border: 1px solid var(--ok-bd); background: var(--ok-l); color: var(--ok); font-weight: 600; font-size: .8rem; line-height: 1.25; font-family: inherit; cursor: pointer; text-align: left; }
+.career-pill.lv-critical { background: var(--ok); border-color: var(--ok); color: #fff; }
+.career-pill:hover { box-shadow: var(--sh-md); }
+.tb-note { margin: 12px 0 0; }
+
+.news-card { background: var(--sur); border: 1px solid var(--line); border-radius: 14px; padding: 15px 18px; margin-bottom: 11px; box-shadow: var(--sh-sm); }
+.news-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; font-size: .74rem; color: var(--mut); margin-bottom: 6px; }
+.news-src { font-weight: 700; color: var(--ink-2); }
+.news-type { font-size: .66rem; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; padding: 2px 7px; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); color: var(--ink-2); }
+.news-type.t-layoffs { background: var(--bd-l); border-color: #FECACA; color: var(--bd-c); }
+.news-type.t-hiring, .news-type.t-expansion { background: var(--ok-l); border-color: var(--ok-bd); color: var(--ok); }
+.news-type.t-pay, .news-type.t-funding { background: var(--wn-l); border-color: #FDE68A; color: var(--wn); }
+.news-type.t-upskilling { background: var(--nv-l); border-color: var(--nv-bd); color: var(--nv); }
+.news-title { display: block; font-size: .98rem; font-weight: 650; line-height: 1.4; color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
+.news-title:hover { color: var(--sf-d); text-decoration: underline; }
+.news-title .ext, .news-row .ext { font-size: .8em; color: var(--mut-2); }
+.news-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.news-careers { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; margin-top: 10px; font-size: .78rem; color: var(--mut); }
+.news-careers .nc-k { font-weight: 600; }
+.nc-link, .nc-more { background: none; border: none; padding: 0; font-weight: 600; font-size: .78rem; line-height: 1.4; font-family: inherit; color: var(--sf-d); cursor: pointer; text-align: left; }
+.nc-link:hover, .nc-more:hover { text-decoration: underline; }
+.nc-more { color: var(--mut); }
+.nc-sep { color: var(--mut-2); }
+
+.news-how { margin-top: 18px; }
+.news-how .src-note:last-child { margin-bottom: 0; }
+.news-how a { color: var(--nv); font-weight: 600; }
+
+.news-row { display: block; padding: 11px 0; border-top: 1px solid var(--line-2); text-decoration: none; }
+.news-row:first-of-type { border-top: none; padding-top: 2px; }
+.nr-title { display: block; font-size: .9rem; font-weight: 600; color: var(--ink); line-height: 1.4; overflow-wrap: anywhere; }
+.news-row:hover .nr-title { color: var(--sf-d); text-decoration: underline; }
+.nr-meta { display: block; font-size: .74rem; color: var(--mut); margin-top: 3px; }
+.nr-meta b { color: var(--nv); font-weight: 600; }
+.news-more { margin-top: 10px; background: none; border: none; padding: 0; font-weight: 700; font-size: .8rem; line-height: 1.4; font-family: inherit; color: var(--nv); cursor: pointer; }
+.news-more:hover { text-decoration: underline; }
+@media(max-width:520px){ .news-card { padding: 13px 14px; } .news-title { font-size: .93rem; } }
+/* the results column may shrink below its content's width, so a sideways-scrolling row
+   scrolls inside it instead of stretching the whole page */
+.main > main { min-width: 0; }
+/* phones: one sideways-scrolling row of topics, so the stories start near the top */
+@media(max-width:640px){
+  .news-topics { flex-wrap: nowrap; overflow-x: auto; margin: 0 -16px 16px; padding: 0 16px 6px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .news-topics::-webkit-scrollbar { display: none; }
+  .news-topics .topic-chip { flex: 0 0 auto; white-space: nowrap; }
+}

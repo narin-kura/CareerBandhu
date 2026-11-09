@@ -11,6 +11,7 @@ let careerQuery = '';
 let supa = null, session = null, authEnabled = false, authMode = 'signin';
 let bookmarkedIds = new Set();
 let progressTimer = null;
+let newsTopic = null, newsSeq = 0;
 
 const COLLAR_META = [
   { key:'white', icon:'⚪', label:'White-collar' , tip:'Office & knowledge work',      clr:'#475569', bg:'#f1f5f9' },
@@ -122,7 +123,9 @@ async function init() {
   } catch { setDot('r'); setLbl('Offline'); }
   await Promise.all([loadCareers(), loadSkillStats()]);
   renderSugs(); renderChips();
+  const startOnNews = location.hash.startsWith('#news'), startTopic = newsTopicFromHash();
   switchMode('skills');
+  if (startOnNews) openNews(startTopic);
   await initAuth();
 }
 
@@ -201,6 +204,7 @@ async function switchRegion(r) {
   document.getElementById('selected-box').style.display = 'none';
   await loadCareers();
   renderSugs();
+  if (newsShowing()) { openNews(newsTopic); return; } // news view: reload stories and careers for the new region
   switchMode(currentMode); // reset results pane to a clean empty state
 }
 
@@ -453,7 +457,8 @@ async function saveMySkills() {
 }
 
 function unifiedEmpty() {
-  return `<div class="empty"><div class="emo">🧭</div><h3>Find your career path</h3><p>Type a <strong>skill</strong> (cooking, Python) or a <strong>job title</strong> (Chef, IAS) in the search box. Add a few skills and tap <strong>Find matching careers</strong>, or pick any job to see exactly what it takes.</p></div>`;
+  return `<div class="empty"><div class="emo">🧭</div><h3>Find your career path</h3><p>Type a <strong>skill</strong> (cooking, Python) or a <strong>job title</strong> (Chef, IAS) in the search box. Add a few skills and tap <strong>Find matching careers</strong>, or pick any job to see exactly what it takes.</p>
+    <button class="news-teaser" onclick="openNews()">📰 <span><b>Skills in the news</b><span>See which skills recent tech &amp; jobs stories mention, and the careers they affect</span></span><span class="nt-arrow">→</span></button></div>`;
 }
 function switchMode(m) {
   currentCareerData = null;
@@ -791,7 +796,11 @@ async function exploreCareer() {
   }
 }
 
-function setResults(html) { document.getElementById('results-area').innerHTML = html; }
+function setResults(html) {
+  document.getElementById('results-area').innerHTML = html;
+  // leaving the news view: drop its #news link so a reload lands on the normal page
+  if (!html.includes('news-view') && location.hash.startsWith('#news')) history.replaceState(null, '', location.pathname + location.search);
+}
 function col(s) { return s>=60?'var(--ok)':s>=30?'var(--wn)':'var(--bd-c)'; }
 function rankClass(i) { return i===0?'g':i===1?'s':i===2?'b':'n'; }
 
@@ -893,8 +902,11 @@ function renderCareerSkillView(cv, gv) {
     </div>
 
     <button class="full-cta" onclick="openDetail('${c.id}','career')">Run full gap analysis →</button>
+
+    <div data-career-news="${c.id}"></div>
   `);
   updateLiveScore(c);
+  loadCareerNews(c.id);
 }
 
 function toggleSkillCheck(el, skillName) {
@@ -1027,6 +1039,7 @@ function renderDetail(cv, gv) {
     ${qualHtml}
     ${entryHtml}
     ${renderSources(c)}
+    <div data-career-news="${c.id}"></div>
     ${aiHtml}
     ${relatedHtml}
     <div class="box">
@@ -1039,6 +1052,7 @@ function renderDetail(cv, gv) {
     </div>
     ${fbHtml}
   `;
+  loadCareerNews(c.id);
 }
 
 function setRating(n) {
@@ -1061,6 +1075,126 @@ function backToSearch() {
 }
 
 function esc(s){ return (s||'').replace(/'/g,"\\'").replace(/\n/g,''); }
+// For text from outside sources (news headlines): safe to put inside HTML and attribute values.
+function escHtml(s){ return String(s ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch])); }
+function safeUrl(u){ return /^https?:\/\//i.test(u || '') ? u : '#'; }
+function timeAgo(iso) {
+  const t = Date.parse(iso); if (isNaN(t)) return '';
+  const m = Math.max(0, Math.round((Date.now() - t) / 60000));
+  if (m < 60) return m <= 1 ? 'just now' : `${m} min ago`;
+  const h = Math.round(m / 60); if (h < 24) return `${h}h ago`;
+  const d = Math.round(h / 24); return d === 1 ? 'yesterday' : `${d} days ago`;
+}
+
+/* --- Skills in the news (backend/news.py) ---
+   Stories are tagged by keyword with skill topics; topics link to careers through
+   the careers' own skills. Topic and career buttons use data-topic / data-career
+   attributes (handled by one click listener) so outside text never ends up in onclick code. */
+function newsShowing() { return !!document.querySelector('#results-area .news-view'); }
+function newsTopicFromHash() {
+  const m = location.hash.match(/^#news(?:=(.+))?$/);
+  try { return m && m[1] ? decodeURIComponent(m[1]) : null; } catch { return null; }
+}
+
+async function openNews(topic = null) {
+  newsTopic = topic || null;
+  const seq = ++newsSeq;
+  currentCareerData = null;
+  document.getElementById('detail').style.display = 'none';
+  document.getElementById('search-pane').style.display = '';
+  setResults('<div class="news-view"><div class="status"><div class="spinner"></div><p>Collecting recent stories…</p></div></div>');
+  history.replaceState(null, '', location.pathname + location.search + '#news' + (newsTopic ? '=' + encodeURIComponent(newsTopic) : ''));
+  if (window.innerWidth <= 860) document.getElementById('search-pane').scrollIntoView({behavior:'smooth', block:'start'});
+  try {
+    const q = new URLSearchParams({region});
+    if (newsTopic) q.set('topic', newsTopic);
+    const d = await get(`/api/news?${q}`);
+    if (seq !== newsSeq || !newsShowing()) return;   // a newer click, or the user moved on
+    renderNews(d);
+  } catch (e) {
+    if (seq !== newsSeq || !newsShowing()) return;
+    setResults(`<div class="news-view"><div class="empty"><div class="emo">⚠️</div><h3>${describeError(e)}</h3><button class="full-cta" onclick="openNews(newsTopic)">Try again</button></div></div>`);
+  }
+}
+
+function newsCard(it) {
+  const types = (it.types||[]).map(t => `<span class="news-type t-${escHtml(t.toLowerCase())}">${escHtml(t)}</span>`).join('');
+  const tags = (it.topics||[]).map(t => `<button class="topic-chip sm${t.label===newsTopic?' on':''}" data-topic="${escHtml(t.label)}" title="The story mentions “${escHtml(t.keyword)}”">${escHtml(t.label)}</button>`).join('');
+  const cs = it.careers || [];
+  const firstTopic = (it.topics||[])[0];
+  const careers = cs.length ? `<div class="news-careers"><span class="nc-k">Careers:</span> ${cs.map(c => `<button class="nc-link" data-career="${escHtml(c.id)}">${escHtml(c.title)}</button>`).join('<span class="nc-sep">·</span>')}${it.more_careers && firstTopic ? ` <button class="nc-more" data-topic="${escHtml(firstTopic.label)}">+${it.more_careers} more</button>` : ''}</div>` : '';
+  return `<article class="news-card">
+    <div class="news-meta"><span class="news-src">${escHtml(it.source)}</span><span>${timeAgo(it.published)}</span>${types}</div>
+    <a class="news-title" href="${escHtml(safeUrl(it.url))}" target="_blank" rel="noopener noreferrer">${escHtml(it.title)} <span class="ext">↗</span></a>
+    ${tags ? `<div class="news-tags">${tags}</div>` : ''}
+    ${careers}
+  </article>`;
+}
+
+function renderNews(d) {
+  const head = `<div class="news-head"><h3>📰 Skills in the news</h3><p>Recent tech and jobs stories, tagged with the skills they mention and linked to the careers that use those skills. Headlines open on the publisher's site.</p></div>`;
+  if (!d.ready) {
+    setResults(`<div class="news-view">${head}<div class="empty"><div class="emo">⏳</div><h3>Still collecting stories</h3><p>We're reading the publishers' feeds right now — this takes a few seconds after the app starts.</p><button class="full-cta" onclick="openNews(newsTopic)">Try again</button></div></div>`);
+    return;
+  }
+  const items = d.items || [], trend = d.trending || [];
+  const chips = `<div class="news-topics"><button class="topic-chip${newsTopic?'':' on'}" data-topic="">All topics</button>${trend.map(t => `<button class="topic-chip${t.label===newsTopic?' on':''}" data-topic="${escHtml(t.label)}">${escHtml(t.label)} <b>${t.count}</b></button>`).join('')}</div>`;
+
+  let topicBox = '';
+  if (d.topic) {
+    const cs = d.topic.careers || [];
+    topicBox = `<div class="box topic-box"><div class="box-title">🧭 Careers that use ${escHtml(d.topic.label)} <span class="tb-count">${cs.length}</span></div>
+      ${cs.length ? `<div class="career-pills">${cs.map(c => `<button class="career-pill lv-${escHtml(c.level)}" data-career="${escHtml(c.id)}" title="Lists the skill “${escHtml(c.skill)}” as ${escHtml(c.level)}">${escHtml(c.title)}</button>`).join('')}</div>
+      <p class="src-note tb-note">Darker pills list it as a critical skill. Tap a career to see its full skill list.</p>`
+      : `<p class="src-note">No ${region==='IN'?'India':'US'} careers in CareerCompass list this skill yet.</p>`}
+    </div>`;
+  }
+
+  const n = d.story_count || 0;
+  const listHead = `<div class="results-head"><h3>${newsTopic ? escHtml(newsTopic) : 'Latest stories'}</h3><span class="count">${n} stor${n===1?'y':'ies'}${n>items.length?` · showing ${items.length}`:''}</span></div>`;
+  const list = items.length ? items.map(newsCard).join('')
+    : `<div class="empty"><div class="emo">🗞️</div><h3>No recent stories${newsTopic ? ` about ${escHtml(newsTopic)}` : ''}</h3><p>Stories refresh every half hour — check back later.</p></div>`;
+
+  const srcs = (d.sources||[]).map(s => `<a href="${escHtml(safeUrl(s.site))}" target="_blank" rel="noopener noreferrer">${escHtml(s.name)}</a>`).join(', ');
+  const how = `<div class="box src-box news-how"><div class="box-title">🔗 Where these stories come from</div>
+    <p class="src-note">Headlines and links come straight from these publishers' public feeds: ${srcs}. Each story belongs to its publisher — we show only the headline and a link.</p>
+    <p class="src-note">How tagging works: a story gets a skill tag when it mentions one of that skill's keywords (on a computer, point at a tag to see the matched word). The tag links to careers that list the skill. A story can mention a skill without being mainly about it.${d.updated_at ? ` Updated ${timeAgo(d.updated_at)}; showing stories from the last ${d.window_days} days.` : ''}</p>
+  </div>`;
+
+  setResults(`<div class="news-view">${head}${chips}${topicBox}${listHead}${list}${how}</div>`);
+  // on phones the topic row scrolls sideways: bring the selected topic into view
+  const row = document.querySelector('.news-topics'), on = row && row.querySelector('.topic-chip.on');
+  if (row && on) row.scrollLeft += on.getBoundingClientRect().left - row.getBoundingClientRect().left - 16;
+}
+
+async function loadCareerNews(id) {
+  try {
+    const d = await get(`/api/career/${encodeURIComponent(id)}/news`);
+    const html = renderCareerNews(d);
+    document.querySelectorAll(`[data-career-news="${CSS.escape(id)}"]`).forEach(el => { el.innerHTML = html; });
+  } catch { /* the news box is optional: if stories can't be loaded, the career page simply goes without it */ }
+}
+
+function renderCareerNews(d) {
+  const items = d.items || [];
+  if (!items.length) return '';
+  const lead = ((items[0].matched || [])[0] || {}).label;
+  return `<div class="box news-box"><div class="box-title">📰 In the news</div>
+    <p class="src-note">Recent stories that mention skills this career uses. They open on the publisher's site.</p>
+    ${items.map(it => `<a class="news-row" href="${escHtml(safeUrl(it.url))}" target="_blank" rel="noopener noreferrer">
+      <span class="nr-title">${escHtml(it.title)} <span class="ext">↗</span></span>
+      <span class="nr-meta">${escHtml(it.source)} · ${timeAgo(it.published)} · mentions ${(it.matched||[]).map(m => `<b title="Matches this career's skill “${escHtml(m.skill)}”">${escHtml(m.label)}</b>`).join(', ')}</span>
+    </a>`).join('')}
+    ${lead ? `<button class="news-more" data-topic="${escHtml(lead)}">More stories about ${escHtml(lead)} →</button>` : ''}
+  </div>`;
+}
+
+document.addEventListener('click', e => {
+  const t = e.target.closest('[data-topic]');
+  if (t) { e.preventDefault(); openNews(t.dataset.topic || null); return; }
+  const c = e.target.closest('[data-career]');
+  if (c) { e.preventDefault(); openDetail(c.dataset.career, 'news'); }
+});
 
 /* --- Feedback widget --- */
 let fbCat='general', fbStars=0;

@@ -1,0 +1,1163 @@
+{
+  "_about": [
+    "Skills in the news: which publisher feeds to read, and which words link a story to CareerCompass skills.",
+    "Keyword rule: write a keyword in lowercase to match any capitalisation ('python' matches 'Python').",
+    "Write it with capitals to match only that exact spelling ('AI' will not match 'ai' inside other words, 'Go' will not match 'go').",
+    "Every keyword matches whole words only, and a trailing 's' is allowed ('robot' also matches 'robots').",
+    "'news' keywords are searched in story headlines and summaries. 'skills' keywords are searched in the skill names careers list in careers.json.",
+    "'skip_headlines': stories whose headline has one of these words are left out (stock-market chatter), unless the headline also has a story type like Layoffs or Hiring.",
+    "'skills_exclude' removes skill names that the 'skills' keywords would otherwise catch by mistake.",
+    "After editing, run: python scripts/check_news_topics.py  (it lists every skill and career each topic connects to)."
+  ],
+  "window_days": 7,
+  "refresh_minutes": 30,
+  "feeds": [
+    {
+      "name": "TechCrunch",
+      "region": "global",
+      "url": "https://techcrunch.com/feed/",
+      "site": "https://techcrunch.com"
+    },
+    {
+      "name": "Ars Technica",
+      "region": "global",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "site": "https://arstechnica.com"
+    },
+    {
+      "name": "BBC News",
+      "region": "global",
+      "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+      "site": "https://www.bbc.com/news/technology"
+    },
+    {
+      "name": "The Verge",
+      "region": "global",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "site": "https://www.theverge.com"
+    },
+    {
+      "name": "The Guardian",
+      "region": "global",
+      "url": "https://www.theguardian.com/uk/technology/rss",
+      "site": "https://www.theguardian.com/technology"
+    },
+    {
+      "name": "The Register",
+      "region": "global",
+      "url": "https://www.theregister.com/headlines.atom",
+      "site": "https://www.theregister.com"
+    },
+    {
+      "name": "MIT Technology Review",
+      "region": "global",
+      "url": "https://www.technologyreview.com/feed/",
+      "site": "https://www.technologyreview.com"
+    },
+    {
+      "name": "InfoQ",
+      "region": "global",
+      "url": "https://feed.infoq.com/",
+      "site": "https://www.infoq.com"
+    },
+    {
+      "name": "CNBC",
+      "region": "US",
+      "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+      "site": "https://www.cnbc.com/technology/"
+    },
+    {
+      "name": "The Economic Times",
+      "region": "IN",
+      "url": "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms",
+      "site": "https://economictimes.indiatimes.com/tech"
+    },
+    {
+      "name": "ET Jobs",
+      "region": "IN",
+      "url": "https://economictimes.indiatimes.com/jobs/rssfeeds/107115.cms",
+      "site": "https://economictimes.indiatimes.com/jobs"
+    },
+    {
+      "name": "Inc42",
+      "region": "IN",
+      "url": "https://inc42.com/feed/",
+      "site": "https://inc42.com"
+    },
+    {
+      "name": "YourStory",
+      "region": "IN",
+      "url": "https://yourstory.com/feed",
+      "site": "https://yourstory.com"
+    },
+    {
+      "name": "The Hindu",
+      "region": "IN",
+      "url": "https://www.thehindu.com/sci-tech/technology/feeder/default.rss",
+      "site": "https://www.thehindu.com/sci-tech/technology/"
+    },
+    {
+      "name": "Mint",
+      "region": "IN",
+      "url": "https://www.livemint.com/rss/technology",
+      "site": "https://www.livemint.com/technology"
+    }
+  ],
+  "story_types": [
+    {
+      "label": "Layoffs",
+      "words": [
+        "layoff",
+        "laid off",
+        "lay off",
+        "job cut",
+        "cut jobs",
+        "cuts jobs",
+        "cutting jobs",
+        "slash jobs",
+        "slashes jobs",
+        "redundancies",
+        "retrenchment",
+        "downsizing"
+      ]
+    },
+    {
+      "label": "Hiring",
+      "words": [
+        "hiring",
+        "hires",
+        "to hire",
+        "recruitment",
+        "recruiting",
+        "job opening",
+        "new jobs",
+        "fresher",
+        "freshers",
+        "campus placement",
+        "job market",
+        "white-collar jobs"
+      ]
+    },
+    {
+      "label": "Pay",
+      "words": [
+        "salary",
+        "salaries",
+        "pay hike",
+        "wage",
+        "wages",
+        "appraisal"
+      ]
+    },
+    {
+      "label": "Upskilling",
+      "words": [
+        "upskill",
+        "upskilling",
+        "reskill",
+        "reskilling",
+        "skilling",
+        "skill gap",
+        "skills gap",
+        "bootcamp",
+        "apprenticeship"
+      ]
+    },
+    {
+      "label": "Expansion",
+      "words": [
+        "GCC",
+        "global capability centre",
+        "global capability center",
+        "new office",
+        "new campus",
+        "opens office",
+        "opens centre",
+        "opens center",
+        "innovation hub",
+        "tech hub"
+      ]
+    },
+    {
+      "label": "Funding",
+      "words": [
+        "funding",
+        "Series A",
+        "Series B",
+        "Series C",
+        "Series D",
+        "Series E",
+        "seed round",
+        "pre-seed",
+        "unicorn"
+      ]
+    }
+  ],
+  "skip_headlines": [
+    "stock",
+    "shares",
+    "share price",
+    "stock market",
+    "market cap",
+    "valuation",
+    "selloff",
+    "sell-off",
+    "Wall Street",
+    "Nasdaq",
+    "Sensex",
+    "Nifty",
+    "investors",
+    "earnings",
+    "revenue",
+    "profit",
+    "Cramer"
+  ],
+  "topics": [
+    {
+      "label": "Artificial intelligence",
+      "news": [
+        "AI",
+        "A.I.",
+        "artificial intelligence"
+      ],
+      "skills": [
+        "machine learning",
+        "deep learning",
+        "artificial intelligence",
+        "AI",
+        "neural",
+        "data science",
+        "prompt engineering",
+        "LLM",
+        "natural language processing",
+        "NLP",
+        "computer vision"
+      ]
+    },
+    {
+      "label": "Generative AI & LLMs",
+      "news": [
+        "generative AI",
+        "GenAI",
+        "gen AI",
+        "LLM",
+        "large language model",
+        "chatbot",
+        "ChatGPT",
+        "AI agent",
+        "agentic",
+        "AI assistant",
+        "foundation model"
+      ],
+      "skills": [
+        "generative ai",
+        "LLM",
+        "large language model",
+        "prompt engineering",
+        "RAG",
+        "retrieval-augmented",
+        "langchain",
+        "llamaindex",
+        "openai",
+        "hugging face",
+        "vector database"
+      ]
+    },
+    {
+      "label": "Machine learning",
+      "news": [
+        "machine learning",
+        "deep learning",
+        "neural network",
+        "ML model",
+        "model training",
+        "PyTorch",
+        "TensorFlow",
+        "MLOps"
+      ],
+      "skills": [
+        "machine learning",
+        "deep learning",
+        "MLOps",
+        "ML",
+        "pytorch",
+        "tensorflow",
+        "neural",
+        "model evaluation",
+        "feature engineering",
+        "reinforcement learning"
+      ]
+    },
+    {
+      "label": "Computer vision",
+      "news": [
+        "computer vision",
+        "image recognition",
+        "facial recognition",
+        "face recognition"
+      ],
+      "skills": [
+        "computer vision",
+        "image processing",
+        "opencv"
+      ]
+    },
+    {
+      "label": "Robotics",
+      "news": [
+        "robot",
+        "robotics",
+        "humanoid",
+        "cobot"
+      ],
+      "skills": [
+        "robotic",
+        "robotics",
+        "ROS",
+        "robot"
+      ],
+      "skills_exclude": [
+        "Robotic Process Automation"
+      ]
+    },
+    {
+      "label": "Python",
+      "news": [
+        "python"
+      ],
+      "skills": [
+        "python"
+      ]
+    },
+    {
+      "label": "JavaScript & TypeScript",
+      "news": [
+        "javascript",
+        "typescript",
+        "node.js",
+        "nodejs",
+        "npm"
+      ],
+      "skills": [
+        "javascript",
+        "typescript",
+        "node.js",
+        "node",
+        "react",
+        "angular",
+        "vue"
+      ]
+    },
+    {
+      "label": "Java",
+      "news": [
+        "java",
+        "JVM",
+        "Spring Boot"
+      ],
+      "skills": [
+        "java",
+        "spring boot",
+        "spring"
+      ]
+    },
+    {
+      "label": "Rust & Go",
+      "news": [
+        "Rust",
+        "Golang",
+        "Go language"
+      ],
+      "skills": [
+        "Rust",
+        "Go",
+        "golang"
+      ]
+    },
+    {
+      "label": "Cloud computing",
+      "news": [
+        "cloud computing",
+        "cloud service",
+        "cloud provider",
+        "hyperscaler",
+        "AWS",
+        "Amazon Web Services",
+        "Azure",
+        "Google Cloud",
+        "multicloud",
+        "serverless"
+      ],
+      "skills": [
+        "cloud",
+        "AWS",
+        "azure",
+        "google cloud",
+        "GCP",
+        "serverless",
+        "cloudformation"
+      ],
+      "skills_exclude": [
+        "Good Clinical Practice",
+        "Point Cloud"
+      ]
+    },
+    {
+      "label": "Kubernetes & containers",
+      "news": [
+        "kubernetes",
+        "k8s",
+        "docker",
+        "container orchestration",
+        "containerised",
+        "containerized",
+        "Helm"
+      ],
+      "skills": [
+        "kubernetes",
+        "k8s",
+        "docker",
+        "helm",
+        "containers",
+        "service mesh",
+        "istio"
+      ]
+    },
+    {
+      "label": "DevOps & SRE",
+      "news": [
+        "devops",
+        "DevSecOps",
+        "site reliability",
+        "SRE",
+        "CI/CD",
+        "platform engineering",
+        "observability",
+        "OpenTelemetry",
+        "infrastructure as code",
+        "Terraform",
+        "GitHub Actions"
+      ],
+      "skills": [
+        "devops",
+        "SRE",
+        "site reliability",
+        "CI/CD",
+        "gitops",
+        "terraform",
+        "infrastructure as code",
+        "ansible",
+        "pulumi",
+        "observability",
+        "on-call",
+        "incident management"
+      ]
+    },
+    {
+      "label": "Linux & open source",
+      "news": [
+        "linux",
+        "open source",
+        "open-source",
+        "kernel"
+      ],
+      "skills": [
+        "linux",
+        "open source",
+        "unix"
+      ],
+      "skills_exclude": [
+        "OSINT",
+        "intelligence"
+      ]
+    },
+    {
+      "label": "Cybersecurity",
+      "news": [
+        "cybersecurity",
+        "cyber security",
+        "cyberattack",
+        "cyber attack",
+        "cyber-attack",
+        "hacker",
+        "hacked",
+        "ransomware",
+        "malware",
+        "phishing",
+        "data breach",
+        "zero-day",
+        "vulnerability",
+        "vulnerabilities",
+        "spyware",
+        "security flaw",
+        "security fix",
+        "security patch",
+        "infostealer",
+        "CVE"
+      ],
+      "skills": [
+        "cyber",
+        "cloud security",
+        "network security",
+        "web security",
+        "auth & security",
+        "security best practices",
+        "security governance",
+        "security monitoring",
+        "SIEM",
+        "security tools",
+        "penetration",
+        "ethical hacking",
+        "malware",
+        "threat",
+        "vulnerability",
+        "incident response",
+        "zero trust",
+        "cryptography",
+        "information security",
+        "firewall",
+        "ISO 27001",
+        "SOC"
+      ],
+      "skills_exclude": [
+        "Security Systems",
+        "Security & Access Control",
+        "Security Deposits"
+      ]
+    },
+    {
+      "label": "Data & analytics",
+      "news": [
+        "data analytics",
+        "big data",
+        "data science",
+        "data scientist",
+        "data engineering",
+        "data analyst",
+        "business intelligence",
+        "Power BI",
+        "Tableau",
+        "Snowflake",
+        "Databricks",
+        "data warehouse",
+        "data lake"
+      ],
+      "skills": [
+        "data analysis",
+        "data analytics",
+        "data science",
+        "data engineering",
+        "data visualization",
+        "data visualisation",
+        "data modeling",
+        "data pipeline",
+        "data warehousing",
+        "ETL",
+        "power bi",
+        "tableau",
+        "looker",
+        "bigquery",
+        "snowflake",
+        "databricks",
+        "apache spark",
+        "airflow",
+        "kafka",
+        "dbt",
+        "pandas",
+        "statistics"
+      ]
+    },
+    {
+      "label": "Databases & SQL",
+      "news": [
+        "SQL",
+        "PostgreSQL",
+        "Postgres",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "vector database",
+        "database engine",
+        "database software"
+      ],
+      "skills": [
+        "SQL",
+        "database",
+        "postgres",
+        "postgresql",
+        "mysql",
+        "mongodb",
+        "redis",
+        "elasticsearch",
+        "dynamodb",
+        "firebase",
+        "vector database"
+      ],
+      "skills_exclude": [
+        "database searching",
+        "biological databases",
+        "engines/databases"
+      ]
+    },
+    {
+      "label": "Smartphones & mobile apps",
+      "news": [
+        "Android",
+        "iOS",
+        "iPhone",
+        "app store",
+        "Play Store",
+        "mobile app",
+        "smartphone",
+        "smartphones",
+        "Flutter",
+        "React Native"
+      ],
+      "skills": [
+        "android",
+        "iOS",
+        "flutter",
+        "react native",
+        "swift",
+        "kotlin",
+        "mobile ui",
+        "app store",
+        "expo",
+        "mobile phone repair",
+        "mobile/electronics repair"
+      ]
+    },
+    {
+      "label": "Web development",
+      "news": [
+        "web development",
+        "web developer",
+        "WebAssembly",
+        "Wasm",
+        "frontend",
+        "front-end",
+        "web browser",
+        "Next.js"
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "frontend",
+        "front-end",
+        "web development",
+        "web design",
+        "responsive design",
+        "wordpress",
+        "REST API",
+        "web security",
+        "next.js"
+      ]
+    },
+    {
+      "label": "Software testing & QA",
+      "news": [
+        "software testing",
+        "QA",
+        "quality assurance",
+        "test automation",
+        "Selenium",
+        "Playwright",
+        "software bug",
+        "bug bounty"
+      ],
+      "skills": [
+        "software testing",
+        "manual testing",
+        "API testing",
+        "test automation",
+        "automation testing",
+        "QA",
+        "selenium",
+        "cypress",
+        "testing & validation",
+        "game testing"
+      ]
+    },
+    {
+      "label": "Embedded systems & IoT",
+      "news": [
+        "IoT",
+        "internet of things",
+        "microcontroller",
+        "Raspberry Pi",
+        "Arduino",
+        "firmware",
+        "smart home",
+        "embedded systems",
+        "embedded software",
+        "embedded Linux"
+      ],
+      "skills": [
+        "embedded",
+        "IoT",
+        "microcontroller",
+        "arduino",
+        "raspberry pi",
+        "firmware",
+        "PLC",
+        "SCADA",
+        "home automation"
+      ]
+    },
+    {
+      "label": "Blockchain & crypto",
+      "news": [
+        "blockchain",
+        "crypto",
+        "cryptocurrency",
+        "bitcoin",
+        "ethereum",
+        "web3",
+        "stablecoin",
+        "NFT"
+      ],
+      "skills": [
+        "blockchain",
+        "solidity",
+        "smart contract",
+        "crypto",
+        "web3",
+        "defi"
+      ]
+    },
+    {
+      "label": "AR, VR & XR",
+      "news": [
+        "virtual reality",
+        "augmented reality",
+        "mixed reality",
+        "VR",
+        "AR glasses",
+        "XR",
+        "smart glasses",
+        "Vision Pro"
+      ],
+      "skills": [
+        "AR",
+        "VR",
+        "XR",
+        "virtual reality",
+        "augmented reality",
+        "mixed reality",
+        "spatial computing",
+        "ARKit",
+        "ARCore",
+        "OpenXR",
+        "WebXR"
+      ]
+    },
+    {
+      "label": "Gaming",
+      "news": [
+        "video game",
+        "gaming",
+        "game studio",
+        "game developer",
+        "game development",
+        "esports",
+        "PlayStation",
+        "Xbox",
+        "Nintendo",
+        "Steam Deck",
+        "Unreal Engine",
+        "Unity engine",
+        "console"
+      ],
+      "skills": [
+        "game design",
+        "game level",
+        "game mechanics",
+        "game monetisation",
+        "game physics",
+        "game testing",
+        "game dev",
+        "gaming",
+        "esports",
+        "unity",
+        "unreal",
+        "level design",
+        "GDD"
+      ]
+    },
+    {
+      "label": "3D printing",
+      "news": [
+        "3D printing",
+        "3D printer",
+        "3D-printed",
+        "3D printed",
+        "additive manufacturing"
+      ],
+      "skills": [
+        "3D print",
+        "3D printer",
+        "additive manufacturing",
+        "DfAM",
+        "slicing software",
+        "print post-processing"
+      ]
+    },
+    {
+      "label": "Animation & VFX",
+      "news": [
+        "animation",
+        "animated",
+        "VFX",
+        "visual effects",
+        "CGI",
+        "Pixar",
+        "anime",
+        "motion capture",
+        "virtual production"
+      ],
+      "skills": [
+        "animation",
+        "VFX",
+        "compositing",
+        "rigging",
+        "3D model",
+        "3D modelling",
+        "houdini",
+        "nuke",
+        "blender",
+        "matchmove",
+        "motion capture",
+        "rotoscop",
+        "virtual production",
+        "look development",
+        "texturing"
+      ],
+      "skills_exclude": [
+        "safety & rigging"
+      ]
+    },
+    {
+      "label": "Electric vehicles & batteries",
+      "news": [
+        "electric vehicle",
+        "EV",
+        "EVs",
+        "e-scooter",
+        "electric car",
+        "electric scooter",
+        "charging station",
+        "lithium",
+        "EV battery",
+        "battery cell",
+        "battery storage",
+        "gigafactory"
+      ],
+      "skills": [
+        "EV",
+        "electric vehicle",
+        "battery",
+        "battery management",
+        "charging",
+        "BMS",
+        "motor controller",
+        "electric drivetrain"
+      ],
+      "skills_exclude": [
+        "gas charging"
+      ]
+    },
+    {
+      "label": "Drones",
+      "news": [
+        "drone",
+        "UAV",
+        "unmanned aerial"
+      ],
+      "skills": [
+        "drone",
+        "UAV",
+        "unmanned aerial"
+      ]
+    },
+    {
+      "label": "Space tech",
+      "news": [
+        "satellite",
+        "spacecraft",
+        "space agency",
+        "space mission",
+        "spaceflight",
+        "orbit",
+        "ISRO",
+        "NASA",
+        "space station",
+        "space startup",
+        "rocket launch",
+        "launch vehicle"
+      ],
+      "skills": [
+        "satellite",
+        "spacecraft",
+        "orbital",
+        "rocket",
+        "propulsion",
+        "space systems",
+        "avionics",
+        "GNC",
+        "astrophysics",
+        "astronomy",
+        "aerospace"
+      ]
+    },
+    {
+      "label": "Telecom & networking",
+      "news": [
+        "5G",
+        "6G",
+        "4G",
+        "telecom",
+        "telecommunications",
+        "broadband",
+        "fibre",
+        "fiber optic",
+        "mobile network",
+        "satcom",
+        "network outage",
+        "internet outage",
+        "Cisco"
+      ],
+      "skills": [
+        "telecom",
+        "5G",
+        "4G",
+        "RF",
+        "fiber",
+        "fibre",
+        "OFC",
+        "antenna",
+        "TCP/IP",
+        "Cisco"
+      ]
+    },
+    {
+      "label": "Renewable energy",
+      "news": [
+        "solar",
+        "renewable",
+        "renewables",
+        "wind power",
+        "wind farm",
+        "wind energy",
+        "clean energy",
+        "green hydrogen",
+        "energy storage",
+        "heat pump"
+      ],
+      "skills": [
+        "solar",
+        "renewable",
+        "PV",
+        "photovoltaic",
+        "wind turbine",
+        "green hydrogen",
+        "energy storage",
+        "energy audit"
+      ]
+    },
+    {
+      "label": "Fintech & payments",
+      "news": [
+        "fintech",
+        "UPI",
+        "digital payment",
+        "digital payments",
+        "payments app",
+        "neobank",
+        "digital lending",
+        "BNPL",
+        "payment gateway"
+      ],
+      "skills": [
+        "fintech",
+        "UPI",
+        "payment",
+        "digital banking",
+        "digital lending",
+        "KYC"
+      ]
+    },
+    {
+      "label": "E-commerce",
+      "news": [
+        "e-commerce",
+        "ecommerce",
+        "quick commerce",
+        "q-commerce",
+        "online retail",
+        "D2C",
+        "online shopping"
+      ],
+      "skills": [
+        "e-commerce",
+        "ecommerce",
+        "shopify",
+        "marketplace",
+        "D2C",
+        "online selling",
+        "amazon seller",
+        "catalog"
+      ]
+    },
+    {
+      "label": "Social media & creators",
+      "news": [
+        "influencer",
+        "YouTube",
+        "Instagram",
+        "TikTok",
+        "social media",
+        "content moderation",
+        "creator economy",
+        "content creator"
+      ],
+      "skills": [
+        "social media",
+        "content creation",
+        "youtube",
+        "instagram",
+        "influencer",
+        "podcast",
+        "short-form video",
+        "community management"
+      ],
+      "skills_exclude": [
+        "OSINT"
+      ]
+    },
+    {
+      "label": "UX & product design",
+      "news": [
+        "UX",
+        "user experience",
+        "product design",
+        "Figma",
+        "design system",
+        "user interface"
+      ],
+      "skills": [
+        "UX",
+        "UI design",
+        "UI/UX",
+        "figma",
+        "user research",
+        "usability",
+        "wireframing",
+        "prototyping",
+        "interaction design",
+        "product design"
+      ]
+    },
+    {
+      "label": "Automation & RPA",
+      "news": [
+        "automation",
+        "automate",
+        "RPA",
+        "workflow automation"
+      ],
+      "skills": [
+        "automation",
+        "RPA",
+        "robotic process automation",
+        "flows & automation"
+      ],
+      "skills_exclude": [
+        "Test Automation"
+      ]
+    },
+    {
+      "label": "SAP & enterprise software",
+      "news": [
+        "SAP",
+        "ERP",
+        "Salesforce",
+        "ServiceNow",
+        "Workday",
+        "enterprise software"
+      ],
+      "skills": [
+        "SAP",
+        "ERP",
+        "salesforce",
+        "ABAP",
+        "servicenow",
+        "workday",
+        "apex/lightning"
+      ]
+    },
+    {
+      "label": "Healthtech",
+      "news": [
+        "healthtech",
+        "health tech",
+        "telemedicine",
+        "telehealth",
+        "digital health",
+        "medical AI",
+        "health records",
+        "medtech"
+      ],
+      "skills": [
+        "telemedicine",
+        "telehealth",
+        "health informatics",
+        "digital health",
+        "EHR",
+        "EMR",
+        "medical device",
+        "medical coding"
+      ]
+    },
+    {
+      "label": "Edtech & online learning",
+      "news": [
+        "edtech",
+        "online learning",
+        "e-learning",
+        "online course",
+        "online courses",
+        "MOOC"
+      ],
+      "skills": [
+        "e-learning",
+        "instructional design",
+        "LMS",
+        "online teaching",
+        "course creation",
+        "curriculum design"
+      ]
+    },
+    {
+      "label": "Biotech & genomics",
+      "news": [
+        "biotech",
+        "gene editing",
+        "CRISPR",
+        "genomics",
+        "genome",
+        "synthetic biology",
+        "drug discovery"
+      ],
+      "skills": [
+        "CRISPR",
+        "genomic",
+        "bioinformatics",
+        "molecular biology",
+        "biotech",
+        "gene",
+        "cell culture",
+        "PCR"
+      ]
+    }
+  ]
+}
