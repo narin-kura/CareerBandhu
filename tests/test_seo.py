@@ -123,6 +123,16 @@ class SiteTests(unittest.TestCase):
         self.assertEqual(self.client.get("/careers", headers={"host": "x.run.app"}).headers.get("x-robots-tag"), "noindex")
         self.assertIsNone(self.client.get("/careers", headers=HOST).headers.get("x-robots-tag"))
 
+    def test_llms_txt_links_to_real_pages(self):
+        text = self.client.get("/llms.txt", headers=HOST).text
+        self.assertTrue(text.startswith("# CareerCompass"))
+        self.assertNotRegex(text, r"\{\{|\{%")
+        links = re.findall(r"\]\((" + re.escape(seo.ORIGIN) + r"[^)]*)\)", text)
+        self.assertGreater(len(links), 60)
+        known = set(self.pages) | {"/"}
+        for url in links:
+            self.assertIn(url.removeprefix(seo.ORIGIN), known, url)
+
     def test_home_page_tags_counts_and_links(self):
         html = self.client.get("/", headers=HOST).text
         self.assertIn(f"<title>{seo.CONFIG['home']['title'].replace('&', '&amp;')}</title>", html)

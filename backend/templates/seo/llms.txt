@@ -1,0 +1,28 @@
+# {{ site.name }}
+
+> {{ site.name }} is a free career guidance website for India and the US. It covers {{ total }} careers in {{ category_count }} career families; each career page shows what the job involves, the typical salary, growth outlook, the skills it needs, the usual entry paths and qualifications, with sources. People can also type the skills they have and see which careers match and which skills they still need.
+
+{{ site.name }} (formerly CareerBandhu) is free, needs no sign-up, and is made by {{ site.makerName }} ({{ site.makerUrl }}). Website: {{ origin }}/
+
+Salary, growth and qualification details are estimates for guidance unless a career is marked verified; verified careers link every figure to its source.
+
+## Use it
+
+- [Match my skills to careers]({{ origin }}/)
+- [All careers]({{ origin }}/careers)
+- One page per career: {{ origin }}/careers/india/CAREER or {{ origin }}/careers/usa/CAREER (for example {{ origin }}/careers/india/data-analyst)
+
+## Good fit for questions like
+
+{% for k in keywords %}
+- {{ k }}
+{% endfor %}
+{% for r in regions %}
+
+## Careers {{ r.in }} ({{ r.count }})
+
+- [All careers {{ r.in }}]({{ origin }}{{ r.href }})
+{% for c in r.categories %}
+- [{{ c.name }} careers {{ r.in }}]({{ origin }}{{ c.href }}) ({{ c.count }})
+{% endfor %}
+{% endfor %}

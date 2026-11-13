@@ -406,5 +406,18 @@ def build_router(careers: list[dict], index_file: Path) -> APIRouter:
                 + "\n".join(f"  <url><loc>{_abs(u)}</loc></url>" for u in urls) + "\n</urlset>\n")
         return Response(body, media_type="application/xml")
 
+    @router.get("/llms.txt", include_in_schema=False)
+    async def llms():
+        """Plain-text summary of the site for AI assistants."""
+        regions = [{
+            "in": REGIONS[r]["in"], "count": len(idx.by_region[r]), "href": idx.region_path(r),
+            "categories": [{"name": cat, "href": idx.category_path(r, cat), "count": len(v)}
+                           for cat, v in idx.categories[r].items()],
+        } for r in REGIONS]
+        body = _env.get_template("llms.txt").render(
+            site=SITE, origin=ORIGIN, keywords=CONFIG["keywords"], regions=regions,
+            total=len(idx.careers), category_count=len({c["category"] for c in idx.careers}))
+        return PlainTextResponse(body)
+
     router.index = idx  # for tests
     return router
