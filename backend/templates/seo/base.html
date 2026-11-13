@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="{{ canonical }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:locale" content="{{ site.locale }}">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ title }}">
+<meta name="twitter:description" content="{{ description }}">
+<link rel="stylesheet" href="/static/css/seo.css?v=20261112a">
+<script type="application/ld+json">{{ jsonld | safe }}</script>
+</head>
+<body>
+<header class="bar">
+  <a class="brand" href="/"><span class="mark">C</span>Career<b>Compass</b></a>
+  <nav aria-label="Browse careers">
+    <a href="/careers">All careers</a>
+    <a href="/careers/india">India</a>
+    <a href="/careers/usa">USA</a>
+    <a class="cta-small" href="/">Match my skills</a>
+  </nav>
+</header>
+<main>
+<nav class="crumbs" aria-label="Breadcrumb"><ol>
+{% for label, href in trail %}
+  {% if loop.last %}<li aria-current="page">{{ label }}</li>{% else %}<li><a href="{{ href }}">{{ label }}</a></li>{% endif %}
+{% endfor %}
+</ol></nav>
+{% block content %}{% endblock %}
+<aside class="cta">
+  <p class="cta-head">Which careers fit your skills?</p>
+  <p>Type the skills you have, from cooking to Python, and CareerCompass lists the careers they lead to, with the skills you would still need. Free, no sign-up needed.</p>
+  <p><a class="btn" href="/">Find careers for my skills</a></p>
+</aside>
+<section class="sources">
+  <h2>Sources</h2>
+  <ul>
+  {% for s in sources %}
+    <li><a href="{{ s.url }}" rel="noopener">{{ s.label }}</a></li>
+  {% endfor %}
+  </ul>
+  <p class="small">Salary, growth and qualification details are estimates compiled for guidance unless marked verified. Check current figures with the sources above before making decisions.</p>
+</section>
+</main>
+<footer>
+  <p><a href="/">{{ site.name }}</a> (formerly CareerBandhu): {{ site.tagline }}. Made by <a href="{{ site.makerUrl }}">{{ site.makerName }}</a>.</p>
+  <p><a href="/careers">All careers</a> · <a href="/careers/india">Careers in India</a> · <a href="/careers/usa">Careers in the US</a></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+{
+  "_note": "Search-engine wording for CareerCompass's crawlable pages (backend/seo.py renders them with backend/templates/seo/). Titles stay near 60 characters, descriptions under 160. {{placeholders}} are filled per page. Set the SITE_ORIGIN env var to change the canonical domain (e.g. after a rename); pages served from any other host tell crawlers not to index them.",
+
+  "site": {
+    "name": "CareerCompass",
+    "origin": "https://careercompass.vigyatri.com",
+    "alternateNames": ["Career Compass", "CareerBandhu"],
+    "makerName": "Vigyatri Solutions",
+    "makerUrl": "https://vigyatri.com",
+    "tagline": "Free career guidance for India and the US: salaries, skills and paths for every career",
+    "locale": "en_IN"
+  },
+
+  "keywords": [
+    "career guidance",
+    "career options in India",
+    "list of careers",
+    "how to become",
+    "salary in India",
+    "skills required",
+    "qualifications for",
+    "career path",
+    "jobs without a degree",
+    "career counselling free"
+  ],
+
+  "home": {
+    "title": "CareerCompass: Free Career Guidance for India & the US",
+    "description": "Explore {{count}} careers in India and the US: salary, growth outlook, skills needed and how to get in. Type your skills to find matching careers. Free, no sign-up needed."
+  },
+
+  "homeLinks": {
+    "heading": "Browse careers",
+    "links": [
+      { "label": "All careers in India", "href": "/careers/india" },
+      { "label": "All careers in the US", "href": "/careers/usa" },
+      { "label": "Technology careers in India", "href": "/careers/india/category/technology" },
+      { "label": "Government jobs in India", "href": "/careers/india/category/government-public-service" },
+      { "label": "Healthcare careers in India", "href": "/careers/india/category/healthcare" },
+      { "label": "Small business ideas in India", "href": "/careers/india/category/entrepreneurship-msme" },
+      { "label": "Everyday work and trades in India", "href": "/careers/india/category/everyday-work-trades" },
+      { "label": "Animation and VFX careers", "href": "/careers/india/category/animation-industry" },
+      { "label": "Every career family", "href": "/careers" }
+    ]
+  },
+
+  "regions": {
+    "IN": {
+      "path": "india",
+      "name": "India",
+      "in": "in India",
+      "title_in": "in India",
+      "country": "India",
+      "currency": "INR",
+      "sources": [
+        { "label": "National Career Service (Govt. of India): career information and qualifications", "url": "https://www.ncs.gov.in/" },
+        { "label": "AmbitionBox: salaries reported by employees in India", "url": "https://www.ambitionbox.com/" }
+      ]
+    },
+    "US": {
+      "path": "usa",
+      "name": "the US",
+      "in": "in the US",
+      "title_in": "in the US",
+      "country": "United States",
+      "currency": "USD",
+      "sources": [
+        { "label": "U.S. Bureau of Labor Statistics: Occupational Outlook Handbook", "url": "https://www.bls.gov/ooh/" },
+        { "label": "O*NET OnLine: skills, tasks and qualifications by occupation", "url": "https://www.onetonline.org/" }
+      ]
+    }
+  },
+
+  "pages": {
+    "hub": {
+      "title": "Explore {{count}} Careers in India and the US | CareerCompass",
+      "h1": "Explore {{count}} careers",
+      "description": "Browse {{count}} careers in {{categories}} career families, in India and the US: what each job involves, salary, growth outlook, skills needed and how to get in.",
+      "intro": "Every career in CareerCompass, grouped into {{categories}} career families. Each page shows what the job involves, the typical salary, the growth outlook, the skills it needs and the usual ways in."
+    },
+    "region": {
+      "title": "All {{count}} Careers {{title_in}}: Salaries, Skills & Paths",
+      "h1": "All careers {{in}}",
+      "description": "A list of {{count}} careers {{in}}, from {{example1}} to {{example2}}, with salary, growth outlook, skills required and how to become one.",
+      "intro": "{{count}} careers {{in}}, grouped by career family. Open any career to see its salary, growth outlook, the skills it needs and how to get in."
+    },
+    "category": {
+      "title": "{{category}} Careers {{title_in}}: Jobs, Salaries & Skills",
+      "h1": "{{category}} careers {{in}}",
+      "description": "{{count}} {{category}} careers {{in}}, including {{examples}}: salary, growth outlook, skills required and how to become one.",
+      "intro": "{{count}} careers {{in}} in the {{category}} family. Each shows the typical salary, growth outlook and skills needed."
+    },
+    "career": {
+      "title": "{{title}} {{title_in}}: Salary, Skills & How to Become One",
+      "description": "How to become a {{title}} {{in}}: salary {{salary}}, growth outlook {{growth}}. Key skills: {{skills}}. Qualifications and entry paths, with sources."
+    }
+  }
+}

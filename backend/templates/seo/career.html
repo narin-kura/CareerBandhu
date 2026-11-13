@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block content %}
+<article>
+  <p class="kicker">{{ c.category }} · career {{ region.in }}</p>
+  <h1>{{ c.title }}</h1>
+  {% if verified %}
+  <p class="badge badge-ok">Verified{% if verified_at %} {{ verified_at }}{% endif %}: every figure below links to its source</p>
+  {% else %}
+  <p class="badge badge-warn">Not yet verified: figures are estimates for guidance. Check them with the sources at the end of the page.</p>
+  {% endif %}
+  <p class="lead">{{ c.description }}</p>
+
+  <dl class="facts">
+    <dt>Salary {{ region.in }}</dt>
+    <dd>{{ salary.text }}{% if salary.note %} <span class="muted">({{ salary.note }})</span>{% endif %}
+      {% if salary.mismatch %}<br><span class="warn">This figure is in US dollars and has not yet been checked for {{ region.name }}.</span>{% endif %}</dd>
+    <dt>Growth outlook</dt><dd>{{ c.growth_outlook }}</dd>
+    {% if c.work_style %}<dt>Work style</dt><dd>{{ c.work_style | join(", ") }}</dd>{% endif %}
+    <dt>Career family</dt><dd><a href="{{ category_href }}">{{ c.category }}</a></dd>
+  </dl>
+
+  <h2>Skills needed to become a {{ c.title }}</h2>
+  {% for level, label, names in levels if names %}
+  <h3>{{ label }}</h3>
+  <ul class="chips">{% for s in names %}<li>{{ s }}</li>{% endfor %}</ul>
+  {% endfor %}
+  <p><a class="btn btn-line" href="{{ app_href }}">Check your skills against {{ c.title }}</a></p>
+
+  {% if c.entry_paths %}
+  <h2>How to become a {{ c.title }} {{ region.in }}</h2>
+  <ul>{% for p in c.entry_paths %}<li>{{ p }}</li>{% endfor %}</ul>
+  {% endif %}
+
+  {% if c.qualifications %}
+  <h2>Qualifications</h2>
+  <ul>{% for q in c.qualifications %}<li>{{ q }}</li>{% endfor %}</ul>
+  {% endif %}
+
+  {% if claim_sources %}
+  <h2>Where these figures come from</h2>
+  <table class="claims">
+    <thead><tr><th scope="col">Detail</th><th scope="col">What the source says</th><th scope="col">Source</th></tr></thead>
+    <tbody>
+    {% for s in claim_sources %}
+      <tr><td>{{ s.field | capitalize }}</td><td>{{ s.claim }}{% if s.note %}<br><span class="muted">{{ s.note }}</span>{% endif %}</td>
+        <td><a href="{{ s.url }}" rel="noopener">{{ s.source }}</a>{% if s.as_of %} <span class="muted">({{ s.as_of }})</span>{% endif %}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+
+  {% if other_region %}
+  <p class="muted">Also see: <a href="{{ other_region.href }}">{{ c.title }} in {{ other_region.name }}</a></p>
+  {% endif %}
+
+  {% if related %}
+  <h2>Related {{ c.category }} careers {{ region.in }}</h2>
+  <ul class="cards">
+  {% for r in related %}
+    <li><a href="{{ r.href }}">{{ r.title }}</a><span class="sub">{{ r.salary }}{% if r.salary_mismatch %} (USD){% endif %} · Growth: {{ r.growth }}</span></li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+</article>
+{% endblock %}

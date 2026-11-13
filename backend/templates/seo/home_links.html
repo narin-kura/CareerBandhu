@@ -1,0 +1,4 @@
+<section class="seo-browse" aria-label="{{ links.heading }}">
+  <h2>{{ links.heading }}</h2>
+  <ul>{% for l in links.links %}<li><a href="{{ l.href }}">{{ l.label }}</a></li>{% endfor %}</ul>
+</section>

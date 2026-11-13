@@ -19,7 +19,6 @@ from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.concurrency import run_in_threadpool
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.errors import RateLimitExceeded
@@ -51,6 +50,11 @@ try:
     from backend.news import NewsStore
 except ImportError:
     from news import NewsStore
+
+try:
+    from backend.seo import build_router as build_seo_router
+except ImportError:
+    from seo import build_router as build_seo_router
 
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
@@ -90,13 +94,13 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 app.mount("/static", StaticFiles(directory=str(UI_DIR)), name="static")
 
 # --- Load data ---
-with open(DATA_DIR / "careers.json") as f:
+with open(DATA_DIR / "careers.json", encoding="utf-8") as f:
     CAREERS: list[dict] = json.load(f)
 
-with open(DATA_DIR / "skills.json") as f:
+with open(DATA_DIR / "skills.json", encoding="utf-8") as f:
     SKILLS_DATA: dict = json.load(f)
 
-with open(DATA_DIR / "resources.json") as f:
+with open(DATA_DIR / "resources.json", encoding="utf-8") as f:
     RESOURCES: dict = json.load(f)
 
 CAREERS_BY_ID: dict[str, dict] = {c["id"]: c for c in CAREERS}
@@ -275,12 +279,9 @@ def _ai_advice_anthropic(prompt: str, api_key: str) -> str:
 
 
 # --- Routes ---
-@app.get("/")
-async def root():
-    index = UI_DIR / "index.html"
-    if index.exists():
-        return FileResponse(str(index), media_type="text/html")
-    return {"name": "CareerBandhu API", "version": "1.0.0", "status": "running"}
+# "/" (index.html with search-engine tags filled in), /careers/* crawlable career
+# pages, robots.txt and sitemap.xml. See backend/seo.py.
+app.include_router(build_seo_router(CAREERS, UI_DIR / "index.html"))
 
 
 @app.get("/api/health")

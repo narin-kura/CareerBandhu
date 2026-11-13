@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<article>
+  <h1>{{ h1 }}</h1>
+  <p class="lead">{{ intro }}</p>
+  {% if jump %}
+  <nav class="jump" aria-label="Jump to career family">{% for j in jump %}<a href="{{ j.href }}">{{ j.label }}</a>{% endfor %}</nav>
+  {% endif %}
+  {% for g in groups %}
+  <section id="{{ g.id }}">
+    {% if g.heading %}<h2><a href="{{ g.href }}">{{ g.heading }}</a></h2>{% endif %}
+    <ul class="cards">
+    {% for r in g.cards %}
+      <li><a href="{{ r.href }}">{{ r.title }}</a><span class="desc">{{ r.desc }}</span><span class="sub">{{ r.salary }}{% if r.salary_mismatch %} (USD){% endif %} · Growth: {{ r.growth }}</span></li>
+    {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+  {% if tiles %}
+  <section>
+    <h2>{{ tiles_heading }}</h2>
+    <ul class="tiles">{% for t in tiles %}<li><a href="{{ t.href }}">{{ t.label }}</a><span class="sub">{{ t.count }} careers</span></li>{% endfor %}</ul>
+  </section>
+  {% endif %}
+</article>
+{% endblock %}

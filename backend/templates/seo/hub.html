@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<article>
+  <h1>{{ h1 }}</h1>
+  <p class="lead">{{ intro }}</p>
+  {% for s in sections %}
+  <section>
+    <h2>{{ s.heading }}</h2>
+    <p><a class="btn btn-line" href="{{ s.all_href }}">{{ s.all_label }}</a></p>
+    <ul class="tiles">{% for t in s.tiles %}<li><a href="{{ t.href }}">{{ t.label }}</a><span class="sub">{{ t.count }} careers</span></li>{% endfor %}</ul>
+  </section>
+  {% endfor %}
+</article>
+{% endblock %}

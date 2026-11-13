@@ -124,8 +124,10 @@ async function init() {
   await Promise.all([loadCareers(), loadSkillStats()]);
   renderSugs(); renderChips();
   const startOnNews = location.hash.startsWith('#news'), startTopic = newsTopicFromHash();
+  const startCareer = careerFromHash();
   switchMode('skills');
   if (startOnNews) openNews(startTopic);
+  else if (startCareer) openDetail(startCareer, 'career');
   await initAuth();
 }
 
@@ -938,6 +940,8 @@ function updateLiveScore(c) {
 
 function formatSal(sr) {
   if(sr.currency==='INR/month') return `₹${(sr.min/1000)|0}k–₹${(sr.max/1000)|0}k/mo`;
+  // Plain "INR" is yearly, written in lakh as Indian salaries are quoted (verified careers use it: 3.5 LPA).
+  if(sr.currency==='INR') { const L = v => `₹${+(v/100000).toFixed(1)}L`; return `${L(sr.min)}–${L(sr.max)}/yr`; }
   return `$${(sr.min/1000)|0}k–$${(sr.max/1000)|0}k/yr`;
 }
 
@@ -1091,6 +1095,12 @@ function timeAgo(iso) {
    the careers' own skills. Topic and career buttons use data-topic / data-career
    attributes (handled by one click listener) so outside text never ends up in onclick code. */
 function newsShowing() { return !!document.querySelector('#results-area .news-view'); }
+/** "#career=data_analyst" deep link, used by the /careers/... pages (backend/seo.py). */
+function careerFromHash() {
+  const m = location.hash.match(/^#career=([a-z0-9_]+)$/);
+  return m ? m[1] : null;
+}
+
 function newsTopicFromHash() {
   const m = location.hash.match(/^#news(?:=(.+))?$/);
   try { return m && m[1] ? decodeURIComponent(m[1]) : null; } catch { return null; }
